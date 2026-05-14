@@ -108,7 +108,7 @@ local Converted = {
 -- Properties:
 
 Converted["_ScreenGui"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-Converted["_ScreenGui"].Parent = game:GetService("CoreGui")
+Converted["_ScreenGui"].Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 Converted["_mainFrame"].BackgroundColor3 = Color3.fromRGB(1.0000000591389835, 5.000000176951289, 29.000002071261406)
 Converted["_mainFrame"].BorderColor3 = Color3.fromRGB(0, 255, 0)
@@ -130,7 +130,6 @@ Converted["_configUS"].Name = "configUS"
 Converted["_configUS"].Parent = Converted["_mainFrame"]
 
 Converted["_ImageLabel"].Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
-Converted["_ImageLabel"].ImageContent = Content{SourceType=Uri, Uri=rbxasset://textures/ui/GuiImagePlaceholder.png}
 Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_ImageLabel"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_ImageLabel"].BorderSizePixel = 4
