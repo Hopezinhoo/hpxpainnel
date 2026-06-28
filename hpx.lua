@@ -130,7 +130,6 @@ Converted["_configUS"].Name = "configUS"
 Converted["_configUS"].Parent = Converted["_mainFrame"]
 
 Converted["_ImageLabel"].Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
-Converted["_ImageLabel"].ImageContent = Content{SourceType=Uri, Uri=rbxasset://textures/ui/GuiImagePlaceholder.png}
 Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_ImageLabel"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_ImageLabel"].BorderSizePixel = 4
