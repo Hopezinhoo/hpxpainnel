@@ -879,7 +879,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function RUYK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.LocalScript
+local function YFGWI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_mainFrame"]
@@ -959,7 +959,7 @@ local function RUYK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	-- MENU PADRÃO
 	abrirConfig()
 end
-local function IRSFVIC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.LocalScript
+local function BTIQPQM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_mainFrame"]
@@ -998,7 +998,7 @@ local function IRSFVIC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	imageLabel.Image = content
 	
 end
-local function ZNAIQT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.LocalScript
+local function TYUKDA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_mainFrame"]
@@ -1051,7 +1051,7 @@ local function ZNAIQT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		task.wait(0.03)
 	end
 end
-local function MRUAQK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.LocalScript
+local function BLYPSXY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_mainFrame"]
@@ -1130,7 +1130,7 @@ local function MRUAQK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		end
 	end)
 end
-local function RSHMK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
+local function YNJNP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_configUS"]
@@ -1149,7 +1149,7 @@ local function RSHMK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	usernameLabel.Text = player.DisplayName .. " ( " .. player.Name .. " )"
 end
-local function XJRBLV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.usersLabel.LocalScript
+local function XIDVJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.usersLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_usersLabel"]
@@ -1164,7 +1164,7 @@ local function XJRBLV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 
 	script.Parent.Text = "👤 " .. math.random(10, 30)
 end
-local function NPLMDD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
+local function PIKN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_pingLabel"]
@@ -1209,7 +1209,7 @@ local function NPLMDD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		task.wait(1)
 	end
 end
-local function YDIJEZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
+local function DZLTT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_fpsLabel"]
@@ -1258,7 +1258,7 @@ local function YDIJEZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		end
 	end)
 end
-local function QGGIA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
+local function UMXNDX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_platformLabel"]
@@ -1295,7 +1295,7 @@ local function QGGIA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	platformLabel.Text = "PLATAFORMA: " .. plataforma
 end
-local function QLAPAK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
+local function FAEPF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
     local script = Instance.new("LocalScript")
     script.Name = "AtalhosManager"
     script.Parent = Converted["_movi"]
@@ -1310,7 +1310,7 @@ local function QLAPAK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 
 	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
 end
-local function XYJKB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.EspButton.LocalScript
+local function FLTQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.EspButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_EspButton"]
@@ -1723,7 +1723,7 @@ local function XYJKB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	atualizarBotoes()
 end
-local function ITSA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.femotesButton.LocalScript
+local function XEMREV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.femotesButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_femotesButton"]
@@ -1903,11 +1903,11 @@ local function ITSA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 			return
 		end
 	
-		if currentTrack then
+		if currentTrack and typeof(currentTrack) == "Instance" and currentTrack:IsA("AnimationTrack") then
 			currentTrack:Stop()
-			currentTrack = nil
 		end
 	
+		currentTrack = nil
 		local idNumber = tonumber(id)
 	
 		if not idNumber then
@@ -1931,13 +1931,20 @@ local function ITSA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		task.wait(0.1)
 	
 		-- PLAY BY ID
-		local ok, track = pcall(function()
+		local ok, success, track = pcall(function()
 			return hum:PlayEmoteAndGetAnimTrackById(idNumber)
 		end)
 	
-		if ok and track then
-			currentTrack = track
-			return
+		if ok then
+			if typeof(success) == "Instance" and success:IsA("AnimationTrack") then
+				currentTrack = success
+				return
+			end
+	
+			if typeof(track) == "Instance" and track:IsA("AnimationTrack") then
+				currentTrack = track
+				return
+			end
 		end
 	
 		-- PLAY BY NAME
@@ -2277,7 +2284,7 @@ local function ITSA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	task.spawn(carregarEmotesDoPlayer)
 end
-local function HWLPXJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.clicktpButton.LocalScript
+local function OMQQR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.clicktpButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_clicktpButton"]
@@ -2445,7 +2452,7 @@ local function HWLPXJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		)
 	end)
 end
-local function KQFUUD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.flyButton.LocalScript
+local function RRAPRXR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.flyButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_flyButton"]
@@ -3091,7 +3098,7 @@ local function KQFUUD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	log("Script Fly carregado")
 end
-local function RHJZPU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.vampiro.LocalScript
+local function AHXXDWK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.vampiro.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_vampiro"]
@@ -3143,7 +3150,7 @@ local function RHJZPU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function VNXU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.zumbie.LocalScript
+local function XVLEIVE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.zumbie.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_zumbie"]
@@ -3195,7 +3202,7 @@ local function VNXU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function MVMJRGS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.adidas.LocalScript
+local function UHPEYT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.adidas.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_adidas"]
@@ -3247,7 +3254,7 @@ local function MVMJRGS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function HTTTWB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Bolhoso.LocalScript
+local function JNLPPDX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Bolhoso.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Bolhoso"]
@@ -3327,7 +3334,7 @@ local function HTTTWB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function DIGKRJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.ninja.LocalScript
+local function BBRZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.ninja.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_ninja"]
@@ -3398,7 +3405,7 @@ local function DIGKRJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function CLMDEHF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.lobo.LocalScript
+local function YYBQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.lobo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_lobo"]
@@ -3469,7 +3476,7 @@ local function CLMDEHF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function PWNTCI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.mago.LocalScript
+local function UOHPRX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.mago.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_mago"]
@@ -3556,7 +3563,7 @@ local function PWNTCI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function DEOAQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.levitar.LocalScript
+local function TLHAVD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.levitar.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_levitar"]
@@ -3627,7 +3634,7 @@ local function DEOAQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function EFMXAEW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.cartoon.LocalScript
+local function DVQTEHL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.cartoon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_cartoon"]
@@ -3698,7 +3705,7 @@ local function EFMXAEW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function DOEXV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.amazon.LocalScript
+local function AJUVNH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.amazon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_amazon"]
@@ -3784,7 +3791,7 @@ local function DOEXV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function FYHO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.astronauta.LocalScript
+local function NOIROIJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.astronauta.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_astronauta"]
@@ -3870,7 +3877,7 @@ local function FYHO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function OOTLGL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.antiga.LocalScript
+local function QMVJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.antiga.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_antiga"]
@@ -3949,7 +3956,7 @@ local function OOTLGL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function JFUZG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Estileira.LocalScript
+local function TFYGKKE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Estileira.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Estileira"]
@@ -4028,7 +4035,7 @@ local function JFUZG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function TWET_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Robô.LocalScript
+local function NKIVG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Robô.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Robô"]
@@ -4107,7 +4114,7 @@ local function TWET_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function HJJPS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Elf.LocalScript
+local function YXLBT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Elf.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Elf"]
@@ -4186,7 +4193,7 @@ local function HJJPS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function DYRNXTV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Velho.LocalScript
+local function APCNOFS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Velho.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Velho"]
@@ -4270,7 +4277,7 @@ local function DYRNXTV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function KIFQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Walmart.LocalScript
+local function FXKNYH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Walmart.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Walmart"]
@@ -4350,7 +4357,7 @@ local function KIFQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 	
 end
-local function NDOZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.malvada.LocalScript
+local function IRUUQQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.malvada.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_malvada"]
@@ -4428,7 +4435,7 @@ local function NDOZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function HXDJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Brinquedo.LocalScript
+local function ARHHQR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Brinquedo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Brinquedo"]
@@ -4515,7 +4522,7 @@ local function HXDJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function XVVSFP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
+local function FLQHICO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero"]
@@ -4594,7 +4601,7 @@ local function XVVSFP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function XDNZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Through Life.LocalScript
+local function KVJBAG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Through Life.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Through Life"]
@@ -4673,7 +4680,7 @@ local function XDNZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function FJVZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
+local function XFKTISV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero1"]
@@ -4752,7 +4759,7 @@ local function FJVZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function PVHMNM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Glow.LocalScript
+local function YDIJW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Glow.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Glow"]
@@ -4832,7 +4839,7 @@ local function PVHMNM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function XHCS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
+local function AUXSMFM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero2"]
@@ -4918,7 +4925,7 @@ local function XHCS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function AFSCF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.LocalScript
+local function SLFFF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_stalker"]
@@ -5127,7 +5134,7 @@ local function AFSCF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	-- INICIAR
 	atualizarListaFiltrada("")
 end
-local function VSZBU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.TpButton.LocalScript
+local function DQFSQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.TpButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TpButton"]
@@ -5194,7 +5201,7 @@ local function VSZBU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	tpButton.MouseButton1Click:Connect(teleportar)
 end
-local function LGNFAP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.verButton.LocalScript
+local function XMMFXKT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.verButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_verButton"]
@@ -5280,7 +5287,7 @@ local function LGNFAP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	verButton.MouseButton1Click:Connect(verPlayer)
 end
-local function DFMDQAA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.syncButton.LocalScript
+local function OJPU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.syncButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_syncButton"]
@@ -5430,45 +5437,45 @@ local function DFMDQAA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	end)
 end
 
-coroutine.wrap(RUYK_fake_script)()
-coroutine.wrap(IRSFVIC_fake_script)()
-coroutine.wrap(ZNAIQT_fake_script)()
-coroutine.wrap(MRUAQK_fake_script)()
-coroutine.wrap(RSHMK_fake_script)()
-coroutine.wrap(XJRBLV_fake_script)()
-coroutine.wrap(NPLMDD_fake_script)()
-coroutine.wrap(YDIJEZ_fake_script)()
-coroutine.wrap(QGGIA_fake_script)()
-coroutine.wrap(QLAPAK_fake_script)()
-coroutine.wrap(XYJKB_fake_script)()
-coroutine.wrap(ITSA_fake_script)()
-coroutine.wrap(HWLPXJ_fake_script)()
-coroutine.wrap(KQFUUD_fake_script)()
-coroutine.wrap(RHJZPU_fake_script)()
-coroutine.wrap(VNXU_fake_script)()
-coroutine.wrap(MVMJRGS_fake_script)()
-coroutine.wrap(HTTTWB_fake_script)()
-coroutine.wrap(DIGKRJ_fake_script)()
-coroutine.wrap(CLMDEHF_fake_script)()
-coroutine.wrap(PWNTCI_fake_script)()
-coroutine.wrap(DEOAQ_fake_script)()
-coroutine.wrap(EFMXAEW_fake_script)()
-coroutine.wrap(DOEXV_fake_script)()
-coroutine.wrap(FYHO_fake_script)()
-coroutine.wrap(OOTLGL_fake_script)()
-coroutine.wrap(JFUZG_fake_script)()
-coroutine.wrap(TWET_fake_script)()
-coroutine.wrap(HJJPS_fake_script)()
-coroutine.wrap(DYRNXTV_fake_script)()
-coroutine.wrap(KIFQ_fake_script)()
-coroutine.wrap(NDOZ_fake_script)()
-coroutine.wrap(HXDJ_fake_script)()
-coroutine.wrap(XVVSFP_fake_script)()
-coroutine.wrap(XDNZ_fake_script)()
-coroutine.wrap(FJVZ_fake_script)()
-coroutine.wrap(PVHMNM_fake_script)()
-coroutine.wrap(XHCS_fake_script)()
-coroutine.wrap(AFSCF_fake_script)()
-coroutine.wrap(VSZBU_fake_script)()
-coroutine.wrap(LGNFAP_fake_script)()
-coroutine.wrap(DFMDQAA_fake_script)()
+coroutine.wrap(YFGWI_fake_script)()
+coroutine.wrap(BTIQPQM_fake_script)()
+coroutine.wrap(TYUKDA_fake_script)()
+coroutine.wrap(BLYPSXY_fake_script)()
+coroutine.wrap(YNJNP_fake_script)()
+coroutine.wrap(XIDVJ_fake_script)()
+coroutine.wrap(PIKN_fake_script)()
+coroutine.wrap(DZLTT_fake_script)()
+coroutine.wrap(UMXNDX_fake_script)()
+coroutine.wrap(FAEPF_fake_script)()
+coroutine.wrap(FLTQ_fake_script)()
+coroutine.wrap(XEMREV_fake_script)()
+coroutine.wrap(OMQQR_fake_script)()
+coroutine.wrap(RRAPRXR_fake_script)()
+coroutine.wrap(AHXXDWK_fake_script)()
+coroutine.wrap(XVLEIVE_fake_script)()
+coroutine.wrap(UHPEYT_fake_script)()
+coroutine.wrap(JNLPPDX_fake_script)()
+coroutine.wrap(BBRZ_fake_script)()
+coroutine.wrap(YYBQ_fake_script)()
+coroutine.wrap(UOHPRX_fake_script)()
+coroutine.wrap(TLHAVD_fake_script)()
+coroutine.wrap(DVQTEHL_fake_script)()
+coroutine.wrap(AJUVNH_fake_script)()
+coroutine.wrap(NOIROIJ_fake_script)()
+coroutine.wrap(QMVJ_fake_script)()
+coroutine.wrap(TFYGKKE_fake_script)()
+coroutine.wrap(NKIVG_fake_script)()
+coroutine.wrap(YXLBT_fake_script)()
+coroutine.wrap(APCNOFS_fake_script)()
+coroutine.wrap(FXKNYH_fake_script)()
+coroutine.wrap(IRUUQQ_fake_script)()
+coroutine.wrap(ARHHQR_fake_script)()
+coroutine.wrap(FLQHICO_fake_script)()
+coroutine.wrap(KVJBAG_fake_script)()
+coroutine.wrap(XFKTISV_fake_script)()
+coroutine.wrap(YDIJW_fake_script)()
+coroutine.wrap(AUXSMFM_fake_script)()
+coroutine.wrap(SLFFF_fake_script)()
+coroutine.wrap(DQFSQ_fake_script)()
+coroutine.wrap(XMMFXKT_fake_script)()
+coroutine.wrap(OJPU_fake_script)()
