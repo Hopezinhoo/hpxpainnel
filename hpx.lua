@@ -1,161 +1,330 @@
--- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
+-- NOTE: THIS FILE IS TOO BIG TO FIT IN ONE SCRIPT SO IT IS SPLIT UP IN THIS FOLDER, COPY EACH SCRIPT AFTER ANOTHER TO FORM THE FULL SCRIPT (EX: Split_1, then Split_2, then Split_3, etc.)-- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
 
 -- Instances:
 
 local Converted = {
-	["_ScreenGui"] = Instance.new("ScreenGui");
 	["_mainFrame"] = Instance.new("Frame");
-	["_LocalScript"] = Instance.new("LocalScript");
-	["_LocalScript1"] = Instance.new("LocalScript");
-	["_LocalScript2"] = Instance.new("LocalScript");
-	["_LocalScript3"] = Instance.new("LocalScript");
 	["_configUS"] = Instance.new("Frame");
-	["_LocalScript4"] = Instance.new("LocalScript");
+	["_LocalScript"] = Instance.new("LocalScript");
 	["_ImageLabel"] = Instance.new("ImageLabel");
-	["_hpx"] = Instance.new("TextLabel");
+	["_UICorner"] = Instance.new("UICorner");
 	["_usersLabel"] = Instance.new("TextLabel");
-	["_LocalScript5"] = Instance.new("LocalScript");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_UITextSizeConstraint"] = Instance.new("UITextSizeConstraint");
 	["_username"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint1"] = Instance.new("UITextSizeConstraint");
 	["_pingLabel"] = Instance.new("TextLabel");
-	["_LocalScript6"] = Instance.new("LocalScript");
+	["_LocalScript2"] = Instance.new("LocalScript");
+	["_UITextSizeConstraint2"] = Instance.new("UITextSizeConstraint");
 	["_fpsLabel"] = Instance.new("TextLabel");
-	["_LocalScript7"] = Instance.new("LocalScript");
+	["_LocalScript3"] = Instance.new("LocalScript");
+	["_UITextSizeConstraint3"] = Instance.new("UITextSizeConstraint");
 	["_platformLabel"] = Instance.new("TextLabel");
-	["_LocalScript8"] = Instance.new("LocalScript");
+	["_LocalScript4"] = Instance.new("LocalScript");
+	["_UITextSizeConstraint4"] = Instance.new("UITextSizeConstraint");
 	["_tecla H"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint5"] = Instance.new("UITextSizeConstraint");
+	["_UICorner1"] = Instance.new("UICorner");
 	["_movi"] = Instance.new("Frame");
-	["_AtalhosManager"] = Instance.new("LocalScript");
-	["_EspButton"] = Instance.new("TextButton");
-	["_LocalScript9"] = Instance.new("LocalScript");
-	["_BindButton"] = Instance.new("TextButton");
 	["_femotesButton"] = Instance.new("TextButton");
-	["_LocalScript10"] = Instance.new("LocalScript");
-	["_clicktpButton"] = Instance.new("TextButton");
-	["_LocalScript11"] = Instance.new("LocalScript");
-	["_flyButton"] = Instance.new("TextButton");
-	["_LocalScript12"] = Instance.new("LocalScript");
-	["_atalhotpButton"] = Instance.new("TextButton");
-	["_menu"] = Instance.new("Frame");
-	["_MoviButton"] = Instance.new("TextButton");
-	["_UIListLayout"] = Instance.new("UIListLayout");
-	["_animaButton"] = Instance.new("TextButton");
-	["_ConfigButton"] = Instance.new("TextButton");
-	["_skinsButton"] = Instance.new("TextButton");
-	["_stalkerButton"] = Instance.new("TextButton");
-	["_voxupButton"] = Instance.new("TextButton");
-	["_animações"] = Instance.new("Frame");
-	["_vampiro"] = Instance.new("TextButton");
-	["_LocalScript13"] = Instance.new("LocalScript");
-	["_zumbie"] = Instance.new("TextButton");
-	["_LocalScript14"] = Instance.new("LocalScript");
-	["_adidas"] = Instance.new("TextButton");
-	["_LocalScript15"] = Instance.new("LocalScript");
-	["_Bolhoso"] = Instance.new("TextButton");
-	["_LocalScript16"] = Instance.new("LocalScript");
-	["_ninja"] = Instance.new("TextButton");
-	["_LocalScript17"] = Instance.new("LocalScript");
-	["_lobo"] = Instance.new("TextButton");
-	["_LocalScript18"] = Instance.new("LocalScript");
-	["_mago"] = Instance.new("TextButton");
-	["_LocalScript19"] = Instance.new("LocalScript");
-	["_levitar"] = Instance.new("TextButton");
-	["_LocalScript20"] = Instance.new("LocalScript");
-	["_cartoon"] = Instance.new("TextButton");
-	["_LocalScript21"] = Instance.new("LocalScript");
-	["_amazon"] = Instance.new("TextButton");
-	["_LocalScript22"] = Instance.new("LocalScript");
-	["_astronauta"] = Instance.new("TextButton");
-	["_LocalScript23"] = Instance.new("LocalScript");
+	["_LocalScript5"] = Instance.new("LocalScript");
+	["_UICorner2"] = Instance.new("UICorner");
+	["_UITextSizeConstraint6"] = Instance.new("UITextSizeConstraint");
+	["_AtalhosManager"] = Instance.new("LocalScript");
 	["_UIGridLayout"] = Instance.new("UIGridLayout");
-	["_antiga"] = Instance.new("TextButton");
-	["_LocalScript24"] = Instance.new("LocalScript");
-	["_Estileira"] = Instance.new("TextButton");
-	["_LocalScript25"] = Instance.new("LocalScript");
-	["_Robô"] = Instance.new("TextButton");
-	["_LocalScript26"] = Instance.new("LocalScript");
-	["_Elf"] = Instance.new("TextButton");
-	["_LocalScript27"] = Instance.new("LocalScript");
-	["_Velho"] = Instance.new("TextButton");
-	["_LocalScript28"] = Instance.new("LocalScript");
-	["_Walmart"] = Instance.new("TextButton");
-	["_LocalScript29"] = Instance.new("LocalScript");
-	["_malvada"] = Instance.new("TextButton");
-	["_LocalScript30"] = Instance.new("LocalScript");
-	["_Brinquedo"] = Instance.new("TextButton");
-	["_LocalScript31"] = Instance.new("LocalScript");
+	["_EspButton"] = Instance.new("TextButton");
+	["_LocalScript6"] = Instance.new("LocalScript");
+	["_tecla"] = Instance.new("TextBox");
+	["_UITextSizeConstraint7"] = Instance.new("UITextSizeConstraint");
+	["_UICorner3"] = Instance.new("UICorner");
+	["_UICorner4"] = Instance.new("UICorner");
+	["_UITextSizeConstraint8"] = Instance.new("UITextSizeConstraint");
+	["_clicktpButton"] = Instance.new("TextButton");
+	["_LocalScript7"] = Instance.new("LocalScript");
+	["_tecla1"] = Instance.new("TextBox");
+	["_UITextSizeConstraint9"] = Instance.new("UITextSizeConstraint");
+	["_UICorner5"] = Instance.new("UICorner");
+	["_UICorner6"] = Instance.new("UICorner");
+	["_UITextSizeConstraint10"] = Instance.new("UITextSizeConstraint");
+	["_UICorner7"] = Instance.new("UICorner");
+	["_UIPadding"] = Instance.new("UIPadding");
+	["_animações"] = Instance.new("Frame");
+	["_UIGridLayout1"] = Instance.new("UIGridLayout");
+	["_vampiro"] = Instance.new("TextButton");
+	["_LocalScript8"] = Instance.new("LocalScript");
+	["_UICorner8"] = Instance.new("UICorner");
+	["_UITextSizeConstraint11"] = Instance.new("UITextSizeConstraint");
+	["_zumbie"] = Instance.new("TextButton");
+	["_LocalScript9"] = Instance.new("LocalScript");
+	["_UICorner9"] = Instance.new("UICorner");
+	["_UITextSizeConstraint12"] = Instance.new("UITextSizeConstraint");
+	["_adidas"] = Instance.new("TextButton");
+	["_LocalScript10"] = Instance.new("LocalScript");
+	["_UICorner10"] = Instance.new("UICorner");
+	["_UITextSizeConstraint13"] = Instance.new("UITextSizeConstraint");
+	["_Bolhoso"] = Instance.new("TextButton");
+	["_LocalScript11"] = Instance.new("LocalScript");
+	["_UICorner11"] = Instance.new("UICorner");
+	["_UITextSizeConstraint14"] = Instance.new("UITextSizeConstraint");
+	["_ninja"] = Instance.new("TextButton");
+	["_LocalScript12"] = Instance.new("LocalScript");
+	["_UICorner12"] = Instance.new("UICorner");
+	["_UITextSizeConstraint15"] = Instance.new("UITextSizeConstraint");
+	["_lobo"] = Instance.new("TextButton");
+	["_LocalScript13"] = Instance.new("LocalScript");
+	["_UICorner13"] = Instance.new("UICorner");
+	["_UITextSizeConstraint16"] = Instance.new("UITextSizeConstraint");
+	["_mago"] = Instance.new("TextButton");
+	["_LocalScript14"] = Instance.new("LocalScript");
+	["_UICorner14"] = Instance.new("UICorner");
+	["_UITextSizeConstraint17"] = Instance.new("UITextSizeConstraint");
+	["_levitar"] = Instance.new("TextButton");
+	["_LocalScript15"] = Instance.new("LocalScript");
+	["_UICorner15"] = Instance.new("UICorner");
+	["_UITextSizeConstraint18"] = Instance.new("UITextSizeConstraint");
+	["_cartoon"] = Instance.new("TextButton");
+	["_LocalScript16"] = Instance.new("LocalScript");
+	["_UICorner16"] = Instance.new("UICorner");
+	["_UITextSizeConstraint19"] = Instance.new("UITextSizeConstraint");
+	["_amazon"] = Instance.new("TextButton");
+	["_LocalScript17"] = Instance.new("LocalScript");
+	["_UICorner17"] = Instance.new("UICorner");
+	["_UITextSizeConstraint20"] = Instance.new("UITextSizeConstraint");
+	["_astronauta"] = Instance.new("TextButton");
+	["_LocalScript18"] = Instance.new("LocalScript");
+	["_UICorner18"] = Instance.new("UICorner");
+	["_UITextSizeConstraint21"] = Instance.new("UITextSizeConstraint");
 	["_superhero"] = Instance.new("TextButton");
-	["_LocalScript32"] = Instance.new("LocalScript");
-	["_Through Life"] = Instance.new("TextButton");
-	["_LocalScript33"] = Instance.new("LocalScript");
+	["_LocalScript19"] = Instance.new("LocalScript");
+	["_UICorner19"] = Instance.new("UICorner");
+	["_UITextSizeConstraint22"] = Instance.new("UITextSizeConstraint");
+	["_antiga"] = Instance.new("TextButton");
+	["_LocalScript20"] = Instance.new("LocalScript");
+	["_UICorner20"] = Instance.new("UICorner");
+	["_UITextSizeConstraint23"] = Instance.new("UITextSizeConstraint");
+	["_Estileira"] = Instance.new("TextButton");
+	["_LocalScript21"] = Instance.new("LocalScript");
+	["_UICorner21"] = Instance.new("UICorner");
+	["_UITextSizeConstraint24"] = Instance.new("UITextSizeConstraint");
+	["_Robô"] = Instance.new("TextButton");
+	["_LocalScript22"] = Instance.new("LocalScript");
+	["_UICorner22"] = Instance.new("UICorner");
+	["_UITextSizeConstraint25"] = Instance.new("UITextSizeConstraint");
+	["_Elf"] = Instance.new("TextButton");
+	["_LocalScript23"] = Instance.new("LocalScript");
+	["_UICorner23"] = Instance.new("UICorner");
+	["_UITextSizeConstraint26"] = Instance.new("UITextSizeConstraint");
+	["_Velho"] = Instance.new("TextButton");
+	["_LocalScript24"] = Instance.new("LocalScript");
+	["_UICorner24"] = Instance.new("UICorner");
+	["_UITextSizeConstraint27"] = Instance.new("UITextSizeConstraint");
+	["_Walmart"] = Instance.new("TextButton");
+	["_LocalScript25"] = Instance.new("LocalScript");
+	["_UICorner25"] = Instance.new("UICorner");
+	["_UITextSizeConstraint28"] = Instance.new("UITextSizeConstraint");
+	["_malvada"] = Instance.new("TextButton");
+	["_LocalScript26"] = Instance.new("LocalScript");
+	["_UICorner26"] = Instance.new("UICorner");
+	["_UITextSizeConstraint29"] = Instance.new("UITextSizeConstraint");
+	["_Brinquedo"] = Instance.new("TextButton");
+	["_LocalScript27"] = Instance.new("LocalScript");
+	["_UICorner27"] = Instance.new("UICorner");
+	["_UITextSizeConstraint30"] = Instance.new("UITextSizeConstraint");
 	["_superhero1"] = Instance.new("TextButton");
-	["_LocalScript34"] = Instance.new("LocalScript");
-	["_Glow"] = Instance.new("TextButton");
-	["_LocalScript35"] = Instance.new("LocalScript");
+	["_LocalScript28"] = Instance.new("LocalScript");
+	["_UICorner28"] = Instance.new("UICorner");
+	["_UITextSizeConstraint31"] = Instance.new("UITextSizeConstraint");
+	["_Through Life"] = Instance.new("TextButton");
+	["_LocalScript29"] = Instance.new("LocalScript");
+	["_UICorner29"] = Instance.new("UICorner");
+	["_UITextSizeConstraint32"] = Instance.new("UITextSizeConstraint");
 	["_superhero2"] = Instance.new("TextButton");
-	["_LocalScript36"] = Instance.new("LocalScript");
+	["_LocalScript30"] = Instance.new("LocalScript");
+	["_UICorner30"] = Instance.new("UICorner");
+	["_UITextSizeConstraint33"] = Instance.new("UITextSizeConstraint");
+	["_Glow"] = Instance.new("TextButton");
+	["_LocalScript31"] = Instance.new("LocalScript");
+	["_UICorner31"] = Instance.new("UICorner");
+	["_UITextSizeConstraint34"] = Instance.new("UITextSizeConstraint");
+	["_UICorner32"] = Instance.new("UICorner");
+	["_UIPadding1"] = Instance.new("UIPadding");
 	["_voxUp"] = Instance.new("Frame");
 	["_fungoButton"] = Instance.new("TextButton");
-	["_LocalScript37"] = Instance.new("LocalScript");
-	["_LocalScript38"] = Instance.new("LocalScript");
+	["_LocalScript32"] = Instance.new("LocalScript");
+	["_LocalScript33"] = Instance.new("LocalScript");
+	["_UICorner33"] = Instance.new("UICorner");
+	["_UICorner34"] = Instance.new("UICorner");
+	["_UIPadding2"] = Instance.new("UIPadding");
+	["_UIGridLayout2"] = Instance.new("UIGridLayout");
 	["_stalker"] = Instance.new("Frame");
-	["_LocalScript39"] = Instance.new("LocalScript");
-	["_TextBox"] = Instance.new("TextBox");
-	["_TpButton"] = Instance.new("TextButton");
-	["_LocalScript40"] = Instance.new("LocalScript");
+	["_LocalScript34"] = Instance.new("LocalScript");
+	["_SeachBox"] = Instance.new("TextBox");
+	["_seach"] = Instance.new("LocalScript");
+	["_UITextSizeConstraint35"] = Instance.new("UITextSizeConstraint");
+	["_UICorner35"] = Instance.new("UICorner");
+	["_UIStroke"] = Instance.new("UIStroke");
+	["_UIStroke1"] = Instance.new("UIStroke");
+	["_UICorner36"] = Instance.new("UICorner");
+	["_Cmds"] = Instance.new("Frame");
 	["_verButton"] = Instance.new("TextButton");
-	["_LocalScript41"] = Instance.new("LocalScript");
+	["_LocalScript35"] = Instance.new("LocalScript");
+	["_UICorner37"] = Instance.new("UICorner");
+	["_UITextSizeConstraint36"] = Instance.new("UITextSizeConstraint");
 	["_syncButton"] = Instance.new("TextButton");
+	["_LocalScript36"] = Instance.new("LocalScript");
+	["_UICorner38"] = Instance.new("UICorner");
+	["_UITextSizeConstraint37"] = Instance.new("UITextSizeConstraint");
+	["_TpButton"] = Instance.new("TextButton");
+	["_LocalScript37"] = Instance.new("LocalScript");
+	["_UICorner39"] = Instance.new("UICorner");
+	["_UITextSizeConstraint38"] = Instance.new("UITextSizeConstraint");
+	["_UIGridLayout3"] = Instance.new("UIGridLayout");
+	["_UIPadding3"] = Instance.new("UIPadding");
+	["_Lista"] = Instance.new("ScrollingFrame");
+	["_Banner"] = Instance.new("TextButton");
+	["_UICorner40"] = Instance.new("UICorner");
+	["_Foto"] = Instance.new("ImageLabel");
+	["_UICorner41"] = Instance.new("UICorner");
+	["_Apelido"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint39"] = Instance.new("UITextSizeConstraint");
+	["_Nome"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint40"] = Instance.new("UITextSizeConstraint");
+	["_UIPadding4"] = Instance.new("UIPadding");
+	["_UIGridLayout4"] = Instance.new("UIGridLayout");
+	["_MenuButtons"] = Instance.new("LocalScript");
+	["_FotoConfig"] = Instance.new("LocalScript");
+	["_HpxScriipt"] = Instance.new("LocalScript");
+	["_H"] = Instance.new("LocalScript");
+	["_vip"] = Instance.new("Frame");
+	["_flyButton"] = Instance.new("TextButton");
+	["_LocalScript38"] = Instance.new("LocalScript");
+	["_UITextSizeConstraint41"] = Instance.new("UITextSizeConstraint");
+	["_UICorner42"] = Instance.new("UICorner");
+	["_TextLabel"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint42"] = Instance.new("UITextSizeConstraint");
+	["_speed"] = Instance.new("TextBox");
+	["_UICorner43"] = Instance.new("UICorner");
+	["_UITextSizeConstraint43"] = Instance.new("UITextSizeConstraint");
+	["_keybutton"] = Instance.new("TextBox");
+	["_UICorner44"] = Instance.new("UICorner");
+	["_UITextSizeConstraint44"] = Instance.new("UITextSizeConstraint");
+	["_GirarButton"] = Instance.new("TextButton");
+	["_LocalScript39"] = Instance.new("LocalScript");
+	["_UITextSizeConstraint45"] = Instance.new("UITextSizeConstraint");
+	["_UICorner45"] = Instance.new("UICorner");
+	["_TextLabel1"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint46"] = Instance.new("UITextSizeConstraint");
+	["_speed1"] = Instance.new("TextBox");
+	["_UICorner46"] = Instance.new("UICorner");
+	["_UITextSizeConstraint47"] = Instance.new("UITextSizeConstraint");
+	["_keybutton1"] = Instance.new("TextBox");
+	["_UICorner47"] = Instance.new("UICorner");
+	["_UITextSizeConstraint48"] = Instance.new("UITextSizeConstraint");
+	["_RunButton"] = Instance.new("TextButton");
+	["_LocalScript40"] = Instance.new("LocalScript");
+	["_UITextSizeConstraint49"] = Instance.new("UITextSizeConstraint");
+	["_UICorner48"] = Instance.new("UICorner");
+	["_speed2"] = Instance.new("TextBox");
+	["_UICorner49"] = Instance.new("UICorner");
+	["_UITextSizeConstraint50"] = Instance.new("UITextSizeConstraint");
+	["_TextLabel2"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint51"] = Instance.new("UITextSizeConstraint");
+	["_keybutton2"] = Instance.new("TextBox");
+	["_UICorner50"] = Instance.new("UICorner");
+	["_UITextSizeConstraint52"] = Instance.new("UITextSizeConstraint");
+	["_flingButton"] = Instance.new("TextButton");
+	["_LocalScript41"] = Instance.new("LocalScript");
+	["_UITextSizeConstraint53"] = Instance.new("UITextSizeConstraint");
+	["_UICorner51"] = Instance.new("UICorner");
+	["_TextLabel3"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint54"] = Instance.new("UITextSizeConstraint");
+	["_speed3"] = Instance.new("TextBox");
+	["_UICorner52"] = Instance.new("UICorner");
+	["_UITextSizeConstraint55"] = Instance.new("UITextSizeConstraint");
+	["_keybutton3"] = Instance.new("TextBox");
+	["_UICorner53"] = Instance.new("UICorner");
+	["_UITextSizeConstraint56"] = Instance.new("UITextSizeConstraint");
+	["_antiflingButton"] = Instance.new("TextButton");
 	["_LocalScript42"] = Instance.new("LocalScript");
-	["_divisor"] = Instance.new("Frame");
+	["_UITextSizeConstraint57"] = Instance.new("UITextSizeConstraint");
+	["_UICorner54"] = Instance.new("UICorner");
+	["_TextLabel4"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint58"] = Instance.new("UITextSizeConstraint");
+	["_keybutton4"] = Instance.new("TextBox");
+	["_UICorner55"] = Instance.new("UICorner");
+	["_UITextSizeConstraint59"] = Instance.new("UITextSizeConstraint");
+	["_UICorner56"] = Instance.new("UICorner");
+	["_UIGridLayout5"] = Instance.new("UIGridLayout");
+	["_UIPadding5"] = Instance.new("UIPadding");
+	["_UICorner57"] = Instance.new("UICorner");
+	["_menu"] = Instance.new("Frame");
+	["_UICorner58"] = Instance.new("UICorner");
+	["_voxupButton"] = Instance.new("TextButton");
+	["_UICorner59"] = Instance.new("UICorner");
+	["_UITextSizeConstraint60"] = Instance.new("UITextSizeConstraint");
+	["_vipButton"] = Instance.new("TextButton");
+	["_UICorner60"] = Instance.new("UICorner");
+	["_UITextSizeConstraint61"] = Instance.new("UITextSizeConstraint");
+	["_stalkerButton"] = Instance.new("TextButton");
+	["_UICorner61"] = Instance.new("UICorner");
+	["_UITextSizeConstraint62"] = Instance.new("UITextSizeConstraint");
+	["_animaButton"] = Instance.new("TextButton");
+	["_UICorner62"] = Instance.new("UICorner");
+	["_UITextSizeConstraint63"] = Instance.new("UITextSizeConstraint");
+	["_MoviButton"] = Instance.new("TextButton");
+	["_UICorner63"] = Instance.new("UICorner");
+	["_UITextSizeConstraint64"] = Instance.new("UITextSizeConstraint");
+	["_ConfigButton"] = Instance.new("TextButton");
+	["_UICorner64"] = Instance.new("UICorner");
+	["_UITextSizeConstraint65"] = Instance.new("UITextSizeConstraint");
+	["_UIListLayout"] = Instance.new("UIListLayout");
+	["_UIPadding6"] = Instance.new("UIPadding");
+	["_UIAspectRatioConstraint"] = Instance.new("UIAspectRatioConstraint");
+	["_hpx"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint66"] = Instance.new("UITextSizeConstraint");
+	["_UIStroke2"] = Instance.new("UIStroke");
+	["_UIGradient"] = Instance.new("UIGradient");
+	["_tags"] = Instance.new("Folder");
+	["_TagDono"] = Instance.new("BillboardGui");
+	["_TextLabel5"] = Instance.new("TextLabel");
+	["_TextLabel6"] = Instance.new("TextLabel");
+	["_TagMembro"] = Instance.new("BillboardGui");
+	["_TextLabel7"] = Instance.new("TextLabel");
+	["_TextLabel8"] = Instance.new("TextLabel");
+	["_userstag"] = Instance.new("LocalScript");
 }
 
 -- Properties:
 
-Converted["_ScreenGui"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-Converted["_ScreenGui"].Parent = game:GetService("CoreGui")
-
-Converted["_mainFrame"].BackgroundColor3 = Color3.fromRGB(1.0000000591389835, 5.000000176951289, 29.000002071261406)
-Converted["_mainFrame"].BorderColor3 = Color3.fromRGB(0, 255, 0)
+Converted["_mainFrame"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_mainFrame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_mainFrame"].BorderColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_mainFrame"].BorderSizePixel = 0
-Converted["_mainFrame"].Position = UDim2.new(0.167694062, 0, 0.207079858, 0)
-Converted["_mainFrame"].Size = UDim2.new(0, 698, 0, 515)
+Converted["_mainFrame"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_mainFrame"].Size = UDim2.new(0.59353739, 0, 0.64943254, 0)
 Converted["_mainFrame"].Name = "mainFrame"
-Converted["_mainFrame"].Parent = Converted["_ScreenGui"]
+Converted["_mainFrame"].Parent = game.StarterGui.ScreenGui
 
-Converted["_configUS"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_configUS"].BackgroundTransparency = 1
+Converted["_configUS"].BackgroundColor3 = Color3.fromRGB(0, 28.000000230968, 84.00000259280205)
+Converted["_configUS"].BackgroundTransparency = 0.5
 Converted["_configUS"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_configUS"].BorderSizePixel = 0
-Converted["_configUS"].Position = UDim2.new(0, 0, 0.00194174761, 0)
-Converted["_configUS"].Size = UDim2.new(0, 170, 0, 50)
+Converted["_configUS"].Position = UDim2.new(0.31099999, 0, 0.167999998, 0)
+Converted["_configUS"].Size = UDim2.new(0.675999999, 0, 0.809000015, 0)
 Converted["_configUS"].Visible = false
 Converted["_configUS"].ZIndex = 10
 Converted["_configUS"].Name = "configUS"
 Converted["_configUS"].Parent = Converted["_mainFrame"]
 
-Converted["_ImageLabel"].Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
-Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(216.00001752376556, 248.00001561641693, 255)
 Converted["_ImageLabel"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_ImageLabel"].BorderSizePixel = 4
-Converted["_ImageLabel"].Position = UDim2.new(1.16156471, 0, 0.365964979, 0)
-Converted["_ImageLabel"].Size = UDim2.new(0, 138, 0, 132)
+Converted["_ImageLabel"].Position = UDim2.new(0.217463896, 0, 0.238652825, 0)
+Converted["_ImageLabel"].Size = UDim2.new(0.366675138, 0, 0.397426426, 0)
 Converted["_ImageLabel"].Parent = Converted["_configUS"]
 
-Converted["_hpx"].Font = Enum.Font.LuckiestGuy
-Converted["_hpx"].Text = "HPX"
-Converted["_hpx"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_hpx"].TextScaled = true
-Converted["_hpx"].TextSize = 60
-Converted["_hpx"].TextStrokeTransparency = 0
-Converted["_hpx"].TextWrapped = true
-Converted["_hpx"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_hpx"].BackgroundTransparency = 1
-Converted["_hpx"].BorderColor3 = Color3.fromRGB(245.00001579523087, 197.00001865625381, 255)
-Converted["_hpx"].BorderSizePixel = 0
-Converted["_hpx"].Position = UDim2.new(3.40588307, 0, 0.239999995, 0)
-Converted["_hpx"].Size = UDim2.new(0, 118, 0, 52)
-Converted["_hpx"].Name = "hpx"
-Converted["_hpx"].Parent = Converted["_configUS"]
+Converted["_UICorner"].Parent = Converted["_ImageLabel"]
 
 Converted["_usersLabel"].Font = Enum.Font.SourceSans
 Converted["_usersLabel"].Text = "👤 0"
@@ -163,666 +332,979 @@ Converted["_usersLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_usersLabel"].TextScaled = true
 Converted["_usersLabel"].TextSize = 30
 Converted["_usersLabel"].TextWrapped = true
+Converted["_usersLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_usersLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_usersLabel"].BackgroundTransparency = 1
 Converted["_usersLabel"].BorderColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_usersLabel"].BorderSizePixel = 4
-Converted["_usersLabel"].Position = UDim2.new(3.40588236, 0, 1.27999997, 0)
-Converted["_usersLabel"].Size = UDim2.new(0, 62, 0, 30)
+Converted["_usersLabel"].Position = UDim2.new(0.915817916, 0, 0.09329319, 0)
+Converted["_usersLabel"].Size = UDim2.new(0.147026017, 0, 0.0805693939, 0)
 Converted["_usersLabel"].Name = "usersLabel"
 Converted["_usersLabel"].Parent = Converted["_configUS"]
 
-Converted["_username"].Font = Enum.Font.Unknown
-Converted["_username"].RichText = true
+Converted["_UITextSizeConstraint"].MaxTextSize = 30
+Converted["_UITextSizeConstraint"].Parent = Converted["_usersLabel"]
+
+Converted["_username"].Font = Enum.Font.FredokaOne
 Converted["_username"].Text = "player name"
 Converted["_username"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_username"].TextSize = 20
-Converted["_username"].TextStrokeTransparency = 0
+Converted["_username"].TextScaled = true
+Converted["_username"].TextSize = 16
+Converted["_username"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_username"].TextWrapped = true
 Converted["_username"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_username"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_username"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_username"].BackgroundTransparency = 1
-Converted["_username"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_username"].BorderColor3 = Color3.fromRGB(255, 0, 0)
 Converted["_username"].BorderSizePixel = 0
-Converted["_username"].Position = UDim2.new(2.07058835, 0, 0.360000014, 0)
-Converted["_username"].Size = UDim2.new(0, 58, 0, 20)
+Converted["_username"].Position = UDim2.new(0.575257123, 0, 0.083886072, 0)
+Converted["_username"].Size = UDim2.new(0.316955358, 0, 0.0669598356, 0)
 Converted["_username"].Name = "username"
 Converted["_username"].Parent = Converted["_configUS"]
 
-Converted["_pingLabel"].Font = Enum.Font.LuckiestGuy
+Converted["_UITextSizeConstraint1"].MaxTextSize = 16
+Converted["_UITextSizeConstraint1"].Parent = Converted["_username"]
+
+Converted["_pingLabel"].Font = Enum.Font.FredokaOne
 Converted["_pingLabel"].Text = "ping"
 Converted["_pingLabel"].TextColor3 = Color3.fromRGB(0, 255, 0)
-Converted["_pingLabel"].TextSize = 20
+Converted["_pingLabel"].TextScaled = true
+Converted["_pingLabel"].TextSize = 16
+Converted["_pingLabel"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_pingLabel"].TextWrapped = true
 Converted["_pingLabel"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_pingLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_pingLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_pingLabel"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_pingLabel"].BackgroundTransparency = 1
 Converted["_pingLabel"].BorderColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_pingLabel"].BorderSizePixel = 0
-Converted["_pingLabel"].Position = UDim2.new(2.07058835, 0, 0.879999995, 0)
-Converted["_pingLabel"].Size = UDim2.new(0, 136, 0, 30)
+Converted["_pingLabel"].Position = UDim2.new(0.575257063, 0, 0.163886085, 0)
+Converted["_pingLabel"].Size = UDim2.new(0.317712843, 0, 0.0669598356, 0)
 Converted["_pingLabel"].Name = "pingLabel"
 Converted["_pingLabel"].Parent = Converted["_configUS"]
+
+Converted["_UITextSizeConstraint2"].MaxTextSize = 16
+Converted["_UITextSizeConstraint2"].Parent = Converted["_pingLabel"]
 
 Converted["_fpsLabel"].Font = Enum.Font.LuckiestGuy
 Converted["_fpsLabel"].Text = "fps"
 Converted["_fpsLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_fpsLabel"].TextSize = 14
+Converted["_fpsLabel"].TextScaled = true
+Converted["_fpsLabel"].TextSize = 16
+Converted["_fpsLabel"].TextWrapped = true
 Converted["_fpsLabel"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_fpsLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_fpsLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_fpsLabel"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_fpsLabel"].BackgroundTransparency = 1
 Converted["_fpsLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_fpsLabel"].BorderSizePixel = 0
-Converted["_fpsLabel"].Position = UDim2.new(2.07058835, 0, 1.17999995, 0)
-Converted["_fpsLabel"].Size = UDim2.new(0, 200, 0, 50)
+Converted["_fpsLabel"].Position = UDim2.new(0.575446486, 0, 0.243886128, 0)
+Converted["_fpsLabel"].Size = UDim2.new(0.317334026, 0, 0.0670000091, 0)
 Converted["_fpsLabel"].Name = "fpsLabel"
 Converted["_fpsLabel"].Parent = Converted["_configUS"]
 
-Converted["_platformLabel"].Font = Enum.Font.LuckiestGuy
+Converted["_UITextSizeConstraint3"].MaxTextSize = 16
+Converted["_UITextSizeConstraint3"].Parent = Converted["_fpsLabel"]
+
+Converted["_platformLabel"].Font = Enum.Font.FredokaOne
 Converted["_platformLabel"].Text = "PLATAFORMA"
 Converted["_platformLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_platformLabel"].TextSize = 14
+Converted["_platformLabel"].TextScaled = true
+Converted["_platformLabel"].TextSize = 16
+Converted["_platformLabel"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_platformLabel"].TextWrapped = true
 Converted["_platformLabel"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_platformLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_platformLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_platformLabel"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_platformLabel"].BackgroundTransparency = 1
 Converted["_platformLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_platformLabel"].BorderSizePixel = 0
-Converted["_platformLabel"].Position = UDim2.new(2.07058835, 0, 1.74000001, 0)
-Converted["_platformLabel"].Size = UDim2.new(0, 200, 0, 50)
+Converted["_platformLabel"].Position = UDim2.new(0.575257063, 0, 0.323886067, 0)
+Converted["_platformLabel"].Size = UDim2.new(0.316955268, 0, 0.0669598356, 0)
 Converted["_platformLabel"].Name = "platformLabel"
 Converted["_platformLabel"].Parent = Converted["_configUS"]
 
-Converted["_tecla H"].Font = Enum.Font.LuckiestGuy
+Converted["_UITextSizeConstraint4"].MaxTextSize = 16
+Converted["_UITextSizeConstraint4"].Parent = Converted["_platformLabel"]
+
+Converted["_tecla H"].Font = Enum.Font.FredokaOne
 Converted["_tecla H"].Text = "Atalho :   H"
 Converted["_tecla H"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_tecla H"].TextSize = 14
-Converted["_tecla H"].TextStrokeTransparency = 0
+Converted["_tecla H"].TextScaled = true
+Converted["_tecla H"].TextSize = 16
+Converted["_tecla H"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_tecla H"].TextWrapped = true
 Converted["_tecla H"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_tecla H"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_tecla H"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_tecla H"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_tecla H"].BackgroundTransparency = 1
 Converted["_tecla H"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_tecla H"].BorderSizePixel = 0
-Converted["_tecla H"].Position = UDim2.new(2.07058835, 0, 2.31999993, 0)
-Converted["_tecla H"].Size = UDim2.new(0, 200, 0, 50)
+Converted["_tecla H"].Position = UDim2.new(0.575067699, 0, 0.40388611, 0)
+Converted["_tecla H"].Size = UDim2.new(0.317334086, 0, 0.0669598356, 0)
 Converted["_tecla H"].Name = "tecla H"
 Converted["_tecla H"].Parent = Converted["_configUS"]
 
-Converted["_movi"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_movi"].BackgroundTransparency = 1
+Converted["_UITextSizeConstraint5"].MaxTextSize = 16
+Converted["_UITextSizeConstraint5"].Parent = Converted["_tecla H"]
+
+Converted["_UICorner1"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner1"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner1"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner1"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner1"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner1"].Parent = Converted["_configUS"]
+
+Converted["_movi"].BackgroundColor3 = Color3.fromRGB(0, 28.000000230968, 84.00000259280205)
+Converted["_movi"].BackgroundTransparency = 0.5
 Converted["_movi"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_movi"].BorderSizePixel = 0
-Converted["_movi"].Position = UDim2.new(0, 0, 0.128155336, 0)
-Converted["_movi"].Size = UDim2.new(0, 170, 0, 50)
+Converted["_movi"].Position = UDim2.new(0.31099999, 0, 0.167999998, 0)
+Converted["_movi"].Size = UDim2.new(0.675999999, 0, 0.809000015, 0)
 Converted["_movi"].Visible = false
 Converted["_movi"].ZIndex = 10
 Converted["_movi"].Name = "movi"
 Converted["_movi"].Parent = Converted["_mainFrame"]
 
-Converted["_EspButton"].Font = Enum.Font.SourceSansBold
-Converted["_EspButton"].Text = "ESP"
-Converted["_EspButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_EspButton"].TextSize = 20
-Converted["_EspButton"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
-Converted["_EspButton"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
-Converted["_EspButton"].BorderSizePixel = 4
-Converted["_EspButton"].Position = UDim2.new(1.12941146, 0, -1.10000062, 0)
-Converted["_EspButton"].Size = UDim2.new(0, 182, 0, 26)
-Converted["_EspButton"].Name = "EspButton"
-Converted["_EspButton"].Parent = Converted["_movi"]
-
-Converted["_BindButton"].Font = Enum.Font.SourceSansBold
-Converted["_BindButton"].Text = ""
-Converted["_BindButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_BindButton"].TextSize = 14
-Converted["_BindButton"].TextStrokeTransparency = 0
-Converted["_BindButton"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
-Converted["_BindButton"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
-Converted["_BindButton"].BorderSizePixel = 4
-Converted["_BindButton"].Position = UDim2.new(2.29999971, 0, -1.10000002, 0)
-Converted["_BindButton"].Size = UDim2.new(0, 32, 0, 27)
-Converted["_BindButton"].Name = "BindButton"
-Converted["_BindButton"].Parent = Converted["_movi"]
-
-Converted["_femotesButton"].Font = Enum.Font.SourceSansBold
+Converted["_femotesButton"].Font = Enum.Font.FredokaOne
 Converted["_femotesButton"].Text = "Free emotes"
 Converted["_femotesButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_femotesButton"].TextScaled = true
 Converted["_femotesButton"].TextSize = 20
-Converted["_femotesButton"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
-Converted["_femotesButton"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
-Converted["_femotesButton"].BorderSizePixel = 4
-Converted["_femotesButton"].Position = UDim2.new(2.64705873, 0, -1.10000002, 0)
-Converted["_femotesButton"].Size = UDim2.new(0, 231, 0, 27)
+Converted["_femotesButton"].TextWrapped = true
+Converted["_femotesButton"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_femotesButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_femotesButton"].BorderColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_femotesButton"].BorderSizePixel = 5
+Converted["_femotesButton"].LayoutOrder = 6
+Converted["_femotesButton"].Position = UDim2.new(0.209254146, 0, 0.0951923281, 0)
+Converted["_femotesButton"].Size = UDim2.new(0.364944547, 0, 0.105154641, 0)
 Converted["_femotesButton"].Name = "femotesButton"
 Converted["_femotesButton"].Parent = Converted["_movi"]
 
-Converted["_clicktpButton"].Font = Enum.Font.SourceSansBold
-Converted["_clicktpButton"].Text = "Click Tp"
+Converted["_UICorner2"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner2"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner2"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner2"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner2"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner2"].Parent = Converted["_femotesButton"]
+
+Converted["_UITextSizeConstraint6"].MaxTextSize = 20
+Converted["_UITextSizeConstraint6"].Parent = Converted["_femotesButton"]
+
+Converted["_UIGridLayout"].CellPadding = UDim2.new(0.0500000007, 0, 0.0199999996, 0)
+Converted["_UIGridLayout"].CellSize = UDim2.new(0.300000012, 0, 0.119999997, 0)
+Converted["_UIGridLayout"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIGridLayout"].Parent = Converted["_movi"]
+
+Converted["_EspButton"].Font = Enum.Font.FredokaOne
+Converted["_EspButton"].Text = "   Esp"
+Converted["_EspButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_EspButton"].TextScaled = true
+Converted["_EspButton"].TextSize = 25
+Converted["_EspButton"].TextWrapped = true
+Converted["_EspButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_EspButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_EspButton"].BorderColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_EspButton"].BorderSizePixel = 0
+Converted["_EspButton"].Position = UDim2.new(0.350000024, 0, 0, 0)
+Converted["_EspButton"].Size = UDim2.new(0.286853015, 0, 0.114044294, 0)
+Converted["_EspButton"].Name = "EspButton"
+Converted["_EspButton"].Parent = Converted["_movi"]
+
+Converted["_tecla"].Font = Enum.Font.FredokaOne
+Converted["_tecla"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_tecla"].PlaceholderText = "-"
+Converted["_tecla"].Text = ""
+Converted["_tecla"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_tecla"].TextScaled = true
+Converted["_tecla"].TextSize = 20
+Converted["_tecla"].TextWrapped = true
+Converted["_tecla"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_tecla"].BackgroundColor3 = Color3.fromRGB(0, 143.00000667572021, 214.00000244379044)
+Converted["_tecla"].BorderColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_tecla"].BorderSizePixel = 0
+Converted["_tecla"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
+Converted["_tecla"].Size = UDim2.new(0.297430784, 0, 0.69836545, 0)
+Converted["_tecla"].Name = "tecla"
+Converted["_tecla"].Parent = Converted["_EspButton"]
+
+Converted["_UITextSizeConstraint7"].MaxTextSize = 20
+Converted["_UITextSizeConstraint7"].Parent = Converted["_tecla"]
+
+Converted["_UICorner3"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner3"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner3"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner3"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner3"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner3"].Parent = Converted["_tecla"]
+
+Converted["_UICorner4"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner4"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner4"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner4"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner4"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner4"].Parent = Converted["_EspButton"]
+
+Converted["_UITextSizeConstraint8"].MaxTextSize = 25
+Converted["_UITextSizeConstraint8"].Parent = Converted["_EspButton"]
+
+Converted["_clicktpButton"].Font = Enum.Font.FredokaOne
+Converted["_clicktpButton"].Text = "   Tp"
 Converted["_clicktpButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_clicktpButton"].TextSize = 20
-Converted["_clicktpButton"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
-Converted["_clicktpButton"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
-Converted["_clicktpButton"].BorderSizePixel = 4
-Converted["_clicktpButton"].Position = UDim2.new(1.12352943, 0, -0.119999997, 0)
-Converted["_clicktpButton"].Size = UDim2.new(0, 182, 0, 27)
+Converted["_clicktpButton"].TextScaled = true
+Converted["_clicktpButton"].TextSize = 25
+Converted["_clicktpButton"].TextWrapped = true
+Converted["_clicktpButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_clicktpButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_clicktpButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_clicktpButton"].BorderSizePixel = 0
+Converted["_clicktpButton"].Size = UDim2.new(0, 200, 0, 50)
 Converted["_clicktpButton"].Name = "clicktpButton"
 Converted["_clicktpButton"].Parent = Converted["_movi"]
 
-Converted["_flyButton"].Font = Enum.Font.SourceSansBold
-Converted["_flyButton"].Text = "       Fly"
-Converted["_flyButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_flyButton"].TextSize = 20
-Converted["_flyButton"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_flyButton"].TextYAlignment = Enum.TextYAlignment.Top
-Converted["_flyButton"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.000000938773155)
-Converted["_flyButton"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
-Converted["_flyButton"].BorderSizePixel = 4
-Converted["_flyButton"].Position = UDim2.new(2.64705873, 0, -0.119999997, 0)
-Converted["_flyButton"].Size = UDim2.new(0, 231, 0, 86)
-Converted["_flyButton"].Name = "flyButton"
-Converted["_flyButton"].Parent = Converted["_movi"]
+Converted["_tecla1"].Font = Enum.Font.FredokaOne
+Converted["_tecla1"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_tecla1"].PlaceholderText = "-"
+Converted["_tecla1"].Text = ""
+Converted["_tecla1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_tecla1"].TextScaled = true
+Converted["_tecla1"].TextSize = 20
+Converted["_tecla1"].TextWrapped = true
+Converted["_tecla1"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_tecla1"].BackgroundColor3 = Color3.fromRGB(0, 143.00000667572021, 214.00000244379044)
+Converted["_tecla1"].BorderColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_tecla1"].BorderSizePixel = 0
+Converted["_tecla1"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
+Converted["_tecla1"].Size = UDim2.new(0.297430784, 0, 0.69836545, 0)
+Converted["_tecla1"].Name = "tecla"
+Converted["_tecla1"].Parent = Converted["_clicktpButton"]
 
-Converted["_atalhotpButton"].Font = Enum.Font.SourceSans
-Converted["_atalhotpButton"].Text = ""
-Converted["_atalhotpButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_atalhotpButton"].TextSize = 14
-Converted["_atalhotpButton"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
-Converted["_atalhotpButton"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
-Converted["_atalhotpButton"].BorderSizePixel = 4
-Converted["_atalhotpButton"].Position = UDim2.new(2.29411769, 0, -0.119999997, 0)
-Converted["_atalhotpButton"].Size = UDim2.new(0, 32, 0, 27)
-Converted["_atalhotpButton"].Name = "atalhotpButton"
-Converted["_atalhotpButton"].Parent = Converted["_movi"]
+Converted["_UITextSizeConstraint9"].MaxTextSize = 20
+Converted["_UITextSizeConstraint9"].Parent = Converted["_tecla1"]
 
-Converted["_menu"].BackgroundColor3 = Color3.fromRGB(36.00000165402889, 36.00000165402889, 54.00000438094139)
-Converted["_menu"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
-Converted["_menu"].BorderSizePixel = 5
-Converted["_menu"].Position = UDim2.new(0, 0, -0.00720025226, 0)
-Converted["_menu"].Size = UDim2.new(0, 695, 0, 515)
-Converted["_menu"].Name = "menu"
-Converted["_menu"].Parent = Converted["_mainFrame"]
+Converted["_UICorner5"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner5"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner5"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner5"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner5"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner5"].Parent = Converted["_tecla1"]
 
-Converted["_MoviButton"].Font = Enum.Font.SourceSansBold
-Converted["_MoviButton"].Text = "movimento"
-Converted["_MoviButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_MoviButton"].TextSize = 20
-Converted["_MoviButton"].BackgroundColor3 = Color3.fromRGB(23.000000528991222, 23.000000528991222, 35.00000171363354)
-Converted["_MoviButton"].BorderColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_MoviButton"].BorderMode = Enum.BorderMode.Inset
-Converted["_MoviButton"].BorderSizePixel = 0
-Converted["_MoviButton"].LayoutOrder = 2
-Converted["_MoviButton"].Position = UDim2.new(0.00358680054, 0, 0.101941749, 0)
-Converted["_MoviButton"].Size = UDim2.new(0, 170, 0, 50)
-Converted["_MoviButton"].Name = "MoviButton"
-Converted["_MoviButton"].Parent = Converted["_menu"]
+Converted["_UICorner6"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner6"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner6"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner6"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner6"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner6"].Parent = Converted["_clicktpButton"]
 
-Converted["_UIListLayout"].SortOrder = Enum.SortOrder.LayoutOrder
-Converted["_UIListLayout"].Parent = Converted["_menu"]
+Converted["_UITextSizeConstraint10"].MaxTextSize = 25
+Converted["_UITextSizeConstraint10"].Parent = Converted["_clicktpButton"]
 
-Converted["_animaButton"].Font = Enum.Font.SourceSansBold
-Converted["_animaButton"].Text = "animações"
-Converted["_animaButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_animaButton"].TextSize = 20
-Converted["_animaButton"].TextWrapped = true
-Converted["_animaButton"].BackgroundColor3 = Color3.fromRGB(23.000000528991222, 23.000000528991222, 35.00000171363354)
-Converted["_animaButton"].BorderColor3 = Color3.fromRGB(245.00000059604645, 197.0000034570694, 255)
-Converted["_animaButton"].BorderMode = Enum.BorderMode.Inset
-Converted["_animaButton"].BorderSizePixel = 0
-Converted["_animaButton"].LayoutOrder = 3
-Converted["_animaButton"].Position = UDim2.new(0.00358680054, 0, 0.296116501, 0)
-Converted["_animaButton"].Size = UDim2.new(0, 170, 0, 50)
-Converted["_animaButton"].Name = "animaButton"
-Converted["_animaButton"].Parent = Converted["_menu"]
+Converted["_UICorner7"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner7"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner7"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner7"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner7"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner7"].Parent = Converted["_movi"]
 
-Converted["_ConfigButton"].Font = Enum.Font.SourceSansBold
-Converted["_ConfigButton"].Text = "CONFIG"
-Converted["_ConfigButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_ConfigButton"].TextSize = 20
-Converted["_ConfigButton"].BackgroundColor3 = Color3.fromRGB(23.000000528991222, 23.000000528991222, 35.00000171363354)
-Converted["_ConfigButton"].BorderColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_ConfigButton"].BorderMode = Enum.BorderMode.Inset
-Converted["_ConfigButton"].BorderSizePixel = 0
-Converted["_ConfigButton"].LayoutOrder = 1
-Converted["_ConfigButton"].Position = UDim2.new(0.000717360119, 0, 0.115533978, 0)
-Converted["_ConfigButton"].Size = UDim2.new(0, 170, 0, 50)
-Converted["_ConfigButton"].Name = "ConfigButton"
-Converted["_ConfigButton"].Parent = Converted["_menu"]
+Converted["_UIPadding"].PaddingBottom = UDim.new(0, 10)
+Converted["_UIPadding"].PaddingLeft = UDim.new(0, 10)
+Converted["_UIPadding"].PaddingRight = UDim.new(0, 10)
+Converted["_UIPadding"].PaddingTop = UDim.new(0, 10)
+Converted["_UIPadding"].Parent = Converted["_movi"]
 
-Converted["_skinsButton"].Font = Enum.Font.SourceSansBold
-Converted["_skinsButton"].Text = "skins"
-Converted["_skinsButton"].TextColor3 = Color3.fromRGB(255, 247.00000047683716, 17.00000088661909)
-Converted["_skinsButton"].TextSize = 20
-Converted["_skinsButton"].TextWrapped = true
-Converted["_skinsButton"].BackgroundColor3 = Color3.fromRGB(23.000000528991222, 23.000000528991222, 35.00000171363354)
-Converted["_skinsButton"].BorderColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_skinsButton"].BorderMode = Enum.BorderMode.Inset
-Converted["_skinsButton"].BorderSizePixel = 0
-Converted["_skinsButton"].LayoutOrder = 5
-Converted["_skinsButton"].Position = UDim2.new(0.00358680054, 0, 0.101941749, 0)
-Converted["_skinsButton"].Size = UDim2.new(0, 170, 0, 50)
-Converted["_skinsButton"].Visible = false
-Converted["_skinsButton"].Name = "skinsButton"
-Converted["_skinsButton"].Parent = Converted["_menu"]
-
-Converted["_stalkerButton"].Font = Enum.Font.SourceSansBold
-Converted["_stalkerButton"].Text = "stalker"
-Converted["_stalkerButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_stalkerButton"].TextSize = 20
-Converted["_stalkerButton"].TextWrapped = true
-Converted["_stalkerButton"].BackgroundColor3 = Color3.fromRGB(23.000000528991222, 23.000000528991222, 35.00000171363354)
-Converted["_stalkerButton"].BorderColor3 = Color3.fromRGB(245.00000059604645, 197.0000034570694, 255)
-Converted["_stalkerButton"].BorderMode = Enum.BorderMode.Inset
-Converted["_stalkerButton"].BorderSizePixel = 0
-Converted["_stalkerButton"].LayoutOrder = 4
-Converted["_stalkerButton"].Position = UDim2.new(0.00358680054, 0, 0.101941749, 0)
-Converted["_stalkerButton"].Size = UDim2.new(0, 170, 0, 50)
-Converted["_stalkerButton"].Name = "stalkerButton"
-Converted["_stalkerButton"].Parent = Converted["_menu"]
-
-Converted["_voxupButton"].Font = Enum.Font.SourceSansBold
-Converted["_voxupButton"].Text = "Vox Up"
-Converted["_voxupButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_voxupButton"].TextSize = 20
-Converted["_voxupButton"].TextWrapped = true
-Converted["_voxupButton"].BackgroundColor3 = Color3.fromRGB(23.000000528991222, 23.000000528991222, 35.00000171363354)
-Converted["_voxupButton"].BorderColor3 = Color3.fromRGB(245.00000059604645, 197.0000034570694, 255)
-Converted["_voxupButton"].BorderMode = Enum.BorderMode.Inset
-Converted["_voxupButton"].BorderSizePixel = 0
-Converted["_voxupButton"].LayoutOrder = 4
-Converted["_voxupButton"].Position = UDim2.new(0.415827334, 0, -0.176699027, 0)
-Converted["_voxupButton"].Size = UDim2.new(0, 170, 0, 50)
-Converted["_voxupButton"].Name = "voxupButton"
-Converted["_voxupButton"].Parent = Converted["_menu"]
-
-Converted["_animações"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_animações"].BackgroundTransparency = 1
+Converted["_animações"].BackgroundColor3 = Color3.fromRGB(0, 28.000000230968, 84.00000259280205)
+Converted["_animações"].BackgroundTransparency = 0.5
 Converted["_animações"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_animações"].BorderSizePixel = 0
-Converted["_animações"].Position = UDim2.new(0, 179, 0, 15)
-Converted["_animações"].Size = UDim2.new(0, 517, 0, 514)
+Converted["_animações"].Position = UDim2.new(0.31099999, 0, 0.167999998, 0)
+Converted["_animações"].Size = UDim2.new(0.675999999, 0, 0.809000015, 0)
 Converted["_animações"].Visible = false
 Converted["_animações"].Name = "animações"
 Converted["_animações"].Parent = Converted["_mainFrame"]
 
+Converted["_UIGridLayout1"].CellPadding = UDim2.new(0.0500000007, 0, 0.0199999996, 0)
+Converted["_UIGridLayout1"].CellSize = UDim2.new(0.300000012, 0, 0.119999997, 0)
+Converted["_UIGridLayout1"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIGridLayout1"].Parent = Converted["_animações"]
+
 Converted["_vampiro"].Font = Enum.Font.SourceSansBold
 Converted["_vampiro"].Text = "v a m p i r o"
 Converted["_vampiro"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_vampiro"].TextScaled = true
 Converted["_vampiro"].TextSize = 20
 Converted["_vampiro"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_vampiro"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_vampiro"].TextWrapped = true
+Converted["_vampiro"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_vampiro"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_vampiro"].BorderMode = Enum.BorderMode.Middle
 Converted["_vampiro"].BorderSizePixel = 3
 Converted["_vampiro"].LayoutOrder = 1
 Converted["_vampiro"].Position = UDim2.new(0.991176486, 0, -1.58000004, 0)
-Converted["_vampiro"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_vampiro"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_vampiro"].Name = "vampiro"
 Converted["_vampiro"].Parent = Converted["_animações"]
+
+Converted["_UICorner8"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner8"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner8"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner8"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner8"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner8"].Parent = Converted["_vampiro"]
+
+Converted["_UITextSizeConstraint11"].MaxTextSize = 20
+Converted["_UITextSizeConstraint11"].Parent = Converted["_vampiro"]
 
 Converted["_zumbie"].Font = Enum.Font.SourceSansBold
 Converted["_zumbie"].Text = "z u m b i e"
 Converted["_zumbie"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_zumbie"].TextScaled = true
 Converted["_zumbie"].TextSize = 20
 Converted["_zumbie"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_zumbie"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_zumbie"].TextWrapped = true
+Converted["_zumbie"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_zumbie"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_zumbie"].BorderMode = Enum.BorderMode.Middle
 Converted["_zumbie"].BorderSizePixel = 4
 Converted["_zumbie"].LayoutOrder = 4
 Converted["_zumbie"].Position = UDim2.new(2.60588241, 0, -1.75999999, 0)
-Converted["_zumbie"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_zumbie"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_zumbie"].Name = "zumbie"
 Converted["_zumbie"].Parent = Converted["_animações"]
+
+Converted["_UICorner9"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner9"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner9"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner9"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner9"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner9"].Parent = Converted["_zumbie"]
+
+Converted["_UITextSizeConstraint12"].MaxTextSize = 20
+Converted["_UITextSizeConstraint12"].Parent = Converted["_zumbie"]
 
 Converted["_adidas"].Font = Enum.Font.SourceSansBold
 Converted["_adidas"].Text = "a d i d a s  1"
 Converted["_adidas"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_adidas"].TextScaled = true
 Converted["_adidas"].TextSize = 20
 Converted["_adidas"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_adidas"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_adidas"].TextWrapped = true
+Converted["_adidas"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_adidas"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_adidas"].BorderMode = Enum.BorderMode.Middle
 Converted["_adidas"].BorderSizePixel = 4
 Converted["_adidas"].LayoutOrder = 3
 Converted["_adidas"].Position = UDim2.new(1.14705884, 0, -1.10000002, 0)
-Converted["_adidas"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_adidas"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_adidas"].Name = "adidas"
 Converted["_adidas"].Parent = Converted["_animações"]
+
+Converted["_UICorner10"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner10"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner10"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner10"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner10"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner10"].Parent = Converted["_adidas"]
+
+Converted["_UITextSizeConstraint13"].MaxTextSize = 20
+Converted["_UITextSizeConstraint13"].Parent = Converted["_adidas"]
 
 Converted["_Bolhoso"].Font = Enum.Font.SourceSansBold
 Converted["_Bolhoso"].Text = "B o l h o s o"
 Converted["_Bolhoso"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Bolhoso"].TextScaled = true
 Converted["_Bolhoso"].TextSize = 20
 Converted["_Bolhoso"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Bolhoso"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_Bolhoso"].TextWrapped = true
+Converted["_Bolhoso"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_Bolhoso"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_Bolhoso"].BorderMode = Enum.BorderMode.Middle
 Converted["_Bolhoso"].BorderSizePixel = 4
 Converted["_Bolhoso"].LayoutOrder = 13
 Converted["_Bolhoso"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_Bolhoso"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_Bolhoso"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Bolhoso"].Name = "Bolhoso"
 Converted["_Bolhoso"].Parent = Converted["_animações"]
+
+Converted["_UICorner11"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner11"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner11"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner11"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner11"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner11"].Parent = Converted["_Bolhoso"]
+
+Converted["_UITextSizeConstraint14"].MaxTextSize = 20
+Converted["_UITextSizeConstraint14"].Parent = Converted["_Bolhoso"]
 
 Converted["_ninja"].Font = Enum.Font.SourceSansBold
 Converted["_ninja"].Text = "N i n j a"
 Converted["_ninja"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ninja"].TextScaled = true
 Converted["_ninja"].TextSize = 20
 Converted["_ninja"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_ninja"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_ninja"].TextWrapped = true
+Converted["_ninja"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_ninja"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_ninja"].BorderMode = Enum.BorderMode.Middle
 Converted["_ninja"].BorderSizePixel = 4
 Converted["_ninja"].LayoutOrder = 2
 Converted["_ninja"].Position = UDim2.new(1.14705884, 0, -0.419999987, 0)
-Converted["_ninja"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_ninja"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_ninja"].Name = "ninja"
 Converted["_ninja"].Parent = Converted["_animações"]
+
+Converted["_UICorner12"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner12"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner12"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner12"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner12"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner12"].Parent = Converted["_ninja"]
+
+Converted["_UITextSizeConstraint15"].MaxTextSize = 20
+Converted["_UITextSizeConstraint15"].Parent = Converted["_ninja"]
 
 Converted["_lobo"].Font = Enum.Font.SourceSansBold
 Converted["_lobo"].Text = "L o b i s o m e m"
 Converted["_lobo"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_lobo"].TextScaled = true
 Converted["_lobo"].TextSize = 20
 Converted["_lobo"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_lobo"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_lobo"].TextWrapped = true
+Converted["_lobo"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_lobo"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_lobo"].BorderMode = Enum.BorderMode.Middle
 Converted["_lobo"].BorderSizePixel = 4
 Converted["_lobo"].LayoutOrder = 8
 Converted["_lobo"].Position = UDim2.new(2.60588241, 0, -1.10000002, 0)
-Converted["_lobo"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_lobo"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_lobo"].Name = "lobo"
 Converted["_lobo"].Parent = Converted["_animações"]
+
+Converted["_UICorner13"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner13"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner13"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner13"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner13"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner13"].Parent = Converted["_lobo"]
+
+Converted["_UITextSizeConstraint16"].MaxTextSize = 20
+Converted["_UITextSizeConstraint16"].Parent = Converted["_lobo"]
 
 Converted["_mago"].Font = Enum.Font.SourceSans
 Converted["_mago"].Text = "M a g o  erro"
 Converted["_mago"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_mago"].TextScaled = true
 Converted["_mago"].TextSize = 20
 Converted["_mago"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_mago"].BackgroundColor3 = Color3.fromRGB(255, 172.00000494718552, 173.00000488758087)
+Converted["_mago"].TextWrapped = true
+Converted["_mago"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_mago"].BorderColor3 = Color3.fromRGB(167.00000524520874, 75.00000312924385, 203.00001829862595)
 Converted["_mago"].BorderMode = Enum.BorderMode.Middle
 Converted["_mago"].BorderSizePixel = 4
 Converted["_mago"].LayoutOrder = 105
 Converted["_mago"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_mago"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_mago"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_mago"].Visible = false
 Converted["_mago"].Name = "mago"
 Converted["_mago"].Parent = Converted["_animações"]
 
+Converted["_UICorner14"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner14"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner14"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner14"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner14"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner14"].Parent = Converted["_mago"]
+
+Converted["_UITextSizeConstraint17"].MaxTextSize = 20
+Converted["_UITextSizeConstraint17"].Parent = Converted["_mago"]
+
 Converted["_levitar"].Font = Enum.Font.SourceSansBold
 Converted["_levitar"].Text = "L e v i t a ç ã o"
 Converted["_levitar"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_levitar"].TextScaled = true
 Converted["_levitar"].TextSize = 20
 Converted["_levitar"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_levitar"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_levitar"].TextWrapped = true
+Converted["_levitar"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_levitar"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_levitar"].BorderMode = Enum.BorderMode.Middle
 Converted["_levitar"].BorderSizePixel = 4
 Converted["_levitar"].LayoutOrder = 6
 Converted["_levitar"].Position = UDim2.new(2.60588241, 0, -0.419999987, 0)
-Converted["_levitar"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_levitar"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_levitar"].Name = "levitar"
 Converted["_levitar"].Parent = Converted["_animações"]
+
+Converted["_UICorner15"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner15"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner15"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner15"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner15"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner15"].Parent = Converted["_levitar"]
+
+Converted["_UITextSizeConstraint18"].MaxTextSize = 20
+Converted["_UITextSizeConstraint18"].Parent = Converted["_levitar"]
 
 Converted["_cartoon"].Font = Enum.Font.SourceSansBold
 Converted["_cartoon"].Text = "C a r t o o n"
 Converted["_cartoon"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_cartoon"].TextScaled = true
 Converted["_cartoon"].TextSize = 20
 Converted["_cartoon"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_cartoon"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_cartoon"].TextWrapped = true
+Converted["_cartoon"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_cartoon"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_cartoon"].BorderMode = Enum.BorderMode.Middle
 Converted["_cartoon"].BorderSizePixel = 4
 Converted["_cartoon"].LayoutOrder = 5
 Converted["_cartoon"].Position = UDim2.new(1.14705884, 0, 0.200000003, 0)
-Converted["_cartoon"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_cartoon"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_cartoon"].Name = "cartoon"
 Converted["_cartoon"].Parent = Converted["_animações"]
+
+Converted["_UICorner16"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner16"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner16"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner16"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner16"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner16"].Parent = Converted["_cartoon"]
+
+Converted["_UITextSizeConstraint19"].MaxTextSize = 20
+Converted["_UITextSizeConstraint19"].Parent = Converted["_cartoon"]
 
 Converted["_amazon"].Font = Enum.Font.SourceSans
 Converted["_amazon"].Text = "A m a z o n  erro"
 Converted["_amazon"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_amazon"].TextScaled = true
 Converted["_amazon"].TextSize = 20
 Converted["_amazon"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_amazon"].BackgroundColor3 = Color3.fromRGB(255, 172.00000494718552, 173.00000488758087)
+Converted["_amazon"].TextWrapped = true
+Converted["_amazon"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_amazon"].BorderColor3 = Color3.fromRGB(167.00000524520874, 75.00000312924385, 203.00001829862595)
 Converted["_amazon"].BorderMode = Enum.BorderMode.Middle
 Converted["_amazon"].BorderSizePixel = 4
 Converted["_amazon"].LayoutOrder = 101
 Converted["_amazon"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_amazon"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_amazon"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_amazon"].Visible = false
 Converted["_amazon"].Name = "amazon"
 Converted["_amazon"].Parent = Converted["_animações"]
 
+Converted["_UICorner17"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner17"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner17"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner17"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner17"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner17"].Parent = Converted["_amazon"]
+
+Converted["_UITextSizeConstraint20"].MaxTextSize = 20
+Converted["_UITextSizeConstraint20"].Parent = Converted["_amazon"]
+
 Converted["_astronauta"].Font = Enum.Font.SourceSansBold
 Converted["_astronauta"].Text = "A s t r o n a u t a"
 Converted["_astronauta"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_astronauta"].TextScaled = true
 Converted["_astronauta"].TextSize = 20
 Converted["_astronauta"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_astronauta"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_astronauta"].TextWrapped = true
+Converted["_astronauta"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_astronauta"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_astronauta"].BorderMode = Enum.BorderMode.Middle
 Converted["_astronauta"].BorderSizePixel = 4
 Converted["_astronauta"].LayoutOrder = 7
 Converted["_astronauta"].Position = UDim2.new(2.60588241, 0, 0.200000003, 0)
-Converted["_astronauta"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_astronauta"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_astronauta"].Name = "astronauta"
 Converted["_astronauta"].Parent = Converted["_animações"]
 
-Converted["_UIGridLayout"].CellPadding = UDim2.new(0, 20, 0, 10)
-Converted["_UIGridLayout"].CellSize = UDim2.new(0, 225, 0, 28)
-Converted["_UIGridLayout"].FillDirectionMaxCells = 2
-Converted["_UIGridLayout"].HorizontalAlignment = Enum.HorizontalAlignment.Center
-Converted["_UIGridLayout"].SortOrder = Enum.SortOrder.LayoutOrder
-Converted["_UIGridLayout"].Parent = Converted["_animações"]
+Converted["_UICorner18"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner18"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner18"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner18"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner18"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner18"].Parent = Converted["_astronauta"]
+
+Converted["_UITextSizeConstraint21"].MaxTextSize = 20
+Converted["_UITextSizeConstraint21"].Parent = Converted["_astronauta"]
+
+Converted["_superhero"].Font = Enum.Font.SourceSansBold
+Converted["_superhero"].Text = "P i r a t a"
+Converted["_superhero"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_superhero"].TextScaled = true
+Converted["_superhero"].TextSize = 20
+Converted["_superhero"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_superhero"].TextWrapped = true
+Converted["_superhero"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_superhero"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
+Converted["_superhero"].BorderMode = Enum.BorderMode.Middle
+Converted["_superhero"].BorderSizePixel = 4
+Converted["_superhero"].LayoutOrder = 16
+Converted["_superhero"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
+Converted["_superhero"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
+Converted["_superhero"].Name = "superhero"
+Converted["_superhero"].Parent = Converted["_animações"]
+
+Converted["_UICorner19"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner19"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner19"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner19"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner19"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner19"].Parent = Converted["_superhero"]
+
+Converted["_UITextSizeConstraint22"].MaxTextSize = 20
+Converted["_UITextSizeConstraint22"].Parent = Converted["_superhero"]
 
 Converted["_antiga"].Font = Enum.Font.SourceSansBold
 Converted["_antiga"].Text = "A n t i g a"
 Converted["_antiga"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_antiga"].TextScaled = true
 Converted["_antiga"].TextSize = 20
 Converted["_antiga"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_antiga"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_antiga"].TextWrapped = true
+Converted["_antiga"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_antiga"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_antiga"].BorderMode = Enum.BorderMode.Middle
 Converted["_antiga"].BorderSizePixel = 4
 Converted["_antiga"].LayoutOrder = 9
 Converted["_antiga"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_antiga"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_antiga"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_antiga"].Name = "antiga"
 Converted["_antiga"].Parent = Converted["_animações"]
+
+Converted["_UICorner20"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner20"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner20"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner20"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner20"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner20"].Parent = Converted["_antiga"]
+
+Converted["_UITextSizeConstraint23"].MaxTextSize = 20
+Converted["_UITextSizeConstraint23"].Parent = Converted["_antiga"]
 
 Converted["_Estileira"].Font = Enum.Font.SourceSansBold
 Converted["_Estileira"].Text = "Estileira"
 Converted["_Estileira"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Estileira"].TextScaled = true
 Converted["_Estileira"].TextSize = 20
 Converted["_Estileira"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Estileira"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_Estileira"].TextWrapped = true
+Converted["_Estileira"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_Estileira"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_Estileira"].BorderMode = Enum.BorderMode.Middle
 Converted["_Estileira"].BorderSizePixel = 4
 Converted["_Estileira"].LayoutOrder = 10
 Converted["_Estileira"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_Estileira"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_Estileira"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Estileira"].Name = "Estileira"
 Converted["_Estileira"].Parent = Converted["_animações"]
+
+Converted["_UICorner21"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner21"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner21"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner21"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner21"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner21"].Parent = Converted["_Estileira"]
+
+Converted["_UITextSizeConstraint24"].MaxTextSize = 20
+Converted["_UITextSizeConstraint24"].Parent = Converted["_Estileira"]
 
 Converted["_Robô"].Font = Enum.Font.SourceSansBold
 Converted["_Robô"].Text = "Robô"
 Converted["_Robô"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Robô"].TextScaled = true
 Converted["_Robô"].TextSize = 20
 Converted["_Robô"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Robô"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_Robô"].TextWrapped = true
+Converted["_Robô"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_Robô"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_Robô"].BorderMode = Enum.BorderMode.Middle
 Converted["_Robô"].BorderSizePixel = 4
 Converted["_Robô"].LayoutOrder = 11
 Converted["_Robô"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_Robô"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_Robô"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Robô"].Name = "Robô"
 Converted["_Robô"].Parent = Converted["_animações"]
+
+Converted["_UICorner22"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner22"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner22"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner22"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner22"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner22"].Parent = Converted["_Robô"]
+
+Converted["_UITextSizeConstraint25"].MaxTextSize = 20
+Converted["_UITextSizeConstraint25"].Parent = Converted["_Robô"]
 
 Converted["_Elf"].Font = Enum.Font.SourceSans
 Converted["_Elf"].Text = "Elf erro"
 Converted["_Elf"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Elf"].TextScaled = true
 Converted["_Elf"].TextSize = 20
 Converted["_Elf"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Elf"].BackgroundColor3 = Color3.fromRGB(255, 172.00000494718552, 173.00000488758087)
+Converted["_Elf"].TextWrapped = true
+Converted["_Elf"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_Elf"].BorderColor3 = Color3.fromRGB(167.00000524520874, 75.00000312924385, 203.00001829862595)
 Converted["_Elf"].BorderMode = Enum.BorderMode.Middle
 Converted["_Elf"].BorderSizePixel = 4
 Converted["_Elf"].LayoutOrder = 102
 Converted["_Elf"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_Elf"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_Elf"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Elf"].Visible = false
 Converted["_Elf"].Name = "Elf"
 Converted["_Elf"].Parent = Converted["_animações"]
 
+Converted["_UICorner23"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner23"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner23"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner23"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner23"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner23"].Parent = Converted["_Elf"]
+
+Converted["_UITextSizeConstraint26"].MaxTextSize = 20
+Converted["_UITextSizeConstraint26"].Parent = Converted["_Elf"]
+
 Converted["_Velho"].Font = Enum.Font.SourceSansBold
 Converted["_Velho"].Text = "Velho"
 Converted["_Velho"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Velho"].TextScaled = true
 Converted["_Velho"].TextSize = 20
 Converted["_Velho"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Velho"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_Velho"].TextWrapped = true
+Converted["_Velho"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_Velho"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_Velho"].BorderMode = Enum.BorderMode.Middle
 Converted["_Velho"].BorderSizePixel = 4
 Converted["_Velho"].LayoutOrder = 12
 Converted["_Velho"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_Velho"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_Velho"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Velho"].Name = "Velho"
 Converted["_Velho"].Parent = Converted["_animações"]
+
+Converted["_UICorner24"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner24"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner24"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner24"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner24"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner24"].Parent = Converted["_Velho"]
+
+Converted["_UITextSizeConstraint27"].MaxTextSize = 20
+Converted["_UITextSizeConstraint27"].Parent = Converted["_Velho"]
 
 Converted["_Walmart"].Font = Enum.Font.SourceSans
 Converted["_Walmart"].Text = "W a l m a r t   erro"
 Converted["_Walmart"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Walmart"].TextScaled = true
 Converted["_Walmart"].TextSize = 20
 Converted["_Walmart"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Walmart"].BackgroundColor3 = Color3.fromRGB(255, 172.00000494718552, 173.00000488758087)
+Converted["_Walmart"].TextWrapped = true
+Converted["_Walmart"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_Walmart"].BorderColor3 = Color3.fromRGB(167.00000524520874, 75.00000312924385, 203.00001829862595)
 Converted["_Walmart"].BorderMode = Enum.BorderMode.Middle
 Converted["_Walmart"].BorderSizePixel = 4
 Converted["_Walmart"].LayoutOrder = 100
 Converted["_Walmart"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_Walmart"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_Walmart"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Walmart"].Visible = false
 Converted["_Walmart"].Name = "Walmart"
 Converted["_Walmart"].Parent = Converted["_animações"]
 
+Converted["_UICorner25"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner25"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner25"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner25"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner25"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner25"].Parent = Converted["_Walmart"]
+
+Converted["_UITextSizeConstraint28"].MaxTextSize = 20
+Converted["_UITextSizeConstraint28"].Parent = Converted["_Walmart"]
+
 Converted["_malvada"].Font = Enum.Font.SourceSans
 Converted["_malvada"].Text = "M a l v a d a  erro"
 Converted["_malvada"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_malvada"].TextScaled = true
 Converted["_malvada"].TextSize = 20
 Converted["_malvada"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_malvada"].BackgroundColor3 = Color3.fromRGB(255, 172.00000494718552, 173.00000488758087)
+Converted["_malvada"].TextWrapped = true
+Converted["_malvada"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_malvada"].BorderColor3 = Color3.fromRGB(167.00000524520874, 75.00000312924385, 203.00001829862595)
 Converted["_malvada"].BorderMode = Enum.BorderMode.Middle
 Converted["_malvada"].BorderSizePixel = 4
 Converted["_malvada"].LayoutOrder = 103
 Converted["_malvada"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_malvada"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_malvada"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_malvada"].Visible = false
 Converted["_malvada"].Name = "malvada"
 Converted["_malvada"].Parent = Converted["_animações"]
 
+Converted["_UICorner26"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner26"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner26"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner26"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner26"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner26"].Parent = Converted["_malvada"]
+
+Converted["_UITextSizeConstraint29"].MaxTextSize = 20
+Converted["_UITextSizeConstraint29"].Parent = Converted["_malvada"]
+
 Converted["_Brinquedo"].Font = Enum.Font.SourceSansBold
 Converted["_Brinquedo"].Text = "B r i n q u e d o"
 Converted["_Brinquedo"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Brinquedo"].TextScaled = true
 Converted["_Brinquedo"].TextSize = 20
 Converted["_Brinquedo"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Brinquedo"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_Brinquedo"].TextWrapped = true
+Converted["_Brinquedo"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_Brinquedo"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_Brinquedo"].BorderMode = Enum.BorderMode.Middle
 Converted["_Brinquedo"].BorderSizePixel = 4
 Converted["_Brinquedo"].LayoutOrder = 14
 Converted["_Brinquedo"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_Brinquedo"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_Brinquedo"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Brinquedo"].Name = "Brinquedo"
 Converted["_Brinquedo"].Parent = Converted["_animações"]
 
-Converted["_superhero"].Font = Enum.Font.SourceSansBold
-Converted["_superhero"].Text = "S u p e r   h e r o"
-Converted["_superhero"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_superhero"].TextSize = 20
-Converted["_superhero"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_superhero"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
-Converted["_superhero"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
-Converted["_superhero"].BorderMode = Enum.BorderMode.Middle
-Converted["_superhero"].BorderSizePixel = 4
-Converted["_superhero"].LayoutOrder = 15
-Converted["_superhero"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_superhero"].Size = UDim2.new(0, 225, 0, 23)
-Converted["_superhero"].Name = "superhero"
-Converted["_superhero"].Parent = Converted["_animações"]
+Converted["_UICorner27"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner27"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner27"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner27"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner27"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner27"].Parent = Converted["_Brinquedo"]
+
+Converted["_UITextSizeConstraint30"].MaxTextSize = 20
+Converted["_UITextSizeConstraint30"].Parent = Converted["_Brinquedo"]
+
+Converted["_superhero1"].Font = Enum.Font.SourceSansBold
+Converted["_superhero1"].Text = "S u p e r   h e r o"
+Converted["_superhero1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_superhero1"].TextScaled = true
+Converted["_superhero1"].TextSize = 20
+Converted["_superhero1"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_superhero1"].TextWrapped = true
+Converted["_superhero1"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_superhero1"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
+Converted["_superhero1"].BorderMode = Enum.BorderMode.Middle
+Converted["_superhero1"].BorderSizePixel = 4
+Converted["_superhero1"].LayoutOrder = 15
+Converted["_superhero1"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
+Converted["_superhero1"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
+Converted["_superhero1"].Name = "superhero"
+Converted["_superhero1"].Parent = Converted["_animações"]
+
+Converted["_UICorner28"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner28"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner28"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner28"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner28"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner28"].Parent = Converted["_superhero1"]
+
+Converted["_UITextSizeConstraint31"].MaxTextSize = 20
+Converted["_UITextSizeConstraint31"].Parent = Converted["_superhero1"]
 
 Converted["_Through Life"].Font = Enum.Font.SourceSans
 Converted["_Through Life"].Text = "Through Life  erro"
 Converted["_Through Life"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Through Life"].TextScaled = true
 Converted["_Through Life"].TextSize = 20
 Converted["_Through Life"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Through Life"].BackgroundColor3 = Color3.fromRGB(255, 172.00000494718552, 173.00000488758087)
+Converted["_Through Life"].TextWrapped = true
+Converted["_Through Life"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_Through Life"].BorderColor3 = Color3.fromRGB(167.00000524520874, 75.00000312924385, 203.00001829862595)
 Converted["_Through Life"].BorderMode = Enum.BorderMode.Middle
 Converted["_Through Life"].BorderSizePixel = 4
 Converted["_Through Life"].LayoutOrder = 116
 Converted["_Through Life"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_Through Life"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_Through Life"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Through Life"].Visible = false
 Converted["_Through Life"].Name = "Through Life"
 Converted["_Through Life"].Parent = Converted["_animações"]
 
-Converted["_superhero1"].Font = Enum.Font.SourceSans
-Converted["_superhero1"].Text = "Billie Eilish erro"
-Converted["_superhero1"].TextColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_superhero1"].TextSize = 20
-Converted["_superhero1"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_superhero1"].BackgroundColor3 = Color3.fromRGB(255, 172.00000494718552, 173.00000488758087)
-Converted["_superhero1"].BorderColor3 = Color3.fromRGB(167.00000524520874, 75.00000312924385, 203.00001829862595)
-Converted["_superhero1"].BorderMode = Enum.BorderMode.Middle
-Converted["_superhero1"].BorderSizePixel = 4
-Converted["_superhero1"].LayoutOrder = 127
-Converted["_superhero1"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_superhero1"].Size = UDim2.new(0, 225, 0, 23)
-Converted["_superhero1"].Visible = false
-Converted["_superhero1"].Name = "superhero"
-Converted["_superhero1"].Parent = Converted["_animações"]
+Converted["_UICorner29"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner29"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner29"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner29"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner29"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner29"].Parent = Converted["_Through Life"]
+
+Converted["_UITextSizeConstraint32"].MaxTextSize = 20
+Converted["_UITextSizeConstraint32"].Parent = Converted["_Through Life"]
+
+Converted["_superhero2"].Font = Enum.Font.SourceSans
+Converted["_superhero2"].Text = "Billie Eilish erro"
+Converted["_superhero2"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_superhero2"].TextScaled = true
+Converted["_superhero2"].TextSize = 20
+Converted["_superhero2"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_superhero2"].TextWrapped = true
+Converted["_superhero2"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_superhero2"].BorderColor3 = Color3.fromRGB(167.00000524520874, 75.00000312924385, 203.00001829862595)
+Converted["_superhero2"].BorderMode = Enum.BorderMode.Middle
+Converted["_superhero2"].BorderSizePixel = 4
+Converted["_superhero2"].LayoutOrder = 127
+Converted["_superhero2"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
+Converted["_superhero2"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
+Converted["_superhero2"].Visible = false
+Converted["_superhero2"].Name = "superhero"
+Converted["_superhero2"].Parent = Converted["_animações"]
+
+Converted["_UICorner30"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner30"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner30"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner30"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner30"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner30"].Parent = Converted["_superhero2"]
+
+Converted["_UITextSizeConstraint33"].MaxTextSize = 20
+Converted["_UITextSizeConstraint33"].Parent = Converted["_superhero2"]
 
 Converted["_Glow"].Font = Enum.Font.SourceSans
 Converted["_Glow"].Text = " Glow erro"
 Converted["_Glow"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Glow"].TextScaled = true
 Converted["_Glow"].TextSize = 20
 Converted["_Glow"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Glow"].BackgroundColor3 = Color3.fromRGB(255, 172.00000494718552, 173.00000488758087)
+Converted["_Glow"].TextWrapped = true
+Converted["_Glow"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_Glow"].BorderColor3 = Color3.fromRGB(167.00000524520874, 75.00000312924385, 203.00001829862595)
 Converted["_Glow"].BorderMode = Enum.BorderMode.Middle
 Converted["_Glow"].BorderSizePixel = 4
 Converted["_Glow"].LayoutOrder = 117
 Converted["_Glow"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_Glow"].Size = UDim2.new(0, 225, 0, 23)
+Converted["_Glow"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Glow"].Visible = false
 Converted["_Glow"].Name = "Glow"
 Converted["_Glow"].Parent = Converted["_animações"]
 
-Converted["_superhero2"].Font = Enum.Font.SourceSansBold
-Converted["_superhero2"].Text = "P i r a t a"
-Converted["_superhero2"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_superhero2"].TextSize = 20
-Converted["_superhero2"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_superhero2"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
-Converted["_superhero2"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
-Converted["_superhero2"].BorderMode = Enum.BorderMode.Middle
-Converted["_superhero2"].BorderSizePixel = 4
-Converted["_superhero2"].LayoutOrder = 16
-Converted["_superhero2"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_superhero2"].Size = UDim2.new(0, 225, 0, 23)
-Converted["_superhero2"].Name = "superhero"
-Converted["_superhero2"].Parent = Converted["_animações"]
+Converted["_UICorner31"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner31"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner31"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner31"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner31"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner31"].Parent = Converted["_Glow"]
 
-Converted["_voxUp"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_voxUp"].BackgroundTransparency = 1
+Converted["_UITextSizeConstraint34"].MaxTextSize = 20
+Converted["_UITextSizeConstraint34"].Parent = Converted["_Glow"]
+
+Converted["_UICorner32"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner32"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner32"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner32"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner32"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner32"].Parent = Converted["_animações"]
+
+Converted["_UIPadding1"].PaddingBottom = UDim.new(0, 10)
+Converted["_UIPadding1"].PaddingLeft = UDim.new(0, 10)
+Converted["_UIPadding1"].PaddingRight = UDim.new(0, 10)
+Converted["_UIPadding1"].PaddingTop = UDim.new(0, 10)
+Converted["_UIPadding1"].Parent = Converted["_animações"]
+
+Converted["_voxUp"].BackgroundColor3 = Color3.fromRGB(0, 28.000000230968, 84.00000259280205)
+Converted["_voxUp"].BackgroundTransparency = 0.5
 Converted["_voxUp"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_voxUp"].BorderSizePixel = 0
-Converted["_voxUp"].Position = UDim2.new(0.00286532962, 0, 0.380582511, 0)
-Converted["_voxUp"].Size = UDim2.new(0, 170, 0, 50)
+Converted["_voxUp"].Position = UDim2.new(0.31099999, 0, 0.167999998, 0)
+Converted["_voxUp"].Size = UDim2.new(0.675999999, 0, 0.809000015, 0)
+Converted["_voxUp"].Visible = false
 Converted["_voxUp"].Name = "voxUp"
 Converted["_voxUp"].Parent = Converted["_mainFrame"]
 
@@ -830,80 +1312,1091 @@ Converted["_fungoButton"].Font = Enum.Font.FredokaOne
 Converted["_fungoButton"].Text = "cogumelo"
 Converted["_fungoButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_fungoButton"].TextSize = 14
-Converted["_fungoButton"].BackgroundColor3 = Color3.fromRGB(43.00000123679638, 43.00000123679638, 65.0000037252903)
-Converted["_fungoButton"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
+Converted["_fungoButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_fungoButton"].BorderColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_fungoButton"].BorderSizePixel = 4
-Converted["_fungoButton"].Position = UDim2.new(1.18823564, 0, -3.72000003, 0)
+Converted["_fungoButton"].Position = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_fungoButton"].Size = UDim2.new(0, 177, 0, 45)
 Converted["_fungoButton"].Name = "fungoButton"
 Converted["_fungoButton"].Parent = Converted["_voxUp"]
 
-Converted["_stalker"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_stalker"].BackgroundTransparency = 1
+Converted["_UICorner33"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner33"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner33"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner33"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner33"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner33"].Parent = Converted["_fungoButton"]
+
+Converted["_UICorner34"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner34"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner34"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner34"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner34"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner34"].Parent = Converted["_voxUp"]
+
+Converted["_UIPadding2"].PaddingBottom = UDim.new(0, 10)
+Converted["_UIPadding2"].PaddingLeft = UDim.new(0, 10)
+Converted["_UIPadding2"].PaddingRight = UDim.new(0, 10)
+Converted["_UIPadding2"].PaddingTop = UDim.new(0, 10)
+Converted["_UIPadding2"].Parent = Converted["_voxUp"]
+
+Converted["_UIGridLayout2"].CellPadding = UDim2.new(0.0500000007, 0, 0.0199999996, 0)
+Converted["_UIGridLayout2"].CellSize = UDim2.new(0.300000012, 0, 0.119999997, 0)
+Converted["_UIGridLayout2"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIGridLayout2"].Parent = Converted["_voxUp"]
+
+Converted["_stalker"].BackgroundColor3 = Color3.fromRGB(0, 28.000000230968, 84.00000259280205)
+Converted["_stalker"].BackgroundTransparency = 0.5
 Converted["_stalker"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_stalker"].BorderSizePixel = 0
-Converted["_stalker"].Position = UDim2.new(0.00286532962, 0, 0.300970882, 0)
-Converted["_stalker"].Size = UDim2.new(0, 170, 0, 50)
-Converted["_stalker"].Visible = false
+Converted["_stalker"].Position = UDim2.new(0.31099999, 0, 0.167999998, 0)
+Converted["_stalker"].Size = UDim2.new(0.675999999, 0, 0.809000015, 0)
 Converted["_stalker"].Name = "stalker"
 Converted["_stalker"].Parent = Converted["_mainFrame"]
 
-Converted["_TextBox"].ClearTextOnFocus = false
-Converted["_TextBox"].Font = Enum.Font.SourceSansBold
-Converted["_TextBox"].PlaceholderText = "🔍 Procurar jogador"
-Converted["_TextBox"].Text = ""
-Converted["_TextBox"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextBox"].TextSize = 20
-Converted["_TextBox"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
-Converted["_TextBox"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextBox"].BorderSizePixel = 0
-Converted["_TextBox"].Position = UDim2.new(1.04117644, 0, 1.75999999, 0)
-Converted["_TextBox"].Size = UDim2.new(0, 517, 0, 29)
-Converted["_TextBox"].Parent = Converted["_stalker"]
+Converted["_SeachBox"].ClearTextOnFocus = false
+Converted["_SeachBox"].Font = Enum.Font.FredokaOne
+Converted["_SeachBox"].PlaceholderColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_SeachBox"].PlaceholderText = "🔍 Procurar jogador"
+Converted["_SeachBox"].Text = ""
+Converted["_SeachBox"].TextColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_SeachBox"].TextScaled = true
+Converted["_SeachBox"].TextSize = 20
+Converted["_SeachBox"].TextWrapped = true
+Converted["_SeachBox"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_SeachBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_SeachBox"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_SeachBox"].BorderSizePixel = 0
+Converted["_SeachBox"].Position = UDim2.new(0.499020159, 0, 0.465086609, 0)
+Converted["_SeachBox"].Size = UDim2.new(0.962783277, 0, 0.0751087666, 0)
+Converted["_SeachBox"].Name = "SeachBox"
+Converted["_SeachBox"].Parent = Converted["_stalker"]
 
-Converted["_TpButton"].Font = Enum.Font.SourceSansBold
-Converted["_TpButton"].Text = "TP"
-Converted["_TpButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TpButton"].TextSize = 20
-Converted["_TpButton"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
-Converted["_TpButton"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
-Converted["_TpButton"].BorderSizePixel = 4
-Converted["_TpButton"].Position = UDim2.new(1.17647064, 0, -2.9000001, 0)
-Converted["_TpButton"].Size = UDim2.new(0, 141, 0, 38)
-Converted["_TpButton"].Name = "TpButton"
-Converted["_TpButton"].Parent = Converted["_stalker"]
+Converted["_UITextSizeConstraint35"].MaxTextSize = 20
+Converted["_UITextSizeConstraint35"].Parent = Converted["_SeachBox"]
 
-Converted["_verButton"].Font = Enum.Font.SourceSansBold
+Converted["_UICorner35"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner35"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner35"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner35"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner35"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner35"].Parent = Converted["_SeachBox"]
+
+Converted["_UIStroke"].Parent = Converted["_SeachBox"]
+
+Converted["_UIStroke1"].Parent = Converted["_SeachBox"]
+
+Converted["_UICorner36"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner36"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner36"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner36"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner36"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner36"].Parent = Converted["_stalker"]
+
+Converted["_Cmds"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Cmds"].BackgroundTransparency = 1
+Converted["_Cmds"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Cmds"].BorderSizePixel = 0
+Converted["_Cmds"].Position = UDim2.new(3.880603e-07, 0, 0.000849637319, 0)
+Converted["_Cmds"].Size = UDim2.new(0.99999994, 0, 0.426682591, 0)
+Converted["_Cmds"].Name = "Cmds"
+Converted["_Cmds"].Parent = Converted["_stalker"]
+
+Converted["_verButton"].Font = Enum.Font.FredokaOne
 Converted["_verButton"].Text = "Ver"
 Converted["_verButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_verButton"].TextScaled = true
 Converted["_verButton"].TextSize = 20
-Converted["_verButton"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_verButton"].TextWrapped = true
+Converted["_verButton"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_verButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_verButton"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_verButton"].BorderSizePixel = 4
-Converted["_verButton"].Position = UDim2.new(2.14705873, 0, -2.9000001, 0)
-Converted["_verButton"].Size = UDim2.new(0, 141, 0, 38)
+Converted["_verButton"].Position = UDim2.new(1.14738882, 0, 0.593997657, 0)
+Converted["_verButton"].Size = UDim2.new(0.287284046, 0, 0.17749913, 0)
 Converted["_verButton"].Name = "verButton"
-Converted["_verButton"].Parent = Converted["_stalker"]
+Converted["_verButton"].Parent = Converted["_Cmds"]
 
-Converted["_syncButton"].Font = Enum.Font.SourceSansBold
+Converted["_UICorner37"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner37"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner37"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner37"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner37"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner37"].Parent = Converted["_verButton"]
+
+Converted["_UITextSizeConstraint36"].MaxTextSize = 20
+Converted["_UITextSizeConstraint36"].Parent = Converted["_verButton"]
+
+Converted["_syncButton"].Font = Enum.Font.FredokaOne
 Converted["_syncButton"].Text = "sync emote"
 Converted["_syncButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_syncButton"].TextScaled = true
 Converted["_syncButton"].TextSize = 20
-Converted["_syncButton"].BackgroundColor3 = Color3.fromRGB(32.00000189244747, 32.00000189244747, 48.00000473856926)
+Converted["_syncButton"].TextWrapped = true
+Converted["_syncButton"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_syncButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_syncButton"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
 Converted["_syncButton"].BorderSizePixel = 4
-Converted["_syncButton"].Position = UDim2.new(3.12352943, 0, -2.9000001, 0)
-Converted["_syncButton"].Size = UDim2.new(0, 141, 0, 38)
+Converted["_syncButton"].Position = UDim2.new(1.18295968, 0, 0.755136311, 0)
+Converted["_syncButton"].Size = UDim2.new(0.287284046, 0, 0.17749913, 0)
 Converted["_syncButton"].Name = "syncButton"
-Converted["_syncButton"].Parent = Converted["_stalker"]
+Converted["_syncButton"].Parent = Converted["_Cmds"]
 
-Converted["_divisor"].BackgroundColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
-Converted["_divisor"].BorderColor3 = Color3.fromRGB(245.00001579523087, 225.00001698732376, 255)
-Converted["_divisor"].BorderSizePixel = 0
-Converted["_divisor"].Position = UDim2.new(0.256446987, 0, -0.0058253021, 0)
-Converted["_divisor"].Size = UDim2.new(0, -7, 0, 517)
-Converted["_divisor"].Name = "divisor"
-Converted["_divisor"].Parent = Converted["_mainFrame"]
+Converted["_UICorner38"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner38"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner38"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner38"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner38"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner38"].Parent = Converted["_syncButton"]
+
+Converted["_UITextSizeConstraint37"].MaxTextSize = 20
+Converted["_UITextSizeConstraint37"].Parent = Converted["_syncButton"]
+
+Converted["_TpButton"].Font = Enum.Font.FredokaOne
+Converted["_TpButton"].Text = "TP"
+Converted["_TpButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TpButton"].TextScaled = true
+Converted["_TpButton"].TextSize = 20
+Converted["_TpButton"].TextWrapped = true
+Converted["_TpButton"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TpButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_TpButton"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
+Converted["_TpButton"].BorderSizePixel = 4
+Converted["_TpButton"].Position = UDim2.new(1.14738882, 0, 0.875990391, 0)
+Converted["_TpButton"].Size = UDim2.new(0.287284046, 0, 0.17749913, 0)
+Converted["_TpButton"].Name = "TpButton"
+Converted["_TpButton"].Parent = Converted["_Cmds"]
+
+Converted["_UICorner39"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner39"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner39"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner39"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner39"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner39"].Parent = Converted["_TpButton"]
+
+Converted["_UITextSizeConstraint38"].MaxTextSize = 20
+Converted["_UITextSizeConstraint38"].Parent = Converted["_TpButton"]
+
+Converted["_UIGridLayout3"].CellPadding = UDim2.new(0.0500000007, 0, 0.0199999996, 0)
+Converted["_UIGridLayout3"].CellSize = UDim2.new(0.300000012, 0, 0.200000003, 0)
+Converted["_UIGridLayout3"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIGridLayout3"].Parent = Converted["_Cmds"]
+
+Converted["_UIPadding3"].PaddingBottom = UDim.new(0, 10)
+Converted["_UIPadding3"].PaddingLeft = UDim.new(0, 10)
+Converted["_UIPadding3"].PaddingRight = UDim.new(0, 10)
+Converted["_UIPadding3"].PaddingTop = UDim.new(0, 10)
+Converted["_UIPadding3"].Parent = Converted["_Cmds"]
+
+Converted["_Lista"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Lista"].ScrollBarThickness = 0
+Converted["_Lista"].Active = true
+Converted["_Lista"].BackgroundColor3 = Color3.fromRGB(68.00000354647636, 68.00000354647636, 68.00000354647636)
+Converted["_Lista"].BackgroundTransparency = 1
+Converted["_Lista"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Lista"].BorderSizePixel = 0
+Converted["_Lista"].Position = UDim2.new(1.29353424e-07, 0, 0.502987385, 0)
+Converted["_Lista"].Size = UDim2.new(0.999999821, 0, 0.497012466, 0)
+Converted["_Lista"].Name = "Lista"
+Converted["_Lista"].Parent = Converted["_stalker"]
+
+Converted["_Banner"].Font = Enum.Font.SourceSans
+Converted["_Banner"].Text = ""
+Converted["_Banner"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Banner"].TextSize = 14
+Converted["_Banner"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_Banner"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Banner"].BorderSizePixel = 0
+Converted["_Banner"].Position = UDim2.new(0.142633975, 0, 0.0773087442, 0)
+Converted["_Banner"].Size = UDim2.new(0.476359338, 0, 0.0681671277, 0)
+Converted["_Banner"].Visible = false
+Converted["_Banner"].Name = "Banner"
+Converted["_Banner"].Parent = Converted["_Lista"]
+
+Converted["_UICorner40"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner40"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner40"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner40"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner40"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner40"].Parent = Converted["_Banner"]
+
+Converted["_Foto"].BackgroundColor3 = Color3.fromRGB(161.0000056028366, 161.0000056028366, 161.0000056028366)
+Converted["_Foto"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Foto"].BorderSizePixel = 0
+Converted["_Foto"].Position = UDim2.new(0.0545905717, 0, 0.0981790274, 0)
+Converted["_Foto"].Size = UDim2.new(0.198511168, 0, 0.768223763, 0)
+Converted["_Foto"].Name = "Foto"
+Converted["_Foto"].Parent = Converted["_Banner"]
+
+Converted["_UICorner41"].BottomLeftRadius = UDim.new(1, 0)
+Converted["_UICorner41"].BottomRightRadius = UDim.new(1, 0)
+Converted["_UICorner41"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner41"].TopLeftRadius = UDim.new(1, 0)
+Converted["_UICorner41"].TopRightRadius = UDim.new(1, 0)
+Converted["_UICorner41"].Parent = Converted["_Foto"]
+
+Converted["_Apelido"].Font = Enum.Font.FredokaOne
+Converted["_Apelido"].Text = "ap"
+Converted["_Apelido"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Apelido"].TextScaled = true
+Converted["_Apelido"].TextSize = 14
+Converted["_Apelido"].TextWrapped = true
+Converted["_Apelido"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Apelido"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Apelido"].BackgroundTransparency = 1
+Converted["_Apelido"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Apelido"].BorderSizePixel = 0
+Converted["_Apelido"].Position = UDim2.new(0.297766745, 0, 0.117814839, 0)
+Converted["_Apelido"].Size = UDim2.new(0.669975162, 0, 0.384111881, 0)
+Converted["_Apelido"].Name = "Apelido"
+Converted["_Apelido"].Parent = Converted["_Banner"]
+
+Converted["_UITextSizeConstraint39"].MaxTextSize = 20
+Converted["_UITextSizeConstraint39"].Parent = Converted["_Apelido"]
+
+Converted["_Nome"].Font = Enum.Font.FredokaOne
+Converted["_Nome"].Text = "nm"
+Converted["_Nome"].TextColor3 = Color3.fromRGB(0, 0, 197.0000034570694)
+Converted["_Nome"].TextScaled = true
+Converted["_Nome"].TextSize = 14
+Converted["_Nome"].TextWrapped = true
+Converted["_Nome"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Nome"].BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+Converted["_Nome"].BackgroundTransparency = 1
+Converted["_Nome"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Nome"].BorderSizePixel = 0
+Converted["_Nome"].Position = UDim2.new(0.297766745, 0, 0.510530949, 0)
+Converted["_Nome"].Size = UDim2.new(0.669975162, 0, 0.384111881, 0)
+Converted["_Nome"].Name = "Nome"
+Converted["_Nome"].Parent = Converted["_Banner"]
+
+Converted["_UITextSizeConstraint40"].MaxTextSize = 20
+Converted["_UITextSizeConstraint40"].Parent = Converted["_Nome"]
+
+Converted["_UIPadding4"].PaddingBottom = UDim.new(0, 10)
+Converted["_UIPadding4"].PaddingLeft = UDim.new(0, 10)
+Converted["_UIPadding4"].PaddingRight = UDim.new(0, 10)
+Converted["_UIPadding4"].PaddingTop = UDim.new(0, 10)
+Converted["_UIPadding4"].Parent = Converted["_Lista"]
+
+Converted["_UIGridLayout4"].CellPadding = UDim2.new(0.0199999996, 0, 0.00999999978, 0)
+Converted["_UIGridLayout4"].CellSize = UDim2.new(0.49000001, 0, 0.0700000003, 0)
+Converted["_UIGridLayout4"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIGridLayout4"].Parent = Converted["_Lista"]
+
+Converted["_vip"].BackgroundColor3 = Color3.fromRGB(0, 28.000000230968, 84.00000259280205)
+Converted["_vip"].BackgroundTransparency = 0.5
+Converted["_vip"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_vip"].BorderSizePixel = 0
+Converted["_vip"].Position = UDim2.new(0.31099999, 0, 0.167999998, 0)
+Converted["_vip"].Size = UDim2.new(0.675999999, 0, 0.809000015, 0)
+Converted["_vip"].Visible = false
+Converted["_vip"].Name = "vip"
+Converted["_vip"].Parent = Converted["_mainFrame"]
+
+Converted["_flyButton"].Font = Enum.Font.FredokaOne
+Converted["_flyButton"].Text = ""
+Converted["_flyButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_flyButton"].TextScaled = true
+Converted["_flyButton"].TextSize = 14
+Converted["_flyButton"].TextWrapped = true
+Converted["_flyButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_flyButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_flyButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_flyButton"].BorderSizePixel = 0
+Converted["_flyButton"].Position = UDim2.new(0.0343976133, 0, 0.148967847, 0)
+Converted["_flyButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
+Converted["_flyButton"].Name = "flyButton"
+Converted["_flyButton"].Parent = Converted["_vip"]
+
+Converted["_UITextSizeConstraint41"].MaxTextSize = 20
+Converted["_UITextSizeConstraint41"].Parent = Converted["_flyButton"]
+
+Converted["_UICorner42"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner42"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner42"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner42"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner42"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner42"].Parent = Converted["_flyButton"]
+
+Converted["_TextLabel"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel"].Text = "Fly"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].TextScaled = true
+Converted["_TextLabel"].TextSize = 14
+Converted["_TextLabel"].TextWrapped = true
+Converted["_TextLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].BorderSizePixel = 0
+Converted["_TextLabel"].Position = UDim2.new(0.160999998, 0, 0.5, 0)
+Converted["_TextLabel"].Size = UDim2.new(0.32100001, 0, 1, 0)
+Converted["_TextLabel"].Parent = Converted["_flyButton"]
+
+Converted["_UITextSizeConstraint42"].MaxTextSize = 30
+Converted["_UITextSizeConstraint42"].Parent = Converted["_TextLabel"]
+
+Converted["_speed"].Font = Enum.Font.FredokaOne
+Converted["_speed"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_speed"].PlaceholderText = "50"
+Converted["_speed"].Text = ""
+Converted["_speed"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_speed"].TextScaled = true
+Converted["_speed"].TextSize = 15
+Converted["_speed"].TextWrapped = true
+Converted["_speed"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_speed"].BackgroundColor3 = Color3.fromRGB(0, 143.00000667572021, 214.00001764297485)
+Converted["_speed"].BorderColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_speed"].BorderSizePixel = 0
+Converted["_speed"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
+Converted["_speed"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
+Converted["_speed"].Name = "speed"
+Converted["_speed"].Parent = Converted["_flyButton"]
+
+Converted["_UICorner43"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner43"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner43"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner43"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner43"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner43"].Parent = Converted["_speed"]
+
+Converted["_UITextSizeConstraint43"].MaxTextSize = 15
+Converted["_UITextSizeConstraint43"].Parent = Converted["_speed"]
+
+Converted["_keybutton"].Font = Enum.Font.FredokaOne
+Converted["_keybutton"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton"].PlaceholderText = "-"
+Converted["_keybutton"].Text = ""
+Converted["_keybutton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton"].TextScaled = true
+Converted["_keybutton"].TextSize = 15
+Converted["_keybutton"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton"].TextWrapped = true
+Converted["_keybutton"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_keybutton"].BackgroundColor3 = Color3.fromRGB(0, 143.00000667572021, 214.00000244379044)
+Converted["_keybutton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_keybutton"].BorderSizePixel = 0
+Converted["_keybutton"].Position = UDim2.new(0.550000012, 0, 0.5, 0)
+Converted["_keybutton"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
+Converted["_keybutton"].Name = "keybutton"
+Converted["_keybutton"].Parent = Converted["_flyButton"]
+
+Converted["_UICorner44"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner44"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner44"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner44"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner44"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner44"].Parent = Converted["_keybutton"]
+
+Converted["_UITextSizeConstraint44"].MaxTextSize = 15
+Converted["_UITextSizeConstraint44"].Parent = Converted["_keybutton"]
+
+Converted["_GirarButton"].Font = Enum.Font.FredokaOne
+Converted["_GirarButton"].Text = ""
+Converted["_GirarButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_GirarButton"].TextScaled = true
+Converted["_GirarButton"].TextSize = 14
+Converted["_GirarButton"].TextWrapped = true
+Converted["_GirarButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_GirarButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_GirarButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_GirarButton"].BorderSizePixel = 0
+Converted["_GirarButton"].Position = UDim2.new(0.538863838, 0, 0.148967803, 0)
+Converted["_GirarButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
+Converted["_GirarButton"].Name = "GirarButton"
+Converted["_GirarButton"].Parent = Converted["_vip"]
+
+Converted["_UITextSizeConstraint45"].MaxTextSize = 20
+Converted["_UITextSizeConstraint45"].Parent = Converted["_GirarButton"]
+
+Converted["_UICorner45"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner45"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner45"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner45"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner45"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner45"].Parent = Converted["_GirarButton"]
+
+Converted["_TextLabel1"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel1"].Text = "Girar"
+Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel1"].TextScaled = true
+Converted["_TextLabel1"].TextSize = 14
+Converted["_TextLabel1"].TextWrapped = true
+Converted["_TextLabel1"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel1"].BackgroundTransparency = 1
+Converted["_TextLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel1"].BorderSizePixel = 0
+Converted["_TextLabel1"].Position = UDim2.new(0.160999998, 0, 0.5, 0)
+Converted["_TextLabel1"].Size = UDim2.new(0.32100001, 0, 1, 0)
+Converted["_TextLabel1"].Parent = Converted["_GirarButton"]
+
+Converted["_UITextSizeConstraint46"].MaxTextSize = 30
+Converted["_UITextSizeConstraint46"].Parent = Converted["_TextLabel1"]
+
+Converted["_speed1"].Font = Enum.Font.FredokaOne
+Converted["_speed1"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_speed1"].PlaceholderText = "50"
+Converted["_speed1"].Text = ""
+Converted["_speed1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_speed1"].TextScaled = true
+Converted["_speed1"].TextSize = 15
+Converted["_speed1"].TextWrapped = true
+Converted["_speed1"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_speed1"].BackgroundColor3 = Color3.fromRGB(0, 143.00000667572021, 214.00001764297485)
+Converted["_speed1"].BorderColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_speed1"].BorderSizePixel = 0
+Converted["_speed1"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
+Converted["_speed1"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
+Converted["_speed1"].Name = "speed"
+Converted["_speed1"].Parent = Converted["_GirarButton"]
+
+Converted["_UICorner46"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner46"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner46"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner46"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner46"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner46"].Parent = Converted["_speed1"]
+
+Converted["_UITextSizeConstraint47"].MaxTextSize = 15
+Converted["_UITextSizeConstraint47"].Parent = Converted["_speed1"]
+
+Converted["_keybutton1"].Font = Enum.Font.FredokaOne
+Converted["_keybutton1"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton1"].PlaceholderText = "-"
+Converted["_keybutton1"].Text = ""
+Converted["_keybutton1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton1"].TextScaled = true
+Converted["_keybutton1"].TextSize = 15
+Converted["_keybutton1"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton1"].TextWrapped = true
+Converted["_keybutton1"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_keybutton1"].BackgroundColor3 = Color3.fromRGB(0, 143.00000667572021, 214.00000244379044)
+Converted["_keybutton1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_keybutton1"].BorderSizePixel = 0
+Converted["_keybutton1"].Position = UDim2.new(0.550000012, 0, 0.5, 0)
+Converted["_keybutton1"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
+Converted["_keybutton1"].Name = "keybutton"
+Converted["_keybutton1"].Parent = Converted["_GirarButton"]
+
+Converted["_UICorner47"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner47"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner47"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner47"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner47"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner47"].Parent = Converted["_keybutton1"]
+
+Converted["_UITextSizeConstraint48"].MaxTextSize = 15
+Converted["_UITextSizeConstraint48"].Parent = Converted["_keybutton1"]
+
+Converted["_RunButton"].Font = Enum.Font.FredokaOne
+Converted["_RunButton"].Text = ""
+Converted["_RunButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_RunButton"].TextScaled = true
+Converted["_RunButton"].TextSize = 14
+Converted["_RunButton"].TextWrapped = true
+Converted["_RunButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_RunButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_RunButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_RunButton"].BorderSizePixel = 0
+Converted["_RunButton"].Position = UDim2.new(0.034397617, 0, 0.489635795, 0)
+Converted["_RunButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
+Converted["_RunButton"].Name = "RunButton"
+Converted["_RunButton"].Parent = Converted["_vip"]
+
+Converted["_UITextSizeConstraint49"].MaxTextSize = 20
+Converted["_UITextSizeConstraint49"].Parent = Converted["_RunButton"]
+
+Converted["_UICorner48"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner48"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner48"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner48"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner48"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner48"].Parent = Converted["_RunButton"]
+
+Converted["_speed2"].Font = Enum.Font.FredokaOne
+Converted["_speed2"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_speed2"].PlaceholderText = "50"
+Converted["_speed2"].Text = ""
+Converted["_speed2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_speed2"].TextScaled = true
+Converted["_speed2"].TextSize = 15
+Converted["_speed2"].TextWrapped = true
+Converted["_speed2"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_speed2"].BackgroundColor3 = Color3.fromRGB(0, 143.00000667572021, 214.00001764297485)
+Converted["_speed2"].BorderColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_speed2"].BorderSizePixel = 0
+Converted["_speed2"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
+Converted["_speed2"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
+Converted["_speed2"].Name = "speed"
+Converted["_speed2"].Parent = Converted["_RunButton"]
+
+Converted["_UICorner49"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner49"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner49"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner49"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner49"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner49"].Parent = Converted["_speed2"]
+
+Converted["_UITextSizeConstraint50"].MaxTextSize = 15
+Converted["_UITextSizeConstraint50"].Parent = Converted["_speed2"]
+
+Converted["_TextLabel2"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel2"].Text = "Correr"
+Converted["_TextLabel2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel2"].TextScaled = true
+Converted["_TextLabel2"].TextSize = 14
+Converted["_TextLabel2"].TextWrapped = true
+Converted["_TextLabel2"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel2"].BackgroundTransparency = 1
+Converted["_TextLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel2"].BorderSizePixel = 0
+Converted["_TextLabel2"].Position = UDim2.new(0.160548493, 0, 0.499999732, 0)
+Converted["_TextLabel2"].Size = UDim2.new(0.321096987, 0, 1.00000107, 0)
+Converted["_TextLabel2"].Parent = Converted["_RunButton"]
+
+Converted["_UITextSizeConstraint51"].MaxTextSize = 30
+Converted["_UITextSizeConstraint51"].Parent = Converted["_TextLabel2"]
+
+Converted["_keybutton2"].Font = Enum.Font.FredokaOne
+Converted["_keybutton2"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton2"].PlaceholderText = "-"
+Converted["_keybutton2"].Text = ""
+Converted["_keybutton2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton2"].TextScaled = true
+Converted["_keybutton2"].TextSize = 15
+Converted["_keybutton2"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton2"].TextWrapped = true
+Converted["_keybutton2"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_keybutton2"].BackgroundColor3 = Color3.fromRGB(0, 143.00000667572021, 214.00000244379044)
+Converted["_keybutton2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_keybutton2"].BorderSizePixel = 0
+Converted["_keybutton2"].Position = UDim2.new(0.550000012, 0, 0.5, 0)
+Converted["_keybutton2"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
+Converted["_keybutton2"].Name = "keybutton"
+Converted["_keybutton2"].Parent = Converted["_RunButton"]
+
+Converted["_UICorner50"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner50"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner50"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner50"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner50"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner50"].Parent = Converted["_keybutton2"]
+
+Converted["_UITextSizeConstraint52"].MaxTextSize = 15
+Converted["_UITextSizeConstraint52"].Parent = Converted["_keybutton2"]
+
+Converted["_flingButton"].Font = Enum.Font.FredokaOne
+Converted["_flingButton"].Text = ""
+Converted["_flingButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_flingButton"].TextScaled = true
+Converted["_flingButton"].TextSize = 14
+Converted["_flingButton"].TextWrapped = true
+Converted["_flingButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_flingButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_flingButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_flingButton"].BorderSizePixel = 0
+Converted["_flingButton"].Position = UDim2.new(0.538863838, 0, 0.148967803, 0)
+Converted["_flingButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
+Converted["_flingButton"].Name = "flingButton"
+Converted["_flingButton"].Parent = Converted["_vip"]
+
+Converted["_UITextSizeConstraint53"].MaxTextSize = 20
+Converted["_UITextSizeConstraint53"].Parent = Converted["_flingButton"]
+
+Converted["_UICorner51"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner51"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner51"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner51"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner51"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner51"].Parent = Converted["_flingButton"]
+
+Converted["_TextLabel3"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel3"].Text = "Fling"
+Converted["_TextLabel3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel3"].TextScaled = true
+Converted["_TextLabel3"].TextSize = 14
+Converted["_TextLabel3"].TextWrapped = true
+Converted["_TextLabel3"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel3"].BackgroundTransparency = 1
+Converted["_TextLabel3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel3"].BorderSizePixel = 0
+Converted["_TextLabel3"].Position = UDim2.new(0.160999998, 0, 0.5, 0)
+Converted["_TextLabel3"].Size = UDim2.new(0.32100001, 0, 1, 0)
+Converted["_TextLabel3"].Parent = Converted["_flingButton"]
+
+Converted["_UITextSizeConstraint54"].MaxTextSize = 30
+Converted["_UITextSizeConstraint54"].Parent = Converted["_TextLabel3"]
+
+Converted["_speed3"].Font = Enum.Font.FredokaOne
+Converted["_speed3"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_speed3"].PlaceholderText = "50"
+Converted["_speed3"].Text = ""
+Converted["_speed3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_speed3"].TextScaled = true
+Converted["_speed3"].TextSize = 15
+Converted["_speed3"].TextWrapped = true
+Converted["_speed3"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_speed3"].BackgroundColor3 = Color3.fromRGB(0, 143.00000667572021, 214.00001764297485)
+Converted["_speed3"].BorderColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_speed3"].BorderSizePixel = 0
+Converted["_speed3"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
+Converted["_speed3"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
+Converted["_speed3"].Name = "speed"
+Converted["_speed3"].Parent = Converted["_flingButton"]
+
+Converted["_UICorner52"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner52"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner52"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner52"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner52"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner52"].Parent = Converted["_speed3"]
+
+Converted["_UITextSizeConstraint55"].MaxTextSize = 15
+Converted["_UITextSizeConstraint55"].Parent = Converted["_speed3"]
+
+Converted["_keybutton3"].Font = Enum.Font.FredokaOne
+Converted["_keybutton3"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton3"].PlaceholderText = "-"
+Converted["_keybutton3"].Text = ""
+Converted["_keybutton3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton3"].TextScaled = true
+Converted["_keybutton3"].TextSize = 15
+Converted["_keybutton3"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton3"].TextWrapped = true
+Converted["_keybutton3"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_keybutton3"].BackgroundColor3 = Color3.fromRGB(0, 143.00000667572021, 214.00000244379044)
+Converted["_keybutton3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_keybutton3"].BorderSizePixel = 0
+Converted["_keybutton3"].Position = UDim2.new(0.550000012, 0, 0.5, 0)
+Converted["_keybutton3"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
+Converted["_keybutton3"].Name = "keybutton"
+Converted["_keybutton3"].Parent = Converted["_flingButton"]
+
+Converted["_UICorner53"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner53"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner53"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner53"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner53"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner53"].Parent = Converted["_keybutton3"]
+
+Converted["_UITextSizeConstraint56"].MaxTextSize = 15
+Converted["_UITextSizeConstraint56"].Parent = Converted["_keybutton3"]
+
+Converted["_antiflingButton"].Font = Enum.Font.FredokaOne
+Converted["_antiflingButton"].Text = ""
+Converted["_antiflingButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_antiflingButton"].TextScaled = true
+Converted["_antiflingButton"].TextSize = 14
+Converted["_antiflingButton"].TextWrapped = true
+Converted["_antiflingButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_antiflingButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_antiflingButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_antiflingButton"].BorderSizePixel = 0
+Converted["_antiflingButton"].Position = UDim2.new(0.50999999, 0, 0.24000001, 0)
+Converted["_antiflingButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
+Converted["_antiflingButton"].Name = "antiflingButton"
+Converted["_antiflingButton"].Parent = Converted["_vip"]
+
+Converted["_UITextSizeConstraint57"].MaxTextSize = 20
+Converted["_UITextSizeConstraint57"].Parent = Converted["_antiflingButton"]
+
+Converted["_UICorner54"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner54"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner54"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner54"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner54"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner54"].Parent = Converted["_antiflingButton"]
+
+Converted["_TextLabel4"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel4"].Text = "Anti-Fling"
+Converted["_TextLabel4"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel4"].TextScaled = true
+Converted["_TextLabel4"].TextSize = 14
+Converted["_TextLabel4"].TextWrapped = true
+Converted["_TextLabel4"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel4"].BackgroundTransparency = 1
+Converted["_TextLabel4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel4"].BorderSizePixel = 0
+Converted["_TextLabel4"].Position = UDim2.new(0.230084419, 0, 0.5, 0)
+Converted["_TextLabel4"].Size = UDim2.new(0.459167987, 0, 1, 0)
+Converted["_TextLabel4"].Parent = Converted["_antiflingButton"]
+
+Converted["_UITextSizeConstraint58"].MaxTextSize = 30
+Converted["_UITextSizeConstraint58"].Parent = Converted["_TextLabel4"]
+
+Converted["_keybutton4"].CursorPosition = -1
+Converted["_keybutton4"].Font = Enum.Font.FredokaOne
+Converted["_keybutton4"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton4"].PlaceholderText = "-"
+Converted["_keybutton4"].Text = ""
+Converted["_keybutton4"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton4"].TextScaled = true
+Converted["_keybutton4"].TextSize = 15
+Converted["_keybutton4"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton4"].TextWrapped = true
+Converted["_keybutton4"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_keybutton4"].BackgroundColor3 = Color3.fromRGB(0, 143.00000667572021, 214.00000244379044)
+Converted["_keybutton4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_keybutton4"].BorderSizePixel = 0
+Converted["_keybutton4"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
+Converted["_keybutton4"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
+Converted["_keybutton4"].Name = "keybutton"
+Converted["_keybutton4"].Parent = Converted["_antiflingButton"]
+
+Converted["_UICorner55"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner55"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner55"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner55"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner55"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner55"].Parent = Converted["_keybutton4"]
+
+Converted["_UITextSizeConstraint59"].MaxTextSize = 15
+Converted["_UITextSizeConstraint59"].Parent = Converted["_keybutton4"]
+
+Converted["_UICorner56"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner56"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner56"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner56"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner56"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner56"].Parent = Converted["_vip"]
+
+Converted["_UIGridLayout5"].CellPadding = UDim2.new(0.0199999996, 0, 0.0199999996, 0)
+Converted["_UIGridLayout5"].CellSize = UDim2.new(0.49000001, 0, 0.100000001, 0)
+Converted["_UIGridLayout5"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIGridLayout5"].Parent = Converted["_vip"]
+
+Converted["_UIPadding5"].PaddingBottom = UDim.new(0, 10)
+Converted["_UIPadding5"].PaddingLeft = UDim.new(0, 10)
+Converted["_UIPadding5"].PaddingRight = UDim.new(0, 10)
+Converted["_UIPadding5"].PaddingTop = UDim.new(0, 10)
+Converted["_UIPadding5"].Parent = Converted["_vip"]
+
+Converted["_UICorner57"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner57"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner57"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner57"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner57"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner57"].Parent = Converted["_mainFrame"]
+
+Converted["_menu"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_menu"].BackgroundColor3 = Color3.fromRGB(0, 28.000000230968, 84.00000259280205)
+Converted["_menu"].BackgroundTransparency = 0.5
+Converted["_menu"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_menu"].BorderSizePixel = 0
+Converted["_menu"].Position = UDim2.new(0.160100281, 0, 0.572330117, 0)
+Converted["_menu"].Size = UDim2.new(0.280085951, 0, 0.808737814, 0)
+Converted["_menu"].Name = "menu"
+Converted["_menu"].Parent = Converted["_mainFrame"]
+
+Converted["_UICorner58"].BottomLeftRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner58"].BottomRightRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner58"].CornerRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner58"].TopLeftRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner58"].TopRightRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner58"].Parent = Converted["_menu"]
+
+Converted["_voxupButton"].Font = Enum.Font.FredokaOne
+Converted["_voxupButton"].Text = "Vox Up"
+Converted["_voxupButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_voxupButton"].TextScaled = true
+Converted["_voxupButton"].TextSize = 15
+Converted["_voxupButton"].TextWrapped = true
+Converted["_voxupButton"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_voxupButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_voxupButton"].BorderColor3 = Color3.fromRGB(245.00000059604645, 197.0000034570694, 255)
+Converted["_voxupButton"].BorderMode = Enum.BorderMode.Inset
+Converted["_voxupButton"].BorderSizePixel = 0
+Converted["_voxupButton"].LayoutOrder = 5
+Converted["_voxupButton"].Position = UDim2.new(0.5, 0, 0.075000003, 0)
+Converted["_voxupButton"].Size = UDim2.new(1, 0, 0.150000006, 0)
+Converted["_voxupButton"].ZIndex = 2
+Converted["_voxupButton"].Name = "voxupButton"
+Converted["_voxupButton"].Parent = Converted["_menu"]
+
+Converted["_UICorner59"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner59"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner59"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner59"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner59"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner59"].Parent = Converted["_voxupButton"]
+
+Converted["_UITextSizeConstraint60"].MaxTextSize = 25
+Converted["_UITextSizeConstraint60"].Parent = Converted["_voxupButton"]
+
+Converted["_vipButton"].Font = Enum.Font.FredokaOne
+Converted["_vipButton"].Text = "Vip"
+Converted["_vipButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_vipButton"].TextScaled = true
+Converted["_vipButton"].TextSize = 15
+Converted["_vipButton"].TextWrapped = true
+Converted["_vipButton"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_vipButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_vipButton"].BorderColor3 = Color3.fromRGB(245.00000059604645, 197.0000034570694, 255)
+Converted["_vipButton"].BorderMode = Enum.BorderMode.Inset
+Converted["_vipButton"].BorderSizePixel = 0
+Converted["_vipButton"].LayoutOrder = 4
+Converted["_vipButton"].Position = UDim2.new(0.500761747, 0, 0.0439448543, 0)
+Converted["_vipButton"].Size = UDim2.new(1, 0, 0.150000006, 0)
+Converted["_vipButton"].ZIndex = 2
+Converted["_vipButton"].Name = "vipButton"
+Converted["_vipButton"].Parent = Converted["_menu"]
+
+Converted["_UICorner60"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner60"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner60"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner60"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner60"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner60"].Parent = Converted["_vipButton"]
+
+Converted["_UITextSizeConstraint61"].MaxTextSize = 25
+Converted["_UITextSizeConstraint61"].Parent = Converted["_vipButton"]
+
+Converted["_stalkerButton"].Font = Enum.Font.FredokaOne
+Converted["_stalkerButton"].Text = "stalker"
+Converted["_stalkerButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_stalkerButton"].TextScaled = true
+Converted["_stalkerButton"].TextSize = 15
+Converted["_stalkerButton"].TextWrapped = true
+Converted["_stalkerButton"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_stalkerButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_stalkerButton"].BorderColor3 = Color3.fromRGB(245.00000059604645, 197.0000034570694, 255)
+Converted["_stalkerButton"].BorderMode = Enum.BorderMode.Inset
+Converted["_stalkerButton"].BorderSizePixel = 0
+Converted["_stalkerButton"].LayoutOrder = 2
+Converted["_stalkerButton"].Position = UDim2.new(0.500761747, 0, 0.0791007057, 0)
+Converted["_stalkerButton"].Size = UDim2.new(1, 0, 0.150000006, 0)
+Converted["_stalkerButton"].ZIndex = 2
+Converted["_stalkerButton"].Name = "stalkerButton"
+Converted["_stalkerButton"].Parent = Converted["_menu"]
+
+Converted["_UICorner61"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner61"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner61"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner61"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner61"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner61"].Parent = Converted["_stalkerButton"]
+
+Converted["_UITextSizeConstraint62"].MaxTextSize = 25
+Converted["_UITextSizeConstraint62"].Parent = Converted["_stalkerButton"]
+
+Converted["_animaButton"].Font = Enum.Font.FredokaOne
+Converted["_animaButton"].Text = "animações"
+Converted["_animaButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_animaButton"].TextScaled = true
+Converted["_animaButton"].TextSize = 15
+Converted["_animaButton"].TextWrapped = true
+Converted["_animaButton"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_animaButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_animaButton"].BorderColor3 = Color3.fromRGB(245.00000059604645, 197.0000034570694, 255)
+Converted["_animaButton"].BorderMode = Enum.BorderMode.Inset
+Converted["_animaButton"].BorderSizePixel = 0
+Converted["_animaButton"].LayoutOrder = 3
+Converted["_animaButton"].Position = UDim2.new(0.500761747, 0, 0.114256524, 0)
+Converted["_animaButton"].Size = UDim2.new(1, 0, 0.150000006, 0)
+Converted["_animaButton"].ZIndex = 2
+Converted["_animaButton"].Name = "animaButton"
+Converted["_animaButton"].Parent = Converted["_menu"]
+
+Converted["_UICorner62"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner62"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner62"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner62"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner62"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner62"].Parent = Converted["_animaButton"]
+
+Converted["_UITextSizeConstraint63"].MaxTextSize = 25
+Converted["_UITextSizeConstraint63"].Parent = Converted["_animaButton"]
+
+Converted["_MoviButton"].Font = Enum.Font.FredokaOne
+Converted["_MoviButton"].Text = "movimento"
+Converted["_MoviButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_MoviButton"].TextScaled = true
+Converted["_MoviButton"].TextSize = 15
+Converted["_MoviButton"].TextWrapped = true
+Converted["_MoviButton"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_MoviButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_MoviButton"].BorderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_MoviButton"].BorderMode = Enum.BorderMode.Inset
+Converted["_MoviButton"].BorderSizePixel = 0
+Converted["_MoviButton"].LayoutOrder = 2
+Converted["_MoviButton"].Position = UDim2.new(0.500761747, 0, 0.149412319, 0)
+Converted["_MoviButton"].Size = UDim2.new(1, 0, 0.150000006, 0)
+Converted["_MoviButton"].ZIndex = 2
+Converted["_MoviButton"].Name = "MoviButton"
+Converted["_MoviButton"].Parent = Converted["_menu"]
+
+Converted["_UICorner63"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner63"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner63"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner63"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner63"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner63"].Parent = Converted["_MoviButton"]
+
+Converted["_UITextSizeConstraint64"].MaxTextSize = 25
+Converted["_UITextSizeConstraint64"].Parent = Converted["_MoviButton"]
+
+Converted["_ConfigButton"].Font = Enum.Font.FredokaOne
+Converted["_ConfigButton"].Text = "CONFIG"
+Converted["_ConfigButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ConfigButton"].TextScaled = true
+Converted["_ConfigButton"].TextSize = 15
+Converted["_ConfigButton"].TextWrapped = true
+Converted["_ConfigButton"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_ConfigButton"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_ConfigButton"].BorderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ConfigButton"].BorderMode = Enum.BorderMode.Inset
+Converted["_ConfigButton"].BorderSizePixel = 0
+Converted["_ConfigButton"].LayoutOrder = 1
+Converted["_ConfigButton"].Position = UDim2.new(0.5, 0, 0.924999714, 0)
+Converted["_ConfigButton"].Size = UDim2.new(1, 0, 0.150000155, 0)
+Converted["_ConfigButton"].ZIndex = 2
+Converted["_ConfigButton"].Name = "ConfigButton"
+Converted["_ConfigButton"].Parent = Converted["_menu"]
+
+Converted["_UICorner64"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner64"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner64"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner64"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner64"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner64"].Parent = Converted["_ConfigButton"]
+
+Converted["_UITextSizeConstraint65"].MaxTextSize = 25
+Converted["_UITextSizeConstraint65"].Parent = Converted["_ConfigButton"]
+
+Converted["_UIListLayout"].Padding = UDim.new(0.0199999996, 0)
+Converted["_UIListLayout"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIListLayout"].Parent = Converted["_menu"]
+
+Converted["_UIPadding6"].PaddingBottom = UDim.new(0, 10)
+Converted["_UIPadding6"].PaddingLeft = UDim.new(0, 10)
+Converted["_UIPadding6"].PaddingRight = UDim.new(0, 10)
+Converted["_UIPadding6"].PaddingTop = UDim.new(0, 10)
+Converted["_UIPadding6"].Parent = Converted["_menu"]
+
+Converted["_UIAspectRatioConstraint"].AspectRatio = 1.355339765548706
+Converted["_UIAspectRatioConstraint"].Parent = Converted["_mainFrame"]
+
+Converted["_hpx"].Font = Enum.Font.Creepster
+Converted["_hpx"].Text = "HPX"
+Converted["_hpx"].TextColor3 = Color3.fromRGB(0, 85.0000025331974, 255)
+Converted["_hpx"].TextScaled = true
+Converted["_hpx"].TextSize = 14
+Converted["_hpx"].TextWrapped = true
+Converted["_hpx"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_hpx"].BackgroundTransparency = 1
+Converted["_hpx"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_hpx"].BorderSizePixel = 0
+Converted["_hpx"].Position = UDim2.new(0.0329512917, 0, 0, 0)
+Converted["_hpx"].Size = UDim2.new(0.191959515, 0, 0.172112703, 0)
+Converted["_hpx"].Name = "hpx"
+Converted["_hpx"].Parent = Converted["_mainFrame"]
+
+Converted["_UITextSizeConstraint66"].MaxTextSize = 86
+Converted["_UITextSizeConstraint66"].Parent = Converted["_hpx"]
+
+Converted["_UIStroke2"].Color = Color3.fromRGB(0, 83.00000265240669, 127.00000762939453)
+Converted["_UIStroke2"].Thickness = 2
+Converted["_UIStroke2"].Parent = Converted["_mainFrame"]
+
+Converted["_UIGradient"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(170.0000050663948, 255, 255)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 123.0000002682209, 255))
+}
+Converted["_UIGradient"].Rotation = 90
+Converted["_UIGradient"].Parent = Converted["_mainFrame"]
+
+Converted["_tags"].Name = "tags"
+Converted["_tags"].Parent = Converted["_mainFrame"]
+
+Converted["_TagDono"].Active = true
+Converted["_TagDono"].ClipsDescendants = true
+Converted["_TagDono"].MaxDistance = 100
+Converted["_TagDono"].Size = UDim2.new(4, 0, 0.699999988, 0)
+Converted["_TagDono"].StudsOffsetWorldSpace = Vector3.new(0, 3.0999999046325684, 3.0999999046325684)
+Converted["_TagDono"].Enabled = false
+Converted["_TagDono"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_TagDono"].Name = "TagDono"
+Converted["_TagDono"].Parent = Converted["_tags"]
+
+Converted["_TextLabel5"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel5"].RichText = true
+Converted["_TextLabel5"].Text = "Dono"
+Converted["_TextLabel5"].TextColor3 = Color3.fromRGB(255, 0, 0)
+Converted["_TextLabel5"].TextScaled = true
+Converted["_TextLabel5"].TextSize = 14
+Converted["_TextLabel5"].TextStrokeColor3 = Color3.fromRGB(85.0000025331974, 0, 0)
+Converted["_TextLabel5"].TextStrokeTransparency = 0
+Converted["_TextLabel5"].TextWrapped = true
+Converted["_TextLabel5"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel5"].BackgroundTransparency = 1
+Converted["_TextLabel5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel5"].BorderSizePixel = 0
+Converted["_TextLabel5"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_TextLabel5"].ZIndex = 2
+Converted["_TextLabel5"].Parent = Converted["_TagDono"]
+
+Converted["_TextLabel6"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel6"].RichText = true
+Converted["_TextLabel6"].Text = "Dono"
+Converted["_TextLabel6"].TextColor3 = Color3.fromRGB(85.0000025331974, 0, 0)
+Converted["_TextLabel6"].TextScaled = true
+Converted["_TextLabel6"].TextSize = 14
+Converted["_TextLabel6"].TextWrapped = true
+Converted["_TextLabel6"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel6"].BackgroundTransparency = 1
+Converted["_TextLabel6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel6"].BorderSizePixel = 0
+Converted["_TextLabel6"].Position = UDim2.new(0, 0, 0.0500000007, 0)
+Converted["_TextLabel6"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_TextLabel6"].Parent = Converted["_TagDono"]
+
+Converted["_TagMembro"].Active = true
+Converted["_TagMembro"].ClipsDescendants = true
+Converted["_TagMembro"].MaxDistance = 100
+Converted["_TagMembro"].Size = UDim2.new(4, 0, 0.699999988, 0)
+Converted["_TagMembro"].StudsOffsetWorldSpace = Vector3.new(0, 3.0999999046325684, 3.0999999046325684)
+Converted["_TagMembro"].Enabled = false
+Converted["_TagMembro"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_TagMembro"].Name = "TagMembro"
+Converted["_TagMembro"].Parent = Converted["_tags"]
+
+Converted["_TextLabel7"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel7"].RichText = true
+Converted["_TextLabel7"].Text = "Membro"
+Converted["_TextLabel7"].TextColor3 = Color3.fromRGB(0, 255, 0)
+Converted["_TextLabel7"].TextScaled = true
+Converted["_TextLabel7"].TextSize = 14
+Converted["_TextLabel7"].TextStrokeColor3 = Color3.fromRGB(0, 85.0000025331974, 0)
+Converted["_TextLabel7"].TextStrokeTransparency = 0
+Converted["_TextLabel7"].TextWrapped = true
+Converted["_TextLabel7"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel7"].BackgroundTransparency = 1
+Converted["_TextLabel7"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel7"].BorderSizePixel = 0
+Converted["_TextLabel7"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_TextLabel7"].ZIndex = 2
+Converted["_TextLabel7"].Parent = Converted["_TagMembro"]
+
+Converted["_TextLabel8"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel8"].RichText = true
+Converted["_TextLabel8"].Text = "Membro"
+Converted["_TextLabel8"].TextColor3 = Color3.fromRGB(0, 85.0000025331974, 0)
+Converted["_TextLabel8"].TextScaled = true
+Converted["_TextLabel8"].TextSize = 14
+Converted["_TextLabel8"].TextStrokeColor3 = Color3.fromRGB(0, 0, 127.00000762939453)
+Converted["_TextLabel8"].TextWrapped = true
+Converted["_TextLabel8"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel8"].BackgroundTransparency = 1
+Converted["_TextLabel8"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel8"].BorderSizePixel = 0
+Converted["_TextLabel8"].Position = UDim2.new(0, 0, 0.0500000007, 0)
+Converted["_TextLabel8"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_TextLabel8"].Parent = Converted["_TagMembro"]
 
 -- Fake Module Scripts:
 
@@ -912,258 +2405,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function FPLFMJD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_mainFrame"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local mainFrame = script.Parent
-	
-	local menu = mainFrame:WaitForChild("menu")
-	
-	-- BOTÕES
-	local configButton = menu:WaitForChild("ConfigButton")
-	local moviButton = menu:WaitForChild("MoviButton")
-	local animaButton = menu:WaitForChild("animaButton")
-	local stalkerButton = menu:WaitForChild("stalkerButton")
-	local voxButton = menu:WaitForChild("voxupButton")
-	
-	-- FRAMES
-	local configUS = mainFrame:WaitForChild("configUS")
-	local movi = mainFrame:WaitForChild("movi")
-	local animacoes = mainFrame:WaitForChild("animações")
-	local stalker = mainFrame:WaitForChild("stalker")
-	local voxUp = mainFrame:WaitForChild("voxUp")
-	
-	-- ESCONDER TODOS
-	local function esconderTudo()
-		configUS.Visible = false
-		movi.Visible = false
-		animacoes.Visible = false
-		stalker.Visible = false
-		voxUp.Visible = false
-	end
-	
-	-- ABRIR CONFIG
-	local function abrirConfig()
-		esconderTudo()
-		configUS.Visible = true
-	end
-	
-	-- ABRIR MOVIMENTO
-	local function abrirMovi()
-		esconderTudo()
-		movi.Visible = true
-	end
-	
-	-- ABRIR ANIMAÇÕES
-	local function abrirAnimacoes()
-		esconderTudo()
-		animacoes.Visible = true
-	end
-	
-	-- ABRIR STALKER
-	local function abrirStalker()
-		esconderTudo()
-		stalker.Visible = true
-	end
-	
-	-- ABRIR VOX UP
-	local function abrirVox()
-		esconderTudo()
-		voxUp.Visible = true
-	end
-	
-	-- CONEXÕES
-	configButton.MouseButton1Click:Connect(abrirConfig)
-	moviButton.MouseButton1Click:Connect(abrirMovi)
-	animaButton.MouseButton1Click:Connect(abrirAnimacoes)
-	stalkerButton.MouseButton1Click:Connect(abrirStalker)
-	voxButton.MouseButton1Click:Connect(abrirVox)
-	
-	-- MENU PADRÃO
-	abrirConfig()
-end
-local function UUVI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_mainFrame"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local Players = game:GetService("Players")
-	
-	local player = Players.LocalPlayer
-	
-	local mainFrame = script.Parent
-	local configUS = mainFrame:WaitForChild("configUS")
-	local imageLabel = configUS:WaitForChild("ImageLabel")
-	
-	-- espera player carregar
-	repeat task.wait() until player.UserId ~= 0
-	
-	local userId = player.UserId
-	
-	local thumbnailType = Enum.ThumbnailType.HeadShot
-	local thumbnailSize = Enum.ThumbnailSize.Size420x420
-	
-	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbnailType, thumbnailSize)
-	
-	while not isReady do
-		task.wait(0.5)
-		content, isReady = Players:GetUserThumbnailAsync(userId, thumbnailType, thumbnailSize)
-	end
-	
-	imageLabel.Image = content
-	
-end
-local function EDFHU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_mainFrame"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local titulo = script.Parent:WaitForChild("configUS"):WaitForChild("hpx")
-	
-	titulo.RichText = true
-	titulo.Text = "HPX"
-	
-	local texto = "HPX"
-	local hue = 0
-	
-	while true do
-		hue += 0.01
-	
-		if hue > 1 then
-			hue = 0
-		end
-	
-		local resultado = ""
-	
-		for i = 1, #texto do
-			local letra = texto:sub(i, i)
-	
-			local letraHue = hue + (i * 0.15)
-	
-			if letraHue > 1 then
-				letraHue -= 1
-			end
-	
-			local cor = Color3.fromHSV(letraHue, 1, 1)
-	
-			local r = math.floor(cor.R * 255)
-			local g = math.floor(cor.G * 255)
-			local b = math.floor(cor.B * 255)
-	
-			resultado ..= '<font color="rgb(' .. r .. ',' .. g .. ',' .. b .. ')">' .. letra .. '</font>'
-		end
-	
-		titulo.Text = resultado
-	
-		task.wait(0.03)
-	end
-end
-local function ZMCQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_mainFrame"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local UserInputService = game:GetService("UserInputService")
-	
-	local mainFrame = script.Parent
-	
-	-- =========================
-	-- 🔻 MINIMIZAR COM H
-	-- =========================
-	
-	local minimizado = false
-	
-	UserInputService.InputBegan:Connect(function(input, gameProcessed)
-	
-		if gameProcessed then
-			return
-		end
-	
-		if input.KeyCode == Enum.KeyCode.H then
-	
-			minimizado = not minimizado
-	
-			mainFrame.Visible = not minimizado
-		end
-	end)
-	
-	-- =========================
-	-- 🖱️ MOVER PAINEL
-	-- =========================
-	
-	local movendo = false
-	local inicioMouse
-	local inicioFrame
-	
-	mainFrame.InputBegan:Connect(function(input)
-	
-		if input.UserInputType == Enum.UserInputType.MouseButton1 then
-	
-			movendo = true
-	
-			inicioMouse = input.Position
-			inicioFrame = mainFrame.Position
-		end
-	end)
-	
-	mainFrame.InputEnded:Connect(function(input)
-	
-		if input.UserInputType == Enum.UserInputType.MouseButton1 then
-			movendo = false
-		end
-	end)
-	
-	UserInputService.InputChanged:Connect(function(input)
-	
-		if movendo and input.UserInputType == Enum.UserInputType.MouseMovement then
-	
-			local delta = input.Position - inicioMouse
-	
-			mainFrame.Position = UDim2.new(
-				inicioFrame.X.Scale,
-				inicioFrame.X.Offset + delta.X,
-	
-				inicioFrame.Y.Scale,
-				inicioFrame.Y.Offset + delta.Y
-			)
-		end
-	end)
-end
-local function JQXKHI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
+local function QLGPPJU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_configUS"]
@@ -1182,7 +2424,7 @@ local function JQXKHI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	usernameLabel.Text = player.DisplayName .. " ( " .. player.Name .. " )"
 end
-local function PKHC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.usersLabel.LocalScript
+local function QVAZCMU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.usersLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_usersLabel"]
@@ -1197,7 +2439,7 @@ local function PKHC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 
 	script.Parent.Text = "👤 " .. math.random(10, 30)
 end
-local function LCHMWEB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
+local function ITLW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_pingLabel"]
@@ -1242,7 +2484,7 @@ local function LCHMWEB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		task.wait(1)
 	end
 end
-local function HMEPQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
+local function XTKH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_fpsLabel"]
@@ -1291,7 +2533,7 @@ local function HMEPQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		end
 	end)
 end
-local function BFDHFX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
+local function DQFPVA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_platformLabel"]
@@ -1328,435 +2570,7 @@ local function BFDHFX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	platformLabel.Text = "PLATAFORMA: " .. plataforma
 end
-local function GUUYE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
-    local script = Instance.new("LocalScript")
-    script.Name = "AtalhosManager"
-    script.Parent = Converted["_movi"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
-end
-local function UGYLOIY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.EspButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_EspButton"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	-- ESP + Atalho sem tecla repetida
-	-- Coloque este LocalScript dentro do EspButton
-	
-	local Players = game:GetService("Players")
-	local RunService = game:GetService("RunService")
-	local UserInputService = game:GetService("UserInputService")
-	
-	local player = Players.LocalPlayer
-	local camera = workspace.CurrentCamera
-	
-	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
-	
-	---------------------------------------------------
-	-- REFERÊNCIAS
-	---------------------------------------------------
-	
-	local espButton = script.Parent
-	local movi = espButton.Parent
-	local bindButton = movi:WaitForChild("BindButton")
-	
-	---------------------------------------------------
-	-- VARIÁVEIS
-	---------------------------------------------------
-	
-	local espAtivo = false
-	local teclaAtual = nil
-	local escolhendoTecla = false
-	
-	local gui
-	local markers = {}
-	local renderConnection
-	
-	---------------------------------------------------
-	-- CONFIGURAÇÕES
-	---------------------------------------------------
-	
-	local MARKER_SIZE = 24
-	local ALTURA_ACIMA_DA_CABECA = 1.1
-	
-	local DISTANCIA_TRANSPARENTE = 8
-	local DISTANCIA_MAXIMA = 120
-	
-	---------------------------------------------------
-	-- BOTÕES
-	---------------------------------------------------
-	
-	local function atualizarBotoes()
-	
-		if espAtivo then
-			espButton.Text = "ESP: ON"
-			espButton.TextColor3 = Color3.fromRGB(0,255,0)
-		else
-			espButton.Text = "ESP: OFF"
-			espButton.TextColor3 = Color3.fromRGB(255,255,255)
-		end
-	
-		if teclaAtual then
-			bindButton.Text = teclaAtual.Name
-		else
-			bindButton.Text = "-"
-		end
-	
-	end
-	
-	---------------------------------------------------
-	-- CRIAR MARKER
-	---------------------------------------------------
-	
-	local function criarMarker(p)
-	
-		if p == player then return end
-		if markers[p] then return end
-		if not gui then return end
-	
-		local btn = Instance.new("ImageButton")
-		btn.Name = "ESP_" .. p.Name
-	
-		btn.Size = UDim2.new(0, MARKER_SIZE, 0, MARKER_SIZE)
-		btn.AnchorPoint = Vector2.new(0.5, 0.5)
-	
-		btn.BackgroundColor3 = Color3.fromRGB(47, 47, 71)
-		btn.BorderSizePixel = 0
-		btn.Visible = false
-	
-		btn.Parent = gui
-	
-		local corner = Instance.new("UICorner")
-		corner.CornerRadius = UDim.new(1,0)
-		corner.Parent = btn
-	
-		local stroke = Instance.new("UIStroke")
-		stroke.Thickness = 2
-		stroke.Color = Color3.fromRGB(164, 164, 188)
-		stroke.Parent = btn
-	
-		btn.Image = "https://www.roblox.com/headshot-thumbnail/image?userId="
-			.. p.UserId .. "&width=420&height=420&format=png"
-	
-		markers[p] = btn
-	
-		btn.MouseButton1Click:Connect(function()
-	
-			local myChar = player.Character
-			local target = p.Character
-	
-			if myChar and target and target:FindFirstChild("HumanoidRootPart") then
-				myChar:PivotTo(target.HumanoidRootPart.CFrame + Vector3.new(2,0,0))
-			end
-	
-		end)
-	
-	end
-	
-	---------------------------------------------------
-	-- PEGAR POSIÇÃO ACIMA DA CABEÇA
-	---------------------------------------------------
-	
-	local function getPosicaoAcimaDaCabeca(char)
-	
-		local head = char:FindFirstChild("Head")
-	
-		if head then
-			return head.Position + Vector3.new(0, ALTURA_ACIMA_DA_CABECA, 0)
-		end
-	
-		local cf, size = char:GetBoundingBox()
-	
-		return cf.Position + Vector3.new(0, size.Y / 2 + 0.7, 0)
-	
-	end
-	
-	---------------------------------------------------
-	-- LIGAR ESP
-	---------------------------------------------------
-	
-	local function ligarESP()
-	
-		if gui then return end
-	
-		gui = Instance.new("ScreenGui")
-		gui.Name = "ESP_Gui"
-	
-		gui.ResetOnSpawn = false
-		gui.IgnoreGuiInset = true
-	
-		gui.Parent = player:WaitForChild("PlayerGui")
-	
-		for _, p in pairs(Players:GetPlayers()) do
-			criarMarker(p)
-		end
-	
-		renderConnection = RunService.RenderStepped:Connect(function()
-	
-			camera = workspace.CurrentCamera
-	
-			local myChar = player.Character
-			local myRoot = myChar and myChar:FindFirstChild("HumanoidRootPart")
-	
-			for p, btn in pairs(markers) do
-	
-				local char = p.Character
-				local root = char and char:FindFirstChild("HumanoidRootPart")
-	
-				if char and root and myRoot then
-	
-					local worldPos = getPosicaoAcimaDaCabeca(char)
-	
-					local screenPos, onScreen =
-						camera:WorldToViewportPoint(worldPos)
-	
-					if onScreen and screenPos.Z > 0 then
-	
-						btn.Visible = true
-	
-						btn.Position = UDim2.fromOffset(
-							screenPos.X,
-							screenPos.Y
-						)
-	
-						local dist =
-							(myRoot.Position - root.Position).Magnitude
-	
-						local transparencia
-	
-						if dist <= DISTANCIA_TRANSPARENTE then
-	
-							transparencia = 0.92
-	
-						else
-	
-							transparencia = math.clamp(
-								1 - (dist / DISTANCIA_MAXIMA),
-								0.15,
-								0.92
-							)
-	
-						end
-	
-						btn.ImageTransparency = transparencia
-						btn.BackgroundTransparency = transparencia
-	
-						local stroke = btn:FindFirstChildOfClass("UIStroke")
-	
-						if stroke then
-							stroke.Transparency = transparencia
-						end
-	
-					else
-	
-						btn.Visible = false
-	
-					end
-	
-				else
-	
-					btn.Visible = false
-	
-				end
-	
-			end
-	
-		end)
-	
-	end
-	
-	---------------------------------------------------
-	-- DESLIGAR ESP
-	---------------------------------------------------
-	
-	local function desligarESP()
-	
-		if renderConnection then
-			renderConnection:Disconnect()
-			renderConnection = nil
-		end
-	
-		for _, btn in pairs(markers) do
-			btn:Destroy()
-		end
-	
-		markers = {}
-	
-		if gui then
-			gui:Destroy()
-			gui = nil
-		end
-	
-	end
-	
-	---------------------------------------------------
-	-- TOGGLE ESP
-	---------------------------------------------------
-	
-	local function toggleESP()
-	
-		espAtivo = not espAtivo
-	
-		if espAtivo then
-			ligarESP()
-		else
-			desligarESP()
-		end
-	
-		atualizarBotoes()
-	
-	end
-	
-	---------------------------------------------------
-	-- BOTÃO ESP
-	---------------------------------------------------
-	
-	espButton.MouseButton1Click:Connect(function()
-	
-		toggleESP()
-	
-	end)
-	
-	---------------------------------------------------
-	-- BOTÃO ATALHO
-	---------------------------------------------------
-	
-	bindButton.MouseButton1Click:Connect(function()
-	
-		escolhendoTecla = true
-	
-		bindButton.Text = "..."
-	
-		task.delay(5, function()
-	
-			if escolhendoTecla then
-	
-				escolhendoTecla = false
-				atualizarBotoes()
-	
-			end
-	
-		end)
-	
-	end)
-	
-	---------------------------------------------------
-	-- TECLADO
-	---------------------------------------------------
-	
-	UserInputService.InputBegan:Connect(function(input, gameProcessed)
-	
-		if gameProcessed then return end
-	
-		------------------------------------------------
-		-- ESCOLHER TECLA
-		------------------------------------------------
-	
-		if escolhendoTecla then
-	
-			if input.UserInputType == Enum.UserInputType.Keyboard
-				and input.KeyCode ~= Enum.KeyCode.Unknown then
-	
-				local teclaNova = input.KeyCode.Name
-	
-				if _G.HPX_Atalhos[teclaNova]
-					and _G.HPX_Atalhos[teclaNova] ~= "ESP" then
-	
-					escolhendoTecla = false
-	
-					bindButton.Text = "USADA"
-	
-					task.delay(1.2, function()
-	
-						atualizarBotoes()
-	
-					end)
-	
-					return
-	
-				end
-	
-				if teclaAtual then
-					_G.HPX_Atalhos[teclaAtual.Name] = nil
-				end
-	
-				teclaAtual = input.KeyCode
-	
-				_G.HPX_Atalhos[teclaNova] = "ESP"
-	
-				escolhendoTecla = false
-	
-				atualizarBotoes()
-	
-			end
-	
-			return
-	
-		end
-	
-		------------------------------------------------
-		-- USAR ATALHO
-		------------------------------------------------
-	
-		if teclaAtual
-			and input.UserInputType == Enum.UserInputType.Keyboard then
-	
-			if input.KeyCode == teclaAtual then
-	
-				toggleESP()
-	
-			end
-	
-		end
-	
-	end)
-	
-	---------------------------------------------------
-	-- PLAYER ENTROU / SAIU
-	---------------------------------------------------
-	
-	Players.PlayerAdded:Connect(function(p)
-	
-		if espAtivo then
-			criarMarker(p)
-		end
-	
-	end)
-	
-	Players.PlayerRemoving:Connect(function(p)
-	
-		if markers[p] then
-	
-			markers[p]:Destroy()
-			markers[p] = nil
-	
-		end
-	
-	end)
-	
-	---------------------------------------------------
-	-- INICIAR
-	---------------------------------------------------
-	
-	atualizarBotoes()
-end
-local function MGAWJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.femotesButton.LocalScript
+local function UNUBZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.femotesButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_femotesButton"]
@@ -1831,7 +2645,7 @@ local function MGAWJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	emoteBox.Parent = gui
 	emoteBox.Size = UDim2.new(0,470,0,300)
 	emoteBox.Position = UDim2.new(0.5,-235,0.5,-150)
-	emoteBox.BackgroundColor3 = Color3.fromRGB(32, 32, 48)
+	emoteBox.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
 	emoteBox.BorderSizePixel = 0
 	emoteBox.Visible = false
 	emoteBox.Active = true
@@ -1842,14 +2656,14 @@ local function MGAWJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	local stroke = Instance.new("UIStroke")
 	stroke.Parent = emoteBox
-	stroke.Color = Color3.fromRGB(140, 140, 160)
+	stroke.Color = Color3.fromRGB(0, 0, 0)
 	stroke.Thickness = 2
 	
 	-- TOPBAR
 	local topBar = Instance.new("Frame")
 	topBar.Parent = emoteBox
 	topBar.Size = UDim2.new(1,0,0,35)
-	topBar.BackgroundColor3 = Color3.fromRGB(44, 44, 66)
+	topBar.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 	topBar.BorderSizePixel = 0
 	
 	-- TITLE
@@ -1872,7 +2686,7 @@ local function MGAWJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	favButton.Text = "⭐"
 	favButton.TextScaled = true
 	favButton.Font = Enum.Font.GothamBold
-	favButton.BackgroundColor3 = Color3.fromRGB(32, 32, 48)
+	favButton.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
 	favButton.TextColor3 = Color3.fromRGB(255,255,0)
 	
 	Instance.new("UICorner", favButton)
@@ -1885,7 +2699,7 @@ local function MGAWJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	keyButton.Text = "CTRL"
 	keyButton.Font = Enum.Font.GothamBold
 	keyButton.TextSize = 13
-	keyButton.BackgroundColor3 = Color3.fromRGB(25,25,25)
+	keyButton.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
 	keyButton.TextColor3 = Color3.new(1,1,1)
 	
 	Instance.new("UICorner", keyButton)
@@ -1898,7 +2712,7 @@ local function MGAWJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	search.PlaceholderText = "Search..."
 	search.Text = ""
 	search.ClearTextOnFocus = false
-	search.BackgroundColor3 = Color3.fromRGB(20,20,20)
+	search.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
 	search.TextColor3 = Color3.new(1,1,1)
 	search.Font = Enum.Font.GothamBold
 	search.TextSize = 13
@@ -2010,7 +2824,7 @@ local function MGAWJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		local btn = Instance.new("TextButton")
 		btn.Parent = scroll
 		btn.Size = UDim2.new(0,140,0,105)
-		btn.BackgroundColor3 = Color3.fromRGB(26, 26, 33)
+		btn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		btn.Text = ""
 	
 		Instance.new("UICorner", btn)
@@ -2317,7 +3131,558 @@ local function MGAWJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	task.spawn(carregarEmotesDoPlayer)
 end
-local function UYFSEUM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.clicktpButton.LocalScript
+local function RGRPGPZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
+    local script = Instance.new("LocalScript")
+    script.Name = "AtalhosManager"
+    script.Parent = Converted["_movi"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
+end
+local function JKQNK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.EspButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_EspButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- ESP + Atalho sem tecla repetida
+	-- Coloque este LocalScript dentro do EspButton
+	
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local player = Players.LocalPlayer
+	local camera = workspace.CurrentCamera
+	
+	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
+	
+	---------------------------------------------------
+	-- REFERÊNCIAS
+	---------------------------------------------------
+	
+	local espButton = script.Parent
+	local movi = espButton.Parent
+	local bindButton = movi:FindFirstChild("BindButton") or espButton:FindFirstChild("tecla")
+	
+	---------------------------------------------------
+	-- VARIÁVEIS
+	---------------------------------------------------
+	
+	local espAtivo = false
+	local teclaAtual = nil
+	local escolhendoTecla = false
+	local atualizandoTextoTecla = false
+	
+	local gui
+	local markers = {}
+	local renderConnection
+	
+	---------------------------------------------------
+	-- CONFIGURAÇÕES
+	---------------------------------------------------
+	
+	local MARKER_SIZE = 24
+	local ALTURA_ACIMA_DA_CABECA = 1.1
+	
+	local DISTANCIA_TRANSPARENTE = 8
+	local DISTANCIA_MAXIMA = 120
+	
+	---------------------------------------------------
+	-- BOTÕES
+	---------------------------------------------------
+	
+	local function atualizarBotoes()
+	
+		if espButton.Text == "" then
+			espButton.Text = "ESP"
+		end
+	
+		if espAtivo then
+			espButton.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+		else
+			espButton.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+		end
+	
+		if bindButton and (bindButton:IsA("TextButton") or bindButton:IsA("TextLabel")) then
+			if teclaAtual then
+				bindButton.Text = teclaAtual.Name
+			else
+				bindButton.Text = "-"
+			end
+		elseif bindButton and bindButton:IsA("TextBox") then
+			if teclaAtual then
+				atualizandoTextoTecla = true
+				bindButton.Text = teclaAtual.Name
+				atualizandoTextoTecla = false
+			else
+				atualizandoTextoTecla = true
+				bindButton.Text = "-"
+				atualizandoTextoTecla = false
+			end
+		end
+	
+	end
+	
+	local function obterTeclaDoTexto(texto)
+		if type(texto) ~= "string" or texto == "" then
+			return nil
+		end
+	
+		local letra = string.upper(texto:sub(1, 1))
+		if #letra ~= 1 then
+			return nil
+		end
+	
+		local codigo = string.byte(letra)
+		if (codigo >= 48 and codigo <= 57) or (codigo >= 65 and codigo <= 90) then
+			return Enum.KeyCode[letra]
+		end
+	
+		return nil
+	end
+	
+	local function confirmarTecla(keyCode)
+		if not keyCode or keyCode == Enum.KeyCode.Unknown then
+			return
+		end
+	
+		if keyCode == Enum.KeyCode.LeftShift or keyCode == Enum.KeyCode.RightShift then
+			return
+		end
+	
+		local nome = keyCode.Name
+		if #nome ~= 1 then
+			return
+		end
+	
+		local codigo = string.byte(nome)
+		if not ((codigo >= 48 and codigo <= 57) or (codigo >= 65 and codigo <= 90)) then
+			return
+		end
+	
+		if _G.HPX_Atalhos[nome] and _G.HPX_Atalhos[nome] ~= "ESP" then
+			if bindButton and bindButton:IsA("TextBox") then
+				atualizandoTextoTecla = true
+				bindButton.Text = "USADA"
+				atualizandoTextoTecla = false
+			end
+			task.delay(1.2, function()
+				atualizarBotoes()
+			end)
+			return
+		end
+	
+		if teclaAtual then
+			_G.HPX_Atalhos[teclaAtual.Name] = nil
+		end
+	
+		teclaAtual = keyCode
+		_G.HPX_Atalhos[nome] = "ESP"
+		escolhendoTecla = false
+		atualizarBotoes()
+	end
+	
+	---------------------------------------------------
+	-- CRIAR MARKER
+	---------------------------------------------------
+	
+	local function criarMarker(p)
+	
+		if p == player then return end
+		if markers[p] then return end
+		if not gui then return end
+	
+		local btn = Instance.new("ImageButton")
+		btn.Name = "ESP_" .. p.Name
+	
+		btn.Size = UDim2.new(0, MARKER_SIZE, 0, MARKER_SIZE)
+		btn.AnchorPoint = Vector2.new(0.5, 0.5)
+	
+		btn.BackgroundColor3 = Color3.fromRGB(47, 47, 71)
+		btn.BorderSizePixel = 0
+		btn.Visible = false
+	
+		btn.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(1,0)
+		corner.Parent = btn
+	
+		local stroke = Instance.new("UIStroke")
+		stroke.Thickness = 2
+		stroke.Color = Color3.fromRGB(164, 164, 188)
+		stroke.Parent = btn
+	
+		btn.Image = "https://www.roblox.com/headshot-thumbnail/image?userId="
+			.. p.UserId .. "&width=420&height=420&format=png"
+	
+		markers[p] = btn
+	
+		btn.MouseButton1Click:Connect(function()
+	
+			local myChar = player.Character
+			local target = p.Character
+	
+			if myChar and target and target:FindFirstChild("HumanoidRootPart") then
+				myChar:PivotTo(target.HumanoidRootPart.CFrame + Vector3.new(2,0,0))
+			end
+	
+		end)
+	
+	end
+	
+	---------------------------------------------------
+	-- PEGAR POSIÇÃO ACIMA DA CABEÇA
+	---------------------------------------------------
+	
+	local function getPosicaoAcimaDaCabeca(char)
+	
+		local head = char:FindFirstChild("Head")
+	
+		if head then
+			return head.Position + Vector3.new(0, ALTURA_ACIMA_DA_CABECA, 0)
+		end
+	
+		local cf, size = char:GetBoundingBox()
+	
+		return cf.Position + Vector3.new(0, size.Y / 2 + 0.7, 0)
+	
+	end
+	
+	---------------------------------------------------
+	-- LIGAR ESP
+	---------------------------------------------------
+	
+	local function ligarESP()
+	
+		if gui then return end
+	
+		gui = Instance.new("ScreenGui")
+		gui.Name = "ESP_Gui"
+	
+		gui.ResetOnSpawn = false
+		gui.IgnoreGuiInset = true
+	
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		for _, p in pairs(Players:GetPlayers()) do
+			criarMarker(p)
+		end
+	
+		renderConnection = RunService.RenderStepped:Connect(function()
+	
+			camera = workspace.CurrentCamera
+	
+			local myChar = player.Character
+			local myRoot = myChar and myChar:FindFirstChild("HumanoidRootPart")
+	
+			for p, btn in pairs(markers) do
+	
+				local char = p.Character
+				local root = char and char:FindFirstChild("HumanoidRootPart")
+	
+				if char and root and myRoot then
+	
+					local worldPos = getPosicaoAcimaDaCabeca(char)
+	
+					local screenPos, onScreen =
+						camera:WorldToViewportPoint(worldPos)
+	
+					if onScreen and screenPos.Z > 0 then
+	
+						btn.Visible = true
+	
+						btn.Position = UDim2.fromOffset(
+							screenPos.X,
+							screenPos.Y
+						)
+	
+						local dist =
+							(myRoot.Position - root.Position).Magnitude
+	
+						local transparencia
+	
+						if dist <= DISTANCIA_TRANSPARENTE then
+	
+							transparencia = 0.92
+	
+						else
+	
+							transparencia = math.clamp(
+								1 - (dist / DISTANCIA_MAXIMA),
+								0.15,
+								0.92
+							)
+	
+						end
+	
+						btn.ImageTransparency = transparencia
+						btn.BackgroundTransparency = transparencia
+	
+						local stroke = btn:FindFirstChildOfClass("UIStroke")
+	
+						if stroke then
+							stroke.Transparency = transparencia
+						end
+	
+					else
+	
+						btn.Visible = false
+	
+					end
+	
+				else
+	
+					btn.Visible = false
+	
+				end
+	
+			end
+	
+		end)
+	
+	end
+	
+	---------------------------------------------------
+	-- DESLIGAR ESP
+	---------------------------------------------------
+	
+	local function desligarESP()
+	
+		if renderConnection then
+			renderConnection:Disconnect()
+			renderConnection = nil
+		end
+	
+		for _, btn in pairs(markers) do
+			btn:Destroy()
+		end
+	
+		markers = {}
+	
+		if gui then
+			gui:Destroy()
+			gui = nil
+		end
+	
+	end
+	
+	---------------------------------------------------
+	-- TOGGLE ESP
+	---------------------------------------------------
+	
+	local function toggleESP()
+	
+		espAtivo = not espAtivo
+	
+		if espAtivo then
+			ligarESP()
+		else
+			desligarESP()
+		end
+	
+		atualizarBotoes()
+	
+	end
+	
+	---------------------------------------------------
+	-- BOTÃO ESP
+	---------------------------------------------------
+	
+	espButton.MouseButton1Click:Connect(function()
+	
+		toggleESP()
+	
+	end)
+	
+	---------------------------------------------------
+	-- BOTÃO ATALHO
+	---------------------------------------------------
+	
+	local function iniciarSelecaoTecla()
+	
+		if bindButton and bindButton:IsA("TextBox") then
+			bindButton:CaptureFocus()
+			bindButton.SelectionStart = 1
+			bindButton.CursorPosition = #bindButton.Text + 1
+			return
+		end
+	
+		escolhendoTecla = true
+	
+		if bindButton then
+			bindButton.Text = "..."
+		end
+	
+		task.delay(5, function()
+	
+			if escolhendoTecla then
+	
+				escolhendoTecla = false
+				atualizarBotoes()
+	
+			end
+	
+		end)
+	
+	end
+	
+	if bindButton then
+		if bindButton:IsA("TextBox") then
+			bindButton:GetPropertyChangedSignal("Text"):Connect(function()
+				if atualizandoTextoTecla then
+					return
+				end
+	
+				local primeiroCaractere = string.upper(bindButton.Text:sub(1, 1))
+				local tecla = obterTeclaDoTexto(primeiroCaractere)
+				local textoValido = tecla and primeiroCaractere or ""
+	
+				atualizandoTextoTecla = true
+				bindButton.Text = textoValido
+				atualizandoTextoTecla = false
+	
+				if tecla then
+					confirmarTecla(tecla)
+				end
+			end)
+	
+			bindButton.FocusLost:Connect(function()
+				if bindButton.Text == "" and teclaAtual then
+					atualizandoTextoTecla = true
+					bindButton.Text = teclaAtual.Name
+					atualizandoTextoTecla = false
+				end
+			end)
+	
+			bindButton.InputBegan:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1 then
+					iniciarSelecaoTecla()
+				end
+			end)
+		else
+			bindButton.MouseButton1Click:Connect(function()
+				iniciarSelecaoTecla()
+			end)
+		end
+	end
+	
+	---------------------------------------------------
+	-- TECLADO
+	---------------------------------------------------
+	
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+	
+		if gameProcessed then return end
+	
+		------------------------------------------------
+		-- ESCOLHER TECLA
+		------------------------------------------------
+	
+		if escolhendoTecla then
+	
+			if input.UserInputType == Enum.UserInputType.Keyboard
+				and input.KeyCode ~= Enum.KeyCode.Unknown then
+	
+				local teclaNova = input.KeyCode.Name
+	
+				if _G.HPX_Atalhos[teclaNova]
+					and _G.HPX_Atalhos[teclaNova] ~= "ESP" then
+	
+					escolhendoTecla = false
+	
+					bindButton.Text = "USADA"
+	
+					task.delay(1.2, function()
+	
+						atualizarBotoes()
+	
+					end)
+	
+					return
+	
+				end
+	
+				if teclaAtual then
+					_G.HPX_Atalhos[teclaAtual.Name] = nil
+				end
+	
+				teclaAtual = input.KeyCode
+	
+				_G.HPX_Atalhos[teclaNova] = "ESP"
+	
+				escolhendoTecla = false
+	
+				atualizarBotoes()
+	
+			end
+	
+			return
+	
+		end
+	
+		------------------------------------------------
+		-- USAR ATALHO
+		------------------------------------------------
+	
+		if teclaAtual
+			and input.UserInputType == Enum.UserInputType.Keyboard then
+	
+			if input.KeyCode == teclaAtual then
+	
+				toggleESP()
+	
+			end
+	
+		end
+	
+	end)
+	
+	---------------------------------------------------
+	-- PLAYER ENTROU / SAIU
+	---------------------------------------------------
+	
+	Players.PlayerAdded:Connect(function(p)
+	
+		if espAtivo then
+			criarMarker(p)
+		end
+	
+	end)
+	
+	Players.PlayerRemoving:Connect(function(p)
+	
+		if markers[p] then
+	
+			markers[p]:Destroy()
+			markers[p] = nil
+	
+		end
+	
+	end)
+	
+	---------------------------------------------------
+	-- INICIAR
+	---------------------------------------------------
+	
+	atualizarBotoes()
+end
+local function FQWEIQL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.clicktpButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_clicktpButton"]
@@ -2348,7 +3713,7 @@ local function UYFSEUM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	local clickTpButton = script.Parent
 	local moviFrame = clickTpButton.Parent
-	local atalhoButton = moviFrame:WaitForChild("atalhotpButton")
+	local atalhoButton = moviFrame:FindFirstChild("atalhotpButton") or clickTpButton:FindFirstChild("tecla")
 	
 	---------------------------------------------------
 	-- VARIÁVEIS
@@ -2357,27 +3722,101 @@ local function UYFSEUM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	local clickTpAtivado = false
 	local escolhendoTecla = false
 	local teclaAtalho = nil
+	local atualizandoTextoTecla = false
 	
 	---------------------------------------------------
 	-- ATUALIZAR TEXTO BOTÕES
 	---------------------------------------------------
 	
 	local function atualizarBotao()
+		if clickTpButton.Text == "" then
+			clickTpButton.Text = "Click Tp"
+		end
+	
 		if clickTpAtivado then
-			clickTpButton.Text = "Click Tp [ON]"
-			clickTpButton.TextColor3 = Color3.fromRGB(0, 255, 0)
+			clickTpButton.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
 		else
-			clickTpButton.Text = "Click Tp [OFF]"
-			clickTpButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+			clickTpButton.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
 		end
 	end
 	
 	local function atualizarAtalho()
-		if teclaAtalho then
-			atalhoButton.Text = teclaAtalho.Name
-		else
-			atalhoButton.Text = "-"
+		if atalhoButton and (atalhoButton:IsA("TextButton") or atalhoButton:IsA("TextLabel")) then
+			if teclaAtalho then
+				atalhoButton.Text = teclaAtalho.Name
+			else
+				atalhoButton.Text = "-"
+			end
+		elseif atalhoButton and atalhoButton:IsA("TextBox") then
+			if teclaAtalho then
+				atualizandoTextoTecla = true
+				atalhoButton.Text = teclaAtalho.Name
+				atualizandoTextoTecla = false
+			else
+				atualizandoTextoTecla = true
+				atalhoButton.Text = "-"
+				atualizandoTextoTecla = false
+			end
 		end
+	end
+	
+	local function obterTeclaDoTexto(texto)
+		if type(texto) ~= "string" or texto == "" then
+			return nil
+		end
+	
+		local letra = string.upper(texto:sub(1, 1))
+		if #letra ~= 1 then
+			return nil
+		end
+	
+		local codigo = string.byte(letra)
+		if (codigo >= 48 and codigo <= 57) or (codigo >= 65 and codigo <= 90) then
+			return Enum.KeyCode[letra]
+		end
+	
+		return nil
+	end
+	
+	local function confirmarTecla(keyCode)
+		if not keyCode or keyCode == Enum.KeyCode.Unknown then
+			return
+		end
+	
+		if keyCode == Enum.KeyCode.LeftShift or keyCode == Enum.KeyCode.RightShift then
+			return
+		end
+	
+		local nome = keyCode.Name
+		if #nome ~= 1 then
+			return
+		end
+	
+		local codigo = string.byte(nome)
+		if not ((codigo >= 48 and codigo <= 57) or (codigo >= 65 and codigo <= 90)) then
+			return
+		end
+	
+		if _G.HPX_Atalhos[nome] and _G.HPX_Atalhos[nome] ~= "ClickTP" then
+			if atalhoButton and atalhoButton:IsA("TextBox") then
+				atualizandoTextoTecla = true
+				atalhoButton.Text = "USADA"
+				atualizandoTextoTecla = false
+			end
+			task.delay(1.2, function()
+				atualizarAtalho()
+			end)
+			return
+		end
+	
+		if teclaAtalho then
+			_G.HPX_Atalhos[teclaAtalho.Name] = nil
+		end
+	
+		teclaAtalho = keyCode
+		_G.HPX_Atalhos[nome] = "ClickTP"
+		escolhendoTecla = false
+		atualizarAtalho()
 	end
 	
 	atualizarBotao()
@@ -2396,10 +3835,44 @@ local function UYFSEUM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	-- BOTÃO ESCOLHER TECLA
 	---------------------------------------------------
 	
-	atalhoButton.MouseButton1Click:Connect(function()
-		escolhendoTecla = true
-		atalhoButton.Text = "..."
-	end)
+	if atalhoButton then
+		if atalhoButton:IsA("TextBox") then
+			atalhoButton.TextEditable = true
+			atalhoButton.ClearTextOnFocus = false
+	
+			atalhoButton:GetPropertyChangedSignal("Text"):Connect(function()
+				if atualizandoTextoTecla then
+					return
+				end
+	
+				local texto = atalhoButton.Text or ""
+				local primeiroCaractere = string.upper(texto:sub(1, 1))
+				local tecla = obterTeclaDoTexto(primeiroCaractere)
+				local textoValido = tecla and primeiroCaractere or ""
+	
+				atualizandoTextoTecla = true
+				atalhoButton.Text = textoValido
+				atualizandoTextoTecla = false
+	
+				if tecla then
+					confirmarTecla(tecla)
+				end
+			end)
+	
+			atalhoButton.FocusLost:Connect(function()
+				if atalhoButton.Text == "" and teclaAtalho then
+					atualizandoTextoTecla = true
+					atalhoButton.Text = teclaAtalho.Name
+					atualizandoTextoTecla = false
+				end
+			end)
+		else
+			atalhoButton.MouseButton1Click:Connect(function()
+				escolhendoTecla = true
+				atalhoButton.Text = "..."
+			end)
+		end
+	end
 	
 	---------------------------------------------------
 	-- TECLADO
@@ -2418,7 +3891,9 @@ local function UYFSEUM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 				-- se a tecla já estiver usada por outro botão
 				if _G.HPX_Atalhos[teclaNova] and _G.HPX_Atalhos[teclaNova] ~= "ClickTP" then
 					escolhendoTecla = false
-					atalhoButton.Text = "USADA"
+					if atalhoButton then
+						atalhoButton.Text = "USADA"
+					end
 	
 					task.delay(1.2, function()
 						atualizarAtalho()
@@ -2485,653 +3960,7 @@ local function UYFSEUM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		)
 	end)
 end
-local function VREZW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.flyButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_flyButton"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local Players = game:GetService("Players")
-	local UserInputService = game:GetService("UserInputService")
-	local RunService = game:GetService("RunService")
-	
-	local player = Players.LocalPlayer
-	local flyButton = script.Parent
-	local movi = flyButton.Parent
-	
-	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
-	
-	local flyAtivo = false
-	local minSpeed = 10
-	local maxSpeed = 200
-	local flySpeed = 50
-	
-	local boostExtra = 0
-	local boostMaxExtra = 100
-	local boostAceleracao = 120
-	local boostVolta = 180
-	
-	local dragging = false
-	local flyConnection
-	local bodyGyro
-	local bodyVelocity
-	
-	local teclaAtual = nil
-	local escolhendoTecla = false
-	
-	local sonsOriginais = {}
-	local colisaoOriginal = {}
-	local walkSpeedOriginal = 16
-	local jumpPowerOriginal = 50
-	
-	local animacoesAntigas = {}
-	
-	local animIds = {
-		parado = "rbxassetid://98891438162132",
-		paradoCeu = "rbxassetid://88970161810732",
-		voando = "rbxassetid://135142837467260"
-	}
-	
-	local tracks = {}
-	local animAtual = nil
-	
-	flyButton.AutoButtonColor = false
-	
-	local function log(...)
-		print("[HPX FLY DEBUG]", ...)
-	end
-	
-	-- REMOVE TODAS AS ANIMAÇÕES DO PERSONAGEM
-	local function removerAnimacoesDoPersonagem(humanoid)
-		animacoesAntigas = {}
-	
-		for _, track in ipairs(humanoid:GetPlayingAnimationTracks()) do
-			table.insert(animacoesAntigas, track)
-	
-			pcall(function()
-				track:Stop(0)
-			end)
-		end
-	end
-	
-	local function desligarSomDePassos(character)
-		local root = character:FindFirstChild("HumanoidRootPart")
-		if not root then return end
-	
-		for _, obj in ipairs(root:GetChildren()) do
-			if obj:IsA("Sound") then
-				if obj.Name == "Running"
-					or obj.Name == "Run"
-					or obj.Name == "Walk" then
-	
-					sonsOriginais[obj] = obj.Volume
-					obj.Volume = 0
-					obj:Stop()
-				end
-			end
-		end
-	end
-	
-	local function ligarSomDePassos()
-		for sound, volume in pairs(sonsOriginais) do
-			if sound and sound.Parent then
-				sound.Volume = volume
-			end
-		end
-	
-		sonsOriginais = {}
-	end
-	
-	local function desligarColisao(character)
-		colisaoOriginal = {}
-	
-		for _, obj in ipairs(character:GetDescendants()) do
-			if obj:IsA("BasePart") then
-				colisaoOriginal[obj] = obj.CanCollide
-				obj.CanCollide = false
-			end
-		end
-	end
-	
-	local function restaurarColisao()
-		for part, valor in pairs(colisaoOriginal) do
-			if part and part.Parent then
-				part.CanCollide = valor
-			end
-		end
-	
-		colisaoOriginal = {}
-	end
-	
-	local function carregarAnimacoes(humanoid)
-		tracks = {}
-		animAtual = nil
-	
-		local animator = humanoid:FindFirstChildOfClass("Animator")
-	
-		if not animator then
-			animator = Instance.new("Animator")
-			animator.Parent = humanoid
-		end
-	
-		for nome, id in pairs(animIds) do
-			local anim = Instance.new("Animation")
-			anim.AnimationId = id
-	
-			local track = animator:LoadAnimation(anim)
-			track.Priority = Enum.AnimationPriority.Action4
-			track.Looped = true
-	
-			tracks[nome] = track
-		end
-	end
-	
-	local function tocarAnim(nome)
-		if animAtual == nome then
-			return
-		end
-	
-		for _, track in pairs(tracks) do
-			if track.IsPlaying then
-				track:Stop(0.1)
-			end
-		end
-	
-		if tracks[nome] then
-			tracks[nome]:Play(0.1)
-			animAtual = nome
-		end
-	end
-	
-	local function pararTodasAnimacoes()
-		for _, track in pairs(tracks) do
-			if track.IsPlaying then
-				track:Stop(0.1)
-			end
-		end
-	
-		tracks = {}
-		animAtual = nil
-	end
-	
-	local function atualizarBotao()
-		if flyAtivo then
-			flyButton.Text = "  Fly [ON]"
-			flyButton.TextColor3 = Color3.fromRGB(0,255,0)
-		else
-			flyButton.Text = "  Fly [OFF]"
-			flyButton.TextColor3 = Color3.fromRGB(255,255,255)
-		end
-	end
-	
-	local old = movi:FindFirstChild("FlyFrame")
-	
-	if old then
-		old:Destroy()
-	end
-	
-	local frame = Instance.new("Frame")
-	frame.Name = "FlyFrame"
-	frame.Size = UDim2.new(0,230,0,65)
-	frame.Position = UDim2.new(
-		0,
-		flyButton.Position.X.Offset + 450,
-		0,
-		flyButton.Position.Y.Offset + 10
-	)
-	frame.BackgroundColor3 = Color3.fromRGB(32,32,48)
-	frame.BorderSizePixel = 0
-	frame.Parent = movi
-	
-	local bindButton = Instance.new("TextButton")
-	bindButton.Name = "FlyBindButton"
-	bindButton.Size = UDim2.new(0,32,0,22)
-	bindButton.Position = UDim2.new(1,-38,0,5)
-	bindButton.BackgroundColor3 = Color3.fromRGB(32,32,48)
-	bindButton.BorderColor3 = Color3.fromRGB(140,140,160)
-	bindButton.TextColor3 = Color3.fromRGB(255,255,255)
-	bindButton.TextSize = 13
-	bindButton.Font = Enum.Font.GothamBold
-	bindButton.Text = "-"
-	bindButton.AutoButtonColor = false
-	bindButton.Parent = frame
-	
-	local title = Instance.new("TextLabel")
-	title.Size = UDim2.new(0,140,0,18)
-	title.Position = UDim2.new(0,8,0,8)
-	title.BackgroundTransparency = 1
-	title.Text = "Velocidade do Fly"
-	title.TextColor3 = Color3.fromRGB(255,255,255)
-	title.TextSize = 13
-	title.Font = Enum.Font.GothamBold
-	title.TextXAlignment = Enum.TextXAlignment.Left
-	title.Parent = frame
-	
-	local number = Instance.new("TextLabel")
-	number.Size = UDim2.new(0,42,0,20)
-	number.Position = UDim2.new(1,-47,0,37)
-	number.BackgroundColor3 = Color3.fromRGB(24,24,36)
-	number.BorderColor3 = Color3.fromRGB(140,140,160)
-	number.TextColor3 = Color3.fromRGB(120,160,255)
-	number.TextSize = 16
-	number.Font = Enum.Font.GothamBold
-	number.Text = tostring(flySpeed)
-	number.Parent = frame
-	
-	local bar = Instance.new("Frame")
-	bar.Size = UDim2.new(1,-65,0,5)
-	bar.Position = UDim2.new(0,10,1,-18)
-	bar.BackgroundColor3 = Color3.fromRGB(45,45,60)
-	bar.BorderSizePixel = 0
-	bar.Active = true
-	bar.Parent = frame
-	
-	local fill = Instance.new("Frame")
-	fill.Size = UDim2.new(0,0,1,0)
-	fill.BackgroundColor3 = Color3.fromRGB(90,130,255)
-	fill.BorderSizePixel = 0
-	fill.Parent = bar
-	
-	local ball = Instance.new("TextButton")
-	ball.Size = UDim2.new(0,14,0,14)
-	ball.AnchorPoint = Vector2.new(0.5,0.5)
-	ball.Position = UDim2.new(0,0,0.5,0)
-	ball.BackgroundColor3 = Color3.fromRGB(255,255,255)
-	ball.BorderSizePixel = 0
-	ball.Text = ""
-	ball.Active = true
-	ball.AutoButtonColor = false
-	ball.Parent = bar
-	
-	local function atualizarBind()
-		bindButton.Text = teclaAtual and teclaAtual.Name or "-"
-	end
-	
-	local function atualizarBarra()
-		local percent = (flySpeed - minSpeed) / (maxSpeed - minSpeed)
-	
-		fill.Size = UDim2.new(percent,0,1,0)
-		ball.Position = UDim2.new(percent,0,0.5,0)
-	
-		number.Text = tostring(math.floor(flySpeed + boostExtra))
-	end
-	
-	local function setSpeedFromMouse()
-		local mouseX = UserInputService:GetMouseLocation().X
-		local barX = bar.AbsolutePosition.X
-		local barSize = bar.AbsoluteSize.X
-	
-		local percent = math.clamp(
-			(mouseX - barX) / barSize,
-			0,
-			1
-		)
-	
-		flySpeed = math.floor(
-			minSpeed + (maxSpeed - minSpeed) * percent
-		)
-	
-		atualizarBarra()
-	end
-	
-	bar.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 then
-			dragging = true
-			setSpeedFromMouse()
-		end
-	end)
-	
-	ball.MouseButton1Down:Connect(function()
-		dragging = true
-	end)
-	
-	UserInputService.InputEnded:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 then
-			dragging = false
-		end
-	end)
-	
-	RunService.RenderStepped:Connect(function()
-		if dragging then
-			setSpeedFromMouse()
-		end
-	end)
-	
-	local function criarCFrameVoo(pos, direcao)
-		if direcao.Magnitude < 0.1 then
-			direcao = workspace.CurrentCamera.CFrame.LookVector
-		end
-	
-		direcao = direcao.Unit
-	
-		local base = CFrame.lookAt(pos, pos + direcao)
-		local inclinacaoExtra = math.rad(-15)
-	
-		return base * CFrame.Angles(inclinacaoExtra,0,0)
-	end
-	
-	local function criarCFrameParado(pos)
-		local camera = workspace.CurrentCamera
-		local look = camera.CFrame.LookVector
-	
-		local flat = Vector3.new(look.X,0,look.Z)
-	
-		if flat.Magnitude < 0.1 then
-			flat = Vector3.new(0,0,-1)
-		end
-	
-		flat = flat.Unit
-	
-		return CFrame.lookAt(pos,pos + flat)
-	end
-	
-	local function ligarFly()
-		log("========== LIGANDO FLY ==========")
-	
-		local character = player.Character or player.CharacterAdded:Wait()
-		local root = character:WaitForChild("HumanoidRootPart")
-		local humanoid = character:WaitForChild("Humanoid")
-	
-		-- REMOVE TODAS AS ANIMAÇÕES
-		removerAnimacoesDoPersonagem(humanoid)
-	
-		walkSpeedOriginal = humanoid.WalkSpeed
-		jumpPowerOriginal = humanoid.JumpPower
-	
-		desligarSomDePassos(character)
-		desligarColisao(character)
-	
-		local animate = character:FindFirstChild("Animate")
-	
-		if animate then
-			animate.Disabled = true
-		end
-	
-		carregarAnimacoes(humanoid)
-		tocarAnim("paradoCeu")
-	
-		humanoid.PlatformStand = false
-		humanoid.AutoRotate = false
-		humanoid.WalkSpeed = 0
-		humanoid.JumpPower = 0
-	
-		humanoid:ChangeState(Enum.HumanoidStateType.Freefall)
-	
-		if bodyGyro then
-			bodyGyro:Destroy()
-		end
-	
-		if bodyVelocity then
-			bodyVelocity:Destroy()
-		end
-	
-		bodyGyro = Instance.new("BodyGyro")
-		bodyGyro.Name = "HPX_FlyGyro"
-		bodyGyro.P = 999999
-		bodyGyro.D = 80
-		bodyGyro.MaxTorque = Vector3.new(
-			9999999999,
-			9999999999,
-			9999999999
-		)
-		bodyGyro.CFrame = root.CFrame
-		bodyGyro.Parent = root
-	
-		bodyVelocity = Instance.new("BodyVelocity")
-		bodyVelocity.Name = "HPX_FlyVelocity"
-		bodyVelocity.MaxForce = Vector3.new(
-			9999999999,
-			9999999999,
-			9999999999
-		)
-		bodyVelocity.P = 999999
-		bodyVelocity.Velocity = Vector3.zero
-		bodyVelocity.Parent = root
-	
-		if flyConnection then
-			flyConnection:Disconnect()
-		end
-	
-		flyConnection = RunService.RenderStepped:Connect(function(dt)
-			if not flyAtivo then return end
-			if not character.Parent then return end
-			if not root.Parent then return end
-			if not bodyGyro or not bodyVelocity then return end
-	
-			local camera = workspace.CurrentCamera
-			local move = Vector3.zero
-	
-			local segurandoCtrl =
-				UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)
-				or UserInputService:IsKeyDown(Enum.KeyCode.RightControl)
-	
-			if segurandoCtrl then
-				boostExtra = math.clamp(
-					boostExtra + boostAceleracao * dt,
-					0,
-					boostMaxExtra
-				)
-			else
-				boostExtra = math.clamp(
-					boostExtra - boostVolta * dt,
-					0,
-					boostMaxExtra
-				)
-			end
-	
-			if UserInputService:IsKeyDown(Enum.KeyCode.W) then
-				move += camera.CFrame.LookVector
-			end
-	
-			if UserInputService:IsKeyDown(Enum.KeyCode.S) then
-				move -= camera.CFrame.LookVector
-			end
-	
-			if UserInputService:IsKeyDown(Enum.KeyCode.A) then
-				move -= camera.CFrame.RightVector
-			end
-	
-			if UserInputService:IsKeyDown(Enum.KeyCode.D) then
-				move += camera.CFrame.RightVector
-			end
-	
-			if UserInputService:IsKeyDown(Enum.KeyCode.Space) then
-				move += Vector3.new(0,1,0)
-			end
-	
-			if UserInputService:IsKeyDown(Enum.KeyCode.Q) then
-				move -= Vector3.new(0,1,0)
-			end
-	
-			root.AssemblyAngularVelocity = Vector3.zero
-	
-			local velocidadeAtual = flySpeed + boostExtra
-	
-			if move.Magnitude > 0 then
-				move = move.Unit
-	
-				bodyVelocity.Velocity = move * velocidadeAtual
-	
-				tocarAnim("voando")
-	
-				local target = criarCFrameVoo(
-					root.Position,
-					move
-				)
-	
-				bodyGyro.CFrame = target
-			else
-				bodyVelocity.Velocity = Vector3.zero
-	
-				tocarAnim("paradoCeu")
-	
-				local target = criarCFrameParado(root.Position)
-	
-				bodyGyro.CFrame = target
-			end
-	
-			atualizarBarra()
-		end)
-	
-		log("========== FLY LIGADO ==========")
-	end
-	
-	local function desligarFly()
-		log("========== DESLIGANDO FLY ==========")
-	
-		if flyConnection then
-			flyConnection:Disconnect()
-			flyConnection = nil
-		end
-	
-		if bodyGyro then
-			bodyGyro:Destroy()
-			bodyGyro = nil
-		end
-	
-		if bodyVelocity then
-			bodyVelocity:Destroy()
-			bodyVelocity = nil
-		end
-	
-		boostExtra = 0
-	
-		pararTodasAnimacoes()
-	
-		animacoesAntigas = {}
-	
-		ligarSomDePassos()
-		restaurarColisao()
-	
-		local character = player.Character
-	
-		if character then
-			local humanoid = character:FindFirstChildOfClass("Humanoid")
-			local root = character:FindFirstChild("HumanoidRootPart")
-	
-			if humanoid then
-				humanoid.AutoRotate = true
-				humanoid.WalkSpeed = walkSpeedOriginal
-				humanoid.JumpPower = jumpPowerOriginal
-	
-				humanoid:ChangeState(
-					Enum.HumanoidStateType.GettingUp
-				)
-			end
-	
-			if root then
-				root.AssemblyLinearVelocity = Vector3.zero
-				root.AssemblyAngularVelocity = Vector3.zero
-			end
-	
-			local animate = character:FindFirstChild("Animate")
-	
-			if animate then
-				animate.Disabled = false
-			end
-		end
-	
-		atualizarBarra()
-	
-		log("========== FLY DESLIGADO ==========")
-	end
-	
-	local function toggleFly()
-		flyAtivo = not flyAtivo
-	
-		if flyAtivo then
-			ligarFly()
-		else
-			desligarFly()
-		end
-	
-		atualizarBotao()
-	end
-	
-	flyButton.MouseButton1Click:Connect(toggleFly)
-	
-	bindButton.MouseButton1Click:Connect(function()
-		escolhendoTecla = true
-		bindButton.Text = "..."
-	
-		task.delay(5,function()
-			if escolhendoTecla then
-				escolhendoTecla = false
-				atualizarBind()
-			end
-		end)
-	end)
-	
-	UserInputService.InputBegan:Connect(function(input, gameProcessed)
-		if gameProcessed then
-			return
-		end
-	
-		if escolhendoTecla then
-			if input.UserInputType == Enum.UserInputType.Keyboard
-				and input.KeyCode ~= Enum.KeyCode.Unknown then
-	
-				local teclaNova = input.KeyCode.Name
-	
-				if _G.HPX_Atalhos[teclaNova]
-					and _G.HPX_Atalhos[teclaNova] ~= "FLY" then
-	
-					escolhendoTecla = false
-					bindButton.Text = "USADA"
-	
-					task.delay(1.2,function()
-						atualizarBind()
-					end)
-	
-					return
-				end
-	
-				if teclaAtual then
-					_G.HPX_Atalhos[teclaAtual.Name] = nil
-				end
-	
-				teclaAtual = input.KeyCode
-				_G.HPX_Atalhos[teclaNova] = "FLY"
-	
-				escolhendoTecla = false
-	
-				atualizarBind()
-			end
-	
-			return
-		end
-	
-		if teclaAtual
-			and input.UserInputType == Enum.UserInputType.Keyboard then
-	
-			if input.KeyCode == teclaAtual then
-				toggleFly()
-			end
-		end
-	end)
-	
-	player.CharacterAdded:Connect(function()
-		if flyAtivo then
-			flyAtivo = false
-			atualizarBotao()
-			desligarFly()
-		end
-	end)
-	
-	atualizarBotao()
-	atualizarBind()
-	atualizarBarra()
-	
-	log("Script Fly carregado")
-end
-local function RWECLK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.vampiro.LocalScript
+local function ZZVT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.vampiro.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_vampiro"]
@@ -3183,7 +4012,7 @@ local function RWECLK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function IOAG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.zumbie.LocalScript
+local function RWNHV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.zumbie.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_zumbie"]
@@ -3235,7 +4064,7 @@ local function IOAG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function JIYDGO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.adidas.LocalScript
+local function GBWSISP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.adidas.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_adidas"]
@@ -3287,7 +4116,7 @@ local function JIYDGO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function TDBEHD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Bolhoso.LocalScript
+local function GOFKF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Bolhoso.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Bolhoso"]
@@ -3367,7 +4196,7 @@ local function TDBEHD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function KFTX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.ninja.LocalScript
+local function GPTKDF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.ninja.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_ninja"]
@@ -3438,7 +4267,7 @@ local function KFTX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function TXJLQBB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.lobo.LocalScript
+local function FBCOU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.lobo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_lobo"]
@@ -3509,7 +4338,7 @@ local function TXJLQBB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function WQZBR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.mago.LocalScript
+local function ADXVK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.mago.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_mago"]
@@ -3596,7 +4425,7 @@ local function WQZBR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function LMLCCG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.levitar.LocalScript
+local function EYLMDZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.levitar.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_levitar"]
@@ -3667,7 +4496,7 @@ local function LMLCCG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function AQLTIRW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.cartoon.LocalScript
+local function YFCIYL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.cartoon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_cartoon"]
@@ -3738,7 +4567,7 @@ local function AQLTIRW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function TFWF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.amazon.LocalScript
+local function UESGNIX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.amazon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_amazon"]
@@ -3824,7 +4653,7 @@ local function TFWF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function BZULUQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.astronauta.LocalScript
+local function CDTHFJX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.astronauta.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_astronauta"]
@@ -3910,7 +4739,93 @@ local function BZULUQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function NTARSZU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.antiga.LocalScript
+local function HYMRAKN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_superhero"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	
+	-- PIRATE ANIMATION PACKAGE
+	local PIRATE = {
+		Idle1 = "rbxassetid://750781874",
+		Idle2 = "rbxassetid://750782770",
+	
+		Walk = "rbxassetid://750785693",
+		Run = "rbxassetid://750783738",
+	
+		Jump = "rbxassetid://750782230",
+		Fall = "rbxassetid://750780242",
+	
+		Climb = "rbxassetid://750779899",
+	
+		Swim = "rbxassetid://750784579",
+		SwimIdle = "rbxassetid://750785176"
+	}
+	
+	local function setAnim(animObj, id)
+		if animObj and id ~= "" then
+			animObj.AnimationId = id
+		end
+	end
+	
+	local function pararAnimacoes(humanoid)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			track:Stop()
+		end
+	end
+	
+	local function aplicarAnimacao()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:WaitForChild("Humanoid")
+		local animate = character:WaitForChild("Animate")
+	
+		pararAnimacoes(humanoid)
+	
+		-- IDLE
+		setAnim(animate.idle.Animation1, PIRATE.Idle1)
+		setAnim(animate.idle.Animation2, PIRATE.Idle2)
+	
+		-- MOVIMENTO
+		setAnim(animate.walk.WalkAnim, PIRATE.Walk)
+		setAnim(animate.run.RunAnim, PIRATE.Run)
+	
+		-- PULO / QUEDA
+		setAnim(animate.jump.JumpAnim, PIRATE.Jump)
+		setAnim(animate.fall.FallAnim, PIRATE.Fall)
+	
+		-- ESCALAR
+		setAnim(animate.climb.ClimbAnim, PIRATE.Climb)
+	
+		-- NADAR
+		setAnim(animate.swim.Swim, PIRATE.Swim)
+		setAnim(animate.swimidle.SwimIdle, PIRATE.SwimIdle)
+	
+		-- REINICIA AS ANIMAÇÕES
+		animate.Disabled = true
+		task.wait(0.2)
+		animate.Disabled = false
+	
+		-- FORÇA ATUALIZAÇÃO
+		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+		task.wait(0.1)
+		humanoid:ChangeState(Enum.HumanoidStateType.Running)
+	end
+	
+	button.MouseButton1Click:Connect(aplicarAnimacao)
+end
+local function SWGT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.antiga.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_antiga"]
@@ -3989,7 +4904,7 @@ local function NTARSZU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function QFSIF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Estileira.LocalScript
+local function YXUQB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Estileira.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Estileira"]
@@ -4068,7 +4983,7 @@ local function QFSIF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function FWCHZV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Robô.LocalScript
+local function VORWMS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Robô.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Robô"]
@@ -4147,7 +5062,7 @@ local function FWCHZV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function ZLQB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Elf.LocalScript
+local function FDOCSCV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Elf.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Elf"]
@@ -4226,7 +5141,7 @@ local function ZLQB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function EIDJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Velho.LocalScript
+local function EFKXKVY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Velho.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Velho"]
@@ -4310,7 +5225,7 @@ local function EIDJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function KETYA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Walmart.LocalScript
+local function LTHO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Walmart.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Walmart"]
@@ -4390,7 +5305,7 @@ local function KETYA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 	
 end
-local function KURSF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.malvada.LocalScript
+local function LFCXI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.malvada.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_malvada"]
@@ -4468,7 +5383,7 @@ local function KURSF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function ZZWIRMA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Brinquedo.LocalScript
+local function CGYJDC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Brinquedo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Brinquedo"]
@@ -4555,10 +5470,10 @@ local function ZZWIRMA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function YZEB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
+local function JFEKI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
-    script.Parent = Converted["_superhero"]
+    script.Parent = Converted["_superhero1"]
     local req = require
     local require = function(obj)
         local fake = fake_module_scripts[obj]
@@ -4605,1385 +5520,4 @@ local function YZEB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	local function aplicarAnimacao()
 		local character = player.Character or player.CharacterAdded:Wait()
 		local humanoid = character:WaitForChild("Humanoid")
-		local animate = character:WaitForChild("Animate")
-	
-		pararAnimacoes(humanoid)
-	
-		setAnim(animate.idle.Animation1, SUPERHERO.Idle1)
-		setAnim(animate.idle.Animation2, SUPERHERO.Idle2)
-	
-		setAnim(animate.walk.WalkAnim, SUPERHERO.Walk)
-		setAnim(animate.run.RunAnim, SUPERHERO.Run)
-	
-		setAnim(animate.jump.JumpAnim, SUPERHERO.Jump)
-		setAnim(animate.fall.FallAnim, SUPERHERO.Fall)
-	
-		setAnim(animate.climb.ClimbAnim, SUPERHERO.Climb)
-	
-		setAnim(animate.swim.Swim, SUPERHERO.Swim)
-		setAnim(animate.swimidle.SwimIdle, SUPERHERO.SwimIdle)
-	
-		animate.Disabled = true
-		task.wait(0.2)
-		animate.Disabled = false
-	
-		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-		task.wait(0.1)
-		humanoid:ChangeState(Enum.HumanoidStateType.Running)
-	end
-	
-	button.MouseButton1Click:Connect(aplicarAnimacao)
-end
-local function KTTC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Through Life.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_Through Life"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local Players = game:GetService("Players")
-	
-	local player = Players.LocalPlayer
-	local button = script.Parent
-	
-	-- WICKED DANCING THROUGH LIFE
-	local WICKED = {
-		Idle1 = "",
-		Idle2 = "",
-	
-		Walk = "",
-		Run = "",
-	
-		Jump = "",
-		Fall = "",
-	
-		Climb = "",
-	
-		Swim = "",
-		SwimIdle = ""
-	}
-	
-	local function setAnim(animObj, id)
-		if animObj and id and id ~= "" then
-			animObj.AnimationId = id
-		end
-	end
-	
-	local function pararAnimacoes(humanoid)
-		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
-			track:Stop()
-		end
-	end
-	
-	local function aplicarAnimacao()
-		local character = player.Character or player.CharacterAdded:Wait()
-		local humanoid = character:WaitForChild("Humanoid")
-		local animate = character:WaitForChild("Animate")
-	
-		pararAnimacoes(humanoid)
-	
-		setAnim(animate.idle.Animation1, WICKED.Idle1)
-		setAnim(animate.idle.Animation2, WICKED.Idle2)
-	
-		setAnim(animate.walk.WalkAnim, WICKED.Walk)
-		setAnim(animate.run.RunAnim, WICKED.Run)
-	
-		setAnim(animate.jump.JumpAnim, WICKED.Jump)
-		setAnim(animate.fall.FallAnim, WICKED.Fall)
-	
-		setAnim(animate.climb.ClimbAnim, WICKED.Climb)
-	
-		setAnim(animate.swim.Swim, WICKED.Swim)
-		setAnim(animate.swimidle.SwimIdle, WICKED.SwimIdle)
-	
-		animate.Disabled = true
-		task.wait(0.2)
-		animate.Disabled = false
-	
-		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-		task.wait(0.1)
-		humanoid:ChangeState(Enum.HumanoidStateType.Running)
-	end
-	
-	button.MouseButton1Click:Connect(aplicarAnimacao)
-end
-local function UDBRIID_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_superhero1"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local Players = game:GetService("Players")
-	
-	local player = Players.LocalPlayer
-	local button = script.Parent
-	
-	-- BILLIE EILISH ANIMATION PACK
-	local BILLIE = {
-		Idle1 = "",
-		Idle2 = "",
-	
-		Walk = "",
-		Run = "",
-	
-		Jump = "",
-		Fall = "",
-	
-		Climb = "",
-	
-		Swim = "",
-		SwimIdle = ""
-	}
-	
-	local function setAnim(animObj, id)
-		if animObj and id and id ~= "" then
-			animObj.AnimationId = id
-		end
-	end
-	
-	local function pararAnimacoes(humanoid)
-		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
-			track:Stop()
-		end
-	end
-	
-	local function aplicarAnimacao()
-		local character = player.Character or player.CharacterAdded:Wait()
-		local humanoid = character:WaitForChild("Humanoid")
-		local animate = character:WaitForChild("Animate")
-	
-		pararAnimacoes(humanoid)
-	
-		setAnim(animate.idle.Animation1, BILLIE.Idle1)
-		setAnim(animate.idle.Animation2, BILLIE.Idle2)
-	
-		setAnim(animate.walk.WalkAnim, BILLIE.Walk)
-		setAnim(animate.run.RunAnim, BILLIE.Run)
-	
-		setAnim(animate.jump.JumpAnim, BILLIE.Jump)
-		setAnim(animate.fall.FallAnim, BILLIE.Fall)
-	
-		setAnim(animate.climb.ClimbAnim, BILLIE.Climb)
-	
-		setAnim(animate.swim.Swim, BILLIE.Swim)
-		setAnim(animate.swimidle.SwimIdle, BILLIE.SwimIdle)
-	
-		animate.Disabled = true
-		task.wait(0.2)
-		animate.Disabled = false
-	
-		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-		task.wait(0.1)
-		humanoid:ChangeState(Enum.HumanoidStateType.Running)
-	end
-	
-	button.MouseButton1Click:Connect(aplicarAnimacao)
-end
-local function KVUKHM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Glow.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_Glow"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local Players = game:GetService("Players")
-	
-	local player = Players.LocalPlayer
-	local button = script.Parent
-	
-	-- GLOW MOTION ANIMATION PACK
-	-- IDs ainda precisam ser pegos no Animate do Studio
-	local GLOW = {
-		Idle1 = "",
-		Idle2 = "",
-	
-		Walk = "",
-		Run = "",
-	
-		Jump = "",
-		Fall = "",
-	
-		Climb = "",
-	
-		Swim = "",
-		SwimIdle = ""
-	}
-	
-	local function setAnim(animObj, id)
-		if animObj and id and id ~= "" then
-			animObj.AnimationId = id
-		end
-	end
-	
-	local function pararAnimacoes(humanoid)
-		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
-			track:Stop()
-		end
-	end
-	
-	local function aplicarAnimacao()
-		local character = player.Character or player.CharacterAdded:Wait()
-		local humanoid = character:WaitForChild("Humanoid")
-		local animate = character:WaitForChild("Animate")
-	
-		pararAnimacoes(humanoid)
-	
-		setAnim(animate.idle.Animation1, GLOW.Idle1)
-		setAnim(animate.idle.Animation2, GLOW.Idle2)
-	
-		setAnim(animate.walk.WalkAnim, GLOW.Walk)
-		setAnim(animate.run.RunAnim, GLOW.Run)
-	
-		setAnim(animate.jump.JumpAnim, GLOW.Jump)
-		setAnim(animate.fall.FallAnim, GLOW.Fall)
-	
-		setAnim(animate.climb.ClimbAnim, GLOW.Climb)
-	
-		setAnim(animate.swim.Swim, GLOW.Swim)
-		setAnim(animate.swimidle.SwimIdle, GLOW.SwimIdle)
-	
-		animate.Disabled = true
-		task.wait(0.2)
-		animate.Disabled = false
-	
-		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-		task.wait(0.1)
-		humanoid:ChangeState(Enum.HumanoidStateType.Running)
-	end
-	
-	button.MouseButton1Click:Connect(aplicarAnimacao)
-end
-local function NSOTMB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_superhero2"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local Players = game:GetService("Players")
-	
-	local player = Players.LocalPlayer
-	local button = script.Parent
-	
-	-- PIRATE ANIMATION PACKAGE
-	local PIRATE = {
-		Idle1 = "rbxassetid://750781874",
-		Idle2 = "rbxassetid://750782770",
-	
-		Walk = "rbxassetid://750785693",
-		Run = "rbxassetid://750783738",
-	
-		Jump = "rbxassetid://750782230",
-		Fall = "rbxassetid://750780242",
-	
-		Climb = "rbxassetid://750779899",
-	
-		Swim = "rbxassetid://750784579",
-		SwimIdle = "rbxassetid://750785176"
-	}
-	
-	local function setAnim(animObj, id)
-		if animObj and id ~= "" then
-			animObj.AnimationId = id
-		end
-	end
-	
-	local function pararAnimacoes(humanoid)
-		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
-			track:Stop()
-		end
-	end
-	
-	local function aplicarAnimacao()
-		local character = player.Character or player.CharacterAdded:Wait()
-		local humanoid = character:WaitForChild("Humanoid")
-		local animate = character:WaitForChild("Animate")
-	
-		pararAnimacoes(humanoid)
-	
-		-- IDLE
-		setAnim(animate.idle.Animation1, PIRATE.Idle1)
-		setAnim(animate.idle.Animation2, PIRATE.Idle2)
-	
-		-- MOVIMENTO
-		setAnim(animate.walk.WalkAnim, PIRATE.Walk)
-		setAnim(animate.run.RunAnim, PIRATE.Run)
-	
-		-- PULO / QUEDA
-		setAnim(animate.jump.JumpAnim, PIRATE.Jump)
-		setAnim(animate.fall.FallAnim, PIRATE.Fall)
-	
-		-- ESCALAR
-		setAnim(animate.climb.ClimbAnim, PIRATE.Climb)
-	
-		-- NADAR
-		setAnim(animate.swim.Swim, PIRATE.Swim)
-		setAnim(animate.swimidle.SwimIdle, PIRATE.SwimIdle)
-	
-		-- REINICIA AS ANIMAÇÕES
-		animate.Disabled = true
-		task.wait(0.2)
-		animate.Disabled = false
-	
-		-- FORÇA ATUALIZAÇÃO
-		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-		task.wait(0.1)
-		humanoid:ChangeState(Enum.HumanoidStateType.Running)
-	end
-	
-	button.MouseButton1Click:Connect(aplicarAnimacao)
-end
-local function UYDO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.fungoButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_fungoButton"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local Players = game:GetService("Players")
-	local RunService = game:GetService("RunService")
-	
-	local player = Players.LocalPlayer
-	
-	local NOMES_PARECIDOS = {
-		"mushroom",
-		"cogumelo",
-		"cog",
-		"fungo"
-	}
-	
-	local VELOCIDADE_VOO = 75
-	local ALTURA_VOO = 6
-	local DISTANCIA_COLETA = 5
-	local ESPERA_ENTRE_ITENS = 0.4
-	local TEMPO_CONFIRMAR_COLETA = 2
-	
-	local TAMANHO_MAXIMO_COGUMELO = 4
-	
-	local coletando = false
-	local falhas = {}
-	local noclipAtivo = false
-	
-	if _G.autofarmaAtivo == nil then
-		_G.autofarmaAtivo = false
-	end
-	
-	local function ativarNoclip(valor)
-		noclipAtivo = valor
-	end
-	
-	RunService.Stepped:Connect(function()
-		if not noclipAtivo then return end
-	
-		local char = player.Character
-		if not char then return end
-	
-		for _, obj in ipairs(char:GetDescendants()) do
-			if obj:IsA("BasePart") then
-				obj.CanCollide = false
-			end
-		end
-	end)
-	
-	local function nomePareceCogumelo(nome)
-		nome = string.lower(nome)
-	
-		for _, palavra in ipairs(NOMES_PARECIDOS) do
-			if string.find(nome, palavra) then
-				return true
-			end
-		end
-	
-		return false
-	end
-	
-	local function pegarPart(item)
-		if item:IsA("BasePart") then
-			return item
-		end
-	
-		if item:IsA("Model") then
-			return item.PrimaryPart or item:FindFirstChildWhichIsA("BasePart", true)
-		end
-	
-		return nil
-	end
-	
-	local function pegarTamanhoReal(item, part)
-		if item:IsA("Model") then
-			local _, size = item:GetBoundingBox()
-			return math.max(size.X, size.Y, size.Z)
-		end
-	
-		return math.max(part.Size.X, part.Size.Y, part.Size.Z)
-	end
-	
-	local function cogumeloEhPequeno(item, part)
-		return pegarTamanhoReal(item, part) <= TAMANHO_MAXIMO_COGUMELO
-	end
-	
-	local function acharPrompt(item, part)
-		local prompt = part:FindFirstChildOfClass("ProximityPrompt")
-	
-		if not prompt then
-			prompt = item:FindFirstChildWhichIsA("ProximityPrompt", true)
-		end
-	
-		return prompt
-	end
-	
-	local function itemFoiColetado(item, prompt)
-		if not item or not item.Parent then
-			return true
-		end
-	
-		if prompt and not prompt.Enabled then
-			return true
-		end
-	
-		if item:GetAttribute("Coletado") == true then
-			return true
-		end
-	
-		if item:GetAttribute("Collected") == true then
-			return true
-		end
-	
-		return false
-	end
-	
-	local function acharMaisPerto()
-		local char = player.Character
-		if not char then return nil end
-	
-		local hrp = char:FindFirstChild("HumanoidRootPart")
-		if not hrp then return nil end
-	
-		local melhorItem = nil
-		local melhorPart = nil
-		local menorDistancia = math.huge
-	
-		for _, obj in ipairs(workspace:GetDescendants()) do
-			if nomePareceCogumelo(obj.Name) then
-				local part = pegarPart(obj)
-	
-				if part and part.Parent and cogumeloEhPequeno(obj, part) then
-					local prompt = acharPrompt(obj, part)
-	
-					if prompt and prompt.Enabled and not itemFoiColetado(obj, prompt) then
-						local distancia = (hrp.Position - part.Position).Magnitude
-	
-						if distancia < menorDistancia then
-							menorDistancia = distancia
-							melhorItem = obj
-							melhorPart = part
-						end
-					end
-				end
-			end
-		end
-	
-		return melhorItem, melhorPart
-	end
-	
-	local function getChar()
-		local char = player.Character
-		if not char then return nil end
-	
-		local hrp = char:FindFirstChild("HumanoidRootPart")
-		local humanoid = char:FindFirstChildOfClass("Humanoid")
-	
-		if not hrp or not humanoid then
-			return nil
-		end
-	
-		return char, hrp, humanoid
-	end
-	
-	local function prepararVoo()
-		local char, hrp, humanoid = getChar()
-		if not char then return nil end
-	
-		ativarNoclip(true)
-	
-		humanoid.PlatformStand = true
-		hrp.Anchored = true
-		hrp.AssemblyLinearVelocity = Vector3.zero
-		hrp.AssemblyAngularVelocity = Vector3.zero
-	
-		return char, hrp, humanoid
-	end
-	
-	local function pararFlutuar()
-		local char, hrp, humanoid = getChar()
-		if not char then return end
-	
-		hrp.AssemblyLinearVelocity = Vector3.zero
-		hrp.AssemblyAngularVelocity = Vector3.zero
-		hrp.Anchored = false
-	
-		humanoid.PlatformStand = false
-		humanoid:ChangeState(Enum.HumanoidStateType.GettingUp)
-	
-		ativarNoclip(false)
-	end
-	
-	local function voarAte(part)
-		local char, hrp, humanoid = prepararVoo()
-		if not char then return false end
-	
-		while part and part.Parent do
-			local destino = part.Position + Vector3.new(0, ALTURA_VOO, 0)
-			local direcao = destino - hrp.Position
-			local distancia = direcao.Magnitude
-	
-			if distancia <= DISTANCIA_COLETA then
-				break
-			end
-	
-			local delta = RunService.Heartbeat:Wait()
-			local passo = direcao.Unit * math.min(VELOCIDADE_VOO * delta, distancia)
-	
-			hrp.CFrame = CFrame.new(hrp.Position + passo, part.Position)
-		end
-	
-		return true
-	end
-	
-	local function colocarNoChaoPerto(part)
-		local char, hrp, humanoid = getChar()
-		if not char then return end
-	
-		local pos = part.Position
-		local direcao = (hrp.Position - pos)
-	
-		if direcao.Magnitude < 1 then
-			direcao = Vector3.new(3, 0, 0)
-		end
-	
-		direcao = Vector3.new(direcao.X, 0, direcao.Z).Unit
-	
-		local posicaoPerto = pos + direcao * 3 + Vector3.new(0, 3, 0)
-	
-		hrp.CFrame = CFrame.new(posicaoPerto, pos)
-	
-		pararFlutuar()
-	
-		task.wait(0.35)
-	end
-	
-	local function confirmarColeta(item, prompt)
-		local inicio = tick()
-	
-		while tick() - inicio < TEMPO_CONFIRMAR_COLETA do
-			if itemFoiColetado(item, prompt) then
-				return true
-			end
-	
-			task.wait(0.1)
-		end
-	
-		return itemFoiColetado(item, prompt)
-	end
-	
-	local function coletar(item, part)
-		local prompt = acharPrompt(item, part)
-	
-		if not prompt then
-			return
-		end
-	
-		prompt.RequiresLineOfSight = false
-		prompt.MaxActivationDistance = 20
-	
-		colocarNoChaoPerto(part)
-	
-		task.wait(0.2)
-	
-		prompt:InputHoldBegin()
-		task.wait(prompt.HoldDuration + 0.5)
-		prompt:InputHoldEnd()
-	
-		local coletou = confirmarColeta(item, prompt)
-	
-		if coletou then
-			return
-		else
-			falhas[item] = (falhas[item] or 0) + 1
-			if falhas[item] >= 3 then
-				return
-			end
-		end
-	end
-	
-	task.spawn(function()
-		while true do
-			task.wait(ESPERA_ENTRE_ITENS)
-	
-			if not _G.autofarmaAtivo then
-				task.wait(0.1)
-				continue
-			end
-	
-			if not coletando then
-				coletando = true
-	
-				local item, part = acharMaisPerto()
-	
-				if item and part then
-					voarAte(part)
-					task.wait(0.1)
-	
-					if part and part.Parent then
-						coletar(item, part)
-					end
-				else
-					pararFlutuar()
-					task.wait(2)
-				end
-	
-				coletando = false
-			end
-		end
-	end)
-end
-local function FPENGI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.fungoButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_fungoButton"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	-- Escript do botão Cogumelo
-	local button = script.Parent
-	
-	-- Inicializa global
-	if _G.autofarmaAtivo == nil then
-		_G.autofarmaAtivo = false
-	end
-	
-	-- Conecta ao clique
-	button.MouseButton1Click:Connect(function()
-		_G.autofarmaAtivo = not _G.autofarmaAtivo
-	
-		-- Atualiza a cor do botão
-		if _G.autofarmaAtivo then
-			button.BackgroundColor3 = Color3.fromRGB(50, 200, 50)
-			button.Text = "cogumelo ÖN"
-		else
-			button.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
-			button.Text = "cogumelo"
-		end
-	end)
-	
-	-- Mostra estado inicial
-	if _G.autofarmaAtivo then
-		button.BackgroundColor3 = Color3.fromRGB(50, 200, 50)
-		button.Text = "cogumelo ÖN"
-	else
-		button.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
-		button.Text = "cogumelo"
-	end
-end
-local function JROEA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_stalker"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local Players = game:GetService("Players")
-	
-	local localPlayer = Players.LocalPlayer
-	local stalkerFrame = script.Parent
-	
-	local playerSelecionado = nil
-	local itemSelecionado = nil
-	
-	local playerSelecionadoValue = stalkerFrame:FindFirstChild("PlayerSelecionado")
-	
-	if not playerSelecionadoValue then
-		playerSelecionadoValue = Instance.new("StringValue")
-		playerSelecionadoValue.Name = "PlayerSelecionado"
-		playerSelecionadoValue.Parent = stalkerFrame
-	end
-	
-	local textBox = stalkerFrame:WaitForChild("TextBox")
-	
-	local areaLista = Instance.new("Frame")
-	areaLista.Name = "AreaListaPlayers"
-	areaLista.Parent = stalkerFrame
-	areaLista.Size = UDim2.new(0, 517, 0, 241)
-	areaLista.Position = UDim2.new(0, 177, 0, 117)
-	areaLista.BackgroundColor3 = Color3.fromRGB(13, 13, 20)
-	areaLista.BackgroundTransparency = 0.5
-	areaLista.BorderSizePixel = 0
-	areaLista.ClipsDescendants = true
-	
-	local scrolling = Instance.new("ScrollingFrame")
-	scrolling.Name = "ListaPlayers"
-	scrolling.Parent = areaLista
-	scrolling.Size = UDim2.new(1, -10, 1, -10)
-	scrolling.Position = UDim2.new(0, 5, 0, 5)
-	scrolling.BackgroundTransparency = 1
-	scrolling.BorderSizePixel = 0
-	scrolling.ScrollBarThickness = 6
-	scrolling.CanvasSize = UDim2.new(0, 0, 0, 0)
-	
-	local padding = Instance.new("UIPadding")
-	padding.Parent = scrolling
-	padding.PaddingLeft = UDim.new(0, 20)
-	
-	local grid = Instance.new("UIGridLayout")
-	grid.Parent = scrolling
-	grid.CellSize = UDim2.new(0, 210, 0, 50)
-	grid.CellPadding = UDim2.new(0, 15, 0, 10)
-	grid.SortOrder = Enum.SortOrder.LayoutOrder
-	
-	local function selecionarPlayer(player, item)
-		playerSelecionado = player
-		playerSelecionadoValue.Value = player.Name
-	
-		if itemSelecionado then
-			itemSelecionado.BackgroundColor3 = Color3.fromRGB(32, 32, 48)
-		end
-	
-		itemSelecionado = item
-	
-		if itemSelecionado then
-			itemSelecionado.BackgroundColor3 = Color3.fromRGB(50, 50, 75)
-		end
-	end
-	
-	local function limparLista()
-		for _, obj in ipairs(scrolling:GetChildren()) do
-			if obj:IsA("TextButton") then
-				obj:Destroy()
-			end
-		end
-	end
-	
-	local function criarPlayerItem(player)
-		if player == localPlayer then
-			return nil
-		end
-	
-		local item = Instance.new("TextButton")
-		item.Name = player.Name
-		item.Parent = scrolling
-		item.Size = UDim2.new(0, 210, 0, 50)
-		item.BackgroundColor3 = Color3.fromRGB(32, 32, 48)
-		item.BorderSizePixel = 0
-		item.Text = ""
-		item.AutoButtonColor = true
-	
-		local itemCorner = Instance.new("UICorner")
-		itemCorner.CornerRadius = UDim.new(0, 12)
-		itemCorner.Parent = item
-	
-		local foto = Instance.new("ImageLabel")
-		foto.Name = "Foto"
-		foto.Parent = item
-		foto.Size = UDim2.new(0, 36, 0, 36)
-		foto.Position = UDim2.new(0, 8, 0.5, -18)
-		foto.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-		foto.BorderSizePixel = 0
-	
-		local fotoCorner = Instance.new("UICorner")
-		fotoCorner.CornerRadius = UDim.new(1, 0)
-		fotoCorner.Parent = foto
-	
-		local okThumb, thumb = pcall(function()
-			return Players:GetUserThumbnailAsync(
-				player.UserId,
-				Enum.ThumbnailType.HeadShot,
-				Enum.ThumbnailSize.Size100x100
-			)
-		end)
-	
-		if okThumb then
-			foto.Image = thumb
-		end
-	
-		local apelido = Instance.new("TextLabel")
-		apelido.Name = "Apelido"
-		apelido.Parent = item
-		apelido.Size = UDim2.new(1, -55, 0, 20)
-		apelido.Position = UDim2.new(0, 50, 0, 4)
-		apelido.BackgroundTransparency = 1
-		apelido.Text = player.DisplayName
-		apelido.TextColor3 = Color3.fromRGB(255, 255, 255)
-		apelido.Font = Enum.Font.GothamBold
-		apelido.TextSize = 18
-		apelido.TextXAlignment = Enum.TextXAlignment.Left
-		apelido.TextTruncate = Enum.TextTruncate.AtEnd
-	
-		local username = Instance.new("TextLabel")
-		username.Name = "Username"
-		username.Parent = item
-		username.Size = UDim2.new(1, -55, 0, 16)
-		username.Position = UDim2.new(0, 50, 0, 24)
-		username.BackgroundTransparency = 1
-		username.Text = "@" .. player.Name
-		username.TextColor3 = Color3.fromRGB(140, 140, 160)
-		username.Font = Enum.Font.Gotham
-		username.TextSize = 15
-		username.TextXAlignment = Enum.TextXAlignment.Left
-		username.TextTruncate = Enum.TextTruncate.AtEnd
-	
-		item.MouseButton1Click:Connect(function()
-			selecionarPlayer(player, item)
-		end)
-	
-		return item
-	end
-	
-	local function atualizarListaFiltrada(filtro)
-		filtro = string.lower(filtro or "")
-	
-		limparLista()
-		itemSelecionado = nil
-	
-		local primeiroPlayer = nil
-		local primeiroItem = nil
-		local playerSelecionadoAindaExiste = false
-	
-		for _, player in ipairs(Players:GetPlayers()) do
-			if player ~= localPlayer then
-				local nomeOriginal = string.lower(player.Name)
-				local apelido = string.lower(player.DisplayName)
-	
-				if filtro == ""
-					or string.find(nomeOriginal, filtro, 1, true)
-					or string.find(apelido, filtro, 1, true) then
-	
-					local item = criarPlayerItem(player)
-	
-					if not primeiroPlayer then
-						primeiroPlayer = player
-						primeiroItem = item
-					end
-	
-					if playerSelecionado and playerSelecionado == player then
-						playerSelecionadoAindaExiste = true
-						selecionarPlayer(player, item)
-					end
-				end
-			end
-		end
-	
-		if not playerSelecionadoAindaExiste then
-			if filtro ~= "" and primeiroPlayer then
-				selecionarPlayer(primeiroPlayer, primeiroItem)
-			elseif not playerSelecionado or not Players:FindFirstChild(playerSelecionado.Name) then
-				playerSelecionado = nil
-				playerSelecionadoValue.Value = ""
-			end
-		end
-	
-		task.wait()
-	
-		scrolling.CanvasSize = UDim2.new(
-			0,
-			0,
-			0,
-			grid.AbsoluteContentSize.Y + 15
-		)
-	end
-	
-	textBox:GetPropertyChangedSignal("Text"):Connect(function()
-		atualizarListaFiltrada(textBox.Text)
-	end)
-	
-	Players.PlayerAdded:Connect(function()
-		atualizarListaFiltrada(textBox.Text)
-	end)
-	
-	Players.PlayerRemoving:Connect(function(player)
-		if playerSelecionado == player then
-			playerSelecionado = nil
-			playerSelecionadoValue.Value = ""
-		end
-	
-		atualizarListaFiltrada(textBox.Text)
-	end)
-	
-	atualizarListaFiltrada("")
-end
-local function AKHVW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.TpButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TpButton"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local Players = game:GetService("Players")
-	
-	local localPlayer = Players.LocalPlayer
-	local tpButton = script.Parent
-	local stalkerFrame = tpButton.Parent
-	
-	local playerSelecionadoValue = stalkerFrame:WaitForChild("PlayerSelecionado")
-	
-	-- cor normal do botão
-	local corNormal = Color3.fromRGB(32, 32, 48)
-	local corClick = Color3.fromRGB(69, 69, 79)
-	
-	tpButton.BackgroundColor3 = corNormal
-	tpButton.Text = "TP"
-	
-	local function teleportar()
-		local nomePlayer = playerSelecionadoValue.Value
-	
-		if nomePlayer == "" then
-			warn("Nenhum player selecionado")
-			return
-		end
-	
-		local alvo = Players:FindFirstChild(nomePlayer)
-	
-		if not alvo then
-			warn("Player não encontrado")
-			return
-		end
-	
-		if not localPlayer.Character
-			or not localPlayer.Character:FindFirstChild("HumanoidRootPart") then
-			return
-		end
-	
-		if not alvo.Character
-			or not alvo.Character:FindFirstChild("HumanoidRootPart") then
-			return
-		end
-	
-		-- muda cor só na hora do clique
-		tpButton.BackgroundColor3 = corClick
-	
-		localPlayer.Character.HumanoidRootPart.CFrame =
-			alvo.Character.HumanoidRootPart.CFrame + Vector3.new(2, 0, 2)
-	
-		task.wait(0.15)
-	
-		-- volta ao normal
-		tpButton.BackgroundColor3 = corNormal
-	end
-	
-	tpButton.MouseButton1Click:Connect(teleportar)
-end
-local function MLTDQK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.verButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_verButton"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local Players = game:GetService("Players")
-	
-	local localPlayer = Players.LocalPlayer
-	local camera = workspace.CurrentCamera
-	
-	local stalkerFrame = script.Parent.Parent
-	local verButton = script.Parent
-	local playerSelecionadoValue = stalkerFrame:WaitForChild("PlayerSelecionado")
-	
-	local vendoPlayer = false
-	local playerAtual = nil
-	
-	local function getPlayerSelecionado()
-		local nome = playerSelecionadoValue.Value
-	
-		if nome == "" then
-			return nil
-		end
-	
-		return Players:FindFirstChild(nome)
-	end
-	
-	local function voltarCamera()
-		local character = localPlayer.Character
-		if not character then
-			return
-		end
-	
-		local humanoid = character:FindFirstChildOfClass("Humanoid")
-		if humanoid then
-			camera.CameraSubject = humanoid
-		end
-	end
-	
-	local function olharPlayer(player)
-		if not player then
-			return false
-		end
-	
-		local character = player.Character
-		if not character then
-			return false
-		end
-	
-		local humanoid = character:FindFirstChildOfClass("Humanoid")
-		if not humanoid then
-			return false
-		end
-	
-		playerAtual = player
-		camera.CameraSubject = humanoid
-		return true
-	end
-	
-	local function ativarVer()
-		local playerSelecionado = getPlayerSelecionado()
-	
-		if not playerSelecionado then
-			warn("Nenhum player selecionado")
-			return
-		end
-	
-		if olharPlayer(playerSelecionado) then
-			vendoPlayer = true
-			verButton.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-			verButton.Text = "Vendo"
-		end
-	end
-	
-	local function desativarVer()
-		vendoPlayer = false
-		playerAtual = nil
-	
-		voltarCamera()
-	
-		verButton.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
-		verButton.Text = "Ver"
-	end
-	
-	local function alternarVer()
-		if vendoPlayer then
-			desativarVer()
-		else
-			ativarVer()
-		end
-	end
-	
-	verButton.MouseButton1Click:Connect(alternarVer)
-	
-	playerSelecionadoValue:GetPropertyChangedSignal("Value"):Connect(function()
-		if not vendoPlayer then
-			return
-		end
-	
-		local novoPlayer = getPlayerSelecionado()
-	
-		if novoPlayer then
-			olharPlayer(novoPlayer)
-		end
-	end)
-	
-	Players.PlayerRemoving:Connect(function(player)
-		if playerAtual == player then
-			desativarVer()
-		end
-	end)
-	
-	localPlayer.CharacterAdded:Connect(function()
-		if not vendoPlayer then
-			task.wait(0.5)
-			voltarCamera()
-		end
-	end)
-end
-local function FGOVE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.syncButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_syncButton"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local Players = game:GetService("Players")
-	local RunService = game:GetService("RunService")
-	
-	local LocalPlayer = Players.LocalPlayer
-	local button = script.Parent
-	
-	local stalkerFrame = button.Parent
-	local nameBox = stalkerFrame:WaitForChild("TextBox")
-	local playerSelecionadoValue = stalkerFrame:WaitForChild("PlayerSelecionado")
-	
-	local syncing = false
-	local syncConnection = nil
-	local currentTrack = nil
-	
-	local function getTargetPlayer()
-		-- Prioridade 1: player selecionado na lista (igual ao ver.lua)
-		local nome = playerSelecionadoValue.Value
-		if nome and nome ~= "" then
-			local plr = Players:FindFirstChild(nome)
-			if plr and plr ~= LocalPlayer then
-				return plr
-			end
-		end
-	
-		-- Prioridade 2: fallback pelo texto da caixa de pesquisa
-		local text = string.lower(nameBox.Text or "")
-		if text == "" then return nil end
-	
-		for _, plr in ipairs(Players:GetPlayers()) do
-			if plr ~= LocalPlayer then
-				if string.find(string.lower(plr.Name), text) or string.find(string.lower(plr.DisplayName), text) then
-					return plr
-				end
-			end
-		end
-	
-		return nil
-	end
-	
-	local function getHumanoid(player)
-		local char = player.Character
-		if not char then return nil end
-		return char:FindFirstChildOfClass("Humanoid")
-	end
-	
-	local function stopCurrent()
-		if currentTrack then
-			currentTrack:Stop()
-			currentTrack = nil
-		end
-	end
-	
-	local function syncWithPlayer(targetPlayer)
-		local myHum = getHumanoid(LocalPlayer)
-		local targetHum = getHumanoid(targetPlayer)
-	
-		if not myHum or not targetHum then
-			return
-		end
-	
-		local targetTracks = targetHum:GetPlayingAnimationTracks()
-		local chosenTrack = nil
-	
-		for _, track in ipairs(targetTracks) do
-			local anim = track.Animation
-	
-			if anim and anim.AnimationId ~= "" then
-				local animId = anim.AnimationId
-	
-				if not string.find(animId, "idle")
-					and not string.find(animId, "walk")
-					and not string.find(animId, "run")
-					and not string.find(animId, "jump")
-					and not string.find(animId, "fall") then
-	
-					chosenTrack = track
-					break
-				end
-			end
-		end
-	
-		if not chosenTrack then
-			return
-		end
-	
-		local animId = chosenTrack.Animation.AnimationId
-	
-		if currentTrack and currentTrack.Animation.AnimationId == animId then
-			currentTrack.TimePosition = chosenTrack.TimePosition
-			currentTrack:AdjustSpeed(chosenTrack.Speed)
-			return
-		end
-	
-		stopCurrent()
-	
-		local animator = myHum:FindFirstChildOfClass("Animator")
-		if not animator then
-			animator = Instance.new("Animator")
-			animator.Parent = myHum
-		end
-	
-		local anim = Instance.new("Animation")
-		anim.AnimationId = animId
-	
-		local ok, track = pcall(function()
-			return animator:LoadAnimation(anim)
-		end)
-	
-		if ok and track then
-			currentTrack = track
-			currentTrack.Priority = Enum.AnimationPriority.Action
-			currentTrack.Looped = true
-			currentTrack:Play()
-			currentTrack.TimePosition = chosenTrack.TimePosition
-			currentTrack:AdjustSpeed(chosenTrack.Speed)
-		end
-	end
-	
-	local function stopSync()
-		syncing = false
-		button.Text = "sync emote"
-	
-		if syncConnection then
-			syncConnection:Disconnect()
-			syncConnection = nil
-		end
-	
-		stopCurrent()
-	end
-	
-	button.MouseButton1Click:Connect(function()
-		local target = getTargetPlayer()
-	
-		if not target then
-			warn("Nenhum player selecionado")
-			return
-		end
-	
-		syncing = not syncing
-	
-		if syncing then
-			button.Text = "sync: ON"
-	
-			syncConnection = RunService.Heartbeat:Connect(function()
-				syncWithPlayer(target)
-			end)
-		else
-			stopSync()
-		end
-	end)
-	
-	-- Para o sync automaticamente se o player sair
-	Players.PlayerRemoving:Connect(function(player)
-		if syncing and playerSelecionadoValue.Value == player.Name then
-			stopSync()
-		end
-	end)
-	
-	-- Atualiza o target quando trocar o player selecionado enquanto sync está ativo
-	playerSelecionadoValue:GetPropertyChangedSignal("Value"):Connect(function()
-		if syncing then
-			-- Reconecta o heartbeat com o novo target
-			if syncConnection then
-				syncConnection:Disconnect()
-				syncConnection = nil
-			end
-	
-			stopCurrent()
-	
-			local novoTarget = getTargetPlayer()
-			if novoTarget then
-				syncConnection = RunService.Heartbeat:Connect(function()
-					syncWithPlayer(novoTarget)
-				end)
-			else
-				syncing = false
-				button.Text = "sync emote"
-			end
-		end
-	end)
-	
-end
-
-coroutine.wrap(FPLFMJD_fake_script)()
-coroutine.wrap(UUVI_fake_script)()
-coroutine.wrap(EDFHU_fake_script)()
-coroutine.wrap(ZMCQ_fake_script)()
-coroutine.wrap(JQXKHI_fake_script)()
-coroutine.wrap(PKHC_fake_script)()
-coroutine.wrap(LCHMWEB_fake_script)()
-coroutine.wrap(HMEPQ_fake_script)()
-coroutine.wrap(BFDHFX_fake_script)()
-coroutine.wrap(GUUYE_fake_script)()
-coroutine.wrap(UGYLOIY_fake_script)()
-coroutine.wrap(MGAWJ_fake_script)()
-coroutine.wrap(UYFSEUM_fake_script)()
-coroutine.wrap(VREZW_fake_script)()
-coroutine.wrap(RWECLK_fake_script)()
-coroutine.wrap(IOAG_fake_script)()
-coroutine.wrap(JIYDGO_fake_script)()
-coroutine.wrap(TDBEHD_fake_script)()
-coroutine.wrap(KFTX_fake_script)()
-coroutine.wrap(TXJLQBB_fake_script)()
-coroutine.wrap(WQZBR_fake_script)()
-coroutine.wrap(LMLCCG_fake_script)()
-coroutine.wrap(AQLTIRW_fake_script)()
-coroutine.wrap(TFWF_fake_script)()
-coroutine.wrap(BZULUQ_fake_script)()
-coroutine.wrap(NTARSZU_fake_script)()
-coroutine.wrap(QFSIF_fake_script)()
-coroutine.wrap(FWCHZV_fake_script)()
-coroutine.wrap(ZLQB_fake_script)()
-coroutine.wrap(EIDJ_fake_script)()
-coroutine.wrap(KETYA_fake_script)()
-coroutine.wrap(KURSF_fake_script)()
-coroutine.wrap(ZZWIRMA_fake_script)()
-coroutine.wrap(YZEB_fake_script)()
-coroutine.wrap(KTTC_fake_script)()
-coroutine.wrap(UDBRIID_fake_script)()
-coroutine.wrap(KVUKHM_fake_script)()
-coroutine.wrap(NSOTMB_fake_script)()
-coroutine.wrap(UYDO_fake_script)()
-coroutine.wrap(FPENGI_fake_script)()
-coroutine.wrap(JROEA_fake_script)()
-coroutine.wrap(AKHVW_fake_script)()
-coroutine.wrap(MLTDQK_fake_script)()
-coroutine.wrap(FGOVE_fake_script)()
+		local animate = character:Wa
