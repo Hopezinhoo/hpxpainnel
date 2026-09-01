@@ -2409,7 +2409,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function DMSUQI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
+local function YIIOEMC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_configUS"]
@@ -2428,7 +2428,7 @@ local function DMSUQI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	usernameLabel.Text = player.DisplayName .. " ( " .. player.Name .. " )"
 end
-local function PNFO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.usersLabel.LocalScript
+local function QAKTUB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.usersLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_usersLabel"]
@@ -2443,7 +2443,7 @@ local function PNFO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 
 	script.Parent.Text = "👤 " .. math.random(10, 30)
 end
-local function KNLQRXS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
+local function RPHLLG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_pingLabel"]
@@ -2488,7 +2488,7 @@ local function KNLQRXS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		task.wait(1)
 	end
 end
-local function LCJJXVC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
+local function VJHSPU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_fpsLabel"]
@@ -2537,7 +2537,7 @@ local function LCJJXVC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		end
 	end)
 end
-local function WLRTPF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
+local function NVJG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_platformLabel"]
@@ -2574,7 +2574,7 @@ local function WLRTPF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	platformLabel.Text = "PLATAFORMA: " .. plataforma
 end
-local function BZDXPEE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.femotesButton.LocalScript
+local function BQVIOK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.femotesButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_femotesButton"]
@@ -3135,7 +3135,7 @@ local function BZDXPEE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	task.spawn(carregarEmotesDoPlayer)
 end
-local function KTOHHYW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
+local function EAEJFPW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
     local script = Instance.new("LocalScript")
     script.Name = "AtalhosManager"
     script.Parent = Converted["_movi"]
@@ -3150,7 +3150,7 @@ local function KTOHHYW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 
 	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
 end
-local function JWJCJY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.EspButton.LocalScript
+local function MNBBB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.EspButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_EspButton"]
@@ -3686,7 +3686,7 @@ local function JWJCJY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	atualizarBotoes()
 end
-local function OWEBQJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.clicktpButton.LocalScript
+local function KMGHNJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.clicktpButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_clicktpButton"]
@@ -3964,7 +3964,7 @@ local function OWEBQJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		)
 	end)
 end
-local function UPKBYX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.vampiro.LocalScript
+local function KKQSEA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.vampiro.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_vampiro"]
@@ -4016,7 +4016,7 @@ local function UPKBYX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function MVBFUO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.zumbie.LocalScript
+local function AAMB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.zumbie.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_zumbie"]
@@ -4068,7 +4068,7 @@ local function MVBFUO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function JHHMB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.adidas.LocalScript
+local function TSORG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.adidas.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_adidas"]
@@ -4120,7 +4120,7 @@ local function JHHMB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function NWPT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Bolhoso.LocalScript
+local function UGPU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Bolhoso.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Bolhoso"]
@@ -4200,7 +4200,7 @@ local function NWPT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function TDGTY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.ninja.LocalScript
+local function ELZMYUM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.ninja.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_ninja"]
@@ -4271,7 +4271,7 @@ local function TDGTY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function IZUPJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.lobo.LocalScript
+local function BFQHDUU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.lobo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_lobo"]
@@ -4342,7 +4342,7 @@ local function IZUPJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function KDNS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.mago.LocalScript
+local function XBNBCU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.mago.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_mago"]
@@ -4429,7 +4429,7 @@ local function KDNS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function YZWHU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.levitar.LocalScript
+local function WAWY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.levitar.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_levitar"]
@@ -4500,7 +4500,7 @@ local function YZWHU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function ELVO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.cartoon.LocalScript
+local function YUOI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.cartoon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_cartoon"]
@@ -4571,7 +4571,7 @@ local function ELVO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function EBKHC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.amazon.LocalScript
+local function FSCRTYN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.amazon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_amazon"]
@@ -4657,7 +4657,7 @@ local function EBKHC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function BMYGGR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.astronauta.LocalScript
+local function UENCQVH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.astronauta.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_astronauta"]
@@ -4743,7 +4743,7 @@ local function BMYGGR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function QQWFP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
+local function BQQVPI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero"]
@@ -4829,7 +4829,7 @@ local function QQWFP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function VRFYP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.antiga.LocalScript
+local function JJYI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.antiga.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_antiga"]
@@ -4908,7 +4908,7 @@ local function VRFYP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function MJSAJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Estileira.LocalScript
+local function PSHLUG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Estileira.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Estileira"]
@@ -4987,7 +4987,7 @@ local function MJSAJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function FNJJAJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Robô.LocalScript
+local function LJDLIKL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Robô.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Robô"]
@@ -5066,7 +5066,7 @@ local function FNJJAJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function CTBPOP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Elf.LocalScript
+local function IZHYJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Elf.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Elf"]
@@ -5145,7 +5145,7 @@ local function CTBPOP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function HPRWFKQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Velho.LocalScript
+local function RTQKY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Velho.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Velho"]
@@ -5229,7 +5229,7 @@ local function HPRWFKQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function QLJVULQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Walmart.LocalScript
+local function LHXBEZD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Walmart.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Walmart"]
@@ -5309,7 +5309,7 @@ local function QLJVULQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 	
 end
-local function UIKVZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.malvada.LocalScript
+local function XWXKL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.malvada.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_malvada"]
@@ -5387,7 +5387,7 @@ local function UIKVZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function EGTWN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Brinquedo.LocalScript
+local function UBEQJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Brinquedo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Brinquedo"]
@@ -5474,7 +5474,7 @@ local function EGTWN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function MWUMUVB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
+local function KEZNUG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero1"]
@@ -5521,4 +5521,3363 @@ local function MWUMUVB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		end
 	end
 	
-	local function 
+	local function
+aplicarAnimacao()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:WaitForChild("Humanoid")
+		local animate = character:WaitForChild("Animate")
+	
+		pararAnimacoes(humanoid)
+	
+		setAnim(animate.idle.Animation1, SUPERHERO.Idle1)
+		setAnim(animate.idle.Animation2, SUPERHERO.Idle2)
+	
+		setAnim(animate.walk.WalkAnim, SUPERHERO.Walk)
+		setAnim(animate.run.RunAnim, SUPERHERO.Run)
+	
+		setAnim(animate.jump.JumpAnim, SUPERHERO.Jump)
+		setAnim(animate.fall.FallAnim, SUPERHERO.Fall)
+	
+		setAnim(animate.climb.ClimbAnim, SUPERHERO.Climb)
+	
+		setAnim(animate.swim.Swim, SUPERHERO.Swim)
+		setAnim(animate.swimidle.SwimIdle, SUPERHERO.SwimIdle)
+	
+		animate.Disabled = true
+		task.wait(0.2)
+		animate.Disabled = false
+	
+		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+		task.wait(0.1)
+		humanoid:ChangeState(Enum.HumanoidStateType.Running)
+	end
+	
+	button.MouseButton1Click:Connect(aplicarAnimacao)
+end
+local function TWSBN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Through Life.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Through Life"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	
+	-- WICKED DANCING THROUGH LIFE
+	local WICKED = {
+		Idle1 = "",
+		Idle2 = "",
+	
+		Walk = "",
+		Run = "",
+	
+		Jump = "",
+		Fall = "",
+	
+		Climb = "",
+	
+		Swim = "",
+		SwimIdle = ""
+	}
+	
+	local function setAnim(animObj, id)
+		if animObj and id and id ~= "" then
+			animObj.AnimationId = id
+		end
+	end
+	
+	local function pararAnimacoes(humanoid)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			track:Stop()
+		end
+	end
+	
+	local function aplicarAnimacao()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:WaitForChild("Humanoid")
+		local animate = character:WaitForChild("Animate")
+	
+		pararAnimacoes(humanoid)
+	
+		setAnim(animate.idle.Animation1, WICKED.Idle1)
+		setAnim(animate.idle.Animation2, WICKED.Idle2)
+	
+		setAnim(animate.walk.WalkAnim, WICKED.Walk)
+		setAnim(animate.run.RunAnim, WICKED.Run)
+	
+		setAnim(animate.jump.JumpAnim, WICKED.Jump)
+		setAnim(animate.fall.FallAnim, WICKED.Fall)
+	
+		setAnim(animate.climb.ClimbAnim, WICKED.Climb)
+	
+		setAnim(animate.swim.Swim, WICKED.Swim)
+		setAnim(animate.swimidle.SwimIdle, WICKED.SwimIdle)
+	
+		animate.Disabled = true
+		task.wait(0.2)
+		animate.Disabled = false
+	
+		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+		task.wait(0.1)
+		humanoid:ChangeState(Enum.HumanoidStateType.Running)
+	end
+	
+	button.MouseButton1Click:Connect(aplicarAnimacao)
+end
+local function UFJXID_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_superhero2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	
+	-- BILLIE EILISH ANIMATION PACK
+	local BILLIE = {
+		Idle1 = "",
+		Idle2 = "",
+	
+		Walk = "",
+		Run = "",
+	
+		Jump = "",
+		Fall = "",
+	
+		Climb = "",
+	
+		Swim = "",
+		SwimIdle = ""
+	}
+	
+	local function setAnim(animObj, id)
+		if animObj and id and id ~= "" then
+			animObj.AnimationId = id
+		end
+	end
+	
+	local function pararAnimacoes(humanoid)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			track:Stop()
+		end
+	end
+	
+	local function aplicarAnimacao()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:WaitForChild("Humanoid")
+		local animate = character:WaitForChild("Animate")
+	
+		pararAnimacoes(humanoid)
+	
+		setAnim(animate.idle.Animation1, BILLIE.Idle1)
+		setAnim(animate.idle.Animation2, BILLIE.Idle2)
+	
+		setAnim(animate.walk.WalkAnim, BILLIE.Walk)
+		setAnim(animate.run.RunAnim, BILLIE.Run)
+	
+		setAnim(animate.jump.JumpAnim, BILLIE.Jump)
+		setAnim(animate.fall.FallAnim, BILLIE.Fall)
+	
+		setAnim(animate.climb.ClimbAnim, BILLIE.Climb)
+	
+		setAnim(animate.swim.Swim, BILLIE.Swim)
+		setAnim(animate.swimidle.SwimIdle, BILLIE.SwimIdle)
+	
+		animate.Disabled = true
+		task.wait(0.2)
+		animate.Disabled = false
+	
+		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+		task.wait(0.1)
+		humanoid:ChangeState(Enum.HumanoidStateType.Running)
+	end
+	
+	button.MouseButton1Click:Connect(aplicarAnimacao)
+end
+local function QZDEYNW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Glow.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Glow"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	
+	-- GLOW MOTION ANIMATION PACK
+	-- IDs ainda precisam ser pegos no Animate do Studio
+	local GLOW = {
+		Idle1 = "",
+		Idle2 = "",
+	
+		Walk = "",
+		Run = "",
+	
+		Jump = "",
+		Fall = "",
+	
+		Climb = "",
+	
+		Swim = "",
+		SwimIdle = ""
+	}
+	
+	local function setAnim(animObj, id)
+		if animObj and id and id ~= "" then
+			animObj.AnimationId = id
+		end
+	end
+	
+	local function pararAnimacoes(humanoid)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			track:Stop()
+		end
+	end
+	
+	local function aplicarAnimacao()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:WaitForChild("Humanoid")
+		local animate = character:WaitForChild("Animate")
+	
+		pararAnimacoes(humanoid)
+	
+		setAnim(animate.idle.Animation1, GLOW.Idle1)
+		setAnim(animate.idle.Animation2, GLOW.Idle2)
+	
+		setAnim(animate.walk.WalkAnim, GLOW.Walk)
+		setAnim(animate.run.RunAnim, GLOW.Run)
+	
+		setAnim(animate.jump.JumpAnim, GLOW.Jump)
+		setAnim(animate.fall.FallAnim, GLOW.Fall)
+	
+		setAnim(animate.climb.ClimbAnim, GLOW.Climb)
+	
+		setAnim(animate.swim.Swim, GLOW.Swim)
+		setAnim(animate.swimidle.SwimIdle, GLOW.SwimIdle)
+	
+		animate.Disabled = true
+		task.wait(0.2)
+		animate.Disabled = false
+	
+		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+		task.wait(0.1)
+		humanoid:ChangeState(Enum.HumanoidStateType.Running)
+	end
+	
+	button.MouseButton1Click:Connect(aplicarAnimacao)
+end
+local function QTUV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.fungoButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_fungoButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	
+	local NOMES_PARECIDOS = {
+		"mushroom",
+		"cogumelo",
+		"cog",
+		"fungo"
+	}
+	
+	local VELOCIDADE_VOO = 75
+	local ALTURA_VOO = 6
+	local DISTANCIA_COLETA = 5
+	local ESPERA_ENTRE_ITENS = 0.4
+	local TEMPO_CONFIRMAR_COLETA = 2
+	
+	local TAMANHO_MAXIMO_COGUMELO = 4
+	
+	local coletando = false
+	local falhas = {}
+	local noclipAtivo = false
+	
+	if _G.autofarmaAtivo == nil then
+		_G.autofarmaAtivo = false
+	end
+	
+	local function ativarNoclip(valor)
+		noclipAtivo = valor
+	end
+	
+	RunService.Stepped:Connect(function()
+		if not noclipAtivo then return end
+	
+		local char = player.Character
+		if not char then return end
+	
+		for _, obj in ipairs(char:GetDescendants()) do
+			if obj:IsA("BasePart") then
+				obj.CanCollide = false
+			end
+		end
+	end)
+	
+	local function nomePareceCogumelo(nome)
+		nome = string.lower(nome)
+	
+		for _, palavra in ipairs(NOMES_PARECIDOS) do
+			if string.find(nome, palavra) then
+				return true
+			end
+		end
+	
+		return false
+	end
+	
+	local function pegarPart(item)
+		if item:IsA("BasePart") then
+			return item
+		end
+	
+		if item:IsA("Model") then
+			return item.PrimaryPart or item:FindFirstChildWhichIsA("BasePart", true)
+		end
+	
+		return nil
+	end
+	
+	local function pegarTamanhoReal(item, part)
+		if item:IsA("Model") then
+			local _, size = item:GetBoundingBox()
+			return math.max(size.X, size.Y, size.Z)
+		end
+	
+		return math.max(part.Size.X, part.Size.Y, part.Size.Z)
+	end
+	
+	local function cogumeloEhPequeno(item, part)
+		return pegarTamanhoReal(item, part) <= TAMANHO_MAXIMO_COGUMELO
+	end
+	
+	local function acharPrompt(item, part)
+		local prompt = part:FindFirstChildOfClass("ProximityPrompt")
+	
+		if not prompt then
+			prompt = item:FindFirstChildWhichIsA("ProximityPrompt", true)
+		end
+	
+		return prompt
+	end
+	
+	local function itemFoiColetado(item, prompt)
+		if not item or not item.Parent then
+			return true
+		end
+	
+		if prompt and not prompt.Enabled then
+			return true
+		end
+	
+		if item:GetAttribute("Coletado") == true then
+			return true
+		end
+	
+		if item:GetAttribute("Collected") == true then
+			return true
+		end
+	
+		return false
+	end
+	
+	local function acharMaisPerto()
+		local char = player.Character
+		if not char then return nil end
+	
+		local hrp = char:FindFirstChild("HumanoidRootPart")
+		if not hrp then return nil end
+	
+		local melhorItem = nil
+		local melhorPart = nil
+		local menorDistancia = math.huge
+	
+		for _, obj in ipairs(workspace:GetDescendants()) do
+			if nomePareceCogumelo(obj.Name) then
+				local part = pegarPart(obj)
+	
+				if part and part.Parent and cogumeloEhPequeno(obj, part) then
+					local prompt = acharPrompt(obj, part)
+	
+					if prompt and prompt.Enabled and not itemFoiColetado(obj, prompt) then
+						local distancia = (hrp.Position - part.Position).Magnitude
+	
+						if distancia < menorDistancia then
+							menorDistancia = distancia
+							melhorItem = obj
+							melhorPart = part
+						end
+					end
+				end
+			end
+		end
+	
+		return melhorItem, melhorPart
+	end
+	
+	local function getChar()
+		local char = player.Character
+		if not char then return nil end
+	
+		local hrp = char:FindFirstChild("HumanoidRootPart")
+		local humanoid = char:FindFirstChildOfClass("Humanoid")
+	
+		if not hrp or not humanoid then
+			return nil
+		end
+	
+		return char, hrp, humanoid
+	end
+	
+	local function prepararVoo()
+		local char, hrp, humanoid = getChar()
+		if not char then return nil end
+	
+		ativarNoclip(true)
+	
+		humanoid.PlatformStand = true
+		hrp.Anchored = true
+		hrp.AssemblyLinearVelocity = Vector3.zero
+		hrp.AssemblyAngularVelocity = Vector3.zero
+	
+		return char, hrp, humanoid
+	end
+	
+	local function pararFlutuar()
+		local char, hrp, humanoid = getChar()
+		if not char then return end
+	
+		hrp.AssemblyLinearVelocity = Vector3.zero
+		hrp.AssemblyAngularVelocity = Vector3.zero
+		hrp.Anchored = false
+	
+		humanoid.PlatformStand = false
+		humanoid:ChangeState(Enum.HumanoidStateType.GettingUp)
+	
+		ativarNoclip(false)
+	end
+	
+	local function voarAte(part)
+		local char, hrp, humanoid = prepararVoo()
+		if not char then return false end
+	
+		while part and part.Parent do
+			local destino = part.Position + Vector3.new(0, ALTURA_VOO, 0)
+			local direcao = destino - hrp.Position
+			local distancia = direcao.Magnitude
+	
+			if distancia <= DISTANCIA_COLETA then
+				break
+			end
+	
+			local delta = RunService.Heartbeat:Wait()
+			local passo = direcao.Unit * math.min(VELOCIDADE_VOO * delta, distancia)
+	
+			hrp.CFrame = CFrame.new(hrp.Position + passo, part.Position)
+		end
+	
+		return true
+	end
+	
+	local function colocarNoChaoPerto(part)
+		local char, hrp, humanoid = getChar()
+		if not char then return end
+	
+		local pos = part.Position
+		local direcao = (hrp.Position - pos)
+	
+		if direcao.Magnitude < 1 then
+			direcao = Vector3.new(3, 0, 0)
+		end
+	
+		direcao = Vector3.new(direcao.X, 0, direcao.Z).Unit
+	
+		local posicaoPerto = pos + direcao * 3 + Vector3.new(0, 3, 0)
+	
+		hrp.CFrame = CFrame.new(posicaoPerto, pos)
+	
+		pararFlutuar()
+	
+		task.wait(0.35)
+	end
+	
+	local function confirmarColeta(item, prompt)
+		local inicio = tick()
+	
+		while tick() - inicio < TEMPO_CONFIRMAR_COLETA do
+			if itemFoiColetado(item, prompt) then
+				return true
+			end
+	
+			task.wait(0.1)
+		end
+	
+		return itemFoiColetado(item, prompt)
+	end
+	
+	local function coletar(item, part)
+		local prompt = acharPrompt(item, part)
+	
+		if not prompt then
+			return
+		end
+	
+		prompt.RequiresLineOfSight = false
+		prompt.MaxActivationDistance = 20
+	
+		colocarNoChaoPerto(part)
+	
+		task.wait(0.2)
+	
+		prompt:InputHoldBegin()
+		task.wait(prompt.HoldDuration + 0.5)
+		prompt:InputHoldEnd()
+	
+		local coletou = confirmarColeta(item, prompt)
+	
+		if coletou then
+			return
+		else
+			falhas[item] = (falhas[item] or 0) + 1
+			if falhas[item] >= 3 then
+				return
+			end
+		end
+	end
+	
+	task.spawn(function()
+		while true do
+			task.wait(ESPERA_ENTRE_ITENS)
+	
+			if not _G.autofarmaAtivo then
+				task.wait(0.1)
+				continue
+			end
+	
+			if not coletando then
+				coletando = true
+	
+				local item, part = acharMaisPerto()
+	
+				if item and part then
+					voarAte(part)
+					task.wait(0.1)
+	
+					if part and part.Parent then
+						coletar(item, part)
+					end
+				else
+					pararFlutuar()
+					task.wait(2)
+				end
+	
+				coletando = false
+			end
+		end
+	end)
+end
+local function AXRY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.fungoButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_fungoButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- Escript do botão Cogumelo
+	local button = script.Parent
+	
+	-- Inicializa global
+	if _G.autofarmaAtivo == nil then
+		_G.autofarmaAtivo = false
+	end
+	
+	-- Conecta ao clique
+	button.MouseButton1Click:Connect(function()
+		_G.autofarmaAtivo = not _G.autofarmaAtivo
+	
+		-- Atualiza a cor do botão
+		if _G.autofarmaAtivo then
+			button.BackgroundColor3 = Color3.fromRGB(50, 200, 50)
+			button.Text = "cogumelo ÖN"
+		else
+			button.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+			button.Text = "cogumelo"
+		end
+	end)
+	
+	-- Mostra estado inicial
+	if _G.autofarmaAtivo then
+		button.BackgroundColor3 = Color3.fromRGB(50, 200, 50)
+		button.Text = "cogumelo ÖN"
+	else
+		button.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+		button.Text = "cogumelo"
+	end
+end
+local function EXAAR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_stalker"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	local localPlayer = Players.LocalPlayer
+	local stalkerFrame = script.Parent
+	local lista = stalkerFrame:WaitForChild("Lista")
+	
+	-- Tenta pegar o modelo de Banner que já existir na Lista, senão cria um novo
+	local bannerTemplate
+	if lista:FindFirstChild("Banner") then
+		bannerTemplate = lista:FindFirstChild("Banner")
+	else
+		bannerTemplate = Instance.new("TextButton")
+		bannerTemplate.Name = "Banner"
+		bannerTemplate.Size = UDim2.new(0, 150, 0, 50)
+		bannerTemplate.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+		bannerTemplate.Text = ""
+		bannerTemplate.Parent = lista
+	end
+	
+	-- Garante que o modelo tenha as labels "Apelido" e "Nome"
+	if not bannerTemplate:FindFirstChild("Apelido") then
+		local lbl = Instance.new("TextLabel")
+		lbl.Name = "Apelido"
+		lbl.Size = UDim2.new(1,0,0.5,0)
+		lbl.Position = UDim2.new(0,0,0,0)
+		lbl.BackgroundTransparency = 1
+		lbl.Font = Enum.Font.Gotham
+		lbl.TextSize = 14
+		lbl.Parent = bannerTemplate
+	end
+	
+	if not bannerTemplate:FindFirstChild("Nome") then
+		local lbl = Instance.new("TextLabel")
+		lbl.Name = "Nome"
+		lbl.Size = UDim2.new(1,0,0.5,0)
+		lbl.Position = UDim2.new(0,0,0.5,0)
+		lbl.BackgroundTransparency = 1
+		lbl.Font = Enum.Font.Gotham
+		lbl.TextSize = 14
+		lbl.Parent = bannerTemplate
+	end
+	
+	-- Variável para rastrear o banner atualmente selecionado
+	local selectedBanner = nil
+	
+	local function toggleSelecao(item)
+		-- Se o item já estiver selecionado, desselecionar
+		if selectedBanner == item then
+			item.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+			selectedBanner = nil
+			return
+		end
+	
+		-- Se houver um banner selecionado anteriormente, voltar à cor original
+		if selectedBanner then
+			selectedBanner.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+		end
+	
+		-- Selecionar o novo banner
+		item.BackgroundColor3 = Color3.fromRGB(32, 32, 48)
+		selectedBanner = item
+	end
+	
+	local function criarItem(player)
+		local item = bannerTemplate:Clone()
+		item.Name = player.Name
+		item.Parent = lista
+		item.Visible = true
+		item.Text = ""
+		item.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+	
+		local apelidoLabel = item:FindFirstChild("Apelido")
+		local nomeLabel = item:FindFirstChild("Nome")
+		local foto = item:FindFirstChild("Foto", true)
+	
+		if apelidoLabel then
+			apelidoLabel.Text = player.DisplayName
+		end
+	
+		if nomeLabel then
+			nomeLabel.Text = player.Name
+		end
+	
+		if foto and (foto:IsA("ImageLabel") or foto:IsA("ImageButton")) then
+			task.spawn(function()
+				local sucesso, imagem = pcall(function()
+					return Players:GetUserThumbnailAsync(
+						player.UserId,
+						Enum.ThumbnailType.HeadShot,
+						Enum.ThumbnailSize.Size150x150
+					)
+				end)
+	
+				if sucesso and foto.Parent then
+					foto.Image = imagem
+				end
+			end)
+		end
+	
+		-- Evento de clique no banner - toggle de seleção
+		item.MouseButton1Click:Connect(function()
+			local cmdsFolder = script.Parent:FindFirstChild("Cmds")
+			local playerValue = cmdsFolder and cmdsFolder:FindFirstChild("PlayerSelecionado")
+	
+			if selectedBanner == item then
+				toggleSelecao(item)
+				if playerValue then
+					playerValue.Value = ""
+				end
+				return
+			end
+	
+			toggleSelecao(item)
+	
+			-- Criar/atualizar objeto PlayerSelecionado na pasta Cmds para os scripts acessarem
+			if not cmdsFolder then
+				cmdsFolder = Instance.new("Folder")
+				cmdsFolder.Name = "Cmds"
+				cmdsFolder.Parent = script.Parent
+			end
+	
+			local playerValue = cmdsFolder:FindFirstChild("PlayerSelecionado")
+			if not playerValue then
+				playerValue = Instance.new("StringValue")
+				playerValue.Name = "PlayerSelecionado"
+				playerValue.Parent = cmdsFolder
+			end
+			playerValue.Value = player.Name
+	
+			-- Notificar scripts da pasta Cmds sobre o player selecionado
+			if cmdsFolder then
+				for _, script in ipairs(cmdsFolder:GetChildren()) do
+					if script:IsA("Script") then
+						local ok, err = pcall(function()
+							if script.Click then
+								script.Click(player)
+							end
+						end)
+						if not ok then
+							warn("Erro no script " .. script.Name .. ": " .. err)
+						end
+					end
+				end
+			end
+		end)
+	end
+	
+	-- Cria itens para os jogadores, exceto o próprio player
+	for _, player in ipairs(Players:GetPlayers()) do
+		if player ~= localPlayer then
+			criarItem(player)
+		end
+	end
+	
+	-- Remove banner antigo do próprio player, se existir, e não cria mais para ele
+	for _, obj in ipairs(lista:GetChildren()) do
+		if obj:IsA("TextButton") and obj.Name == localPlayer.Name then
+			obj:Destroy()
+		end
+	end
+	
+	-- Cria item quando um jogador entrar
+	Players.PlayerAdded:Connect(function(player)
+		if player ~= localPlayer then
+			criarItem(player)
+		end
+	end)
+	
+	-- Remove item quando um jogador sair
+	Players.PlayerRemoving:Connect(function(player)
+		for _, obj in ipairs(lista:GetChildren()) do
+			if obj:IsA("TextButton") and obj.Name == player.Name then
+				obj:Destroy()
+			end
+		end
+	
+		if selectedBanner and selectedBanner.Name == player.Name then
+			selectedBanner = nil
+			local cmdsFolder = script.Parent:FindFirstChild("Cmds")
+			local playerValue = cmdsFolder and cmdsFolder:FindFirstChild("PlayerSelecionado")
+			if playerValue then
+				playerValue.Value = ""
+			end
+		end
+	end)
+end
+local function NJIATY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.SeachBox.seach
+    local script = Instance.new("LocalScript")
+    script.Name = "seach"
+    script.Parent = Converted["_SeachBox"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	
+	local seachBox = script.Parent
+	
+	-- Procurar pasta "Lista" no pai da SeachBox
+	local container = script.Parent.Parent:FindFirstChild("Lista")
+	if not container then
+		container = Instance.new("Folder")
+		container.Name = "Lista"
+		container.Parent = script.Parent.Parent
+	end
+	
+	-- Coletar itens que são clones reais de banner (têm labels Apelido e/or Nome)
+	local function coletarItens()
+		local itens = {}
+		for _, obj in ipairs(container:GetChildren()) do
+			-- Pula o modelo template "Banner" original
+			if obj.Name == "Banner" then
+				continue
+			end
+	
+			local hasApelido = obj:FindFirstChild("Apelido") and obj:FindFirstChild("Apelido"):IsA("TextLabel")
+			local hasNome = obj:FindFirstChild("Nome") and obj:FindFirstChild("Nome"):IsA("TextLabel")
+	
+			if hasApelido or hasNome then
+				table.insert(itens, obj)
+			end
+		end
+		return itens
+	end
+	
+	local function filtrar(luca)
+		luca = (luca or ""):lower()
+	
+		for _, item in ipairs(coletarItens()) do
+			local match = false
+	
+			local textoApelido = ""
+	
+			local apelido = item:FindFirstChild("Apelido")
+	
+			if apelido and apelido:IsA("TextLabel") then
+				textoApelido = apelido.Text:lower()
+			end
+	
+			-- Busca vazia mostra todo mundo
+			if luca == "" then
+				match = true
+			else
+				-- Busca APENAS no Apelido (substring)
+				if string.find(textoApelido, luca, 1, true) then
+					match = true
+				end
+			end
+	
+			item.Visible = match
+		end
+	end
+	
+	seachBox:GetPropertyChangedSignal("Text"):Connect(function()
+		filtrar(seachBox.Text)
+	end)
+	
+	-- Ao tirar o foco e limpar o campo, mostrar todos os itens novamente
+	seachBox.FocusLost:Connect(function()
+		if seachBox.Text == "" then
+			for _, item in ipairs(coletarItens()) do
+				item.Visible = true
+			end
+		end
+	end)
+	
+end
+local function VDSTDMY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.verButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_verButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	
+	local localPlayer = Players.LocalPlayer
+	local camera = workspace.CurrentCamera
+	
+	local stalkerFrame = script.Parent.Parent
+	local verButton = script.Parent
+	local playerSelecionadoValue = stalkerFrame:FindFirstChild("PlayerSelecionado")
+	
+	if not playerSelecionadoValue then
+		playerSelecionadoValue = Instance.new("StringValue")
+		playerSelecionadoValue.Name = "PlayerSelecionado"
+		playerSelecionadoValue.Parent = stalkerFrame
+	end
+	
+	local vendoPlayer = false
+	local playerAtual = nil
+	
+	local function getPlayerSelecionado()
+		local nome = playerSelecionadoValue.Value
+	
+		if nome == "" then
+			return nil
+		end
+	
+		return Players:FindFirstChild(nome)
+	end
+	
+	local function voltarCamera()
+		local character = localPlayer.Character
+		if not character then
+			return
+		end
+	
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+		if humanoid then
+			camera.CameraSubject = humanoid
+		end
+	end
+	
+	local function olharPlayer(player)
+		if not player then
+			return false
+		end
+	
+		local character = player.Character
+		if not character then
+			return false
+		end
+	
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+		if not humanoid then
+			return false
+		end
+	
+		playerAtual = player
+		camera.CameraSubject = humanoid
+		return true
+	end
+	
+	local function ativarVer()
+		local playerSelecionado = getPlayerSelecionado()
+	
+		if not playerSelecionado then
+			warn("Nenhum player selecionado")
+			return
+		end
+	
+		if olharPlayer(playerSelecionado) then
+			vendoPlayer = true
+			verButton.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+			verButton.Text = "Vendo"
+		end
+	end
+	
+	local function desativarVer()
+		vendoPlayer = false
+		playerAtual = nil
+	
+		voltarCamera()
+	
+		verButton.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+		verButton.Text = "Ver"
+	end
+	
+	local function alternarVer()
+		if vendoPlayer then
+			desativarVer()
+		else
+			ativarVer()
+		end
+	end
+	
+	verButton.MouseButton1Click:Connect(alternarVer)
+	
+	playerSelecionadoValue:GetPropertyChangedSignal("Value"):Connect(function()
+		if not vendoPlayer then
+			return
+		end
+	
+		local novoPlayer = getPlayerSelecionado()
+	
+		if novoPlayer then
+			olharPlayer(novoPlayer)
+		end
+	end)
+	
+	Players.PlayerRemoving:Connect(function(player)
+		if playerAtual == player then
+			desativarVer()
+		end
+	end)
+	
+	localPlayer.CharacterAdded:Connect(function()
+		if not vendoPlayer then
+			task.wait(0.5)
+			voltarCamera()
+		end
+	end)
+end
+local function IYCUTVT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.syncButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_syncButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	
+	local LocalPlayer = Players.LocalPlayer
+	local button = script.Parent
+	
+	local cmdsFolder = button.Parent
+	local stalkerFrame = cmdsFolder.Parent
+	local nameBox = stalkerFrame:FindFirstChildWhichIsA("TextBox", true)
+	local playerSelecionadoValue = cmdsFolder:FindFirstChild("PlayerSelecionado")
+	local flyState = cmdsFolder:FindFirstChild("FlyAtivo")
+	
+	if not playerSelecionadoValue then
+		playerSelecionadoValue = Instance.new("StringValue")
+		playerSelecionadoValue.Name = "PlayerSelecionado"
+		playerSelecionadoValue.Parent = cmdsFolder
+	end
+	
+	if not flyState then
+		flyState = Instance.new("BoolValue")
+		flyState.Name = "FlyAtivo"
+		flyState.Value = false
+		flyState.Parent = cmdsFolder
+	end
+	
+	local syncing = false
+	local syncConnection = nil
+	local currentTrack = nil
+	
+	local function atualizarEstadoDoBotao()
+		button.Active = not flyState.Value
+		button.AutoButtonColor = not flyState.Value
+	end
+	
+	local function getTargetPlayer()
+		-- Prioridade 1: player selecionado na lista (igual ao ver.lua)
+		local nome = playerSelecionadoValue.Value
+		if nome and nome ~= "" then
+			local plr = Players:FindFirstChild(nome)
+			if plr and plr ~= LocalPlayer then
+				return plr
+			end
+		end
+	
+		-- Prioridade 2: fallback pelo texto da caixa de pesquisa
+		local text = string.lower(nameBox and nameBox.Text or "")
+		if text == "" then return nil end
+	
+		for _, plr in ipairs(Players:GetPlayers()) do
+			if plr ~= LocalPlayer then
+				if string.find(string.lower(plr.Name), text) or string.find(string.lower(plr.DisplayName), text) then
+					return plr
+				end
+			end
+		end
+	
+		return nil
+	end
+	
+	local function getHumanoid(player)
+		local char = player.Character
+		if not char then return nil end
+		return char:FindFirstChildOfClass("Humanoid")
+	end
+	
+	local function stopCurrent()
+		if currentTrack then
+			currentTrack:Stop()
+			currentTrack = nil
+		end
+	end
+	
+	local function syncWithPlayer(targetPlayer)
+		local myHum = getHumanoid(LocalPlayer)
+		local targetHum = getHumanoid(targetPlayer)
+	
+		if not myHum or not targetHum then
+			return
+		end
+	
+		local targetTracks = targetHum:GetPlayingAnimationTracks()
+		local chosenTrack = nil
+	
+		for _, track in ipairs(targetTracks) do
+			local anim = track.Animation
+	
+			if anim and anim.AnimationId ~= "" then
+				local animId = anim.AnimationId
+	
+				if not string.find(animId, "idle")
+					and not string.find(animId, "walk")
+					and not string.find(animId, "run")
+					and not string.find(animId, "jump")
+					and not string.find(animId, "fall") then
+	
+					chosenTrack = track
+					break
+				end
+			end
+		end
+	
+		if not chosenTrack then
+			return
+		end
+	
+		local animId = chosenTrack.Animation.AnimationId
+	
+		if currentTrack and currentTrack.Animation.AnimationId == animId then
+			currentTrack.TimePosition = chosenTrack.TimePosition
+			currentTrack:AdjustSpeed(chosenTrack.Speed)
+			return
+		end
+	
+		stopCurrent()
+	
+		local animator = myHum:FindFirstChildOfClass("Animator")
+		if not animator then
+			animator = Instance.new("Animator")
+			animator.Parent = myHum
+		end
+	
+		local anim = Instance.new("Animation")
+		anim.AnimationId = animId
+	
+		local ok, track = pcall(function()
+			return animator:LoadAnimation(anim)
+		end)
+	
+		if ok and track then
+			currentTrack = track
+			currentTrack.Priority = Enum.AnimationPriority.Action
+			currentTrack.Looped = true
+			currentTrack:Play()
+			currentTrack.TimePosition = chosenTrack.TimePosition
+			currentTrack:AdjustSpeed(chosenTrack.Speed)
+		end
+	end
+	
+	local function stopSync()
+		syncing = false
+		button.Text = "sync emote"
+		button.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+	
+		if syncConnection then
+			syncConnection:Disconnect()
+			syncConnection = nil
+		end
+	
+		stopCurrent()
+	end
+	
+	flyState:GetPropertyChangedSignal("Value"):Connect(function()
+		if flyState.Value and syncing then
+			stopSync()
+		end
+		atualizarEstadoDoBotao()
+	end)
+	
+	button.MouseButton1Click:Connect(function()
+		if flyState.Value then
+			return
+		end
+	
+		local target = getTargetPlayer()
+	
+		if not target then
+			warn("Nenhum player selecionado")
+			return
+		end
+	
+		syncing = not syncing
+	
+		if syncing then
+			button.Text = "sync emote"
+			button.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+	
+			syncConnection = RunService.Heartbeat:Connect(function()
+				syncWithPlayer(target)
+			end)
+		else
+			stopSync()
+		end
+	end)
+	
+	atualizarEstadoDoBotao()
+	
+	-- Para o sync automaticamente se o player sair
+	Players.PlayerRemoving:Connect(function(player)
+		if syncing and playerSelecionadoValue.Value == player.Name then
+			stopSync()
+		end
+	end)
+	
+	-- Atualiza o target quando trocar o player selecionado enquanto sync está ativo
+	playerSelecionadoValue:GetPropertyChangedSignal("Value"):Connect(function()
+		if syncing then
+			-- Reconecta o heartbeat com o novo target
+			if syncConnection then
+				syncConnection:Disconnect()
+				syncConnection = nil
+			end
+	
+			stopCurrent()
+	
+			local novoTarget = getTargetPlayer()
+			if novoTarget then
+				syncConnection = RunService.Heartbeat:Connect(function()
+					syncWithPlayer(novoTarget)
+				end)
+			else
+				syncing = false
+				button.Text = "sync emote"
+			end
+		end
+	end)
+	
+end
+local function OEGB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.TpButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TpButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	
+	local localPlayer = Players.LocalPlayer
+	local tpButton = script.Parent
+	local stalkerFrame = tpButton.Parent
+	
+	local playerSelecionadoValue = stalkerFrame:WaitForChild("PlayerSelecionado")
+	
+	-- cor normal do botão
+	local corNormal = Color3.fromRGB(0, 170, 255)
+	local corClick = Color3.fromRGB(0, 85, 255)
+	
+	tpButton.BackgroundColor3 = corNormal
+	tpButton.Text = "TP"
+	
+	local function teleportar()
+		local nomePlayer = playerSelecionadoValue.Value
+	
+		if nomePlayer == "" then
+			warn("Nenhum player selecionado")
+			return
+		end
+	
+		local alvo = Players:FindFirstChild(nomePlayer)
+	
+		if not alvo then
+			warn("Player não encontrado")
+			return
+		end
+	
+		if not localPlayer.Character
+			or not localPlayer.Character:FindFirstChild("HumanoidRootPart") then
+			return
+		end
+	
+		if not alvo.Character
+			or not alvo.Character:FindFirstChild("HumanoidRootPart") then
+			return
+		end
+	
+		-- muda cor só na hora do clique
+		tpButton.BackgroundColor3 = corClick
+	
+		localPlayer.Character.HumanoidRootPart.CFrame =
+			alvo.Character.HumanoidRootPart.CFrame + Vector3.new(2, 0, 2)
+	
+		task.wait(0.15)
+	
+		-- volta ao normal
+		tpButton.BackgroundColor3 = corNormal
+	end
+	
+	tpButton.MouseButton1Click:Connect(teleportar)
+end
+local function CHWRZL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.MenuButtons
+    local script = Instance.new("LocalScript")
+    script.Name = "MenuButtons"
+    script.Parent = Converted["_mainFrame"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local mainFrame = script.Parent
+	
+	local menu = mainFrame:WaitForChild("menu")
+	
+	-- BOTÕES
+	local configButton = menu:WaitForChild("ConfigButton")
+	local moviButton = menu:WaitForChild("MoviButton")
+	local animaButton = menu:WaitForChild("animaButton")
+	local stalkerButton = menu:WaitForChild("stalkerButton")
+	local voxButton = menu:WaitForChild("voxupButton")
+	local vipButton = menu:WaitForChild("vipButton")
+	
+	-- FRAMES
+	local configUS = mainFrame:WaitForChild("configUS")
+	local movi = mainFrame:WaitForChild("movi")
+	local animacoes = mainFrame:WaitForChild("animações")
+	local stalker = mainFrame:WaitForChild("stalker")
+	local voxUp = mainFrame:WaitForChild("voxUp")
+	local vip = mainFrame:WaitForChild("vip")
+	
+	-- ESCONDER TODOS
+	local function esconderTudo()
+		configUS.Visible = false
+		movi.Visible = false
+		animacoes.Visible = false
+		stalker.Visible = false
+		voxUp.Visible = false
+		vip.Visible = false
+	end
+	
+	-- ABRIR CONFIG
+	local function abrirConfig()
+		esconderTudo()
+		configUS.Visible = true
+	end
+	
+	-- ABRIR MOVIMENTO
+	local function abrirMovi()
+		esconderTudo()
+		movi.Visible = true
+	end
+	
+	-- ABRIR ANIMAÇÕES
+	local function abrirAnimacoes()
+		esconderTudo()
+		animacoes.Visible = true
+	end
+	
+	-- ABRIR STALKER
+	local function abrirStalker()
+		esconderTudo()
+		stalker.Visible = true
+	end
+	
+	-- ABRIR VOX UP
+	local function abrirVox()
+		esconderTudo()
+		voxUp.Visible = true
+	end
+	
+	-- ABRIR VIP
+	local function abrirVip()
+		esconderTudo()
+		vip.Visible = true
+	end
+	
+	-- CONEXÕES
+	configButton.MouseButton1Click:Connect(abrirConfig)
+	moviButton.MouseButton1Click:Connect(abrirMovi)
+	animaButton.MouseButton1Click:Connect(abrirAnimacoes)
+	stalkerButton.MouseButton1Click:Connect(abrirStalker)
+	voxButton.MouseButton1Click:Connect(abrirVox)
+	vipButton.MouseButton1Click:Connect(abrirVip)
+	
+	-- MENU PADRÃO
+	abrirConfig()
+end
+local function SUBU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.FotoConfig
+    local script = Instance.new("LocalScript")
+    script.Name = "FotoConfig"
+    script.Parent = Converted["_mainFrame"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	local mainFrame = script.Parent
+	local configUS = mainFrame:WaitForChild("configUS")
+	local imageLabel = configUS:WaitForChild("ImageLabel")
+	
+	-- espera player carregar
+	repeat task.wait() until player.UserId ~= 0
+	
+	local userId = player.UserId
+	
+	local thumbnailType = Enum.ThumbnailType.HeadShot
+	local thumbnailSize = Enum.ThumbnailSize.Size420x420
+	
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbnailType, thumbnailSize)
+	
+	while not isReady do
+		task.wait(0.5)
+		content, isReady = Players:GetUserThumbnailAsync(userId, thumbnailType, thumbnailSize)
+	end
+	
+	imageLabel.Image = content
+	
+end
+local function ZAPOFT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.HpxScriipt
+    local script = Instance.new("LocalScript")
+    script.Name = "HpxScriipt"
+    script.Parent = Converted["_mainFrame"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local titulo = script.Parent:WaitForChild("hpx")
+	
+	titulo.RichText = true
+	
+	local texto = "HPX"
+	local hue = 0
+	
+	while true do
+		hue += 0.01
+	
+		if hue > 1 then
+			hue = 0
+		end
+	
+		local resultado = ""
+	
+		for i = 1, #texto do
+			local letra = texto:sub(i, i)
+	
+			local letraHue = hue + (i * 0.15)
+	
+			if letraHue > 1 then
+				letraHue -= 1
+			end
+	
+			local cor = Color3.fromHSV(letraHue, 1, 1)
+	
+			local r = math.floor(cor.R * 255)
+			local g = math.floor(cor.G * 255)
+			local b = math.floor(cor.B * 255)
+	
+			resultado ..= '<font color="rgb(' .. r .. ',' .. g .. ',' .. b .. ')">' .. letra .. '</font>'
+		end
+	
+		titulo.Text = resultado
+	
+		task.wait(0.03)
+	end
+end
+local function BILKHWR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.H
+    local script = Instance.new("LocalScript")
+    script.Name = "H"
+    script.Parent = Converted["_mainFrame"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local UserInputService = game:GetService("UserInputService")
+	local SoundService = game:GetService("SoundService")
+	
+	local mainFrame = script.Parent
+	
+	-- =========================
+	-- 🔊 SONS DOS BOTÕES
+	-- =========================
+	
+	local hoverSound = Instance.new("Sound")
+	hoverSound.SoundId = "rbxassetid://6895079853"
+	hoverSound.Volume =0.3
+	hoverSound.Parent = SoundService
+	
+	local clickSound = Instance.new("Sound")
+	clickSound.SoundId = "rbxassetid://124993589864467"
+	clickSound.Volume = 0.3
+	clickSound.Parent = SoundService
+	
+	
+	local function configurarBotao(obj)
+	
+		if obj:IsA("TextButton") or obj:IsA("ImageButton") then
+	
+			-- 🖱️ Passou o mouse
+			obj.MouseEnter:Connect(function()
+				hoverSound:Stop()
+				hoverSound:Play()
+			end)
+	
+			-- 🖱️ Clicou
+			obj.Activated:Connect(function()
+				clickSound:Stop()
+				clickSound:Play()
+			end)
+	
+		end
+	end
+	
+	
+	-- Configura os botões que já existem
+	for _, obj in ipairs(mainFrame:GetDescendants()) do
+		configurarBotao(obj)
+	end
+	
+	-- Configura botões criados depois
+	mainFrame.DescendantAdded:Connect(function(obj)
+		configurarBotao(obj)
+	end)
+	
+	
+	-- =========================
+	-- 🔻 MINIMIZAR COM H
+	-- =========================
+	
+	local minimizado = false
+	
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+	
+		if gameProcessed then
+			return
+		end
+	
+		if input.KeyCode == Enum.KeyCode.H then
+	
+			minimizado = not minimizado
+	
+			mainFrame.Visible = not minimizado
+		end
+	end)
+	
+	
+	-- =========================
+	-- 🖱️ MOVER PAINEL
+	-- =========================
+	
+	local movendo = false
+	local inicioMouse
+	local inicioFrame
+	
+	mainFrame.InputBegan:Connect(function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			movendo = true
+	
+			inicioMouse = input.Position
+			inicioFrame = mainFrame.Position
+		end
+	end)
+	
+	mainFrame.InputEnded:Connect(function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			movendo = false
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+	
+		if movendo and input.UserInputType == Enum.UserInputType.MouseMovement then
+	
+			local delta = input.Position - inicioMouse
+	
+			mainFrame.Position = UDim2.new(
+				inicioFrame.X.Scale,
+				inicioFrame.X.Offset + delta.X,
+	
+				inicioFrame.Y.Scale,
+				inicioFrame.Y.Offset + delta.Y
+			)
+		end
+	end)
+end
+local function DIOFD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.vip.flyButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_flyButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	local UserInputService = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	local flyButton = script.Parent
+	local movi = flyButton.Parent
+	
+	local stalkerFrame = flyButton:FindFirstAncestor("stalker")
+	local mainFrame = flyButton:FindFirstAncestor("mainFrame")
+	local cmdsFolder = flyButton:FindFirstAncestor("Cmds")
+	
+	if not cmdsFolder and stalkerFrame then
+		cmdsFolder = stalkerFrame:FindFirstChild("Cmds", true)
+	end
+	
+	if not cmdsFolder and mainFrame then
+		local sharedStalker = mainFrame:FindFirstChild("stalker")
+		if sharedStalker then
+			cmdsFolder = sharedStalker:FindFirstChild("Cmds", true)
+		end
+	end
+	
+	cmdsFolder = cmdsFolder or movi
+	local flyState = cmdsFolder:FindFirstChild("FlyAtivo")
+	
+	if not flyState then
+		flyState = Instance.new("BoolValue")
+		flyState.Name = "FlyAtivo"
+		flyState.Parent = cmdsFolder
+	end
+	
+	local flyAtivo = false
+	flyAtivo = flyState.Value
+	local minSpeed = 10
+	local maxSpeed = 200
+	local flySpeed = 50
+	
+	local boostExtra = 0
+	local boostMaxExtra = 100
+	local boostAceleracao = 120
+	local boostVolta = 180
+	
+	local flyConnection
+	local bodyGyro
+	local bodyVelocity
+	
+	local walkSpeedOriginal = 16
+	local walkSpeedNormal = 16
+	local jumpPowerOriginal = 50
+	local colisaoOriginal = {}
+	local sonsOriginais = {}
+	local animacoesAntigas = {}
+	
+	local animIds = {
+		parado = "rbxassetid://98891438162132",
+		paradoCeu = "rbxassetid://88970161810732",
+		voando = "rbxassetid://135142837467260"
+	}
+	
+	local tracks = {}
+	local animAtual = nil
+	local teclaAtual = nil
+	local escolhendoTecla = false
+	
+	local speedBox = flyButton:FindFirstChild("speed")
+	local keyButton = flyButton:FindFirstChild("keybutton") or flyButton:FindFirstChild("key")
+	local atualizandoTextoTecla = false
+	
+	if keyButton and keyButton:IsA("TextBox") then
+		keyButton.TextEditable = true
+		keyButton.ClearTextOnFocus = false
+	end
+	
+	local function atualizarTextoTecla()
+		if keyButton and (keyButton:IsA("TextButton") or keyButton:IsA("TextLabel") or keyButton:IsA("TextBox")) then
+			if teclaAtual then
+				keyButton.Text = teclaAtual.Name
+			else
+				keyButton.Text = ""
+			end
+		end
+	end
+	
+	local function iniciarSelecaoTecla()
+		escolhendoTecla = false
+		if keyButton and keyButton:IsA("TextBox") then
+			keyButton:CaptureFocus()
+			keyButton.SelectionStart = 1
+			keyButton.CursorPosition = #keyButton.Text + 1
+		end
+	end
+	
+	local function obterTeclaDoTexto(text)
+		local keyName = string.upper(text:sub(1, 1))
+		if #keyName ~= 1 then
+			return nil
+		end
+	
+		local charCode = string.byte(keyName)
+		if (charCode >= 48 and charCode <= 57) or (charCode >= 65 and charCode <= 90) then
+			return Enum.KeyCode[keyName]
+		end
+	
+		return nil
+	end
+	
+	local function confirmarTecla(keyCode)
+		if keyCode == Enum.KeyCode.Unknown then
+			return
+		end
+	
+		if keyCode == Enum.KeyCode.LeftShift or keyCode == Enum.KeyCode.RightShift then
+			return
+		end
+	
+		local keyName = keyCode.Name
+		if #keyName ~= 1 then
+			return
+		end
+	
+		local charCode = string.byte(keyName)
+		if not ((charCode >= 48 and charCode <= 57) or (charCode >= 65 and charCode <= 90)) then
+			return
+		end
+	
+		teclaAtual = keyCode
+		escolhendoTecla = false
+		atualizarTextoTecla()
+	
+		if keyButton and keyButton:IsA("TextBox") and keyButton:IsFocused() then
+			keyButton:ReleaseFocus()
+		end
+	end
+	
+	if keyButton and keyButton:IsA("TextBox") then
+		keyButton:GetPropertyChangedSignal("Text"):Connect(function()
+			if atualizandoTextoTecla then
+				return
+			end
+	
+			local primeiroCaractere = string.upper(keyButton.Text:sub(1, 1))
+			local tecla = obterTeclaDoTexto(primeiroCaractere)
+			local textoValido = tecla and primeiroCaractere or ""
+			atualizandoTextoTecla = true
+			keyButton.Text = textoValido
+			atualizandoTextoTecla = false
+	
+			if tecla then
+				teclaAtual = tecla
+			end
+		end)
+	
+		keyButton.FocusLost:Connect(function()
+			if keyButton.Text == "" and teclaAtual then
+				atualizandoTextoTecla = true
+				keyButton.Text = teclaAtual.Name
+				atualizandoTextoTecla = false
+			end
+		end)
+	end
+	
+	if speedBox and speedBox:IsA("TextBox") then
+		speedBox.FocusLost:Connect(function()
+			local text = speedBox.Text:gsub("%D", "")
+			local num = tonumber(text)
+			if num and num >= 0 and num <= 500 then
+				flySpeed = num
+			else
+				speedBox.Text = tostring(flySpeed)
+			end
+		end)
+	end
+	
+	local function conectarSelecaoTecla()
+		if not keyButton then
+			return
+		end
+	
+		if keyButton:IsA("TextBox") then
+			keyButton.Active = true
+			keyButton.InputBegan:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1 then
+					iniciarSelecaoTecla()
+				end
+			end)
+			return
+		end
+	
+		if keyButton:IsA("TextButton") or keyButton:IsA("TextLabel") then
+			keyButton.MouseButton1Click:Connect(function()
+				iniciarSelecaoTecla()
+			end)
+		end
+	end
+	
+	conectarSelecaoTecla()
+	
+	local function removerAnimacoesDoPersonagem(humanoid)
+		animacoesAntigas = {}
+		for _, track in ipairs(humanoid:GetPlayingAnimationTracks()) do
+			table.insert(animacoesAntigas, track)
+			pcall(function()
+				track:Stop(0)
+			end)
+		end
+	end
+	
+	local function desligarSomDePassos(character)
+		local root = character:FindFirstChild("HumanoidRootPart")
+		if not root then return end
+	
+		for _, obj in ipairs(root:GetChildren()) do
+			if obj:IsA("Sound") then
+				if obj.Name == "Running" or obj.Name == "Run" or obj.Name == "Walk" then
+					sonsOriginais[obj] = obj.Volume
+					obj.Volume = 0
+					obj:Stop()
+				end
+			end
+		end
+	end
+	
+	local function ligarSomDePassos()
+		for sound, volume in pairs(sonsOriginais) do
+			if sound and sound.Parent then
+				sound.Volume = volume
+			end
+		end
+		sonsOriginais = {}
+	end
+	
+	local function desligarColisao(character)
+		colisaoOriginal = {}
+		for _, obj in ipairs(character:GetDescendants()) do
+			if obj:IsA("BasePart") then
+				colisaoOriginal[obj] = obj.CanCollide
+				obj.CanCollide = false
+			end
+		end
+	end
+	
+	local function restaurarColisao()
+		for part, valor in pairs(colisaoOriginal) do
+			if part and part.Parent then
+				part.CanCollide = valor
+			end
+		end
+		colisaoOriginal = {}
+	end
+	
+	local function carregarAnimacoes(humanoid)
+		tracks = {}
+		animAtual = nil
+		local animator = humanoid:FindFirstChildOfClass("Animator")
+		if not animator then
+			animator = Instance.new("Animator")
+			animator.Parent = humanoid
+		end
+		for nome, id in pairs(animIds) do
+			local anim = Instance.new("Animation")
+			anim.AnimationId = id
+			local track = animator:LoadAnimation(anim)
+			track.Priority = Enum.AnimationPriority.Action4
+			track.Looped = true
+			tracks[nome] = track
+		end
+	end
+	
+	local function tocarAnim(nome)
+		if animAtual == nome then return end
+		for _, track in pairs(tracks) do
+			if track.IsPlaying then
+				track:Stop(0.1)
+			end
+		end
+		if tracks[nome] then
+			tracks[nome]:Play(0.1)
+			animAtual = nome
+		end
+	end
+	
+	local function pararTodasAnimacoes()
+		for _, track in pairs(tracks) do
+			if track.IsPlaying then
+				track:Stop(0.1)
+			end
+		end
+		tracks = {}
+		animAtual = nil
+	end
+	
+	local function atualizarBotao()
+		if flyAtivo then
+			flyButton.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+		else
+			flyButton.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+		end
+	end
+	
+	local function criarCFrameVoo(pos, direcao)
+		if direcao.Magnitude < 0.1 then
+			direcao = workspace.CurrentCamera.CFrame.LookVector
+		end
+		direcao = direcao.Unit
+		local base = CFrame.lookAt(pos, pos + direcao)
+		local inclinacaoExtra = math.rad(-15)
+		return base * CFrame.Angles(inclinacaoExtra, 0, 0)
+	end
+	
+	local function criarCFrameParado(pos)
+		local camera = workspace.CurrentCamera
+		local look = camera.CFrame.LookVector
+		local flat = Vector3.new(look.X, 0, look.Z)
+		if flat.Magnitude < 0.1 then
+			flat = Vector3.new(0, 0, -1)
+		end
+		flat = flat.Unit
+		return CFrame.lookAt(pos, pos + flat)
+	end
+	
+	local function ligarFly()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		removerAnimacoesDoPersonagem(humanoid)
+		walkSpeedOriginal = humanoid.WalkSpeed
+		jumpPowerOriginal = humanoid.JumpPower
+		desligarSomDePassos(character)
+		desligarColisao(character)
+	
+		local animate = character:FindFirstChild("Animate")
+		if animate then
+			animate.Disabled = true
+		end
+	
+		carregarAnimacoes(humanoid)
+		tocarAnim("paradoCeu")
+	
+		humanoid.PlatformStand = false
+		humanoid.AutoRotate = false
+		humanoid.WalkSpeed = 0
+		humanoid.JumpPower = 0
+		humanoid:ChangeState(Enum.HumanoidStateType.Freefall)
+	
+		if bodyGyro then bodyGyro:Destroy() end
+		if bodyVelocity then bodyVelocity:Destroy() end
+	
+		bodyGyro = Instance.new("BodyGyro")
+		bodyGyro.Name = "HPX_FlyGyro"
+		bodyGyro.P = 999999
+		bodyGyro.D = 80
+		bodyGyro.MaxTorque = Vector3.new(9999999999, 9999999999, 9999999999)
+		bodyGyro.CFrame = root.CFrame
+		bodyGyro.Parent = root
+	
+		bodyVelocity = Instance.new("BodyVelocity")
+		bodyVelocity.Name = "HPX_FlyVelocity"
+		bodyVelocity.MaxForce = Vector3.new(9999999999, 9999999999, 9999999999)
+		bodyVelocity.P = 999999
+		bodyVelocity.Velocity = Vector3.zero
+		bodyVelocity.Parent = root
+	
+		if flyConnection then
+			flyConnection:Disconnect()
+		end
+	
+		flyConnection = RunService.RenderStepped:Connect(function(dt)
+			if not flyAtivo then return end
+			if not character.Parent then return end
+			if not root.Parent then return end
+			if not bodyGyro or not bodyVelocity then return end
+	
+			local camera = workspace.CurrentCamera
+			local move = Vector3.zero
+			local segurandoCtrl = UserInputService:IsKeyDown(Enum.KeyCode.LeftControl) or UserInputService:IsKeyDown(Enum.KeyCode.RightControl)
+	
+			if segurandoCtrl then
+				boostExtra = math.clamp(boostExtra + boostAceleracao * dt, 0, boostMaxExtra)
+			else
+				boostExtra = math.clamp(boostExtra - boostVolta * dt, 0, boostMaxExtra)
+			end
+	
+			if UserInputService:IsKeyDown(Enum.KeyCode.W) then move += camera.CFrame.LookVector end
+			if UserInputService:IsKeyDown(Enum.KeyCode.S) then move -= camera.CFrame.LookVector end
+			if UserInputService:IsKeyDown(Enum.KeyCode.A) then move -= camera.CFrame.RightVector end
+			if UserInputService:IsKeyDown(Enum.KeyCode.D) then move += camera.CFrame.RightVector end
+			if UserInputService:IsKeyDown(Enum.KeyCode.Space) then move += Vector3.new(0, 1, 0) end
+			if UserInputService:IsKeyDown(Enum.KeyCode.Q) then move -= Vector3.new(0, 1, 0) end
+	
+			root.AssemblyAngularVelocity = Vector3.zero
+			local velocidadeAtual = flySpeed + boostExtra
+	
+			if move.Magnitude > 0 then
+				move = move.Unit
+				bodyVelocity.Velocity = move * velocidadeAtual
+				tocarAnim("voando")
+				local target = criarCFrameVoo(root.Position, move)
+				bodyGyro.CFrame = target
+			else
+				bodyVelocity.Velocity = Vector3.zero
+				tocarAnim("paradoCeu")
+				local target = criarCFrameParado(root.Position)
+				bodyGyro.CFrame = target
+			end
+		end)
+	
+	end
+	
+	local function desligarFly()
+		if flyConnection then
+			flyConnection:Disconnect()
+			flyConnection = nil
+		end
+		if bodyGyro then
+			bodyGyro:Destroy()
+			bodyGyro = nil
+		end
+		if bodyVelocity then
+			bodyVelocity:Destroy()
+			bodyVelocity = nil
+		end
+		boostExtra = 0
+		pararTodasAnimacoes()
+		ligarSomDePassos()
+		restaurarColisao()
+	
+		local character = player.Character
+		if character then
+			local humanoid = character:FindFirstChildOfClass("Humanoid")
+			local root = character:FindFirstChild("HumanoidRootPart")
+			if humanoid then
+				humanoid.AutoRotate = true
+				humanoid.WalkSpeed = walkSpeedNormal
+				humanoid.JumpPower = jumpPowerOriginal
+				humanoid:ChangeState(Enum.HumanoidStateType.GettingUp)
+			end
+			if root then
+				root.AssemblyLinearVelocity = Vector3.zero
+				root.AssemblyAngularVelocity = Vector3.zero
+			end
+			local animate = character:FindFirstChild("Animate")
+			if animate then
+				animate.Disabled = false
+			end
+		end
+	end
+	
+	local function ativarFly()
+		if flyAtivo then return end
+		flyAtivo = true
+		flyState.Value = true
+		ligarFly()
+		atualizarBotao()
+	end
+	
+	local function desativarFly()
+		if not flyAtivo then return end
+		flyAtivo = false
+		flyState.Value = false
+		desligarFly()
+		atualizarBotao()
+	end
+	
+	local function toggleFly()
+		if flyAtivo then
+			desativarFly()
+		else
+			ativarFly()
+		end
+	end
+	
+	if flyButton:IsA("TextButton") then
+		flyButton.MouseButton1Click:Connect(function()
+			toggleFly()
+		end)
+	else
+		flyButton.Activated:Connect(function()
+			toggleFly()
+		end)
+	end
+	
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then return end
+	
+		if escolhendoTecla and input and input.UserInputType == Enum.UserInputType.MouseButton1 then
+			escolhendoTecla = false
+			return
+		end
+	
+		if escolhendoTecla then
+			if input and input.UserInputType == Enum.UserInputType.Keyboard then
+				confirmarTecla(input.KeyCode)
+			end
+			return
+		end
+	
+		if input and input.UserInputType == Enum.UserInputType.Keyboard and teclaAtual then
+			local keyCode = input.KeyCode
+			if keyCode == teclaAtual then
+				if flyAtivo then
+					desativarFly()
+				else
+					ativarFly()
+				end
+			end
+		end
+	end)
+	
+	player.CharacterAdded:Connect(function()
+		if flyAtivo then
+			flyAtivo = false
+			flyState.Value = false
+			atualizarBotao()
+			desligarFly()
+		end
+	end)
+	
+	atualizarTextoTecla()
+	atualizarBotao()
+	
+end
+local function FWCZO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.vip.GirarButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_GirarButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local UserInputService = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	
+	local player = game:GetService("Players").LocalPlayer
+	local girarButton = script.Parent
+	local mainFrame = girarButton:FindFirstAncestor("mainFrame")
+	local flyState
+	
+	if mainFrame then
+		local stalkerFrame = mainFrame:FindFirstChild("stalker")
+		local cmdsFolder = stalkerFrame and stalkerFrame:FindFirstChild("Cmds", true)
+		if cmdsFolder then
+			flyState = cmdsFolder:FindFirstChild("FlyAtivo")
+			if not flyState then
+				flyState = Instance.new("BoolValue")
+				flyState.Name = "FlyAtivo"
+				flyState.Parent = cmdsFolder
+			end
+		end
+	end
+	
+	local speedBox = girarButton:FindFirstChild("speed")
+	local keyButton = girarButton:FindFirstChild("keybutton") or girarButton:FindFirstChild("key")
+	
+	local girando = false
+	local girarConnection
+	local teclaAtual
+	local velocidadeMinima = 50
+	local velocidadeMaxima = 500
+	local multiplicadorVelocidade = 20
+	local velocidade = 50
+	local autoRotateOriginal
+	local atualizandoTextoTecla = false
+	
+	local function atualizarTextoTecla()
+		if keyButton and keyButton:IsA("TextBox") then
+			atualizandoTextoTecla = true
+			keyButton.Text = teclaAtual and teclaAtual.Name or ""
+			atualizandoTextoTecla = false
+		elseif keyButton and (keyButton:IsA("TextButton") or keyButton:IsA("TextLabel")) then
+			keyButton.Text = teclaAtual and teclaAtual.Name or ""
+		end
+	end
+	
+	local function obterTecla(text)
+		local keyName = string.upper((text or ""):sub(1, 1))
+		if #keyName ~= 1 then
+			return nil
+		end
+	
+		local charCode = string.byte(keyName)
+		if not ((charCode >= 48 and charCode <= 57) or (charCode >= 65 and charCode <= 90)) then
+			return nil
+		end
+	
+		return Enum.KeyCode[keyName]
+	end
+	
+	local function definirTecla(keyCode)
+		if not keyCode or keyCode == Enum.KeyCode.Unknown then
+			return
+		end
+	
+		teclaAtual = keyCode
+		atualizarTextoTecla()
+	
+		if keyButton and keyButton:IsA("TextBox") and keyButton:IsFocused() then
+			keyButton:ReleaseFocus()
+		end
+	end
+	
+	local function obterHumanoid()
+		local character = player.Character
+		if not character then
+			return nil
+		end
+	
+		return character:FindFirstChildOfClass("Humanoid")
+	end
+	
+	local function atualizarBotao()
+		if girando then
+			girarButton.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+		else
+			girarButton.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+		end
+	end
+	
+	local function desligarGiro()
+		if girarConnection then
+			girarConnection:Disconnect()
+			girarConnection = nil
+		end
+	
+		local humanoid = obterHumanoid()
+		if humanoid and autoRotateOriginal ~= nil then
+			humanoid.AutoRotate = autoRotateOriginal
+		end
+		autoRotateOriginal = nil
+		girando = false
+		atualizarBotao()
+	end
+	
+	local function ligarGiro()
+		if flyState and flyState.Value then
+			return
+		end
+	
+		local humanoid = obterHumanoid()
+		if not humanoid then
+			return
+		end
+	
+		autoRotateOriginal = humanoid.AutoRotate
+		humanoid.AutoRotate = false
+		girando = true
+	
+		girarConnection = RunService.RenderStepped:Connect(function(deltaTime)
+			local character = player.Character
+			local root = character and character:FindFirstChild("HumanoidRootPart")
+			if not root then
+				desligarGiro()
+				return
+			end
+	
+			local velocidadeReal = velocidade * multiplicadorVelocidade
+			root.CFrame = root.CFrame * CFrame.Angles(0, math.rad(velocidadeReal) * deltaTime, 0)
+		end)
+	
+		atualizarBotao()
+	end
+	
+	if flyState then
+		flyState:GetPropertyChangedSignal("Value"):Connect(function()
+			if flyState.Value and girando then
+				desligarGiro()
+			end
+		end)
+	end
+	
+	local function alternarGiro()
+		if girando then
+			desligarGiro()
+		else
+			ligarGiro()
+		end
+	end
+	
+	if speedBox and speedBox:IsA("TextBox") then
+		speedBox.FocusLost:Connect(function()
+			local numero = tonumber(speedBox.Text)
+			if numero and numero >= velocidadeMinima and numero <= velocidadeMaxima then
+				velocidade = numero
+				speedBox.Text = tostring(numero)
+			else
+				velocidade = math.clamp(numero or velocidade, velocidadeMinima, velocidadeMaxima)
+				speedBox.Text = tostring(velocidade)
+			end
+		end)
+	end
+	
+	if keyButton and keyButton:IsA("TextBox") then
+		keyButton.TextEditable = true
+		keyButton.ClearTextOnFocus = false
+		keyButton:GetPropertyChangedSignal("Text"):Connect(function()
+			if atualizandoTextoTecla then
+				return
+			end
+	
+			local primeiroCaractere = string.upper(keyButton.Text:sub(1, 1))
+			local tecla = obterTecla(primeiroCaractere)
+			local textoValido = tecla and primeiroCaractere or ""
+			atualizandoTextoTecla = true
+			keyButton.Text = textoValido
+			atualizandoTextoTecla = false
+	
+			if tecla then
+				definirTecla(tecla)
+			end
+		end)
+	
+		keyButton.FocusLost:Connect(function()
+			atualizarTextoTecla()
+		end)
+	end
+	
+	if girarButton:IsA("TextButton") then
+		girarButton.MouseButton1Click:Connect(alternarGiro)
+	else
+		girarButton.Activated:Connect(alternarGiro)
+	end
+	
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then
+			return
+		end
+	
+		if keyButton and keyButton:IsA("TextBox") and keyButton:IsFocused() then
+			return
+		end
+	
+		if teclaAtual and input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode == teclaAtual then
+			alternarGiro()
+		end
+	end)
+	
+	player.CharacterAdded:Connect(function()
+		if girando then
+			desligarGiro()
+		end
+	end)
+	
+	if speedBox and speedBox:IsA("TextBox") then
+		speedBox.Text = tostring(velocidade)
+	end
+	atualizarTextoTecla()
+	atualizarBotao()
+	
+end
+local function HJNU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.vip.RunButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_RunButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local player = game:GetService("Players").LocalPlayer
+	local runButton = script.Parent
+	local mainFrame = runButton:FindFirstAncestor("mainFrame")
+	local flyState
+	
+	if mainFrame then
+		local stalkerFrame = mainFrame:FindFirstChild("stalker")
+		local cmdsFolder = stalkerFrame and stalkerFrame:FindFirstChild("Cmds", true)
+		if cmdsFolder then
+			flyState = cmdsFolder:FindFirstChild("FlyAtivo")
+			if not flyState then
+				flyState = Instance.new("BoolValue")
+				flyState.Name = "FlyAtivo"
+				flyState.Parent = cmdsFolder
+			end
+		end
+	end
+	
+	local speedBox = runButton:FindFirstChild("speed")
+	local keyButton = runButton:FindFirstChild("keybutton") or runButton:FindFirstChild("key")
+	
+	local correndo = false
+	local teclaAtual
+	local velocidadeMinima = -50
+	local velocidadeMaxima = 500
+	local velocidade = 50
+	local velocidadePadraoRoblox = 16
+	local walkSpeedOriginal
+	local atualizandoTextoTecla = false
+	
+	local function obterWalkSpeed()
+		return math.max(0, (velocidade - velocidadeMinima) * velocidadePadraoRoblox / (50 - velocidadeMinima))
+	end
+	
+	local function obterHumanoid()
+		local character = player.Character
+		if not character then
+			return nil
+		end
+	
+		return character:FindFirstChildOfClass("Humanoid")
+	end
+	
+	local function atualizarTextoTecla()
+		if not keyButton then
+			return
+		end
+	
+		if keyButton:IsA("TextBox") then
+			atualizandoTextoTecla = true
+			keyButton.Text = teclaAtual and teclaAtual.Name or ""
+			atualizandoTextoTecla = false
+		elseif keyButton:IsA("TextButton") or keyButton:IsA("TextLabel") then
+			keyButton.Text = teclaAtual and teclaAtual.Name or ""
+		end
+	end
+	
+	local function obterTecla(text)
+		local keyName = string.upper((text or ""):sub(1, 1))
+		if #keyName ~= 1 then
+			return nil
+		end
+	
+		local charCode = string.byte(keyName)
+		if not ((charCode >= 48 and charCode <= 57) or (charCode >= 65 and charCode <= 90)) then
+			return nil
+		end
+	
+		return Enum.KeyCode[keyName]
+	end
+	
+	local function definirTecla(keyCode)
+		if not keyCode or keyCode == Enum.KeyCode.Unknown then
+			return
+		end
+	
+		teclaAtual = keyCode
+		atualizarTextoTecla()
+	
+		if keyButton and keyButton:IsA("TextBox") and keyButton:IsFocused() then
+			keyButton:ReleaseFocus()
+		end
+	end
+	
+	local function atualizarBotao()
+		if correndo then
+			runButton.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+		else
+			runButton.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+		end
+	end
+	
+	local function desligarCorrida()
+		local humanoid = obterHumanoid()
+		if humanoid then
+			humanoid.WalkSpeed = velocidadePadraoRoblox
+		end
+	
+		correndo = false
+		atualizarBotao()
+	end
+	
+	local function ligarCorrida()
+		if flyState and flyState.Value then
+			return
+		end
+	
+		local humanoid = obterHumanoid()
+		if not humanoid then
+			return
+		end
+	
+		walkSpeedOriginal = humanoid.WalkSpeed
+		humanoid.WalkSpeed = obterWalkSpeed()
+		correndo = true
+		atualizarBotao()
+	end
+	
+	if flyState then
+		flyState:GetPropertyChangedSignal("Value"):Connect(function()
+			if flyState.Value and correndo then
+				desligarCorrida()
+			end
+		end)
+	end
+	
+	local function alternarCorrida()
+		if correndo then
+			desligarCorrida()
+		else
+			ligarCorrida()
+		end
+	end
+	
+	if speedBox and speedBox:IsA("TextBox") then
+		speedBox.FocusLost:Connect(function()
+			local numero = tonumber(speedBox.Text)
+			if numero then
+				velocidade = math.clamp(numero, velocidadeMinima, velocidadeMaxima)
+			else
+				velocidade = 50
+			end
+			speedBox.Text = tostring(velocidade)
+	
+			if correndo then
+				local humanoid = obterHumanoid()
+				if humanoid then
+					humanoid.WalkSpeed = obterWalkSpeed()
+				end
+			end
+		end)
+	end
+	
+	if keyButton and keyButton:IsA("TextBox") then
+		keyButton.TextEditable = true
+		keyButton.ClearTextOnFocus = false
+		keyButton:GetPropertyChangedSignal("Text"):Connect(function()
+			if atualizandoTextoTecla then
+				return
+			end
+	
+			local primeiroCaractere = string.upper(keyButton.Text:sub(1, 1))
+			local tecla = obterTecla(primeiroCaractere)
+			local textoValido = tecla and primeiroCaractere or ""
+			atualizandoTextoTecla = true
+			keyButton.Text = textoValido
+			atualizandoTextoTecla = false
+	
+			if tecla then
+				definirTecla(tecla)
+			end
+		end)
+	
+		keyButton.FocusLost:Connect(function()
+			atualizarTextoTecla()
+		end)
+	end
+	
+	if runButton:IsA("TextButton") then
+		runButton.MouseButton1Click:Connect(alternarCorrida)
+	else
+		runButton.Activated:Connect(alternarCorrida)
+	end
+	
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then
+			return
+		end
+	
+		if keyButton and keyButton:IsA("TextBox") and keyButton:IsFocused() then
+			return
+		end
+	
+		if teclaAtual and input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode == teclaAtual then
+			alternarCorrida()
+		end
+	end)
+	
+	player.CharacterAdded:Connect(function()
+		if correndo then
+			desligarCorrida()
+		end
+	end)
+	
+	if speedBox and speedBox:IsA("TextBox") then
+		speedBox.Text = tostring(velocidade)
+	end
+	atualizarTextoTecla()
+	atualizarBotao()
+	
+end
+local function AXKXO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.vip.flingButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_flingButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	local UserInputService = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	local flingButton = script.Parent
+	local mainFrame = flingButton:FindFirstAncestor("mainFrame")
+	local flyState
+	
+	if mainFrame then
+		local stalkerFrame = mainFrame:FindFirstChild("stalker")
+		local cmdsFolder = stalkerFrame and stalkerFrame:FindFirstChild("Cmds", true)
+		if cmdsFolder then
+			flyState = cmdsFolder:FindFirstChild("FlyAtivo")
+			if not flyState then
+				flyState = Instance.new("BoolValue")
+				flyState.Name = "FlyAtivo"
+				flyState.Parent = cmdsFolder
+			end
+		end
+	end
+	
+	local speedBox = flingButton:FindFirstChild("speed")
+	local keyButton = flingButton:FindFirstChild("keybutton") or flingButton:FindFirstChild("key")
+	
+	local flingAtivo = false
+	local teclaAtual
+	local velocidadeMinima = 10
+	local velocidadeMaxima = 500
+	local velocidade = 80
+	local flingConnection
+	local atualizandoTextoTecla = false
+	
+	local function atualizarTextoTecla()
+		if not keyButton then
+			return
+		end
+	
+		if keyButton:IsA("TextBox") then
+			atualizandoTextoTecla = true
+			keyButton.Text = teclaAtual and teclaAtual.Name or ""
+			atualizandoTextoTecla = false
+		elseif keyButton:IsA("TextButton") or keyButton:IsA("TextLabel") then
+			keyButton.Text = teclaAtual and teclaAtual.Name or ""
+		end
+	end
+	
+	local function obterTecla(text)
+		local keyName = string.upper((text or ""):sub(1, 1))
+		if #keyName ~= 1 then
+			return nil
+		end
+	
+		local charCode = string.byte(keyName)
+		if not ((charCode >= 48 and charCode <= 57) or (charCode >= 65 and charCode <= 90)) then
+			return nil
+		end
+	
+		return Enum.KeyCode[keyName]
+	end
+	
+	local function definirTecla(keyCode)
+		if not keyCode or keyCode == Enum.KeyCode.Unknown then
+			return
+		end
+	
+		teclaAtual = keyCode
+		atualizarTextoTecla()
+	
+		if keyButton and keyButton:IsA("TextBox") and keyButton:IsFocused() then
+			keyButton:ReleaseFocus()
+		end
+	end
+	
+	local function obterHumanoidRoot()
+		local character = player.Character
+		if not character then
+			return nil
+		end
+	
+		return character:FindFirstChild("HumanoidRootPart")
+	end
+	
+	local function atualizarBotao()
+		if flingAtivo then
+			flingButton.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+		else
+			flingButton.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+		end
+	end
+	
+	local function obterHitboxDoJogador()
+		local character = player.Character
+		if not character then
+			return nil, 0
+		end
+	
+		local root = character:FindFirstChild("HumanoidRootPart")
+		if not root then
+			return nil, 0
+		end
+	
+		local tamanho = character:GetExtentsSize()
+		local raioHitbox = math.max(2, (tamanho.X + tamanho.Z) * 0.5)
+		local centro = root.Position + Vector3.new(0, tamanho.Y * 0.2, 0)
+	
+		return centro, raioHitbox + 2
+	end
+	
+	local function aplicarFlingEmPartes()
+		local root = obterHumanoidRoot()
+		if not root then
+			return
+		end
+	
+		local centroHitbox, raioHitbox = obterHitboxDoJogador()
+		if not centroHitbox then
+			return
+		end
+	
+		local alcance = math.clamp(8 + (velocidade * 0.12), 8, 25)
+		local forca = math.clamp(velocidade * 10, 180, 1500)
+		local character = player.Character
+		if not character then
+			return
+		end
+	
+		for _, part in ipairs(workspace:GetDescendants()) do
+			if not part:IsA("BasePart") then
+				continue
+			end
+	
+			if part.Anchored then
+				continue
+			end
+	
+			if part:IsDescendantOf(character) then
+				continue
+			end
+	
+			if not part.CanCollide then
+				continue
+			end
+	
+			local distancia = (part.Position - centroHitbox).Magnitude
+			if distancia > raioHitbox + alcance then
+				continue
+			end
+	
+			local direcao = (part.Position - centroHitbox)
+			if direcao.Magnitude > 0 then
+				direcao = direcao.Unit
+			else
+				direcao = Vector3.new(0, 1, 0)
+			end
+	
+			local impulso = direcao * forca + Vector3.new(0, math.clamp(velocidade * 1.8, 35, 450), 0)
+			part.AssemblyLinearVelocity = impulso
+			part.AssemblyAngularVelocity = part.AssemblyAngularVelocity + Vector3.new(
+				(math.random() * 2 - 1) * 18,
+				(math.random() * 2 - 1) * 18,
+				(math.random() * 2 - 1) * 18
+			)
+		end
+	end
+	
+	local function desligarFling()
+		if flingConnection then
+			flingConnection:Disconnect()
+			flingConnection = nil
+		end
+	
+		flingAtivo = false
+		atualizarBotao()
+	end
+	
+	local function ligarFling()
+		if flyState and flyState.Value then
+			return
+		end
+	
+		local root = obterHumanoidRoot()
+		if not root then
+			return
+		end
+	
+		flingAtivo = true
+		atualizarBotao()
+	
+		flingConnection = RunService.RenderStepped:Connect(function()
+			if not flingAtivo then
+				return
+			end
+	
+			aplicarFlingEmPartes()
+		end)
+	end
+	
+	if flyState then
+		flyState:GetPropertyChangedSignal("Value"):Connect(function()
+			if flyState.Value and flingAtivo then
+				desligarFling()
+			end
+		end)
+	end
+	
+	local function alternarFling()
+		if flingAtivo then
+			desligarFling()
+		else
+			ligarFling()
+		end
+	end
+	
+	if speedBox and speedBox:IsA("TextBox") then
+		speedBox.FocusLost:Connect(function()
+			local numero = tonumber(speedBox.Text)
+			if numero then
+				velocidade = math.clamp(numero, velocidadeMinima, velocidadeMaxima)
+			else
+				velocidade = 80
+			end
+			speedBox.Text = tostring(velocidade)
+		end)
+	end
+	
+	if keyButton and keyButton:IsA("TextBox") then
+		keyButton.TextEditable = true
+		keyButton.ClearTextOnFocus = false
+		keyButton:GetPropertyChangedSignal("Text"):Connect(function()
+			if atualizandoTextoTecla then
+				return
+			end
+	
+			local primeiroCaractere = string.upper(keyButton.Text:sub(1, 1))
+			local tecla = obterTecla(primeiroCaractere)
+			local textoValido = tecla and primeiroCaractere or ""
+			atualizandoTextoTecla = true
+			keyButton.Text = textoValido
+			atualizandoTextoTecla = false
+	
+			if tecla then
+				definirTecla(tecla)
+			end
+		end)
+	
+		keyButton.FocusLost:Connect(function()
+			atualizarTextoTecla()
+		end)
+	end
+	
+	if flingButton:IsA("TextButton") then
+		flingButton.MouseButton1Click:Connect(alternarFling)
+	else
+		flingButton.Activated:Connect(alternarFling)
+	end
+	
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then
+			return
+		end
+	
+		if keyButton and keyButton:IsA("TextBox") and keyButton:IsFocused() then
+			return
+		end
+	
+		if teclaAtual and input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode == teclaAtual then
+			alternarFling()
+		end
+	end)
+	
+	player.CharacterAdded:Connect(function()
+		if flingAtivo then
+			desligarFling()
+		end
+	end)
+	
+	if speedBox and speedBox:IsA("TextBox") then
+		speedBox.Text = tostring(velocidade)
+	end
+	
+	atualizarTextoTecla()
+	atualizarBotao()
+end
+local function IFJXXK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.vip.antiflingButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_antiflingButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	local UserInputService = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	local antiFlingButton = script.Parent
+	local mainFrame = antiFlingButton:FindFirstAncestor("mainFrame")
+	local flyState
+	
+	if mainFrame then
+		local stalkerFrame = mainFrame:FindFirstChild("stalker")
+		local cmdsFolder = stalkerFrame and stalkerFrame:FindFirstChild("Cmds", true)
+		if cmdsFolder then
+			flyState = cmdsFolder:FindFirstChild("FlyAtivo")
+			if not flyState then
+				flyState = Instance.new("BoolValue")
+				flyState.Name = "FlyAtivo"
+				flyState.Parent = cmdsFolder
+			end
+		end
+	end
+	
+	local keyButton = antiFlingButton:FindFirstChild("keybutton") or antiFlingButton:FindFirstChild("key")
+	
+	local antiFlingAtivo = false
+	local antiFlingConnection
+	local teclaAtual
+	local atualizandoTextoTecla = false
+	local partesColisaoOriginal = {}
+	
+	local function atualizarTextoTecla()
+		if not keyButton then
+			return
+		end
+	
+		if keyButton:IsA("TextBox") then
+			atualizandoTextoTecla = true
+			keyButton.Text = teclaAtual and teclaAtual.Name or ""
+			atualizandoTextoTecla = false
+		elseif keyButton:IsA("TextButton") or keyButton:IsA("TextLabel") then
+			keyButton.Text = teclaAtual and teclaAtual.Name or ""
+		end
+	end
+	
+	local function obterTecla(text)
+		local keyName = string.upper((text or ""):sub(1, 1))
+		if #keyName ~= 1 then
+			return nil
+		end
+	
+		local charCode = string.byte(keyName)
+		if not ((charCode >= 48 and charCode <= 57) or (charCode >= 65 and charCode <= 90)) then
+			return nil
+		end
+	
+		return Enum.KeyCode[keyName]
+	end
+	
+	local function definirTecla(keyCode)
+		if not keyCode or keyCode == Enum.KeyCode.Unknown then
+			return
+		end
+	
+		teclaAtual = keyCode
+		atualizarTextoTecla()
+	
+		if keyButton and keyButton:IsA("TextBox") and keyButton:IsFocused() then
+			keyButton:ReleaseFocus()
+		end
+	end
+	
+	local function atualizarBotao()
+		if antiFlingAtivo then
+			antiFlingButton.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+		else
+			antiFlingButton.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+		end
+	end
+	
+	local function desligarColisaoDoPersonagem()
+		local character = player.Character
+		if not character then
+			return
+		end
+	
+		partesColisaoOriginal = {}
+		for _, part in ipairs(character:GetDescendants()) do
+			if part:IsA("BasePart") then
+				partesColisaoOriginal[part] = part.CanCollide
+				part.CanCollide = false
+			end
+		end
+	end
+	
+	local function restaurarColisaoDoPersonagem()
+		for part, valor in pairs(partesColisaoOriginal) do
+			if part and part.Parent then
+				part.CanCollide = valor
+			end
+		end
+		partesColisaoOriginal = {}
+	end
+	
+	local function desligarAntiFling()
+		if antiFlingConnection then
+			antiFlingConnection:Disconnect()
+			antiFlingConnection = nil
+		end
+	
+		antiFlingAtivo = false
+		restaurarColisaoDoPersonagem()
+		atualizarBotao()
+	end
+	
+	local function ligarAntiFling()
+		if flyState and flyState.Value then
+			return
+		end
+	
+		local character = player.Character
+		if not character then
+			return
+		end
+	
+		antiFlingAtivo = true
+		desligarColisaoDoPersonagem()
+		atualizarBotao()
+	
+		antiFlingConnection = RunService.RenderStepped:Connect(function()
+			if not antiFlingAtivo or not player.Character then
+				return
+			end
+	
+			for _, part in ipairs(player.Character:GetDescendants()) do
+				if part:IsA("BasePart") then
+					part.CanCollide = false
+				end
+			end
+		end)
+	end
+	
+	local function alternarAntiFling()
+		if antiFlingAtivo then
+			desligarAntiFling()
+		else
+			ligarAntiFling()
+		end
+	end
+	
+	if flyState then
+		flyState:GetPropertyChangedSignal("Value"):Connect(function()
+			if flyState.Value and antiFlingAtivo then
+				desligarAntiFling()
+			end
+		end)
+	end
+	
+	if keyButton and keyButton:IsA("TextBox") then
+		keyButton.TextEditable = true
+		keyButton.ClearTextOnFocus = false
+		keyButton:GetPropertyChangedSignal("Text"):Connect(function()
+			if atualizandoTextoTecla then
+				return
+			end
+	
+			local primeiroCaractere = string.upper(keyButton.Text:sub(1, 1))
+			local tecla = obterTecla(primeiroCaractere)
+			local textoValido = tecla and primeiroCaractere or ""
+			atualizandoTextoTecla = true
+			keyButton.Text = textoValido
+			atualizandoTextoTecla = false
+	
+			if tecla then
+				definirTecla(tecla)
+			end
+		end)
+	
+		keyButton.FocusLost:Connect(function()
+			atualizarTextoTecla()
+		end)
+	end
+	
+	if antiFlingButton:IsA("TextButton") then
+		antiFlingButton.MouseButton1Click:Connect(alternarAntiFling)
+	else
+		antiFlingButton.Activated:Connect(alternarAntiFling)
+	end
+	
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then
+			return
+		end
+	
+		if keyButton and keyButton:IsA("TextBox") and keyButton:IsFocused() then
+			return
+		end
+	
+		if teclaAtual and input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode == teclaAtual then
+			alternarAntiFling()
+		end
+	end)
+	
+	player.CharacterAdded:Connect(function()
+		if antiFlingAtivo then
+			desligarAntiFling()
+			ligarAntiFling()
+		end
+	end)
+	
+	atualizarTextoTecla()
+	atualizarBotao()
+end
+local function OVXH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.userstag
+    local script = Instance.new("LocalScript")
+    script.Name = "userstag"
+    script.Parent = Converted["_mainFrame"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	
+	local ownerUserId = 3890243713
+	local localPlayer = Players.LocalPlayer
+	
+	local function findMainFrame()
+		local current = script.Parent
+		while current do
+			if current:IsA("Folder") and current.Name == "mainFrame" then
+				return current
+			end
+			current = current.Parent
+		end
+	
+		local playerGui = localPlayer:WaitForChild("PlayerGui", 10)
+		if playerGui then
+			local guiMainFrame = playerGui:FindFirstChild("mainFrame", true)
+			if guiMainFrame then
+				return guiMainFrame
+			end
+		end
+	
+		local starterGui = game:GetService("StarterGui")
+		local starterMainFrame = starterGui:FindFirstChild("mainFrame", true)
+		if starterMainFrame then
+			return starterMainFrame
+		end
+	
+		return nil
+	end
+	
+	local mainFrame = findMainFrame()
+	local tagsFolder = mainFrame and mainFrame:FindFirstChild("tags", true)
+	
+	if not tagsFolder then
+		return
+	end
+	
+	local tagDono = tagsFolder:FindFirstChild("TagDono")
+	local tagMembro = tagsFolder:FindFirstChild("TagMembro")
+	
+	if not tagDono or not tagMembro then
+		return
+	end
+	
+	local function getTagTemplateForPlayer(playerInstance)
+		if playerInstance and playerInstance.UserId == ownerUserId then
+			return tagDono
+		end
+		return tagMembro
+	end
+	
+	local function destroyTagForPlayer(playerInstance)
+		if not playerInstance or not playerInstance.Character then
+			return
+		end
+	
+		local tagName = "Tag_" .. playerInstance.Name
+		local tag = playerInstance.Character:FindFirstChild(tagName)
+		if tag then
+			tag:Destroy()
+		end
+	end
+	
+	local function applyTagForPlayer(playerInstance)
+		if not playerInstance or not playerInstance.Character then
+			return
+		end
+	
+		local head = playerInstance.Character:FindFirstChild("Head")
+		if not head then
+			return
+		end
+	
+		destroyTagForPlayer(playerInstance)
+	
+		local template = getTagTemplateForPlayer(playerInstance)
+		if not template then
+			return
+		end
+	
+		local tagClone = template:Clone()
+		tagClone.Name = "Tag_" .. playerInstance.Name
+		tagClone.Adornee = head
+		tagClone.StudsOffset = Vector3.new(0, -0.3, 0)
+		tagClone.Parent = head
+		tagClone.Enabled = true
+	end
+	
+	for _, playerInstance in ipairs(Players:GetPlayers()) do
+		if playerInstance.Character then
+			applyTagForPlayer(playerInstance)
+		end
+	
+		playerInstance.CharacterAdded:Connect(function()
+			applyTagForPlayer(playerInstance)
+		end)
+	end
+	
+	Players.PlayerAdded:Connect(function(playerInstance)
+		if playerInstance.Character then
+			applyTagForPlayer(playerInstance)
+		end
+	
+		playerInstance.CharacterAdded:Connect(function()
+			applyTagForPlayer(playerInstance)
+		end)
+	end)
+	
+	Players.PlayerRemoving:Connect(function(playerInstance)
+		destroyTagForPlayer(playerInstance)
+	end)
+	
+	if localPlayer then
+		localPlayer.CharacterAdded:Connect(function()
+			applyTagForPlayer(localPlayer)
+		end)
+		if localPlayer.Character then
+			applyTagForPlayer(localPlayer)
+		end
+	end
+	
+end
+
+coroutine.wrap(YIIOEMC_fake_script)()
+coroutine.wrap(QAKTUB_fake_script)()
+coroutine.wrap(RPHLLG_fake_script)()
+coroutine.wrap(VJHSPU_fake_script)()
+coroutine.wrap(NVJG_fake_script)()
+coroutine.wrap(BQVIOK_fake_script)()
+coroutine.wrap(EAEJFPW_fake_script)()
+coroutine.wrap(MNBBB_fake_script)()
+coroutine.wrap(KMGHNJ_fake_script)()
+coroutine.wrap(KKQSEA_fake_script)()
+coroutine.wrap(AAMB_fake_script)()
+coroutine.wrap(TSORG_fake_script)()
+coroutine.wrap(UGPU_fake_script)()
+coroutine.wrap(ELZMYUM_fake_script)()
+coroutine.wrap(BFQHDUU_fake_script)()
+coroutine.wrap(XBNBCU_fake_script)()
+coroutine.wrap(WAWY_fake_script)()
+coroutine.wrap(YUOI_fake_script)()
+coroutine.wrap(FSCRTYN_fake_script)()
+coroutine.wrap(UENCQVH_fake_script)()
+coroutine.wrap(BQQVPI_fake_script)()
+coroutine.wrap(JJYI_fake_script)()
+coroutine.wrap(PSHLUG_fake_script)()
+coroutine.wrap(LJDLIKL_fake_script)()
+coroutine.wrap(IZHYJ_fake_script)()
+coroutine.wrap(RTQKY_fake_script)()
+coroutine.wrap(LHXBEZD_fake_script)()
+coroutine.wrap(XWXKL_fake_script)()
+coroutine.wrap(UBEQJ_fake_script)()
+coroutine.wrap(KEZNUG_fake_script)()
+coroutine.wrap(TWSBN_fake_script)()
+coroutine.wrap(UFJXID_fake_script)()
+coroutine.wrap(QZDEYNW_fake_script)()
+coroutine.wrap(QTUV_fake_script)()
+coroutine.wrap(AXRY_fake_script)()
+coroutine.wrap(EXAAR_fake_script)()
+coroutine.wrap(NJIATY_fake_script)()
+coroutine.wrap(VDSTDMY_fake_script)()
+coroutine.wrap(IYCUTVT_fake_script)()
+coroutine.wrap(OEGB_fake_script)()
+coroutine.wrap(CHWRZL_fake_script)()
+coroutine.wrap(SUBU_fake_script)()
+coroutine.wrap(ZAPOFT_fake_script)()
+coroutine.wrap(BILKHWR_fake_script)()
+coroutine.wrap(DIOFD_fake_script)()
+coroutine.wrap(FWCZO_fake_script)()
+coroutine.wrap(HJNU_fake_script)()
+coroutine.wrap(AXKXO_fake_script)()
+coroutine.wrap(IFJXXK_fake_script)()
+coroutine.wrap(OVXH_fake_script)()-- Please leave these comments in and leave credit, it took me a while to make this
