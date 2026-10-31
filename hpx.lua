@@ -3,6 +3,7 @@
 -- Instances:
 
 local Converted = {
+	["_ScreenGui"] = Instance.new("ScreenGui");
 	["_mainFrame"] = Instance.new("Frame");
 	["_MenuButtons"] = Instance.new("LocalScript");
 	["_FotoConfig"] = Instance.new("LocalScript");
@@ -125,7 +126,7 @@ local Converted = {
 	["_UICorner21"] = Instance.new("UICorner");
 	["_UIGridLayout1"] = Instance.new("UIGridLayout");
 	["_UIPadding2"] = Instance.new("UIPadding");
-	["_animações"] = Instance.new("Frame");
+	["_anima��es"] = Instance.new("Frame");
 	["_vampiro"] = Instance.new("TextButton");
 	["_LocalScript15"] = Instance.new("LocalScript");
 	["_UICorner22"] = Instance.new("UICorner");
@@ -182,7 +183,7 @@ local Converted = {
 	["_LocalScript28"] = Instance.new("LocalScript");
 	["_UICorner35"] = Instance.new("UICorner");
 	["_UITextSizeConstraint39"] = Instance.new("UITextSizeConstraint");
-	["_Robô"] = Instance.new("TextButton");
+	["_Rob�"] = Instance.new("TextButton");
 	["_LocalScript29"] = Instance.new("LocalScript");
 	["_UICorner36"] = Instance.new("UICorner");
 	["_UITextSizeConstraint40"] = Instance.new("UITextSizeConstraint");
@@ -355,6 +356,9 @@ local Converted = {
 
 -- Properties:
 
+Converted["_ScreenGui"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_ScreenGui"].Parent = game:GetService("CoreGui")
+
 Converted["_mainFrame"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_mainFrame"].BackgroundColor3 = Color3.fromRGB(10.000000353902578, 15.000000055879354, 30.00000011175871)
 Converted["_mainFrame"].BorderColor3 = Color3.fromRGB(255, 255, 255)
@@ -362,17 +366,7 @@ Converted["_mainFrame"].BorderSizePixel = 0
 Converted["_mainFrame"].Position = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_mainFrame"].Size = UDim2.new(0.59353739, 0, 0.64943254, 0)
 Converted["_mainFrame"].Name = "mainFrame"
-local Players = game:GetService("Players")
-local player = Players.LocalPlayer
-local playerGui = player:WaitForChild("PlayerGui")
-local screenGui = playerGui:FindFirstChild("ScreenGui")
-if not screenGui then
-    screenGui = Instance.new("ScreenGui")
-    screenGui.Name = "ScreenGui"
-    screenGui.ResetOnSpawn = false
-    screenGui.Parent = playerGui
-end
-Converted["_mainFrame"].Parent = screenGui
+Converted["_mainFrame"].Parent = Converted["_ScreenGui"]
 
 Converted["_configUS"].BackgroundColor3 = Color3.fromRGB(24.000000469386578, 30.00000011175871, 45.00000111758709)
 Converted["_configUS"].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -397,7 +391,7 @@ Converted["_UICorner"].Parent = Converted["_ImageLabel"]
 Converted["_UIStroke"].Parent = Converted["_ImageLabel"]
 
 Converted["_usersLabel"].Font = Enum.Font.SourceSans
-Converted["_usersLabel"].Text = "👤 0"
+Converted["_usersLabel"].Text = "?? 0"
 Converted["_usersLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_usersLabel"].TextScaled = true
 Converted["_usersLabel"].TextSize = 30
@@ -954,7 +948,7 @@ Converted["_UIStroke6"].Thickness = 2
 Converted["_UIStroke6"].Parent = Converted["_EspButton"]
 
 Converted["_TextLabel5"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel5"].Text = "Espião "
+Converted["_TextLabel5"].Text = "Espi�o "
 Converted["_TextLabel5"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel5"].TextScaled = true
 Converted["_TextLabel5"].TextSize = 14
@@ -1214,14 +1208,14 @@ Converted["_UIPadding2"].PaddingRight = UDim.new(0, 10)
 Converted["_UIPadding2"].PaddingTop = UDim.new(0, 10)
 Converted["_UIPadding2"].Parent = Converted["_movi"]
 
-Converted["_animações"].BackgroundColor3 = Color3.fromRGB(24.000000469386578, 30.00000011175871, 45.00000111758709)
-Converted["_animações"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_animações"].BorderSizePixel = 0
-Converted["_animações"].Position = UDim2.new(0.31099999, 0, 0.167999998, 0)
-Converted["_animações"].Size = UDim2.new(0.675999999, 0, 0.809000015, 0)
-Converted["_animações"].Visible = false
-Converted["_animações"].Name = "animações"
-Converted["_animações"].Parent = Converted["_mainFrame"]
+Converted["_anima��es"].BackgroundColor3 = Color3.fromRGB(24.000000469386578, 30.00000011175871, 45.00000111758709)
+Converted["_anima��es"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_anima��es"].BorderSizePixel = 0
+Converted["_anima��es"].Position = UDim2.new(0.31099999, 0, 0.167999998, 0)
+Converted["_anima��es"].Size = UDim2.new(0.675999999, 0, 0.809000015, 0)
+Converted["_anima��es"].Visible = false
+Converted["_anima��es"].Name = "anima��es"
+Converted["_anima��es"].Parent = Converted["_mainFrame"]
 
 Converted["_vampiro"].Font = Enum.Font.SourceSansBold
 Converted["_vampiro"].Text = "v a m p i r o"
@@ -1238,7 +1232,7 @@ Converted["_vampiro"].LayoutOrder = 1
 Converted["_vampiro"].Position = UDim2.new(0.991176486, 0, -1.58000004, 0)
 Converted["_vampiro"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_vampiro"].Name = "vampiro"
-Converted["_vampiro"].Parent = Converted["_animações"]
+Converted["_vampiro"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner22"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner22"].BottomRightRadius = UDim.new(0, 9)
@@ -1265,7 +1259,7 @@ Converted["_zumbie"].LayoutOrder = 4
 Converted["_zumbie"].Position = UDim2.new(2.60588241, 0, -1.75999999, 0)
 Converted["_zumbie"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_zumbie"].Name = "zumbie"
-Converted["_zumbie"].Parent = Converted["_animações"]
+Converted["_zumbie"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner23"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner23"].BottomRightRadius = UDim.new(0, 9)
@@ -1292,7 +1286,7 @@ Converted["_adidas"].LayoutOrder = 3
 Converted["_adidas"].Position = UDim2.new(1.14705884, 0, -1.10000002, 0)
 Converted["_adidas"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_adidas"].Name = "adidas"
-Converted["_adidas"].Parent = Converted["_animações"]
+Converted["_adidas"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner24"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner24"].BottomRightRadius = UDim.new(0, 9)
@@ -1319,7 +1313,7 @@ Converted["_Bolhoso"].LayoutOrder = 13
 Converted["_Bolhoso"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
 Converted["_Bolhoso"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Bolhoso"].Name = "Bolhoso"
-Converted["_Bolhoso"].Parent = Converted["_animações"]
+Converted["_Bolhoso"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner25"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner25"].BottomRightRadius = UDim.new(0, 9)
@@ -1346,7 +1340,7 @@ Converted["_ninja"].LayoutOrder = 2
 Converted["_ninja"].Position = UDim2.new(1.14705884, 0, -0.419999987, 0)
 Converted["_ninja"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_ninja"].Name = "ninja"
-Converted["_ninja"].Parent = Converted["_animações"]
+Converted["_ninja"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner26"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner26"].BottomRightRadius = UDim.new(0, 9)
@@ -1373,7 +1367,7 @@ Converted["_lobo"].LayoutOrder = 8
 Converted["_lobo"].Position = UDim2.new(2.60588241, 0, -1.10000002, 0)
 Converted["_lobo"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_lobo"].Name = "lobo"
-Converted["_lobo"].Parent = Converted["_animações"]
+Converted["_lobo"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner27"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner27"].BottomRightRadius = UDim.new(0, 9)
@@ -1401,7 +1395,7 @@ Converted["_mago"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
 Converted["_mago"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_mago"].Visible = false
 Converted["_mago"].Name = "mago"
-Converted["_mago"].Parent = Converted["_animações"]
+Converted["_mago"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner28"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner28"].BottomRightRadius = UDim.new(0, 9)
@@ -1414,7 +1408,7 @@ Converted["_UITextSizeConstraint32"].MaxTextSize = 20
 Converted["_UITextSizeConstraint32"].Parent = Converted["_mago"]
 
 Converted["_levitar"].Font = Enum.Font.SourceSansBold
-Converted["_levitar"].Text = "L e v i t a ç ã o"
+Converted["_levitar"].Text = "L e v i t a � � o"
 Converted["_levitar"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_levitar"].TextScaled = true
 Converted["_levitar"].TextSize = 20
@@ -1428,7 +1422,7 @@ Converted["_levitar"].LayoutOrder = 6
 Converted["_levitar"].Position = UDim2.new(2.60588241, 0, -0.419999987, 0)
 Converted["_levitar"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_levitar"].Name = "levitar"
-Converted["_levitar"].Parent = Converted["_animações"]
+Converted["_levitar"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner29"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner29"].BottomRightRadius = UDim.new(0, 9)
@@ -1455,7 +1449,7 @@ Converted["_cartoon"].LayoutOrder = 5
 Converted["_cartoon"].Position = UDim2.new(1.14705884, 0, 0.200000003, 0)
 Converted["_cartoon"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_cartoon"].Name = "cartoon"
-Converted["_cartoon"].Parent = Converted["_animações"]
+Converted["_cartoon"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner30"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner30"].BottomRightRadius = UDim.new(0, 9)
@@ -1483,7 +1477,7 @@ Converted["_amazon"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
 Converted["_amazon"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_amazon"].Visible = false
 Converted["_amazon"].Name = "amazon"
-Converted["_amazon"].Parent = Converted["_animações"]
+Converted["_amazon"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner31"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner31"].BottomRightRadius = UDim.new(0, 9)
@@ -1510,7 +1504,7 @@ Converted["_astronauta"].LayoutOrder = 7
 Converted["_astronauta"].Position = UDim2.new(2.60588241, 0, 0.200000003, 0)
 Converted["_astronauta"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_astronauta"].Name = "astronauta"
-Converted["_astronauta"].Parent = Converted["_animações"]
+Converted["_astronauta"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner32"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner32"].BottomRightRadius = UDim.new(0, 9)
@@ -1537,7 +1531,7 @@ Converted["_superhero"].LayoutOrder = 16
 Converted["_superhero"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
 Converted["_superhero"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_superhero"].Name = "superhero"
-Converted["_superhero"].Parent = Converted["_animações"]
+Converted["_superhero"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner33"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner33"].BottomRightRadius = UDim.new(0, 9)
@@ -1564,7 +1558,7 @@ Converted["_antiga"].LayoutOrder = 9
 Converted["_antiga"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
 Converted["_antiga"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_antiga"].Name = "antiga"
-Converted["_antiga"].Parent = Converted["_animações"]
+Converted["_antiga"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner34"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner34"].BottomRightRadius = UDim.new(0, 9)
@@ -1591,7 +1585,7 @@ Converted["_Estileira"].LayoutOrder = 10
 Converted["_Estileira"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
 Converted["_Estileira"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Estileira"].Name = "Estileira"
-Converted["_Estileira"].Parent = Converted["_animações"]
+Converted["_Estileira"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner35"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner35"].BottomRightRadius = UDim.new(0, 9)
@@ -1603,32 +1597,32 @@ Converted["_UICorner35"].Parent = Converted["_Estileira"]
 Converted["_UITextSizeConstraint39"].MaxTextSize = 20
 Converted["_UITextSizeConstraint39"].Parent = Converted["_Estileira"]
 
-Converted["_Robô"].Font = Enum.Font.SourceSansBold
-Converted["_Robô"].Text = "Robô"
-Converted["_Robô"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Robô"].TextScaled = true
-Converted["_Robô"].TextSize = 20
-Converted["_Robô"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Robô"].TextWrapped = true
-Converted["_Robô"].BackgroundColor3 = Color3.fromRGB(70.00000342726707, 81.00000277161598, 111.00000098347664)
-Converted["_Robô"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
-Converted["_Robô"].BorderMode = Enum.BorderMode.Middle
-Converted["_Robô"].BorderSizePixel = 4
-Converted["_Robô"].LayoutOrder = 11
-Converted["_Robô"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
-Converted["_Robô"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
-Converted["_Robô"].Name = "Robô"
-Converted["_Robô"].Parent = Converted["_animações"]
+Converted["_Rob�"].Font = Enum.Font.SourceSansBold
+Converted["_Rob�"].Text = "Rob�"
+Converted["_Rob�"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Rob�"].TextScaled = true
+Converted["_Rob�"].TextSize = 20
+Converted["_Rob�"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Rob�"].TextWrapped = true
+Converted["_Rob�"].BackgroundColor3 = Color3.fromRGB(70.00000342726707, 81.00000277161598, 111.00000098347664)
+Converted["_Rob�"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
+Converted["_Rob�"].BorderMode = Enum.BorderMode.Middle
+Converted["_Rob�"].BorderSizePixel = 4
+Converted["_Rob�"].LayoutOrder = 11
+Converted["_Rob�"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
+Converted["_Rob�"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
+Converted["_Rob�"].Name = "Rob�"
+Converted["_Rob�"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner36"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner36"].BottomRightRadius = UDim.new(0, 9)
 Converted["_UICorner36"].CornerRadius = UDim.new(0, 9)
 Converted["_UICorner36"].TopLeftRadius = UDim.new(0, 9)
 Converted["_UICorner36"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner36"].Parent = Converted["_Robô"]
+Converted["_UICorner36"].Parent = Converted["_Rob�"]
 
 Converted["_UITextSizeConstraint40"].MaxTextSize = 20
-Converted["_UITextSizeConstraint40"].Parent = Converted["_Robô"]
+Converted["_UITextSizeConstraint40"].Parent = Converted["_Rob�"]
 
 Converted["_Elf"].Font = Enum.Font.SourceSans
 Converted["_Elf"].Text = "Elf erro"
@@ -1646,7 +1640,7 @@ Converted["_Elf"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
 Converted["_Elf"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Elf"].Visible = false
 Converted["_Elf"].Name = "Elf"
-Converted["_Elf"].Parent = Converted["_animações"]
+Converted["_Elf"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner37"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner37"].BottomRightRadius = UDim.new(0, 9)
@@ -1673,7 +1667,7 @@ Converted["_Velho"].LayoutOrder = 12
 Converted["_Velho"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
 Converted["_Velho"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Velho"].Name = "Velho"
-Converted["_Velho"].Parent = Converted["_animações"]
+Converted["_Velho"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner38"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner38"].BottomRightRadius = UDim.new(0, 9)
@@ -1701,7 +1695,7 @@ Converted["_Walmart"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
 Converted["_Walmart"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Walmart"].Visible = false
 Converted["_Walmart"].Name = "Walmart"
-Converted["_Walmart"].Parent = Converted["_animações"]
+Converted["_Walmart"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner39"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner39"].BottomRightRadius = UDim.new(0, 9)
@@ -1729,7 +1723,7 @@ Converted["_malvada"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
 Converted["_malvada"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_malvada"].Visible = false
 Converted["_malvada"].Name = "malvada"
-Converted["_malvada"].Parent = Converted["_animações"]
+Converted["_malvada"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner40"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner40"].BottomRightRadius = UDim.new(0, 9)
@@ -1756,7 +1750,7 @@ Converted["_Brinquedo"].LayoutOrder = 14
 Converted["_Brinquedo"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
 Converted["_Brinquedo"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Brinquedo"].Name = "Brinquedo"
-Converted["_Brinquedo"].Parent = Converted["_animações"]
+Converted["_Brinquedo"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner41"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner41"].BottomRightRadius = UDim.new(0, 9)
@@ -1783,7 +1777,7 @@ Converted["_superhero1"].LayoutOrder = 15
 Converted["_superhero1"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
 Converted["_superhero1"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_superhero1"].Name = "superhero"
-Converted["_superhero1"].Parent = Converted["_animações"]
+Converted["_superhero1"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner42"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner42"].BottomRightRadius = UDim.new(0, 9)
@@ -1811,7 +1805,7 @@ Converted["_Through Life"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
 Converted["_Through Life"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Through Life"].Visible = false
 Converted["_Through Life"].Name = "Through Life"
-Converted["_Through Life"].Parent = Converted["_animações"]
+Converted["_Through Life"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner43"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner43"].BottomRightRadius = UDim.new(0, 9)
@@ -1839,7 +1833,7 @@ Converted["_superhero2"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
 Converted["_superhero2"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_superhero2"].Visible = false
 Converted["_superhero2"].Name = "superhero"
-Converted["_superhero2"].Parent = Converted["_animações"]
+Converted["_superhero2"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner44"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner44"].BottomRightRadius = UDim.new(0, 9)
@@ -1867,7 +1861,7 @@ Converted["_Glow"].Position = UDim2.new(2.60588241, 0, 6.9000001, 0)
 Converted["_Glow"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Glow"].Visible = false
 Converted["_Glow"].Name = "Glow"
-Converted["_Glow"].Parent = Converted["_animações"]
+Converted["_Glow"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner45"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner45"].BottomRightRadius = UDim.new(0, 9)
@@ -1882,20 +1876,20 @@ Converted["_UITextSizeConstraint49"].Parent = Converted["_Glow"]
 Converted["_UIGridLayout2"].CellPadding = UDim2.new(0.0500000007, 0, 0.0199999996, 0)
 Converted["_UIGridLayout2"].CellSize = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_UIGridLayout2"].SortOrder = Enum.SortOrder.LayoutOrder
-Converted["_UIGridLayout2"].Parent = Converted["_animações"]
+Converted["_UIGridLayout2"].Parent = Converted["_anima��es"]
 
 Converted["_UICorner46"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner46"].BottomRightRadius = UDim.new(0, 9)
 Converted["_UICorner46"].CornerRadius = UDim.new(0, 9)
 Converted["_UICorner46"].TopLeftRadius = UDim.new(0, 9)
 Converted["_UICorner46"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner46"].Parent = Converted["_animações"]
+Converted["_UICorner46"].Parent = Converted["_anima��es"]
 
 Converted["_UIPadding3"].PaddingBottom = UDim.new(0, 10)
 Converted["_UIPadding3"].PaddingLeft = UDim.new(0, 10)
 Converted["_UIPadding3"].PaddingRight = UDim.new(0, 10)
 Converted["_UIPadding3"].PaddingTop = UDim.new(0, 10)
-Converted["_UIPadding3"].Parent = Converted["_animações"]
+Converted["_UIPadding3"].Parent = Converted["_anima��es"]
 
 Converted["_voxUp"].BackgroundColor3 = Color3.fromRGB(24.000000469386578, 30.00000011175871, 45.00000111758709)
 Converted["_voxUp"].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -2353,7 +2347,7 @@ Converted["_stalker"].Parent = Converted["_mainFrame"]
 Converted["_SeachBox"].ClearTextOnFocus = false
 Converted["_SeachBox"].Font = Enum.Font.FredokaOne
 Converted["_SeachBox"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_SeachBox"].PlaceholderText = "🔍 Procurar jogador"
+Converted["_SeachBox"].PlaceholderText = "?? Procurar jogador"
 Converted["_SeachBox"].Text = ""
 Converted["_SeachBox"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_SeachBox"].TextScaled = true
@@ -2475,7 +2469,7 @@ Converted["_UIGridLayout4"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIGridLayout4"].Parent = Converted["_Cmds"]
 
 Converted["_carinhoButton"].Font = Enum.Font.FredokaOne
-Converted["_carinhoButton"].Text = "cabeça"
+Converted["_carinhoButton"].Text = "cabe�a"
 Converted["_carinhoButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_carinhoButton"].TextScaled = true
 Converted["_carinhoButton"].TextSize = 20
@@ -2766,7 +2760,7 @@ Converted["_UITextSizeConstraint75"].MaxTextSize = 25
 Converted["_UITextSizeConstraint75"].Parent = Converted["_animaButton"]
 
 Converted["_TextLabel17"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel17"].Text = "animações"
+Converted["_TextLabel17"].Text = "anima��es"
 Converted["_TextLabel17"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel17"].TextScaled = true
 Converted["_TextLabel17"].TextSize = 14
@@ -2920,7 +2914,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function KOBRB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.MenuButtons
+local function PSXDRNU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.MenuButtons
     local script = Instance.new("LocalScript")
     script.Name = "MenuButtons"
     script.Parent = Converted["_mainFrame"]
@@ -2937,7 +2931,7 @@ local function KOBRB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	local menu = mainFrame:WaitForChild("menu")
 	
-	-- BOTÕES
+	-- BOT�ES
 	local configButton = menu:WaitForChild("ConfigButton")
 	local moviButton = menu:WaitForChild("MoviButton")
 	local animaButton = menu:WaitForChild("animaButton")
@@ -2947,7 +2941,7 @@ local function KOBRB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	-- FRAMES
 	local configUS = mainFrame:WaitForChild("configUS")
 	local movi = mainFrame:WaitForChild("movi")
-	local animacoes = mainFrame:WaitForChild("animações")
+	local animacoes = mainFrame:WaitForChild("anima��es")
 	local stalker = mainFrame:WaitForChild("stalker")
 	local voxUp = mainFrame:WaitForChild("voxUp")
 	
@@ -2972,7 +2966,7 @@ local function KOBRB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		movi.Visible = true
 	end
 	
-	-- ABRIR ANIMAÇÕES
+	-- ABRIR ANIMA��ES
 	local function abrirAnimacoes()
 		esconderTudo()
 		animacoes.Visible = true
@@ -2991,7 +2985,7 @@ local function KOBRB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	end
 	
 	
-	-- CONEXÕES
+	-- CONEX�ES
 	configButton.MouseButton1Click:Connect(abrirConfig)
 	moviButton.MouseButton1Click:Connect(abrirMovi)
 	animaButton.MouseButton1Click:Connect(abrirAnimacoes)
@@ -2999,10 +2993,10 @@ local function KOBRB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	voxButton.MouseButton1Click:Connect(abrirVox)
 	
 	
-	-- MENU PADRÃO
+	-- MENU PADR�O
 	abrirConfig()
 end
-local function GYOKC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.FotoConfig
+local function BWQAUCX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.FotoConfig
     local script = Instance.new("LocalScript")
     script.Name = "FotoConfig"
     script.Parent = Converted["_mainFrame"]
@@ -3041,7 +3035,7 @@ local function GYOKC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	imageLabel.Image = content
 	
 end
-local function SPZCJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.HpxScriipt
+local function GFJXBSX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.HpxScriipt
     local script = Instance.new("LocalScript")
     script.Name = "HpxScriipt"
     script.Parent = Converted["_mainFrame"]
@@ -3056,7 +3050,7 @@ local function SPZCJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 
 	
 end
-local function OGBYJL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.H
+local function SFCB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.H
     local script = Instance.new("LocalScript")
     script.Name = "H"
     script.Parent = Converted["_mainFrame"]
@@ -3075,7 +3069,7 @@ local function OGBYJL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	local mainFrame = script.Parent
 	
 	-- =========================
-	-- 🔊 SONS DOS BOTÕES
+	-- ?? SONS DOS BOT�ES
 	-- =========================
 	
 	local hoverSound = Instance.new("Sound")
@@ -3093,13 +3087,13 @@ local function OGBYJL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 		if obj:IsA("TextButton") or obj:IsA("ImageButton") then
 	
-			-- 🖱️ Passou o mouse
+			-- ??? Passou o mouse
 			obj.MouseEnter:Connect(function()
 				hoverSound:Stop()
 				hoverSound:Play()
 			end)
 	
-			-- 🖱️ Clicou
+			-- ??? Clicou
 			obj.Activated:Connect(function()
 				clickSound:Stop()
 				clickSound:Play()
@@ -3109,19 +3103,19 @@ local function OGBYJL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	end
 	
 	
-	-- Configura os botões que já existem
+	-- Configura os bot�es que j� existem
 	for _, obj in ipairs(mainFrame:GetDescendants()) do
 		configurarBotao(obj)
 	end
 	
-	-- Configura botões criados depois
+	-- Configura bot�es criados depois
 	mainFrame.DescendantAdded:Connect(function(obj)
 		configurarBotao(obj)
 	end)
 	
 	
 	-- =========================
-	-- 🔻 MINIMIZAR COM H
+	-- ?? MINIMIZAR COM H
 	-- =========================
 	
 	local minimizado = false
@@ -3142,7 +3136,7 @@ local function OGBYJL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	
 	-- =========================
-	-- 🖱️ MOVER PAINEL
+	-- ??? MOVER PAINEL
 	-- =========================
 	
 	local movendo = false
@@ -3183,7 +3177,7 @@ local function OGBYJL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		end
 	end)
 end
-local function IRUX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.userstag
+local function ZUKTWWT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.userstag
     local script = Instance.new("LocalScript")
     script.Name = "userstag"
     script.Parent = Converted["_mainFrame"]
@@ -3218,7 +3212,7 @@ local function IRUX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		local head = character:WaitForChild("Head", 10)
 	
 		if not head or not head:IsA("BasePart") then
-			warn("[Tags] Não encontrei a cabeça de " .. playerInstance.Name)
+			warn("[Tags] N�o encontrei a cabe�a de " .. playerInstance.Name)
 			return
 		end
 	
@@ -3302,7 +3296,7 @@ local function IRUX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		end
 	end)
 end
-local function RVFUA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
+local function JSAVFY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_configUS"]
@@ -3321,7 +3315,7 @@ local function RVFUA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	usernameLabel.Text = player.DisplayName .. " ( " .. player.Name .. " )"
 end
-local function FHSI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.usersLabel.LocalScript
+local function WKCESR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.usersLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_usersLabel"]
@@ -3334,9 +3328,9 @@ local function FHSI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
         return req(obj)
     end
 
-	script.Parent.Text = "👤 " .. math.random(10, 30)
+	script.Parent.Text = "?? " .. math.random(10, 30)
 end
-local function PMKB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
+local function QBNXHOG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_pingLabel"]
@@ -3381,7 +3375,7 @@ local function PMKB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		task.wait(1)
 	end
 end
-local function EMMEZWX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
+local function BBKRYCQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_fpsLabel"]
@@ -3415,22 +3409,22 @@ local function EMMEZWX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 			fpsLabel.Text = "FPS: " .. fps
 	
-			-- 🟢 FPS bom
+			-- ?? FPS bom
 			if fps >= 50 then
 				fpsLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
 	
-				-- 🟡 FPS médio
+				-- ?? FPS m�dio
 			elseif fps >= 30 then
 				fpsLabel.TextColor3 = Color3.fromRGB(255, 255, 0)
 	
-				-- 🔴 FPS ruim
+				-- ?? FPS ruim
 			else
 				fpsLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
 			end
 		end
 	end)
 end
-local function QSUYOU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
+local function XWREHL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_platformLabel"]
@@ -3452,22 +3446,22 @@ local function QSUYOU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	local plataforma = "Unknown"
 	
-	-- 📱 Mobile
+	-- ?? Mobile
 	if UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled then
-		plataforma = "📱 Mobile"
+		plataforma = "?? Mobile"
 	
-		-- 🎮 Console
+		-- ?? Console
 	elseif UserInputService.GamepadEnabled then
-		plataforma = "🎮 Console"
+		plataforma = "?? Console"
 	
-		-- 💻 PC
+		-- ?? PC
 	else
-		plataforma = "💻 PC"
+		plataforma = "?? PC"
 	end
 	
 	platformLabel.Text = "PLATAFORMA: " .. plataforma
 end
-local function YQXUO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
+local function PWTSNR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
     local script = Instance.new("LocalScript")
     script.Name = "AtalhosManager"
     script.Parent = Converted["_movi"]
@@ -3482,7 +3476,7 @@ local function YQXUO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 
 	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
 end
-local function UJYBID_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.visibleButton.LocalScript
+local function GQNAJSH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.visibleButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_visibleButton"]
@@ -3518,7 +3512,7 @@ local function UJYBID_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	local atualizandoTextoTecla = false
 	
 	---------------------------------------------------
-	-- CONFIGURAÇÃO DO FANTASMA
+	-- CONFIGURA��O DO FANTASMA
 	---------------------------------------------------
 	
 	local COR_FANTASMA = Color3.fromRGB(140, 220, 255)
@@ -3530,7 +3524,7 @@ local function UJYBID_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	local TEMPO_TRANSICAO_ANIMACAO = 0.03
 	
 	---------------------------------------------------
-	-- ANIMAÇÕES DO FANTASMA
+	-- ANIMA��ES DO FANTASMA
 	---------------------------------------------------
 	
 	local ANIMACOES = {
@@ -3594,7 +3588,7 @@ local function UJYBID_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	}
 	
 	---------------------------------------------------
-	-- BOTÃO
+	-- BOT�O
 	---------------------------------------------------
 	
 	local function atualizarBotao()
@@ -3677,7 +3671,7 @@ local function UJYBID_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	end
 	
 	---------------------------------------------------
-	-- ANIMAÇÕES
+	-- ANIMA��ES
 	---------------------------------------------------
 	
 	local function criarTrack(nome, id, prioridade, looped)
@@ -3702,7 +3696,7 @@ local function UJYBID_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		anim:Destroy()
 	
 		if not sucesso or not track then
-			warn("[Fantasma] Não foi possível carregar a animação:", nome)
+			warn("[Fantasma] N�o foi poss�vel carregar a anima��o:", nome)
 			return
 		end
 	
@@ -3854,7 +3848,7 @@ local function UJYBID_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	end
 	
 	---------------------------------------------------
-	-- APARÊNCIA E COLISÕES DO FANTASMA
+	-- APAR�NCIA E COLIS�ES DO FANTASMA
 	---------------------------------------------------
 	
 	local function configurarAparenciaFantasma(model)
@@ -3950,7 +3944,7 @@ local function UJYBID_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		fantasma.Parent = workspace
 		fantasma:PivotTo(character:GetPivot())
 	
-		-- O fantasma é movido pelo script e não cai com a gravidade.
+		-- O fantasma � movido pelo script e n�o cai com a gravidade.
 		rootFantasma.Anchored = true
 	
 		carregarAnimacoes()
@@ -4006,7 +4000,7 @@ local function UJYBID_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	end
 	
 	---------------------------------------------------
-	-- CONTROLE DO VOO E DAS ANIMAÇÕES
+	-- CONTROLE DO VOO E DAS ANIMA��ES
 	---------------------------------------------------
 	
 	local function iniciarControle()
@@ -4040,7 +4034,7 @@ local function UJYBID_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 				if tracks.Run then
 					tocarAnimacao("Run")
 	
-					-- A animação acompanha o ritmo do voo acelerado.
+					-- A anima��o acompanha o ritmo do voo acelerado.
 					tracks.Run:AdjustSpeed(
 						teclas.Boost and 1.5 or 1.15
 					)
@@ -4154,13 +4148,13 @@ local function UJYBID_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	end
 	
 	---------------------------------------------------
-	-- BOTÃO PRINCIPAL
+	-- BOT�O PRINCIPAL
 	---------------------------------------------------
 	
 	button.MouseButton1Click:Connect(alternarFantasma)
 	
 	---------------------------------------------------
-	-- BOTÃO PARA ESCOLHER ATALHO
+	-- BOT�O PARA ESCOLHER ATALHO
 	---------------------------------------------------
 	
 	if atalhoButton then
@@ -4297,7 +4291,7 @@ local function UJYBID_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	atualizarBotao()
 	atualizarAtalho()
 end
-local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.reverseButton.LocalScript
+local function FYFY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.reverseButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_reverseButton"]
@@ -4310,8 +4304,8 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
         return req(obj)
     end
 
-	-- Versão independente, escrita para este painel.
-	-- LocalScript dentro do botão; TextButton/TextBox 'tecla' para o atalho.
+	-- Vers�o independente, escrita para este painel.
+	-- LocalScript dentro do bot�o; TextButton/TextBox 'tecla' para o atalho.
 	
 	local Players = game:GetService('Players')
 	local UIS = game:GetService('UserInputService')
@@ -4324,13 +4318,13 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		or button:FindFirstChild('key')
 		or button.Parent:FindFirstChild('atalhotempoButton')
 	
-	assert(button:IsA('GuiButton'), 'Coloque este LocalScript dentro do botão.')
+	assert(button:IsA('GuiButton'), 'Coloque este LocalScript dentro do bot�o.')
 	
 	local HISTORY_SECONDS = 30
 	local RECORD_FPS = 30
 	local REWIND_SPEED = 1
 	
-	-- Vazio: usa as animações que já existem no personagem.
+	-- Vazio: usa as anima��es que j� existem no personagem.
 	local CUSTOM_WALK_ID = ''
 	
 	local OWNER = 'VoltarNoTempo'
@@ -4360,7 +4354,7 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	local walkId, jumpId, fallId
 	
 	---------------------------------------------------
-	-- CONEXÕES
+	-- CONEX�ES
 	---------------------------------------------------
 	
 	local function connect(signal, callback)
@@ -4370,7 +4364,7 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end
 	
 	---------------------------------------------------
-	-- BOTÃO
+	-- BOT�O
 	---------------------------------------------------
 	
 	local function refreshButton()
@@ -4401,7 +4395,7 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end
 	
 	---------------------------------------------------
-	-- HISTÓRICO
+	-- HIST�RICO
 	---------------------------------------------------
 	
 	local function physical(i)
@@ -4429,7 +4423,7 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end
 	
 	---------------------------------------------------
-	-- ANIMAÇÕES
+	-- ANIMA��ES
 	---------------------------------------------------
 	
 	local function stopVisual()
@@ -4499,7 +4493,7 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 			animationCache[id] = entry
 	
 			if not ok then
-				warn('[TEMPO] Não foi possível carregar animação:', id, track)
+				warn('[TEMPO] N�o foi poss�vel carregar anima��o:', id, track)
 			end
 		end
 	
@@ -4736,7 +4730,7 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end
 	
 	---------------------------------------------------
-	-- COMEÇAR A VOLTAR
+	-- COME�AR A VOLTAR
 	---------------------------------------------------
 	
 	local function start()
@@ -4763,7 +4757,7 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 			humanoid:FindFirstChildOfClass('Animator')
 	
 		if not animator then
-			warn('[TEMPO] Animator não encontrado.')
+			warn('[TEMPO] Animator n�o encontrado.')
 			return
 		end
 	
@@ -4900,7 +4894,7 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 		local nome = code.Name
 	
-		-- somente uma letra ou número
+		-- somente uma letra ou n�mero
 		if #nome ~= 1 then
 			return false
 		end
@@ -4922,7 +4916,7 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 		choosing = false
 	
-		-- tecla usada em outro botão
+		-- tecla usada em outro bot�o
 		if owner and owner ~= OWNER then
 	
 			label('USADA')
@@ -4989,7 +4983,7 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 			writing = false
 		end)
 	
-		-- NÃO DEIXA DIGITAR MAIS DE UMA TECLA
+		-- N�O DEIXA DIGITAR MAIS DE UMA TECLA
 		connect(
 			shortcut:GetPropertyChangedSignal('Text'),
 			function()
@@ -5054,7 +5048,7 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end
 	
 	---------------------------------------------------
-	-- SEGURAR BOTÃO = VOLTAR
+	-- SEGURAR BOT�O = VOLTAR
 	---------------------------------------------------
 	
 	connect(button.InputBegan, function(input)
@@ -5077,7 +5071,7 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end)
 	
 	---------------------------------------------------
-	-- SOLTAR BOTÃO = PARAR
+	-- SOLTAR BOT�O = PARAR
 	---------------------------------------------------
 	
 	connect(button.InputEnded, function(input)
@@ -5159,12 +5153,12 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end)
 	
 	---------------------------------------------------
-	-- GRAVAÇÃO AUTOMÁTICA
+	-- GRAVA��O AUTOM�TICA
 	---------------------------------------------------
 	
 	connect(RunService.PostSimulation, function(dt)
 	
-		-- agora não precisa clicar para ativar a gravação
+		-- agora n�o precisa clicar para ativar a grava��o
 		if rewinding
 			or not root
 			or not root.Parent
@@ -5221,7 +5215,7 @@ local function QVNC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		task.spawn(setup, player.Character)
 	end
 end
-local function TIISCFA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.femotesButton.LocalScript
+local function VYYQLZO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.femotesButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_femotesButton"]
@@ -5334,7 +5328,7 @@ local function TIISCFA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	favButton.Parent = topBar
 	favButton.Size = UDim2.new(0,30,0,25)
 	favButton.Position = UDim2.new(1,-320,0.5,-12)
-	favButton.Text = "⭐"
+	favButton.Text = "?"
 	favButton.TextScaled = true
 	favButton.Font = Enum.Font.GothamBold
 	favButton.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
@@ -5397,7 +5391,7 @@ local function TIISCFA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		end
 	
 		if hum.RigType == Enum.HumanoidRigType.R6 then
-			warn("Emote só funciona em R15")
+			warn("Emote s� funciona em R15")
 			return
 		end
 	
@@ -5412,7 +5406,7 @@ local function TIISCFA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 			return
 		end
 	
-		local cleanName = tostring(name):gsub("⭐ ", "")
+		local cleanName = tostring(name):gsub("? ", "")
 	
 		local desc = hum:FindFirstChildOfClass("HumanoidDescription")
 	
@@ -5454,7 +5448,7 @@ local function TIISCFA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 			return
 		end
 	
-		warn("Não conseguiu tocar:", cleanName, idNumber)
+		warn("N�o conseguiu tocar:", cleanName, idNumber)
 	end
 	
 	-- CLEAR
@@ -5511,9 +5505,9 @@ local function TIISCFA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		star.TextColor3 = Color3.fromRGB(255,255,0)
 	
 		if favoritos[idString] then
-			star.Text = "⭐"
+			star.Text = "?"
 		else
-			star.Text = "☆"
+			star.Text = "?"
 		end
 	
 		star.MouseButton1Click:Connect(function()
@@ -5521,9 +5515,9 @@ local function TIISCFA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 			Favoritar(name,id)
 	
 			if favoritos[idString] then
-				star.Text = "⭐"
+				star.Text = "?"
 			else
-				star.Text = "☆"
+				star.Text = "?"
 			end
 	
 			if mostrandoFavoritos then
@@ -5631,7 +5625,7 @@ local function TIISCFA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 							if not favoritos[idString] then
 								favoritos[idString] = {
-									"⭐ "..emoteName,
+									"? "..emoteName,
 									id
 								}
 							end
@@ -5643,7 +5637,7 @@ local function TIISCFA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 						if not favoritos[idString] then
 							favoritos[idString] = {
-								"⭐ "..emoteName,
+								"? "..emoteName,
 								ids
 							}
 						end
@@ -5663,9 +5657,9 @@ local function TIISCFA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		mostrandoFavoritos = not mostrandoFavoritos
 	
 		if mostrandoFavoritos then
-			favButton.Text = "⭐"
+			favButton.Text = "?"
 		else
-			favButton.Text = "🌎"
+			favButton.Text = "??"
 		end
 	
 		pesquisarCatalogo(search.Text)
@@ -5782,7 +5776,7 @@ local function TIISCFA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	task.spawn(carregarEmotesDoPlayer)
 end
-local function WJZFSLE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.clicktpButton.LocalScript
+local function RXHPU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.clicktpButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_clicktpButton"]
@@ -5812,7 +5806,7 @@ local function WJZFSLE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	local OWNER = "ClickTP"
 	
 	---------------------------------------------------
-	-- REFERÊNCIAS
+	-- REFER�NCIAS
 	---------------------------------------------------
 	
 	local clickTpButton = script.Parent
@@ -5828,7 +5822,7 @@ local function WJZFSLE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		or clickTpButton:FindFirstChild("tecla")
 	
 	---------------------------------------------------
-	-- VARIÁVEIS
+	-- VARI�VEIS
 	---------------------------------------------------
 	
 	local clickTpAtivado = false
@@ -5845,7 +5839,7 @@ local function WJZFSLE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	local corAtiva = Color3.fromRGB(0, 170, 0)
 	
 	---------------------------------------------------
-	-- ATUALIZAR BOTÃO
+	-- ATUALIZAR BOT�O
 	---------------------------------------------------
 	
 	local function atualizarBotao()
@@ -6027,7 +6021,7 @@ local function WJZFSLE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	end
 	
 	---------------------------------------------------
-	-- BOTÃO CLICK TP
+	-- BOT�O CLICK TP
 	---------------------------------------------------
 	
 	clickTpButton.MouseButton1Click:Connect(function()
@@ -6139,7 +6133,7 @@ local function WJZFSLE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		end
 	
 		---------------------------------------------------
-		-- NÃO ATIVAR ENQUANTO DIGITA
+		-- N�O ATIVAR ENQUANTO DIGITA
 		---------------------------------------------------
 	
 		if gameProcessed then
@@ -6174,7 +6168,7 @@ local function WJZFSLE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 		-- CORRIGIDO:
 		-- GetGuiObjectsAtPosition pertence ao PlayerGui,
-		-- não ao GuiService.
+		-- n�o ao GuiService.
 	
 		local objetos = playerGui:GetGuiObjectsAtPosition(
 			posicao.X,
@@ -6242,7 +6236,7 @@ local function WJZFSLE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		end
 	
 		---------------------------------------------------
-		-- IGNORAR DIGITAÇÃO
+		-- IGNORAR DIGITA��O
 		---------------------------------------------------
 	
 		if UserInputService:GetFocusedTextBox() then
@@ -6250,7 +6244,7 @@ local function WJZFSLE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		end
 	
 		---------------------------------------------------
-		-- NÃO TELEPORTAR AO CLICAR NA GUI
+		-- N�O TELEPORTAR AO CLICAR NA GUI
 		---------------------------------------------------
 	
 		if clicouNaInterface() then
@@ -6275,7 +6269,7 @@ local function WJZFSLE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		end
 	
 		---------------------------------------------------
-		-- POSIÇÃO DO MOUSE
+		-- POSI��O DO MOUSE
 		---------------------------------------------------
 	
 		local hit = mouse.Hit
@@ -6321,7 +6315,7 @@ local function WJZFSLE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	atualizarAtalho()
 	
 end
-local function SZCKKWM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.FantasmaVerButton.LocalScript
+local function MAHAZOK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.FantasmaVerButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_FantasmaVerButton"]
@@ -6409,7 +6403,7 @@ local function SZCKKWM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	local function alternarPopup()
 		local ctrl = controlador()
 		if not ctrl then
-			warn("[HPX GHOST] Popup ainda não iniciado. Verifique o LocalScript HPX_Ghost_Popup.")
+			warn("[HPX GHOST] Popup ainda n�o iniciado. Verifique o LocalScript HPX_Ghost_Popup.")
 			return
 		end
 		ctrl.Alternar()
@@ -6487,7 +6481,7 @@ local function SZCKKWM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	print("[HPX] Botao Ver Fantasma pronto para abrir o popup")
 	
 end
-local function UHAHP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.FantasmaVerButton.LocalScript
+local function GBMEEXH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.FantasmaVerButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_FantasmaVerButton"]
@@ -6585,7 +6579,7 @@ local function UHAHP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 			return true
 		end
 	
-		-- Compatibilidade com acessórios antigos
+		-- Compatibilidade com acess�rios antigos
 		if tipo == Enum.AccessoryType.Unknown then
 			for _,obj in ipairs(acc:GetDescendants()) do
 				if obj:IsA("Attachment") then
@@ -6678,7 +6672,7 @@ local function UHAHP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 		if not ok or not copia then return nil end
 	
-		-- Remove o que interfere na aparência
+		-- Remove o que interfere na apar�ncia
 		for _,obj in ipairs(copia:GetDescendants()) do
 			if obj:IsA("LuaSourceContainer")
 				or obj:IsA("JointInstance")
@@ -6710,7 +6704,7 @@ local function UHAHP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 			end
 		end
 	
-		-- Corrige malhas do corpo e dos acessórios
+		-- Corrige malhas do corpo e dos acess�rios
 		if copia:IsA("MeshPart") then
 			copia.TextureID = ""
 		end
@@ -7052,7 +7046,7 @@ local function UHAHP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	minimizar.Size = UDim2.fromOffset(30,28)
 	minimizar.Position = UDim2.new(1,-40,0,10)
 	minimizar.BackgroundColor3 = TEMA.Caixa
-	minimizar.Text = "−"
+	minimizar.Text = "-"
 	minimizar.TextColor3 = TEMA.Texto
 	minimizar.TextSize = 20
 	minimizar.ZIndex = 4
@@ -7066,7 +7060,7 @@ local function UHAHP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	abrir.AnchorPoint = Vector2.new(1, 0.5)
 	abrir.Position = UDim2.new(1, -20, 0.5, 0)
 	abrir.BackgroundColor3 = TEMA.Azul
-	abrir.Text = "👻"
+	abrir.Text = "??"
 	abrir.Font = Enum.Font.GothamBold
 	abrir.TextSize = 30
 	abrir.TextColor3 = TEMA.Texto
@@ -7284,7 +7278,7 @@ local function UHAHP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		end)
 	end
 	
-	slider("Transparência",65,0,95,40,function(v)
+	slider("Transpar�ncia",65,0,95,40,function(v)
 		CFG.Transparencia = v
 		atualizarTodos()
 	end)
@@ -7407,7 +7401,7 @@ local function UHAHP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	toggle.Size = UDim2.new(1,-32,0,38)
 	toggle.Position = UDim2.fromOffset(16,312)
 	toggle.BackgroundColor3 = TEMA.Azul
-	toggle.Text = "FANTASMAS: VISÍVEIS"
+	toggle.Text = "FANTASMAS: VIS�VEIS"
 	toggle.Font = Enum.Font.GothamBold
 	toggle.TextSize = 12
 	toggle.TextColor3 = TEMA.Texto
@@ -7419,7 +7413,7 @@ local function UHAHP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		CFG.Mostrar = not CFG.Mostrar
 	
 		toggle.Text = CFG.Mostrar
-			and "FANTASMAS: VISÍVEIS"
+			and "FANTASMAS: VIS�VEIS"
 			or "FANTASMAS: OCULTOS"
 	
 		toggle.BackgroundColor3 = CFG.Mostrar
@@ -7500,10 +7494,10 @@ local function UHAHP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	end
 	
 	print("[HPX] Ghost V11 iniciado!")
-	print("[HPX] Corpo uniforme e transparência corrigida.")
+	print("[HPX] Corpo uniforme e transpar�ncia corrigida.")
 	
 end
-local function KSFV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.EspButton.LocalScript
+local function NSEDP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.EspButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_EspButton"]
@@ -7529,7 +7523,7 @@ local function KSFV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
 	
 	---------------------------------------------------
-	-- REFERÊNCIAS
+	-- REFER�NCIAS
 	---------------------------------------------------
 	
 	local espButton = script.Parent
@@ -7540,7 +7534,7 @@ local function KSFV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		or movi:FindFirstChild("BindButton")
 	
 	---------------------------------------------------
-	-- VARIÁVEIS
+	-- VARI�VEIS
 	---------------------------------------------------
 	
 	local espAtivo = false
@@ -7553,7 +7547,7 @@ local function KSFV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	local renderConnection
 	
 	---------------------------------------------------
-	-- CONFIGURAÇÕES
+	-- CONFIGURA��ES
 	---------------------------------------------------
 	
 	local MARKER_SIZE = 24
@@ -7563,20 +7557,20 @@ local function KSFV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	local DISTANCIA_MAXIMA = 120
 	
 	---------------------------------------------------
-	-- COR ORIGINAL DO BOTÃO
+	-- COR ORIGINAL DO BOT�O
 	---------------------------------------------------
 	
 	local corOriginal = espButton.BackgroundColor3
 	local corAtiva = Color3.fromRGB(0, 170, 0)
 	
 	---------------------------------------------------
-	-- BOTÕES
+	-- BOT�ES
 	---------------------------------------------------
 	
 	local function atualizarBotoes()
 	
-		-- Não altera mais o texto do botão,
-		-- porque você já tem um Label com o nome.
+		-- N�o altera mais o texto do bot�o,
+		-- porque voc� j� tem um Label com o nome.
 	
 		if espAtivo then
 			espButton.BackgroundColor3 = corAtiva
@@ -7737,7 +7731,7 @@ local function KSFV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end
 	
 	---------------------------------------------------
-	-- PEGAR POSIÇÃO ACIMA DA CABEÇA
+	-- PEGAR POSI��O ACIMA DA CABE�A
 	---------------------------------------------------
 	
 	local function getPosicaoAcimaDaCabeca(char)
@@ -7913,7 +7907,7 @@ local function KSFV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end
 	
 	---------------------------------------------------
-	-- BOTÃO ESP
+	-- BOT�O ESP
 	---------------------------------------------------
 	
 	espButton.MouseButton1Click:Connect(function()
@@ -7923,7 +7917,7 @@ local function KSFV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end)
 	
 	---------------------------------------------------
-	-- BOTÃO ATALHO - IGUAL AO BOTÃO CORRER
+	-- BOT�O ATALHO - IGUAL AO BOT�O CORRER
 	---------------------------------------------------
 	
 	if bindButton and bindButton:IsA("TextBox") then
@@ -7966,7 +7960,7 @@ local function KSFV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	UserInputService.InputBegan:Connect(function(input, gameProcessed)
 		if input.UserInputType ~= Enum.UserInputType.Keyboard then return end
 	
-		-- Seleção por TextButton (TextBox usa mudança de Text acima)
+		-- Sele��o por TextButton (TextBox usa mudan�a de Text acima)
 		if escolhendoTecla and bindButton and not bindButton:IsA("TextBox") then
 			if input.KeyCode == Enum.KeyCode.Escape then
 				escolhendoTecla = false
@@ -8015,7 +8009,7 @@ local function KSFV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	atualizarBotoes()
 end
-local function OILS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.antiflingButton.LocalScript
+local function BQXAEL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.antiflingButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_antiflingButton"]
@@ -8065,7 +8059,7 @@ local function OILS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end
 	
 	---------------------------------------------------
-	-- REFERÊNCIAS
+	-- REFER�NCIAS
 	---------------------------------------------------
 	
 	local keyButton =
@@ -8080,7 +8074,7 @@ local function OILS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	local corAtiva = Color3.fromRGB(0, 170, 0)
 	
 	---------------------------------------------------
-	-- VARIÁVEIS
+	-- VARI�VEIS
 	---------------------------------------------------
 	
 	local antiFlingAtivo = false
@@ -8163,7 +8157,7 @@ local function OILS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		local dono = _G.HPX_Atalhos[nome]
 	
 		---------------------------------------------------
-		-- TECLA JÁ USADA
+		-- TECLA J� USADA
 		---------------------------------------------------
 	
 		if dono and dono ~= OWNER then
@@ -8211,7 +8205,7 @@ local function OILS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end
 	
 	---------------------------------------------------
-	-- COR DO BOTÃO
+	-- COR DO BOT�O
 	---------------------------------------------------
 	
 	local function atualizarBotao()
@@ -8230,7 +8224,7 @@ local function OILS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end
 	
 	---------------------------------------------------
-	-- DESLIGAR COLISÃO
+	-- DESLIGAR COLIS�O
 	---------------------------------------------------
 	
 	local function desligarColisaoDoPersonagem()
@@ -8258,7 +8252,7 @@ local function OILS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end
 	
 	---------------------------------------------------
-	-- RESTAURAR COLISÃO
+	-- RESTAURAR COLIS�O
 	---------------------------------------------------
 	
 	local function restaurarColisaoDoPersonagem()
@@ -8419,7 +8413,7 @@ local function OILS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end
 	
 	---------------------------------------------------
-	-- BOTÃO ANTI FLING
+	-- BOT�O ANTI FLING
 	---------------------------------------------------
 	
 	if antiFlingButton:IsA("TextButton") then
@@ -8449,7 +8443,7 @@ local function OILS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 			return
 		end
 	
-		-- Não ativa o AntiFling enquanto estiver
+		-- N�o ativa o AntiFling enquanto estiver
 		-- digitando no campo da tecla
 		if keyButton
 			and keyButton:IsA("TextBox")
@@ -8509,7 +8503,7 @@ local function OILS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	atualizarTextoTecla()
 	atualizarBotao()
 end
-local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.VoarButton.Fly
+local function XBWBB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.VoarButton.Fly
     local script = Instance.new("LocalScript")
     script.Name = "Fly"
     script.Parent = Converted["_VoarButton"]
@@ -8624,7 +8618,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 				o.Size = UDim2.new(1, -24, 0, 28)
 				o.Position = UDim2.new(0, 12, 0, 12)
 				o.BackgroundTransparency = 1
-				o.Text = "R15 Obrigatório"
+				o.Text = "R15 Obrigat�rio"
 				o.TextColor3 = Color3.fromRGB(255, 190, 190)
 				o.Font = Enum.Font.GothamBold
 				o.TextSize = 15
@@ -8634,7 +8628,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 				t.Position = UDim2.new(0, 12, 0, 42)
 				t.BackgroundTransparency = 1
 				t.Text =
-					"O HPX Fly funciona apenas com o rig R15. Troque seu avatar para R15 no editor (Corpo -> Escala -> Tipo de corpo), entre novamente e tente de novo. Se não funcionar, o jogo pode não oferecer suporte a R15."
+					"O HPX Fly funciona apenas com o rig R15. Troque seu avatar para R15 no editor (Corpo -> Escala -> Tipo de corpo), entre novamente e tente de novo. Se n�o funcionar, o jogo pode n�o oferecer suporte a R15."
 				t.TextColor3 = Color3.fromRGB(200, 160, 160)
 				t.Font = Enum.Font.Gotham
 				t.TextSize = 12
@@ -8881,7 +8875,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 				names = { "IntimidatingFly", "AnnoyedIdle", "DemonicFlight", "AggressiveFlight", "Conquest" },
 			},
 			{
-				label = "MARCAS E VARIAÇÕES",
+				label = "MARCAS E VARIA��ES",
 				names = {
 					"ViltrimiteMark",
 					"TrackSuitMark",
@@ -8925,20 +8919,20 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 			Thragg = "Thragg",
 			RelaxedFly = "Voo Relaxado",
 			ZombieMark = "Marca Zumbi",
-			ChillLevitate = "Levitação Relaxante",
+			ChillLevitate = "Levita��o Relaxante",
 			ViltrimiteMark = "Marca Viltrimite",
-			NoGoggles = "Sem Óculos",
+			NoGoggles = "Sem �culos",
 			TargetMark = "Marca Alvo",
 			Sinisterv3 = "Sinistro v3",
 			TrackSuitMark = "Marca de Moletom",
 			BaldMark = "Marca Careca",
 			LongHairMark = "Marca Cabelo Longo",
 			FlaxanMark = "Marca Flaxan",
-			MasklessMark = "Marca Sem Máscara",
+			MasklessMark = "Marca Sem M�scara",
 			BulletProofMark = "Marca Blindada",
 			PrisonerMark = "Marca Prisioneiro",
-			UpsideDown = "De Cabeça para Baixo",
-			CasualFloat = "Flutuação Casual",
+			UpsideDown = "De Cabe�a para Baixo",
+			CasualFloat = "Flutua��o Casual",
 			SheistyMark = "Marca Suspeita",
 			PreparedIdle = "Pose Preparada",
 			AnnoyedIdle = "Pose Irritada",
@@ -8946,8 +8940,8 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 			Sinister2 = "Sinistro 2",
 			Conquest = "Conquista",
 			MohawkMark = "Marca Moicano",
-			MainInvincible = "Principal Invencível",
-			BasicIdle = "Pose Básica",
+			MainInvincible = "Principal Invenc�vel",
+			BasicIdle = "Pose B�sica",
 			HomelanderV2 = "Pose do Homelander",
 			IntimidatingFly = "Voo Intimidante",
 			OmniMan = "Homem Omni",
@@ -8955,7 +8949,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 			MetroMan = "Homem Metro",
 			LaidBackFlight = "Voo Tranquilo",
 			AuraFarming = "Coleta de Aura",
-			DemonicFlight = "Voo Demoníaco",
+			DemonicFlight = "Voo Demon�aco",
 			CockyFlight = "Voo Arrogante",
 			MainMarkII = "Marca Principal II",
 			AggressiveFlight = "Voo Agressivo",
@@ -8989,9 +8983,9 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		local q = {
 			Homelander = "Homelander",
 			Backflip = "Mortal",
-			StandardJump = "Salto Padrão",
-			SuperheroTakeoff = "Decolagem de Super-herói",
-			SuperheroTakeoff2 = "Decolagem de Super-herói 2",
+			StandardJump = "Salto Padr�o",
+			SuperheroTakeoff = "Decolagem de Super-her�i",
+			SuperheroTakeoff2 = "Decolagem de Super-her�i 2",
 			YujiJumps = "Saltos do Yuji",
 			CleanTakeoff = "Decolagem Limpa",
 		}
@@ -9014,7 +9008,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 			{ id = "AG1", name = "Acelerador Agressivo", animId = "rbxassetid://120303626369803", speed = 1 },
 			{
 				id = "IS1",
-				name = "Voo Show do Invencível",
+				name = "Voo Show do Invenc�vel",
 				animId = "rbxassetid://119001805544665",
 				speed = 1,
 			},
@@ -12929,7 +12923,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 				N.Size = UDim2.new(1, -56, 1, 0)
 				N.Position = UDim2.new(0, 10, 0, 0)
 				N.BackgroundTransparency = 1
-				N.Text = "Animação de Decolagem"
+				N.Text = "Anima��o de Decolagem"
 				N.TextColor3 = fg
 				N.TextSize = 11
 				N.Font = Enum.Font.GothamSemibold
@@ -13380,7 +13374,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 				v.Size = UDim2.new(0.64, 0, 1, 0)
 				v.Position = UDim2.new(0.5, 0, 0.5, 0)
 				v.BackgroundTransparency = 1
-				v.Text = "AVANÇADO  \226\150\182"
+				v.Text = "AVAN�ADO  \226\150\182"
 				v.TextColor3 = dg
 				v.Font = Enum.Font.GothamBold
 				v.TextSize = 10
@@ -13541,7 +13535,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 				B.MouseButton1Click:Connect(function()
 					t()
 					Q = not Q
-					v.Text = "AVANÇADO" .. (Q and "  \226\150\188" or "  \226\150\182")
+					v.Text = "AVAN�ADO" .. (Q and "  \226\150\188" or "  \226\150\182")
 					if Q then
 						q.Visible = true
 						FlyController.uiTween(
@@ -13884,7 +13878,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 						H(E, U, C)
 					end
 				end
-				local P = X(#n + 0, "Restaurar teclas padrão", function()
+				local P = X(#n + 0, "Restaurar teclas padr�o", function()
 					for C, J in ipairs(n) do
 						local E, N = pcall(function()
 							return Enum.KeyCode[J.default]
@@ -13906,7 +13900,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 					FlyController.notify("Teclas restauradas", "Todas as teclas voltaram ao padrao", hg, "success", 2)
 				end)
 				local u = #n + 1
-				A("ALTERNÂNCIAS RÁPIDAS", u)
+				A("ALTERN�NCIAS R�PIDAS", u)
 				u = u + 1
 				local B = u
 				u = u + 1
@@ -13935,7 +13929,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 				for U, C in ipairs(q) do
 					H(W, U, C)
 				end
-				local f = o(B, "Ativar alternâncias rápidas", flightState.quickTogglesEnabled, function(C)
+				local f = o(B, "Ativar altern�ncias r�pidas", flightState.quickTogglesEnabled, function(C)
 					flightState.quickTogglesEnabled = C
 					FlyController.persistSettings()
 					if C then
@@ -13951,7 +13945,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 					end
 				end)
 				f.frame.Parent = E
-				local d = X(u, "Restaurar alternâncias rápidas", function()
+				local d = X(u, "Restaurar altern�ncias r�pidas", function()
 					for C, J in ipairs(q) do
 						local E, N = pcall(function()
 							return Enum.KeyCode[J.default]
@@ -13976,7 +13970,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 					)
 				end)
 				u = u + 1
-				A("ÁUDIO", u)
+				A("�UDIO", u)
 				u = u + 1
 				local y = o(u, "Efeitos sonoros", flightState.sfxEnabled, function(C)
 					flightState.sfxEnabled = C
@@ -13994,7 +13988,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 				I.frame.Parent = E
 				local x = I.slider
 				u = u + 1
-				local g = X(u, "Restaurar áudio padrão", function()
+				local g = X(u, "Restaurar �udio padr�o", function()
 					flightState.sfxEnabled = true
 					flightState.sfxVolume = 1
 					b.set(true)
@@ -14148,7 +14142,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 					N.TextSize = 11
 					N.Font = Enum.Font.GothamBold
 					N.TextXAlignment = Enum.TextXAlignment.Left
-					N.Text = "AVANÇADO  \226\150\182"
+					N.Text = "AVAN�ADO  \226\150\182"
 					local t = Instance.new("Frame")
 					t.Size = UDim2.new(1, 0, 0, 0)
 					t.AutomaticSize = Enum.AutomaticSize.Y
@@ -14163,7 +14157,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 					L.Parent = t
 					C.MouseButton1Click:Connect(function()
 						t.Visible = not t.Visible
-						N.Text = "AVANÇADO  " .. (t.Visible and "\226\150\188" or "\226\150\182")
+						N.Text = "AVAN�ADO  " .. (t.Visible and "\226\150\188" or "\226\150\182")
 					end)
 					local l = 0
 					local function H(U)
@@ -18351,7 +18345,7 @@ local function NDDOIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	end
 	
 end
-local function DAFBXT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.RunButton.LocalScript
+local function PLZG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.RunButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_RunButton"]
@@ -18636,7 +18630,7 @@ local function DAFBXT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	print('[HPX CORRER] Scale pronto. Atalho e velocidade configuraveis.')
 	
 end
-local function VVVKSYU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.GirarButton.LocalScript
+local function SBKXXJD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.GirarButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_GirarButton"]
@@ -19020,7 +19014,7 @@ local function VVVKSYU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	print('[HPX GIRAR] Pronto. Tentativa de registrar Spin no HumanoidDescription ativa.')
 	
 end
-local function XKWER_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.vampiro.LocalScript
+local function TLDBA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.vampiro.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_vampiro"]
@@ -19072,7 +19066,7 @@ local function XKWER_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function HIOBS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.zumbie.LocalScript
+local function DTVAKI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.zumbie.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_zumbie"]
@@ -19124,7 +19118,7 @@ local function HIOBS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function LICHPHS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.adidas.LocalScript
+local function XVIGX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.adidas.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_adidas"]
@@ -19176,7 +19170,7 @@ local function LICHPHS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function SHKI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Bolhoso.LocalScript
+local function HAJLF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Bolhoso.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Bolhoso"]
@@ -19195,7 +19189,7 @@ local function SHKI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	local button = script.Parent
 	
 	-- BUBBLY ANIMATION PACKAGE
-	-- usando os IDs reais de animação e não os IDs do catálogo
+	-- usando os IDs reais de anima��o e n�o os IDs do cat�logo
 	local BUBBLY = {
 		Idle1 = "rbxassetid://910004836",
 		Idle2 = "rbxassetid://910009958",
@@ -19256,7 +19250,7 @@ local function SHKI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function SDJJQU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.ninja.LocalScript
+local function TJJXKOK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.ninja.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_ninja"]
@@ -19315,7 +19309,7 @@ local function SDJJQU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		animate.swim.Swim.AnimationId = NINJA.Swim
 		animate.swimidle.SwimIdle.AnimationId = NINJA.SwimIdle
 	
-		-- REINICIA AS ANIMAÇÕES
+		-- REINICIA AS ANIMA��ES
 		animate.Disabled = true
 		task.wait(0.1)
 		animate.Disabled = false
@@ -19327,7 +19321,7 @@ local function SDJJQU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function NKQA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.lobo.LocalScript
+local function JMGH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.lobo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_lobo"]
@@ -19386,7 +19380,7 @@ local function NKQA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		animate.swim.Swim.AnimationId = WEREWOLF.Swim
 		animate.swimidle.SwimIdle.AnimationId = WEREWOLF.SwimIdle
 	
-		-- REINICIA AS ANIMAÇÕES
+		-- REINICIA AS ANIMA��ES
 		animate.Disabled = true
 		task.wait(0.1)
 		animate.Disabled = false
@@ -19398,7 +19392,7 @@ local function NKQA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function PAZJVQA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.mago.LocalScript
+local function OAGWNLU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.mago.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_mago"]
@@ -19472,12 +19466,12 @@ local function PAZJVQA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		setAnim(animate.swim.Swim, MAGE.Swim)
 		setAnim(animate.swimidle.SwimIdle, MAGE.SwimIdle)
 	
-		-- REINICIA AS ANIMAÇÕES
+		-- REINICIA AS ANIMA��ES
 		animate.Disabled = true
 		task.wait(0.2)
 		animate.Disabled = false
 	
-		-- FORÇA ATUALIZAÇÃO
+		-- FOR�A ATUALIZA��O
 		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
 		task.wait(0.1)
 		humanoid:ChangeState(Enum.HumanoidStateType.Running)
@@ -19485,7 +19479,7 @@ local function PAZJVQA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function YHIVL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.levitar.LocalScript
+local function VYYH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.levitar.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_levitar"]
@@ -19544,7 +19538,7 @@ local function YHIVL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		animate.swim.Swim.AnimationId = LEVITATION.Swim
 		animate.swimidle.SwimIdle.AnimationId = LEVITATION.SwimIdle
 	
-		-- REINICIA AS ANIMAÇÕES
+		-- REINICIA AS ANIMA��ES
 		animate.Disabled = true
 		task.wait(0.1)
 		animate.Disabled = false
@@ -19556,7 +19550,7 @@ local function YHIVL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function ISMXA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.cartoon.LocalScript
+local function PEMBIDZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.cartoon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_cartoon"]
@@ -19615,7 +19609,7 @@ local function ISMXA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		animate.swim.Swim.AnimationId = CARTOONY.Swim
 		animate.swimidle.SwimIdle.AnimationId = CARTOONY.SwimIdle
 	
-		-- REINICIA AS ANIMAÇÕES
+		-- REINICIA AS ANIMA��ES
 		animate.Disabled = true
 		task.wait(0.1)
 		animate.Disabled = false
@@ -19627,7 +19621,7 @@ local function ISMXA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function KIFDL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.amazon.LocalScript
+local function VZZVAC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.amazon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_amazon"]
@@ -19656,7 +19650,7 @@ local function KIFDL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		Jump = "rbxassetid://110418911914024",
 		Fall = "rbxassetid://125108870423182",
 	
-		-- IDs não confirmados
+		-- IDs n�o confirmados
 		Climb = "",
 		Swim = "",
 		SwimIdle = ""
@@ -19705,7 +19699,7 @@ local function KIFDL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		task.wait(0.2)
 		animate.Disabled = false
 	
-		-- FORÇA ATUALIZAÇÃO
+		-- FOR�A ATUALIZA��O
 		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
 		task.wait(0.1)
 		humanoid:ChangeState(Enum.HumanoidStateType.Running)
@@ -19713,7 +19707,7 @@ local function KIFDL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function DYBIGSV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.astronauta.LocalScript
+local function YBUBDFH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.astronauta.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_astronauta"]
@@ -19791,7 +19785,7 @@ local function DYBIGSV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		task.wait(0.2)
 		animate.Disabled = false
 	
-		-- FORÇA ATUALIZAÇÃO
+		-- FOR�A ATUALIZA��O
 		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
 		task.wait(0.1)
 		humanoid:ChangeState(Enum.HumanoidStateType.Running)
@@ -19799,7 +19793,7 @@ local function DYBIGSV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function BUMCZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
+local function XLAQLYV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero"]
@@ -19872,12 +19866,12 @@ local function BUMCZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		setAnim(animate.swim.Swim, PIRATE.Swim)
 		setAnim(animate.swimidle.SwimIdle, PIRATE.SwimIdle)
 	
-		-- REINICIA AS ANIMAÇÕES
+		-- REINICIA AS ANIMA��ES
 		animate.Disabled = true
 		task.wait(0.2)
 		animate.Disabled = false
 	
-		-- FORÇA ATUALIZAÇÃO
+		-- FOR�A ATUALIZA��O
 		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
 		task.wait(0.1)
 		humanoid:ChangeState(Enum.HumanoidStateType.Running)
@@ -19885,7 +19879,7 @@ local function BUMCZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function FZVQZSW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.antiga.LocalScript
+local function TSRKN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.antiga.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_antiga"]
@@ -19964,7 +19958,7 @@ local function FZVQZSW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function EULGDS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Estileira.LocalScript
+local function HOQJGVV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Estileira.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Estileira"]
@@ -20043,10 +20037,10 @@ local function EULGDS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function PEGD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Robô.LocalScript
+local function LFOT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Rob�.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
-    script.Parent = Converted["_Robô"]
+    script.Parent = Converted["_Rob�"]
     local req = require
     local require = function(obj)
         local fake = fake_module_scripts[obj]
@@ -20122,7 +20116,7 @@ local function PEGD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function MNNP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Elf.LocalScript
+local function GTHMAVH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Elf.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Elf"]
@@ -20201,7 +20195,7 @@ local function MNNP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function NGEUT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Velho.LocalScript
+local function FNEK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Velho.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Velho"]
@@ -20219,7 +20213,7 @@ local function NGEUT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	local player = Players.LocalPlayer
 	local button = script.Parent
 	
-	-- ELDER / ANCIÃO ANIMATION PACK
+	-- ELDER / ANCI�O ANIMATION PACK
 	local ELDER = {
 		Idle1 = "rbxassetid://845397899",
 		Idle2 = "rbxassetid://845400520",
@@ -20285,7 +20279,7 @@ local function NGEUT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function EDRTLGI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Walmart.LocalScript
+local function BFYZRH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Walmart.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Walmart"]
@@ -20365,7 +20359,7 @@ local function EDRTLGI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 	
 end
-local function IRSWNP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.malvada.LocalScript
+local function VPVRD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.malvada.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_malvada"]
@@ -20443,7 +20437,7 @@ local function IRSWNP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function CZEZB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Brinquedo.LocalScript
+local function FTQJJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Brinquedo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Brinquedo"]
@@ -20462,7 +20456,7 @@ local function CZEZB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	local button = script.Parent
 	
 	-- TOY ANIMATION PACK
-	-- IDs confirmados pela documentação oficial do Roblox
+	-- IDs confirmados pela documenta��o oficial do Roblox
 	local TOY = {
 		Idle1 = "rbxassetid://782841498",
 		Idle2 = "rbxassetid://782845736",
@@ -20517,12 +20511,12 @@ local function CZEZB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		setAnim(animate.swim.Swim, TOY.Swim)
 		setAnim(animate.swimidle.SwimIdle, TOY.SwimIdle)
 	
-		-- REINICIA AS ANIMAÇÕES
+		-- REINICIA AS ANIMA��ES
 		animate.Disabled = true
 		task.wait(0.2)
 		animate.Disabled = false
 	
-		-- FORÇA ATUALIZAÇÃO
+		-- FOR�A ATUALIZA��O
 		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
 		task.wait(0.1)
 		humanoid:ChangeState(Enum.HumanoidStateType.Running)
@@ -20530,7 +20524,7 @@ local function CZEZB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function LWAZA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
+local function REOM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero1"]
@@ -20609,7 +20603,7 @@ local function LWAZA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function EPOOAWC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Through Life.LocalScript
+local function QEVNREW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Through Life.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Through Life"]
@@ -20688,7 +20682,7 @@ local function EPOOAWC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function KBUXGU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.superhero.LocalScript
+local function GFEDK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero2"]
@@ -20767,7 +20761,7 @@ local function KBUXGU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function JILABJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.animações.Glow.LocalScript
+local function PVEUWO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Glow.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Glow"]
@@ -20847,7 +20841,7 @@ local function JILABJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function TATIH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.GrimoryButton.LocalScript
+local function NNVS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.GrimoryButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_GrimoryButton"]
@@ -20972,7 +20966,7 @@ local function TATIH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 			app.Phase=phase;app.Status=message;notify()
 		end
 		local function errorRecord(err)
-			app.Errors+=1;app.LastError=tostring(err);status("retry","Tentativa não concluída • tentando novamente")
+			app.Errors+=1;app.LastError=tostring(err);status("retry","Tentativa n�o conclu�da � tentando novamente")
 		end
 		local function connect(signal,fn,bucket)
 			local c=signal:Connect(function(...)
@@ -21134,7 +21128,7 @@ local function TATIH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 							app.Hops+=1
 							nextScanUntil=now()+SCAN_SECONDS
 							nextHop=now()+math.max(SCAN_SECONDS,app.Interval)
-							status("explore",string.format("Arvore %d/%d • analisando rapidamente",routeIndex-1,#route))
+							status("explore",string.format("Arvore %d/%d � analisando rapidamente",routeIndex-1,#route))
 							notify()
 							return
 						end
@@ -21200,11 +21194,11 @@ local function TATIH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 			local gone=c.removed or not belongs(c.object)
 			if gone then
 				if not c.removedAt then c.removedAt=now()end
-				if not c.confirmed and now()-c.removedAt<.8 then status("confirming","Aguardando atualização do saldo");return end
+				if not c.confirmed and now()-c.removedAt<.8 then status("confirming","Aguardando atualiza��o do saldo");return end
 				-- Observed removal is kept separate from a server inventory grant.
 				if c.confirmed then app.LastCollected=c.record.name;status("collected","Coleta confirmada pelo progresso do jogo")
-				elseif now()-c.started<=5 and(root.Position-c.lastPosition).Magnitude<12 then app.Observed+=1;app.LastCollected=c.record.name;status("observed","Item removido • aguardando confirmação do saldo")
-				else status("waiting","Grimório saiu da região carregada")end
+				elseif now()-c.started<=5 and(root.Position-c.lastPosition).Magnitude<12 then app.Observed+=1;app.LastCollected=c.record.name;status("observed","Item removido � aguardando confirma��o do saldo")
+				else status("waiting","Grim�rio saiu da regi�o carregada")end
 				clearCurrent();nextHop=now()+.4;notify();return
 			end
 			local part=c.record.part
@@ -21216,7 +21210,7 @@ local function TATIH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 			end
 			if now()>=c.deadline then
 				c.record.failures+=1;c.record.retryAt=now()+math.min(30,4*2^math.min(3,c.record.failures-1))
-				app.Unconfirmed+=1;clearCurrent();status("retry","Sem confirmação • procurando outro grimório");notify();return
+				app.Unconfirmed+=1;clearCurrent();status("retry","Sem confirma��o � procurando outro grim�rio");notify();return
 			end
 			if c.prompt and now()>=c.releaseAt then releasePrompt()end
 			if now()>=c.nextMove and c.moves<3 then
@@ -21445,7 +21439,7 @@ local function TATIH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	print("[HPX GRIM] Pronto: GrimoryButton + atalho configuravel, sem painel extra.")
 	
 end
-local function IVIJV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.CandyButton.LocalScript
+local function WNWHDV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.CandyButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_CandyButton"]
@@ -22179,7 +22173,7 @@ local function IVIJV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	conectarPasta()
 	
 end
-local function SHQLSZV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.BoneButton.LocalScript
+local function PBNX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.BoneButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_BoneButton"]
@@ -22343,7 +22337,7 @@ local function SHQLSZV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 				local texto = obj.Text:lower():gsub("%s+", " ")
 	
 				local numero =
-					texto:match("voc[eê] tem%s+(%d+)%s+ossos")
+					texto:match("voc[e�] tem%s+(%d+)%s+ossos")
 					or texto:match("ossos%s*:%s*(%d+)")
 					or texto:match("ossos?%s*:?%s*(%d+)%s*/%s*%d+")
 					or texto:match("bones?%s*:?%s*(%d+)%s*/%s*%d+")
@@ -23310,7 +23304,7 @@ local function SHQLSZV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 			local character, humanoid, root = personagem()
 	
 			if not root then
-				warn("[HPX BONES] Personagem não encontrado.")
+				warn("[HPX BONES] Personagem n�o encontrado.")
 				return
 			end
 	
@@ -23329,7 +23323,7 @@ local function SHQLSZV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 				local tem, item = temAsa()
 	
 				if tem then
-					print("[HPX BONES] ✅ Você já tem a asa!")
+					print("[HPX BONES] ? Voc� j� tem a asa!")
 	
 					terminouNormalmente = true
 					break
@@ -23345,7 +23339,7 @@ local function SHQLSZV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 				end
 	
 				if criou or temAsa() then
-					print("[HPX BONES] ✅ Asa obtida!")
+					print("[HPX BONES] ? Asa obtida!")
 					terminouNormalmente = true
 					break
 				end
@@ -23401,7 +23395,7 @@ local function SHQLSZV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 				if conseguiu or temAsa() then
 					print(
-						"[HPX BONES] ✅ Asa criada com sucesso!"
+						"[HPX BONES] ? Asa criada com sucesso!"
 					)
 	
 					terminouNormalmente = true
@@ -23425,7 +23419,7 @@ local function SHQLSZV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 			if terminouNormalmente then
 				print(
-					"[HPX BONES] ✅ Processo finalizado automaticamente."
+					"[HPX BONES] ? Processo finalizado automaticamente."
 				)
 			end
 		end
@@ -23439,7 +23433,7 @@ local function SHQLSZV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 			geracao += 1
 			atualizarBotao()
 	
-			print("[HPX BONES] ❌ DESATIVADO")
+			print("[HPX BONES] ? DESATIVADO")
 	
 			return
 		end
@@ -23447,13 +23441,13 @@ local function SHQLSZV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		local tem, item = temAsa()
 	
 		if tem then
-			print("[HPX BONES] ✅ Você já possui a asa.")
+			print("[HPX BONES] ? Voc� j� possui a asa.")
 			print("[HPX BONES] Item:", item:GetFullName())
 			return
 		end
 	
 		if executando then
-			warn("[HPX BONES] Aguardando a execução anterior encerrar.")
+			warn("[HPX BONES] Aguardando a execu��o anterior encerrar.")
 			return
 		end
 	
@@ -23473,7 +23467,7 @@ local function SHQLSZV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		ciclo = 0
 		proximaTentativaSkeleton = 0
 	
-		print("[HPX BONES] ✅ ATIVADO")
+		print("[HPX BONES] ? ATIVADO")
 	
 		task.spawn(function()
 			iniciar(token)
@@ -23496,7 +23490,7 @@ local function SHQLSZV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	local boneButton = encontrarBotao()
 	if not boneButton then
-		warn("[HPX BONES] BoneButton não encontrado no PlayerGui.")
+		warn("[HPX BONES] BoneButton n�o encontrado no PlayerGui.")
 		return
 	end
 	
@@ -23606,7 +23600,7 @@ local function SHQLSZV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 			keyButton.Text = "..."
 		end)
 	else
-		warn("[HPX BONES] Campo keybuton/keybutton não encontrado.")
+		warn("[HPX BONES] Campo keybuton/keybutton n�o encontrado.")
 	end
 	
 	boneButton.Activated:Connect(function()
@@ -23642,7 +23636,7 @@ local function SHQLSZV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	print("[HPX BONES] Painel conectado. Use BoneButton e defina a tecla no campo.")
 	
 end
-local function BAZGDO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LoboButton.LocalScript
+local function NZZT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LoboButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_LoboButton"]
@@ -23697,7 +23691,7 @@ local function BAZGDO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	local enabled = false
 	local busy = false
 	local generation = 0
-	local newPotion = nil        -- poção recem-carregada (prioridade maxima)
+	local newPotion = nil        -- po��o recem-carregada (prioridade maxima)
 	local folderInstance = nil
 	local visitsSinceGrid = 0
 	local GRID_VISITS_BEFORE_SPAWN = 3
@@ -23711,7 +23705,7 @@ local function BAZGDO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	local originalButtonColor = loboButton:IsA("GuiButton") and loboButton.BackgroundColor3 or nil
 	local noticeNumber = 0
 	
-	-- Remove um painel criado por versões anteriores deste script.
+	-- Remove um painel criado por vers�es anteriores deste script.
 	local oldPanel = playerGui:FindFirstChild("WerewolfPotionsPanel")
 	if oldPanel then
 		oldPanel:Destroy()
@@ -23924,11 +23918,11 @@ local function BAZGDO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		local position = getPotionPosition(obj)
 	
 		if not position then
-			warn("[Potion] Modelo sem peça física:", obj:GetFullName())
+			warn("[Potion] Modelo sem pe�a f�sica:", obj:GetFullName())
 			return false
 		end
 	
-		-- Tenta chegar ao centro da poção usando a altura do personagem.
+		-- Tenta chegar ao centro da po��o usando a altura do personagem.
 		local destination = position + Vector3.new(
 			0,
 			getCharacterHeight(hum, root, char),
@@ -23971,7 +23965,7 @@ local function BAZGDO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 		local position = INITIAL_SPAWNS[index]
 	
-		-- Tenta encontrar o terreno próximo à coordenada.
+		-- Tenta encontrar o terreno pr�ximo � coordenada.
 		local params = RaycastParams.new()
 		params.FilterType = Enum.RaycastFilterType.Exclude
 	
@@ -24001,7 +23995,7 @@ local function BAZGDO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 			destination = hit.Position
 				+ Vector3.new(0, getCharacterHeight(hum, root, char), 0)
 		else
-			-- Igual ao script original: usa o Y salvo se não encontrar chão.
+			-- Igual ao script original: usa o Y salvo se n�o encontrar ch�o.
 			destination = position + Vector3.new(0, 2.5, 0)
 		end
 	
@@ -24161,7 +24155,7 @@ local function BAZGDO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 			print(
 				"[Potion] Encontrada:",
 				result:GetFullName(),
-				"distância:",
+				"dist�ncia:",
 				math.floor((getPotionPosition(result) - root.Position).Magnitude)
 			)
 		end
@@ -24192,7 +24186,7 @@ local function BAZGDO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 			return true
 		end
 	
-		print("[Potion] Indo até:", obj:GetFullName())
+		print("[Potion] Indo at�:", obj:GetFullName())
 	
 		if not teleportToPotion(obj) then
 			return false
@@ -24215,7 +24209,7 @@ local function BAZGDO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 		local started = os.clock()
 	
-		-- Espera a coleta acontecer antes de buscar outra poção.
+		-- Espera a coleta acontecer antes de buscar outra po��o.
 		while enabled and belongsToFolder(obj) do
 			if os.clock() - started >= COLLECT_TIMEOUT then
 				break
@@ -24230,7 +24224,7 @@ local function BAZGDO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 			return true
 		end
 	
-		-- Não marca como coletada: o item ainda está na pasta.
+		-- N�o marca como coletada: o item ainda est� na pasta.
 		failed[obj] = os.clock() + RETRY_DELAY
 	
 		print("[Potion] Ainda presente; tentando novamente depois.")
@@ -24241,14 +24235,14 @@ local function BAZGDO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		busy = token
 	
 		while enabled and token == generation do
-			-- Remove bloqueios de tentativas que já expiraram.
+			-- Remove bloqueios de tentativas que j� expiraram.
 			for obj, retryAt in pairs(failed) do
 				if not obj.Parent or os.clock() >= retryAt then
 					failed[obj] = nil
 				end
 			end
 	
-			-- Prioridade máxima: poção recem-carregada na pasta.
+			-- Prioridade m�xima: po��o recem-carregada na pasta.
 			local potion = newPotion
 	
 			if potion and not potion.Parent then
@@ -24277,7 +24271,7 @@ local function BAZGDO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 				task.wait(SCAN_SECONDS)
 	
-				-- Escaneia de novo logo após chegar ao ponto (raio amplo).
+				-- Escaneia de novo logo ap�s chegar ao ponto (raio amplo).
 				if enabled then
 					local char2, _, root2 = getCharacter()
 					local found = scanNearby()
@@ -24530,7 +24524,7 @@ local function BAZGDO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	print("[Potion] Carregado. Use o botao Lobo ou clique no campo da tecla para definir um atalho.")
 	
 end
-local function DULXA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LuckButton.LocalScript
+local function ZKQR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LuckButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_LuckButton"]
@@ -25169,7 +25163,7 @@ local function DULXA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	conectarPasta()
 	
 end
-local function AJOBJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.LocalScript
+local function BCCJU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_stalker"]
@@ -25187,7 +25181,7 @@ local function AJOBJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	local stalkerFrame = script.Parent
 	local lista = stalkerFrame:WaitForChild("Lista")
 	
-	-- Tenta pegar o modelo de Banner que já existir na Lista, senão cria um novo
+	-- Tenta pegar o modelo de Banner que j� existir na Lista, sen�o cria um novo
 	local bannerTemplate
 	if lista:FindFirstChild("Banner") then
 		bannerTemplate = lista:FindFirstChild("Banner")
@@ -25223,18 +25217,18 @@ local function AJOBJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		lbl.Parent = bannerTemplate
 	end
 	
-	-- Variável para rastrear o banner atualmente selecionado
+	-- Vari�vel para rastrear o banner atualmente selecionado
 	local selectedBanner = nil
 	
 	local function toggleSelecao(item)
-		-- Se o item já estiver selecionado, desselecionar
+		-- Se o item j� estiver selecionado, desselecionar
 		if selectedBanner == item then
 			item.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
 			selectedBanner = nil
 			return
 		end
 	
-		-- Se houver um banner selecionado anteriormente, voltar à cor original
+		-- Se houver um banner selecionado anteriormente, voltar � cor original
 		if selectedBanner then
 			selectedBanner.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
 		end
@@ -25280,7 +25274,7 @@ local function AJOBJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 			end)
 		end
 	
-		-- Evento de clique no banner - toggle de seleção
+		-- Evento de clique no banner - toggle de sele��o
 		item.MouseButton1Click:Connect(function()
 			local cmdsFolder = script.Parent:FindFirstChild("Cmds")
 			local playerValue = cmdsFolder and cmdsFolder:FindFirstChild("PlayerSelecionado")
@@ -25328,14 +25322,14 @@ local function AJOBJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		end)
 	end
 	
-	-- Cria itens para os jogadores, exceto o próprio player
+	-- Cria itens para os jogadores, exceto o pr�prio player
 	for _, player in ipairs(Players:GetPlayers()) do
 		if player ~= localPlayer then
 			criarItem(player)
 		end
 	end
 	
-	-- Remove banner antigo do próprio player, se existir, e não cria mais para ele
+	-- Remove banner antigo do pr�prio player, se existir, e n�o cria mais para ele
 	for _, obj in ipairs(lista:GetChildren()) do
 		if obj:IsA("TextButton") and obj.Name == localPlayer.Name then
 			obj:Destroy()
@@ -25367,7 +25361,7 @@ local function AJOBJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		end
 	end)
 end
-local function XUFCDL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.SeachBox.seach
+local function YKJAOW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.SeachBox.seach
     local script = Instance.new("LocalScript")
     script.Name = "seach"
     script.Parent = Converted["_SeachBox"]
@@ -25392,7 +25386,7 @@ local function XUFCDL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		container.Parent = script.Parent.Parent
 	end
 	
-	-- Coletar itens que são clones reais de banner (têm labels Apelido e/or Nome)
+	-- Coletar itens que s�o clones reais de banner (t�m labels Apelido e/or Nome)
 	local function coletarItens()
 		local itens = {}
 		for _, obj in ipairs(container:GetChildren()) do
@@ -25453,7 +25447,7 @@ local function XUFCDL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	end)
 	
 end
-local function IXUFJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.verButton.LocalScript
+local function FOVWD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.verButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_verButton"]
@@ -25475,7 +25469,7 @@ local function IXUFJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	local verButton = script.Parent
 	local playerSelecionadoValue = stalkerFrame:FindFirstChild("PlayerSelecionado")
 	
-	-- Salva a cor original do botão
+	-- Salva a cor original do bot�o
 	local corOriginal = verButton.BackgroundColor3
 	
 	if not playerSelecionadoValue then
@@ -25593,7 +25587,7 @@ local function IXUFJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		end
 	end)
 end
-local function VVYSOVM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.syncButton.LocalScript
+local function NYPCYI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.syncButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_syncButton"]
@@ -25612,7 +25606,7 @@ local function VVYSOVM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	local LocalPlayer = Players.LocalPlayer
 	local button = script.Parent
 	
-	-- Salva a cor original do botão
+	-- Salva a cor original do bot�o
 	local corOriginal = button.BackgroundColor3
 	
 	local cmdsFolder = button.Parent
@@ -25842,7 +25836,7 @@ local function VVYSOVM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		end
 	end)
 end
-local function RDPYZP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.TpButton.LocalScript
+local function WISFW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.TpButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TpButton"]
@@ -25863,7 +25857,7 @@ local function RDPYZP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	local playerSelecionadoValue = stalkerFrame:WaitForChild("PlayerSelecionado")
 	
-	-- Salva a cor original do botão
+	-- Salva a cor original do bot�o
 	local corOriginal = tpButton.BackgroundColor3
 	
 	-- Cor quando ativado/clicado
@@ -25882,7 +25876,7 @@ local function RDPYZP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		local alvo = Players:FindFirstChild(nomePlayer)
 	
 		if not alvo then
-			warn("Player não encontrado")
+			warn("Player n�o encontrado")
 			return
 		end
 	
@@ -25910,7 +25904,7 @@ local function RDPYZP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	tpButton.MouseButton1Click:Connect(teleportar)
 end
-local function SWZFX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.carinhoButton.LocalScript
+local function XEWMYT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.carinhoButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_carinhoButton"]
@@ -25963,7 +25957,7 @@ local function SWZFX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		return
 	end
 	
-	-- Procura também dentro de Cmds e outras subpastas
+	-- Procura tamb�m dentro de Cmds e outras subpastas
 	local playerSelecionado = stalker:FindFirstChild(
 		"PlayerSelecionado", true
 	)
@@ -26348,7 +26342,7 @@ local function SWZFX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	print("[HPX CARINHO] V2 carregado corretamente!")
 	
 end
-local function EEQVF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.OrbitaButton.LocalScript
+local function MTZJO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.OrbitaButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_OrbitaButton"]
@@ -26364,61 +26358,61 @@ local function EEQVF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 end
 
-coroutine.wrap(KOBRB_fake_script)()
-coroutine.wrap(GYOKC_fake_script)()
-coroutine.wrap(SPZCJ_fake_script)()
-coroutine.wrap(OGBYJL_fake_script)()
-coroutine.wrap(IRUX_fake_script)()
-coroutine.wrap(RVFUA_fake_script)()
-coroutine.wrap(FHSI_fake_script)()
-coroutine.wrap(PMKB_fake_script)()
-coroutine.wrap(EMMEZWX_fake_script)()
-coroutine.wrap(QSUYOU_fake_script)()
-coroutine.wrap(YQXUO_fake_script)()
-coroutine.wrap(UJYBID_fake_script)()
-coroutine.wrap(QVNC_fake_script)()
-coroutine.wrap(TIISCFA_fake_script)()
-coroutine.wrap(WJZFSLE_fake_script)()
-coroutine.wrap(SZCKKWM_fake_script)()
-coroutine.wrap(UHAHP_fake_script)()
-coroutine.wrap(KSFV_fake_script)()
-coroutine.wrap(OILS_fake_script)()
-coroutine.wrap(NDDOIR_fake_script)()
-coroutine.wrap(DAFBXT_fake_script)()
-coroutine.wrap(VVVKSYU_fake_script)()
-coroutine.wrap(XKWER_fake_script)()
-coroutine.wrap(HIOBS_fake_script)()
-coroutine.wrap(LICHPHS_fake_script)()
-coroutine.wrap(SHKI_fake_script)()
-coroutine.wrap(SDJJQU_fake_script)()
-coroutine.wrap(NKQA_fake_script)()
-coroutine.wrap(PAZJVQA_fake_script)()
-coroutine.wrap(YHIVL_fake_script)()
-coroutine.wrap(ISMXA_fake_script)()
-coroutine.wrap(KIFDL_fake_script)()
-coroutine.wrap(DYBIGSV_fake_script)()
-coroutine.wrap(BUMCZ_fake_script)()
-coroutine.wrap(FZVQZSW_fake_script)()
-coroutine.wrap(EULGDS_fake_script)()
-coroutine.wrap(PEGD_fake_script)()
-coroutine.wrap(MNNP_fake_script)()
-coroutine.wrap(NGEUT_fake_script)()
-coroutine.wrap(EDRTLGI_fake_script)()
-coroutine.wrap(IRSWNP_fake_script)()
-coroutine.wrap(CZEZB_fake_script)()
-coroutine.wrap(LWAZA_fake_script)()
-coroutine.wrap(EPOOAWC_fake_script)()
-coroutine.wrap(KBUXGU_fake_script)()
-coroutine.wrap(JILABJ_fake_script)()
-coroutine.wrap(TATIH_fake_script)()
-coroutine.wrap(IVIJV_fake_script)()
-coroutine.wrap(SHQLSZV_fake_script)()
-coroutine.wrap(BAZGDO_fake_script)()
-coroutine.wrap(DULXA_fake_script)()
-coroutine.wrap(AJOBJ_fake_script)()
-coroutine.wrap(XUFCDL_fake_script)()
-coroutine.wrap(IXUFJ_fake_script)()
-coroutine.wrap(VVYSOVM_fake_script)()
-coroutine.wrap(RDPYZP_fake_script)()
-coroutine.wrap(SWZFX_fake_script)()
-coroutine.wrap(EEQVF_fake_script)()-- Please leave these comments in and leave credit, it took me a while to make this
+coroutine.wrap(PSXDRNU_fake_script)()
+coroutine.wrap(BWQAUCX_fake_script)()
+coroutine.wrap(GFJXBSX_fake_script)()
+coroutine.wrap(SFCB_fake_script)()
+coroutine.wrap(ZUKTWWT_fake_script)()
+coroutine.wrap(JSAVFY_fake_script)()
+coroutine.wrap(WKCESR_fake_script)()
+coroutine.wrap(QBNXHOG_fake_script)()
+coroutine.wrap(BBKRYCQ_fake_script)()
+coroutine.wrap(XWREHL_fake_script)()
+coroutine.wrap(PWTSNR_fake_script)()
+coroutine.wrap(GQNAJSH_fake_script)()
+coroutine.wrap(FYFY_fake_script)()
+coroutine.wrap(VYYQLZO_fake_script)()
+coroutine.wrap(RXHPU_fake_script)()
+coroutine.wrap(MAHAZOK_fake_script)()
+coroutine.wrap(GBMEEXH_fake_script)()
+coroutine.wrap(NSEDP_fake_script)()
+coroutine.wrap(BQXAEL_fake_script)()
+coroutine.wrap(XBWBB_fake_script)()
+coroutine.wrap(PLZG_fake_script)()
+coroutine.wrap(SBKXXJD_fake_script)()
+coroutine.wrap(TLDBA_fake_script)()
+coroutine.wrap(DTVAKI_fake_script)()
+coroutine.wrap(XVIGX_fake_script)()
+coroutine.wrap(HAJLF_fake_script)()
+coroutine.wrap(TJJXKOK_fake_script)()
+coroutine.wrap(JMGH_fake_script)()
+coroutine.wrap(OAGWNLU_fake_script)()
+coroutine.wrap(VYYH_fake_script)()
+coroutine.wrap(PEMBIDZ_fake_script)()
+coroutine.wrap(VZZVAC_fake_script)()
+coroutine.wrap(YBUBDFH_fake_script)()
+coroutine.wrap(XLAQLYV_fake_script)()
+coroutine.wrap(TSRKN_fake_script)()
+coroutine.wrap(HOQJGVV_fake_script)()
+coroutine.wrap(LFOT_fake_script)()
+coroutine.wrap(GTHMAVH_fake_script)()
+coroutine.wrap(FNEK_fake_script)()
+coroutine.wrap(BFYZRH_fake_script)()
+coroutine.wrap(VPVRD_fake_script)()
+coroutine.wrap(FTQJJ_fake_script)()
+coroutine.wrap(REOM_fake_script)()
+coroutine.wrap(QEVNREW_fake_script)()
+coroutine.wrap(GFEDK_fake_script)()
+coroutine.wrap(PVEUWO_fake_script)()
+coroutine.wrap(NNVS_fake_script)()
+coroutine.wrap(WNWHDV_fake_script)()
+coroutine.wrap(PBNX_fake_script)()
+coroutine.wrap(NZZT_fake_script)()
+coroutine.wrap(ZKQR_fake_script)()
+coroutine.wrap(BCCJU_fake_script)()
+coroutine.wrap(YKJAOW_fake_script)()
+coroutine.wrap(FOVWD_fake_script)()
+coroutine.wrap(NYPCYI_fake_script)()
+coroutine.wrap(WISFW_fake_script)()
+coroutine.wrap(XEWMYT_fake_script)()
+coroutine.wrap(MTZJO_fake_script)()-- Please leave these comments in and leave credit, it took me a while to make this
