@@ -362,7 +362,17 @@ Converted["_mainFrame"].BorderSizePixel = 0
 Converted["_mainFrame"].Position = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_mainFrame"].Size = UDim2.new(0.59353739, 0, 0.64943254, 0)
 Converted["_mainFrame"].Name = "mainFrame"
-Converted["_mainFrame"].Parent = game.StarterGui.ScreenGui
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+local screenGui = playerGui:FindFirstChild("ScreenGui")
+if not screenGui then
+    screenGui = Instance.new("ScreenGui")
+    screenGui.Name = "ScreenGui"
+    screenGui.ResetOnSpawn = false
+    screenGui.Parent = playerGui
+end
+Converted["_mainFrame"].Parent = screenGui
 
 Converted["_configUS"].BackgroundColor3 = Color3.fromRGB(24.000000469386578, 30.00000011175871, 45.00000111758709)
 Converted["_configUS"].BorderColor3 = Color3.fromRGB(0, 0, 0)
