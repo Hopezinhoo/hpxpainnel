@@ -7,9 +7,7 @@ local Converted = {
 	["_mainFrame"] = Instance.new("Frame");
 	["_MenuButtons"] = Instance.new("LocalScript");
 	["_FotoConfig"] = Instance.new("LocalScript");
-	["_HpxScriipt"] = Instance.new("LocalScript");
 	["_H"] = Instance.new("LocalScript");
-	["_userstag"] = Instance.new("LocalScript");
 	["_configUS"] = Instance.new("Frame");
 	["_LocalScript"] = Instance.new("LocalScript");
 	["_ImageLabel"] = Instance.new("ImageLabel");
@@ -307,50 +305,39 @@ local Converted = {
 	["_UICorner64"] = Instance.new("UICorner");
 	["_UITextSizeConstraint69"] = Instance.new("UITextSizeConstraint");
 	["_UIPadding6"] = Instance.new("UIPadding");
-	["_OrbitaButton"] = Instance.new("TextButton");
-	["_LocalScript49"] = Instance.new("LocalScript");
-	["_UICorner65"] = Instance.new("UICorner");
-	["_UITextSizeConstraint70"] = Instance.new("UITextSizeConstraint");
 	["_Lista"] = Instance.new("ScrollingFrame");
 	["_Banner"] = Instance.new("TextButton");
-	["_UICorner66"] = Instance.new("UICorner");
-	["_Foto"] = Instance.new("ImageLabel");
-	["_UICorner67"] = Instance.new("UICorner");
-	["_UIStroke9"] = Instance.new("UIStroke");
-	["_Apelido"] = Instance.new("TextLabel");
-	["_UITextSizeConstraint71"] = Instance.new("UITextSizeConstraint");
-	["_Nome"] = Instance.new("TextLabel");
-	["_UITextSizeConstraint72"] = Instance.new("UITextSizeConstraint");
+	["_UICorner65"] = Instance.new("UICorner");
 	["_UIPadding7"] = Instance.new("UIPadding");
 	["_UIGridLayout5"] = Instance.new("UIGridLayout");
-	["_UICorner68"] = Instance.new("UICorner");
+	["_UICorner66"] = Instance.new("UICorner");
 	["_menu"] = Instance.new("Frame");
-	["_UICorner69"] = Instance.new("UICorner");
+	["_UICorner67"] = Instance.new("UICorner");
 	["_voxupButton"] = Instance.new("TextButton");
-	["_UICorner70"] = Instance.new("UICorner");
-	["_UITextSizeConstraint73"] = Instance.new("UITextSizeConstraint");
+	["_UICorner68"] = Instance.new("UICorner");
+	["_UITextSizeConstraint70"] = Instance.new("UITextSizeConstraint");
 	["_TextLabel15"] = Instance.new("TextLabel");
 	["_stalkerButton"] = Instance.new("TextButton");
-	["_UICorner71"] = Instance.new("UICorner");
-	["_UITextSizeConstraint74"] = Instance.new("UITextSizeConstraint");
+	["_UICorner69"] = Instance.new("UICorner");
+	["_UITextSizeConstraint71"] = Instance.new("UITextSizeConstraint");
 	["_TextLabel16"] = Instance.new("TextLabel");
 	["_animaButton"] = Instance.new("TextButton");
-	["_UICorner72"] = Instance.new("UICorner");
-	["_UITextSizeConstraint75"] = Instance.new("UITextSizeConstraint");
+	["_UICorner70"] = Instance.new("UICorner");
+	["_UITextSizeConstraint72"] = Instance.new("UITextSizeConstraint");
 	["_TextLabel17"] = Instance.new("TextLabel");
 	["_MoviButton"] = Instance.new("TextButton");
-	["_UICorner73"] = Instance.new("UICorner");
-	["_UITextSizeConstraint76"] = Instance.new("UITextSizeConstraint");
+	["_UICorner71"] = Instance.new("UICorner");
+	["_UITextSizeConstraint73"] = Instance.new("UITextSizeConstraint");
 	["_TextLabel18"] = Instance.new("TextLabel");
 	["_ConfigButton"] = Instance.new("TextButton");
-	["_UICorner74"] = Instance.new("UICorner");
-	["_UITextSizeConstraint77"] = Instance.new("UITextSizeConstraint");
+	["_UICorner72"] = Instance.new("UICorner");
+	["_UITextSizeConstraint74"] = Instance.new("UITextSizeConstraint");
 	["_TextLabel19"] = Instance.new("TextLabel");
 	["_UIListLayout2"] = Instance.new("UIListLayout");
 	["_UIPadding8"] = Instance.new("UIPadding");
 	["_UIAspectRatioConstraint"] = Instance.new("UIAspectRatioConstraint");
 	["_hpx"] = Instance.new("TextLabel");
-	["_UIStroke10"] = Instance.new("UIStroke");
+	["_UIStroke9"] = Instance.new("UIStroke");
 	["_Versao"] = Instance.new("TextLabel");
 }
 
@@ -1896,6 +1883,7 @@ Converted["_voxUp"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_voxUp"].BorderSizePixel = 0
 Converted["_voxUp"].Position = UDim2.new(0.31099999, 0, 0.167999998, 0)
 Converted["_voxUp"].Size = UDim2.new(0.675999999, 0, 0.809000015, 0)
+Converted["_voxUp"].Visible = false
 Converted["_voxUp"].Name = "voxUp"
 Converted["_voxUp"].Parent = Converted["_mainFrame"]
 
@@ -2340,7 +2328,6 @@ Converted["_stalker"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_stalker"].BorderSizePixel = 0
 Converted["_stalker"].Position = UDim2.new(0.31099999, 0, 0.167999998, 0)
 Converted["_stalker"].Size = UDim2.new(0.675999999, 0, 0.809000015, 0)
-Converted["_stalker"].Visible = false
 Converted["_stalker"].Name = "stalker"
 Converted["_stalker"].Parent = Converted["_mainFrame"]
 
@@ -2469,7 +2456,7 @@ Converted["_UIGridLayout4"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIGridLayout4"].Parent = Converted["_Cmds"]
 
 Converted["_carinhoButton"].Font = Enum.Font.FredokaOne
-Converted["_carinhoButton"].Text = "cabe�a"
+Converted["_carinhoButton"].Text = "cabeca"
 Converted["_carinhoButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_carinhoButton"].TextScaled = true
 Converted["_carinhoButton"].TextSize = 20
@@ -2499,33 +2486,8 @@ Converted["_UIPadding6"].PaddingRight = UDim.new(0, 10)
 Converted["_UIPadding6"].PaddingTop = UDim.new(0, 10)
 Converted["_UIPadding6"].Parent = Converted["_Cmds"]
 
-Converted["_OrbitaButton"].Font = Enum.Font.FredokaOne
-Converted["_OrbitaButton"].Text = "Orbit"
-Converted["_OrbitaButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_OrbitaButton"].TextScaled = true
-Converted["_OrbitaButton"].TextSize = 20
-Converted["_OrbitaButton"].TextWrapped = true
-Converted["_OrbitaButton"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_OrbitaButton"].BackgroundColor3 = Color3.fromRGB(53.00000064074993, 61.00000016391277, 84.00000259280205)
-Converted["_OrbitaButton"].BorderColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 160.00000566244125)
-Converted["_OrbitaButton"].BorderSizePixel = 4
-Converted["_OrbitaButton"].Position = UDim2.new(1.14738882, 0, 0.593997657, 0)
-Converted["_OrbitaButton"].Size = UDim2.new(0.287284046, 0, 0.17749913, 0)
-Converted["_OrbitaButton"].Name = "OrbitaButton"
-Converted["_OrbitaButton"].Parent = Converted["_Cmds"]
-
-Converted["_UICorner65"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner65"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner65"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner65"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner65"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner65"].Parent = Converted["_OrbitaButton"]
-
-Converted["_UITextSizeConstraint70"].MaxTextSize = 20
-Converted["_UITextSizeConstraint70"].Parent = Converted["_OrbitaButton"]
-
 Converted["_Lista"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Lista"].ScrollBarThickness = 0
+Converted["_Lista"].ScrollBarThickness = 4
 Converted["_Lista"].Active = true
 Converted["_Lista"].BackgroundColor3 = Color3.fromRGB(68.00000354647636, 68.00000354647636, 68.00000354647636)
 Converted["_Lista"].BackgroundTransparency = 1
@@ -2549,67 +2511,12 @@ Converted["_Banner"].Visible = false
 Converted["_Banner"].Name = "Banner"
 Converted["_Banner"].Parent = Converted["_Lista"]
 
-Converted["_UICorner66"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner66"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner66"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner66"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner66"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner66"].Parent = Converted["_Banner"]
-
-Converted["_Foto"].BackgroundColor3 = Color3.fromRGB(105.00000134110451, 121.00000038743019, 166.00000530481339)
-Converted["_Foto"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Foto"].BorderSizePixel = 0
-Converted["_Foto"].Position = UDim2.new(0.0545905717, 0, 0.0981790274, 0)
-Converted["_Foto"].Size = UDim2.new(0.198511168, 0, 0.768223763, 0)
-Converted["_Foto"].Name = "Foto"
-Converted["_Foto"].Parent = Converted["_Banner"]
-
-Converted["_UICorner67"].BottomLeftRadius = UDim.new(1, 0)
-Converted["_UICorner67"].BottomRightRadius = UDim.new(1, 0)
-Converted["_UICorner67"].CornerRadius = UDim.new(1, 0)
-Converted["_UICorner67"].TopLeftRadius = UDim.new(1, 0)
-Converted["_UICorner67"].TopRightRadius = UDim.new(1, 0)
-Converted["_UICorner67"].Parent = Converted["_Foto"]
-
-Converted["_UIStroke9"].Parent = Converted["_Foto"]
-
-Converted["_Apelido"].Font = Enum.Font.FredokaOne
-Converted["_Apelido"].Text = "Hope"
-Converted["_Apelido"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Apelido"].TextScaled = true
-Converted["_Apelido"].TextSize = 14
-Converted["_Apelido"].TextWrapped = true
-Converted["_Apelido"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_Apelido"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Apelido"].BackgroundTransparency = 1
-Converted["_Apelido"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Apelido"].BorderSizePixel = 0
-Converted["_Apelido"].Position = UDim2.new(0.297766745, 0, 0.117814839, 0)
-Converted["_Apelido"].Size = UDim2.new(0.669975162, 0, 0.384111881, 0)
-Converted["_Apelido"].Name = "Apelido"
-Converted["_Apelido"].Parent = Converted["_Banner"]
-
-Converted["_UITextSizeConstraint71"].MaxTextSize = 20
-Converted["_UITextSizeConstraint71"].Parent = Converted["_Apelido"]
-
-Converted["_Nome"].Font = Enum.Font.Unknown
-Converted["_Nome"].Text = "Hopezinhoo"
-Converted["_Nome"].TextColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Nome"].TextScaled = true
-Converted["_Nome"].TextSize = 14
-Converted["_Nome"].TextWrapped = true
-Converted["_Nome"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_Nome"].BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-Converted["_Nome"].BackgroundTransparency = 1
-Converted["_Nome"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Nome"].BorderSizePixel = 0
-Converted["_Nome"].Position = UDim2.new(0.297766745, 0, 0.510530949, 0)
-Converted["_Nome"].Size = UDim2.new(0.669975162, 0, 0.384111881, 0)
-Converted["_Nome"].Name = "Nome"
-Converted["_Nome"].Parent = Converted["_Banner"]
-
-Converted["_UITextSizeConstraint72"].MaxTextSize = 20
-Converted["_UITextSizeConstraint72"].Parent = Converted["_Nome"]
+Converted["_UICorner65"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner65"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner65"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner65"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner65"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner65"].Parent = Converted["_Banner"]
 
 Converted["_UIPadding7"].PaddingBottom = UDim.new(0, 10)
 Converted["_UIPadding7"].PaddingLeft = UDim.new(0, 10)
@@ -2622,12 +2529,12 @@ Converted["_UIGridLayout5"].CellSize = UDim2.new(0.49000001, 0, 0.0700000003, 0)
 Converted["_UIGridLayout5"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIGridLayout5"].Parent = Converted["_Lista"]
 
-Converted["_UICorner68"].BottomLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner68"].BottomRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner68"].CornerRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner68"].TopLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner68"].TopRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner68"].Parent = Converted["_mainFrame"]
+Converted["_UICorner66"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner66"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner66"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner66"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner66"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner66"].Parent = Converted["_mainFrame"]
 
 Converted["_menu"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_menu"].BackgroundColor3 = Color3.fromRGB(24.000000469386578, 30.00000011175871, 45.00000111758709)
@@ -2638,12 +2545,12 @@ Converted["_menu"].Size = UDim2.new(0.280085951, 0, 0.808737814, 0)
 Converted["_menu"].Name = "menu"
 Converted["_menu"].Parent = Converted["_mainFrame"]
 
-Converted["_UICorner69"].BottomLeftRadius = UDim.new(0.0500000007, 0)
-Converted["_UICorner69"].BottomRightRadius = UDim.new(0.0500000007, 0)
-Converted["_UICorner69"].CornerRadius = UDim.new(0.0500000007, 0)
-Converted["_UICorner69"].TopLeftRadius = UDim.new(0.0500000007, 0)
-Converted["_UICorner69"].TopRightRadius = UDim.new(0.0500000007, 0)
-Converted["_UICorner69"].Parent = Converted["_menu"]
+Converted["_UICorner67"].BottomLeftRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner67"].BottomRightRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner67"].CornerRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner67"].TopLeftRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner67"].TopRightRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner67"].Parent = Converted["_menu"]
 
 Converted["_voxupButton"].Font = Enum.Font.FredokaOne
 Converted["_voxupButton"].Text = ""
@@ -2663,15 +2570,15 @@ Converted["_voxupButton"].ZIndex = 2
 Converted["_voxupButton"].Name = "voxupButton"
 Converted["_voxupButton"].Parent = Converted["_menu"]
 
-Converted["_UICorner70"].BottomLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner70"].BottomRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner70"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner70"].TopLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner70"].TopRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner70"].Parent = Converted["_voxupButton"]
+Converted["_UICorner68"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner68"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner68"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner68"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner68"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner68"].Parent = Converted["_voxupButton"]
 
-Converted["_UITextSizeConstraint73"].MaxTextSize = 25
-Converted["_UITextSizeConstraint73"].Parent = Converted["_voxupButton"]
+Converted["_UITextSizeConstraint70"].MaxTextSize = 25
+Converted["_UITextSizeConstraint70"].Parent = Converted["_voxupButton"]
 
 Converted["_TextLabel15"].Font = Enum.Font.FredokaOne
 Converted["_TextLabel15"].Text = "Jogos"
@@ -2706,15 +2613,15 @@ Converted["_stalkerButton"].ZIndex = 2
 Converted["_stalkerButton"].Name = "stalkerButton"
 Converted["_stalkerButton"].Parent = Converted["_menu"]
 
-Converted["_UICorner71"].BottomLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner71"].BottomRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner71"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner71"].TopLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner71"].TopRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner71"].Parent = Converted["_stalkerButton"]
+Converted["_UICorner69"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner69"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner69"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner69"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner69"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner69"].Parent = Converted["_stalkerButton"]
 
-Converted["_UITextSizeConstraint74"].MaxTextSize = 25
-Converted["_UITextSizeConstraint74"].Parent = Converted["_stalkerButton"]
+Converted["_UITextSizeConstraint71"].MaxTextSize = 25
+Converted["_UITextSizeConstraint71"].Parent = Converted["_stalkerButton"]
 
 Converted["_TextLabel16"].Font = Enum.Font.FredokaOne
 Converted["_TextLabel16"].Text = "stalker"
@@ -2749,18 +2656,18 @@ Converted["_animaButton"].ZIndex = 2
 Converted["_animaButton"].Name = "animaButton"
 Converted["_animaButton"].Parent = Converted["_menu"]
 
-Converted["_UICorner72"].BottomLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner72"].BottomRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner72"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner72"].TopLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner72"].TopRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner72"].Parent = Converted["_animaButton"]
+Converted["_UICorner70"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner70"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner70"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner70"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner70"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner70"].Parent = Converted["_animaButton"]
 
-Converted["_UITextSizeConstraint75"].MaxTextSize = 25
-Converted["_UITextSizeConstraint75"].Parent = Converted["_animaButton"]
+Converted["_UITextSizeConstraint72"].MaxTextSize = 25
+Converted["_UITextSizeConstraint72"].Parent = Converted["_animaButton"]
 
 Converted["_TextLabel17"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel17"].Text = "anima��es"
+Converted["_TextLabel17"].Text = "Poses"
 Converted["_TextLabel17"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel17"].TextScaled = true
 Converted["_TextLabel17"].TextSize = 14
@@ -2792,15 +2699,15 @@ Converted["_MoviButton"].ZIndex = 2
 Converted["_MoviButton"].Name = "MoviButton"
 Converted["_MoviButton"].Parent = Converted["_menu"]
 
-Converted["_UICorner73"].BottomLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner73"].BottomRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner73"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner73"].TopLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner73"].TopRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner73"].Parent = Converted["_MoviButton"]
+Converted["_UICorner71"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner71"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner71"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner71"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner71"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner71"].Parent = Converted["_MoviButton"]
 
-Converted["_UITextSizeConstraint76"].MaxTextSize = 25
-Converted["_UITextSizeConstraint76"].Parent = Converted["_MoviButton"]
+Converted["_UITextSizeConstraint73"].MaxTextSize = 25
+Converted["_UITextSizeConstraint73"].Parent = Converted["_MoviButton"]
 
 Converted["_TextLabel18"].Font = Enum.Font.FredokaOne
 Converted["_TextLabel18"].Text = "movimento"
@@ -2835,15 +2742,15 @@ Converted["_ConfigButton"].ZIndex = 2
 Converted["_ConfigButton"].Name = "ConfigButton"
 Converted["_ConfigButton"].Parent = Converted["_menu"]
 
-Converted["_UICorner74"].BottomLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner74"].BottomRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner74"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner74"].TopLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner74"].TopRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner74"].Parent = Converted["_ConfigButton"]
+Converted["_UICorner72"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner72"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner72"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner72"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner72"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner72"].Parent = Converted["_ConfigButton"]
 
-Converted["_UITextSizeConstraint77"].MaxTextSize = 25
-Converted["_UITextSizeConstraint77"].Parent = Converted["_ConfigButton"]
+Converted["_UITextSizeConstraint74"].MaxTextSize = 25
+Converted["_UITextSizeConstraint74"].Parent = Converted["_ConfigButton"]
 
 Converted["_TextLabel19"].Font = Enum.Font.FredokaOne
 Converted["_TextLabel19"].Text = "CONFIG"
@@ -2873,7 +2780,7 @@ Converted["_UIPadding8"].Parent = Converted["_menu"]
 Converted["_UIAspectRatioConstraint"].AspectRatio = 1.355339765548706
 Converted["_UIAspectRatioConstraint"].Parent = Converted["_mainFrame"]
 
-Converted["_hpx"].Font = Enum.Font.Unknown
+Converted["_hpx"].Font = Enum.Font.FredokaOne
 Converted["_hpx"].Text = "HPX"
 Converted["_hpx"].TextColor3 = Color3.fromRGB(37.00000159442425, 98.00000175833702, 234.00000125169754)
 Converted["_hpx"].TextScaled = true
@@ -2884,16 +2791,16 @@ Converted["_hpx"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 Converted["_hpx"].BackgroundTransparency = 1
 Converted["_hpx"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_hpx"].BorderSizePixel = 0
-Converted["_hpx"].Position = UDim2.new(0.020057328, 0, -8.94501468e-08, 0)
-Converted["_hpx"].Size = UDim2.new(0.453096569, 0, 0.167961285, 0)
+Converted["_hpx"].Position = UDim2.new(0.0718253627, 0, -9.73278489e-08, 0)
+Converted["_hpx"].Size = UDim2.new(0.16915682, 0, 0.16796127, 0)
 Converted["_hpx"].Name = "hpx"
 Converted["_hpx"].Parent = Converted["_mainFrame"]
 
-Converted["_UIStroke10"].Color = Color3.fromRGB(36.00000165402889, 0, 54.00000438094139)
-Converted["_UIStroke10"].Parent = Converted["_mainFrame"]
+Converted["_UIStroke9"].Color = Color3.fromRGB(36.00000165402889, 0, 54.00000438094139)
+Converted["_UIStroke9"].Parent = Converted["_mainFrame"]
 
-Converted["_Versao"].Font = Enum.Font.Unknown
-Converted["_Versao"].Text = "V 1.0"
+Converted["_Versao"].Font = Enum.Font.FredokaOne
+Converted["_Versao"].Text = "V 1.5"
 Converted["_Versao"].TextColor3 = Color3.fromRGB(37.00000159442425, 98.00000175833702, 234.00000125169754)
 Converted["_Versao"].TextScaled = true
 Converted["_Versao"].TextSize = 14
@@ -2902,8 +2809,8 @@ Converted["_Versao"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 Converted["_Versao"].BackgroundTransparency = 1
 Converted["_Versao"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Versao"].BorderSizePixel = 0
-Converted["_Versao"].Position = UDim2.new(0.824556768, 0, 0, 0)
-Converted["_Versao"].Size = UDim2.new(0.174837813, 0, 0.0839362592, 0)
+Converted["_Versao"].Position = UDim2.new(0.88573724, 0, 0.0212615933, 0)
+Converted["_Versao"].Size = UDim2.new(0.101262793, 0, 0.0477915443, 0)
 Converted["_Versao"].Name = "Versao"
 Converted["_Versao"].Parent = Converted["_mainFrame"]
 
@@ -2914,7 +2821,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function PSXDRNU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.MenuButtons
+local function ERGDGHJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.MenuButtons
     local script = Instance.new("LocalScript")
     script.Name = "MenuButtons"
     script.Parent = Converted["_mainFrame"]
@@ -2996,7 +2903,7 @@ local function PSXDRNU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	-- MENU PADR�O
 	abrirConfig()
 end
-local function BWQAUCX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.FotoConfig
+local function KPOSKC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.FotoConfig
     local script = Instance.new("LocalScript")
     script.Name = "FotoConfig"
     script.Parent = Converted["_mainFrame"]
@@ -3035,22 +2942,7 @@ local function BWQAUCX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	imageLabel.Image = content
 	
 end
-local function GFJXBSX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.HpxScriipt
-    local script = Instance.new("LocalScript")
-    script.Name = "HpxScriipt"
-    script.Parent = Converted["_mainFrame"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	
-end
-local function SFCB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.H
+local function CQIDGMU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.H
     local script = Instance.new("LocalScript")
     script.Name = "H"
     script.Parent = Converted["_mainFrame"]
@@ -3177,126 +3069,7 @@ local function SFCB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		end
 	end)
 end
-local function ZUKTWWT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.userstag
-    local script = Instance.new("LocalScript")
-    script.Name = "userstag"
-    script.Parent = Converted["_mainFrame"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local Players = game:GetService("Players")
-	
-	local OWNER_USER_ID = 3890243713
-	local localPlayer = Players.LocalPlayer
-	
-	local NOME_TAG = "HPX_Tag"
-	local ALTURA_TAG = Vector3.new(0, 2.8, 0)
-	
-	local conexoes = {}
-	
-	---------------------------------------------------
-	-- CRIAR A ETIQUETA
-	---------------------------------------------------
-	
-	local function criarTag(playerInstance, character)
-		if not playerInstance or not character then
-			return
-		end
-	
-		local head = character:WaitForChild("Head", 10)
-	
-		if not head or not head:IsA("BasePart") then
-			warn("[Tags] N�o encontrei a cabe�a de " .. playerInstance.Name)
-			return
-		end
-	
-		-- Evita duplicar a etiqueta ao reaplicar.
-		local antiga = head:FindFirstChild(NOME_TAG)
-		if antiga then
-			antiga:Destroy()
-		end
-	
-		local texto = "MEMBRO"
-		local cor = Color3.fromRGB(80, 180, 255)
-	
-		if playerInstance.UserId == OWNER_USER_ID then
-			texto = "DONO"
-			cor = Color3.fromRGB(255, 190, 55)
-		end
-	
-		local billboard = Instance.new("BillboardGui")
-		billboard.Name = NOME_TAG
-		billboard.Adornee = head
-		billboard.Size = UDim2.fromOffset(140, 34)
-		billboard.StudsOffset = ALTURA_TAG
-		billboard.AlwaysOnTop = true
-		billboard.LightInfluence = 0
-		billboard.MaxDistance = 150
-		billboard.Enabled = true
-		billboard.Parent = head
-	
-		local label = Instance.new("TextLabel")
-		label.Name = "Texto"
-		label.Size = UDim2.fromScale(1, 1)
-		label.BackgroundTransparency = 1
-		label.Text = texto
-		label.TextColor3 = cor
-		label.TextScaled = true
-		label.Font = Enum.Font.GothamBold
-		label.TextStrokeColor3 = Color3.fromRGB(20, 20, 30)
-		label.TextStrokeTransparency = 0.2
-		label.Parent = billboard
-	end
-	
-	---------------------------------------------------
-	-- CONFIGURAR CADA JOGADOR
-	---------------------------------------------------
-	
-	local function configurarJogador(playerInstance)
-		if conexoes[playerInstance] then
-			return
-		end
-	
-		conexoes[playerInstance] =
-			playerInstance.CharacterAdded:Connect(function(character)
-				task.spawn(criarTag, playerInstance, character)
-			end)
-	
-		if playerInstance.Character then
-			task.spawn(criarTag, playerInstance, playerInstance.Character)
-		end
-	end
-	
-	---------------------------------------------------
-	-- JOGADORES ATUAIS E NOVOS
-	---------------------------------------------------
-	
-	for _, playerInstance in ipairs(Players:GetPlayers()) do
-		configurarJogador(playerInstance)
-	end
-	
-	Players.PlayerAdded:Connect(configurarJogador)
-	
-	---------------------------------------------------
-	-- LIMPEZA
-	---------------------------------------------------
-	
-	Players.PlayerRemoving:Connect(function(playerInstance)
-		local conexao = conexoes[playerInstance]
-	
-		if conexao then
-			conexao:Disconnect()
-			conexoes[playerInstance] = nil
-		end
-	end)
-end
-local function JSAVFY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
+local function RGFDBE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_configUS"]
@@ -3315,7 +3088,7 @@ local function JSAVFY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	usernameLabel.Text = player.DisplayName .. " ( " .. player.Name .. " )"
 end
-local function WKCESR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.usersLabel.LocalScript
+local function WFBCG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.usersLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_usersLabel"]
@@ -3330,7 +3103,7 @@ local function WKCESR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 
 	script.Parent.Text = "?? " .. math.random(10, 30)
 end
-local function QBNXHOG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
+local function YSWU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_pingLabel"]
@@ -3375,7 +3148,7 @@ local function QBNXHOG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		task.wait(1)
 	end
 end
-local function BBKRYCQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
+local function FWAGTSC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_fpsLabel"]
@@ -3424,7 +3197,7 @@ local function BBKRYCQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		end
 	end)
 end
-local function XWREHL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
+local function CCUNG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_platformLabel"]
@@ -3461,7 +3234,7 @@ local function XWREHL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	platformLabel.Text = "PLATAFORMA: " .. plataforma
 end
-local function PWTSNR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
+local function REHK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
     local script = Instance.new("LocalScript")
     script.Name = "AtalhosManager"
     script.Parent = Converted["_movi"]
@@ -3476,7 +3249,7 @@ local function PWTSNR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 
 	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
 end
-local function GQNAJSH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.visibleButton.LocalScript
+local function WVRCWO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.visibleButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_visibleButton"]
@@ -4291,7 +4064,7 @@ local function GQNAJSH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	atualizarBotao()
 	atualizarAtalho()
 end
-local function FYFY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.reverseButton.LocalScript
+local function AKCABP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.reverseButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_reverseButton"]
@@ -5215,7 +4988,7 @@ local function FYFY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		task.spawn(setup, player.Character)
 	end
 end
-local function VYYQLZO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.femotesButton.LocalScript
+local function NPVG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.femotesButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_femotesButton"]
@@ -5776,7 +5549,7 @@ local function VYYQLZO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	task.spawn(carregarEmotesDoPlayer)
 end
-local function RXHPU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.clicktpButton.LocalScript
+local function JCKM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.clicktpButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_clicktpButton"]
@@ -6315,7 +6088,7 @@ local function RXHPU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	atualizarAtalho()
 	
 end
-local function MAHAZOK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.FantasmaVerButton.LocalScript
+local function TYUG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.FantasmaVerButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_FantasmaVerButton"]
@@ -6481,7 +6254,7 @@ local function MAHAZOK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	print("[HPX] Botao Ver Fantasma pronto para abrir o popup")
 	
 end
-local function GBMEEXH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.FantasmaVerButton.LocalScript
+local function PGLL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.FantasmaVerButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_FantasmaVerButton"]
@@ -7497,7 +7270,7 @@ local function GBMEEXH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	print("[HPX] Corpo uniforme e transpar�ncia corrigida.")
 	
 end
-local function NSEDP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.EspButton.LocalScript
+local function HMZWSQB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.EspButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_EspButton"]
@@ -8009,7 +7782,7 @@ local function NSEDP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	atualizarBotoes()
 end
-local function BQXAEL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.antiflingButton.LocalScript
+local function JZOJO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.antiflingButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_antiflingButton"]
@@ -8503,7 +8276,7 @@ local function BQXAEL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	atualizarTextoTecla()
 	atualizarBotao()
 end
-local function XBWBB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.VoarButton.Fly
+local function DDXW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.VoarButton.Fly
     local script = Instance.new("LocalScript")
     script.Name = "Fly"
     script.Parent = Converted["_VoarButton"]
@@ -18345,7 +18118,7 @@ local function XBWBB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	end
 	
 end
-local function PLZG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.RunButton.LocalScript
+local function FXYQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.RunButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_RunButton"]
@@ -18630,7 +18403,7 @@ local function PLZG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	print('[HPX CORRER] Scale pronto. Atalho e velocidade configuraveis.')
 	
 end
-local function SBKXXJD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.GirarButton.LocalScript
+local function JQRVPRP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.GirarButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_GirarButton"]
@@ -19014,7 +18787,7 @@ local function SBKXXJD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	print('[HPX GIRAR] Pronto. Tentativa de registrar Spin no HumanoidDescription ativa.')
 	
 end
-local function TLDBA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.vampiro.LocalScript
+local function MZVE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.vampiro.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_vampiro"]
@@ -19066,7 +18839,7 @@ local function TLDBA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function DTVAKI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.zumbie.LocalScript
+local function PECQH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.zumbie.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_zumbie"]
@@ -19118,7 +18891,7 @@ local function DTVAKI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function XVIGX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.adidas.LocalScript
+local function XBCQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.adidas.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_adidas"]
@@ -19170,7 +18943,7 @@ local function XVIGX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function HAJLF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Bolhoso.LocalScript
+local function VVDQEF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Bolhoso.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Bolhoso"]
@@ -19250,7 +19023,7 @@ local function HAJLF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function TJJXKOK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.ninja.LocalScript
+local function SVYSCI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.ninja.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_ninja"]
@@ -19321,7 +19094,7 @@ local function TJJXKOK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function JMGH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.lobo.LocalScript
+local function ZZMW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.lobo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_lobo"]
@@ -19392,7 +19165,7 @@ local function JMGH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function OAGWNLU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.mago.LocalScript
+local function SUMC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.mago.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_mago"]
@@ -19479,7 +19252,7 @@ local function OAGWNLU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function VYYH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.levitar.LocalScript
+local function HSVIV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.levitar.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_levitar"]
@@ -19550,7 +19323,7 @@ local function VYYH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function PEMBIDZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.cartoon.LocalScript
+local function HEHHPID_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.cartoon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_cartoon"]
@@ -19621,7 +19394,7 @@ local function PEMBIDZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function VZZVAC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.amazon.LocalScript
+local function HMWN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.amazon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_amazon"]
@@ -19707,7 +19480,7 @@ local function VZZVAC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function YBUBDFH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.astronauta.LocalScript
+local function TMEZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.astronauta.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_astronauta"]
@@ -19793,7 +19566,7 @@ local function YBUBDFH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function XLAQLYV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
+local function CSKK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero"]
@@ -19879,7 +19652,7 @@ local function XLAQLYV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function TSRKN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.antiga.LocalScript
+local function KKDK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.antiga.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_antiga"]
@@ -19958,7 +19731,7 @@ local function TSRKN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function HOQJGVV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Estileira.LocalScript
+local function QWNKW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Estileira.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Estileira"]
@@ -20037,7 +19810,7 @@ local function HOQJGVV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function LFOT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Rob�.LocalScript
+local function GKTC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Rob�.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Rob�"]
@@ -20116,7 +19889,7 @@ local function LFOT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function GTHMAVH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Elf.LocalScript
+local function EZYQMM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Elf.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Elf"]
@@ -20195,7 +19968,7 @@ local function GTHMAVH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function FNEK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Velho.LocalScript
+local function RWGLP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Velho.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Velho"]
@@ -20279,7 +20052,7 @@ local function FNEK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function BFYZRH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Walmart.LocalScript
+local function GAEA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Walmart.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Walmart"]
@@ -20359,7 +20132,7 @@ local function BFYZRH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 	
 end
-local function VPVRD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.malvada.LocalScript
+local function TFKE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.malvada.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_malvada"]
@@ -20437,7 +20210,7 @@ local function VPVRD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function FTQJJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Brinquedo.LocalScript
+local function JOAB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Brinquedo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Brinquedo"]
@@ -20524,7 +20297,7 @@ local function FTQJJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function REOM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
+local function QSCZVL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero1"]
@@ -20603,7 +20376,7 @@ local function REOM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function QEVNREW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Through Life.LocalScript
+local function AHKKS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Through Life.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Through Life"]
@@ -20682,7 +20455,7 @@ local function QEVNREW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function GFEDK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
+local function OWHRN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero2"]
@@ -20761,7 +20534,7 @@ local function GFEDK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function PVEUWO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Glow.LocalScript
+local function WTDNDS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Glow.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Glow"]
@@ -20841,7 +20614,7 @@ local function PVEUWO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function NNVS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.GrimoryButton.LocalScript
+local function YILSS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.GrimoryButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_GrimoryButton"]
@@ -21439,7 +21212,7 @@ local function NNVS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	print("[HPX GRIM] Pronto: GrimoryButton + atalho configuravel, sem painel extra.")
 	
 end
-local function WNWHDV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.CandyButton.LocalScript
+local function PZLCKN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.CandyButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_CandyButton"]
@@ -22173,7 +21946,7 @@ local function WNWHDV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	conectarPasta()
 	
 end
-local function PBNX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.BoneButton.LocalScript
+local function QHROGCH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.BoneButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_BoneButton"]
@@ -23636,7 +23409,7 @@ local function PBNX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	print("[HPX BONES] Painel conectado. Use BoneButton e defina a tecla no campo.")
 	
 end
-local function NZZT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LoboButton.LocalScript
+local function UMGNT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LoboButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_LoboButton"]
@@ -24524,7 +24297,7 @@ local function NZZT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	print("[Potion] Carregado. Use o botao Lobo ou clique no campo da tecla para definir um atalho.")
 	
 end
-local function ZKQR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LuckButton.LocalScript
+local function SOQZO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LuckButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_LuckButton"]
@@ -24537,633 +24310,425 @@ local function ZKQR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
         return req(obj)
     end
 
-	-- HPX Potions | Auto scanner de pocoes + atalho estilo HPX Bones
-	-- LocalScript dentro de voxUp > RoVibes > PotionButton
-	local Players = game:GetService("Players")
-	local UIS = game:GetService("UserInputService")
-	local player = Players.LocalPlayer
-	local playerGui = player:WaitForChild("PlayerGui")
-	local botao = script.Parent
-	assert(botao:IsA("GuiButton"), "PotionButton precisa ser GuiButton")
-	local corOriginal = botao.BackgroundColor3
-	local COR_ATIVA = Color3.fromRGB(0, 170, 0)
-	local IDENTIFICADOR = "HPX_POTION_ROVIBES"
-	if type(_G.HPX_PotionRota_Parar) == "function" then
-		pcall(_G.HPX_PotionRota_Parar)
+	
+	local Players=game:GetService("Players")
+	local UserInput=game:GetService("UserInputService")
+	local Http=game:GetService("HttpService")
+	local player=assert(Players.LocalPlayer,"Execute no cliente")
+	local scope=type(getgenv)=="function" and getgenv() or _G
+	local playerGui=player:WaitForChild("PlayerGui")
+	local previous=playerGui:FindFirstChild("FrostznLucky")
+	if previous then
+		local control=previous:FindFirstChild("Control")
+		if control and control:IsA("BindableFunction") then pcall(control.Invoke,control,"shutdown") end
+		if previous.Parent then previous:Destroy() end
 	end
-	
-	local NOME_PASTA = "WerewolfPotionsLocal"
-	local NOME_POCAO = "potiontemplate"
-	
-	-- ------------------------------------------------------------------
-	-- Deteccao e coleta
-	-- ------------------------------------------------------------------
-	local RAIO_ANALISE_EXTRA = 120   -- deslocamento lateral para explorar zonas de streaming
-	local VISITAS_EXTRAS_POR_PONTO = 1
-	local RAIO_MESMO_SPAWN = 3
-	local ESPERA_CARREGAR = 0.35
-	local ESPERA_PONTO = 0.08
-	local TEMPO_TENTATIVA = 2.0
-	local INTERVALO_TENTATIVA = 0.045
-	local ALTURA_PONTO = 3
-	local ALTURA_RAIO = 150
-	local PAUSA_POCAO_FALHOU = 8
-	local SCAN_RADIUS = 2500         -- deteccao distante de pocoes
-	local MAP_STEP = 140             -- tamanho do grid de exploracao do mapa
-	local MAP_RAY_UP = 120
-	local MAP_RAY_DOWN = 400
-	local GRID_VISITS_BEFORE_SPAWN = 3
-	local ALTURA_POCAO = 1.6         -- altura usada ao teleportar em cima da pocao
-	
-	local tentativasFalhas = setmetatable({}, {__mode = "k"})
-	local pontos = {}
-	local gridPoints = {}
-	local gridIndex = 1
-	local random = Random.new()
-	
-	-- Coordenadas de referencia do mapa (mesma base usada no Auto Grimorios).
-	-- Servem para forcar o streaming e encontrar novas pocoes.
-	local coordenadas = {
-		{-450.10, 26.80, 405.81}, {-704.99, 1.95, -206.04},
-		{-569.59, 5.89, -366.49}, {344.22, 24.65, 474.50},
-		{329.78, 27.54, 428.21}, {116.49, 7.82, 1043.71},
-		{343.00, 3.87, 762.19}, {595.04, 0.21, 630.87},
-		{-120.55, 19.32, -239.79}, {10.17, 10.54, -163.39},
-		{-733.22, 26.68, 403.17}, {-717.39, 1.64, 95.74},
-		{-274.31, 27.93, 487.73}, {324.12, 22.90, 492.54},
-		{189.96, 7.35, 562.56}, {-23.07, 15.47, 464.30},
-		{6.59, 4.10, 650.45}, {47.84, 5.52, 611.44},
-		{-142.83, 13.12, 312.70}, {379.74, 9.26, 621.04},
-		{-173.89, -0.02, 794.95}, {-208.80, 21.73, 774.35},
-		{616.65, 8.31, 296.57}, {39.04, 27.24, -25.14},
-		{651.52, 6.71, 317.25}, {-138.09, 7.15, 175.61},
-		{-95.13, 12.86, 378.94}, {-20.23, 7.89, -281.31},
-		{326.85, 3.22, 794.46}, {-583.07, 26.35, 354.38},
-		{-586.91, 0.32, -253.20}, {-207.81, 2.70, 872.18},
-		{-341.07, 3.08, 920.55}, {-263.20, 10.09, 959.12},
-		{278.62, 7.07, 631.25}, {268.73, 32.48, 61.08},
-		{530.01, 16.47, -71.16}, {-743.14, 26.56, 410.44},
-		{226.26, 2.62, 993.66}, {-137.46, 23.21, 781.30},
-		{67.41, 3.23, 392.74}, {12.00, 8.80, -285.64},
-		{-425.31, 26.74, 454.53}, {-380.56, 12.67, 993.81},
-		{-59.04, 21.39, 974.76}, {306.75, 8.17, -166.66},
-		{-597.23, 23.57, 285.84}, {-680.82, 26.43, 428.35},
-		{286.34, 27.37, 333.88}, {-575.13, 12.99, -283.25},
-		{284.26, 15.08, 554.57}, {427.22, -0.19, -139.27},
-		{310.76, 29.36, -29.11}, {345.39, 5.50, -226.48},
-		{235.86, 6.78, 608.35}, {-8.27, 1.71, 807.43},
-		{-708.11, 7.38, -251.54}, {456.08, 18.64, 449.58},
-		{273.07, 7.72, -301.42}, {-735.72, 26.74, 394.63},
-		{41.40, 18.98, -124.76}, {-205.05, 2.91, -272.96},
-		{213.64, 10.92, 731.36}, {-415.35, 16.27, 692.61},
-		{284.51, 6.32, -217.77},
-	}
-	
-	for _, v in ipairs(coordenadas) do
-		table.insert(pontos, Vector3.new(v[1], v[2], v[3]))
+	if scope.FrostznLucky and scope.FrostznLucky.Alive then pcall(scope.FrostznLucky.Shutdown) end
+	local Config={Interval=.35,Settle=.65,Confirm=2,RetryDelay=6,ScanInterval=5,MaxHold=30}
+	local app={Alive=true,Enabled=false,Version="1.2",Token=0,Attempts=0,Triggered=0,Disappeared=0,Candidates=0,Status="Desligado",Config=Config,Connections={},History={},Cycles=0,Errors=0}
+	scope.FrostznLucky=app
+	local prompts,cooldown={},setmetatable({},{__mode="k"})
+	local currentHold,worker,scanTask,gui,button,keyControl,keyTarget,originalButtonColor
+	local choosingKey,hotkey,noticeNumber=false,nil,0
+	if type(_G.HPX_Atalhos)~="table" then _G.HPX_Atalhos={} end
+	local shortcutMap=_G.HPX_Atalhos
+	_G.HPX_Atalhos=shortcutMap
+	local OWNER="LuckyBlock"
+	local activeColor=Color3.fromRGB(0,170,0)
+	local digitKeys={Zero="0",One="1",Two="2",Three="3",Four="4",Five="5",Six="6",Seven="7",Eight="8",Nine="9"}
+	local heldConnection
+	local function clearAttempt()
+		local p=currentHold;currentHold=nil
+		if p then pcall(p.InputHoldEnd,p) end
+		if heldConnection then heldConnection:Disconnect();heldConnection=nil end
+		app.Target=nil
 	end
-	
-	local ativo, rodando, vivo = false, false, true
-	local pastaMonitorada, conexaoPasta = nil, nil
-	local conexoes = {}
-	
-	local function logImportante(mensagem)
-		local canal = playerGui:FindFirstChild("HPX_PotionSpawnEvento")
-		if canal and canal:IsA("BindableEvent") then
-			canal:Fire(mensagem)
+	local function connect(signal,fn)
+		local c=signal:Connect(function(...)if app.Alive then fn(...)end end)
+		app.Connections[#app.Connections+1]=c;return c
+	end
+	local function display(message)
+		app.Status=message
+		if button and button.Parent and originalButtonColor then
+			button.BackgroundColor3=app.Enabled and activeColor or originalButtonColor
+			button:SetAttribute("FrostznLuckyStatus",message)
 		end
 	end
-	
-	local function pastaPotion()
-		return workspace:FindFirstChild(NOME_PASTA)
-	end
-	
-	local function ehPocao(obj)
-		return obj and obj.Name:lower() == NOME_POCAO
-	end
-	
-	local function partePocao(obj)
-		if not obj then return nil end
-		if obj:IsA("BasePart") then return obj end
-		local p = obj:FindFirstChildWhichIsA("BasePart", true)
-		return p
-	end
-	
-	local function posicaoPocao(obj)
-		local p = partePocao(obj)
-		if p then return p.Position end
-		if obj:IsA("Model") then
-			local pivot = obj:GetPivot()
-			return pivot.Position
+	local function normalize(name)return name:lower():gsub("[^%w]","")end
+	local function live(p)return p.Parent~=nil and p:IsDescendantOf(workspace)end
+	local function classify(prompt)
+		if not prompt:IsA("ProximityPrompt") or not live(prompt) then return nil end
+		local found,ancestor=nil,prompt.Parent
+		while ancestor and ancestor~=workspace do
+			if ancestor:IsA("Model") and ancestor:FindFirstChildOfClass("Humanoid") then return nil end
+			local n=normalize(ancestor.Name)
+			if n:find("npc",1,true) then return nil end
+			-- N�o confundir a pasta LuckyBlocksActive com um bloco individual.
+			if not found and (ancestor:IsA("Model") or ancestor:IsA("BasePart")) and (n:find("luckyblock",1,true) or n:find("luckblock",1,true)) then found=ancestor end
+			ancestor=ancestor.Parent
 		end
+		local text=normalize(prompt.Name.." "..prompt.ObjectText)
+		if not found and (text:find("luckyblock",1,true) or text:find("luckblock",1,true)) then
+			found=prompt:FindFirstAncestorOfClass("Model") or prompt.Parent
+		end
+		-- Nunca automatiza prompts de compra.
+		local action=normalize(prompt.ActionText)
+		if action:find("buy",1,true) or action:find("compr",1,true) or action:find("purchase",1,true) then return nil end
+		return found
+	end
+	local function position(prompt)
+		local parent=prompt.Parent
+		if not parent then return nil end
+		if parent:IsA("Attachment") then return parent.WorldPosition end
+		if parent:IsA("BasePart") then return parent.Position end
+		if parent:IsA("Model") then return parent:GetPivot().Position end
 		return nil
 	end
-	
-	-- Ignora o personagem e a pasta das pocoes para nao confundir o raio.
-	local function pocoesIgnorados()
-		local ignorar = {}
-		if player.Character then table.insert(ignorar, player.Character) end
-		local pasta = pastaPotion()
-		if pasta then table.insert(ignorar, pasta) end
-		return ignorar
+	local function register(obj)
+		if obj:IsA("ProximityPrompt") then prompts[obj]=true end
 	end
-	
-	-- Verifica se existe chao solido acima da pocao (pocao enterrada).
-	local function pocoesVisivel(pos)
-		local params = RaycastParams.new()
-		params.FilterType = Enum.RaycastFilterType.Exclude
-		params.FilterDescendantsInstances = pocoesIgnorados()
-		params.IgnoreWater = true
-	
-		local origem = pos + Vector3.new(0, ALTURA_RAIO, 0)
-		local resultado = workspace:Raycast(origem, Vector3.new(0, -ALTURA_RAIO, 0), params)
-		if resultado and resultado.Position.Y > pos.Y + 2 then
-			return false
-		end
-		return true
-	end
-	
-	local function adicionarPonto(pos)
-		for _, ponto in ipairs(pontos) do
-			if (ponto - pos).Magnitude <= RAIO_MESMO_SPAWN then
-				return false
+	local scanning=false
+	function app.Scan()
+		if scanning or not app.Alive then return end
+		scanning=true
+		app.Scanning=true
+		local ok,err=pcall(function()
+			local stack={workspace};local deadline=os.clock()+.002
+			while #stack>0 and app.Alive do
+				local node=table.remove(stack)
+				local good,children=pcall(node.GetChildren,node)
+				if good then for _,child in ipairs(children) do
+						register(child);stack[#stack+1]=child
+						if os.clock()>=deadline then task.wait();deadline=os.clock()+.002 end
+					end end
 			end
-		end
-		table.insert(pontos, pos)
-		return true
-	end
-	
-	-- Conecta na pasta para saber quando novas pocoes entram no cliente.
-	local function conectarPasta()
-		local pasta = pastaPotion()
-		if pasta == pastaMonitorada then return end
-		if conexaoPasta then conexaoPasta:Disconnect() end
-		pastaMonitorada = pasta
-		conexaoPasta = nil
-		if pasta then
-			conexaoPasta = pasta.DescendantAdded:Connect(function() end)
-		end
-	end
-	
-	-- Lista todas as pocoes carregadas, sem limite artificial de distancia.
-	local function varrerPocoes()
-		conectarPasta()
-		local pasta = pastaPotion()
-		local lista = {}
-		if not pasta then return lista end
-		for _, obj in ipairs(pasta:GetDescendants()) do
-			if ehPocao(obj) then
-				local pos = posicaoPocao(obj)
-				if pos and pocoesVisivel(pos)
-					and (not tentativasFalhas[obj] or os.clock() >= tentativasFalhas[obj]) then
-					table.insert(lista, {obj = obj, pos = pos})
-				end
-			end
-		end
-		return lista
-	end
-	
-	local function personagem()
-		local char = player.Character
-		if not char then return nil end
-		local root = char:FindFirstChild("HumanoidRootPart")
-		local hum = char:FindFirstChildWhichIsA("Humanoid")
-		if not root or not hum or hum.Health <= 0 then return nil end
-		return char, root
-	end
-	
-	local function teleportar(pos)
-		if not ativo or not vivo then return false end
-		local char, root = personagem()
-		if not char then return false end
-		root.AssemblyLinearVelocity = Vector3.zero
-		root.AssemblyAngularVelocity = Vector3.zero
-		char:PivotTo(CFrame.new(pos))
-		return true
-	end
-	
-	-- Segura o ProximityPrompt da pocao para realmente coletar.
-	local function ativarPrompt(obj)
-		local prompt = obj:FindFirstChildWhichIsA("ProximityPrompt", true)
-		if not prompt then
-			local parte = partePocao(obj)
-			if parte then
-				prompt = parte:FindFirstChildWhichIsA("ProximityPrompt", true)
-			end
-		end
-		if not prompt then return false end
-		local duracao = math.max(0.1, (prompt.HoldDuration or 0) + 0.15)
-		pcall(function() prompt:InputHoldBegin() end)
-		task.wait(duracao)
-		pcall(function() prompt:InputHoldEnd() end)
-		return true
-	end
-	
-	local function coletar(pocao)
-		if not ativo or not vivo or not pocao.obj or not pocao.obj.Parent then return false end
-		local pasta = pastaPotion()
-		local inicio = os.clock()
-		local promptFeito = false
-	
-		while vivo and ativo and pocao.obj.Parent and pasta
-			and pocao.obj:IsDescendantOf(pasta)
-			and os.clock() - inicio < TEMPO_TENTATIVA do
-			local pos = posicaoPocao(pocao.obj)
-			if not pos then break end
-			if not teleportar(pos + Vector3.new(0, ALTURA_POCAO, 0)) then break end
-	
-			-- Tenta o prompt uma vez por tentativa (nao a cada frame).
-			if not promptFeito then
-				promptFeito = true
-				ativarPrompt(pocao.obj)
-			end
-	
-			task.wait(INTERVALO_TENTATIVA)
-		end
-	
-		local coletado = not pocao.obj.Parent
-			or not (pasta and pocao.obj:IsDescendantOf(pasta))
-	
-		if coletado and adicionarPonto(pocao.pos) then
-			logImportante(string.format(
-				"[HPX POTION NOVO SPAWN] X: %.2f | Y: %.2f | Z: %.2f | Total: %d",
-				pocao.pos.X, pocao.pos.Y, pocao.pos.Z, #pontos
-				))
-		end
-		if not coletado then
-			tentativasFalhas[pocao.obj] = os.clock() + PAUSA_POCAO_FALHOU
-		end
-		return coletado
-	end
-	
-	local function chaoProximo(pos)
-		local params = RaycastParams.new()
-		params.FilterType = Enum.RaycastFilterType.Exclude
-		params.FilterDescendantsInstances = pocoesIgnorados()
-		params.IgnoreWater = true
-	
-		local resultado = workspace:Raycast(
-			pos + Vector3.new(0, 32, 0),
-			Vector3.new(0, -90, 0),
-			params
-		)
-		if resultado then return resultado.Position + Vector3.new(0, ALTURA_PONTO, 0) end
-		return pos + Vector3.new(0, ALTURA_PONTO, 0)
-	end
-	
-	local function embaralhar(lista)
-		for i = #lista, 2, -1 do
-			local j = random:NextInteger(1, i)
-			lista[i], lista[j] = lista[j], lista[i]
-		end
-	end
-	
-	-- ------------------------------------------------------------------
-	-- Exploracao do mapa em partes (grid) para ampliar a busca
-	-- ------------------------------------------------------------------
-	local function limitesMapa()
-		local mapa = workspace:FindFirstChild("Map")
-		if mapa and mapa:IsA("Model") then
-			local cf, size = mapa:GetBoundingBox()
-			if size.X > 0 and size.Z > 0 then
-				return cf.Position - size / 2, cf.Position + size / 2
-			end
-		end
-	
-		local minX, maxX, minZ, maxZ = math.huge, -math.huge, math.huge, -math.huge
-		for _, p in ipairs(pontos) do
-			minX = math.min(minX, p.X)
-			maxX = math.max(maxX, p.X)
-			minZ = math.min(minZ, p.Z)
-			maxZ = math.max(maxZ, p.Z)
-		end
-		return Vector3.new(minX, 0, minZ), Vector3.new(maxX, 0, maxZ)
-	end
-	
-	local function construirGrid()
-		gridPoints = {}
-		gridIndex = 1
-	
-		local min, max = limitesMapa()
-		local z = min.Z + MAP_STEP / 2
-		while z <= max.Z do
-			local x = min.X + MAP_STEP / 2
-			while x <= max.X do
-				table.insert(gridPoints, Vector3.new(x, 0, z))
-				x = x + MAP_STEP
-			end
-			z = z + MAP_STEP
-		end
-	
-		embaralhar(gridPoints)
-	end
-	
-	local function teleportarGrid()
-		local char, root = personagem()
-		if not char then return false end
-	
-		if #gridPoints == 0 then construirGrid() end
-		if gridIndex > #gridPoints then gridIndex = 1 end
-	
-		local ponto = gridPoints[gridIndex]
-		gridIndex = gridIndex + 1
-	
-		local params = RaycastParams.new()
-		params.FilterType = Enum.RaycastFilterType.Exclude
-		params.FilterDescendantsInstances = pocoesIgnorados()
-		params.IgnoreWater = false
-	
-		local hit = workspace:Raycast(
-			ponto + Vector3.new(0, MAP_RAY_UP, 0),
-			Vector3.new(0, -MAP_RAY_DOWN, 0),
-			params
-		)
-	
-		local destino
-		if hit and hit.Normal.Y > 0.4 and hit.Material ~= Enum.Material.Water then
-			destino = hit.Position + Vector3.new(0, ALTURA_PONTO, 0)
-		else
-			destino = ponto + Vector3.new(0, 40, 0)
-		end
-	
-		teleportar(destino)
-		return true
-	end
-	
-	-- Pocoes visiveis tem prioridade sobre a rota de exploracao.
-	local function tentarPocoesDisponiveis()
-		local pocoes = varrerPocoes()
-		if #pocoes == 0 then return false end
-	
-		local _, root = personagem()
-		if not root then return false end
-	
-		table.sort(pocoes, function(a, b)
-			return (a.pos - root.Position).Magnitude < (b.pos - root.Position).Magnitude
 		end)
-	
-		for _, info in ipairs(pocoes) do
-			if not ativo or not vivo then return true end
-			local pasta = pastaPotion()
-			if pasta and info.obj.Parent and info.obj:IsDescendantOf(pasta) then
-				coletar(info)
-			end
-		end
-		return true
+		scanning=false
+		app.Scanning=false
+		if not ok then display("Falha ao buscar: "..tostring(err):sub(1,90)) end
 	end
-	
-	local function rodada()
-		if rodando then return end
-		rodando = true
-		task.spawn(function()
-			local visitasGrid = 0
-	
-			while vivo and ativo do
-				if tentarPocoesDisponiveis() then
-					task.wait(0.08)
-				else
-					-- Sem pocoes carregadas: alterna entre pontos conhecidos e o grid.
-					local rota = table.clone(pontos)
-					embaralhar(rota)
-	
-					for _, ponto in ipairs(rota) do
-						if not vivo or not ativo then break end
-						if #varrerPocoes() > 0 then break end
-	
-						if visitasGrid >= GRID_VISITS_BEFORE_SPAWN then
-							visitasGrid = 0
-							teleportarGrid()
-							task.wait(ESPERA_CARREGAR)
-							if #varrerPocoes() > 0 then break end
-							-- Varre os arredores do ponto do grid.
-							local angulo = random:NextNumber() * math.pi * 2
-							teleportar(chaoProximo(ponto + Vector3.new(
-								math.cos(angulo) * RAIO_ANALISE_EXTRA,
-								0,
-								math.sin(angulo) * RAIO_ANALISE_EXTRA
-								)))
-							task.wait(ESPERA_CARREGAR)
-							if #varrerPocoes() > 0 then break end
-						else
-							visitasGrid = visitasGrid + 1
-							teleportar(chaoProximo(ponto))
-							task.wait(ESPERA_CARREGAR)
-							if #varrerPocoes() > 0 then break end
-	
-							-- Explora arredores alternados para cobrir mais regioes.
-							for visita = 1, VISITAS_EXTRAS_POR_PONTO do
-								if not vivo or not ativo then break end
-								local angulo = random:NextNumber() * math.pi * 2
-								local deslocamento = Vector3.new(
-									math.cos(angulo) * RAIO_ANALISE_EXTRA,
-									0,
-									math.sin(angulo) * RAIO_ANALISE_EXTRA
-								)
-								teleportar(chaoProximo(ponto + deslocamento))
-								task.wait(ESPERA_CARREGAR)
-								if #varrerPocoes() > 0 then break end
-							end
-						end
-	
-						task.wait(ESPERA_PONTO)
+	local function character()
+		local c=player.Character
+		if not c then return end
+		local h=c:FindFirstChildOfClass("Humanoid");local r=c:FindFirstChild("HumanoidRootPart")
+		if h and r and h.Health>0 then return c,h,r end
+	end
+	local function running(token,c,h)return app.Alive and app.Enabled and app.Token==token and player.Character==c and h.Health>0 end
+	local function pause(seconds,token,c,h)
+		local untilTime=os.clock()+seconds
+		repeat if not running(token,c,h) then return false end;task.wait(.05) until os.clock()>=untilTime
+		return running(token,c,h)
+	end
+	local function stopHold()
+		local p=currentHold;currentHold=nil
+		if p then pcall(p.InputHoldEnd,p) end
+	end
+	local function closest(root)
+		local best,dist,count=nil,math.huge,0
+		local inspected=0
+		for prompt in pairs(prompts) do
+			if not live(prompt) then prompts[prompt]=nil
+			elseif prompt.Enabled then
+				local object=classify(prompt)
+				local pos=object and position(prompt)
+				if pos then
+					count+=1
+					if (cooldown[prompt] or 0)<=os.clock() and prompt.HoldDuration<=Config.MaxHold and prompt.MaxActivationDistance>0 then
+						local d=(root.Position-pos).Magnitude
+						local last=app.LastPrompt
+						-- Prefere qualquer outro bloco antes de repetir o anterior.
+						if last==prompt then d+=1000000 end
+						if d<dist then best={Prompt=prompt,Object=object,Position=pos};dist=d end
 					end
 				end
 			end
-			rodando = false
+			inspected+=1
+			if inspected%128==0 then task.wait() end
+		end
+		app.Candidates=count;return best
+	end
+	local function destination(c,h,r,data)
+		local p=data.Position
+		local difference=Vector3.new(r.Position.X-p.X,0,r.Position.Z-p.Z)
+		local direction=difference.Magnitude>.1 and difference.Unit or Vector3.new(1,0,0)
+		local radius=math.clamp(data.Prompt.MaxActivationDistance*.35,.2,2.5)
+		local offset=p+direction*radius
+		local params=RaycastParams.new();params.FilterType=Enum.RaycastFilterType.Exclude
+		params.FilterDescendantsInstances={c,data.Object};params.RespectCanCollide=true
+		local hit=workspace:Raycast(offset+Vector3.new(0,8,0),Vector3.new(0,-24,0),params)
+		if hit then
+			local height=h.HipHeight+r.Size.Y/2
+			local leg=c:FindFirstChild("Left Leg")
+			if h.RigType==Enum.HumanoidRigType.R6 and leg then height+=leg.Size.Y end
+			local grounded=Vector3.new(offset.X,hit.Position.Y+height+.1,offset.Z)
+			if (grounded-p).Magnitude<data.Prompt.MaxActivationDistance*.9 then return grounded end
+		end
+		return offset
+	end
+	local function attempt(data,token,c,h,r)
+		local p=data.Prompt
+		app.Target=data.Object.Name
+		app.LastPrompt=p
+		local record={path=p:GetFullName(),at=os.clock(),triggered=false,changed=false}
+		app.History[#app.History+1]=record;if #app.History>30 then table.remove(app.History,1) end
+		cooldown[p]=os.clock()+Config.RetryDelay
+		local triggered=false
+		local signal=p.Triggered:Connect(function(who)if who==nil or who==player then triggered=true end end)
+		heldConnection=signal
+		local ok,err=xpcall(function()
+			if not running(token,c,h) or not live(p) or not p.Enabled then return end
+			display("Indo para "..data.Object.Name)
+			h:Move(Vector3.zero);h:MoveTo(r.Position)
+			r.AssemblyLinearVelocity=Vector3.zero;r.AssemblyAngularVelocity=Vector3.zero
+			local to=destination(c,h,r,data)
+			local look=Vector3.new(data.Position.X,to.Y,data.Position.Z)
+			r.CFrame=(look-to).Magnitude>.01 and CFrame.lookAt(to,look) or CFrame.new(to)
+			if not pause(Config.Settle,token,c,h) or not live(p) or not p.Enabled then return end
+			local pos=position(p)
+			if not pos or (r.Position-pos).Magnitude>p.MaxActivationDistance then
+				display("Posi��o fora do alcance ou corrigida pelo servidor");record.reason="out_of_range";return
+			end
+			if p.RequiresLineOfSight then
+				local ray=RaycastParams.new();ray.FilterType=Enum.RaycastFilterType.Exclude;ray.FilterDescendantsInstances={c}
+				local hit=workspace:Raycast(r.Position,pos-r.Position,ray)
+				if hit and hit.Instance~=data.Object and not hit.Instance:IsDescendantOf(data.Object) then
+					display("Obst�culo entre personagem e bloco");record.reason="obstructed";return
+				end
+			end
+			app.Attempts+=1;display("Coletando "..data.Object.Name)
+			-- Hold normal primeiro, sem movimento que cancele a intera��o.
+			currentHold=p;p:InputHoldBegin()
+			local endHold=os.clock()+math.max(.12,p.HoldDuration+.25)
+			local done=true
+			repeat
+				if not running(token,c,h) then done=false;break end
+				if not live(p) or not p.Enabled or triggered then break end
+				task.wait(.05)
+			until os.clock()>=endHold
+			stopHold()
+			if not done then return end
+			if live(p) and p.Enabled and not triggered and type(fireproximityprompt)=="function" then
+				-- Apenas o prompt observado; sem chamadas remotas adivinhadas.
+				pcall(fireproximityprompt,p)
+			end
+			local limit=os.clock()+Config.Confirm
+			repeat
+				if not running(token,c,h) then return end
+				if not live(p) or not p.Enabled or not data.Object:IsDescendantOf(workspace) then record.changed=true;break end
+				task.wait(.1)
+			until os.clock()>=limit
+			record.triggered=triggered
+			if triggered then app.Triggered+=1 end
+			if record.changed then app.Disappeared+=1;cooldown[p]=os.clock()+30;display("Bloco removido/desativado ap�s intera��o")
+			elseif triggered then display("Prompt acionado � recompensa ainda n�o confirmada")
+			else display("Coleta n�o confirmada � passando ao pr�ximo alvo") end
+		end,debug.traceback)
+		cooldown[p]=os.clock()+Config.RetryDelay
+		clearAttempt()
+		if not ok then record.error=tostring(err);display("Falha tratada � tentando pr�ximo alvo");warn("[Frostzn Lucky] "..tostring(err)) end
+	end
+	function app.SetEnabled(enabled)
+		app.Enabled=enabled==true;app.Token+=1;stopHold()
+		if not app.Enabled then local _,h,r=character();if h then h:Move(Vector3.zero);h:MoveTo(r.Position) end end
+		display(app.Enabled and "Buscando Lucky Blocks..." or "Desligado")
+	end
+	function app.Report()
+		local list={}
+		for p in pairs(prompts) do if live(p) and classify(p) and #list<25 then
+				list[#list+1]={path=p:GetFullName(),enabled=p.Enabled,action=p.ActionText,object=p.ObjectText,hold=p.HoldDuration,range=p.MaxActivationDistance}
+			end end
+		return {version=app.Version,ready=app.Alive,enabled=app.Enabled,status=app.Status,placeId=game.PlaceId,attempts=app.Attempts,triggered=app.Triggered,changed=app.Disappeared,prompts=list,history=app.History,cycles=app.Cycles,errors=app.Errors,target=app.Target,scanning=app.Scanning,lastError=app.LastError}
+	end
+	function app.Shutdown()
+		if not app.Alive then return end
+		choosingKey=false
+		if hotkey and shortcutMap[hotkey.Name]==OWNER then shortcutMap[hotkey.Name]=nil end
+		hotkey=nil
+		app.SetEnabled(false);app.Alive=false;clearAttempt()
+		for _,c in ipairs(app.Connections) do c:Disconnect() end;table.clear(app.Connections)
+		if gui then gui:Destroy() end
+		if scope.FrostznLucky==app then scope.FrostznLucky=nil end
+	end
+	local function create(class,properties,parent)
+		local o=Instance.new(class);for k,v in pairs(properties)do o[k]=v end;o.Parent=parent;return o
+	end
+	local function findLuckButton()
+		local scriptObject=script
+		if scriptObject and scriptObject.Parent and scriptObject.Parent:IsA("GuiButton") then
+			return scriptObject.Parent
+		end
+		for _,obj in ipairs(playerGui:GetDescendants()) do
+			if obj.Name=="LuckButton" and obj:IsA("GuiButton") then return obj end
+		end
+	end
+	button=findLuckButton()
+	if button then
+		originalButtonColor=button.BackgroundColor3
+		keyControl=button:FindFirstChild("keybutton",true)
+			or button:FindFirstChild("keybuton",true)
+			or button:FindFirstChild("atalhoButton",true)
+			or button:FindFirstChild("key",true)
+			or button:FindFirstChild("tecla",true)
+		keyTarget=keyControl
+		if keyControl and not (keyControl:IsA("TextBox") or keyControl:IsA("TextButton") or keyControl:IsA("TextLabel")) then
+			keyTarget=keyControl:FindFirstChildWhichIsA("TextBox",true)
+				or keyControl:FindFirstChildWhichIsA("TextButton",true)
+				or keyControl:FindFirstChildWhichIsA("TextLabel",true)
+		end
+	else
+		warn("[Frostzn Lucky] LuckButton nao encontrado no PlayerGui.")
+	end
+	
+	local function displayKeyName(keyCode)
+		return digitKeys[keyCode.Name] or keyCode.Name
+	end
+	local function validKey(keyCode)
+		if not keyCode or keyCode==Enum.KeyCode.Unknown then return false end
+		local name=keyCode.Name
+		return (#name==1 and name:match("^[A-Z0-9]$")~=nil) or digitKeys[name]~=nil
+	end
+	local function parseKey(text)
+		local name=string.upper((text or ""):match("^%s*(.-)%s*$"))
+		if #name==1 then
+			if name:match("^%d$") then
+				local digitNames={"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"}
+				return Enum.KeyCode[digitNames[tonumber(name)+1]]
+			end
+			if name:match("^[A-Z]$") then return Enum.KeyCode[name] end
+		end
+		local digitNames={ ["0"]="Zero",["1"]="One",["2"]="Two",["3"]="Three",["4"]="Four",["5"]="Five",["6"]="Six",["7"]="Seven",["8"]="Eight",["9"]="Nine" }
+		local enumName=digitNames[name] or name
+		local ok,keyCode=pcall(function() return Enum.KeyCode[enumName] end)
+		if ok and validKey(keyCode) then return keyCode end
+		return nil
+	end
+	local function updateKeyText()
+		if keyTarget and keyTarget.Parent then keyTarget.Text=hotkey and displayKeyName(hotkey) or "-" end
+	end
+	local function showKeyUsed()
+		if not keyTarget or not keyTarget.Parent then return end
+		noticeNumber+=1
+		local notice=noticeNumber
+		keyTarget.Text="USADA"
+		task.delay(1.2,function()
+			if notice==noticeNumber and keyTarget and keyTarget.Parent then updateKeyText() end
 		end)
 	end
-	
-	local function atualizarVisual()
-		if not botao.Parent then return end
-		botao.BackgroundColor3 = ativo and COR_ATIVA or corOriginal
-	end
-	
-	local function alternar()
-		if not vivo then return end
-		ativo = not ativo
-		atualizarVisual()
-		if ativo then
-			conectarPasta()
-			construirGrid()
-			rodada()
+	local function setHotkey(keyCode)
+		if not validKey(keyCode) then return false end
+		local keyName=keyCode.Name
+		local owner=shortcutMap[keyName]
+		if owner and owner~=OWNER then
+			choosingKey=false
+			showKeyUsed()
+			return false
 		end
+		if hotkey and shortcutMap[hotkey.Name]==OWNER then shortcutMap[hotkey.Name]=nil end
+		hotkey=keyCode
+		shortcutMap[keyName]=OWNER
+		choosingKey=false
+		noticeNumber+=1
+		updateKeyText()
+		if keyTarget and keyTarget:IsA("TextBox") and keyTarget:IsFocused() then keyTarget:ReleaseFocus() end
+		return true
+	end
+	local function startChoosingKey()
+		if not keyTarget or not keyTarget.Parent then return end
+		choosingKey=true
+		keyTarget.Text="..."
 	end
 	
-	-- ------------------------------------------------------------------
-	-- Atalho exatamente no estilo do sistema HPX Bones
-	-- ------------------------------------------------------------------
-	local keyButton = botao:FindFirstChild("keybutton", true)
-		or botao:FindFirstChild("keybuton", true)
-		or botao:FindFirstChild("key", true)
-		or botao:FindFirstChild("tecla", true)
-	
-	-- Se o keybutton for um Frame, procura o campo dentro dele.
-	if keyButton and not (keyButton:IsA("TextBox") or keyButton:IsA("TextButton")) then
-		keyButton = keyButton:FindFirstChildWhichIsA("TextBox", true)
-			or keyButton:FindFirstChildWhichIsA("TextButton", true)
+	gui=create("ScreenGui",{Name="FrostznLucky",ResetOnSpawn=false,DisplayOrder=1400000,ZIndexBehavior=Enum.ZIndexBehavior.Sibling},playerGui)
+	local control=create("BindableFunction",{Name="Control"},gui)
+	control.OnInvoke=function(command,value)
+		if command=="report" then return app.Report()
+		elseif command=="enabled" then app.SetEnabled(value);return app.Enabled
+		elseif command=="scan" then app.Scan();return true
+		elseif command=="shutdown" then app.Shutdown();return true end
 	end
-	
-	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
-	local TECLA_ATIVAR = nil
-	local numeros = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"}
-	local atualizandoTextoTecla = false
-	local avisoSequencia = 0
-	local capturando = false
-	
-	local function nomeVisivel(keyCode)
-		if not keyCode then return nil end
-		for i, nome in ipairs(numeros) do
-			if keyCode.Name == nome then return tostring(i - 1) end
+	if button then
+		connect(button.Activated,function()
+			if not choosingKey then app.SetEnabled(not app.Enabled) end
+		end)
+		if keyControl and keyControl:IsA("GuiObject") then keyControl.Active=true end
+		if keyTarget and keyTarget:IsA("GuiObject") then keyTarget.Active=true end
+		local hooked={}
+		for _,controlObject in ipairs({keyControl,keyTarget}) do
+			if controlObject and not hooked[controlObject] then
+				hooked[controlObject]=true
+				connect(controlObject.InputBegan,function(input)
+					if input.UserInputType==Enum.UserInputType.MouseButton1 or input.UserInputType==Enum.UserInputType.Touch then
+						startChoosingKey()
+					end
+				end)
+			end
 		end
-		return keyCode.Name
-	end
-	
-	local function atualizarTextoTecla()
-		if not keyButton or not keyButton.Parent then return end
-		atualizandoTextoTecla = true
-		keyButton.Text = TECLA_ATIVAR and nomeVisivel(TECLA_ATIVAR) or "-"
-		atualizandoTextoTecla = false
-	end
-	
-	local function obterTecla(texto)
-		local nome = string.upper((texto or ""):sub(1, 1))
-		if #nome ~= 1 then return nil end
-		local codigo = string.byte(nome)
-		if not codigo or not ((codigo >= 48 and codigo <= 57) or (codigo >= 65 and codigo <= 90)) then
-			return nil
+		if not keyTarget then warn("[Frostzn Lucky] Campo keybutton nao encontrado no LuckButton.") end
+		if keyTarget and keyTarget.Text then
+			local initialKey=parseKey(keyTarget.Text)
+			if initialKey then setHotkey(initialKey) else updateKeyText() end
 		end
-		if codigo >= 48 and codigo <= 57 then
-			return Enum.KeyCode[numeros[codigo - 47]]
-		end
-		return Enum.KeyCode[nome]
+		connect(button.Destroying,app.Shutdown)
+	else
+		connect(UserInput.InputBegan,function(input,processed)
+			if not processed and input.KeyCode==Enum.KeyCode.F6 and not UserInput:GetFocusedTextBox() then
+				app.SetEnabled(not app.Enabled)
+			end
+		end)
 	end
-	
-	-- Compatibilidade com registros por tabela ou Folder de StringValues.
-	local function donoDaTecla(nome)
-		local reg = _G.HPX_Atalhos
-		if typeof(reg) == "Instance" then
-			local v = reg:FindFirstChild(nome)
-			return v and v:IsA("StringValue") and v.Value or nil
+	connect(UserInput.InputBegan,function(input,gameProcessed)
+		if input.UserInputType~=Enum.UserInputType.Keyboard then return end
+		if choosingKey then
+			if input.KeyCode==Enum.KeyCode.Escape then
+				choosingKey=false
+				updateKeyText()
+				return
+			end
+			setHotkey(input.KeyCode)
+			return
 		end
-		if type(reg) == "table" then
-			local v = reg[nome]
-			return typeof(v) == "Instance" and v:IsA("StringValue") and v.Value or v
+		if gameProcessed or UserInput:GetFocusedTextBox() then return end
+		if hotkey and input.KeyCode==hotkey and shortcutMap[hotkey.Name]==OWNER then
+			app.SetEnabled(not app.Enabled)
 		end
-	end
-	
-	local function gravarDono(nome, dono)
-		local reg = _G.HPX_Atalhos
-		if typeof(reg) == "Instance" then
-			local v = reg:FindFirstChild(nome)
-			if dono then
-				if not v then
-					v = Instance.new("StringValue")
-					v.Name = nome
-					v.Parent = reg
+	end)
+	local scriptObject=script
+	if scriptObject then connect(scriptObject.Destroying,app.Shutdown) end
+	connect(workspace.DescendantAdded,register)
+	connect(workspace.DescendantRemoving,function(obj)prompts[obj]=nil end)
+	connect(player.CharacterRemoving,function()app.Token+=1;stopHold();if app.Enabled then display("Aguardando respawn...")end end)
+	function app.Show()return app.Alive end
+	display("Desligado")
+	scanTask=task.spawn(function()
+		while app.Alive do app.Scan();local untilTime=os.clock()+Config.ScanInterval;repeat task.wait(.25)until not app.Alive or os.clock()>=untilTime end
+	end)
+	worker=task.spawn(function()
+		while app.Alive do
+			app.Cycles+=1
+			local ok,err=xpcall(function()
+				if app.Enabled then
+					local c,h,r=character()
+					if c then
+						local token=app.Token
+						local ok,data=pcall(closest,r)
+						if ok and data and running(token,c,h) then attempt(data,token,c,h,r)
+						elseif ok then display(app.Candidates>0 and "Aguardando nova tentativa..." or "Sem Lucky Blocks com prompt carregados")
+						else display("Falha na busca � recuperando");warn(data) end
+					else display("Aguardando personagem...") end
 				end
-				if v:IsA("StringValue") then v.Value = dono end
-			elseif v and v:IsA("StringValue") and v.Value == IDENTIFICADOR then
-				v:Destroy()
+			end,debug.traceback)
+			if not ok then
+				clearAttempt();app.Errors+=1;app.LastError=tostring(err)
+				display("Alvo mudou � continuando a busca");warn("[Frostzn Lucky] "..tostring(err))
 			end
-		elseif type(reg) == "table" then
-			if dono or reg[nome] == IDENTIFICADOR then reg[nome] = dono end
+			task.wait(Config.Interval)
 		end
-	end
-	
-	local function definirTecla(keyCode)
-		if not keyCode or keyCode == Enum.KeyCode.Unknown then return end
-		local nome = nomeVisivel(keyCode)
-		local dono = donoDaTecla(nome) or donoDaTecla(keyCode.Name)
-		if dono and dono ~= "" and dono ~= IDENTIFICADOR then
-			avisoSequencia = avisoSequencia + 1
-			local seq = avisoSequencia
-			if keyButton then
-				atualizandoTextoTecla = true
-				keyButton.Text = "USADA"
-				atualizandoTextoTecla = false
-			end
-			task.delay(1.2, function()
-				if vivo and seq == avisoSequencia then atualizarTextoTecla() end
-			end)
-			return
-		end
-		avisoSequencia = avisoSequencia + 1
-		if TECLA_ATIVAR then
-			local antiga = nomeVisivel(TECLA_ATIVAR)
-			gravarDono(antiga, nil)
-			if antiga ~= TECLA_ATIVAR.Name then gravarDono(TECLA_ATIVAR.Name, nil) end
-		end
-		TECLA_ATIVAR = keyCode
-		gravarDono(nome, IDENTIFICADOR)
-		atualizarTextoTecla()
-		if keyButton and keyButton:IsA("TextBox") and keyButton:IsFocused() then
-			keyButton:ReleaseFocus()
-		end
-	end
-	
-	if keyButton and keyButton:IsA("TextBox") then
-		keyButton.TextEditable = true
-		keyButton.ClearTextOnFocus = false
-		local inicial = obterTecla(keyButton.Text)
-		if inicial then definirTecla(inicial) end
-		table.insert(conexoes, keyButton:GetPropertyChangedSignal("Text"):Connect(function()
-			if atualizandoTextoTecla then return end
-			local primeiro = string.upper(keyButton.Text or ""):sub(1, 1)
-			local tecla = obterTecla(primeiro)
-			atualizandoTextoTecla = true
-			keyButton.Text = tecla and primeiro or ""
-			atualizandoTextoTecla = false
-			if tecla then definirTecla(tecla) end
-		end))
-		table.insert(conexoes, keyButton.FocusLost:Connect(atualizarTextoTecla))
-	elseif keyButton and keyButton:IsA("TextButton") then
-		local inicial = obterTecla(keyButton.Text)
-		if inicial then definirTecla(inicial) end
-		table.insert(conexoes, keyButton.Activated:Connect(function()
-			capturando = true
-			keyButton.Text = "..."
-		end))
-	end
-	
-	table.insert(conexoes, botao.Activated:Connect(function()
-		if capturando then return end
-		alternar()
-	end))
-	
-	table.insert(conexoes, UIS.InputBegan:Connect(function(input, processado)
-		if not vivo or input.UserInputType ~= Enum.UserInputType.Keyboard then return end
-		if capturando then
-			capturando = false
-			local tecla = obterTecla(nomeVisivel(input.KeyCode))
-			if tecla then definirTecla(tecla) else atualizarTextoTecla() end
-			return
-		end
-		if processado or UIS:GetFocusedTextBox() then return end
-		if TECLA_ATIVAR and input.KeyCode == TECLA_ATIVAR then alternar() end
-	end))
-	
-	_G.HPX_PotionRota_Parar = function()
-		vivo, ativo = false, false
-		if TECLA_ATIVAR then
-			local nome = nomeVisivel(TECLA_ATIVAR)
-			gravarDono(nome, nil)
-			if nome ~= TECLA_ATIVAR.Name then gravarDono(TECLA_ATIVAR.Name, nil) end
-		end
-		atualizarVisual()
-		if conexaoPasta then conexaoPasta:Disconnect() end
-		for _, c in ipairs(conexoes) do c:Disconnect() end
-	end
-	
-	table.insert(conexoes, botao.Destroying:Connect(function()
-		if vivo then _G.HPX_PotionRota_Parar() end
-	end))
-	
-	atualizarTextoTecla()
-	atualizarVisual()
-	conectarPasta()
+	end)
+	-- Nao inicia movimento automaticamente: use LuckButton ou a tecla configurada.
+	return app
 	
 end
-local function BCCJU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.LocalScript
+local function NTWFR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_stalker"]
@@ -25177,191 +24742,587 @@ local function BCCJU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
     end
 
 	local Players = game:GetService("Players")
+	local GroupService = game:GetService("GroupService")
+	
 	local localPlayer = Players.LocalPlayer
-	local stalkerFrame = script.Parent
-	local lista = stalkerFrame:WaitForChild("Lista")
+	local container = script.Parent
 	
-	-- Tenta pegar o modelo de Banner que j� existir na Lista, sen�o cria um novo
-	local bannerTemplate
-	if lista:FindFirstChild("Banner") then
-		bannerTemplate = lista:FindFirstChild("Banner")
-	else
-		bannerTemplate = Instance.new("TextButton")
-		bannerTemplate.Name = "Banner"
-		bannerTemplate.Size = UDim2.new(0, 150, 0, 50)
-		bannerTemplate.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
-		bannerTemplate.Text = ""
-		bannerTemplate.Parent = lista
+	local DEFAULT_CELL_PADDING = UDim2.new(0.01, 0, 0.03, 0)
+	local DEFAULT_CELL_SIZE = UDim2.new(0.476, 0, 0.3, 0)
+	local DEFAULT_COLOR = Color3.fromRGB(48, 58, 82)
+	local HOVER_COLOR = Color3.fromRGB(57, 68, 94)
+	local SELECTED_COLOR = Color3.fromRGB(28, 33, 45)
+	local DEFAULT_STROKE = Color3.fromRGB(61, 73, 99)
+	local SELECTED_STROKE = Color3.fromRGB(105, 133, 185)
+	local ADMIN_MIN_GROUP_RANK = 200
+	
+	-- IDs de administradores adicionais, se o jogo usar uma lista propria.
+	local ADMIN_USER_IDS = {
+		-- [123456789] = true,
+	}
+	
+	local function make(className, name, parent, properties)
+		local object = Instance.new(className)
+		object.Name = name
+		for property, value in pairs(properties or {}) do
+			object[property] = value
+		end
+		object.Parent = parent
+		return object
 	end
 	
-	-- Garante que o modelo tenha as labels "Apelido" e "Nome"
-	if not bannerTemplate:FindFirstChild("Apelido") then
-		local lbl = Instance.new("TextLabel")
-		lbl.Name = "Apelido"
-		lbl.Size = UDim2.new(1,0,0.5,0)
-		lbl.Position = UDim2.new(0,0,0,0)
-		lbl.BackgroundTransparency = 1
-		lbl.Font = Enum.Font.Gotham
-		lbl.TextSize = 14
-		lbl.Parent = bannerTemplate
+	-- Cria a lista automaticamente quando ela ainda nao existe.
+	local lista = container:FindFirstChild("Lista")
+	if not lista or not lista:IsA("GuiObject") then
+		if lista then
+			lista:Destroy()
+		end
+		lista = make("ScrollingFrame", "Lista", container, {
+			Position = UDim2.new(0, 0, 0, 0),
+			Size = UDim2.new(1, 0, 1, 0),
+		})
 	end
 	
-	if not bannerTemplate:FindFirstChild("Nome") then
-		local lbl = Instance.new("TextLabel")
-		lbl.Name = "Nome"
-		lbl.Size = UDim2.new(1,0,0.5,0)
-		lbl.Position = UDim2.new(0,0,0.5,0)
-		lbl.BackgroundTransparency = 1
-		lbl.Font = Enum.Font.Gotham
-		lbl.TextSize = 14
-		lbl.Parent = bannerTemplate
+	lista.BackgroundTransparency = 1
+	lista.BorderSizePixel = 0
+	lista.Active = true
+	local listPadding = lista:FindFirstChildOfClass("UIPadding")
+	if not listPadding then
+		listPadding = make("UIPadding", "ListPadding", lista)
+	end
+	listPadding.PaddingTop = UDim.new(0, 10)
+	listPadding.PaddingBottom = UDim.new(0, 10)
+	listPadding.PaddingLeft = UDim.new(0, 10)
+	listPadding.PaddingRight = UDim.new(0, 0)
+	if lista:IsA("ScrollingFrame") then
+		lista.ScrollingEnabled = true
+		lista.ScrollingDirection = Enum.ScrollingDirection.Y
+		lista.ScrollBarThickness = 5
+		lista.ScrollBarImageColor3 = Color3.fromRGB(105, 120, 151)
+		lista.ScrollBarImageTransparency = 0.25
+		lista.CanvasSize = UDim2.new(0, 0, 0, 0)
+		lista.AutomaticCanvasSize = Enum.AutomaticSize.Y
 	end
 	
-	-- Vari�vel para rastrear o banner atualmente selecionado
-	local selectedBanner = nil
+	-- Preserve and use the real Banner template as the visual and size reference.
+	local templateStorage = container:FindFirstChild("PlayerTemplateStorage")
+	if not templateStorage or not templateStorage:IsA("Folder") then
+		templateStorage = make("Folder", "PlayerTemplateStorage", container)
+	end
 	
-	local function toggleSelecao(item)
-		-- Se o item j� estiver selecionado, desselecionar
-		if selectedBanner == item then
-			item.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
-			selectedBanner = nil
+	local bannerTemplate = lista:FindFirstChild("Banner") or templateStorage:FindFirstChild("Banner")
+	if bannerTemplate and not bannerTemplate:IsA("GuiButton") then
+		bannerTemplate.Parent = templateStorage
+		bannerTemplate = nil
+	end
+	if not bannerTemplate then
+		bannerTemplate = make("TextButton", "Banner", templateStorage, {
+			Size = UDim2.fromOffset(201, 51),
+			BackgroundColor3 = DEFAULT_COLOR,
+			BorderSizePixel = 0,
+			AutoButtonColor = false,
+			Text = "",
+		})
+	end
+	
+	bannerTemplate.Visible = false
+	bannerTemplate.Parent = templateStorage
+	
+	local function ensureTemplatePart(name, className, properties)
+		local part = bannerTemplate:FindFirstChild(name, true)
+		if not part or not part:IsA(className) then
+			if part then
+				part:Destroy()
+			end
+			part = make(className, name, bannerTemplate, properties)
+		end
+		for property, value in pairs(properties) do
+			part[property] = value
+		end
+		return part
+	end
+	
+	local fotoTemplate = ensureTemplatePart("Foto", "ImageLabel", {
+		AnchorPoint = Vector2.new(0, 0.5),
+		Position = UDim2.new(0.035, 0, 0.5, 0),
+		Size = UDim2.new(0.18, 0, 0.74, 0),
+		BackgroundColor3 = Color3.fromRGB(35, 43, 61),
+		BorderSizePixel = 0,
+		Image = "",
+		ScaleType = Enum.ScaleType.Crop,
+	})
+	local fotoCorner = fotoTemplate:FindFirstChildOfClass("UICorner")
+	if not fotoCorner then
+		fotoCorner = make("UICorner", "PhotoCorner", fotoTemplate)
+	end
+	fotoCorner.CornerRadius = UDim.new(1, 0)
+	local photoAspect = fotoTemplate:FindFirstChildOfClass("UIAspectRatioConstraint")
+	if not photoAspect then
+		photoAspect = make("UIAspectRatioConstraint", "PhotoAspect", fotoTemplate)
+	end
+	photoAspect.AspectRatio = 1
+	pcall(function()
+		photoAspect.DominantAxis = Enum.DominantAxis.Height
+	end)
+	local photoStroke = fotoTemplate:FindFirstChildOfClass("UIStroke")
+	if not photoStroke then
+		photoStroke = make("UIStroke", "PhotoOutline", fotoTemplate)
+	end
+	photoStroke.Color = Color3.fromRGB(89, 105, 137)
+	photoStroke.Thickness = 1
+	photoStroke.Transparency = 0.2
+	
+	local apelidoTemplate = ensureTemplatePart("Apelido", "TextLabel", {
+		Position = UDim2.new(0.24, 0, 0.12, 0),
+		Size = UDim2.new(0.72, 0, 0.38, 0),
+		BackgroundTransparency = 1,
+		Font = Enum.Font.GothamSemibold,
+		Text = "DisplayName",
+		TextColor3 = Color3.fromRGB(244, 246, 250),
+		TextSize = 15,
+		TextScaled = true,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		TextYAlignment = Enum.TextYAlignment.Center,
+		TextTruncate = Enum.TextTruncate.AtEnd,
+	})
+	local nomeTemplate = ensureTemplatePart("Nome", "TextLabel", {
+		Position = UDim2.new(0.24, 0, 0.55, 0),
+		Size = UDim2.new(0.42, 0, 0.28, 0),
+		BackgroundTransparency = 1,
+		Font = Enum.Font.Gotham,
+		Text = "Username",
+		TextColor3 = Color3.fromRGB(169, 181, 203),
+		TextSize = 11,
+		TextScaled = true,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		TextYAlignment = Enum.TextYAlignment.Center,
+		TextTruncate = Enum.TextTruncate.AtEnd,
+	})
+	local cargoTemplate = ensureTemplatePart("Cargo", "TextLabel", {
+		AnchorPoint = Vector2.new(1, 0.5),
+		Position = UDim2.new(0.96, 0, 0.69, 0),
+		Size = UDim2.new(0.28, 0, 0.34, 0),
+		BackgroundColor3 = Color3.fromRGB(54, 64, 84),
+		BorderSizePixel = 0,
+		Font = Enum.Font.GothamBold,
+		Text = "Membro",
+		TextColor3 = Color3.fromRGB(203, 212, 228),
+		TextSize = 9,
+		TextScaled = true,
+		TextXAlignment = Enum.TextXAlignment.Center,
+		TextYAlignment = Enum.TextYAlignment.Center,
+		TextTruncate = Enum.TextTruncate.AtEnd,
+	})
+	local cargoCorner = cargoTemplate:FindFirstChildOfClass("UICorner")
+	if not cargoCorner then
+		cargoCorner = make("UICorner", "CargoCorner", cargoTemplate)
+	end
+	cargoCorner.CornerRadius = UDim.new(0, 6)
+	
+	local textSizeLimits = {
+		[apelidoTemplate] = { MinTextSize = 8, MaxTextSize = 15 },
+		[nomeTemplate] = { MinTextSize = 7, MaxTextSize = 11 },
+		[cargoTemplate] = { MinTextSize = 7, MaxTextSize = 10 },
+	}
+	for label, limits in pairs(textSizeLimits) do
+		local constraint = label:FindFirstChildOfClass("UITextSizeConstraint")
+		if not constraint then
+			constraint = make("UITextSizeConstraint", "TextSizeLimit", label)
+		end
+		constraint.MinTextSize = limits.MinTextSize
+		constraint.MaxTextSize = limits.MaxTextSize
+	end
+	
+	local templateCorner = bannerTemplate:FindFirstChildOfClass("UICorner")
+	if not templateCorner then
+		templateCorner = make("UICorner", "CardCorner", bannerTemplate)
+	end
+	templateCorner.CornerRadius = UDim.new(0, 10)
+	local templateStroke = bannerTemplate:FindFirstChildOfClass("UIStroke")
+	if not templateStroke then
+		templateStroke = make("UIStroke", "CardStroke", bannerTemplate)
+	end
+	templateStroke.Color = DEFAULT_STROKE
+	templateStroke.Thickness = 1
+	templateStroke.Transparency = 0.15
+	local templateMark = bannerTemplate:FindFirstChild("SelectedMark")
+	if not templateMark then
+		templateMark = make("Frame", "SelectedMark", bannerTemplate)
+	end
+	templateMark.Position = UDim2.new(0, 0, 0.15, 0)
+	templateMark.Size = UDim2.new(0, 3, 0.7, 0)
+	templateMark.BackgroundColor3 = SELECTED_STROKE
+	templateMark.BorderSizePixel = 0
+	templateMark.Visible = false
+	local templateMarkCorner = templateMark:FindFirstChildOfClass("UICorner")
+	if not templateMarkCorner then
+		templateMarkCorner = make("UICorner", "Corner", templateMark)
+	end
+	templateMarkCorner.CornerRadius = UDim.new(1, 0)
+	
+	local grid
+	for _, child in ipairs(lista:GetChildren()) do
+		if child:IsA("UIGridLayout") then
+			if grid then
+				child:Destroy()
+			else
+				grid = child
+			end
+		elseif child:IsA("UIListLayout") then
+			child:Destroy()
+		elseif child:IsA("GuiButton") and (
+			child.Name == "Banner"
+				or child:GetAttribute("PlayerCard")
+				or (child:FindFirstChild("Apelido") and child:FindFirstChild("Nome"))
+			) then
+			child:Destroy()
+		end
+	end
+	
+	if not grid then
+		grid = make("UIGridLayout", "PlayerGrid", lista)
+	end
+	grid.CellSize = DEFAULT_CELL_SIZE
+	grid.CellPadding = DEFAULT_CELL_PADDING
+	grid.FillDirection = Enum.FillDirection.Horizontal
+	grid.FillDirectionMaxCells = 2
+	grid.SortOrder = Enum.SortOrder.LayoutOrder
+	
+	local cmdsFolder = container:FindFirstChild("Cmds")
+	if not cmdsFolder then
+		cmdsFolder = make("Folder", "Cmds", container)
+	end
+	
+	local selectedValue = cmdsFolder:FindFirstChild("PlayerSelecionado")
+	if selectedValue and not selectedValue:IsA("StringValue") then
+		selectedValue:Destroy()
+		selectedValue = nil
+	end
+	if not selectedValue then
+		selectedValue = make("StringValue", "PlayerSelecionado", cmdsFolder, { Value = "" })
+	end
+	
+	local selectedPlayer = nil
+	local cardsByPlayer = {}
+	local roleByPlayer = {}
+	local connectionsByPlayer = {}
+	local running = true
+	local creatorGroupId = game.CreatorType == Enum.CreatorType.Group and game.CreatorId or nil
+	local creatorGroupOwnerId = nil
+	
+	local function setCardRole(badge, role)
+		if not badge or not badge.Parent then
+			return
+		end
+		badge.Text = role
+		if role == "Dono" then
+			badge.BackgroundColor3 = Color3.fromRGB(104, 79, 35)
+			badge.TextColor3 = Color3.fromRGB(255, 224, 150)
+		elseif role == "Admin" then
+			badge.BackgroundColor3 = Color3.fromRGB(91, 57, 48)
+			badge.TextColor3 = Color3.fromRGB(255, 190, 160)
+		else
+			badge.BackgroundColor3 = Color3.fromRGB(54, 64, 84)
+			badge.TextColor3 = Color3.fromRGB(203, 212, 228)
+		end
+	end
+	
+	local function sortPlayerCards()
+		local rolePriority = { Dono = 1, Admin = 2, Membro = 3 }
+		local entries = {}
+		for player, card in pairs(cardsByPlayer) do
+			table.insert(entries, {
+				Player = player,
+				Card = card,
+				Priority = rolePriority[roleByPlayer[player]] or 3,
+			})
+		end
+		table.sort(entries, function(a, b)
+			if a.Priority ~= b.Priority then
+				return a.Priority < b.Priority
+			end
+			local nameA = string.lower(a.Player.DisplayName .. a.Player.Name)
+			local nameB = string.lower(b.Player.DisplayName .. b.Player.Name)
+			if nameA ~= nameB then
+				return nameA < nameB
+			end
+			return a.Player.UserId < b.Player.UserId
+		end)
+		for index, entry in ipairs(entries) do
+			entry.Card.LayoutOrder = index
+		end
+	end
+	
+	local function updateRole(player, card)
+		if not running then
+			return
+		end
+		local badge = card and card:FindFirstChild("Cargo")
+		if not badge then
 			return
 		end
 	
-		-- Se houver um banner selecionado anteriormente, voltar � cor original
-		if selectedBanner then
-			selectedBanner.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
-		end
-	
-		-- Selecionar o novo banner
-		item.BackgroundColor3 = Color3.fromRGB(32, 32, 48)
-		selectedBanner = item
-	end
-	
-	local function criarItem(player)
-		local item = bannerTemplate:Clone()
-		item.Name = player.Name
-		item.Parent = lista
-		item.Visible = true
-		item.Text = ""
-		item.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
-	
-		local apelidoLabel = item:FindFirstChild("Apelido")
-		local nomeLabel = item:FindFirstChild("Nome")
-		local foto = item:FindFirstChild("Foto", true)
-	
-		if apelidoLabel then
-			apelidoLabel.Text = player.DisplayName
-		end
-	
-		if nomeLabel then
-			nomeLabel.Text = player.Name
-		end
-	
-		if foto and (foto:IsA("ImageLabel") or foto:IsA("ImageButton")) then
-			task.spawn(function()
-				local sucesso, imagem = pcall(function()
-					return Players:GetUserThumbnailAsync(
-						player.UserId,
-						Enum.ThumbnailType.HeadShot,
-						Enum.ThumbnailSize.Size150x150
-					)
+		task.spawn(function()
+			local groupRank = 0
+			local groupRoles = {}
+			if creatorGroupId then
+				local rolesOK, groupData = pcall(function()
+					return GroupService:GetRolesInGroupAsync(player.UserId, creatorGroupId)
 				end)
-	
-				if sucesso and foto.Parent then
-					foto.Image = imagem
+				if rolesOK and type(groupData) == "table" then
+					for _, role in ipairs(groupData.Roles or {}) do
+						local roleName = tostring(role.Name or "")
+						local roleRank = tonumber(role.Rank) or 0
+						table.insert(groupRoles, roleName)
+						groupRank = math.max(groupRank, roleRank)
+					end
 				end
-			end)
-		end
+			end
 	
-		-- Evento de clique no banner - toggle de sele��o
-		item.MouseButton1Click:Connect(function()
-			local cmdsFolder = script.Parent:FindFirstChild("Cmds")
-			local playerValue = cmdsFolder and cmdsFolder:FindFirstChild("PlayerSelecionado")
+			local customRole = tostring(player:GetAttribute("ExperienceRole") or player:GetAttribute("Role") or "")
+			local roleText = string.lower(table.concat(groupRoles, " ") .. " " .. customRole)
+			local isOwner = (game.CreatorType == Enum.CreatorType.User and player.UserId == game.CreatorId)
+				or (creatorGroupOwnerId ~= nil and player.UserId == creatorGroupOwnerId)
+				or (creatorGroupId ~= nil and groupRank >= 255)
+				or roleText:find("owner", 1, true) ~= nil
+				or roleText:find("dono", 1, true) ~= nil
 	
-			if selectedBanner == item then
-				toggleSelecao(item)
-				if playerValue then
-					playerValue.Value = ""
-				end
+			local hasAdminRole = roleText:find("admin", 1, true) ~= nil
+				or roleText:find("adm", 1, true) ~= nil
+				or roleText:find("moderator", 1, true) ~= nil
+				or roleText:find("moderador", 1, true) ~= nil
+			local isAdmin = ADMIN_USER_IDS[player.UserId] == true
+				or player:GetAttribute("Admin") == true
+				or player:GetAttribute("IsAdmin") == true
+				or hasAdminRole
+				or (creatorGroupId ~= nil and groupRank >= ADMIN_MIN_GROUP_RANK)
+	
+			if not running or cardsByPlayer[player] ~= card or not card.Parent then
 				return
 			end
-	
-			toggleSelecao(item)
-	
-			-- Criar/atualizar objeto PlayerSelecionado na pasta Cmds para os scripts acessarem
-			if not cmdsFolder then
-				cmdsFolder = Instance.new("Folder")
-				cmdsFolder.Name = "Cmds"
-				cmdsFolder.Parent = script.Parent
+			if isOwner then
+				roleByPlayer[player] = "Dono"
+				setCardRole(badge, "Dono")
+			elseif isAdmin then
+				roleByPlayer[player] = "Admin"
+				setCardRole(badge, "Admin")
+			else
+				roleByPlayer[player] = "Membro"
+				setCardRole(badge, "Membro")
 			end
+			sortPlayerCards()
+		end)
+	end
 	
-			local playerValue = cmdsFolder:FindFirstChild("PlayerSelecionado")
-			if not playerValue then
-				playerValue = Instance.new("StringValue")
-				playerValue.Name = "PlayerSelecionado"
-				playerValue.Parent = cmdsFolder
+	local function applySelection(player)
+		if selectedPlayer and cardsByPlayer[selectedPlayer] then
+			local oldCard = cardsByPlayer[selectedPlayer]
+			oldCard.BackgroundColor3 = DEFAULT_COLOR
+			local oldStroke = oldCard:FindFirstChildOfClass("UIStroke")
+			if oldStroke then
+				oldStroke.Color = DEFAULT_STROKE
 			end
-			playerValue.Value = player.Name
+			local oldMark = oldCard:FindFirstChild("SelectedMark")
+			if oldMark then
+				oldMark.Visible = false
+			end
+		end
 	
-			-- Notificar scripts da pasta Cmds sobre o player selecionado
-			if cmdsFolder then
-				for _, script in ipairs(cmdsFolder:GetChildren()) do
-					if script:IsA("Script") then
-						local ok, err = pcall(function()
-							if script.Click then
-								script.Click(player)
-							end
-						end)
-						if not ok then
-							warn("Erro no script " .. script.Name .. ": " .. err)
-						end
-					end
+		selectedPlayer = player
+		if selectedPlayer and cardsByPlayer[selectedPlayer] then
+			local newCard = cardsByPlayer[selectedPlayer]
+			newCard.BackgroundColor3 = SELECTED_COLOR
+			local newStroke = newCard:FindFirstChildOfClass("UIStroke")
+			if newStroke then
+				newStroke.Color = SELECTED_STROKE
+			end
+			local newMark = newCard:FindFirstChild("SelectedMark")
+			if newMark then
+				newMark.Visible = true
+			end
+			selectedValue.Value = selectedPlayer.Name
+		else
+			selectedPlayer = nil
+			selectedValue.Value = ""
+		end
+	end
+	
+	local function addConnection(player, connection)
+		connectionsByPlayer[player] = connectionsByPlayer[player] or {}
+		table.insert(connectionsByPlayer[player], connection)
+	end
+	
+	local function createPlayerCard(player)
+		if not running or cardsByPlayer[player] then
+			return
+		end
+	
+		local card = bannerTemplate:Clone()
+		card.Name = player.Name
+		card.BackgroundColor3 = DEFAULT_COLOR
+		card.BorderSizePixel = 0
+		card.AutoButtonColor = false
+		if card:IsA("TextButton") then
+			card.Text = ""
+		end
+		card.Visible = true
+		card.LayoutOrder = player.UserId
+		card.ClipsDescendants = true
+		card:SetAttribute("PlayerCard", true)
+		card:SetAttribute("PlayerUserId", player.UserId)
+		local foto = card:FindFirstChild("Foto", true)
+		local apelido = card:FindFirstChild("Apelido", true)
+		local nome = card:FindFirstChild("Nome", true)
+		local badge = card:FindFirstChild("Cargo", true)
+		local stroke = card:FindFirstChildOfClass("UIStroke")
+		if not stroke then
+			stroke = make("UIStroke", "CardStroke", card, {
+				Color = DEFAULT_STROKE,
+				Thickness = 1,
+				Transparency = 0.15,
+			})
+		end
+		local selectedMark = card:FindFirstChild("SelectedMark")
+		if not selectedMark then
+			selectedMark = make("Frame", "SelectedMark", card, {
+				Position = UDim2.new(0, 0, 0.15, 0),
+				Size = UDim2.new(0, 3, 0.7, 0),
+				BackgroundColor3 = SELECTED_STROKE,
+				BorderSizePixel = 0,
+				Visible = false,
+			})
+			make("UICorner", "Corner", selectedMark, { CornerRadius = UDim.new(1, 0) })
+		end
+		selectedMark.Visible = false
+		if apelido then apelido.Text = player.DisplayName end
+		if nome then nome.Text = player.Name end
+		if foto then foto.Image = "" end
+		setCardRole(badge, "Membro")
+		card.Parent = lista
+	
+		cardsByPlayer[player] = card
+		roleByPlayer[player] = "Membro"
+		sortPlayerCards()
+		addConnection(player, card.Activated:Connect(function()
+			if selectedPlayer == player then
+				applySelection(nil)
+			else
+				applySelection(player)
+			end
+		end))
+		card.MouseEnter:Connect(function()
+			if selectedPlayer ~= player then
+				card.BackgroundColor3 = HOVER_COLOR
+			end
+		end)
+		card.MouseLeave:Connect(function()
+			if selectedPlayer ~= player then
+				card.BackgroundColor3 = DEFAULT_COLOR
+			end
+		end)
+	
+		addConnection(player, player:GetPropertyChangedSignal("DisplayName"):Connect(function()
+			if apelido.Parent then
+				apelido.Text = player.DisplayName
+			end
+		end))
+		addConnection(player, player:GetPropertyChangedSignal("Name"):Connect(function()
+			if nome.Parent then
+				nome.Text = player.Name
+				card.Name = player.Name
+			end
+			if selectedPlayer == player then
+				selectedValue.Value = player.Name
+			end
+		end))
+		for _, attributeName in ipairs({ "Role", "ExperienceRole", "Admin", "IsAdmin" }) do
+			addConnection(player, player:GetAttributeChangedSignal(attributeName):Connect(function()
+				updateRole(player, card)
+			end))
+		end
+	
+		task.spawn(function()
+			if not running then
+				return
+			end
+			local success, image = pcall(function()
+				return Players:GetUserThumbnailAsync(
+					player.UserId,
+					Enum.ThumbnailType.HeadShot,
+					Enum.ThumbnailSize.Size150x150
+				)
+			end)
+			if success and foto.Parent and cardsByPlayer[player] == card then
+				foto.Image = image
+			end
+		end)
+	
+		updateRole(player, card)
+	end
+	
+	local function removePlayerCard(player)
+		if selectedPlayer == player then
+			applySelection(nil)
+		end
+		local connections = connectionsByPlayer[player]
+		if connections then
+			for _, connection in ipairs(connections) do
+				connection:Disconnect()
+			end
+			connectionsByPlayer[player] = nil
+		end
+		local card = cardsByPlayer[player]
+		cardsByPlayer[player] = nil
+		roleByPlayer[player] = nil
+		if card then
+			card:Destroy()
+		end
+		sortPlayerCards()
+	end
+	
+	local previousSelection = selectedValue.Value
+	for _, player in ipairs(Players:GetPlayers()) do
+		createPlayerCard(player)
+		if player.Name == previousSelection then
+			applySelection(player)
+		end
+	end
+	if previousSelection ~= "" and not selectedPlayer then
+		selectedValue.Value = ""
+	end
+	
+	local playerAddedConnection = Players.PlayerAdded:Connect(createPlayerCard)
+	local playerRemovingConnection = Players.PlayerRemoving:Connect(removePlayerCard)
+	
+	script.Destroying:Connect(function()
+		running = false
+		playerAddedConnection:Disconnect()
+		playerRemovingConnection:Disconnect()
+		local playersToRemove = {}
+		for player in pairs(cardsByPlayer) do
+			table.insert(playersToRemove, player)
+		end
+		for _, player in ipairs(playersToRemove) do
+			removePlayerCard(player)
+		end
+	end)
+	
+	if creatorGroupId then
+		task.spawn(function()
+			local success, info = pcall(function()
+				return GroupService:GetGroupInfoAsync(creatorGroupId)
+			end)
+			if running and success and info and info.Owner then
+				creatorGroupOwnerId = tonumber(info.Owner.Id)
+				for player, card in pairs(cardsByPlayer) do
+					updateRole(player, card)
 				end
 			end
 		end)
 	end
 	
-	-- Cria itens para os jogadores, exceto o pr�prio player
-	for _, player in ipairs(Players:GetPlayers()) do
-		if player ~= localPlayer then
-			criarItem(player)
-		end
-	end
-	
-	-- Remove banner antigo do pr�prio player, se existir, e n�o cria mais para ele
-	for _, obj in ipairs(lista:GetChildren()) do
-		if obj:IsA("TextButton") and obj.Name == localPlayer.Name then
-			obj:Destroy()
-		end
-	end
-	
-	-- Cria item quando um jogador entrar
-	Players.PlayerAdded:Connect(function(player)
-		if player ~= localPlayer then
-			criarItem(player)
-		end
-	end)
-	
-	-- Remove item quando um jogador sair
-	Players.PlayerRemoving:Connect(function(player)
-		for _, obj in ipairs(lista:GetChildren()) do
-			if obj:IsA("TextButton") and obj.Name == player.Name then
-				obj:Destroy()
-			end
-		end
-	
-		if selectedBanner and selectedBanner.Name == player.Name then
-			selectedBanner = nil
-			local cmdsFolder = script.Parent:FindFirstChild("Cmds")
-			local playerValue = cmdsFolder and cmdsFolder:FindFirstChild("PlayerSelecionado")
-			if playerValue then
-				playerValue.Value = ""
-			end
-		end
-	end)
 end
-local function YKJAOW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.SeachBox.seach
+local function DODTH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.SeachBox.seach
     local script = Instance.new("LocalScript")
     script.Name = "seach"
     script.Parent = Converted["_SeachBox"]
@@ -25447,7 +25408,7 @@ local function YKJAOW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	end)
 	
 end
-local function FOVWD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.verButton.LocalScript
+local function QLAYZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.verButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_verButton"]
@@ -25587,7 +25548,7 @@ local function FOVWD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		end
 	end)
 end
-local function NYPCYI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.syncButton.LocalScript
+local function HYPWPMS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.syncButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_syncButton"]
@@ -25836,7 +25797,7 @@ local function NYPCYI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		end
 	end)
 end
-local function WISFW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.TpButton.LocalScript
+local function HHMKI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.TpButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TpButton"]
@@ -25904,7 +25865,7 @@ local function WISFW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	tpButton.MouseButton1Click:Connect(teleportar)
 end
-local function XEWMYT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.carinhoButton.LocalScript
+local function DCLY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.carinhoButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_carinhoButton"]
@@ -26342,77 +26303,59 @@ local function XEWMYT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	print("[HPX CARINHO] V2 carregado corretamente!")
 	
 end
-local function MTZJO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.OrbitaButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_OrbitaButton"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
 
-	
-end
-
-coroutine.wrap(PSXDRNU_fake_script)()
-coroutine.wrap(BWQAUCX_fake_script)()
-coroutine.wrap(GFJXBSX_fake_script)()
-coroutine.wrap(SFCB_fake_script)()
-coroutine.wrap(ZUKTWWT_fake_script)()
-coroutine.wrap(JSAVFY_fake_script)()
-coroutine.wrap(WKCESR_fake_script)()
-coroutine.wrap(QBNXHOG_fake_script)()
-coroutine.wrap(BBKRYCQ_fake_script)()
-coroutine.wrap(XWREHL_fake_script)()
-coroutine.wrap(PWTSNR_fake_script)()
-coroutine.wrap(GQNAJSH_fake_script)()
-coroutine.wrap(FYFY_fake_script)()
-coroutine.wrap(VYYQLZO_fake_script)()
-coroutine.wrap(RXHPU_fake_script)()
-coroutine.wrap(MAHAZOK_fake_script)()
-coroutine.wrap(GBMEEXH_fake_script)()
-coroutine.wrap(NSEDP_fake_script)()
-coroutine.wrap(BQXAEL_fake_script)()
-coroutine.wrap(XBWBB_fake_script)()
-coroutine.wrap(PLZG_fake_script)()
-coroutine.wrap(SBKXXJD_fake_script)()
-coroutine.wrap(TLDBA_fake_script)()
-coroutine.wrap(DTVAKI_fake_script)()
-coroutine.wrap(XVIGX_fake_script)()
-coroutine.wrap(HAJLF_fake_script)()
-coroutine.wrap(TJJXKOK_fake_script)()
-coroutine.wrap(JMGH_fake_script)()
-coroutine.wrap(OAGWNLU_fake_script)()
-coroutine.wrap(VYYH_fake_script)()
-coroutine.wrap(PEMBIDZ_fake_script)()
-coroutine.wrap(VZZVAC_fake_script)()
-coroutine.wrap(YBUBDFH_fake_script)()
-coroutine.wrap(XLAQLYV_fake_script)()
-coroutine.wrap(TSRKN_fake_script)()
-coroutine.wrap(HOQJGVV_fake_script)()
-coroutine.wrap(LFOT_fake_script)()
-coroutine.wrap(GTHMAVH_fake_script)()
-coroutine.wrap(FNEK_fake_script)()
-coroutine.wrap(BFYZRH_fake_script)()
-coroutine.wrap(VPVRD_fake_script)()
-coroutine.wrap(FTQJJ_fake_script)()
-coroutine.wrap(REOM_fake_script)()
-coroutine.wrap(QEVNREW_fake_script)()
-coroutine.wrap(GFEDK_fake_script)()
-coroutine.wrap(PVEUWO_fake_script)()
-coroutine.wrap(NNVS_fake_script)()
-coroutine.wrap(WNWHDV_fake_script)()
-coroutine.wrap(PBNX_fake_script)()
-coroutine.wrap(NZZT_fake_script)()
-coroutine.wrap(ZKQR_fake_script)()
-coroutine.wrap(BCCJU_fake_script)()
-coroutine.wrap(YKJAOW_fake_script)()
-coroutine.wrap(FOVWD_fake_script)()
-coroutine.wrap(NYPCYI_fake_script)()
-coroutine.wrap(WISFW_fake_script)()
-coroutine.wrap(XEWMYT_fake_script)()
-coroutine.wrap(MTZJO_fake_script)()-- Please leave these comments in and leave credit, it took me a while to make this
+coroutine.wrap(ERGDGHJ_fake_script)()
+coroutine.wrap(KPOSKC_fake_script)()
+coroutine.wrap(CQIDGMU_fake_script)()
+coroutine.wrap(RGFDBE_fake_script)()
+coroutine.wrap(WFBCG_fake_script)()
+coroutine.wrap(YSWU_fake_script)()
+coroutine.wrap(FWAGTSC_fake_script)()
+coroutine.wrap(CCUNG_fake_script)()
+coroutine.wrap(REHK_fake_script)()
+coroutine.wrap(WVRCWO_fake_script)()
+coroutine.wrap(AKCABP_fake_script)()
+coroutine.wrap(NPVG_fake_script)()
+coroutine.wrap(JCKM_fake_script)()
+coroutine.wrap(TYUG_fake_script)()
+coroutine.wrap(PGLL_fake_script)()
+coroutine.wrap(HMZWSQB_fake_script)()
+coroutine.wrap(JZOJO_fake_script)()
+coroutine.wrap(DDXW_fake_script)()
+coroutine.wrap(FXYQ_fake_script)()
+coroutine.wrap(JQRVPRP_fake_script)()
+coroutine.wrap(MZVE_fake_script)()
+coroutine.wrap(PECQH_fake_script)()
+coroutine.wrap(XBCQ_fake_script)()
+coroutine.wrap(VVDQEF_fake_script)()
+coroutine.wrap(SVYSCI_fake_script)()
+coroutine.wrap(ZZMW_fake_script)()
+coroutine.wrap(SUMC_fake_script)()
+coroutine.wrap(HSVIV_fake_script)()
+coroutine.wrap(HEHHPID_fake_script)()
+coroutine.wrap(HMWN_fake_script)()
+coroutine.wrap(TMEZ_fake_script)()
+coroutine.wrap(CSKK_fake_script)()
+coroutine.wrap(KKDK_fake_script)()
+coroutine.wrap(QWNKW_fake_script)()
+coroutine.wrap(GKTC_fake_script)()
+coroutine.wrap(EZYQMM_fake_script)()
+coroutine.wrap(RWGLP_fake_script)()
+coroutine.wrap(GAEA_fake_script)()
+coroutine.wrap(TFKE_fake_script)()
+coroutine.wrap(JOAB_fake_script)()
+coroutine.wrap(QSCZVL_fake_script)()
+coroutine.wrap(AHKKS_fake_script)()
+coroutine.wrap(OWHRN_fake_script)()
+coroutine.wrap(WTDNDS_fake_script)()
+coroutine.wrap(YILSS_fake_script)()
+coroutine.wrap(PZLCKN_fake_script)()
+coroutine.wrap(QHROGCH_fake_script)()
+coroutine.wrap(UMGNT_fake_script)()
+coroutine.wrap(SOQZO_fake_script)()
+coroutine.wrap(NTWFR_fake_script)()
+coroutine.wrap(DODTH_fake_script)()
+coroutine.wrap(QLAYZ_fake_script)()
+coroutine.wrap(HYPWPMS_fake_script)()
+coroutine.wrap(HHMKI_fake_script)()
+coroutine.wrap(DCLY_fake_script)()-- Please leave these comments in and leave credit, it took me a while to make this
