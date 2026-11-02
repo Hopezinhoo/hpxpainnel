@@ -59,8 +59,8 @@ local Converted = {
 	["_UITextSizeConstraint9"] = Instance.new("UITextSizeConstraint");
 	["_TextLabel2"] = Instance.new("TextLabel");
 	["_UIStroke3"] = Instance.new("UIStroke");
-	["_FantasmaVerButton"] = Instance.new("TextButton");
-	["_LocalScript7"] = Instance.new("LocalScript");
+	["_VoarButton"] = Instance.new("TextButton");
+	["_Fly"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint10"] = Instance.new("UITextSizeConstraint");
 	["_UICorner9"] = Instance.new("UICorner");
 	["_TextLabel3"] = Instance.new("TextLabel");
@@ -69,158 +69,157 @@ local Converted = {
 	["_UICorner10"] = Instance.new("UICorner");
 	["_UITextSizeConstraint12"] = Instance.new("UITextSizeConstraint");
 	["_UIStroke4"] = Instance.new("UIStroke");
+	["_FantasmaVerButton"] = Instance.new("TextButton");
+	["_LocalScript7"] = Instance.new("LocalScript");
+	["_UITextSizeConstraint13"] = Instance.new("UITextSizeConstraint");
+	["_UICorner11"] = Instance.new("UICorner");
+	["_TextLabel4"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint14"] = Instance.new("UITextSizeConstraint");
+	["_keybutton2"] = Instance.new("TextBox");
+	["_UICorner12"] = Instance.new("UICorner");
+	["_UITextSizeConstraint15"] = Instance.new("UITextSizeConstraint");
+	["_UIStroke5"] = Instance.new("UIStroke");
 	["_EspButton"] = Instance.new("TextButton");
 	["_LocalScript8"] = Instance.new("LocalScript");
-	["_UICorner11"] = Instance.new("UICorner");
-	["_keybutton2"] = Instance.new("TextBox");
-	["_UITextSizeConstraint13"] = Instance.new("UITextSizeConstraint");
-	["_UICorner12"] = Instance.new("UICorner");
-	["_UITextSizeConstraint14"] = Instance.new("UITextSizeConstraint");
-	["_UIStroke5"] = Instance.new("UIStroke");
-	["_TextLabel4"] = Instance.new("TextLabel");
-	["_antiflingButton"] = Instance.new("TextButton");
-	["_LocalScript9"] = Instance.new("LocalScript");
-	["_UITextSizeConstraint15"] = Instance.new("UITextSizeConstraint");
 	["_UICorner13"] = Instance.new("UICorner");
-	["_TextLabel5"] = Instance.new("TextLabel");
-	["_UITextSizeConstraint16"] = Instance.new("UITextSizeConstraint");
 	["_keybutton3"] = Instance.new("TextBox");
+	["_UITextSizeConstraint16"] = Instance.new("UITextSizeConstraint");
 	["_UICorner14"] = Instance.new("UICorner");
 	["_UITextSizeConstraint17"] = Instance.new("UITextSizeConstraint");
 	["_UIStroke6"] = Instance.new("UIStroke");
+	["_TextLabel5"] = Instance.new("TextLabel");
+	["_antiflingButton"] = Instance.new("TextButton");
+	["_LocalScript9"] = Instance.new("LocalScript");
+	["_UITextSizeConstraint18"] = Instance.new("UITextSizeConstraint");
 	["_UICorner15"] = Instance.new("UICorner");
+	["_TextLabel6"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint19"] = Instance.new("UITextSizeConstraint");
+	["_keybutton4"] = Instance.new("TextBox");
+	["_UICorner16"] = Instance.new("UICorner");
+	["_UITextSizeConstraint20"] = Instance.new("UITextSizeConstraint");
+	["_UIStroke7"] = Instance.new("UIStroke");
+	["_UICorner17"] = Instance.new("UICorner");
 	["_UIListLayout"] = Instance.new("UIListLayout");
 	["_ScrollingFrame1"] = Instance.new("ScrollingFrame");
 	["_UIPadding1"] = Instance.new("UIPadding");
 	["_RunButton"] = Instance.new("TextButton");
 	["_LocalScript10"] = Instance.new("LocalScript");
-	["_UITextSizeConstraint18"] = Instance.new("UITextSizeConstraint");
-	["_UICorner16"] = Instance.new("UICorner");
+	["_UITextSizeConstraint21"] = Instance.new("UITextSizeConstraint");
+	["_UICorner18"] = Instance.new("UICorner");
 	["_GirarButton"] = Instance.new("TextButton");
 	["_LocalScript11"] = Instance.new("LocalScript");
-	["_UITextSizeConstraint19"] = Instance.new("UITextSizeConstraint");
-	["_UICorner17"] = Instance.new("UICorner");
-	["_UICorner18"] = Instance.new("UICorner");
+	["_UITextSizeConstraint22"] = Instance.new("UITextSizeConstraint");
+	["_UICorner19"] = Instance.new("UICorner");
+	["_UICorner20"] = Instance.new("UICorner");
 	["_UIGridLayout1"] = Instance.new("UIGridLayout");
 	["_UIPadding2"] = Instance.new("UIPadding");
 	["_anima��es"] = Instance.new("Frame");
 	["_vampiro"] = Instance.new("TextButton");
 	["_LocalScript12"] = Instance.new("LocalScript");
-	["_UICorner19"] = Instance.new("UICorner");
-	["_UITextSizeConstraint20"] = Instance.new("UITextSizeConstraint");
+	["_UICorner21"] = Instance.new("UICorner");
+	["_UITextSizeConstraint23"] = Instance.new("UITextSizeConstraint");
 	["_zumbie"] = Instance.new("TextButton");
 	["_LocalScript13"] = Instance.new("LocalScript");
-	["_UICorner20"] = Instance.new("UICorner");
-	["_UITextSizeConstraint21"] = Instance.new("UITextSizeConstraint");
+	["_UICorner22"] = Instance.new("UICorner");
+	["_UITextSizeConstraint24"] = Instance.new("UITextSizeConstraint");
 	["_adidas"] = Instance.new("TextButton");
 	["_LocalScript14"] = Instance.new("LocalScript");
-	["_UICorner21"] = Instance.new("UICorner");
-	["_UITextSizeConstraint22"] = Instance.new("UITextSizeConstraint");
+	["_UICorner23"] = Instance.new("UICorner");
+	["_UITextSizeConstraint25"] = Instance.new("UITextSizeConstraint");
 	["_Bolhoso"] = Instance.new("TextButton");
 	["_LocalScript15"] = Instance.new("LocalScript");
-	["_UICorner22"] = Instance.new("UICorner");
-	["_UITextSizeConstraint23"] = Instance.new("UITextSizeConstraint");
+	["_UICorner24"] = Instance.new("UICorner");
+	["_UITextSizeConstraint26"] = Instance.new("UITextSizeConstraint");
 	["_ninja"] = Instance.new("TextButton");
 	["_LocalScript16"] = Instance.new("LocalScript");
-	["_UICorner23"] = Instance.new("UICorner");
-	["_UITextSizeConstraint24"] = Instance.new("UITextSizeConstraint");
+	["_UICorner25"] = Instance.new("UICorner");
+	["_UITextSizeConstraint27"] = Instance.new("UITextSizeConstraint");
 	["_lobo"] = Instance.new("TextButton");
 	["_LocalScript17"] = Instance.new("LocalScript");
-	["_UICorner24"] = Instance.new("UICorner");
-	["_UITextSizeConstraint25"] = Instance.new("UITextSizeConstraint");
+	["_UICorner26"] = Instance.new("UICorner");
+	["_UITextSizeConstraint28"] = Instance.new("UITextSizeConstraint");
 	["_mago"] = Instance.new("TextButton");
 	["_LocalScript18"] = Instance.new("LocalScript");
-	["_UICorner25"] = Instance.new("UICorner");
-	["_UITextSizeConstraint26"] = Instance.new("UITextSizeConstraint");
+	["_UICorner27"] = Instance.new("UICorner");
+	["_UITextSizeConstraint29"] = Instance.new("UITextSizeConstraint");
 	["_levitar"] = Instance.new("TextButton");
 	["_LocalScript19"] = Instance.new("LocalScript");
-	["_UICorner26"] = Instance.new("UICorner");
-	["_UITextSizeConstraint27"] = Instance.new("UITextSizeConstraint");
+	["_UICorner28"] = Instance.new("UICorner");
+	["_UITextSizeConstraint30"] = Instance.new("UITextSizeConstraint");
 	["_cartoon"] = Instance.new("TextButton");
 	["_LocalScript20"] = Instance.new("LocalScript");
-	["_UICorner27"] = Instance.new("UICorner");
-	["_UITextSizeConstraint28"] = Instance.new("UITextSizeConstraint");
+	["_UICorner29"] = Instance.new("UICorner");
+	["_UITextSizeConstraint31"] = Instance.new("UITextSizeConstraint");
 	["_amazon"] = Instance.new("TextButton");
 	["_LocalScript21"] = Instance.new("LocalScript");
-	["_UICorner28"] = Instance.new("UICorner");
-	["_UITextSizeConstraint29"] = Instance.new("UITextSizeConstraint");
+	["_UICorner30"] = Instance.new("UICorner");
+	["_UITextSizeConstraint32"] = Instance.new("UITextSizeConstraint");
 	["_astronauta"] = Instance.new("TextButton");
 	["_LocalScript22"] = Instance.new("LocalScript");
-	["_UICorner29"] = Instance.new("UICorner");
-	["_UITextSizeConstraint30"] = Instance.new("UITextSizeConstraint");
+	["_UICorner31"] = Instance.new("UICorner");
+	["_UITextSizeConstraint33"] = Instance.new("UITextSizeConstraint");
 	["_superhero"] = Instance.new("TextButton");
 	["_LocalScript23"] = Instance.new("LocalScript");
-	["_UICorner30"] = Instance.new("UICorner");
-	["_UITextSizeConstraint31"] = Instance.new("UITextSizeConstraint");
+	["_UICorner32"] = Instance.new("UICorner");
+	["_UITextSizeConstraint34"] = Instance.new("UITextSizeConstraint");
 	["_antiga"] = Instance.new("TextButton");
 	["_LocalScript24"] = Instance.new("LocalScript");
-	["_UICorner31"] = Instance.new("UICorner");
-	["_UITextSizeConstraint32"] = Instance.new("UITextSizeConstraint");
+	["_UICorner33"] = Instance.new("UICorner");
+	["_UITextSizeConstraint35"] = Instance.new("UITextSizeConstraint");
 	["_Estileira"] = Instance.new("TextButton");
 	["_LocalScript25"] = Instance.new("LocalScript");
-	["_UICorner32"] = Instance.new("UICorner");
-	["_UITextSizeConstraint33"] = Instance.new("UITextSizeConstraint");
+	["_UICorner34"] = Instance.new("UICorner");
+	["_UITextSizeConstraint36"] = Instance.new("UITextSizeConstraint");
 	["_Rob�"] = Instance.new("TextButton");
 	["_LocalScript26"] = Instance.new("LocalScript");
-	["_UICorner33"] = Instance.new("UICorner");
-	["_UITextSizeConstraint34"] = Instance.new("UITextSizeConstraint");
+	["_UICorner35"] = Instance.new("UICorner");
+	["_UITextSizeConstraint37"] = Instance.new("UITextSizeConstraint");
 	["_Elf"] = Instance.new("TextButton");
 	["_LocalScript27"] = Instance.new("LocalScript");
-	["_UICorner34"] = Instance.new("UICorner");
-	["_UITextSizeConstraint35"] = Instance.new("UITextSizeConstraint");
+	["_UICorner36"] = Instance.new("UICorner");
+	["_UITextSizeConstraint38"] = Instance.new("UITextSizeConstraint");
 	["_Velho"] = Instance.new("TextButton");
 	["_LocalScript28"] = Instance.new("LocalScript");
-	["_UICorner35"] = Instance.new("UICorner");
-	["_UITextSizeConstraint36"] = Instance.new("UITextSizeConstraint");
+	["_UICorner37"] = Instance.new("UICorner");
+	["_UITextSizeConstraint39"] = Instance.new("UITextSizeConstraint");
 	["_Walmart"] = Instance.new("TextButton");
 	["_LocalScript29"] = Instance.new("LocalScript");
-	["_UICorner36"] = Instance.new("UICorner");
-	["_UITextSizeConstraint37"] = Instance.new("UITextSizeConstraint");
+	["_UICorner38"] = Instance.new("UICorner");
+	["_UITextSizeConstraint40"] = Instance.new("UITextSizeConstraint");
 	["_malvada"] = Instance.new("TextButton");
 	["_LocalScript30"] = Instance.new("LocalScript");
-	["_UICorner37"] = Instance.new("UICorner");
-	["_UITextSizeConstraint38"] = Instance.new("UITextSizeConstraint");
+	["_UICorner39"] = Instance.new("UICorner");
+	["_UITextSizeConstraint41"] = Instance.new("UITextSizeConstraint");
 	["_Brinquedo"] = Instance.new("TextButton");
 	["_LocalScript31"] = Instance.new("LocalScript");
-	["_UICorner38"] = Instance.new("UICorner");
-	["_UITextSizeConstraint39"] = Instance.new("UITextSizeConstraint");
+	["_UICorner40"] = Instance.new("UICorner");
+	["_UITextSizeConstraint42"] = Instance.new("UITextSizeConstraint");
 	["_superhero1"] = Instance.new("TextButton");
 	["_LocalScript32"] = Instance.new("LocalScript");
-	["_UICorner39"] = Instance.new("UICorner");
-	["_UITextSizeConstraint40"] = Instance.new("UITextSizeConstraint");
+	["_UICorner41"] = Instance.new("UICorner");
+	["_UITextSizeConstraint43"] = Instance.new("UITextSizeConstraint");
 	["_Through Life"] = Instance.new("TextButton");
 	["_LocalScript33"] = Instance.new("LocalScript");
-	["_UICorner40"] = Instance.new("UICorner");
-	["_UITextSizeConstraint41"] = Instance.new("UITextSizeConstraint");
+	["_UICorner42"] = Instance.new("UICorner");
+	["_UITextSizeConstraint44"] = Instance.new("UITextSizeConstraint");
 	["_superhero2"] = Instance.new("TextButton");
 	["_LocalScript34"] = Instance.new("LocalScript");
-	["_UICorner41"] = Instance.new("UICorner");
-	["_UITextSizeConstraint42"] = Instance.new("UITextSizeConstraint");
+	["_UICorner43"] = Instance.new("UICorner");
+	["_UITextSizeConstraint45"] = Instance.new("UITextSizeConstraint");
 	["_Glow"] = Instance.new("TextButton");
 	["_LocalScript35"] = Instance.new("LocalScript");
-	["_UICorner42"] = Instance.new("UICorner");
-	["_UITextSizeConstraint43"] = Instance.new("UITextSizeConstraint");
+	["_UICorner44"] = Instance.new("UICorner");
+	["_UITextSizeConstraint46"] = Instance.new("UITextSizeConstraint");
 	["_UIGridLayout2"] = Instance.new("UIGridLayout");
-	["_UICorner43"] = Instance.new("UICorner");
+	["_UICorner45"] = Instance.new("UICorner");
 	["_UIPadding3"] = Instance.new("UIPadding");
 	["_voxUp"] = Instance.new("Frame");
-	["_UICorner44"] = Instance.new("UICorner");
+	["_UICorner46"] = Instance.new("UICorner");
 	["_UIPadding4"] = Instance.new("UIPadding");
 	["_RoVibes"] = Instance.new("ScrollingFrame");
-	["_UICorner45"] = Instance.new("UICorner");
+	["_UICorner47"] = Instance.new("UICorner");
 	["_GrimoryButton"] = Instance.new("TextButton");
 	["_LocalScript36"] = Instance.new("LocalScript");
-	["_UITextSizeConstraint44"] = Instance.new("UITextSizeConstraint");
-	["_UICorner46"] = Instance.new("UICorner");
-	["_TextLabel6"] = Instance.new("TextLabel");
-	["_UITextSizeConstraint45"] = Instance.new("UITextSizeConstraint");
-	["_keybutton4"] = Instance.new("TextBox");
-	["_UICorner47"] = Instance.new("UICorner");
-	["_UITextSizeConstraint46"] = Instance.new("UITextSizeConstraint");
-	["_UIGridLayout3"] = Instance.new("UIGridLayout");
-	["_UIPadding5"] = Instance.new("UIPadding");
-	["_CandyButton"] = Instance.new("TextButton");
-	["_LocalScript37"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint47"] = Instance.new("UITextSizeConstraint");
 	["_UICorner48"] = Instance.new("UICorner");
 	["_TextLabel7"] = Instance.new("TextLabel");
@@ -228,8 +227,10 @@ local Converted = {
 	["_keybutton5"] = Instance.new("TextBox");
 	["_UICorner49"] = Instance.new("UICorner");
 	["_UITextSizeConstraint49"] = Instance.new("UITextSizeConstraint");
-	["_BoneButton"] = Instance.new("TextButton");
-	["_LocalScript38"] = Instance.new("LocalScript");
+	["_UIGridLayout3"] = Instance.new("UIGridLayout");
+	["_UIPadding5"] = Instance.new("UIPadding");
+	["_CandyButton"] = Instance.new("TextButton");
+	["_LocalScript37"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint50"] = Instance.new("UITextSizeConstraint");
 	["_UICorner50"] = Instance.new("UICorner");
 	["_TextLabel8"] = Instance.new("TextLabel");
@@ -237,8 +238,8 @@ local Converted = {
 	["_keybutton6"] = Instance.new("TextBox");
 	["_UICorner51"] = Instance.new("UICorner");
 	["_UITextSizeConstraint52"] = Instance.new("UITextSizeConstraint");
-	["_LoboButton"] = Instance.new("TextButton");
-	["_LocalScript39"] = Instance.new("LocalScript");
+	["_BoneButton"] = Instance.new("TextButton");
+	["_LocalScript38"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint53"] = Instance.new("UITextSizeConstraint");
 	["_UICorner52"] = Instance.new("UICorner");
 	["_TextLabel9"] = Instance.new("TextLabel");
@@ -246,8 +247,8 @@ local Converted = {
 	["_keybutton7"] = Instance.new("TextBox");
 	["_UICorner53"] = Instance.new("UICorner");
 	["_UITextSizeConstraint55"] = Instance.new("UITextSizeConstraint");
-	["_LuckButton"] = Instance.new("TextButton");
-	["_LocalScript40"] = Instance.new("LocalScript");
+	["_LoboButton"] = Instance.new("TextButton");
+	["_LocalScript39"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint56"] = Instance.new("UITextSizeConstraint");
 	["_UICorner54"] = Instance.new("UICorner");
 	["_TextLabel10"] = Instance.new("TextLabel");
@@ -255,68 +256,77 @@ local Converted = {
 	["_keybutton8"] = Instance.new("TextBox");
 	["_UICorner55"] = Instance.new("UICorner");
 	["_UITextSizeConstraint58"] = Instance.new("UITextSizeConstraint");
-	["_UIListLayout1"] = Instance.new("UIListLayout");
+	["_LuckButton"] = Instance.new("TextButton");
+	["_LocalScript40"] = Instance.new("LocalScript");
+	["_UITextSizeConstraint59"] = Instance.new("UITextSizeConstraint");
+	["_UICorner56"] = Instance.new("UICorner");
 	["_TextLabel11"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint60"] = Instance.new("UITextSizeConstraint");
+	["_keybutton9"] = Instance.new("TextBox");
+	["_UICorner57"] = Instance.new("UICorner");
+	["_UITextSizeConstraint61"] = Instance.new("UITextSizeConstraint");
+	["_UIListLayout1"] = Instance.new("UIListLayout");
 	["_TextLabel12"] = Instance.new("TextLabel");
+	["_TextLabel13"] = Instance.new("TextLabel");
 	["_stalker"] = Instance.new("Frame");
 	["_LocalScript41"] = Instance.new("LocalScript");
 	["_SeachBox"] = Instance.new("TextBox");
 	["_seach"] = Instance.new("LocalScript");
-	["_UITextSizeConstraint59"] = Instance.new("UITextSizeConstraint");
-	["_UICorner56"] = Instance.new("UICorner");
-	["_UICorner57"] = Instance.new("UICorner");
+	["_UITextSizeConstraint62"] = Instance.new("UITextSizeConstraint");
+	["_UICorner58"] = Instance.new("UICorner");
+	["_UICorner59"] = Instance.new("UICorner");
 	["_Cmds"] = Instance.new("Frame");
 	["_verButton"] = Instance.new("TextButton");
 	["_LocalScript42"] = Instance.new("LocalScript");
-	["_UICorner58"] = Instance.new("UICorner");
-	["_UITextSizeConstraint60"] = Instance.new("UITextSizeConstraint");
+	["_UICorner60"] = Instance.new("UICorner");
+	["_UITextSizeConstraint63"] = Instance.new("UITextSizeConstraint");
 	["_syncButton"] = Instance.new("TextButton");
 	["_LocalScript43"] = Instance.new("LocalScript");
-	["_UICorner59"] = Instance.new("UICorner");
-	["_UITextSizeConstraint61"] = Instance.new("UITextSizeConstraint");
+	["_UICorner61"] = Instance.new("UICorner");
+	["_UITextSizeConstraint64"] = Instance.new("UITextSizeConstraint");
 	["_TpButton"] = Instance.new("TextButton");
 	["_LocalScript44"] = Instance.new("LocalScript");
-	["_UICorner60"] = Instance.new("UICorner");
-	["_UITextSizeConstraint62"] = Instance.new("UITextSizeConstraint");
+	["_UICorner62"] = Instance.new("UICorner");
+	["_UITextSizeConstraint65"] = Instance.new("UITextSizeConstraint");
 	["_UIGridLayout4"] = Instance.new("UIGridLayout");
 	["_carinhoButton"] = Instance.new("TextButton");
 	["_LocalScript45"] = Instance.new("LocalScript");
-	["_UICorner61"] = Instance.new("UICorner");
-	["_UITextSizeConstraint63"] = Instance.new("UITextSizeConstraint");
+	["_UICorner63"] = Instance.new("UICorner");
+	["_UITextSizeConstraint66"] = Instance.new("UITextSizeConstraint");
 	["_UIPadding6"] = Instance.new("UIPadding");
 	["_Lista"] = Instance.new("ScrollingFrame");
 	["_Banner"] = Instance.new("TextButton");
-	["_UICorner62"] = Instance.new("UICorner");
+	["_UICorner64"] = Instance.new("UICorner");
 	["_UIPadding7"] = Instance.new("UIPadding");
 	["_UIGridLayout5"] = Instance.new("UIGridLayout");
-	["_UICorner63"] = Instance.new("UICorner");
-	["_menu"] = Instance.new("Frame");
-	["_UICorner64"] = Instance.new("UICorner");
-	["_voxupButton"] = Instance.new("TextButton");
 	["_UICorner65"] = Instance.new("UICorner");
-	["_UITextSizeConstraint64"] = Instance.new("UITextSizeConstraint");
-	["_TextLabel13"] = Instance.new("TextLabel");
-	["_stalkerButton"] = Instance.new("TextButton");
+	["_menu"] = Instance.new("Frame");
 	["_UICorner66"] = Instance.new("UICorner");
-	["_UITextSizeConstraint65"] = Instance.new("UITextSizeConstraint");
-	["_TextLabel14"] = Instance.new("TextLabel");
-	["_animaButton"] = Instance.new("TextButton");
+	["_voxupButton"] = Instance.new("TextButton");
 	["_UICorner67"] = Instance.new("UICorner");
-	["_UITextSizeConstraint66"] = Instance.new("UITextSizeConstraint");
-	["_TextLabel15"] = Instance.new("TextLabel");
-	["_MoviButton"] = Instance.new("TextButton");
-	["_UICorner68"] = Instance.new("UICorner");
 	["_UITextSizeConstraint67"] = Instance.new("UITextSizeConstraint");
-	["_TextLabel16"] = Instance.new("TextLabel");
-	["_ConfigButton"] = Instance.new("TextButton");
-	["_UICorner69"] = Instance.new("UICorner");
+	["_TextLabel14"] = Instance.new("TextLabel");
+	["_stalkerButton"] = Instance.new("TextButton");
+	["_UICorner68"] = Instance.new("UICorner");
 	["_UITextSizeConstraint68"] = Instance.new("UITextSizeConstraint");
+	["_TextLabel15"] = Instance.new("TextLabel");
+	["_animaButton"] = Instance.new("TextButton");
+	["_UICorner69"] = Instance.new("UICorner");
+	["_UITextSizeConstraint69"] = Instance.new("UITextSizeConstraint");
+	["_TextLabel16"] = Instance.new("TextLabel");
+	["_MoviButton"] = Instance.new("TextButton");
+	["_UICorner70"] = Instance.new("UICorner");
+	["_UITextSizeConstraint70"] = Instance.new("UITextSizeConstraint");
 	["_TextLabel17"] = Instance.new("TextLabel");
+	["_ConfigButton"] = Instance.new("TextButton");
+	["_UICorner71"] = Instance.new("UICorner");
+	["_UITextSizeConstraint71"] = Instance.new("UITextSizeConstraint");
+	["_TextLabel18"] = Instance.new("TextLabel");
 	["_UIListLayout2"] = Instance.new("UIListLayout");
 	["_UIPadding8"] = Instance.new("UIPadding");
 	["_UIAspectRatioConstraint"] = Instance.new("UIAspectRatioConstraint");
 	["_hpx"] = Instance.new("TextLabel");
-	["_UIStroke7"] = Instance.new("UIStroke");
+	["_UIStroke8"] = Instance.new("UIStroke");
 	["_Versao"] = Instance.new("TextLabel");
 }
 
@@ -705,33 +715,33 @@ Converted["_UIStroke3"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 Converted["_UIStroke3"].Thickness = 2
 Converted["_UIStroke3"].Parent = Converted["_clicktpButton"]
 
-Converted["_FantasmaVerButton"].Font = Enum.Font.FredokaOne
-Converted["_FantasmaVerButton"].Text = ""
-Converted["_FantasmaVerButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_FantasmaVerButton"].TextScaled = true
-Converted["_FantasmaVerButton"].TextSize = 14
-Converted["_FantasmaVerButton"].TextWrapped = true
-Converted["_FantasmaVerButton"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_FantasmaVerButton"].BackgroundColor3 = Color3.fromRGB(70.00000342726707, 81.00000277161598, 111.00000098347664)
-Converted["_FantasmaVerButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_FantasmaVerButton"].BorderSizePixel = 0
-Converted["_FantasmaVerButton"].Position = UDim2.new(0.0177050699, 0, 0.480000049, 0)
-Converted["_FantasmaVerButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
-Converted["_FantasmaVerButton"].Name = "FantasmaVerButton"
-Converted["_FantasmaVerButton"].Parent = Converted["_ScrollingFrame"]
+Converted["_VoarButton"].Font = Enum.Font.FredokaOne
+Converted["_VoarButton"].Text = ""
+Converted["_VoarButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_VoarButton"].TextScaled = true
+Converted["_VoarButton"].TextSize = 14
+Converted["_VoarButton"].TextWrapped = true
+Converted["_VoarButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_VoarButton"].BackgroundColor3 = Color3.fromRGB(70.00000342726707, 81.00000277161598, 111.00000098347664)
+Converted["_VoarButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_VoarButton"].BorderSizePixel = 0
+Converted["_VoarButton"].Position = UDim2.new(0.58415103, 0, 0.118925571, 0)
+Converted["_VoarButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
+Converted["_VoarButton"].Name = "VoarButton"
+Converted["_VoarButton"].Parent = Converted["_ScrollingFrame"]
 
 Converted["_UITextSizeConstraint10"].MaxTextSize = 20
-Converted["_UITextSizeConstraint10"].Parent = Converted["_FantasmaVerButton"]
+Converted["_UITextSizeConstraint10"].Parent = Converted["_VoarButton"]
 
 Converted["_UICorner9"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner9"].BottomRightRadius = UDim.new(0, 9)
 Converted["_UICorner9"].CornerRadius = UDim.new(0, 9)
 Converted["_UICorner9"].TopLeftRadius = UDim.new(0, 9)
 Converted["_UICorner9"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner9"].Parent = Converted["_FantasmaVerButton"]
+Converted["_UICorner9"].Parent = Converted["_VoarButton"]
 
 Converted["_TextLabel3"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel3"].Text = "Ver Fantasma"
+Converted["_TextLabel3"].Text = "Voar"
 Converted["_TextLabel3"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel3"].TextScaled = true
 Converted["_TextLabel3"].TextSize = 14
@@ -741,9 +751,9 @@ Converted["_TextLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel3"].BackgroundTransparency = 1
 Converted["_TextLabel3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel3"].BorderSizePixel = 0
-Converted["_TextLabel3"].Position = UDim2.new(0.312792271, 0, 0.49999994, 0)
-Converted["_TextLabel3"].Size = UDim2.new(0.546681881, 0, 0.999999881, 0)
-Converted["_TextLabel3"].Parent = Converted["_FantasmaVerButton"]
+Converted["_TextLabel3"].Position = UDim2.new(0.199999645, 0, 0.50000006, 0)
+Converted["_TextLabel3"].Size = UDim2.new(0.320999861, 0, 1.00000012, 0)
+Converted["_TextLabel3"].Parent = Converted["_VoarButton"]
 
 Converted["_UITextSizeConstraint11"].MaxTextSize = 30
 Converted["_UITextSizeConstraint11"].Parent = Converted["_TextLabel3"]
@@ -764,7 +774,7 @@ Converted["_keybutton1"].BorderSizePixel = 0
 Converted["_keybutton1"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
 Converted["_keybutton1"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
 Converted["_keybutton1"].Name = "keybutton"
-Converted["_keybutton1"].Parent = Converted["_FantasmaVerButton"]
+Converted["_keybutton1"].Parent = Converted["_VoarButton"]
 
 Converted["_UICorner10"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner10"].BottomRightRadius = UDim.new(0, 9)
@@ -778,7 +788,82 @@ Converted["_UITextSizeConstraint12"].Parent = Converted["_keybutton1"]
 
 Converted["_UIStroke4"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 Converted["_UIStroke4"].Thickness = 2
-Converted["_UIStroke4"].Parent = Converted["_FantasmaVerButton"]
+Converted["_UIStroke4"].Parent = Converted["_VoarButton"]
+
+Converted["_FantasmaVerButton"].Font = Enum.Font.FredokaOne
+Converted["_FantasmaVerButton"].Text = ""
+Converted["_FantasmaVerButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_FantasmaVerButton"].TextScaled = true
+Converted["_FantasmaVerButton"].TextSize = 14
+Converted["_FantasmaVerButton"].TextWrapped = true
+Converted["_FantasmaVerButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_FantasmaVerButton"].BackgroundColor3 = Color3.fromRGB(70.00000342726707, 81.00000277161598, 111.00000098347664)
+Converted["_FantasmaVerButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_FantasmaVerButton"].BorderSizePixel = 0
+Converted["_FantasmaVerButton"].Position = UDim2.new(0.0177050699, 0, 0.480000049, 0)
+Converted["_FantasmaVerButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
+Converted["_FantasmaVerButton"].Name = "FantasmaVerButton"
+Converted["_FantasmaVerButton"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UITextSizeConstraint13"].MaxTextSize = 20
+Converted["_UITextSizeConstraint13"].Parent = Converted["_FantasmaVerButton"]
+
+Converted["_UICorner11"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner11"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner11"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner11"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner11"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner11"].Parent = Converted["_FantasmaVerButton"]
+
+Converted["_TextLabel4"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel4"].Text = "Ver Fantasma"
+Converted["_TextLabel4"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel4"].TextScaled = true
+Converted["_TextLabel4"].TextSize = 14
+Converted["_TextLabel4"].TextWrapped = true
+Converted["_TextLabel4"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel4"].BackgroundTransparency = 1
+Converted["_TextLabel4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel4"].BorderSizePixel = 0
+Converted["_TextLabel4"].Position = UDim2.new(0.312792271, 0, 0.49999994, 0)
+Converted["_TextLabel4"].Size = UDim2.new(0.546681881, 0, 0.999999881, 0)
+Converted["_TextLabel4"].Parent = Converted["_FantasmaVerButton"]
+
+Converted["_UITextSizeConstraint14"].MaxTextSize = 30
+Converted["_UITextSizeConstraint14"].Parent = Converted["_TextLabel4"]
+
+Converted["_keybutton2"].Font = Enum.Font.FredokaOne
+Converted["_keybutton2"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton2"].PlaceholderText = "-"
+Converted["_keybutton2"].Text = ""
+Converted["_keybutton2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton2"].TextScaled = true
+Converted["_keybutton2"].TextSize = 15
+Converted["_keybutton2"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton2"].TextWrapped = true
+Converted["_keybutton2"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_keybutton2"].BackgroundColor3 = Color3.fromRGB(45.00000111758709, 53.00000064074993, 72.00000330805779)
+Converted["_keybutton2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_keybutton2"].BorderSizePixel = 0
+Converted["_keybutton2"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
+Converted["_keybutton2"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
+Converted["_keybutton2"].Name = "keybutton"
+Converted["_keybutton2"].Parent = Converted["_FantasmaVerButton"]
+
+Converted["_UICorner12"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner12"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner12"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner12"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner12"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner12"].Parent = Converted["_keybutton2"]
+
+Converted["_UITextSizeConstraint15"].MaxTextSize = 15
+Converted["_UITextSizeConstraint15"].Parent = Converted["_keybutton2"]
+
+Converted["_UIStroke5"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke5"].Thickness = 2
+Converted["_UIStroke5"].Parent = Converted["_FantasmaVerButton"]
 
 Converted["_EspButton"].Font = Enum.Font.FredokaOne
 Converted["_EspButton"].Text = ""
@@ -795,62 +880,62 @@ Converted["_EspButton"].Size = UDim2.new(0.286853015, 0, 0.114044294, 0)
 Converted["_EspButton"].Name = "EspButton"
 Converted["_EspButton"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_UICorner11"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner11"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner11"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner11"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner11"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner11"].Parent = Converted["_EspButton"]
+Converted["_UICorner13"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner13"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner13"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner13"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner13"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner13"].Parent = Converted["_EspButton"]
 
-Converted["_keybutton2"].Font = Enum.Font.FredokaOne
-Converted["_keybutton2"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_keybutton2"].PlaceholderText = "-"
-Converted["_keybutton2"].Text = ""
-Converted["_keybutton2"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_keybutton2"].TextScaled = true
-Converted["_keybutton2"].TextSize = 20
-Converted["_keybutton2"].TextWrapped = true
-Converted["_keybutton2"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_keybutton2"].BackgroundColor3 = Color3.fromRGB(45.00000111758709, 53.00000064074993, 72.00000330805779)
-Converted["_keybutton2"].BorderColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
-Converted["_keybutton2"].BorderSizePixel = 0
-Converted["_keybutton2"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
-Converted["_keybutton2"].Size = UDim2.new(0.180999994, 0, 0.755999982, 0)
-Converted["_keybutton2"].Name = "keybutton"
-Converted["_keybutton2"].Parent = Converted["_EspButton"]
+Converted["_keybutton3"].Font = Enum.Font.FredokaOne
+Converted["_keybutton3"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton3"].PlaceholderText = "-"
+Converted["_keybutton3"].Text = ""
+Converted["_keybutton3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton3"].TextScaled = true
+Converted["_keybutton3"].TextSize = 20
+Converted["_keybutton3"].TextWrapped = true
+Converted["_keybutton3"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_keybutton3"].BackgroundColor3 = Color3.fromRGB(45.00000111758709, 53.00000064074993, 72.00000330805779)
+Converted["_keybutton3"].BorderColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_keybutton3"].BorderSizePixel = 0
+Converted["_keybutton3"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
+Converted["_keybutton3"].Size = UDim2.new(0.180999994, 0, 0.755999982, 0)
+Converted["_keybutton3"].Name = "keybutton"
+Converted["_keybutton3"].Parent = Converted["_EspButton"]
 
-Converted["_UITextSizeConstraint13"].MaxTextSize = 20
-Converted["_UITextSizeConstraint13"].Parent = Converted["_keybutton2"]
+Converted["_UITextSizeConstraint16"].MaxTextSize = 20
+Converted["_UITextSizeConstraint16"].Parent = Converted["_keybutton3"]
 
-Converted["_UICorner12"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner12"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner12"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner12"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner12"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner12"].Parent = Converted["_keybutton2"]
+Converted["_UICorner14"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner14"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner14"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner14"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner14"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner14"].Parent = Converted["_keybutton3"]
 
-Converted["_UITextSizeConstraint14"].MaxTextSize = 25
-Converted["_UITextSizeConstraint14"].Parent = Converted["_EspButton"]
+Converted["_UITextSizeConstraint17"].MaxTextSize = 25
+Converted["_UITextSizeConstraint17"].Parent = Converted["_EspButton"]
 
-Converted["_UIStroke5"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-Converted["_UIStroke5"].Thickness = 2
-Converted["_UIStroke5"].Parent = Converted["_EspButton"]
+Converted["_UIStroke6"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke6"].Thickness = 2
+Converted["_UIStroke6"].Parent = Converted["_EspButton"]
 
-Converted["_TextLabel4"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel4"].Text = "Espi�o "
-Converted["_TextLabel4"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel4"].TextScaled = true
-Converted["_TextLabel4"].TextSize = 14
-Converted["_TextLabel4"].TextWrapped = true
-Converted["_TextLabel4"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_TextLabel4"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel4"].BackgroundTransparency = 1
-Converted["_TextLabel4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextLabel4"].BorderSizePixel = 0
-Converted["_TextLabel4"].Position = UDim2.new(0.200000003, 0, 0.5, 0)
-Converted["_TextLabel4"].Size = UDim2.new(0.32100001, 0, 1, 0)
-Converted["_TextLabel4"].Parent = Converted["_EspButton"]
+Converted["_TextLabel5"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel5"].Text = "Espi�o "
+Converted["_TextLabel5"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel5"].TextScaled = true
+Converted["_TextLabel5"].TextSize = 14
+Converted["_TextLabel5"].TextWrapped = true
+Converted["_TextLabel5"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_TextLabel5"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel5"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel5"].BackgroundTransparency = 1
+Converted["_TextLabel5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel5"].BorderSizePixel = 0
+Converted["_TextLabel5"].Position = UDim2.new(0.200000003, 0, 0.5, 0)
+Converted["_TextLabel5"].Size = UDim2.new(0.32100001, 0, 1, 0)
+Converted["_TextLabel5"].Parent = Converted["_EspButton"]
 
 Converted["_antiflingButton"].Font = Enum.Font.FredokaOne
 Converted["_antiflingButton"].Text = ""
@@ -867,72 +952,72 @@ Converted["_antiflingButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
 Converted["_antiflingButton"].Name = "antiflingButton"
 Converted["_antiflingButton"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_UITextSizeConstraint15"].MaxTextSize = 20
-Converted["_UITextSizeConstraint15"].Parent = Converted["_antiflingButton"]
+Converted["_UITextSizeConstraint18"].MaxTextSize = 20
+Converted["_UITextSizeConstraint18"].Parent = Converted["_antiflingButton"]
 
-Converted["_UICorner13"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner13"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner13"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner13"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner13"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner13"].Parent = Converted["_antiflingButton"]
+Converted["_UICorner15"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner15"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner15"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner15"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner15"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner15"].Parent = Converted["_antiflingButton"]
 
-Converted["_TextLabel5"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel5"].Text = "Anti-Fling"
-Converted["_TextLabel5"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel5"].TextScaled = true
-Converted["_TextLabel5"].TextSize = 14
-Converted["_TextLabel5"].TextWrapped = true
-Converted["_TextLabel5"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel5"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel5"].BackgroundTransparency = 1
-Converted["_TextLabel5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextLabel5"].BorderSizePixel = 0
-Converted["_TextLabel5"].Position = UDim2.new(0.26407665, 0, 0.5, 0)
-Converted["_TextLabel5"].Size = UDim2.new(0.431014955, 0, 1, 0)
-Converted["_TextLabel5"].Parent = Converted["_antiflingButton"]
+Converted["_TextLabel6"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel6"].Text = "Anti-Fling"
+Converted["_TextLabel6"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel6"].TextScaled = true
+Converted["_TextLabel6"].TextSize = 14
+Converted["_TextLabel6"].TextWrapped = true
+Converted["_TextLabel6"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel6"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel6"].BackgroundTransparency = 1
+Converted["_TextLabel6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel6"].BorderSizePixel = 0
+Converted["_TextLabel6"].Position = UDim2.new(0.26407665, 0, 0.5, 0)
+Converted["_TextLabel6"].Size = UDim2.new(0.431014955, 0, 1, 0)
+Converted["_TextLabel6"].Parent = Converted["_antiflingButton"]
 
-Converted["_UITextSizeConstraint16"].MaxTextSize = 30
-Converted["_UITextSizeConstraint16"].Parent = Converted["_TextLabel5"]
+Converted["_UITextSizeConstraint19"].MaxTextSize = 30
+Converted["_UITextSizeConstraint19"].Parent = Converted["_TextLabel6"]
 
-Converted["_keybutton3"].Font = Enum.Font.FredokaOne
-Converted["_keybutton3"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_keybutton3"].PlaceholderText = "-"
-Converted["_keybutton3"].Text = ""
-Converted["_keybutton3"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_keybutton3"].TextScaled = true
-Converted["_keybutton3"].TextSize = 15
-Converted["_keybutton3"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_keybutton3"].TextWrapped = true
-Converted["_keybutton3"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_keybutton3"].BackgroundColor3 = Color3.fromRGB(45.00000111758709, 53.00000064074993, 72.00000330805779)
-Converted["_keybutton3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_keybutton3"].BorderSizePixel = 0
-Converted["_keybutton3"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
-Converted["_keybutton3"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
-Converted["_keybutton3"].Name = "keybutton"
-Converted["_keybutton3"].Parent = Converted["_antiflingButton"]
+Converted["_keybutton4"].Font = Enum.Font.FredokaOne
+Converted["_keybutton4"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton4"].PlaceholderText = "-"
+Converted["_keybutton4"].Text = ""
+Converted["_keybutton4"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton4"].TextScaled = true
+Converted["_keybutton4"].TextSize = 15
+Converted["_keybutton4"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton4"].TextWrapped = true
+Converted["_keybutton4"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_keybutton4"].BackgroundColor3 = Color3.fromRGB(45.00000111758709, 53.00000064074993, 72.00000330805779)
+Converted["_keybutton4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_keybutton4"].BorderSizePixel = 0
+Converted["_keybutton4"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
+Converted["_keybutton4"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
+Converted["_keybutton4"].Name = "keybutton"
+Converted["_keybutton4"].Parent = Converted["_antiflingButton"]
 
-Converted["_UICorner14"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner14"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner14"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner14"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner14"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner14"].Parent = Converted["_keybutton3"]
+Converted["_UICorner16"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner16"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner16"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner16"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner16"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner16"].Parent = Converted["_keybutton4"]
 
-Converted["_UITextSizeConstraint17"].MaxTextSize = 15
-Converted["_UITextSizeConstraint17"].Parent = Converted["_keybutton3"]
+Converted["_UITextSizeConstraint20"].MaxTextSize = 15
+Converted["_UITextSizeConstraint20"].Parent = Converted["_keybutton4"]
 
-Converted["_UIStroke6"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-Converted["_UIStroke6"].Thickness = 2
-Converted["_UIStroke6"].Parent = Converted["_antiflingButton"]
+Converted["_UIStroke7"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke7"].Thickness = 2
+Converted["_UIStroke7"].Parent = Converted["_antiflingButton"]
 
-Converted["_UICorner15"].BottomLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner15"].BottomRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner15"].CornerRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner15"].TopLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner15"].TopRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner15"].Parent = Converted["_ScrollingFrame"]
+Converted["_UICorner17"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner17"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner17"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner17"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner17"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner17"].Parent = Converted["_ScrollingFrame"]
 
 Converted["_UIListLayout"].Padding = UDim.new(0, 9)
 Converted["_UIListLayout"].SortOrder = Enum.SortOrder.LayoutOrder
@@ -969,15 +1054,15 @@ Converted["_RunButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
 Converted["_RunButton"].Name = "RunButton"
 Converted["_RunButton"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_UITextSizeConstraint18"].MaxTextSize = 20
-Converted["_UITextSizeConstraint18"].Parent = Converted["_RunButton"]
+Converted["_UITextSizeConstraint21"].MaxTextSize = 20
+Converted["_UITextSizeConstraint21"].Parent = Converted["_RunButton"]
 
-Converted["_UICorner16"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner16"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner16"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner16"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner16"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner16"].Parent = Converted["_RunButton"]
+Converted["_UICorner18"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner18"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner18"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner18"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner18"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner18"].Parent = Converted["_RunButton"]
 
 Converted["_GirarButton"].Font = Enum.Font.FredokaOne
 Converted["_GirarButton"].Text = ""
@@ -994,22 +1079,22 @@ Converted["_GirarButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
 Converted["_GirarButton"].Name = "GirarButton"
 Converted["_GirarButton"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_UITextSizeConstraint19"].MaxTextSize = 20
-Converted["_UITextSizeConstraint19"].Parent = Converted["_GirarButton"]
+Converted["_UITextSizeConstraint22"].MaxTextSize = 20
+Converted["_UITextSizeConstraint22"].Parent = Converted["_GirarButton"]
 
-Converted["_UICorner17"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner17"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner17"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner17"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner17"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner17"].Parent = Converted["_GirarButton"]
+Converted["_UICorner19"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner19"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner19"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner19"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner19"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner19"].Parent = Converted["_GirarButton"]
 
-Converted["_UICorner18"].BottomLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner18"].BottomRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner18"].CornerRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner18"].TopLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner18"].TopRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner18"].Parent = Converted["_ScrollingFrame1"]
+Converted["_UICorner20"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner20"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner20"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner20"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner20"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner20"].Parent = Converted["_ScrollingFrame1"]
 
 Converted["_UIGridLayout1"].CellPadding = UDim2.new(0.0199999996, 0, 0.00999999978, 0)
 Converted["_UIGridLayout1"].CellSize = UDim2.new(0.49000001, 0, 0.100000001, 0)
@@ -1048,15 +1133,15 @@ Converted["_vampiro"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_vampiro"].Name = "vampiro"
 Converted["_vampiro"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner19"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner19"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner19"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner19"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner19"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner19"].Parent = Converted["_vampiro"]
+Converted["_UICorner21"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner21"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner21"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner21"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner21"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner21"].Parent = Converted["_vampiro"]
 
-Converted["_UITextSizeConstraint20"].MaxTextSize = 20
-Converted["_UITextSizeConstraint20"].Parent = Converted["_vampiro"]
+Converted["_UITextSizeConstraint23"].MaxTextSize = 20
+Converted["_UITextSizeConstraint23"].Parent = Converted["_vampiro"]
 
 Converted["_zumbie"].Font = Enum.Font.SourceSansBold
 Converted["_zumbie"].Text = "z u m b i e"
@@ -1075,15 +1160,15 @@ Converted["_zumbie"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_zumbie"].Name = "zumbie"
 Converted["_zumbie"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner20"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner20"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner20"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner20"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner20"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner20"].Parent = Converted["_zumbie"]
+Converted["_UICorner22"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner22"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner22"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner22"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner22"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner22"].Parent = Converted["_zumbie"]
 
-Converted["_UITextSizeConstraint21"].MaxTextSize = 20
-Converted["_UITextSizeConstraint21"].Parent = Converted["_zumbie"]
+Converted["_UITextSizeConstraint24"].MaxTextSize = 20
+Converted["_UITextSizeConstraint24"].Parent = Converted["_zumbie"]
 
 Converted["_adidas"].Font = Enum.Font.SourceSansBold
 Converted["_adidas"].Text = "a d i d a s  1"
@@ -1102,15 +1187,15 @@ Converted["_adidas"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_adidas"].Name = "adidas"
 Converted["_adidas"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner21"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner21"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner21"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner21"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner21"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner21"].Parent = Converted["_adidas"]
+Converted["_UICorner23"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner23"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner23"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner23"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner23"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner23"].Parent = Converted["_adidas"]
 
-Converted["_UITextSizeConstraint22"].MaxTextSize = 20
-Converted["_UITextSizeConstraint22"].Parent = Converted["_adidas"]
+Converted["_UITextSizeConstraint25"].MaxTextSize = 20
+Converted["_UITextSizeConstraint25"].Parent = Converted["_adidas"]
 
 Converted["_Bolhoso"].Font = Enum.Font.SourceSansBold
 Converted["_Bolhoso"].Text = "B o l h o s o"
@@ -1129,15 +1214,15 @@ Converted["_Bolhoso"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Bolhoso"].Name = "Bolhoso"
 Converted["_Bolhoso"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner22"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner22"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner22"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner22"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner22"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner22"].Parent = Converted["_Bolhoso"]
+Converted["_UICorner24"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner24"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner24"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner24"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner24"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner24"].Parent = Converted["_Bolhoso"]
 
-Converted["_UITextSizeConstraint23"].MaxTextSize = 20
-Converted["_UITextSizeConstraint23"].Parent = Converted["_Bolhoso"]
+Converted["_UITextSizeConstraint26"].MaxTextSize = 20
+Converted["_UITextSizeConstraint26"].Parent = Converted["_Bolhoso"]
 
 Converted["_ninja"].Font = Enum.Font.SourceSansBold
 Converted["_ninja"].Text = "N i n j a"
@@ -1156,15 +1241,15 @@ Converted["_ninja"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_ninja"].Name = "ninja"
 Converted["_ninja"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner23"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner23"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner23"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner23"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner23"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner23"].Parent = Converted["_ninja"]
+Converted["_UICorner25"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner25"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner25"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner25"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner25"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner25"].Parent = Converted["_ninja"]
 
-Converted["_UITextSizeConstraint24"].MaxTextSize = 20
-Converted["_UITextSizeConstraint24"].Parent = Converted["_ninja"]
+Converted["_UITextSizeConstraint27"].MaxTextSize = 20
+Converted["_UITextSizeConstraint27"].Parent = Converted["_ninja"]
 
 Converted["_lobo"].Font = Enum.Font.SourceSansBold
 Converted["_lobo"].Text = "L o b i s o m e m"
@@ -1183,15 +1268,15 @@ Converted["_lobo"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_lobo"].Name = "lobo"
 Converted["_lobo"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner24"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner24"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner24"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner24"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner24"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner24"].Parent = Converted["_lobo"]
+Converted["_UICorner26"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner26"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner26"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner26"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner26"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner26"].Parent = Converted["_lobo"]
 
-Converted["_UITextSizeConstraint25"].MaxTextSize = 20
-Converted["_UITextSizeConstraint25"].Parent = Converted["_lobo"]
+Converted["_UITextSizeConstraint28"].MaxTextSize = 20
+Converted["_UITextSizeConstraint28"].Parent = Converted["_lobo"]
 
 Converted["_mago"].Font = Enum.Font.SourceSans
 Converted["_mago"].Text = "M a g o  erro"
@@ -1211,15 +1296,15 @@ Converted["_mago"].Visible = false
 Converted["_mago"].Name = "mago"
 Converted["_mago"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner25"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner25"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner25"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner25"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner25"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner25"].Parent = Converted["_mago"]
+Converted["_UICorner27"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner27"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner27"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner27"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner27"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner27"].Parent = Converted["_mago"]
 
-Converted["_UITextSizeConstraint26"].MaxTextSize = 20
-Converted["_UITextSizeConstraint26"].Parent = Converted["_mago"]
+Converted["_UITextSizeConstraint29"].MaxTextSize = 20
+Converted["_UITextSizeConstraint29"].Parent = Converted["_mago"]
 
 Converted["_levitar"].Font = Enum.Font.SourceSansBold
 Converted["_levitar"].Text = "L e v i t a � � o"
@@ -1238,15 +1323,15 @@ Converted["_levitar"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_levitar"].Name = "levitar"
 Converted["_levitar"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner26"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner26"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner26"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner26"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner26"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner26"].Parent = Converted["_levitar"]
+Converted["_UICorner28"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner28"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner28"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner28"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner28"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner28"].Parent = Converted["_levitar"]
 
-Converted["_UITextSizeConstraint27"].MaxTextSize = 20
-Converted["_UITextSizeConstraint27"].Parent = Converted["_levitar"]
+Converted["_UITextSizeConstraint30"].MaxTextSize = 20
+Converted["_UITextSizeConstraint30"].Parent = Converted["_levitar"]
 
 Converted["_cartoon"].Font = Enum.Font.SourceSansBold
 Converted["_cartoon"].Text = "C a r t o o n"
@@ -1265,15 +1350,15 @@ Converted["_cartoon"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_cartoon"].Name = "cartoon"
 Converted["_cartoon"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner27"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner27"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner27"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner27"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner27"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner27"].Parent = Converted["_cartoon"]
+Converted["_UICorner29"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner29"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner29"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner29"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner29"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner29"].Parent = Converted["_cartoon"]
 
-Converted["_UITextSizeConstraint28"].MaxTextSize = 20
-Converted["_UITextSizeConstraint28"].Parent = Converted["_cartoon"]
+Converted["_UITextSizeConstraint31"].MaxTextSize = 20
+Converted["_UITextSizeConstraint31"].Parent = Converted["_cartoon"]
 
 Converted["_amazon"].Font = Enum.Font.SourceSans
 Converted["_amazon"].Text = "A m a z o n  erro"
@@ -1293,15 +1378,15 @@ Converted["_amazon"].Visible = false
 Converted["_amazon"].Name = "amazon"
 Converted["_amazon"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner28"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner28"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner28"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner28"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner28"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner28"].Parent = Converted["_amazon"]
+Converted["_UICorner30"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner30"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner30"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner30"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner30"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner30"].Parent = Converted["_amazon"]
 
-Converted["_UITextSizeConstraint29"].MaxTextSize = 20
-Converted["_UITextSizeConstraint29"].Parent = Converted["_amazon"]
+Converted["_UITextSizeConstraint32"].MaxTextSize = 20
+Converted["_UITextSizeConstraint32"].Parent = Converted["_amazon"]
 
 Converted["_astronauta"].Font = Enum.Font.SourceSansBold
 Converted["_astronauta"].Text = "A s t r o n a u t a"
@@ -1320,15 +1405,15 @@ Converted["_astronauta"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_astronauta"].Name = "astronauta"
 Converted["_astronauta"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner29"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner29"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner29"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner29"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner29"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner29"].Parent = Converted["_astronauta"]
+Converted["_UICorner31"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner31"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner31"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner31"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner31"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner31"].Parent = Converted["_astronauta"]
 
-Converted["_UITextSizeConstraint30"].MaxTextSize = 20
-Converted["_UITextSizeConstraint30"].Parent = Converted["_astronauta"]
+Converted["_UITextSizeConstraint33"].MaxTextSize = 20
+Converted["_UITextSizeConstraint33"].Parent = Converted["_astronauta"]
 
 Converted["_superhero"].Font = Enum.Font.SourceSansBold
 Converted["_superhero"].Text = "P i r a t a"
@@ -1347,15 +1432,15 @@ Converted["_superhero"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_superhero"].Name = "superhero"
 Converted["_superhero"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner30"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner30"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner30"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner30"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner30"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner30"].Parent = Converted["_superhero"]
+Converted["_UICorner32"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner32"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner32"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner32"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner32"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner32"].Parent = Converted["_superhero"]
 
-Converted["_UITextSizeConstraint31"].MaxTextSize = 20
-Converted["_UITextSizeConstraint31"].Parent = Converted["_superhero"]
+Converted["_UITextSizeConstraint34"].MaxTextSize = 20
+Converted["_UITextSizeConstraint34"].Parent = Converted["_superhero"]
 
 Converted["_antiga"].Font = Enum.Font.SourceSansBold
 Converted["_antiga"].Text = "A n t i g a"
@@ -1374,15 +1459,15 @@ Converted["_antiga"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_antiga"].Name = "antiga"
 Converted["_antiga"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner31"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner31"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner31"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner31"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner31"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner31"].Parent = Converted["_antiga"]
+Converted["_UICorner33"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner33"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner33"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner33"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner33"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner33"].Parent = Converted["_antiga"]
 
-Converted["_UITextSizeConstraint32"].MaxTextSize = 20
-Converted["_UITextSizeConstraint32"].Parent = Converted["_antiga"]
+Converted["_UITextSizeConstraint35"].MaxTextSize = 20
+Converted["_UITextSizeConstraint35"].Parent = Converted["_antiga"]
 
 Converted["_Estileira"].Font = Enum.Font.SourceSansBold
 Converted["_Estileira"].Text = "Estileira"
@@ -1401,15 +1486,15 @@ Converted["_Estileira"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Estileira"].Name = "Estileira"
 Converted["_Estileira"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner32"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner32"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner32"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner32"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner32"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner32"].Parent = Converted["_Estileira"]
+Converted["_UICorner34"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner34"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner34"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner34"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner34"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner34"].Parent = Converted["_Estileira"]
 
-Converted["_UITextSizeConstraint33"].MaxTextSize = 20
-Converted["_UITextSizeConstraint33"].Parent = Converted["_Estileira"]
+Converted["_UITextSizeConstraint36"].MaxTextSize = 20
+Converted["_UITextSizeConstraint36"].Parent = Converted["_Estileira"]
 
 Converted["_Rob�"].Font = Enum.Font.SourceSansBold
 Converted["_Rob�"].Text = "Rob�"
@@ -1428,15 +1513,15 @@ Converted["_Rob�"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Rob�"].Name = "Rob�"
 Converted["_Rob�"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner33"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner33"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner33"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner33"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner33"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner33"].Parent = Converted["_Rob�"]
+Converted["_UICorner35"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner35"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner35"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner35"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner35"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner35"].Parent = Converted["_Rob�"]
 
-Converted["_UITextSizeConstraint34"].MaxTextSize = 20
-Converted["_UITextSizeConstraint34"].Parent = Converted["_Rob�"]
+Converted["_UITextSizeConstraint37"].MaxTextSize = 20
+Converted["_UITextSizeConstraint37"].Parent = Converted["_Rob�"]
 
 Converted["_Elf"].Font = Enum.Font.SourceSans
 Converted["_Elf"].Text = "Elf erro"
@@ -1456,15 +1541,15 @@ Converted["_Elf"].Visible = false
 Converted["_Elf"].Name = "Elf"
 Converted["_Elf"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner34"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner34"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner34"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner34"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner34"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner34"].Parent = Converted["_Elf"]
+Converted["_UICorner36"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner36"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner36"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner36"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner36"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner36"].Parent = Converted["_Elf"]
 
-Converted["_UITextSizeConstraint35"].MaxTextSize = 20
-Converted["_UITextSizeConstraint35"].Parent = Converted["_Elf"]
+Converted["_UITextSizeConstraint38"].MaxTextSize = 20
+Converted["_UITextSizeConstraint38"].Parent = Converted["_Elf"]
 
 Converted["_Velho"].Font = Enum.Font.SourceSansBold
 Converted["_Velho"].Text = "Velho"
@@ -1483,15 +1568,15 @@ Converted["_Velho"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Velho"].Name = "Velho"
 Converted["_Velho"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner35"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner35"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner35"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner35"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner35"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner35"].Parent = Converted["_Velho"]
+Converted["_UICorner37"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner37"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner37"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner37"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner37"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner37"].Parent = Converted["_Velho"]
 
-Converted["_UITextSizeConstraint36"].MaxTextSize = 20
-Converted["_UITextSizeConstraint36"].Parent = Converted["_Velho"]
+Converted["_UITextSizeConstraint39"].MaxTextSize = 20
+Converted["_UITextSizeConstraint39"].Parent = Converted["_Velho"]
 
 Converted["_Walmart"].Font = Enum.Font.SourceSans
 Converted["_Walmart"].Text = "W a l m a r t   erro"
@@ -1511,15 +1596,15 @@ Converted["_Walmart"].Visible = false
 Converted["_Walmart"].Name = "Walmart"
 Converted["_Walmart"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner36"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner36"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner36"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner36"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner36"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner36"].Parent = Converted["_Walmart"]
+Converted["_UICorner38"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner38"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner38"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner38"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner38"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner38"].Parent = Converted["_Walmart"]
 
-Converted["_UITextSizeConstraint37"].MaxTextSize = 20
-Converted["_UITextSizeConstraint37"].Parent = Converted["_Walmart"]
+Converted["_UITextSizeConstraint40"].MaxTextSize = 20
+Converted["_UITextSizeConstraint40"].Parent = Converted["_Walmart"]
 
 Converted["_malvada"].Font = Enum.Font.SourceSans
 Converted["_malvada"].Text = "M a l v a d a  erro"
@@ -1539,15 +1624,15 @@ Converted["_malvada"].Visible = false
 Converted["_malvada"].Name = "malvada"
 Converted["_malvada"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner37"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner37"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner37"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner37"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner37"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner37"].Parent = Converted["_malvada"]
+Converted["_UICorner39"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner39"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner39"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner39"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner39"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner39"].Parent = Converted["_malvada"]
 
-Converted["_UITextSizeConstraint38"].MaxTextSize = 20
-Converted["_UITextSizeConstraint38"].Parent = Converted["_malvada"]
+Converted["_UITextSizeConstraint41"].MaxTextSize = 20
+Converted["_UITextSizeConstraint41"].Parent = Converted["_malvada"]
 
 Converted["_Brinquedo"].Font = Enum.Font.SourceSansBold
 Converted["_Brinquedo"].Text = "B r i n q u e d o"
@@ -1566,15 +1651,15 @@ Converted["_Brinquedo"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Brinquedo"].Name = "Brinquedo"
 Converted["_Brinquedo"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner38"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner38"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner38"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner38"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner38"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner38"].Parent = Converted["_Brinquedo"]
+Converted["_UICorner40"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner40"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner40"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner40"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner40"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner40"].Parent = Converted["_Brinquedo"]
 
-Converted["_UITextSizeConstraint39"].MaxTextSize = 20
-Converted["_UITextSizeConstraint39"].Parent = Converted["_Brinquedo"]
+Converted["_UITextSizeConstraint42"].MaxTextSize = 20
+Converted["_UITextSizeConstraint42"].Parent = Converted["_Brinquedo"]
 
 Converted["_superhero1"].Font = Enum.Font.SourceSansBold
 Converted["_superhero1"].Text = "S u p e r   h e r o"
@@ -1593,15 +1678,15 @@ Converted["_superhero1"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_superhero1"].Name = "superhero"
 Converted["_superhero1"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner39"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner39"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner39"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner39"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner39"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner39"].Parent = Converted["_superhero1"]
+Converted["_UICorner41"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner41"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner41"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner41"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner41"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner41"].Parent = Converted["_superhero1"]
 
-Converted["_UITextSizeConstraint40"].MaxTextSize = 20
-Converted["_UITextSizeConstraint40"].Parent = Converted["_superhero1"]
+Converted["_UITextSizeConstraint43"].MaxTextSize = 20
+Converted["_UITextSizeConstraint43"].Parent = Converted["_superhero1"]
 
 Converted["_Through Life"].Font = Enum.Font.SourceSans
 Converted["_Through Life"].Text = "Through Life  erro"
@@ -1621,15 +1706,15 @@ Converted["_Through Life"].Visible = false
 Converted["_Through Life"].Name = "Through Life"
 Converted["_Through Life"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner40"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner40"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner40"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner40"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner40"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner40"].Parent = Converted["_Through Life"]
+Converted["_UICorner42"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner42"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner42"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner42"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner42"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner42"].Parent = Converted["_Through Life"]
 
-Converted["_UITextSizeConstraint41"].MaxTextSize = 20
-Converted["_UITextSizeConstraint41"].Parent = Converted["_Through Life"]
+Converted["_UITextSizeConstraint44"].MaxTextSize = 20
+Converted["_UITextSizeConstraint44"].Parent = Converted["_Through Life"]
 
 Converted["_superhero2"].Font = Enum.Font.SourceSans
 Converted["_superhero2"].Text = "Billie Eilish erro"
@@ -1649,15 +1734,15 @@ Converted["_superhero2"].Visible = false
 Converted["_superhero2"].Name = "superhero"
 Converted["_superhero2"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner41"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner41"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner41"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner41"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner41"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner41"].Parent = Converted["_superhero2"]
+Converted["_UICorner43"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner43"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner43"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner43"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner43"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner43"].Parent = Converted["_superhero2"]
 
-Converted["_UITextSizeConstraint42"].MaxTextSize = 20
-Converted["_UITextSizeConstraint42"].Parent = Converted["_superhero2"]
+Converted["_UITextSizeConstraint45"].MaxTextSize = 20
+Converted["_UITextSizeConstraint45"].Parent = Converted["_superhero2"]
 
 Converted["_Glow"].Font = Enum.Font.SourceSans
 Converted["_Glow"].Text = " Glow erro"
@@ -1677,27 +1762,27 @@ Converted["_Glow"].Visible = false
 Converted["_Glow"].Name = "Glow"
 Converted["_Glow"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner42"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner42"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner42"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner42"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner42"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner42"].Parent = Converted["_Glow"]
+Converted["_UICorner44"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner44"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner44"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner44"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner44"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner44"].Parent = Converted["_Glow"]
 
-Converted["_UITextSizeConstraint43"].MaxTextSize = 20
-Converted["_UITextSizeConstraint43"].Parent = Converted["_Glow"]
+Converted["_UITextSizeConstraint46"].MaxTextSize = 20
+Converted["_UITextSizeConstraint46"].Parent = Converted["_Glow"]
 
 Converted["_UIGridLayout2"].CellPadding = UDim2.new(0.0500000007, 0, 0.0199999996, 0)
 Converted["_UIGridLayout2"].CellSize = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_UIGridLayout2"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIGridLayout2"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner43"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner43"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner43"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner43"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner43"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner43"].Parent = Converted["_anima��es"]
+Converted["_UICorner45"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner45"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner45"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner45"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner45"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner45"].Parent = Converted["_anima��es"]
 
 Converted["_UIPadding3"].PaddingBottom = UDim.new(0, 10)
 Converted["_UIPadding3"].PaddingLeft = UDim.new(0, 10)
@@ -1714,12 +1799,12 @@ Converted["_voxUp"].Visible = false
 Converted["_voxUp"].Name = "voxUp"
 Converted["_voxUp"].Parent = Converted["_mainFrame"]
 
-Converted["_UICorner44"].BottomLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner44"].BottomRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner44"].CornerRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner44"].TopLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner44"].TopRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner44"].Parent = Converted["_voxUp"]
+Converted["_UICorner46"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner46"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner46"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner46"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner46"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner46"].Parent = Converted["_voxUp"]
 
 Converted["_UIPadding4"].PaddingBottom = UDim.new(0, 10)
 Converted["_UIPadding4"].PaddingLeft = UDim.new(0, 10)
@@ -1739,12 +1824,12 @@ Converted["_RoVibes"].Size = UDim2.new(1, 0, 0.5, 0)
 Converted["_RoVibes"].Name = "RoVibes"
 Converted["_RoVibes"].Parent = Converted["_voxUp"]
 
-Converted["_UICorner45"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner45"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner45"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner45"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner45"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner45"].Parent = Converted["_RoVibes"]
+Converted["_UICorner47"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner47"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner47"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner47"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner47"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner47"].Parent = Converted["_RoVibes"]
 
 Converted["_GrimoryButton"].Font = Enum.Font.FredokaOne
 Converted["_GrimoryButton"].Text = ""
@@ -1761,62 +1846,62 @@ Converted["_GrimoryButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
 Converted["_GrimoryButton"].Name = "GrimoryButton"
 Converted["_GrimoryButton"].Parent = Converted["_RoVibes"]
 
-Converted["_UITextSizeConstraint44"].MaxTextSize = 20
-Converted["_UITextSizeConstraint44"].Parent = Converted["_GrimoryButton"]
+Converted["_UITextSizeConstraint47"].MaxTextSize = 20
+Converted["_UITextSizeConstraint47"].Parent = Converted["_GrimoryButton"]
 
-Converted["_UICorner46"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner46"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner46"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner46"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner46"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner46"].Parent = Converted["_GrimoryButton"]
+Converted["_UICorner48"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner48"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner48"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner48"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner48"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner48"].Parent = Converted["_GrimoryButton"]
 
-Converted["_TextLabel6"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel6"].Text = "Grimorio"
-Converted["_TextLabel6"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel6"].TextScaled = true
-Converted["_TextLabel6"].TextSize = 14
-Converted["_TextLabel6"].TextWrapped = true
-Converted["_TextLabel6"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_TextLabel6"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel6"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel6"].BackgroundTransparency = 1
-Converted["_TextLabel6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextLabel6"].BorderSizePixel = 0
-Converted["_TextLabel6"].Position = UDim2.new(0.280895472, 0, 0.49999997, 0)
-Converted["_TextLabel6"].Size = UDim2.new(0.482790887, 0, 0.99999994, 0)
-Converted["_TextLabel6"].Parent = Converted["_GrimoryButton"]
+Converted["_TextLabel7"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel7"].Text = "Grimorio"
+Converted["_TextLabel7"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel7"].TextScaled = true
+Converted["_TextLabel7"].TextSize = 14
+Converted["_TextLabel7"].TextWrapped = true
+Converted["_TextLabel7"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_TextLabel7"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel7"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel7"].BackgroundTransparency = 1
+Converted["_TextLabel7"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel7"].BorderSizePixel = 0
+Converted["_TextLabel7"].Position = UDim2.new(0.280895472, 0, 0.49999997, 0)
+Converted["_TextLabel7"].Size = UDim2.new(0.482790887, 0, 0.99999994, 0)
+Converted["_TextLabel7"].Parent = Converted["_GrimoryButton"]
 
-Converted["_UITextSizeConstraint45"].MaxTextSize = 30
-Converted["_UITextSizeConstraint45"].Parent = Converted["_TextLabel6"]
+Converted["_UITextSizeConstraint48"].MaxTextSize = 30
+Converted["_UITextSizeConstraint48"].Parent = Converted["_TextLabel7"]
 
-Converted["_keybutton4"].Font = Enum.Font.FredokaOne
-Converted["_keybutton4"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_keybutton4"].PlaceholderText = "-"
-Converted["_keybutton4"].Text = ""
-Converted["_keybutton4"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_keybutton4"].TextScaled = true
-Converted["_keybutton4"].TextSize = 15
-Converted["_keybutton4"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_keybutton4"].TextWrapped = true
-Converted["_keybutton4"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_keybutton4"].BackgroundColor3 = Color3.fromRGB(45.00000111758709, 53.000004440546036, 72.00000330805779)
-Converted["_keybutton4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_keybutton4"].BorderSizePixel = 0
-Converted["_keybutton4"].Position = UDim2.new(0.850000024, 0, 0.5, 0)
-Converted["_keybutton4"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
-Converted["_keybutton4"].Name = "keybutton"
-Converted["_keybutton4"].Parent = Converted["_GrimoryButton"]
+Converted["_keybutton5"].Font = Enum.Font.FredokaOne
+Converted["_keybutton5"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton5"].PlaceholderText = "-"
+Converted["_keybutton5"].Text = ""
+Converted["_keybutton5"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton5"].TextScaled = true
+Converted["_keybutton5"].TextSize = 15
+Converted["_keybutton5"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton5"].TextWrapped = true
+Converted["_keybutton5"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_keybutton5"].BackgroundColor3 = Color3.fromRGB(45.00000111758709, 53.000004440546036, 72.00000330805779)
+Converted["_keybutton5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_keybutton5"].BorderSizePixel = 0
+Converted["_keybutton5"].Position = UDim2.new(0.850000024, 0, 0.5, 0)
+Converted["_keybutton5"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
+Converted["_keybutton5"].Name = "keybutton"
+Converted["_keybutton5"].Parent = Converted["_GrimoryButton"]
 
-Converted["_UICorner47"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner47"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner47"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner47"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner47"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner47"].Parent = Converted["_keybutton4"]
+Converted["_UICorner49"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner49"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner49"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner49"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner49"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner49"].Parent = Converted["_keybutton5"]
 
-Converted["_UITextSizeConstraint46"].MaxTextSize = 15
-Converted["_UITextSizeConstraint46"].Parent = Converted["_keybutton4"]
+Converted["_UITextSizeConstraint49"].MaxTextSize = 15
+Converted["_UITextSizeConstraint49"].Parent = Converted["_keybutton5"]
 
 Converted["_UIGridLayout3"].CellPadding = UDim2.new(0.0199999996, 0, 0.0199999996, 0)
 Converted["_UIGridLayout3"].CellSize = UDim2.new(0.49000001, 0, 0.0599999987, 0)
@@ -1844,90 +1929,18 @@ Converted["_CandyButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
 Converted["_CandyButton"].Name = "CandyButton"
 Converted["_CandyButton"].Parent = Converted["_RoVibes"]
 
-Converted["_UITextSizeConstraint47"].MaxTextSize = 20
-Converted["_UITextSizeConstraint47"].Parent = Converted["_CandyButton"]
-
-Converted["_UICorner48"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner48"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner48"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner48"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner48"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner48"].Parent = Converted["_CandyButton"]
-
-Converted["_TextLabel7"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel7"].Text = "Candy"
-Converted["_TextLabel7"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel7"].TextScaled = true
-Converted["_TextLabel7"].TextSize = 14
-Converted["_TextLabel7"].TextWrapped = true
-Converted["_TextLabel7"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_TextLabel7"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel7"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel7"].BackgroundTransparency = 1
-Converted["_TextLabel7"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextLabel7"].BorderSizePixel = 0
-Converted["_TextLabel7"].Position = UDim2.new(0.200000003, 0, 0.5, 0)
-Converted["_TextLabel7"].Size = UDim2.new(0.32100001, 0, 1, 0)
-Converted["_TextLabel7"].Parent = Converted["_CandyButton"]
-
-Converted["_UITextSizeConstraint48"].MaxTextSize = 30
-Converted["_UITextSizeConstraint48"].Parent = Converted["_TextLabel7"]
-
-Converted["_keybutton5"].Font = Enum.Font.FredokaOne
-Converted["_keybutton5"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_keybutton5"].PlaceholderText = "-"
-Converted["_keybutton5"].Text = ""
-Converted["_keybutton5"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_keybutton5"].TextScaled = true
-Converted["_keybutton5"].TextSize = 15
-Converted["_keybutton5"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_keybutton5"].TextWrapped = true
-Converted["_keybutton5"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_keybutton5"].BackgroundColor3 = Color3.fromRGB(45.00000111758709, 53.000004440546036, 72.00000330805779)
-Converted["_keybutton5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_keybutton5"].BorderSizePixel = 0
-Converted["_keybutton5"].Position = UDim2.new(0.850000024, 0, 0.5, 0)
-Converted["_keybutton5"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
-Converted["_keybutton5"].Name = "keybutton"
-Converted["_keybutton5"].Parent = Converted["_CandyButton"]
-
-Converted["_UICorner49"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner49"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner49"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner49"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner49"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner49"].Parent = Converted["_keybutton5"]
-
-Converted["_UITextSizeConstraint49"].MaxTextSize = 15
-Converted["_UITextSizeConstraint49"].Parent = Converted["_keybutton5"]
-
-Converted["_BoneButton"].Font = Enum.Font.FredokaOne
-Converted["_BoneButton"].Text = ""
-Converted["_BoneButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_BoneButton"].TextScaled = true
-Converted["_BoneButton"].TextSize = 14
-Converted["_BoneButton"].TextWrapped = true
-Converted["_BoneButton"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_BoneButton"].BackgroundColor3 = Color3.fromRGB(78.00000295042992, 91.00000217556953, 124.00000780820847)
-Converted["_BoneButton"].BorderColor3 = Color3.fromRGB(53.00000064074993, 61.00000016391277, 84.00000259280205)
-Converted["_BoneButton"].BorderSizePixel = 0
-Converted["_BoneButton"].Position = UDim2.new(0.538863838, 0, 0.148967803, 0)
-Converted["_BoneButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
-Converted["_BoneButton"].Name = "BoneButton"
-Converted["_BoneButton"].Parent = Converted["_RoVibes"]
-
 Converted["_UITextSizeConstraint50"].MaxTextSize = 20
-Converted["_UITextSizeConstraint50"].Parent = Converted["_BoneButton"]
+Converted["_UITextSizeConstraint50"].Parent = Converted["_CandyButton"]
 
 Converted["_UICorner50"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner50"].BottomRightRadius = UDim.new(0, 9)
 Converted["_UICorner50"].CornerRadius = UDim.new(0, 9)
 Converted["_UICorner50"].TopLeftRadius = UDim.new(0, 9)
 Converted["_UICorner50"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner50"].Parent = Converted["_BoneButton"]
+Converted["_UICorner50"].Parent = Converted["_CandyButton"]
 
 Converted["_TextLabel8"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel8"].Text = "Osso"
+Converted["_TextLabel8"].Text = "Candy"
 Converted["_TextLabel8"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel8"].TextScaled = true
 Converted["_TextLabel8"].TextSize = 14
@@ -1938,9 +1951,9 @@ Converted["_TextLabel8"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel8"].BackgroundTransparency = 1
 Converted["_TextLabel8"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel8"].BorderSizePixel = 0
-Converted["_TextLabel8"].Position = UDim2.new(0.280895472, 0, 0.49999997, 0)
-Converted["_TextLabel8"].Size = UDim2.new(0.482790887, 0, 0.99999994, 0)
-Converted["_TextLabel8"].Parent = Converted["_BoneButton"]
+Converted["_TextLabel8"].Position = UDim2.new(0.200000003, 0, 0.5, 0)
+Converted["_TextLabel8"].Size = UDim2.new(0.32100001, 0, 1, 0)
+Converted["_TextLabel8"].Parent = Converted["_CandyButton"]
 
 Converted["_UITextSizeConstraint51"].MaxTextSize = 30
 Converted["_UITextSizeConstraint51"].Parent = Converted["_TextLabel8"]
@@ -1961,7 +1974,7 @@ Converted["_keybutton6"].BorderSizePixel = 0
 Converted["_keybutton6"].Position = UDim2.new(0.850000024, 0, 0.5, 0)
 Converted["_keybutton6"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
 Converted["_keybutton6"].Name = "keybutton"
-Converted["_keybutton6"].Parent = Converted["_BoneButton"]
+Converted["_keybutton6"].Parent = Converted["_CandyButton"]
 
 Converted["_UICorner51"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner51"].BottomRightRadius = UDim.new(0, 9)
@@ -1973,33 +1986,33 @@ Converted["_UICorner51"].Parent = Converted["_keybutton6"]
 Converted["_UITextSizeConstraint52"].MaxTextSize = 15
 Converted["_UITextSizeConstraint52"].Parent = Converted["_keybutton6"]
 
-Converted["_LoboButton"].Font = Enum.Font.FredokaOne
-Converted["_LoboButton"].Text = ""
-Converted["_LoboButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_LoboButton"].TextScaled = true
-Converted["_LoboButton"].TextSize = 14
-Converted["_LoboButton"].TextWrapped = true
-Converted["_LoboButton"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_LoboButton"].BackgroundColor3 = Color3.fromRGB(78.00000295042992, 91.00000217556953, 124.00000780820847)
-Converted["_LoboButton"].BorderColor3 = Color3.fromRGB(53.00000064074993, 61.00000016391277, 84.00000259280205)
-Converted["_LoboButton"].BorderSizePixel = 0
-Converted["_LoboButton"].Position = UDim2.new(0.538863838, 0, 0.148967803, 0)
-Converted["_LoboButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
-Converted["_LoboButton"].Name = "LoboButton"
-Converted["_LoboButton"].Parent = Converted["_RoVibes"]
+Converted["_BoneButton"].Font = Enum.Font.FredokaOne
+Converted["_BoneButton"].Text = ""
+Converted["_BoneButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_BoneButton"].TextScaled = true
+Converted["_BoneButton"].TextSize = 14
+Converted["_BoneButton"].TextWrapped = true
+Converted["_BoneButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_BoneButton"].BackgroundColor3 = Color3.fromRGB(78.00000295042992, 91.00000217556953, 124.00000780820847)
+Converted["_BoneButton"].BorderColor3 = Color3.fromRGB(53.00000064074993, 61.00000016391277, 84.00000259280205)
+Converted["_BoneButton"].BorderSizePixel = 0
+Converted["_BoneButton"].Position = UDim2.new(0.538863838, 0, 0.148967803, 0)
+Converted["_BoneButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
+Converted["_BoneButton"].Name = "BoneButton"
+Converted["_BoneButton"].Parent = Converted["_RoVibes"]
 
 Converted["_UITextSizeConstraint53"].MaxTextSize = 20
-Converted["_UITextSizeConstraint53"].Parent = Converted["_LoboButton"]
+Converted["_UITextSizeConstraint53"].Parent = Converted["_BoneButton"]
 
 Converted["_UICorner52"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner52"].BottomRightRadius = UDim.new(0, 9)
 Converted["_UICorner52"].CornerRadius = UDim.new(0, 9)
 Converted["_UICorner52"].TopLeftRadius = UDim.new(0, 9)
 Converted["_UICorner52"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner52"].Parent = Converted["_LoboButton"]
+Converted["_UICorner52"].Parent = Converted["_BoneButton"]
 
 Converted["_TextLabel9"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel9"].Text = "Lobo"
+Converted["_TextLabel9"].Text = "Osso"
 Converted["_TextLabel9"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel9"].TextScaled = true
 Converted["_TextLabel9"].TextSize = 14
@@ -2012,7 +2025,7 @@ Converted["_TextLabel9"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel9"].BorderSizePixel = 0
 Converted["_TextLabel9"].Position = UDim2.new(0.280895472, 0, 0.49999997, 0)
 Converted["_TextLabel9"].Size = UDim2.new(0.482790887, 0, 0.99999994, 0)
-Converted["_TextLabel9"].Parent = Converted["_LoboButton"]
+Converted["_TextLabel9"].Parent = Converted["_BoneButton"]
 
 Converted["_UITextSizeConstraint54"].MaxTextSize = 30
 Converted["_UITextSizeConstraint54"].Parent = Converted["_TextLabel9"]
@@ -2033,7 +2046,7 @@ Converted["_keybutton7"].BorderSizePixel = 0
 Converted["_keybutton7"].Position = UDim2.new(0.850000024, 0, 0.5, 0)
 Converted["_keybutton7"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
 Converted["_keybutton7"].Name = "keybutton"
-Converted["_keybutton7"].Parent = Converted["_LoboButton"]
+Converted["_keybutton7"].Parent = Converted["_BoneButton"]
 
 Converted["_UICorner53"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner53"].BottomRightRadius = UDim.new(0, 9)
@@ -2045,33 +2058,33 @@ Converted["_UICorner53"].Parent = Converted["_keybutton7"]
 Converted["_UITextSizeConstraint55"].MaxTextSize = 15
 Converted["_UITextSizeConstraint55"].Parent = Converted["_keybutton7"]
 
-Converted["_LuckButton"].Font = Enum.Font.FredokaOne
-Converted["_LuckButton"].Text = ""
-Converted["_LuckButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_LuckButton"].TextScaled = true
-Converted["_LuckButton"].TextSize = 14
-Converted["_LuckButton"].TextWrapped = true
-Converted["_LuckButton"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_LuckButton"].BackgroundColor3 = Color3.fromRGB(78.00000295042992, 91.00000217556953, 124.00000780820847)
-Converted["_LuckButton"].BorderColor3 = Color3.fromRGB(53.00000064074993, 61.00000016391277, 84.00000259280205)
-Converted["_LuckButton"].BorderSizePixel = 0
-Converted["_LuckButton"].Position = UDim2.new(0.538863838, 0, 0.148967803, 0)
-Converted["_LuckButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
-Converted["_LuckButton"].Name = "LuckButton"
-Converted["_LuckButton"].Parent = Converted["_RoVibes"]
+Converted["_LoboButton"].Font = Enum.Font.FredokaOne
+Converted["_LoboButton"].Text = ""
+Converted["_LoboButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_LoboButton"].TextScaled = true
+Converted["_LoboButton"].TextSize = 14
+Converted["_LoboButton"].TextWrapped = true
+Converted["_LoboButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_LoboButton"].BackgroundColor3 = Color3.fromRGB(78.00000295042992, 91.00000217556953, 124.00000780820847)
+Converted["_LoboButton"].BorderColor3 = Color3.fromRGB(53.00000064074993, 61.00000016391277, 84.00000259280205)
+Converted["_LoboButton"].BorderSizePixel = 0
+Converted["_LoboButton"].Position = UDim2.new(0.538863838, 0, 0.148967803, 0)
+Converted["_LoboButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
+Converted["_LoboButton"].Name = "LoboButton"
+Converted["_LoboButton"].Parent = Converted["_RoVibes"]
 
 Converted["_UITextSizeConstraint56"].MaxTextSize = 20
-Converted["_UITextSizeConstraint56"].Parent = Converted["_LuckButton"]
+Converted["_UITextSizeConstraint56"].Parent = Converted["_LoboButton"]
 
 Converted["_UICorner54"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner54"].BottomRightRadius = UDim.new(0, 9)
 Converted["_UICorner54"].CornerRadius = UDim.new(0, 9)
 Converted["_UICorner54"].TopLeftRadius = UDim.new(0, 9)
 Converted["_UICorner54"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner54"].Parent = Converted["_LuckButton"]
+Converted["_UICorner54"].Parent = Converted["_LoboButton"]
 
 Converted["_TextLabel10"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel10"].Text = "Luck block"
+Converted["_TextLabel10"].Text = "Lobo"
 Converted["_TextLabel10"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel10"].TextScaled = true
 Converted["_TextLabel10"].TextSize = 14
@@ -2082,9 +2095,9 @@ Converted["_TextLabel10"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel10"].BackgroundTransparency = 1
 Converted["_TextLabel10"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel10"].BorderSizePixel = 0
-Converted["_TextLabel10"].Position = UDim2.new(0.317252457, 0, 0.499999911, 0)
-Converted["_TextLabel10"].Size = UDim2.new(0.555504918, 0, 0.999999821, 0)
-Converted["_TextLabel10"].Parent = Converted["_LuckButton"]
+Converted["_TextLabel10"].Position = UDim2.new(0.280895472, 0, 0.49999997, 0)
+Converted["_TextLabel10"].Size = UDim2.new(0.482790887, 0, 0.99999994, 0)
+Converted["_TextLabel10"].Parent = Converted["_LoboButton"]
 
 Converted["_UITextSizeConstraint57"].MaxTextSize = 30
 Converted["_UITextSizeConstraint57"].Parent = Converted["_TextLabel10"]
@@ -2105,7 +2118,7 @@ Converted["_keybutton8"].BorderSizePixel = 0
 Converted["_keybutton8"].Position = UDim2.new(0.850000024, 0, 0.5, 0)
 Converted["_keybutton8"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
 Converted["_keybutton8"].Name = "keybutton"
-Converted["_keybutton8"].Parent = Converted["_LuckButton"]
+Converted["_keybutton8"].Parent = Converted["_LoboButton"]
 
 Converted["_UICorner55"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner55"].BottomRightRadius = UDim.new(0, 9)
@@ -2117,27 +2130,85 @@ Converted["_UICorner55"].Parent = Converted["_keybutton8"]
 Converted["_UITextSizeConstraint58"].MaxTextSize = 15
 Converted["_UITextSizeConstraint58"].Parent = Converted["_keybutton8"]
 
+Converted["_LuckButton"].Font = Enum.Font.FredokaOne
+Converted["_LuckButton"].Text = ""
+Converted["_LuckButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_LuckButton"].TextScaled = true
+Converted["_LuckButton"].TextSize = 14
+Converted["_LuckButton"].TextWrapped = true
+Converted["_LuckButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_LuckButton"].BackgroundColor3 = Color3.fromRGB(78.00000295042992, 91.00000217556953, 124.00000780820847)
+Converted["_LuckButton"].BorderColor3 = Color3.fromRGB(53.00000064074993, 61.00000016391277, 84.00000259280205)
+Converted["_LuckButton"].BorderSizePixel = 0
+Converted["_LuckButton"].Position = UDim2.new(0.538863838, 0, 0.148967803, 0)
+Converted["_LuckButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
+Converted["_LuckButton"].Name = "LuckButton"
+Converted["_LuckButton"].Parent = Converted["_RoVibes"]
+
+Converted["_UITextSizeConstraint59"].MaxTextSize = 20
+Converted["_UITextSizeConstraint59"].Parent = Converted["_LuckButton"]
+
+Converted["_UICorner56"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner56"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner56"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner56"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner56"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner56"].Parent = Converted["_LuckButton"]
+
+Converted["_TextLabel11"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel11"].Text = "Luck block"
+Converted["_TextLabel11"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel11"].TextScaled = true
+Converted["_TextLabel11"].TextSize = 14
+Converted["_TextLabel11"].TextWrapped = true
+Converted["_TextLabel11"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_TextLabel11"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel11"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel11"].BackgroundTransparency = 1
+Converted["_TextLabel11"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel11"].BorderSizePixel = 0
+Converted["_TextLabel11"].Position = UDim2.new(0.317252457, 0, 0.499999911, 0)
+Converted["_TextLabel11"].Size = UDim2.new(0.555504918, 0, 0.999999821, 0)
+Converted["_TextLabel11"].Parent = Converted["_LuckButton"]
+
+Converted["_UITextSizeConstraint60"].MaxTextSize = 30
+Converted["_UITextSizeConstraint60"].Parent = Converted["_TextLabel11"]
+
+Converted["_keybutton9"].Font = Enum.Font.FredokaOne
+Converted["_keybutton9"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton9"].PlaceholderText = "-"
+Converted["_keybutton9"].Text = ""
+Converted["_keybutton9"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton9"].TextScaled = true
+Converted["_keybutton9"].TextSize = 15
+Converted["_keybutton9"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton9"].TextWrapped = true
+Converted["_keybutton9"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_keybutton9"].BackgroundColor3 = Color3.fromRGB(45.00000111758709, 53.000004440546036, 72.00000330805779)
+Converted["_keybutton9"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_keybutton9"].BorderSizePixel = 0
+Converted["_keybutton9"].Position = UDim2.new(0.850000024, 0, 0.5, 0)
+Converted["_keybutton9"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
+Converted["_keybutton9"].Name = "keybutton"
+Converted["_keybutton9"].Parent = Converted["_LuckButton"]
+
+Converted["_UICorner57"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner57"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner57"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner57"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner57"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner57"].Parent = Converted["_keybutton9"]
+
+Converted["_UITextSizeConstraint61"].MaxTextSize = 15
+Converted["_UITextSizeConstraint61"].Parent = Converted["_keybutton9"]
+
 Converted["_UIListLayout1"].Padding = UDim.new(0.00999999978, 0)
 Converted["_UIListLayout1"].HorizontalAlignment = Enum.HorizontalAlignment.Center
 Converted["_UIListLayout1"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIListLayout1"].Parent = Converted["_voxUp"]
 
-Converted["_TextLabel11"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel11"].Text = "Ro-Vibes"
-Converted["_TextLabel11"].TextColor3 = Color3.fromRGB(37.00000159442425, 98.00000175833702, 234.00000125169754)
-Converted["_TextLabel11"].TextScaled = true
-Converted["_TextLabel11"].TextSize = 14
-Converted["_TextLabel11"].TextWrapped = true
-Converted["_TextLabel11"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel11"].BackgroundTransparency = 1
-Converted["_TextLabel11"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextLabel11"].BorderSizePixel = 0
-Converted["_TextLabel11"].LayoutOrder = 1
-Converted["_TextLabel11"].Size = UDim2.new(0.464120686, 0, 0.131406635, 0)
-Converted["_TextLabel11"].Parent = Converted["_voxUp"]
-
 Converted["_TextLabel12"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel12"].Text = "Em breve"
+Converted["_TextLabel12"].Text = "Ro-Vibes"
 Converted["_TextLabel12"].TextColor3 = Color3.fromRGB(37.00000159442425, 98.00000175833702, 234.00000125169754)
 Converted["_TextLabel12"].TextScaled = true
 Converted["_TextLabel12"].TextSize = 14
@@ -2146,9 +2217,23 @@ Converted["_TextLabel12"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel12"].BackgroundTransparency = 1
 Converted["_TextLabel12"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel12"].BorderSizePixel = 0
-Converted["_TextLabel12"].LayoutOrder = 3
+Converted["_TextLabel12"].LayoutOrder = 1
 Converted["_TextLabel12"].Size = UDim2.new(0.464120686, 0, 0.131406635, 0)
 Converted["_TextLabel12"].Parent = Converted["_voxUp"]
+
+Converted["_TextLabel13"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel13"].Text = "Em breve"
+Converted["_TextLabel13"].TextColor3 = Color3.fromRGB(37.00000159442425, 98.00000175833702, 234.00000125169754)
+Converted["_TextLabel13"].TextScaled = true
+Converted["_TextLabel13"].TextSize = 14
+Converted["_TextLabel13"].TextWrapped = true
+Converted["_TextLabel13"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel13"].BackgroundTransparency = 1
+Converted["_TextLabel13"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel13"].BorderSizePixel = 0
+Converted["_TextLabel13"].LayoutOrder = 3
+Converted["_TextLabel13"].Size = UDim2.new(0.464120686, 0, 0.131406635, 0)
+Converted["_TextLabel13"].Parent = Converted["_voxUp"]
 
 Converted["_stalker"].BackgroundColor3 = Color3.fromRGB(24.000000469386578, 30.00000011175871, 45.00000111758709)
 Converted["_stalker"].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -2177,22 +2262,22 @@ Converted["_SeachBox"].Size = UDim2.new(0.962783277, 0, 0.0751087666, 0)
 Converted["_SeachBox"].Name = "SeachBox"
 Converted["_SeachBox"].Parent = Converted["_stalker"]
 
-Converted["_UITextSizeConstraint59"].MaxTextSize = 20
-Converted["_UITextSizeConstraint59"].Parent = Converted["_SeachBox"]
+Converted["_UITextSizeConstraint62"].MaxTextSize = 20
+Converted["_UITextSizeConstraint62"].Parent = Converted["_SeachBox"]
 
-Converted["_UICorner56"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner56"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner56"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner56"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner56"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner56"].Parent = Converted["_SeachBox"]
+Converted["_UICorner58"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner58"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner58"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner58"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner58"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner58"].Parent = Converted["_SeachBox"]
 
-Converted["_UICorner57"].BottomLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner57"].BottomRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner57"].CornerRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner57"].TopLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner57"].TopRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner57"].Parent = Converted["_stalker"]
+Converted["_UICorner59"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner59"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner59"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner59"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner59"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner59"].Parent = Converted["_stalker"]
 
 Converted["_Cmds"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Cmds"].BackgroundTransparency = 1
@@ -2218,15 +2303,15 @@ Converted["_verButton"].Size = UDim2.new(0.287284046, 0, 0.17749913, 0)
 Converted["_verButton"].Name = "verButton"
 Converted["_verButton"].Parent = Converted["_Cmds"]
 
-Converted["_UICorner58"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner58"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner58"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner58"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner58"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner58"].Parent = Converted["_verButton"]
+Converted["_UICorner60"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner60"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner60"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner60"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner60"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner60"].Parent = Converted["_verButton"]
 
-Converted["_UITextSizeConstraint60"].MaxTextSize = 20
-Converted["_UITextSizeConstraint60"].Parent = Converted["_verButton"]
+Converted["_UITextSizeConstraint63"].MaxTextSize = 20
+Converted["_UITextSizeConstraint63"].Parent = Converted["_verButton"]
 
 Converted["_syncButton"].Font = Enum.Font.FredokaOne
 Converted["_syncButton"].Text = "sync emote"
@@ -2243,15 +2328,15 @@ Converted["_syncButton"].Size = UDim2.new(0.287284046, 0, 0.17749913, 0)
 Converted["_syncButton"].Name = "syncButton"
 Converted["_syncButton"].Parent = Converted["_Cmds"]
 
-Converted["_UICorner59"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner59"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner59"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner59"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner59"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner59"].Parent = Converted["_syncButton"]
+Converted["_UICorner61"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner61"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner61"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner61"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner61"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner61"].Parent = Converted["_syncButton"]
 
-Converted["_UITextSizeConstraint61"].MaxTextSize = 20
-Converted["_UITextSizeConstraint61"].Parent = Converted["_syncButton"]
+Converted["_UITextSizeConstraint64"].MaxTextSize = 20
+Converted["_UITextSizeConstraint64"].Parent = Converted["_syncButton"]
 
 Converted["_TpButton"].Font = Enum.Font.FredokaOne
 Converted["_TpButton"].Text = "TP"
@@ -2268,15 +2353,15 @@ Converted["_TpButton"].Size = UDim2.new(0.287284046, 0, 0.17749913, 0)
 Converted["_TpButton"].Name = "TpButton"
 Converted["_TpButton"].Parent = Converted["_Cmds"]
 
-Converted["_UICorner60"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner60"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner60"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner60"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner60"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner60"].Parent = Converted["_TpButton"]
+Converted["_UICorner62"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner62"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner62"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner62"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner62"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner62"].Parent = Converted["_TpButton"]
 
-Converted["_UITextSizeConstraint62"].MaxTextSize = 20
-Converted["_UITextSizeConstraint62"].Parent = Converted["_TpButton"]
+Converted["_UITextSizeConstraint65"].MaxTextSize = 20
+Converted["_UITextSizeConstraint65"].Parent = Converted["_TpButton"]
 
 Converted["_UIGridLayout4"].CellPadding = UDim2.new(0.00999999978, 0, 0.0199999996, 0)
 Converted["_UIGridLayout4"].CellSize = UDim2.new(0.241999999, 0, 0.200000003, 0)
@@ -2298,15 +2383,15 @@ Converted["_carinhoButton"].Size = UDim2.new(0.287284046, 0, 0.17749913, 0)
 Converted["_carinhoButton"].Name = "carinhoButton"
 Converted["_carinhoButton"].Parent = Converted["_Cmds"]
 
-Converted["_UICorner61"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner61"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner61"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner61"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner61"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner61"].Parent = Converted["_carinhoButton"]
+Converted["_UICorner63"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner63"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner63"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner63"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner63"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner63"].Parent = Converted["_carinhoButton"]
 
-Converted["_UITextSizeConstraint63"].MaxTextSize = 20
-Converted["_UITextSizeConstraint63"].Parent = Converted["_carinhoButton"]
+Converted["_UITextSizeConstraint66"].MaxTextSize = 20
+Converted["_UITextSizeConstraint66"].Parent = Converted["_carinhoButton"]
 
 Converted["_UIPadding6"].PaddingBottom = UDim.new(0, 10)
 Converted["_UIPadding6"].PaddingLeft = UDim.new(0, 10)
@@ -2339,12 +2424,12 @@ Converted["_Banner"].Visible = false
 Converted["_Banner"].Name = "Banner"
 Converted["_Banner"].Parent = Converted["_Lista"]
 
-Converted["_UICorner62"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner62"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner62"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner62"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner62"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner62"].Parent = Converted["_Banner"]
+Converted["_UICorner64"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner64"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner64"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner64"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner64"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner64"].Parent = Converted["_Banner"]
 
 Converted["_UIPadding7"].PaddingBottom = UDim.new(0, 10)
 Converted["_UIPadding7"].PaddingLeft = UDim.new(0, 10)
@@ -2357,12 +2442,12 @@ Converted["_UIGridLayout5"].CellSize = UDim2.new(0.49000001, 0, 0.0700000003, 0)
 Converted["_UIGridLayout5"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIGridLayout5"].Parent = Converted["_Lista"]
 
-Converted["_UICorner63"].BottomLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner63"].BottomRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner63"].CornerRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner63"].TopLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner63"].TopRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner63"].Parent = Converted["_mainFrame"]
+Converted["_UICorner65"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner65"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner65"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner65"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner65"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner65"].Parent = Converted["_mainFrame"]
 
 Converted["_menu"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_menu"].BackgroundColor3 = Color3.fromRGB(24.000000469386578, 30.00000011175871, 45.00000111758709)
@@ -2373,12 +2458,12 @@ Converted["_menu"].Size = UDim2.new(0.280085951, 0, 0.808737814, 0)
 Converted["_menu"].Name = "menu"
 Converted["_menu"].Parent = Converted["_mainFrame"]
 
-Converted["_UICorner64"].BottomLeftRadius = UDim.new(0.0500000007, 0)
-Converted["_UICorner64"].BottomRightRadius = UDim.new(0.0500000007, 0)
-Converted["_UICorner64"].CornerRadius = UDim.new(0.0500000007, 0)
-Converted["_UICorner64"].TopLeftRadius = UDim.new(0.0500000007, 0)
-Converted["_UICorner64"].TopRightRadius = UDim.new(0.0500000007, 0)
-Converted["_UICorner64"].Parent = Converted["_menu"]
+Converted["_UICorner66"].BottomLeftRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner66"].BottomRightRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner66"].CornerRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner66"].TopLeftRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner66"].TopRightRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner66"].Parent = Converted["_menu"]
 
 Converted["_voxupButton"].Font = Enum.Font.FredokaOne
 Converted["_voxupButton"].Text = ""
@@ -2398,30 +2483,30 @@ Converted["_voxupButton"].ZIndex = 2
 Converted["_voxupButton"].Name = "voxupButton"
 Converted["_voxupButton"].Parent = Converted["_menu"]
 
-Converted["_UICorner65"].BottomLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner65"].BottomRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner65"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner65"].TopLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner65"].TopRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner65"].Parent = Converted["_voxupButton"]
+Converted["_UICorner67"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner67"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner67"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner67"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner67"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner67"].Parent = Converted["_voxupButton"]
 
-Converted["_UITextSizeConstraint64"].MaxTextSize = 25
-Converted["_UITextSizeConstraint64"].Parent = Converted["_voxupButton"]
+Converted["_UITextSizeConstraint67"].MaxTextSize = 25
+Converted["_UITextSizeConstraint67"].Parent = Converted["_voxupButton"]
 
-Converted["_TextLabel13"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel13"].Text = "Jogos"
-Converted["_TextLabel13"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel13"].TextScaled = true
-Converted["_TextLabel13"].TextSize = 14
-Converted["_TextLabel13"].TextWrapped = true
-Converted["_TextLabel13"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel13"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel13"].BackgroundTransparency = 1
-Converted["_TextLabel13"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextLabel13"].BorderSizePixel = 0
-Converted["_TextLabel13"].Position = UDim2.new(0.5, 0, 0.5, 0)
-Converted["_TextLabel13"].Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
-Converted["_TextLabel13"].Parent = Converted["_voxupButton"]
+Converted["_TextLabel14"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel14"].Text = "Jogos"
+Converted["_TextLabel14"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel14"].TextScaled = true
+Converted["_TextLabel14"].TextSize = 14
+Converted["_TextLabel14"].TextWrapped = true
+Converted["_TextLabel14"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel14"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel14"].BackgroundTransparency = 1
+Converted["_TextLabel14"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel14"].BorderSizePixel = 0
+Converted["_TextLabel14"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_TextLabel14"].Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
+Converted["_TextLabel14"].Parent = Converted["_voxupButton"]
 
 Converted["_stalkerButton"].Font = Enum.Font.FredokaOne
 Converted["_stalkerButton"].Text = ""
@@ -2441,30 +2526,30 @@ Converted["_stalkerButton"].ZIndex = 2
 Converted["_stalkerButton"].Name = "stalkerButton"
 Converted["_stalkerButton"].Parent = Converted["_menu"]
 
-Converted["_UICorner66"].BottomLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner66"].BottomRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner66"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner66"].TopLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner66"].TopRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner66"].Parent = Converted["_stalkerButton"]
+Converted["_UICorner68"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner68"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner68"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner68"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner68"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner68"].Parent = Converted["_stalkerButton"]
 
-Converted["_UITextSizeConstraint65"].MaxTextSize = 25
-Converted["_UITextSizeConstraint65"].Parent = Converted["_stalkerButton"]
+Converted["_UITextSizeConstraint68"].MaxTextSize = 25
+Converted["_UITextSizeConstraint68"].Parent = Converted["_stalkerButton"]
 
-Converted["_TextLabel14"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel14"].Text = "stalker"
-Converted["_TextLabel14"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel14"].TextScaled = true
-Converted["_TextLabel14"].TextSize = 14
-Converted["_TextLabel14"].TextWrapped = true
-Converted["_TextLabel14"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel14"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel14"].BackgroundTransparency = 1
-Converted["_TextLabel14"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextLabel14"].BorderSizePixel = 0
-Converted["_TextLabel14"].Position = UDim2.new(0.5, 0, 0.5, 0)
-Converted["_TextLabel14"].Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
-Converted["_TextLabel14"].Parent = Converted["_stalkerButton"]
+Converted["_TextLabel15"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel15"].Text = "stalker"
+Converted["_TextLabel15"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel15"].TextScaled = true
+Converted["_TextLabel15"].TextSize = 14
+Converted["_TextLabel15"].TextWrapped = true
+Converted["_TextLabel15"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel15"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel15"].BackgroundTransparency = 1
+Converted["_TextLabel15"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel15"].BorderSizePixel = 0
+Converted["_TextLabel15"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_TextLabel15"].Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
+Converted["_TextLabel15"].Parent = Converted["_stalkerButton"]
 
 Converted["_animaButton"].Font = Enum.Font.FredokaOne
 Converted["_animaButton"].Text = ""
@@ -2484,30 +2569,30 @@ Converted["_animaButton"].ZIndex = 2
 Converted["_animaButton"].Name = "animaButton"
 Converted["_animaButton"].Parent = Converted["_menu"]
 
-Converted["_UICorner67"].BottomLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner67"].BottomRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner67"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner67"].TopLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner67"].TopRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner67"].Parent = Converted["_animaButton"]
+Converted["_UICorner69"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner69"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner69"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner69"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner69"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner69"].Parent = Converted["_animaButton"]
 
-Converted["_UITextSizeConstraint66"].MaxTextSize = 25
-Converted["_UITextSizeConstraint66"].Parent = Converted["_animaButton"]
+Converted["_UITextSizeConstraint69"].MaxTextSize = 25
+Converted["_UITextSizeConstraint69"].Parent = Converted["_animaButton"]
 
-Converted["_TextLabel15"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel15"].Text = "Poses"
-Converted["_TextLabel15"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel15"].TextScaled = true
-Converted["_TextLabel15"].TextSize = 14
-Converted["_TextLabel15"].TextWrapped = true
-Converted["_TextLabel15"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel15"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel15"].BackgroundTransparency = 1
-Converted["_TextLabel15"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextLabel15"].BorderSizePixel = 0
-Converted["_TextLabel15"].Position = UDim2.new(0.5, 0, 0.5, 0)
-Converted["_TextLabel15"].Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
-Converted["_TextLabel15"].Parent = Converted["_animaButton"]
+Converted["_TextLabel16"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel16"].Text = "Poses"
+Converted["_TextLabel16"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel16"].TextScaled = true
+Converted["_TextLabel16"].TextSize = 14
+Converted["_TextLabel16"].TextWrapped = true
+Converted["_TextLabel16"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel16"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel16"].BackgroundTransparency = 1
+Converted["_TextLabel16"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel16"].BorderSizePixel = 0
+Converted["_TextLabel16"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_TextLabel16"].Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
+Converted["_TextLabel16"].Parent = Converted["_animaButton"]
 
 Converted["_MoviButton"].Font = Enum.Font.FredokaOne
 Converted["_MoviButton"].Text = ""
@@ -2527,30 +2612,30 @@ Converted["_MoviButton"].ZIndex = 2
 Converted["_MoviButton"].Name = "MoviButton"
 Converted["_MoviButton"].Parent = Converted["_menu"]
 
-Converted["_UICorner68"].BottomLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner68"].BottomRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner68"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner68"].TopLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner68"].TopRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner68"].Parent = Converted["_MoviButton"]
+Converted["_UICorner70"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner70"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner70"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner70"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner70"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner70"].Parent = Converted["_MoviButton"]
 
-Converted["_UITextSizeConstraint67"].MaxTextSize = 25
-Converted["_UITextSizeConstraint67"].Parent = Converted["_MoviButton"]
+Converted["_UITextSizeConstraint70"].MaxTextSize = 25
+Converted["_UITextSizeConstraint70"].Parent = Converted["_MoviButton"]
 
-Converted["_TextLabel16"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel16"].Text = "movimento"
-Converted["_TextLabel16"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel16"].TextScaled = true
-Converted["_TextLabel16"].TextSize = 14
-Converted["_TextLabel16"].TextWrapped = true
-Converted["_TextLabel16"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel16"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel16"].BackgroundTransparency = 1
-Converted["_TextLabel16"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextLabel16"].BorderSizePixel = 0
-Converted["_TextLabel16"].Position = UDim2.new(0.5, 0, 0.5, 0)
-Converted["_TextLabel16"].Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
-Converted["_TextLabel16"].Parent = Converted["_MoviButton"]
+Converted["_TextLabel17"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel17"].Text = "movimento"
+Converted["_TextLabel17"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel17"].TextScaled = true
+Converted["_TextLabel17"].TextSize = 14
+Converted["_TextLabel17"].TextWrapped = true
+Converted["_TextLabel17"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel17"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel17"].BackgroundTransparency = 1
+Converted["_TextLabel17"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel17"].BorderSizePixel = 0
+Converted["_TextLabel17"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_TextLabel17"].Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
+Converted["_TextLabel17"].Parent = Converted["_MoviButton"]
 
 Converted["_ConfigButton"].Font = Enum.Font.FredokaOne
 Converted["_ConfigButton"].Text = ""
@@ -2570,30 +2655,30 @@ Converted["_ConfigButton"].ZIndex = 2
 Converted["_ConfigButton"].Name = "ConfigButton"
 Converted["_ConfigButton"].Parent = Converted["_menu"]
 
-Converted["_UICorner69"].BottomLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner69"].BottomRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner69"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner69"].TopLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner69"].TopRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner69"].Parent = Converted["_ConfigButton"]
+Converted["_UICorner71"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner71"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner71"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner71"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner71"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner71"].Parent = Converted["_ConfigButton"]
 
-Converted["_UITextSizeConstraint68"].MaxTextSize = 25
-Converted["_UITextSizeConstraint68"].Parent = Converted["_ConfigButton"]
+Converted["_UITextSizeConstraint71"].MaxTextSize = 25
+Converted["_UITextSizeConstraint71"].Parent = Converted["_ConfigButton"]
 
-Converted["_TextLabel17"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel17"].Text = "CONFIG"
-Converted["_TextLabel17"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel17"].TextScaled = true
-Converted["_TextLabel17"].TextSize = 14
-Converted["_TextLabel17"].TextWrapped = true
-Converted["_TextLabel17"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel17"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel17"].BackgroundTransparency = 1
-Converted["_TextLabel17"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextLabel17"].BorderSizePixel = 0
-Converted["_TextLabel17"].Position = UDim2.new(0.5, 0, 0.5, 0)
-Converted["_TextLabel17"].Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
-Converted["_TextLabel17"].Parent = Converted["_ConfigButton"]
+Converted["_TextLabel18"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel18"].Text = "CONFIG"
+Converted["_TextLabel18"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel18"].TextScaled = true
+Converted["_TextLabel18"].TextSize = 14
+Converted["_TextLabel18"].TextWrapped = true
+Converted["_TextLabel18"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel18"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel18"].BackgroundTransparency = 1
+Converted["_TextLabel18"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel18"].BorderSizePixel = 0
+Converted["_TextLabel18"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_TextLabel18"].Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
+Converted["_TextLabel18"].Parent = Converted["_ConfigButton"]
 
 Converted["_UIListLayout2"].Padding = UDim.new(0.0199999996, 0)
 Converted["_UIListLayout2"].SortOrder = Enum.SortOrder.LayoutOrder
@@ -2624,8 +2709,8 @@ Converted["_hpx"].Size = UDim2.new(0.16915682, 0, 0.16796127, 0)
 Converted["_hpx"].Name = "hpx"
 Converted["_hpx"].Parent = Converted["_mainFrame"]
 
-Converted["_UIStroke7"].Color = Color3.fromRGB(36.00000165402889, 0, 54.00000438094139)
-Converted["_UIStroke7"].Parent = Converted["_mainFrame"]
+Converted["_UIStroke8"].Color = Color3.fromRGB(36.00000165402889, 0, 54.00000438094139)
+Converted["_UIStroke8"].Parent = Converted["_mainFrame"]
 
 Converted["_Versao"].Font = Enum.Font.FredokaOne
 Converted["_Versao"].Text = "V 1.5"
@@ -2649,7 +2734,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function LSIE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.MenuButtons
+local function LKAKVQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.MenuButtons
     local script = Instance.new("LocalScript")
     script.Name = "MenuButtons"
     script.Parent = Converted["_mainFrame"]
@@ -2731,7 +2816,7 @@ local function LSIE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	-- MENU PADR�O
 	abrirConfig()
 end
-local function VZGFA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.FotoConfig
+local function HPNV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.FotoConfig
     local script = Instance.new("LocalScript")
     script.Name = "FotoConfig"
     script.Parent = Converted["_mainFrame"]
@@ -2770,7 +2855,7 @@ local function VZGFA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	imageLabel.Image = content
 	
 end
-local function CWNGKCU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.H
+local function LCPU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.H
     local script = Instance.new("LocalScript")
     script.Name = "H"
     script.Parent = Converted["_mainFrame"]
@@ -2897,7 +2982,7 @@ local function CWNGKCU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		end
 	end)
 end
-local function UNAPI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
+local function ZCKTRJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_configUS"]
@@ -2916,7 +3001,7 @@ local function UNAPI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	usernameLabel.Text = player.DisplayName .. " ( " .. player.Name .. " )"
 end
-local function WKHX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
+local function EJRWW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_pingLabel"]
@@ -2961,7 +3046,7 @@ local function WKHX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		task.wait(1)
 	end
 end
-local function VVYJJTL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
+local function NAMWM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_fpsLabel"]
@@ -3010,7 +3095,7 @@ local function VVYJJTL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		end
 	end)
 end
-local function ATMKP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
+local function QSTJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_platformLabel"]
@@ -3047,7 +3132,7 @@ local function ATMKP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	platformLabel.Text = "PLATAFORMA: " .. plataforma
 end
-local function KFLTWP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
+local function BJHMYK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
     local script = Instance.new("LocalScript")
     script.Name = "AtalhosManager"
     script.Parent = Converted["_movi"]
@@ -3062,7 +3147,7 @@ local function KFLTWP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 
 	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
 end
-local function FEZYIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.reverseButton.LocalScript
+local function EXTBBL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.reverseButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_reverseButton"]
@@ -3986,7 +4071,7 @@ local function FEZYIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		task.spawn(setup, player.Character)
 	end
 end
-local function ZHXPTI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.femotesButton.LocalScript
+local function FHZPOS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.femotesButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_femotesButton"]
@@ -4547,7 +4632,7 @@ local function ZHXPTI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	task.spawn(carregarEmotesDoPlayer)
 end
-local function FRPMOL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.clicktpButton.LocalScript
+local function IQNG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.clicktpButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_clicktpButton"]
@@ -5086,7 +5171,9755 @@ local function FRPMOL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	atualizarAtalho()
 	
 end
-local function SSXF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.FantasmaVerButton.LocalScript
+local function MFWBYRV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.VoarButton.Fly
+    local script = Instance.new("LocalScript")
+    script.Name = "Fly"
+    script.Parent = Converted["_VoarButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- The controller is constructed only after a click on the panel's Voar button.
+	local function initializeFly(activationButton, startup)
+		local FlyController = {}
+		local Players = game:GetService("Players")
+		local RunService = game:GetService("RunService")
+		local UserInputService = game:GetService("UserInputService")
+		local TweenService = game:GetService("TweenService")
+		local HttpService = game:GetService("HttpService")
+		local SoundService = game:GetService("SoundService")
+		local TextService = game:GetService("TextService")
+		local localPlayer = Players.LocalPlayer
+		if not game:IsLoaded() then
+			game.Loaded:Wait()
+		end
+		while not localPlayer do
+			task.wait()
+			localPlayer = Players.LocalPlayer
+		end
+		-- Register the running instance only after initialization finishes. A stale
+		-- RUNNING flag must not prevent a recreated panel from connecting its button.
+		local runtime = {
+			killed = false,
+			guiOpen = false,
+			guiOpenedOnce = false,
+			hpxFlyEnabled = false,
+			hpxCapturingFlyKey = false,
+			fpTweeningOut = false,
+			fpCameraGen = 0,
+		}
+		local function isMainFlyButtonEnabled()
+			return not runtime.killed
+				and not startup.cancelled
+				and startup.enabled
+				and runtime.hpxFlyEnabled
+				and activationButton
+				and activationButton.Parent
+				and activationButton:GetAttribute("HPXFlyEnabled") == true
+		end
+		runtime.fadingTracks = {}
+		runtime.suppressBlockDefaultAnimsUntil = 0
+		runtime.replicatedIdleSwitchGeneration = 0
+		local character = localPlayer.Character or localPlayer.CharacterAdded:Wait()
+		local humanoid = character:WaitForChild("Humanoid")
+		local rootPart = character:WaitForChild("HumanoidRootPart")
+		local animator = humanoid:WaitForChild("Animator")
+		if startup.cancelled or not activationButton.Parent then
+			return
+		end
+		if humanoid.RigType ~= Enum.HumanoidRigType.R15 then
+			return
+		end
+		local idleAnimations = {
+			ChillLevitate = {
+				AnimationId = "rbxassetid://125815409725539",
+				Start = 1,
+				End = 2.6,
+				PlaybackSpeed = 0.5,
+			},
+			MustacheMark = {
+				AnimationId = "rbxassetid://77807262438365",
+				Start = 0.1,
+				End = 3,
+				PlaybackSpeed = 1,
+			},
+			ZombieMark = { AnimationId = "rbxassetid://75532269733454", Start = 0.1, End = 3, PlaybackSpeed = 1 },
+			RelaxedFly = { AnimationId = "rbxassetid://132783162476851", Start = 0.1, End = 5, PlaybackSpeed = 1 },
+			TrackSuitMark = {
+				AnimationId = "rbxassetid://125313210961391",
+				Start = 0.1,
+				End = 4,
+				PlaybackSpeed = 1,
+			},
+			LongHairMark = {
+				AnimationId = "rbxassetid://101003076314239",
+				Start = 0.1,
+				End = 4,
+				PlaybackSpeed = 1,
+			},
+			FlaxanMark = { AnimationId = "rbxassetid://108933593456838", Start = 0.1, End = 4, PlaybackSpeed = 1 },
+			MasklessMark = {
+				AnimationId = "rbxassetid://72952994235315",
+				Start = 0.1,
+				End = 4,
+				PlaybackSpeed = 1,
+			},
+			ViltrimiteMark = {
+				AnimationId = "rbxassetid://124574039035034",
+				Start = 0.1,
+				End = 5,
+				PlaybackSpeed = 1,
+			},
+			PrisonerMark = {
+				AnimationId = "rbxassetid://98385196315632",
+				Start = 1,
+				End = 4,
+				PlaybackSpeed = 0.6,
+			},
+			TargetMark = {
+				AnimationId = "rbxassetid://122741335712327",
+				Start = 1,
+				End = 5.5,
+				PlaybackSpeed = 0.6,
+			},
+			NoGoggles = { AnimationId = "rbxassetid://77715558557237", Start = 1, End = 5, PlaybackSpeed = 0.7 },
+			SheistyMark = {
+				AnimationId = "rbxassetid://121605966423204",
+				Start = 1,
+				End = 3.9,
+				PlaybackSpeed = 0.6,
+			},
+			AnnoyedIdle = {
+				AnimationId = "rbxassetid://93326430026112",
+				Start = 0.2,
+				End = 3,
+				PlaybackSpeed = 1.2,
+			},
+			UpsideDown = { AnimationId = "rbxassetid://100566641677826", Start = 0.1, End = 3, PlaybackSpeed = 1 },
+			Conquest = {
+				AnimationId = "rbxassetid://91850736796162",
+				Start = 0.5,
+				End = 2.5,
+				PlaybackSpeed = 0.7,
+			},
+			MohawkMark = {
+				AnimationId = "rbxassetid://116733977004098",
+				Start = 0.5,
+				End = 3.5,
+				PlaybackSpeed = 1,
+			},
+			BulletProofMark = {
+				AnimationId = "rbxassetid://95218435498795",
+				Start = 0.5,
+				End = 3.5,
+				PlaybackSpeed = 1,
+			},
+			Sinisterv3 = {
+				AnimationId = "rbxassetid://110525048751383",
+				Start = 0.5,
+				End = 3.5,
+				PlaybackSpeed = 1,
+			},
+			BaldMark = {
+				AnimationId = "rbxassetid://76797102013719",
+				Start = 0.5,
+				End = 3.5,
+				PlaybackSpeed = 1,
+			},
+			ViltrimiteIdle = {
+				AnimationId = "rbxassetid://92901321263182",
+				Start = 0.1,
+				End = 4,
+				PlaybackSpeed = 1,
+			},
+			Thragg = { AnimationId = "rbxassetid://114708567078493", Start = 0, End = 2, PlaybackSpeed = 0.3 },
+			CasualFloat = {
+				AnimationId = "rbxassetid://130104867308995",
+				Start = 0.1,
+				End = 2.8,
+				PlaybackSpeed = 0.6,
+			},
+			Sinister2 = { AnimationId = "rbxassetid://120442396223948", Start = 0.1, End = 2, PlaybackSpeed = 1 },
+			BasicIdle = { AnimationId = "rbxassetid://95101792406607", Start = 0.1, End = 2, PlaybackSpeed = 0.3 },
+			PreparedIdle = {
+				AnimationId = "rbxassetid://74775170766222",
+				Start = 0.1,
+				End = 3,
+				PlaybackSpeed = 0.3,
+			},
+			MainInvincible = {
+				AnimationId = "rbxassetid://85659907860049",
+				Start = 1.6,
+				End = 3,
+				PlaybackSpeed = 1,
+			},
+			HomelanderV2 = {
+				AnimationId = "rbxassetid://126046533185038",
+				Start = 0.1,
+				End = 4,
+				PlaybackSpeed = 1,
+			},
+			IntimidatingFly = {
+				AnimationId = "rbxassetid://113644780745425",
+				Start = 0,
+				End = 3,
+				PlaybackSpeed = 1,
+			},
+			OmniMan = { AnimationId = "rbxassetid://117018025684593", Start = 0, End = 2, PlaybackSpeed = 0.8 },
+			SmugFly = { AnimationId = "rbxassetid://83065143783783", Start = 0, End = 4, PlaybackSpeed = 0.9 },
+			MetroMan = { AnimationId = "rbxassetid://112816775283756", Start = 0, End = 3, PlaybackSpeed = 1 },
+			LaidBackFlight = {
+				AnimationId = "rbxassetid://130754299055067",
+				Start = 0,
+				End = 3,
+				PlaybackSpeed = 1,
+			},
+			AuraFarming = {
+				AnimationId = "rbxassetid://125294976115462",
+				Start = 0,
+				End = 4,
+				PlaybackSpeed = 1,
+			},
+			DemonicFlight = {
+				AnimationId = "rbxassetid://98789048056989",
+				Start = 0,
+				End = 4,
+				PlaybackSpeed = 1,
+			},
+			CockyFlight = {
+				AnimationId = "rbxassetid://121210361161914",
+				Start = 0,
+				End = 3,
+				PlaybackSpeed = 1,
+			},
+			MainMarkII = { AnimationId = "rbxassetid://74775071938710", Start = 0, End = 4, PlaybackSpeed = 1 },
+			AggressiveFlight = {
+				AnimationId = "rbxassetid://95062290362918",
+				Start = 0,
+				End = 3,
+				PlaybackSpeed = 1,
+			},
+			AltMark19 = { AnimationId = "rbxassetid://133330377145015", Start = 0, End = 4, PlaybackSpeed = 1 },
+			LuffyGear5 = { AnimationId = "rbxassetid://87158263011660", Start = 0, End = 4, PlaybackSpeed = 1 },
+			SpiderManPose = { AnimationId = "rbxassetid://117370624301002", Start = 0, End = 4, PlaybackSpeed = 1 },
+			Aizen = { AnimationId = "rbxassetid://83896268225208", Start = 0, End = 4, PlaybackSpeed = 1 },
+		}
+		local D = {
+			Sinister2 = true,
+			ViltrimiteMark = true,
+			MustacheMark = true,
+			Thragg = true,
+			ZombieMark = true,
+			RelaxedFly = true,
+			AnnoyedIdle = true,
+			BulletProofMark = true,
+			LongHairMark = true,
+			Sinisterv3 = true,
+			MasklessMark = true,
+			FlaxanMark = true,
+			IntimidatingFly = true,
+			OmniMan = true,
+			SmugFly = true,
+			MetroMan = true,
+			LaidBackFlight = true,
+			AuraFarming = true,
+			DemonicFlight = true,
+			CockyFlight = true,
+			MainMarkII = true,
+			AggressiveFlight = true,
+			AltMark19 = true,
+			LuffyGear5 = true,
+			SpiderManPose = true,
+			Aizen = true,
+		}
+		runtime.LEGACY_FORMAT_IDLES = {
+			Conquest = true,
+			ChillLevitate = true,
+			CasualFloat = true,
+			MohawkMark = true,
+			BaldMark = true,
+			PrisonerMark = true,
+			TargetMark = true,
+			SheistyMark = true,
+			LuffyGear5 = true,
+			UpsideDown = true,
+			PreparedIdle = true,
+			BasicIdle = true,
+			ViltrimiteIdle = true,
+		}
+		runtime.SLOW_REPLICATION_IDLES = { TrackSuitMark = true, NoGoggles = true }
+		local B = {
+			{ label = "CASUAL", names = { "RelaxedFly", "LaidBackFlight", "ChillLevitate", "CasualFloat" } },
+			{ label = "CONFIANTE E ESTILOSO", names = { "CockyFlight", "SmugFly", "AuraFarming" } },
+			{
+				label = "INTENSO",
+				names = { "IntimidatingFly", "AnnoyedIdle", "DemonicFlight", "AggressiveFlight", "Conquest" },
+			},
+			{
+				label = "MARCAS E VARIA��ES",
+				names = {
+					"ViltrimiteMark",
+					"TrackSuitMark",
+					"BaldMark",
+					"LongHairMark",
+					"FlaxanMark",
+					"MasklessMark",
+					"BulletProofMark",
+					"PrisonerMark",
+					"TargetMark",
+					"SheistyMark",
+					"NoGoggles",
+					"AltMark19",
+					"MainMarkII",
+					"MainInvincible",
+					"MohawkMark",
+					"MustacheMark",
+					"Sinister2",
+					"Sinisterv3",
+					"ZombieMark",
+				},
+			},
+			{
+				label = "POSES EXCLUSIVAS",
+				names = {
+					"UpsideDown",
+					"Thragg",
+					"PreparedIdle",
+					"BasicIdle",
+					"ViltrimiteIdle",
+					"MetroMan",
+					"OmniMan",
+					"SpiderManPose",
+				},
+			},
+			{ label = "ANIME", names = { "Aizen", "LuffyGear5" } },
+			{ label = "HOMELANDER", names = { "HomelanderV2" } },
+		}
+		local Z = {
+			MustacheMark = "Marca de Bigode",
+			Thragg = "Thragg",
+			RelaxedFly = "Voo Relaxado",
+			ZombieMark = "Marca Zumbi",
+			ChillLevitate = "Levita��o Relaxante",
+			ViltrimiteMark = "Marca Viltrimite",
+			NoGoggles = "Sem �culos",
+			TargetMark = "Marca Alvo",
+			Sinisterv3 = "Sinistro v3",
+			TrackSuitMark = "Marca de Moletom",
+			BaldMark = "Marca Careca",
+			LongHairMark = "Marca Cabelo Longo",
+			FlaxanMark = "Marca Flaxan",
+			MasklessMark = "Marca Sem M�scara",
+			BulletProofMark = "Marca Blindada",
+			PrisonerMark = "Marca Prisioneiro",
+			UpsideDown = "De Cabe�a para Baixo",
+			CasualFloat = "Flutua��o Casual",
+			SheistyMark = "Marca Suspeita",
+			PreparedIdle = "Pose Preparada",
+			AnnoyedIdle = "Pose Irritada",
+			ViltrimiteIdle = "Pose Viltrimite",
+			Sinister2 = "Sinistro 2",
+			Conquest = "Conquista",
+			MohawkMark = "Marca Moicano",
+			MainInvincible = "Principal Invenc�vel",
+			BasicIdle = "Pose B�sica",
+			HomelanderV2 = "Pose do Homelander",
+			IntimidatingFly = "Voo Intimidante",
+			OmniMan = "Homem Omni",
+			SmugFly = "Voo Confiante",
+			MetroMan = "Homem Metro",
+			LaidBackFlight = "Voo Tranquilo",
+			AuraFarming = "Coleta de Aura",
+			DemonicFlight = "Voo Demon�aco",
+			CockyFlight = "Voo Arrogante",
+			MainMarkII = "Marca Principal II",
+			AggressiveFlight = "Voo Agressivo",
+			AltMark19 = "Marca Alternativa 19",
+			LuffyGear5 = "Gear 5 Luffy",
+			SpiderManPose = "Pose do Homem-Aranha",
+		}
+		local F = {
+			Homelander = { AnimationId = "rbxassetid://123190971900678", LiftStart = 0.7, LiftEnd = 1.9 },
+			Backflip = { AnimationId = "rbxassetid://117373674181293", LiftStart = 0.3, LiftEnd = 1.3 },
+			StandardJump = { AnimationId = "rbxassetid://114876124622442", LiftStart = 0.5, LiftEnd = 1.4 },
+			SuperheroTakeoff = { AnimationId = "rbxassetid://121819878437751", LiftStart = 0.7, LiftEnd = 1.4 },
+			SuperheroTakeoff2 = { AnimationId = "rbxassetid://91788124131212", LiftStart = 0.4, LiftEnd = 1 },
+			YujiJumps = {
+				AnimationId = "rbxassetid://139982320267456",
+				LiftStart = 1,
+				LiftEnd = 1.6,
+				BlendToIdle = true,
+			},
+			CleanTakeoff = { AnimationId = "rbxassetid://113636384951824", LiftStart = 0.7, LiftEnd = 1.4 },
+		}
+		local v = {
+			"Homelander",
+			"Backflip",
+			"StandardJump",
+			"SuperheroTakeoff",
+			"SuperheroTakeoff2",
+			"YujiJumps",
+			"CleanTakeoff",
+		}
+		local q = {
+			Homelander = "Homelander",
+			Backflip = "Mortal",
+			StandardJump = "Salto Padr�o",
+			SuperheroTakeoff = "Decolagem de Super-her�i",
+			SuperheroTakeoff2 = "Decolagem de Super-her�i 2",
+			YujiJumps = "Saltos do Yuji",
+			CleanTakeoff = "Decolagem Limpa",
+		}
+		local h = {
+			{ id = "HL1", name = "Acelerador Homelander 1", animId = "rbxassetid://115250948577308", speed = 1 },
+			{ id = "HL2", name = "Acelerador Homelander 2", animId = "rbxassetid://92365791487740", speed = 1 },
+			{ id = "HL3", name = "Acelerador Homelander 3", animId = "rbxassetid://133595981289603", speed = 1 },
+			{ id = "HL4", name = "Acelerador Homelander 4", animId = "rbxassetid://101291673584393", speed = 1 },
+			{ id = "OM1", name = "Acelerador Marca Omni 1", animId = "rbxassetid://101291673584393", speed = 1 },
+			{ id = "OM2", name = "Acelerador Marca Omni 2", animId = "rbxassetid://99148979036185", speed = 1 },
+			{ id = "OM3", name = "Acelerador Marca Omni 3", animId = "rbxassetid://122539086743264", speed = 1 },
+			{ id = "OM4", name = "Acelerador Marca Omni 4", animId = "rbxassetid://135173907834391", speed = 1 },
+			{ id = "SB1", name = "Acelerador Simples", animId = "rbxassetid://80551120256872", speed = 1 },
+			{ id = "SB2", name = "Acelerador Simples II", animId = "rbxassetid://140087168717341", speed = 1 },
+			{ id = "TY1", name = "Acelerador Estilizado", animId = "rbxassetid://137006704296145", speed = 1 },
+			{ id = "CAT1", name = "Acelerador Gato 1", animId = "rbxassetid://115467469253904", speed = 1 },
+			{ id = "CAT2", name = "Acelerador Gato 2", animId = "rbxassetid://139048574848085", speed = 1 },
+			{ id = "SUB1", name = "Subaru - Subindo Escadas", animId = "rbxassetid://94802123174526", speed = 1 },
+			{ id = "SM1", name = "Acelerador Marca Listrada", animId = "rbxassetid://106345021112927", speed = 1 },
+			{ id = "AG1", name = "Acelerador Agressivo", animId = "rbxassetid://120303626369803", speed = 1 },
+			{
+				id = "IS1",
+				name = "Voo Show do Invenc�vel",
+				animId = "rbxassetid://119001805544665",
+				speed = 1,
+			},
+		}
+		local W = {}
+		for U, C in ipairs(h) do
+			W[C.id] = C
+		end
+		local c = {
+			Homelander = { "HL1", "HL2", "HL3", "HL4" },
+			["Omni-Mark"] = { "OM1", "OM2", "OM3", "OM4" },
+			Spotlight = { "SB1", "TY1", "AG1", "IS1" },
+			Gato = { "CAT1", "CAT2" },
+			Subaru = { "SUB1", "SUB1", "SUB1", "SUB1" },
+		}
+		local f = { "Homelander", "Omni-Mark", "Spotlight", "Gato", "Subaru" }
+		local d = "Subaru"
+		local y = { "SUB1", "SUB1", "SUB1", "SUB1" }
+		local w = {
+			{ AnimationId = "rbxassetid://101291673584393", PlaybackSpeed = 1 },
+			{ AnimationId = "rbxassetid://99148979036185", PlaybackSpeed = 1 },
+			{ AnimationId = "rbxassetid://122539086743264", PlaybackSpeed = 1 },
+			{ AnimationId = "rbxassetid://135173907834391", PlaybackSpeed = 1 },
+		}
+		function FlyController.applyBoostAnimSelections()
+			for U = 1, 4, 1 do
+				local C = W[y[U]]
+				if C then
+					w[U].AnimationId = C.animId
+					w[U].PlaybackSpeed = C.speed
+				end
+			end
+		end
+		local flightConfig = {
+			TILT_GYRO_ANGLE = 12,
+			BACK_TILT_ANGLE = 20,
+			BASE_SPEED = 50,
+			BOOST_SPEEDS = { 100, 250, 400, 600 },
+			CRASH_SPEED_THRESHOLD = 55,
+			CRASH_CONTACT_THRESHOLD = 2.5,
+			BOOST_CHARGE_TIMES = { 0.5, 0.45, 0.1, 0 },
+			BOOST_CHARGE_FACTORS = { 0.12, 0.12, 0.65, 1 },
+			FOV_BASE = 70,
+			FOV_WALKING = 75,
+			FOV_CRUISE = 82,
+			FOV_BOOST1 = 92,
+			FOV_BOOST2 = 105,
+			FOV_BOOST3 = 118,
+			FOV_BOOST4 = 135,
+			FOV_LERP_SPEED = 6,
+			CRASH_DIVE_ANGLE_DEFAULT = 55,
+			SKIM_HEIGHT = 2,
+			SKIM_MIN_GAP = 0.8,
+			BOOST_SWAY_ROLL = math.rad(12),
+			BOOST_SWAY_SPEED = 2.2,
+			BOOST_BANK_ROLL = math.rad(30),
+			BOOST_TURN_YAW = math.rad(10),
+			LEAN_SMOOTHING = 6,
+			CAM_TURN_FULL_RATE = math.rad(160),
+			SPIRAL_DURATION = 1.1,
+			SPIRAL_MIN_GAP = 6,
+			SPIRAL_MAX_GAP = 14,
+			LEAN_ROLL_START = 0.5,
+			LEAN_ROLL_CHANCE = 0.7,
+			ROLL_COOLDOWN = 1.5,
+			FLUCT_AMOUNT = 0.07,
+			BODY_SHAKE_MAX = 5,
+			LAND_SHAKE_PER_STUD = 0.0125,
+			LAND_SHAKE_MIN = 0.08,
+			LAND_SHAKE_MAX = 0.75,
+			LAND_SCAN_RANGE = 100,
+			LAND_FOOT_THRESHOLD = 0.5,
+			LAND_FAST_THRESHOLD = 20,
+			LAND_SLOW_THRESHOLD = 5,
+			LAND_MAX_SPEED = 220,
+			LAND_SLOW_SPEED = 10,
+			LAND_HEIGHT_SCALE = 0.55,
+			HEAD_PART_NAME = "Head",
+			FP_SENSITIVITY = 0.004,
+			KEY_TOGGLE = Enum.KeyCode.F,
+			KEY_FORWARD = Enum.KeyCode.W,
+			KEY_BACK = Enum.KeyCode.S,
+			KEY_LEFT = Enum.KeyCode.A,
+			KEY_RIGHT = Enum.KeyCode.D,
+			KEY_UP = Enum.KeyCode.Space,
+			KEY_DOWN = Enum.KeyCode.LeftControl,
+			KEY_BOOST = Enum.KeyCode.Q,
+			KEY_MENU = Enum.KeyCode.M,
+			KEY_QUICK_CRASH = Enum.KeyCode.C,
+			KEY_QUICK_WALL = Enum.KeyCode.Y,
+			KEY_QUICK_FP = Enum.KeyCode.V,
+			SCRIPT_VERSION = "v2.0",
+			VERSION_CHECK_URL = "https://raw.githubusercontent.com/396abc/Script/refs/heads/main/InvincibleFlyVersionPC.lua",
+			CRASH_ANIM_ID = "rbxassetid://110827092007294",
+			CRASH_SOUND_ID = "rbxassetid://136318713426170",
+			NOTIFICATION_SOUND_ID = "rbxassetid://131390520971848",
+			WALL_SFX_FLASHBANG = "rbxassetid://18939003571",
+			WALL_SFX_IMPACT_EXTRA = "rbxassetid://128515243701252",
+			WALL_FLASH_MIN_ALPHA = 0.5,
+			WALL_FLASH_MAX_ALPHA = 0.97,
+			WALL_FLASH_MIN_DURATION = 5,
+			WALL_FLASH_MAX_DURATION = 20,
+		}
+		local flightState = {
+			flying = false,
+			transitioning = false,
+			boostLevel = 0,
+			wasMoving = false,
+			isCharging = false,
+			speedScale = 1,
+			currentFOV = flightConfig.FOV_BASE,
+			isFirstPerson = false,
+			fpWanted = false,
+			fpYaw = 0,
+			fpPitch = 0,
+			takingOff = false,
+			crashEnabled = true,
+			takeoffsEnabled = true,
+			smoothLandingsEnabled = true,
+			hoverEnabled = true,
+			sfxEnabled = true,
+			sfxVolume = 1,
+			vfxEnabled = true,
+			wallImpactEnabled = true,
+			boostShakeIntensity = 1,
+			boostChargeDelayEnabled = true,
+			idlePendingRefly = false,
+			quickTogglesEnabled = false,
+			driftAmount = 0,
+			lastBoostedTime = 0,
+			fpShakePitch = 0,
+			fpShakeYaw = 0,
+			fpShakeRoll = 0,
+			fpShakeOffsetX = 0,
+			fpShakeOffsetY = 0,
+			fpShakeTrauma = 0,
+			isDead = false,
+		}
+		function FlyController.isSubaruBoostActive()
+			local level = flightState.boostLevel
+			return flightState.flying and level >= 1 and level <= 4 and y[level] == "SUB1"
+		end
+		local movementKeys = { F = 0, B = 0, L = 0, R = 0, U = 0, D = 0 }
+		local r = 1
+		local k = 1
+		local m = 1
+		local M = 1
+		local T = 1
+		local a = 0.8
+		local z = 2.9
+		local S = a
+		local K = z
+		local b, I
+		local x = {}
+		local g = { active = nil, replicated = nil, lastTiltDir = 0 }
+		local R = "RelaxedFly"
+		local s = "Homelander"
+		local j = nil
+		local firstPersonState = { conn = nil, mouseConn = nil, hidden = {} }
+		local G = (isfile and (isfolder and (writefile and (readfile and makefolder)))) and true or false
+		do
+			local function U(U, C)
+				if type(U) ~= "function" then
+					return U
+				end
+				return function(J, ...)
+					if type(J) ~= "string" then
+						return C
+					end
+					local E, N = pcall(U, J, ...)
+					if E then
+						return N
+					end
+					return C
+				end
+			end
+			isfolder = U(isfolder, false)
+			isfile = U(isfile, false)
+			makefolder = U(makefolder, nil)
+			writefile = U(writefile, nil)
+			readfile = U(readfile, nil)
+		end
+		runtime.SETTINGS_DIR = "InvincibleFly_FE"
+		runtime.SETTINGS_FILE = "InvincibleFly_FE/settings.json"
+		function runtime.ensureSettingsFolder()
+			local U = runtime.SETTINGS_DIR
+			if type(U) ~= "string" or U == "" then
+				U = "InvincibleFly_FE"
+			end
+			if type(isfolder) ~= "function" or type(makefolder) ~= "function" then
+				return false
+			end
+			local C, J = pcall(isfolder, U)
+			if C and J == true then
+				return true
+			end
+			pcall(makefolder, U)
+			local E, N = pcall(isfolder, U)
+			return E and N == true
+		end
+		runtime.ANNOUNCE_FILE = "InvincibleFly_FE/v15_announcement_read.json"
+		local n = {
+			{ id = "fly", label = "Alternar Voo", labelKey = "bind_fly", cfg = "KEY_TOGGLE", default = "F" },
+			{ id = "boost", label = "Alternar Acelerador", labelKey = "bind_boost", cfg = "KEY_BOOST", default = "Q" },
+			{ id = "up", label = "Subir", labelKey = "bind_up", cfg = "KEY_UP", default = "Space" },
+			{
+				id = "down",
+				label = "Descer",
+				labelKey = "bind_down",
+				cfg = "KEY_DOWN",
+				default = "LeftControl",
+			},
+			{
+				id = "quickCrash",
+				label = "Alternar Quedas",
+				labelKey = "label_quick_toggle_crash",
+				cfg = "KEY_QUICK_CRASH",
+				default = "C",
+				quickToggle = true,
+			},
+			{
+				id = "quickWall",
+				label = "Alternar Impactos",
+				labelKey = "label_quick_toggle_wall",
+				cfg = "KEY_QUICK_WALL",
+				default = "Y",
+				quickToggle = true,
+			},
+			{
+				id = "quickFp",
+				label = "Alternar Primeira Pessoa",
+				labelKey = "label_quick_toggle_fp",
+				cfg = "KEY_QUICK_FP",
+				default = "V",
+				quickToggle = true,
+			},
+		}
+		local i = { "KEY_FORWARD", "KEY_BACK", "KEY_LEFT", "KEY_RIGHT" }
+		function FlyController.isShiftKeyName(name)
+			return name == "LeftShift" or name == "RightShift"
+		end
+		function FlyController.defaultSettings()
+			local U = {
+				binds = {},
+				enableFlyKey = "Unbound",
+				crashEnabled = true,
+				takeoffsEnabled = true,
+				smoothLandingsEnabled = true,
+				hoverEnabled = true,
+				sfxEnabled = true,
+				vfxEnabled = true,
+				wallImpactEnabled = false,
+				fpWanted = false,
+				boostShakeIntensity = 1,
+				boostChargeDelayEnabled = true,
+				quickTogglesEnabled = false,
+				driftAmount = 0,
+				crashDiveAngle = 55,
+				speedFluctuation = true,
+				camBankEnabled = true,
+				leanRollsEnabled = false,
+				spiralsEnabled = false,
+				bodyShake = 1,
+				wallDefaultOffApplied = true,
+				diveDefault55Applied = true,
+				currentIdle = "RelaxedFly",
+				currentTakeoff = "Homelander",
+				boostPreset = "Subaru",
+				boostLevelIds = { "SUB1", "SUB1", "SUB1", "SUB1" },
+				subaruImpulse1Applied = true,
+				speedMultipliers = { Base = 1, Boost1 = 1, Boost2 = 1, Boost3 = 1, Boost4 = 1 },
+				hover = { Height = a, Speed = z },
+			}
+			for C, J in ipairs(n) do
+				U.binds[J.id] = J.default
+			end
+			return U
+		end
+		function FlyController.saveSettings(U)
+			if not G then
+				return
+			end
+			pcall(function()
+				writefile(runtime.SETTINGS_FILE, HttpService:JSONEncode(U))
+			end)
+		end
+		function FlyController.loadSettingsFile()
+			local C = FlyController.defaultSettings()
+			if not G then
+				return C
+			end
+			pcall(function()
+				runtime.ensureSettingsFolder()
+				if not isfile(runtime.SETTINGS_FILE) then
+					writefile(runtime.SETTINGS_FILE, HttpService:JSONEncode(C))
+				end
+			end)
+			pcall(function()
+				local U = HttpService:JSONDecode(readfile(runtime.SETTINGS_FILE))
+				if type(U) ~= "table" then
+					return
+				end
+				if type(U.binds) == "table" then
+					for J, E in ipairs(n) do
+						local N = U.binds[E.id]
+						if type(N) == "string" then
+							if N == "Unbound" or N == "None" then
+								C.binds[E.id] = "Unbound"
+							else
+								local U, J = pcall(function()
+									return Enum.KeyCode[N]
+								end)
+								if U and J then
+									C.binds[E.id] = N
+								end
+							end
+						end
+					end
+				end
+				if type(U.enableFlyKey) == "string" then
+					if U.enableFlyKey == "Unbound" or U.enableFlyKey == "None" then
+						C.enableFlyKey = "Unbound"
+					else
+						local validKey, keyCode = pcall(function()
+							return Enum.KeyCode[U.enableFlyKey]
+						end)
+						if validKey and keyCode then
+							C.enableFlyKey = U.enableFlyKey
+						end
+					end
+				end
+				if type(U.crashEnabled) == "boolean" then
+					C.crashEnabled = U.crashEnabled
+				end
+				if type(U.takeoffsEnabled) == "boolean" then
+					C.takeoffsEnabled = U.takeoffsEnabled
+				end
+				if type(U.smoothLandingsEnabled) == "boolean" then
+					C.smoothLandingsEnabled = U.smoothLandingsEnabled
+				end
+				if type(U.hoverEnabled) == "boolean" then
+					C.hoverEnabled = U.hoverEnabled
+				end
+				if type(U.sfxEnabled) == "boolean" then
+					C.sfxEnabled = U.sfxEnabled
+				end
+				if type(U.sfxVolume) == "number" then
+					C.sfxVolume = math.clamp(U.sfxVolume, 0, 1)
+				end
+				if type(U.vfxEnabled) == "boolean" then
+					C.vfxEnabled = U.vfxEnabled
+				end
+				if type(U.wallImpactEnabled) == "boolean" then
+					C.wallImpactEnabled = U.wallImpactEnabled
+				end
+				if type(U.fpWanted) == "boolean" then
+					C.fpWanted = U.fpWanted
+				end
+				if type(U.boostShakeIntensity) == "number" then
+					C.boostShakeIntensity = math.clamp(U.boostShakeIntensity, 0, 3)
+				end
+				if type(U.boostChargeDelayEnabled) == "boolean" then
+					C.boostChargeDelayEnabled = U.boostChargeDelayEnabled
+				end
+				if type(U.quickTogglesEnabled) == "boolean" then
+					C.quickTogglesEnabled = U.quickTogglesEnabled
+				end
+				if type(U.driftAmount) == "number" then
+					C.driftAmount = math.clamp(U.driftAmount, 0, 1)
+				end
+				if type(U.crashDiveAngle) == "number" then
+					C.crashDiveAngle = math.clamp(U.crashDiveAngle, 10, 80)
+				end
+				if U.diveDefault55Applied ~= true and C.crashDiveAngle == 40 then
+					C.crashDiveAngle = 55
+				end
+				if type(U.bodyShake) == "number" then
+					C.bodyShake = math.clamp(U.bodyShake, 0, 2)
+				end
+				for J, E in ipairs({
+					"speedFluctuation",
+					"camBankEnabled",
+					"leanRollsEnabled",
+					"spiralsEnabled",
+					}) do
+					if type(U[E]) == "boolean" then
+						C[E] = U[E]
+					end
+				end
+				if U.wallDefaultOffApplied ~= true then
+					C.wallImpactEnabled = false
+				end
+				if type(U.currentIdle) == "string" and idleAnimations[U.currentIdle] then
+					C.currentIdle = U.currentIdle
+				end
+				if type(U.currentTakeoff) == "string" and F[U.currentTakeoff] then
+					C.currentTakeoff = U.currentTakeoff
+				end
+				if type(U.boostPreset) == "string" and (c[U.boostPreset] or U.boostPreset == "Custom") then
+					C.boostPreset = U.boostPreset
+				end
+				if type(U.boostLevelIds) == "table" then
+					local J = {}
+					for E = 1, 4, 1 do
+						local N = U.boostLevelIds[E]
+						J[E] = (type(N) == "string" and W[N]) and N or C.boostLevelIds[E]
+					end
+					C.boostLevelIds = J
+				end
+				if U.subaruImpulse1Applied ~= true then
+					for level = 1, 4 do
+						C.boostLevelIds[level] = "SUB1"
+					end
+					C.boostPreset = "Subaru"
+					C.subaruImpulse1Applied = true
+				end
+				if C.boostPreset == "Subaru" then
+					for level = 1, 4 do
+						C.boostLevelIds[level] = "SUB1"
+					end
+				end
+				if type(U.speedMultipliers) == "table" then
+					for U, J in pairs(U.speedMultipliers) do
+						if type(J) == "number" then
+							C.speedMultipliers[U] = J
+						end
+					end
+				end
+				if type(U.hover) == "table" then
+					if type(U.hover.Height) == "number" then
+						C.hover.Height = U.hover.Height
+					end
+					if type(U.hover.Speed) == "number" then
+						C.hover.Speed = U.hover.Speed
+					end
+				end
+			end)
+			-- Migrate old Shift shortcuts without overwriting other custom bindings.
+			local usedKeys = { [flightConfig.KEY_MENU.Name] = true }
+			for _, configName in ipairs(i) do
+				usedKeys[flightConfig[configName].Name] = true
+			end
+			for _, bind in ipairs(n) do
+				local name = C.binds[bind.id]
+				if name and not FlyController.isShiftKeyName(name) then
+					usedKeys[name] = true
+				end
+			end
+			local bindsChanged = false
+			if FlyController.isShiftKeyName(C.enableFlyKey) then
+				C.enableFlyKey = "Unbound"
+				bindsChanged = true
+			elseif C.enableFlyKey then
+				usedKeys[C.enableFlyKey] = true
+			end
+			for _, bind in ipairs(n) do
+				if FlyController.isShiftKeyName(C.binds[bind.id]) then
+					local replacement = usedKeys[bind.default] and "Unbound" or bind.default
+					C.binds[bind.id] = replacement
+					usedKeys[replacement] = true
+					bindsChanged = true
+				end
+			end
+			if bindsChanged then
+				FlyController.saveSettings(C)
+			end
+			return C
+		end
+		local savedSettings = FlyController.loadSettingsFile()
+		-- The panel owns its enable shortcut; a saved flight key must never enable it.
+		function FlyController.applyBinds()
+			for U, C in ipairs(n) do
+				local J = savedSettings.binds[C.id]
+				if J and (J ~= "Unbound" and J ~= "None") then
+					local U, E = pcall(function()
+						return Enum.KeyCode[J]
+					end)
+					if U and E then
+						flightConfig[C.cfg] = E
+					end
+				else
+					flightConfig[C.cfg] = nil
+				end
+			end
+		end
+		FlyController.applyBinds()
+		flightState.crashEnabled = savedSettings.crashEnabled
+		flightState.takeoffsEnabled = savedSettings.takeoffsEnabled
+		flightState.smoothLandingsEnabled = savedSettings.smoothLandingsEnabled
+		flightState.hoverEnabled = savedSettings.hoverEnabled
+		flightState.sfxEnabled = savedSettings.sfxEnabled
+		flightState.sfxVolume = savedSettings.sfxVolume or 1
+		flightState.vfxEnabled = savedSettings.vfxEnabled
+		flightState.wallImpactEnabled = savedSettings.wallImpactEnabled
+		flightState.fpWanted = savedSettings.fpWanted or false
+		flightState.boostShakeIntensity = savedSettings.boostShakeIntensity or 1
+		flightState.boostChargeDelayEnabled = (savedSettings.boostChargeDelayEnabled ~= false)
+		flightState.quickTogglesEnabled = (savedSettings.quickTogglesEnabled == true)
+		flightState.driftAmount = savedSettings.driftAmount or 0
+		flightState.crashDiveAngle = savedSettings.crashDiveAngle or flightConfig.CRASH_DIVE_ANGLE_DEFAULT
+		flightState.speedFluctuation = savedSettings.speedFluctuation ~= false
+		flightState.camBankEnabled = savedSettings.camBankEnabled ~= false
+		flightState.leanRollsEnabled = savedSettings.leanRollsEnabled == true
+		flightState.spiralsEnabled = savedSettings.spiralsEnabled == true
+		flightState.bodyShake = savedSettings.bodyShake or 1
+		R = savedSettings.currentIdle
+		s = savedSettings.currentTakeoff
+		d = savedSettings.boostPreset
+		y = { table.unpack(savedSettings.boostLevelIds) }
+		FlyController.applyBoostAnimSelections()
+		r = savedSettings.speedMultipliers.Base or 1
+		k = savedSettings.speedMultipliers.Boost1 or 1
+		m = savedSettings.speedMultipliers.Boost2 or 1
+		M = savedSettings.speedMultipliers.Boost3 or 1
+		T = savedSettings.speedMultipliers.Boost4 or 1
+		S = savedSettings.hover.Height or a
+		K = savedSettings.hover.Speed or z
+		function FlyController.persistSettings()
+			savedSettings.enableFlyKey = startup.key and startup.key.Name or "Unbound"
+			savedSettings.crashEnabled = flightState.crashEnabled
+			savedSettings.takeoffsEnabled = flightState.takeoffsEnabled
+			savedSettings.smoothLandingsEnabled = flightState.smoothLandingsEnabled
+			savedSettings.hoverEnabled = flightState.hoverEnabled
+			savedSettings.sfxEnabled = flightState.sfxEnabled
+			savedSettings.sfxVolume = flightState.sfxVolume
+			savedSettings.vfxEnabled = flightState.vfxEnabled
+			savedSettings.wallImpactEnabled = flightState.wallImpactEnabled
+			savedSettings.fpWanted = flightState.fpWanted
+			savedSettings.boostShakeIntensity = flightState.boostShakeIntensity
+			savedSettings.boostChargeDelayEnabled = flightState.boostChargeDelayEnabled
+			savedSettings.quickTogglesEnabled = flightState.quickTogglesEnabled
+			savedSettings.driftAmount = flightState.driftAmount
+			savedSettings.crashDiveAngle = flightState.crashDiveAngle
+			savedSettings.speedFluctuation = flightState.speedFluctuation
+			savedSettings.camBankEnabled = flightState.camBankEnabled
+			savedSettings.leanRollsEnabled = flightState.leanRollsEnabled
+			savedSettings.spiralsEnabled = flightState.spiralsEnabled
+			savedSettings.bodyShake = flightState.bodyShake
+			savedSettings.wallDefaultOffApplied = true
+			savedSettings.diveDefault55Applied = true
+			savedSettings.currentIdle = R
+			savedSettings.currentTakeoff = s
+			savedSettings.boostPreset = d
+			savedSettings.boostLevelIds = { table.unpack(y) }
+			savedSettings.subaruImpulse1Applied = true
+			savedSettings.speedMultipliers = { Base = r, Boost1 = k, Boost2 = m, Boost3 = M, Boost4 = T }
+			savedSettings.hover = { Height = S, Speed = K }
+			FlyController.saveSettings(savedSettings)
+		end
+		function FlyController.prettyKeyName(U)
+			if not U then
+				return "Sem tecla"
+			end
+			return (U.Name:gsub("(%l)(%u)", "%1 %2"))
+		end
+		function FlyController.loadAnim(U)
+			local C = Instance.new("Animation")
+			C.AnimationId = U
+			return animator:LoadAnimation(C)
+		end
+		local Cg = 0.35
+		function FlyController.fadeOutAndDestroy(U, C)
+			if not U then
+				return
+			end
+			C = C or Cg
+			runtime.fadingTracks[U] = true
+			pcall(function()
+				if U.IsPlaying then
+					U:Stop(C)
+				end
+			end)
+			task.delay(C + 0.05, function()
+				pcall(function()
+					U:Destroy()
+				end)
+				runtime.fadingTracks[U] = nil
+			end)
+		end
+		function FlyController.cacheAnimationId(C)
+			if not C then
+				return
+			end
+			task.spawn(function()
+				local E, N = pcall(function()
+					return FlyController.loadAnim(C)
+				end)
+				if not (E and N) then
+					return
+				end
+				N.Priority = Enum.AnimationPriority.Idle
+				local A = pcall(function()
+					N:Play(0, 0, 1)
+				end)
+				RunService.Heartbeat:Wait()
+				pcall(function()
+					N:Stop(0)
+				end)
+				pcall(function()
+					N:Destroy()
+				end)
+			end)
+		end
+		function FlyController.cacheSelectedAnimations()
+			local C = idleAnimations[R]
+			if C then
+				FlyController.cacheAnimationId(C.AnimationId)
+			end
+			local J = F[s]
+			if J then
+				FlyController.cacheAnimationId(J.AnimationId)
+			end
+			for C = 1, 4, 1 do
+				local J = W[y[C]]
+				if J then
+					FlyController.cacheAnimationId(J.animId)
+				end
+			end
+		end
+		function FlyController.cacheAllAnimations()
+			local C = { flightConfig.CRASH_ANIM_ID }
+			for U, J in pairs(idleAnimations) do
+				C[#C + 1] = J.AnimationId
+			end
+			for U, J in ipairs(h) do
+				C[#C + 1] = J.animId
+			end
+			for U, J in pairs(F) do
+				C[#C + 1] = J.AnimationId
+			end
+			local E = {}
+			for C, J in ipairs(C) do
+				local N, A = pcall(function()
+					return FlyController.loadAnim(J)
+				end)
+				if N and A then
+					A.Priority = Enum.AnimationPriority.Idle
+					pcall(function()
+						A:Play(0, 0, 1)
+					end)
+					E[#E + 1] = A
+				end
+			end
+			RunService.Heartbeat:Wait()
+			for U, C in ipairs(E) do
+				pcall(function()
+					C:Stop(0)
+				end)
+				pcall(function()
+					C:Destroy()
+				end)
+			end
+		end
+		function FlyController.blockDefaultAnims()
+			if not animator or not animator.Parent then
+				return
+			end
+			if os.clock() < runtime.suppressBlockDefaultAnimsUntil then
+				return
+			end
+			for U, C in ipairs(animator:GetPlayingAnimationTracks()) do
+				if C ~= g.active and (C ~= g.replicated and not runtime.fadingTracks[C]) then
+					pcall(function()
+						C:Stop(0)
+					end)
+				end
+			end
+		end
+		function FlyController.resetFOV(U)
+			(TweenService:Create(
+				workspace.CurrentCamera,
+				TweenInfo.new(U or 0.8, Enum.EasingStyle.Quint, Enum.EasingDirection.Out),
+				{ FieldOfView = flightConfig.FOV_BASE }
+				)):Play()
+			flightState.currentFOV = flightConfig.FOV_BASE
+		end
+		local Jg = nil
+		local Eg = nil
+		function runtime.ensureReplicatedIdleAnimInstance(U)
+			if runtime.replicatedIdleAnimInstance and runtime.replicatedIdleAnimInstance.Parent == U then
+				return runtime.replicatedIdleAnimInstance
+			end
+			local C = U:FindFirstChild("ReplicatedIdle")
+			if not C then
+				C = Instance.new("Animation")
+				C.Name = "ReplicatedIdle"
+				C.Parent = U
+			end
+			runtime.replicatedIdleAnimInstance = C
+			return C
+		end
+		function FlyController.cleanupIdlePlayback()
+			if Jg then
+				pcall(function()
+					Jg:Disconnect()
+				end)
+				Jg = nil
+			end
+			if Eg then
+				pcall(function()
+					Eg:Disconnect()
+				end)
+				Eg = nil
+			end
+			if g.active then
+				FlyController.fadeOutAndDestroy(g.active, Cg)
+				g.active = nil
+			end
+			if g.replicated then
+				FlyController.fadeOutAndDestroy(g.replicated, Cg)
+				g.replicated = nil
+			end
+		end
+		function FlyController.hardResetIdlePlayback()
+			if Jg then
+				pcall(function()
+					Jg:Disconnect()
+				end)
+				Jg = nil
+			end
+			if Eg then
+				pcall(function()
+					Eg:Disconnect()
+				end)
+				Eg = nil
+			end
+			if g.active then
+				FlyController.fadeOutAndDestroy(g.active, Cg)
+				g.active = nil
+			end
+			if g.replicated then
+				pcall(function()
+					g.replicated:Stop(0)
+				end)
+				pcall(function()
+					g.replicated:Destroy()
+				end)
+				g.replicated = nil
+			end
+		end
+		function FlyController.playCurrentIdle(C)
+			if not humanoid or not humanoid.Parent then
+				return
+			end
+			FlyController.cleanupIdlePlayback()
+			runtime.replicatedIdleSwitchGeneration = runtime.replicatedIdleSwitchGeneration + 1
+			local E = runtime.replicatedIdleSwitchGeneration
+			local N = idleAnimations[R]
+			if not N then
+				return
+			end
+			local A = R
+			local o = Instance.new("Animation")
+			o.AnimationId = N.AnimationId
+			local t, L = pcall(function()
+				return animator:LoadAnimation(o)
+			end)
+			if not t or not L then
+				return
+			end
+			g.active = L
+			L.Looped = false
+			pcall(function()
+				L:Play(C or Cg, 1, N.PlaybackSpeed)
+				L.TimePosition = N.Start
+			end)
+			if D[A] then
+				local U = humanoid.Parent
+				if U then
+					local C = runtime.ensureReplicatedIdleAnimInstance(U)
+					C.AnimationId = N.AnimationId
+					task.spawn(function()
+						task.wait(0.15)
+						if runtime.replicatedIdleSwitchGeneration ~= E then
+							return
+						end
+						if not U or not U.Parent then
+							return
+						end
+						if C.AnimationId ~= N.AnimationId then
+							return
+						end
+						local A = animator:LoadAnimation(C)
+						if runtime.replicatedIdleSwitchGeneration ~= E then
+							pcall(function()
+								A:Destroy()
+							end)
+							return
+						end
+						g.replicated = A
+						A.Looped = true
+						A:Play(0.05, 1, N.PlaybackSpeed)
+						pcall(function()
+							A.TimePosition = N.Start
+						end)
+						for U, C in ipairs({ 0.3, 0.8 }) do
+							task.spawn(function()
+								task.wait(C)
+								if runtime.replicatedIdleSwitchGeneration ~= E then
+									return
+								end
+								if g.replicated ~= A then
+									return
+								end
+								pcall(function()
+									A:AdjustWeight(1, 0.05)
+								end)
+							end)
+						end
+						local o, t = N.Start, N.End
+						local L = true
+						Eg = RunService.Heartbeat:Connect(function(U)
+							if g.replicated ~= A then
+								if Eg then
+									Eg:Disconnect()
+									Eg = nil
+								end
+								return
+							end
+							local C, J = pcall(function()
+								return A.TimePosition
+							end)
+							if not C or not J then
+								return
+							end
+							if L and J >= t then
+								pcall(function()
+									A.TimePosition = t
+									A:AdjustSpeed(0)
+									L = false
+								end)
+							elseif not L then
+								local C = J - (U * N.PlaybackSpeed)
+								if C <= o then
+									pcall(function()
+										A.TimePosition = o
+										A:AdjustSpeed(N.PlaybackSpeed)
+										L = true
+									end)
+								else
+									pcall(function()
+										A.TimePosition = C
+									end)
+								end
+							end
+						end)
+					end)
+				end
+			end
+			local X = true
+			local H = (A == "BasicIdle")
+			local O = N.PlaybackSpeed
+			Jg = RunService.Heartbeat:Connect(function(C)
+				if not flightState.flying or not g.active or g.active ~= L then
+					if Jg then
+						Jg:Disconnect()
+						Jg = nil
+					end
+					return
+				end
+				if not humanoid or not humanoid.Parent then
+					FlyController.cleanupIdlePlayback()
+					return
+				end
+				local J, E = pcall(function()
+					return L.TimePosition
+				end)
+				if not J or not E then
+					FlyController.cleanupIdlePlayback()
+					return
+				end
+				local A, o = N.Start, N.End
+				if H then
+					if X and E >= o then
+						pcall(function()
+							L.TimePosition = A
+							L:AdjustSpeed(O)
+							if not L.IsPlaying then
+								L:Play(Cg, 1, O)
+							end
+							X = true
+						end)
+					elseif not X and E <= A then
+						pcall(function()
+							L.TimePosition = A
+							L:AdjustSpeed(O)
+							X = true
+						end)
+					end
+					pcall(function()
+						L:AdjustSpeed(O)
+					end)
+				else
+					if X and E >= o then
+						pcall(function()
+							L.TimePosition = o
+							L:AdjustSpeed(0)
+							X = false
+						end)
+					elseif not X then
+						local U = E - (C * N.PlaybackSpeed)
+						if U <= A then
+							pcall(function()
+								L.TimePosition = A
+								L:AdjustSpeed(N.PlaybackSpeed)
+								X = true
+							end)
+						else
+							pcall(function()
+								L.TimePosition = U
+							end)
+						end
+					end
+				end
+				if not L.IsPlaying then
+					pcall(function()
+						L:Play(Cg, 1, H and O or (X and N.PlaybackSpeed or 0))
+					end)
+				end
+			end)
+		end
+		function FlyController.playBoostLevelAnim(C)
+			if not humanoid or not humanoid.Parent then
+				return
+			end
+			FlyController.cleanupIdlePlayback()
+			local J = w[C]
+			if not J then
+				return
+			end
+			local E = Instance.new("Animation")
+			E.AnimationId = J.AnimationId
+			local N, A = pcall(function()
+				return animator:LoadAnimation(E)
+			end)
+			if not N or not A then
+				return
+			end
+			g.active = A
+			A.Looped = true
+			A.Priority = Enum.AnimationPriority.Action4
+			pcall(function()
+				A:Play(Cg, 1, J.PlaybackSpeed)
+			end)
+		end
+		local gear5AuraAttachments = {}
+		function FlyController.stopGear5Aura()
+			for index = #gear5AuraAttachments, 1, -1 do
+				local attachment = gear5AuraAttachments[index]
+				pcall(function()
+					attachment:Destroy()
+				end)
+				gear5AuraAttachments[index] = nil
+			end
+		end
+		function FlyController.updateGear5Aura()
+			local luffyPoseSelected = R == "LuffyGear5"
+			if runtime.killed or not flightState.flying or not flightState.vfxEnabled or not luffyPoseSelected then
+				FlyController.stopGear5Aura()
+				return
+			end
+			for _, attachment in ipairs(gear5AuraAttachments) do
+				if attachment.Parent then
+					return
+				end
+			end
+			FlyController.stopGear5Aura()
+	
+			local upperTorso = character:FindFirstChild("UpperTorso") or rootPart
+			local lowerTorso = character:FindFirstChild("LowerTorso") or rootPart
+			local function addAuraEmitter(part, name, position, rate, size, transparency, speed, lifetime, color)
+				local attachment = Instance.new("Attachment")
+				attachment.Name = name .. "Attachment"
+				attachment.Position = position
+				attachment.Parent = part
+				table.insert(gear5AuraAttachments, attachment)
+	
+				local emitter = Instance.new("ParticleEmitter")
+				emitter.Name = name
+				emitter.Texture = "rbxasset://textures/particles/smoke_main.dds"
+				emitter.Color = color
+				emitter.LightEmission = 0.08
+				emitter.LightInfluence = 0.65
+				emitter.Orientation = Enum.ParticleOrientation.FacingCamera
+				emitter.EmissionDirection = Enum.NormalId.Top
+				emitter.SpreadAngle = Vector2.new(180, 180)
+				emitter.Size = size
+				emitter.Transparency = transparency
+				emitter.Speed = speed
+				emitter.Lifetime = lifetime
+				emitter.Rate = rate
+				emitter.Drag = 1.2
+				emitter.Acceleration = Vector3.new(0, 1.2, 0)
+				emitter.RotSpeed = NumberRange.new(-28, 28)
+				emitter.Rotation = NumberRange.new(0, 360)
+				emitter.LockedToPart = true
+				emitter.Parent = attachment
+			end
+	
+			addAuraEmitter(
+				lowerTorso,
+				"IFlyGear5Smoke",
+				Vector3.new(0, 0, 0),
+				5,
+				NumberSequence.new({
+					NumberSequenceKeypoint.new(0, 0.9),
+					NumberSequenceKeypoint.new(0.45, 2),
+					NumberSequenceKeypoint.new(1, 3.2),
+				}),
+				NumberSequence.new({
+					NumberSequenceKeypoint.new(0, 0.58),
+					NumberSequenceKeypoint.new(0.5, 0.78),
+					NumberSequenceKeypoint.new(1, 1),
+				}),
+				NumberRange.new(0.7, 1.4),
+				NumberRange.new(1.2, 1.8),
+				ColorSequence.new(Color3.fromRGB(205, 210, 220), Color3.fromRGB(245, 245, 250))
+			)
+			addAuraEmitter(
+				upperTorso,
+				"IFlyGear5WhiteMist",
+				Vector3.new(0, 0.1, 0),
+				5,
+				NumberSequence.new({
+					NumberSequenceKeypoint.new(0, 1),
+					NumberSequenceKeypoint.new(0.5, 2.3),
+					NumberSequenceKeypoint.new(1, 3.6),
+				}),
+				NumberSequence.new({
+					NumberSequenceKeypoint.new(0, 0.72),
+					NumberSequenceKeypoint.new(0.45, 0.82),
+					NumberSequenceKeypoint.new(1, 1),
+				}),
+				NumberRange.new(0.2, 0.65),
+				NumberRange.new(1.2, 1.7),
+				ColorSequence.new(Color3.fromRGB(245, 248, 255), Color3.fromRGB(255, 255, 255))
+			)
+			local head = character:FindFirstChild("Head")
+			if head then
+				addAuraEmitter(
+					head,
+					"IFlyGear5HeadMist",
+					Vector3.new(0, 0.45, 0),
+					2,
+					NumberSequence.new({
+						NumberSequenceKeypoint.new(0, 0.7),
+						NumberSequenceKeypoint.new(0.5, 1.7),
+						NumberSequenceKeypoint.new(1, 2.6),
+					}),
+					NumberSequence.new({
+						NumberSequenceKeypoint.new(0, 0.82),
+						NumberSequenceKeypoint.new(0.5, 0.84),
+						NumberSequenceKeypoint.new(1, 1),
+					}),
+					NumberRange.new(0.2, 0.55),
+					NumberRange.new(1.1, 1.5),
+					ColorSequence.new(Color3.fromRGB(248, 250, 255), Color3.fromRGB(255, 255, 255))
+				)
+			end
+			-- Small puffs around the torso keep the smoke from becoming one solid cloud.
+			for _, offset in ipairs({
+				Vector3.new(1.25, 0.15, 0),
+				Vector3.new(-1.25, 0.15, 0),
+				Vector3.new(0, 0.15, 1.05),
+				Vector3.new(0, 0.15, -1.05),
+				}) do
+				addAuraEmitter(
+					upperTorso,
+					"IFlyGear5AuraPuff",
+					offset,
+					0.8,
+					NumberSequence.new({
+						NumberSequenceKeypoint.new(0, 0.8),
+						NumberSequenceKeypoint.new(0.45, 1.7),
+						NumberSequenceKeypoint.new(1, 2.7),
+					}),
+					NumberSequence.new({
+						NumberSequenceKeypoint.new(0, 0.65),
+						NumberSequenceKeypoint.new(0.5, 0.82),
+						NumberSequenceKeypoint.new(1, 1),
+					}),
+					NumberRange.new(0.2, 0.55),
+					NumberRange.new(1.1, 1.6),
+					ColorSequence.new(Color3.fromRGB(230, 235, 245), Color3.fromRGB(255, 255, 255))
+				)
+			end
+		end
+		function FlyController.getHead()
+			return character and character:FindFirstChild(flightConfig.HEAD_PART_NAME)
+		end
+		function FlyController.hideCharacterParts()
+			firstPersonState.hidden = {}
+			local U = localPlayer.Character
+			if not U then
+				return
+			end
+			local C = {}
+			local function J(U)
+				C[U] = true
+			end
+			local E = U:FindFirstChild(flightConfig.HEAD_PART_NAME)
+			if E then
+				J(E)
+				for U, C in ipairs(E:GetDescendants()) do
+					if C:IsA("BasePart") or C:IsA("Decal") or C:IsA("Texture") then
+						J(C)
+					end
+				end
+			end
+			for U, C in ipairs(U:GetDescendants()) do
+				if C:IsA("Accessory") then
+					local U = C:FindFirstChild("Handle")
+					if U and U:IsA("BasePart") then
+						local C = E and E.Position.Y or 0
+						local N = math.abs(U.Position.Y - C) < 2
+						if N then
+							J(U)
+							for U, C in ipairs(U:GetDescendants()) do
+								if C:IsA("Decal") or C:IsA("Texture") then
+									J(C)
+								end
+							end
+						end
+					end
+				end
+			end
+			for U in pairs(C) do
+				local C = U.LocalTransparencyModifier
+				firstPersonState.hidden[#firstPersonState.hidden + 1] = { obj = U, val = C, target = 1 }
+				pcall(function()
+					U.LocalTransparencyModifier = 1
+				end)
+			end
+			for U, J in ipairs(U:GetDescendants()) do
+				if J:IsA("BasePart") and not C[J] then
+					firstPersonState.hidden[#firstPersonState.hidden + 1] =
+						{ obj = J, val = J.LocalTransparencyModifier, target = 0 }
+					pcall(function()
+						J.LocalTransparencyModifier = 0
+					end)
+				end
+			end
+		end
+		function FlyController.restoreCharacterParts()
+			for U, C in ipairs(firstPersonState.hidden) do
+				pcall(function()
+					C.obj.LocalTransparencyModifier = C.val
+				end)
+			end
+			firstPersonState.hidden = {}
+		end
+		function FlyController.enterFirstPerson()
+			if flightState.isFirstPerson then
+				return
+			end
+			if not flightState.flying and not flightState.takingOff then
+				return
+			end
+			local C = FlyController.getHead()
+			if not C then
+				return
+			end
+			flightState.isFirstPerson = true
+			local N = workspace.CurrentCamera.CFrame
+			local A = N.LookVector
+			flightState.fpYaw = math.atan2(-A.X, -A.Z)
+			flightState.fpPitch = math.asin(math.clamp(A.Y, -1, 1))
+			local o = workspace.CurrentCamera
+			firstPersonState.savedCameraType = o.CameraType
+			firstPersonState.savedCameraSubject = o.CameraSubject
+			firstPersonState.savedFOV = o.FieldOfView
+			firstPersonState.savedCameraDistance = ((o.CFrame.Position - C.Position)).Magnitude
+			local t = o.CFrame
+			local L = 0
+			local X = 0.45
+			local H = 2.5
+			local e = false
+			runtime.fpCameraGen = runtime.fpCameraGen + 1
+			local O = runtime.fpCameraGen
+			o.CameraType = Enum.CameraType.Scriptable
+			firstPersonState.mouseConn = UserInputService.InputChanged:Connect(function(U)
+				if not flightState.isFirstPerson then
+					return
+				end
+				if U.UserInputType == Enum.UserInputType.MouseMovement then
+					flightState.fpYaw = flightState.fpYaw - U.Delta.X * flightConfig.FP_SENSITIVITY
+					flightState.fpPitch = math.clamp(
+						flightState.fpPitch - U.Delta.Y * flightConfig.FP_SENSITIVITY,
+						math.rad(-80),
+						math.rad(80)
+					)
+				end
+			end)
+			firstPersonState.conn = RunService.RenderStepped:Connect(function(C)
+				if runtime.killed then
+					return
+				end
+				if not flightState.isFirstPerson then
+					return
+				end
+				if runtime.fpCameraGen ~= O then
+					if firstPersonState.conn then
+						firstPersonState.conn:Disconnect()
+						firstPersonState.conn = nil
+					end
+					return
+				end
+				local J = FlyController.getHead()
+				if not J then
+					return
+				end
+				local subaruBeatOffset = 0
+				if FlyController.isSubaruBoostActive() and runtime.subaruBeatStartedAt then
+					local beatPhase = ((os.clock() - runtime.subaruBeatStartedAt) % 0.4) / 0.4
+					local beatZoom = (1 - math.cos(beatPhase * math.pi * 2)) * 0.5
+					subaruBeatOffset = -0.18 * beatZoom
+				end
+				local N = (
+					(
+						(CFrame.new(J.CFrame.Position) * CFrame.Angles(0, flightState.fpYaw, 0))
+							* CFrame.Angles(flightState.fpPitch, 0, 0)
+					) * CFrame.new(flightState.fpShakeOffsetX, flightState.fpShakeOffsetY, subaruBeatOffset)
+				)
+					* CFrame.Angles(flightState.fpShakePitch, flightState.fpShakeYaw, flightState.fpShakeRoll)
+				if L < X then
+					L = L + C
+					local E = math.clamp(L / X, 0, 1)
+					E = 1 - (1 - E) ^ 3
+					local A = t:Lerp(N, E)
+					workspace.CurrentCamera.CFrame = A
+					if not e and ((A.Position - J.CFrame.Position)).Magnitude < H then
+						e = true
+						FlyController.hideCharacterParts()
+					end
+				else
+					workspace.CurrentCamera.CFrame = N
+					if not e then
+						e = true
+						FlyController.hideCharacterParts()
+					end
+				end
+			end)
+			firstPersonState.enforceConn = RunService.Heartbeat:Connect(function()
+				if runtime.killed then
+					return
+				end
+				if not flightState.isFirstPerson then
+					return
+				end
+				if runtime.fpCameraGen ~= O then
+					if firstPersonState.enforceConn then
+						firstPersonState.enforceConn:Disconnect()
+						firstPersonState.enforceConn = nil
+					end
+					return
+				end
+				for U, C in ipairs(firstPersonState.hidden) do
+					pcall(function()
+						if C.obj.LocalTransparencyModifier ~= C.target then
+							C.obj.LocalTransparencyModifier = C.target
+						end
+					end)
+				end
+			end)
+		end
+		function FlyController.tweenOutOfFirstPerson(C)
+			local E = workspace.CurrentCamera
+			local N = E.CFrame
+			local A = N.LookVector
+			local o = firstPersonState.savedCameraDistance or 12
+			runtime.fpTweeningOut = true
+			runtime.fpCameraGen = runtime.fpCameraGen + 1
+			local t = runtime.fpCameraGen
+			local L = 0
+			local X = 0.3
+			local e
+			e = RunService.RenderStepped:Connect(function(J)
+				if runtime.fpCameraGen ~= t then
+					if e then
+						e:Disconnect()
+						e = nil
+					end
+					runtime.fpTweeningOut = false
+					return
+				end
+				L = L + J
+				local E = math.clamp(L / X, 0, 1)
+				E = 1 - (1 - E) ^ 2
+				local O = FlyController.getHead()
+				local P = pcall(function()
+					local U = N
+					if O then
+						local C = O.Position
+						local J = (C - A * o) + Vector3.new(0, 2, 0)
+						local E = J - C
+						local N = RaycastParams.new()
+						N.FilterDescendantsInstances = { character }
+						N.FilterType = Enum.RaycastFilterType.Exclude
+						local t = workspace:Raycast(C, E, N)
+						if t then
+							local U = math.max(((t.Position - C)).Magnitude - 0.5, 1)
+							J = (C - A * U) + Vector3.new(0, 2, 0)
+						end
+						U = CFrame.new(J, C)
+					end
+					workspace.CurrentCamera.CFrame = N:Lerp(U, E)
+				end)
+				if not P or E >= 1 then
+					if e then
+						e:Disconnect()
+						e = nil
+					end
+					runtime.fpTweeningOut = false
+					if C then
+						pcall(C)
+					end
+				end
+			end)
+		end
+		function FlyController.exitFirstPerson()
+			if not flightState.isFirstPerson then
+				return
+			end
+			flightState.isFirstPerson = false
+			flightState.fpShakePitch = 0
+			flightState.fpShakeYaw = 0
+			flightState.fpShakeRoll = 0
+			flightState.fpShakeOffsetX = 0
+			flightState.fpShakeOffsetY = 0
+			if firstPersonState.mouseConn then
+				firstPersonState.mouseConn:Disconnect()
+				firstPersonState.mouseConn = nil
+			end
+			if firstPersonState.conn then
+				firstPersonState.conn:Disconnect()
+				firstPersonState.conn = nil
+			end
+			if firstPersonState.enforceConn then
+				firstPersonState.enforceConn:Disconnect()
+				firstPersonState.enforceConn = nil
+			end
+			FlyController.restoreCharacterParts()
+			FlyController.tweenOutOfFirstPerson(function()
+				local U = workspace.CurrentCamera
+				pcall(function()
+					U.CameraType = firstPersonState.savedCameraType or Enum.CameraType.Custom
+					U.CameraSubject = firstPersonState.savedCameraSubject or humanoid
+				end)
+			end)
+		end
+		function FlyController.targetFOVForSpeed(U)
+			if U < 10 then
+				return flightConfig.FOV_BASE
+			elseif U < 40 then
+				return flightConfig.FOV_BASE
+					+ (flightConfig.FOV_WALKING - flightConfig.FOV_BASE) * ((U - 10) / 30)
+			elseif U < 90 then
+				return flightConfig.FOV_WALKING
+					+ (flightConfig.FOV_CRUISE - flightConfig.FOV_WALKING) * ((U - 40) / 50)
+			elseif U < 170 then
+				return flightConfig.FOV_CRUISE
+					+ (flightConfig.FOV_BOOST1 - flightConfig.FOV_CRUISE) * ((U - 90) / 80)
+			elseif U < 300 then
+				return flightConfig.FOV_BOOST1
+					+ (flightConfig.FOV_BOOST2 - flightConfig.FOV_BOOST1) * ((U - 170) / 130)
+			elseif U < 490 then
+				return flightConfig.FOV_BOOST2
+					+ (flightConfig.FOV_BOOST3 - flightConfig.FOV_BOOST2) * ((U - 300) / 190)
+			else
+				return flightConfig.FOV_BOOST3
+					+ (flightConfig.FOV_BOOST4 - flightConfig.FOV_BOOST3) * math.clamp((U - 490) / 110, 0, 1)
+			end
+		end
+		function FlyController.updateFOV(C)
+			if not b or not b.Parent then
+				return
+			end
+			local J = FlyController.targetFOVForSpeed(b.Velocity.Magnitude)
+			if FlyController.isSubaruBoostActive() and runtime.subaruBeatStartedAt then
+				local beatPhase = ((os.clock() - runtime.subaruBeatStartedAt) % 0.4) / 0.4
+				local beatZoom = (1 - math.cos(beatPhase * math.pi * 2)) * 0.5
+				J = J - beatZoom * 4
+			end
+			flightState.currentFOV = flightState.currentFOV
+				+ (J - flightState.currentFOV) * math.min(flightConfig.FOV_LERP_SPEED * C, 1)
+			workspace.CurrentCamera.FieldOfView = flightState.currentFOV
+		end
+		local Ng = { "LeftFoot", "RightFoot" }
+		function runtime.getPartLowestWorldPoint(U)
+			local C = U.CFrame
+			local J = U.Size * 0.5
+			local E, N = math.huge, nil
+			for U, A in ipairs({ -1, 1 }) do
+				for U, o in ipairs({ -1, 1 }) do
+					for U, t in ipairs({ -1, 1 }) do
+						local L = C * Vector3.new(A * J.X, o * J.Y, t * J.Z)
+						if L.Y < E then
+							E = L.Y
+							N = L
+						end
+					end
+				end
+			end
+			return E, N
+		end
+		function FlyController.getLowestPointOf(U)
+			local C = localPlayer.Character
+			if not C then
+				return nil, nil
+			end
+			local J, E = nil, nil
+			for U, N in ipairs(U) do
+				local A = C:FindFirstChild(N)
+				if A and A:IsA("BasePart") then
+					local U, C = runtime.getPartLowestWorldPoint(A)
+					if not J or U < J then
+						J = U
+						E = C
+					end
+				end
+			end
+			return J, E
+		end
+		runtime.FOOT_POINT_MAX_HORIZ_DIST = 2.5
+		function FlyController.getFootY(C)
+			local J, E
+			if R == "UpsideDown" and not C then
+				J, E = FlyController.getLowestPointOf({ "Head" })
+			end
+			if not J then
+				J, E = FlyController.getLowestPointOf(Ng)
+			end
+			if not J then
+				J = rootPart.Position.Y - 3
+				E = Vector3.new(rootPart.Position.X, J, rootPart.Position.Z)
+			end
+			if E and (rootPart and rootPart.Parent) then
+				local U = rootPart.Position
+				local C, J = E.X - U.X, E.Z - U.Z
+				local N = math.sqrt(C * C + J * J)
+				if N > runtime.FOOT_POINT_MAX_HORIZ_DIST then
+					local A = runtime.FOOT_POINT_MAX_HORIZ_DIST / N
+					E = Vector3.new(U.X + C * A, E.Y, U.Z + J * A)
+				end
+			end
+			return J, E
+		end
+		function runtime.ensureFootTracker()
+			if runtime.footTrackerPart and runtime.footTrackerPart.Parent then
+				return runtime.footTrackerPart
+			end
+			local U = Instance.new("Part")
+			U.Name = "IFlyFootTracker"
+			U.Anchored = true
+			U.CanCollide = false
+			U.CanQuery = false
+			U.CanTouch = false
+			U.CastShadow = false
+			U.Transparency = 1
+			U.Size = Vector3.new(3.5, 1.2, 3)
+			U.Parent = workspace
+			runtime.footTrackerPart = U
+			return U
+		end
+		function runtime.startFootTracker()
+			runtime.ensureFootTracker()
+			if runtime.footTrackerConn then
+				return
+			end
+			runtime.footTrackerConn = RunService.Heartbeat:Connect(function()
+				if runtime.killed then
+					if runtime.footTrackerConn then
+						runtime.footTrackerConn:Disconnect()
+						runtime.footTrackerConn = nil
+					end
+					return
+				end
+				if not runtime.footTrackerPart or not runtime.footTrackerPart.Parent then
+					return
+				end
+				local C, J = FlyController.getFootY()
+				if J then
+					runtime.footTrackerPart.CFrame = CFrame.new(J.X, J.Y, J.Z)
+				end
+			end)
+		end
+		function runtime.stopFootTracker()
+			if runtime.footTrackerConn then
+				runtime.footTrackerConn:Disconnect()
+				runtime.footTrackerConn = nil
+			end
+		end
+		function FlyController.findGroundY(C, J)
+			local E = RaycastParams.new()
+			E.FilterDescendantsInstances = { character }
+			E.FilterType = Enum.RaycastFilterType.Exclude
+			E.RespectCanCollide = true
+			local N, A = FlyController.getFootY(C)
+			N = N or rootPart.Position.Y
+			local o = A and A.X or rootPart.Position.X
+			local t = A and A.Z or rootPart.Position.Z
+			local L = N + 0.5
+			if J and J > L then
+				L = J
+			end
+			local X = Vector3.new(o, L, t)
+			local l = workspace:Raycast(X, Vector3.new(0, -flightConfig.LAND_SCAN_RANGE, 0), E)
+			return l and l.Position.Y or nil
+		end
+		function FlyController.createPhysics()
+			b = Instance.new("BodyVelocity")
+			b.Name = "IFlyVel"
+			b.MaxForce = Vector3.new(9000000000, 9000000000, 9000000000)
+			b.Velocity = Vector3.zero
+			b.Parent = rootPart
+			I = Instance.new("BodyGyro")
+			I.Name = "IFlyGyro"
+			I.MaxTorque = Vector3.new(9000000000, 9000000000, 9000000000)
+			I.P = 12000
+			I.D = 600
+			I.CFrame = rootPart.CFrame
+			I.Parent = rootPart
+		end
+		function FlyController.destroyPhysics()
+			if b and b.Parent then
+				b:Destroy()
+			end
+			if I and I.Parent then
+				I:Destroy()
+			end
+			b, I = nil, nil
+		end
+		local Ag = {
+			Enum.HumanoidStateType.Jumping,
+			Enum.HumanoidStateType.Climbing,
+			Enum.HumanoidStateType.GettingUp,
+			Enum.HumanoidStateType.Running,
+			Enum.HumanoidStateType.RunningNoPhysics,
+			Enum.HumanoidStateType.Seated,
+			Enum.HumanoidStateType.Swimming,
+		}
+		function FlyController.blockHumanoidStates()
+			if not humanoid or not humanoid.Parent then
+				return
+			end
+			for U, C in ipairs(Ag) do
+				pcall(function()
+					humanoid:SetStateEnabled(C, false)
+				end)
+			end
+			pcall(function()
+				humanoid.Sit = false
+			end)
+		end
+		function FlyController.restoreHumanoidStates()
+			if not humanoid or not humanoid.Parent then
+				return
+			end
+			for U, C in ipairs(Ag) do
+				pcall(function()
+					humanoid:SetStateEnabled(C, true)
+				end)
+			end
+		end
+		function FlyController.zeroVelocity()
+			rootPart.AssemblyLinearVelocity = Vector3.zero
+			rootPart.AssemblyAngularVelocity = Vector3.zero
+		end
+		local og = { emitter = nil, part = nil, conn = nil }
+		function FlyController.createSpeedLines()
+			og.part = Instance.new("Part")
+			og.part.Name = "IFlySpeedLines"
+			og.part.Anchored = true
+			og.part.CanCollide = false
+			og.part.CanTouch = false
+			og.part.CanQuery = false
+			og.part.CastShadow = false
+			og.part.Transparency = 1
+			og.part.Size = Vector3.new(1, 1, 1)
+			og.part.Parent = workspace
+			og.emitter = Instance.new("ParticleEmitter")
+			og.emitter.Texture = "rbxassetid://2597342345"
+			og.emitter.Orientation = Enum.ParticleOrientation.VelocityParallel
+			og.emitter.EmissionDirection = Enum.NormalId.Front
+			og.emitter.SpreadAngle = Vector2.new(90, 90)
+			og.emitter.Rate = 0
+			og.emitter.Lifetime = NumberRange.new(0.25, 0.45)
+			og.emitter.Speed = NumberRange.new(100, 180)
+			og.emitter.LightEmission = 1
+			og.emitter.LightInfluence = 0
+			og.emitter.Size = NumberSequence.new({
+				NumberSequenceKeypoint.new(0, 0),
+				NumberSequenceKeypoint.new(0.1, 0.85),
+				NumberSequenceKeypoint.new(0.9, 0.85),
+				NumberSequenceKeypoint.new(1, 0),
+			})
+			og.emitter.Transparency = NumberSequence.new({
+				NumberSequenceKeypoint.new(0, 1),
+				NumberSequenceKeypoint.new(0.1, 0),
+				NumberSequenceKeypoint.new(0.9, 0),
+				NumberSequenceKeypoint.new(1, 1),
+			})
+			og.emitter.Color = ColorSequence.new({
+				ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
+				ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
+				ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
+			})
+			og.emitter.RotSpeed = NumberRange.new(0, 0)
+			og.emitter.Parent = og.part
+		end
+		function FlyController.speedLinesToIntensity(U)
+			if U < 60 then
+				return 0
+			end
+			if U < 120 then
+				return ((U - 60) / 60) * 0.35
+			end
+			if U < 220 then
+				return 0.35 + ((U - 120) / 100) * 0.3
+			end
+			if U < 380 then
+				return 0.65 + ((U - 220) / 160) * 0.25
+			end
+			if U < 600 then
+				return 0.9 + ((U - 380) / 220) * 0.1
+			end
+			local C = (flightConfig.BOOST_SPEEDS[4] or 600) * 3
+			if C <= 600 then
+				return 1
+			end
+			local J = math.clamp((U - 600) / (C - 600), 0, 1)
+			return 1 + J * 0.6
+		end
+		function FlyController.startSpeedLinesLoop()
+			if not flightState.vfxEnabled then
+				return
+			end
+			if not og.part then
+				FlyController.createSpeedLines()
+			end
+			local C = -1
+			og.conn = RunService.RenderStepped:Connect(function()
+				if
+					not flightState.flying
+					or not rootPart
+					or not rootPart.Parent
+					or not og.part
+					or not og.part.Parent
+				then
+					if og.emitter and C ~= 0 then
+						og.emitter.Rate = 0
+						C = 0
+					end
+					return
+				end
+				local J = (b and b.Parent) and b.Velocity.Magnitude or 0
+				local E = FlyController.speedLinesToIntensity(J)
+				local N = math.floor(E * 280)
+				local A = workspace.CurrentCamera
+				local o = A.CFrame.LookVector
+				local t = flightConfig.BOOST_SPEEDS[4] or 600
+				local L = 1 + J / 1200
+				local X = 15 + J * 0.08
+				if J > t then
+					local U = J - t
+					L = L + U / 400
+					X = X + U * 0.25
+				end
+				local l, H = 100 * L, 180 * L
+				og.emitter.Speed = NumberRange.new(l, H)
+				local e = (H * 0.45) * 0.75
+				X = math.min(X, e)
+				local P = A.CFrame.Position + o * X
+				og.part.CFrame = CFrame.lookAt(P, A.CFrame.Position)
+				if N ~= C then
+					og.emitter.Rate = N
+					C = N
+				end
+			end)
+		end
+		function FlyController.stopSpeedLines()
+			if og.conn then
+				og.conn:Disconnect()
+				og.conn = nil
+			end
+			if og.emitter then
+				og.emitter.Rate = 0
+			end
+			if og.part and og.part.Parent then
+				og.part:Destroy()
+				og.part = nil
+				og.emitter = nil
+			end
+		end
+		local cameraShakeState = { trauma = 0, shakeUntil = 0, conn = nil, seed = math.random(1000, 9999) }
+		function FlyController.noiseVal(U, C, J)
+			return (math.sin(U * C + J) * 0.5 + math.sin((U * C) * 2.1 + J * 1.3) * 0.3)
+				+ math.sin((U * C) * 3.7 + J * 2.7) * 0.2
+		end
+		local Lg = { 0.35, 0.55, 0.85, 1 }
+		function FlyController.triggerBoostShake(U)
+			local C = Lg[U] * flightState.boostShakeIntensity
+			cameraShakeState.trauma = math.min(cameraShakeState.trauma + C, 1)
+			flightState.fpShakeTrauma = math.min(flightState.fpShakeTrauma + C, 1)
+		end
+		function FlyController.startShakeLoop()
+			if cameraShakeState.conn then
+				return
+			end
+			cameraShakeState.conn = RunService.RenderStepped:Connect(function(C)
+				if runtime.killed then
+					return
+				end
+				if not flightState.flying and os.clock() > cameraShakeState.shakeUntil then
+					return
+				end
+				if flightState.isFirstPerson then
+					return
+				end
+				if runtime.fpTweeningOut then
+					return
+				end
+				local J = workspace.CurrentCamera
+				local E = os.clock()
+				local N = (b and b.Parent) and b.Velocity.Magnitude or 0
+				local A = math.clamp((N - 50) / 420, 0, 1)
+				local o = ((A * A) * 0.006) * flightState.boostShakeIntensity
+				cameraShakeState.trauma =
+					math.max(0, cameraShakeState.trauma - C * (2.5 + cameraShakeState.trauma * 3))
+				local t = (cameraShakeState.trauma * cameraShakeState.trauma) * 0.05
+				local L = o * FlyController.noiseVal(E, 18, cameraShakeState.seed)
+					+ t * FlyController.noiseVal(E, 22, cameraShakeState.seed + 100)
+				local X = o * FlyController.noiseVal(E, 15, cameraShakeState.seed + 50)
+					+ t * FlyController.noiseVal(E, 25, cameraShakeState.seed + 200)
+				local H = (o * 0.4) * FlyController.noiseVal(E, 12, cameraShakeState.seed + 75)
+					+ (t * 0.5) * FlyController.noiseVal(E, 20, cameraShakeState.seed + 300)
+				if math.abs(L) < 0.0001 and (math.abs(X) < 0.0001 and math.abs(H) < 0.0001) then
+					return
+				end
+				J.CFrame = J.CFrame * CFrame.Angles(L, X, H)
+			end)
+		end
+		function FlyController.stopShake()
+			cameraShakeState.trauma = 0
+			if cameraShakeState.conn then
+				cameraShakeState.conn:Disconnect()
+				cameraShakeState.conn = nil
+			end
+		end
+		local Xg = { seed = math.random(1000, 9999), conn = nil }
+		function FlyController.startFpShakeLoop()
+			if Xg.conn then
+				return
+			end
+			Xg.conn = RunService.RenderStepped:Connect(function(C)
+				if not flightState.flying and os.clock() > cameraShakeState.shakeUntil then
+					flightState.fpShakePitch, flightState.fpShakeYaw, flightState.fpShakeRoll = 0, 0, 0
+					flightState.fpShakeOffsetX, flightState.fpShakeOffsetY = 0, 0
+					return
+				end
+				if not flightState.isFirstPerson then
+					flightState.fpShakePitch, flightState.fpShakeYaw, flightState.fpShakeRoll = 0, 0, 0
+					flightState.fpShakeOffsetX, flightState.fpShakeOffsetY = 0, 0
+					return
+				end
+				local J = os.clock()
+				local E = (b and b.Parent) and b.Velocity.Magnitude or 0
+				local N = math.clamp((E - 40) / 260, 0, 1)
+				local A = ((N * N) * 0.014) * flightState.boostShakeIntensity
+				flightState.fpShakeTrauma =
+					math.max(0, flightState.fpShakeTrauma - C * (2.5 + flightState.fpShakeTrauma * 3))
+				local o = (flightState.fpShakeTrauma * flightState.fpShakeTrauma) * 0.09
+				flightState.fpShakePitch = A * FlyController.noiseVal(J, 18, Xg.seed)
+					+ o * FlyController.noiseVal(J, 22, Xg.seed + 100)
+				flightState.fpShakeYaw = A * FlyController.noiseVal(J, 15, Xg.seed + 50)
+					+ o * FlyController.noiseVal(J, 25, Xg.seed + 200)
+				flightState.fpShakeRoll = (A * 0.4) * FlyController.noiseVal(J, 12, Xg.seed + 75)
+					+ (o * 0.5) * FlyController.noiseVal(J, 20, Xg.seed + 300)
+				local t = (A + o) * 1.4
+				flightState.fpShakeOffsetX = t * FlyController.noiseVal(J, 16, Xg.seed + 400)
+				flightState.fpShakeOffsetY = t * FlyController.noiseVal(J, 19, Xg.seed + 500)
+			end)
+		end
+		function FlyController.stopFpShakeLoop()
+			flightState.fpShakeTrauma = 0
+			flightState.fpShakePitch, flightState.fpShakeYaw, flightState.fpShakeRoll = 0, 0, 0
+			flightState.fpShakeOffsetX, flightState.fpShakeOffsetY = 0, 0
+			if Xg.conn then
+				Xg.conn:Disconnect()
+				Xg.conn = nil
+			end
+		end
+		local motionBlurState = { blur = nil, conn = nil, lastLook = Vector3.new(0, 0, -1) }
+		function FlyController.createMotionBlur()
+			local U = workspace.CurrentCamera
+			motionBlurState.blur = Instance.new("BlurEffect")
+			motionBlurState.blur.Size = 0
+			motionBlurState.blur.Parent = U
+		end
+		function FlyController.startMotionBlurLoop()
+			if not flightState.vfxEnabled then
+				return
+			end
+			if not motionBlurState.blur then
+				FlyController.createMotionBlur()
+			end
+			local C = 0
+			motionBlurState.lastLook = workspace.CurrentCamera.CFrame.LookVector
+			motionBlurState.conn = RunService.Heartbeat:Connect(function(U)
+				if not flightState.flying then
+					C = C * 0.85
+					if motionBlurState.blur then
+						motionBlurState.blur.Size = C
+					end
+					return
+				end
+				local J = workspace.CurrentCamera
+				local E = J.CFrame.LookVector
+				local N = ((E - motionBlurState.lastLook)).Magnitude
+				motionBlurState.lastLook = E
+				local A = (b and b.Parent) and b.Velocity.Magnitude or 0
+				local o = math.clamp((A - 100) / 500, 0, 1) * 4
+				local t = math.clamp(N * 55, 0, 5)
+				local L = o + t
+				local X = math.min(U * 14, 1)
+				local l = math.min(U * 6, 1)
+				local H = L > C and X or l
+				C = C + (L - C) * H
+				if motionBlurState.blur then
+					motionBlurState.blur.Size = math.max(0, C)
+				end
+			end)
+		end
+		function FlyController.stopMotionBlur()
+			if motionBlurState.conn then
+				motionBlurState.conn:Disconnect()
+				motionBlurState.conn = nil
+			end
+			if motionBlurState.blur and motionBlurState.blur.Parent then
+				(TweenService:Create(
+					motionBlurState.blur,
+					TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+					{ Size = 0 }
+					)):Play()
+				task.delay(0.5, function()
+					pcall(function()
+						motionBlurState.blur:Destroy()
+					end)
+					motionBlurState.blur = nil
+				end)
+			end
+		end
+		local Hg = nil
+		local eg = { low = nil, high = nil, conns = {} }
+		local Og = false
+		local Pg = {
+			{ id = "rbxassetid://6341248673", startAt = 0, endAt = nil, vol = 1 },
+			{ id = "rbxassetid://9120698415", startAt = 2, endAt = 4, vol = 1.3 },
+			{ id = "rbxassetid://9119382493", startAt = 0.6, endAt = 4.5, vol = 1.6 },
+			{ id = "rbxassetid://114634327719464", startAt = 0, endAt = 5, vol = 2 },
+		}
+		function FlyController.getSoundParent()
+			if not Hg or not Hg.Parent then
+				Hg = Instance.new("Folder")
+				Hg.Name = "IFlySounds"
+				Hg.Parent = SoundService
+			end
+			return Hg
+		end
+		function FlyController.sfxVol(U)
+			return (U or 1) * (flightState.sfxVolume or 1)
+		end
+		function FlyController.makeSoundLocal(C, J, E)
+			local N = Instance.new("Sound")
+			N.SoundId = C
+			N.Looped = J or false
+			N.Volume = E or 1
+			N.Parent = FlyController.getSoundParent()
+			return N
+		end
+		function FlyController.fadeVolume(U, C, J)
+			if not U or not U.Parent then
+				return
+			end
+			(TweenService:Create(U, TweenInfo.new(J, Enum.EasingStyle.Linear), { Volume = C })):Play()
+		end
+		function FlyController.createAmbientSounds()
+			eg.low = FlyController.makeSoundLocal("rbxassetid://119669684568685", true, 0)
+			eg.high = FlyController.makeSoundLocal("rbxassetid://139956407844683", true, 0)
+			eg.low:Play()
+			eg.high:Play()
+		end
+		local subaruFlightSound = nil
+		local subaruMusicTargetVolume = nil
+		local nextSubaruShakeAt = 0
+		function FlyController.stopSubaruFlightMusic(keepBeatClock)
+			local sound = subaruFlightSound
+			subaruFlightSound = nil
+			subaruMusicTargetVolume = nil
+			if not keepBeatClock then
+				nextSubaruShakeAt = 0
+				runtime.subaruBeatStartedAt = nil
+			end
+			if not sound or not sound.Parent then
+				return
+			end
+			pcall(function()
+				(TweenService:Create(sound, TweenInfo.new(0.35, Enum.EasingStyle.Linear), { Volume = 0 })):Play()
+			end)
+			task.delay(0.4, function()
+				pcall(function()
+					sound:Stop()
+					sound:Destroy()
+				end)
+			end)
+		end
+		function FlyController.updateSubaruFlightEffects()
+			if not FlyController.isSubaruBoostActive() then
+				FlyController.stopSubaruFlightMusic()
+				return
+			end
+			if not runtime.subaruBeatStartedAt then
+				runtime.subaruBeatStartedAt = os.clock()
+			end
+			if not flightState.sfxEnabled then
+				FlyController.stopSubaruFlightMusic(true)
+			else
+				if not subaruFlightSound or not subaruFlightSound.Parent then
+					subaruFlightSound = Instance.new("Sound")
+					subaruFlightSound.Name = "HPXSubaruFlightMusic"
+					subaruFlightSound.SoundId = "rbxassetid://139482077675551"
+					subaruFlightSound.Looped = true
+					subaruFlightSound.Volume = 0
+					subaruFlightSound.Parent = SoundService
+					subaruFlightSound:Play()
+					runtime.subaruBeatStartedAt = os.clock()
+					nextSubaruShakeAt = runtime.subaruBeatStartedAt
+					subaruMusicTargetVolume = nil
+				end
+	
+				local targetVolume = FlyController.sfxVol(0.45)
+				if subaruMusicTargetVolume == nil or math.abs(subaruMusicTargetVolume - targetVolume) > 0.01 then
+					subaruMusicTargetVolume = targetVolume
+					local volumeTween = TweenService:Create(
+						subaruFlightSound,
+						TweenInfo.new(0.45, Enum.EasingStyle.Linear),
+						{ Volume = targetVolume }
+					)
+					volumeTween:Play()
+				end
+			end
+	
+			local now = os.clock()
+			if now >= nextSubaruShakeAt then
+				FlyController.triggerBoostShake(1)
+				nextSubaruShakeAt = now + 0.4
+			end
+		end
+		function FlyController.cacheAllSounds()
+			local U = {
+				flightConfig.CRASH_SOUND_ID,
+				flightConfig.NOTIFICATION_SOUND_ID,
+				flightConfig.WALL_SFX_FLASHBANG,
+				flightConfig.WALL_SFX_IMPACT_EXTRA,
+				"rbxassetid://139482077675551",
+				"rbxassetid://119669684568685",
+				"rbxassetid://139956407844683",
+				"rbxassetid://91992256988574",
+			}
+			for C, J in ipairs(Pg) do
+				U[#U + 1] = J.id
+			end
+			local C = Instance.new("Folder")
+			C.Name = "IFlySoundCache"
+			C.Parent = SoundService
+			local E = {}
+			for U, J in ipairs(U) do
+				local N, A = pcall(function()
+					local U = Instance.new("Sound")
+					U.SoundId = J
+					U.Volume = 0
+					U.Parent = C
+					return U
+				end)
+				if N and A then
+					pcall(function()
+						A:Play()
+					end)
+					E[#E + 1] = A
+				end
+			end
+			RunService.Heartbeat:Wait()
+			for U, C in ipairs(E) do
+				pcall(function()
+					C:Stop()
+				end)
+				pcall(function()
+					C:Destroy()
+				end)
+			end
+			pcall(function()
+				C:Destroy()
+			end)
+		end
+		function FlyController.updateAmbientWind(U, C, J)
+			if not eg.low or not eg.low.Parent then
+				return
+			end
+			if not J then
+				eg.low.Volume = eg.low.Volume * 0.85
+				eg.high.Volume = eg.high.Volume * 0.85
+				return
+			end
+			local E = Og and 0.2 or 1
+			local N, A
+			if U <= 2 then
+				N = (C * 0.7) * E
+				A = 0
+			else
+				N = math.max(0, (1 - (U - 2)) * 0.3) * E
+				A = (C * 0.8) * E
+			end
+			local o = flightState.sfxVolume or 1
+			eg.low.Volume = eg.low.Volume + (N * o - eg.low.Volume) * 0.07
+			eg.high.Volume = eg.high.Volume + (A * o - eg.high.Volume) * 0.07
+		end
+		function FlyController.startSoundLoop()
+			if not flightState.sfxEnabled then
+				return
+			end
+			FlyController.createAmbientSounds()
+			local C = RunService.Heartbeat:Connect(function()
+				if not eg.low or not eg.low.Parent then
+					return
+				end
+				if not flightState.flying then
+					eg.low.Volume = eg.low.Volume * 0.88
+					eg.high.Volume = eg.high.Volume * 0.88
+					return
+				end
+				local C = (b and b.Parent) and b.Velocity.Magnitude or 0
+				local J = Vector3.new(
+					movementKeys.L + movementKeys.R,
+					movementKeys.U + movementKeys.D,
+					movementKeys.F + movementKeys.B
+				)
+				local E = J.Magnitude > 0.01
+				local N = math.clamp((C - 60) / 540, 0, 1)
+				FlyController.updateAmbientWind(flightState.boostLevel, N, E)
+			end)
+			eg.conns[#eg.conns + 1] = C
+		end
+		function FlyController.stopSounds()
+			FlyController.stopSubaruFlightMusic()
+			for U, C in ipairs(eg.conns) do
+				pcall(function()
+					C:Disconnect()
+				end)
+			end
+			eg.conns = {}
+			if eg.low then
+				FlyController.fadeVolume(eg.low, 0, 0.5)
+				task.delay(0.6, function()
+					pcall(function()
+						eg.low:Stop()
+						eg.low:Destroy()
+					end)
+					eg.low = nil
+				end)
+			end
+			if eg.high then
+				FlyController.fadeVolume(eg.high, 0, 0.5)
+				task.delay(0.6, function()
+					pcall(function()
+						eg.high:Stop()
+						eg.high:Destroy()
+					end)
+					eg.high = nil
+				end)
+			end
+			if Hg then
+				task.delay(1, function()
+					pcall(function()
+						Hg:Destroy()
+					end)
+					Hg = nil
+				end)
+			end
+			Og = false
+		end
+		function FlyController.playBoostSound(C)
+			if not flightState.sfxEnabled then
+				return
+			end
+			local J = Pg[C]
+			if not J then
+				return
+			end
+			Og = true
+			local E = FlyController.makeSoundLocal(J.id, false, 0)
+			E.TimePosition = J.startAt or 0
+			if C == 1 then
+				E.PlaybackSpeed = 1.35
+			end
+			E:Play();
+			(TweenService:Create(
+				E,
+				TweenInfo.new(0.12, Enum.EasingStyle.Linear),
+				{ Volume = FlyController.sfxVol(J.vol) }
+				)):Play()
+			local A
+			if J.endAt then
+				A = J.endAt - (J.startAt or 0)
+				local U = math.max(0, A - 0.2)
+				task.delay(U, function()
+					pcall(function()
+						(TweenService:Create(E, TweenInfo.new(0.22, Enum.EasingStyle.Linear), { Volume = 0 })):Play()
+						task.delay(0.25, function()
+							pcall(function()
+								E:Stop()
+								E:Destroy()
+							end)
+						end)
+					end)
+				end)
+			else
+				A = 3
+				E.Ended:Connect(function()
+					pcall(function()
+						E:Destroy()
+					end)
+				end)
+			end
+			task.delay(A, function()
+				Og = false
+			end)
+		end
+		function FlyController.playSonicBoom()
+			if not flightState.sfxEnabled then
+				return
+			end
+			local C = FlyController.makeSoundLocal("rbxasset://sounds/action_footsteps_plastic.mp3", false, 0)
+			C.PlaybackSpeed = 0.3
+			C:Play();
+			(TweenService:Create(
+				C,
+				TweenInfo.new(0.08, Enum.EasingStyle.Linear),
+				{ Volume = FlyController.sfxVol(0.5) }
+				)):Play()
+			task.delay(0.6, function()
+				pcall(function()
+					(TweenService:Create(C, TweenInfo.new(0.35, Enum.EasingStyle.Linear), { Volume = 0 })):Play()
+					task.delay(0.4, function()
+						pcall(function()
+							C:Stop()
+							C:Destroy()
+						end)
+					end)
+				end)
+			end)
+		end
+		local ug = nil
+		function FlyController.createFlashGui()
+			if ug then
+				return
+			end
+			local U = Instance.new("ScreenGui")
+			U.Name = "IFlyFlash"
+			U.ResetOnSpawn = false
+			U.IgnoreGuiInset = true
+			U.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+			U.Parent = localPlayer.PlayerGui
+			local C = Instance.new("Frame")
+			C.Name = "Flash"
+			C.Size = UDim2.new(1, 0, 1, 0)
+			C.Position = UDim2.new(0, 0, 0, 0)
+			C.BackgroundColor3 = Color3.new(1, 1, 1)
+			C.BackgroundTransparency = 1
+			C.BorderSizePixel = 0
+			C.ZIndex = 10
+			C.Parent = U
+			ug = U
+		end
+		function FlyController.doFlash(C, J, E)
+			if not flightState.vfxEnabled then
+				return
+			end
+			FlyController.createFlashGui()
+			local A = ug and ug:FindFirstChild("Flash")
+			if not A then
+				return
+			end
+			A.BackgroundTransparency = 1
+			(TweenService:Create(
+				A,
+				TweenInfo.new(J, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{ BackgroundTransparency = 1 - C }
+				)):Play()
+			task.delay(J, function()
+				pcall(function()
+					(TweenService:Create(
+						A,
+						TweenInfo.new(E, Enum.EasingStyle.Quint, Enum.EasingDirection.Out),
+						{ BackgroundTransparency = 1 }
+						)):Play()
+				end)
+			end)
+		end
+		function FlyController.destroyFlash()
+			if ug then
+				pcall(function()
+					ug:Destroy()
+				end)
+				ug = nil
+			end
+		end
+		function FlyController.triggerPostDecelShake(C)
+			local J = math.clamp(0.7 + (C - 1) * 0.1, 0.7, 1) * flightState.boostShakeIntensity
+			cameraShakeState.trauma = math.min(cameraShakeState.trauma + J, 1)
+			flightState.fpShakeTrauma = math.min(flightState.fpShakeTrauma + J, 1)
+			FlyController.doFlash(0.25 + (C - 1) * 0.05, 0.04, 0.35 + C * 0.05)
+		end
+		local Dg = nil
+		local Bg = { flying = nil, loading = nil }
+		local Zg = 10
+		function FlyController.uiTween(U, C, J, E, A)
+			local o = TweenService:Create(
+				U,
+				TweenInfo.new(J or 0.25, E or Enum.EasingStyle.Quint, A or Enum.EasingDirection.Out),
+				C
+			)
+			o:Play()
+			return o
+		end
+		function FlyController.getNotifGui()
+			if Dg and Dg.Parent then
+				return Dg
+			end
+			local U = Instance.new("ScreenGui")
+			U.Name = "IFlyNotify"
+			-- Keeps notifications above the menu instead of letting the panel cover them.
+			U.DisplayOrder = 200
+			U.ResetOnSpawn = false
+			U.IgnoreGuiInset = true
+			U.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+			local parented = false
+			if type(gethui) == "function" then
+				parented = pcall(function()
+					local hui = gethui()
+					assert(hui, "gethui returned no parent")
+					U.Parent = hui
+					assert(U.Parent == hui, "notification GUI parent rejected")
+				end)
+			end
+			if not parented then
+				parented = pcall(function()
+					local playerGui = localPlayer:FindFirstChildOfClass("PlayerGui")
+						or localPlayer:WaitForChild("PlayerGui", 10)
+					assert(playerGui, "PlayerGui unavailable")
+					U.Parent = playerGui
+					assert(U.Parent == playerGui, "PlayerGui rejected notifications")
+				end)
+			end
+			if not parented then
+				parented = pcall(function()
+					local coreGui = game:GetService("CoreGui")
+					if syn and type(syn.protect_gui) == "function" then
+						syn.protect_gui(U)
+					end
+					U.Parent = coreGui
+					assert(U.Parent == coreGui, "CoreGui rejected notifications")
+				end)
+			end
+			if not parented then
+				U:Destroy()
+				error("[Invincible Fly] Nao foi possivel criar a GUI de notificacoes")
+			end
+			Dg = U
+			return U
+		end
+		function FlyController.buildIconGlyph(U, C, E)
+			if C == "success" then
+				local C = Instance.new("Frame")
+				C.Size = UDim2.new(0, 8, 0, 2.5)
+				C.Position = UDim2.new(0.28, 0, 0.56, 0)
+				C.AnchorPoint = Vector2.new(0, 0.5)
+				C.Rotation = 45
+				C.BackgroundColor3 = E
+				C.BorderSizePixel = 0
+				C.Parent = U;
+				(Instance.new("UICorner", C)).CornerRadius = UDim.new(1, 0)
+				local J = Instance.new("Frame")
+				J.Size = UDim2.new(0, 14, 0, 2.5)
+				J.Position = UDim2.new(0.46, 0, 0.46, 0)
+				J.AnchorPoint = Vector2.new(0, 0.5)
+				J.Rotation = -45
+				J.BackgroundColor3 = E
+				J.BorderSizePixel = 0
+				J.Parent = U;
+				(Instance.new("UICorner", J)).CornerRadius = UDim.new(1, 0)
+			elseif C == "error" then
+				local C = Instance.new("Frame")
+				C.Size = UDim2.new(0, 16, 0, 2.5)
+				C.Position = UDim2.new(0.5, 0, 0.5, 0)
+				C.AnchorPoint = Vector2.new(0.5, 0.5)
+				C.Rotation = 45
+				C.BackgroundColor3 = E
+				C.BorderSizePixel = 0
+				C.Parent = U;
+				(Instance.new("UICorner", C)).CornerRadius = UDim.new(1, 0)
+				local J = Instance.new("Frame")
+				J.Size = UDim2.new(0, 16, 0, 2.5)
+				J.Position = UDim2.new(0.5, 0, 0.5, 0)
+				J.AnchorPoint = Vector2.new(0.5, 0.5)
+				J.Rotation = -45
+				J.BackgroundColor3 = E
+				J.BorderSizePixel = 0
+				J.Parent = U;
+				(Instance.new("UICorner", J)).CornerRadius = UDim.new(1, 0)
+			elseif C == "loading" then
+				local C = Instance.new("Frame")
+				C.Size = UDim2.new(0, 18, 0, 18)
+				C.Position = UDim2.new(0.5, 0, 0.5, 0)
+				C.AnchorPoint = Vector2.new(0.5, 0.5)
+				C.BackgroundTransparency = 1
+				C.Parent = U;
+				(Instance.new("UICorner", C)).CornerRadius = UDim.new(1, 0)
+				local N = Instance.new("UIStroke")
+				N.Color = E
+				N.Thickness = 2.5
+				N.Transparency = 0.15
+				N.Parent = C
+				local A = Instance.new("UIGradient")
+				A.Transparency = NumberSequence.new({
+					NumberSequenceKeypoint.new(0, 0),
+					NumberSequenceKeypoint.new(0.7, 0.2),
+					NumberSequenceKeypoint.new(1, 1),
+				})
+				A.Parent = N
+				task.spawn(function()
+					while C.Parent do
+						A.Rotation = (os.clock() * 220) % 360
+						RunService.Heartbeat:Wait()
+					end
+				end)
+			elseif C == "reset" then
+				local C = Instance.new("Frame")
+				C.Size = UDim2.new(0, 16, 0, 16)
+				C.Position = UDim2.new(0.5, 0, 0.5, 0)
+				C.AnchorPoint = Vector2.new(0.5, 0.5)
+				C.BackgroundTransparency = 1
+				C.Parent = U;
+				(Instance.new("UICorner", C)).CornerRadius = UDim.new(1, 0)
+				local J = Instance.new("UIStroke")
+				J.Color = E
+				J.Thickness = 2.5
+				J.Transparency = 0.1
+				J.Parent = C
+				local N = Instance.new("UIGradient")
+				N.Rotation = 90
+				N.Transparency = NumberSequence.new({
+					NumberSequenceKeypoint.new(0, 0.3),
+					NumberSequenceKeypoint.new(1, 1),
+				})
+				N.Parent = J
+			else
+				local C = Instance.new("Frame")
+				C.Size = UDim2.new(0, 8, 0, 8)
+				C.Position = UDim2.new(0.5, 0, 0.5, 0)
+				C.AnchorPoint = Vector2.new(0.5, 0.5)
+				C.BackgroundColor3 = E
+				C.BorderSizePixel = 0
+				C.Parent = U;
+				(Instance.new("UICorner", C)).CornerRadius = UDim.new(1, 0)
+			end
+		end
+		function FlyController.repositionNotifySlot(C)
+			local J = Bg[C]
+			if not J or not J.Parent then
+				return
+			end
+			-- Top-right placement avoids the Roblox chat/player-list area and the bottom bar.
+			local E = 26
+			if C == "loading" and (Bg.flying and Bg.flying.Parent) then
+				E = (E + Bg.flying.AbsoluteSize.Y) + Zg
+			end
+			local A = UDim2.new(1, -26, 0, E)
+			J:SetAttribute("HomeY", E)
+			if not J:GetAttribute("Entering") then
+				FlyController.uiTween(J, { Position = A }, 0.3, Enum.EasingStyle.Quint)
+			end
+		end
+		function FlyController.markAnnouncementRead()
+			if not G then
+				return
+			end
+			pcall(function()
+				runtime.ensureSettingsFolder()
+				writefile(runtime.ANNOUNCE_FILE, '{"read":true}')
+			end)
+		end
+		function FlyController.hasReadAnnouncement()
+			if not G then
+				return true
+			end
+			local U, C = pcall(function()
+				return readfile(runtime.ANNOUNCE_FILE)
+			end)
+			if not U or not C then
+				return false
+			end
+			local J, E = pcall(function()
+				return HttpService:JSONDecode(C)
+			end)
+			return J and (E and E.read == true)
+		end
+		runtime.guiHintShown = false
+		runtime.GUI_HINT_MAX_COUNT = 3
+		runtime.guiHintCountFile = "InvincibleFly_FE/gui_hint_count.json"
+		function runtime.getGuiHintCount()
+			if not G then
+				return 0
+			end
+			local U, C = pcall(function()
+				return readfile(runtime.guiHintCountFile)
+			end)
+			if not U or not C then
+				return 0
+			end
+			local J, E = pcall(function()
+				return HttpService:JSONDecode(C)
+			end)
+			if J and (E and type(E.count) == "number") then
+				return E.count
+			end
+			return 0
+		end
+		function runtime.incrementGuiHintCount()
+			if not G then
+				return
+			end
+			local U = runtime.getGuiHintCount() + 1
+			pcall(function()
+				runtime.ensureSettingsFolder()
+				writefile(runtime.guiHintCountFile, HttpService:JSONEncode({ count = U }))
+			end)
+		end
+		runtime.crashHintFile = "InvincibleFly_FE/crash_hint_shown.json"
+		function runtime.hasSeenCrashHint()
+			if not G then
+				return true
+			end
+			local U, C = pcall(function()
+				return readfile(runtime.crashHintFile)
+			end)
+			if not U or not C then
+				return false
+			end
+			local J, E = pcall(function()
+				return HttpService:JSONDecode(C)
+			end)
+			return J and (E and E.seen == true)
+		end
+		function runtime.markCrashHintSeen()
+			if not G then
+				return
+			end
+			pcall(function()
+				runtime.ensureSettingsFolder()
+				writefile(runtime.crashHintFile, '{"seen":true}')
+			end)
+		end
+		function FlyController.showAnnouncement(C, J, E)
+			if FlyController.hasReadAnnouncement() then
+				return
+			end
+			local N = Instance.new("ScreenGui")
+			N.Name = "IFlyAnnouncement"
+			N.ResetOnSpawn = false
+			N.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+			N.DisplayOrder = 50
+			if gethui then
+				N.Parent = gethui()
+			elseif syn and syn.protect_gui then
+				syn.protect_gui(N)
+				N.Parent = game:GetService("CoreGui")
+			else
+				N.Parent = game:GetService("CoreGui")
+			end
+			local A = Instance.new("Frame")
+			A.Size = UDim2.new(1, 0, 1, 0)
+			A.BackgroundColor3 = Color3.new(0, 0, 0)
+			A.BackgroundTransparency = 1
+			A.BorderSizePixel = 0
+			A.Parent = N
+			FlyController.uiTween(A, { BackgroundTransparency = 0.45 }, 0.5, Enum.EasingStyle.Sine)
+			local o = Instance.new("CanvasGroup")
+			o.Size = UDim2.new(0, 420, 0, 0)
+			o.AutomaticSize = Enum.AutomaticSize.Y
+			o.AnchorPoint = Vector2.new(0.5, 0.5)
+			o.Position = UDim2.new(0.5, 0, 0.52, 0)
+			o.BackgroundTransparency = 1
+			o.GroupTransparency = 0
+			o.BorderSizePixel = 0
+			o.Parent = N
+			local t = Instance.new("Frame")
+			t.Size = UDim2.new(1, 0, 1, 0)
+			t.AutomaticSize = Enum.AutomaticSize.Y
+			t.BackgroundColor3 = Color3.fromRGB(10, 15, 30)
+			t.BackgroundTransparency = 0.04
+			t.BorderSizePixel = 0
+			t.Parent = o;
+			(Instance.new("UICorner", t)).CornerRadius = UDim.new(0, 18)
+			local L = Instance.new("UIStroke")
+			L.Color = Color3.fromRGB(0, 0, 255)
+			L.Transparency = 0.3
+			L.Thickness = 1.5
+			L.Parent = t
+			local X = Instance.new("Frame")
+			X.Size = UDim2.new(1, 0, 0, 4)
+			X.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+			X.BorderSizePixel = 0
+			X.Parent = t;
+			(Instance.new("UICorner", X)).CornerRadius = UDim.new(0, 18)
+			local l = Instance.new("UIGradient")
+			l.Color = ColorSequence.new({
+				ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 255)),
+				ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 0, 255)),
+				ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 255)),
+			})
+			l.Parent = X
+			local H = Instance.new("UIPadding")
+			H.PaddingLeft = UDim.new(0, 28)
+			H.PaddingRight = UDim.new(0, 28)
+			H.PaddingTop = UDim.new(0, 28)
+			H.PaddingBottom = UDim.new(0, 24)
+			H.Parent = t
+			local e = Instance.new("UIListLayout")
+			e.SortOrder = Enum.SortOrder.LayoutOrder
+			e.Padding = UDim.new(0, 12)
+			e.Parent = t
+			local O = Instance.new("TextLabel")
+			O.Size = UDim2.new(1, 0, 0, 14)
+			O.BackgroundTransparency = 1
+			O.Text = E or ""
+			O.TextColor3 = Color3.fromRGB(255, 255, 255)
+			O.Font = Enum.Font.GothamBold
+			O.TextSize = 11
+			O.TextXAlignment = Enum.TextXAlignment.Left
+			O.LayoutOrder = 1
+			O.Parent = t
+			local P = Instance.new("TextLabel")
+			P.Size = UDim2.new(1, 0, 0, 0)
+			P.AutomaticSize = Enum.AutomaticSize.Y
+			P.BackgroundTransparency = 1
+			P.Text = C
+			P.TextColor3 = Color3.fromRGB(255, 255, 255)
+			P.Font = Enum.Font.GothamBold
+			P.TextSize = 22
+			P.TextWrapped = true
+			P.TextXAlignment = Enum.TextXAlignment.Left
+			P.LayoutOrder = 2
+			P.Parent = t
+			local u = Instance.new("Frame")
+			u.Size = UDim2.new(1, 0, 0, 1)
+			u.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			u.BackgroundTransparency = 0.82
+			u.BorderSizePixel = 0
+			u.LayoutOrder = 3
+			u.Parent = t
+			local D = Instance.new("TextLabel")
+			D.Size = UDim2.new(1, 0, 0, 0)
+			D.AutomaticSize = Enum.AutomaticSize.Y
+			D.BackgroundTransparency = 1
+			D.Text = J
+			D.TextColor3 = Color3.fromRGB(255, 255, 255)
+			D.Font = Enum.Font.Gotham
+			D.TextSize = 14
+			D.TextWrapped = true
+			D.LineHeight = 1.4
+			D.TextXAlignment = Enum.TextXAlignment.Left
+			D.LayoutOrder = 4
+			D.Parent = t
+			local B = Instance.new("TextButton")
+			B.Size = UDim2.new(1, 0, 0, 42)
+			B.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+			B.BackgroundTransparency = 0.3
+			B.Text = "Got it"
+			B.TextColor3 = Color3.fromRGB(255, 255, 255)
+			B.Font = Enum.Font.GothamBold
+			B.TextSize = 13
+			B.AutoButtonColor = false
+			B.LayoutOrder = 5
+			B.Parent = t;
+			(Instance.new("UICorner", B)).CornerRadius = UDim.new(0, 12)
+			B.MouseEnter:Connect(function()
+				FlyController.uiTween(B, { BackgroundTransparency = 0.15 }, 0.15, Enum.EasingStyle.Sine)
+			end)
+			B.MouseLeave:Connect(function()
+				FlyController.uiTween(B, { BackgroundTransparency = 0.3 }, 0.15, Enum.EasingStyle.Sine)
+			end)
+			local function Z()
+				FlyController.markAnnouncementRead()
+				FlyController.uiTween(A, { BackgroundTransparency = 1 }, 0.35, Enum.EasingStyle.Sine)
+				FlyController.uiTween(
+					o,
+					{ GroupTransparency = 1, Position = UDim2.new(0.5, 0, 0.54, 0) },
+					0.35,
+					Enum.EasingStyle.Quint
+				)
+				task.delay(0.4, function()
+					pcall(function()
+						N:Destroy()
+					end)
+				end)
+			end
+			B.MouseButton1Click:Connect(Z)
+			A.InputBegan:Connect(function(U)
+				if U.UserInputType == Enum.UserInputType.MouseButton1 then
+					Z()
+				end
+			end)
+			o.Position = UDim2.new(0.5, 0, 0.56, 0)
+			o.GroupTransparency = 1
+			FlyController.uiTween(
+				o,
+				{ Position = UDim2.new(0.5, 0, 0.5, 0), GroupTransparency = 0 },
+				0.45,
+				Enum.EasingStyle.Back
+			)
+		end
+		function FlyController.notify(C, E, N, A, o, L, X)
+			o = o or 3
+			N = N or Color3.fromRGB(0, 0, 255)
+			A = A or "info"
+			L = L or "flying"
+			if not Bg[L] then
+				L = "flying"
+			end
+			if flightState.sfxEnabled then
+				pcall(function()
+					local notificationSound = FlyController.makeSoundLocal(flightConfig.NOTIFICATION_SOUND_ID, false, 0)
+					notificationSound.Volume = math.clamp((flightState.sfxVolume or 1) * 0.65, 0, 1)
+					notificationSound:Play()
+					task.delay(1.5, function()
+						pcall(function()
+							notificationSound:Stop()
+							notificationSound:Destroy()
+						end)
+					end)
+				end)
+			end
+			local l = FlyController.getNotifGui()
+			if Bg[L] and Bg[L].Parent then
+				local C = Bg[L]
+				Bg[L] = nil
+				pcall(function()
+					FlyController.uiTween(C, {
+						Position = C.Position + UDim2.new(0, C.AbsoluteSize.X + 40, 0, 0),
+						GroupTransparency = 1,
+					}, 0.22, Enum.EasingStyle.Quint, Enum.EasingDirection.In)
+				end)
+				task.delay(0.26, function()
+					pcall(function()
+						C:Destroy()
+					end)
+				end)
+			end
+			local H, e = 280, 430
+			local O, P, u, D = 14, 12, 16, 12
+			local B, Z = 34, 12
+			local F = (O + B) + Z
+			local v = (e - F) - u
+			local q = (TextService:GetTextSize(C, 16, Enum.Font.GothamBold, Vector2.new(v, math.huge))).X
+			local h = 0
+			if E and E ~= "" then
+				h = (TextService:GetTextSize(E, 13, Enum.Font.Gotham, Vector2.new(v, math.huge))).X
+			end
+			local W = (F + math.max(q, h)) + u
+			local c = math.clamp(W, H, e)
+			local f = Instance.new("CanvasGroup")
+			f.Size = UDim2.new(0, c, 0, 0)
+			f.AutomaticSize = Enum.AutomaticSize.Y
+			f.Position = UDim2.new(1, c + 32, 0, 26)
+			f.AnchorPoint = Vector2.new(1, 0)
+			f.BackgroundColor3 = Color3.fromRGB(10, 15, 30)
+			f.BackgroundTransparency = 0.08
+			f.GroupTransparency = 1
+			f.BorderSizePixel = 0
+			f.Parent = l
+			f:SetAttribute("Entering", true)
+			Bg[L] = f;
+			(Instance.new("UICorner", f)).CornerRadius = UDim.new(0, 18)
+			local y = Instance.new("UIStroke")
+			y.Color = Color3.new(1, 1, 1)
+			y.Transparency = 0.3
+			y.Thickness = 1.3
+			y.Parent = f
+			local w = Instance.new("UIGradient")
+			w.Color = ColorSequence.new({
+				ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 255)),
+				ColorSequenceKeypoint.new(0.25, Color3.fromRGB(255, 255, 255)),
+				ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 0, 255)),
+				ColorSequenceKeypoint.new(0.75, Color3.fromRGB(255, 255, 255)),
+				ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 255)),
+			})
+			w.Parent = y
+			local Y = Instance.new("UIGradient")
+			Y.Color = ColorSequence.new({
+				ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
+				ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
+				ColorSequenceKeypoint.new(1, Color3.fromRGB(225, 225, 230)),
+			})
+			Y.Rotation = 105
+			Y.Parent = f
+			local V = Instance.new("Frame")
+			V.Size = UDim2.new(0, B, 0, B)
+			V.Position = UDim2.new(0, O, 0, P)
+			V.BackgroundColor3 = N
+			V.BackgroundTransparency = 0.78
+			V.Parent = f;
+			(Instance.new("UICorner", V)).CornerRadius = UDim.new(1, 0)
+			local Q = Instance.new("UIStroke")
+			Q.Color = N
+			Q.Transparency = 0.35
+			Q.Thickness = 1.3
+			Q.Parent = V
+			FlyController.buildIconGlyph(V, A, N)
+			local r = Instance.new("Frame")
+			r.Size = UDim2.new(1, -(F + u), 0, 0)
+			r.AutomaticSize = Enum.AutomaticSize.Y
+			r.Position = UDim2.new(0, F, 0, P - 2)
+			r.BackgroundTransparency = 1
+			r.Parent = f
+			local k = Instance.new("UIListLayout")
+			k.SortOrder = Enum.SortOrder.LayoutOrder
+			k.Padding = UDim.new(0, 3)
+			k.Parent = r
+			local m = Instance.new("TextLabel")
+			m.Size = UDim2.new(1, 0, 0, 16)
+			m.LayoutOrder = 1
+			m.BackgroundTransparency = 1
+			m.Text = C
+			m.TextColor3 = Color3.fromRGB(255, 255, 255)
+			m.Font = Enum.Font.GothamBold
+			m.TextSize = 16
+			m.TextXAlignment = Enum.TextXAlignment.Left
+			m.TextTruncate = Enum.TextTruncate.AtEnd
+			m.Parent = r
+			local M = Instance.new("TextLabel")
+			M.Size = UDim2.new(1, 0, 0, 0)
+			M.AutomaticSize = Enum.AutomaticSize.Y
+			M.LayoutOrder = 2
+			M.BackgroundTransparency = 1
+			M.Text = E or ""
+			M.TextColor3 = Color3.fromRGB(255, 255, 255)
+			M.Font = Enum.Font.Gotham
+			M.TextSize = 13
+			M.TextWrapped = true
+			M.TextXAlignment = Enum.TextXAlignment.Left
+			M.TextYAlignment = Enum.TextYAlignment.Top
+			if E and E ~= "" then
+				M.Parent = r
+			end
+			local T = Instance.new("Frame")
+			T.Size = UDim2.new(1, 0, 0, 7)
+			T.BackgroundTransparency = 1
+			T.LayoutOrder = 3
+			T.Parent = r
+			local a = Instance.new("Frame")
+			a.Size = UDim2.new(1, 0, 0, 3)
+			a.LayoutOrder = 4
+			a.BackgroundColor3 = Color3.fromRGB(54, 54, 60)
+			a.BackgroundTransparency = 0.85
+			a.BorderSizePixel = 0
+			a.Parent = r;
+			(Instance.new("UICorner", a)).CornerRadius = UDim.new(1, 0)
+			local z = Instance.new("Frame")
+			z.Size = UDim2.new(1, 0, 1, 0)
+			z.BackgroundColor3 = N
+			z.BorderSizePixel = 0
+			z.Parent = a;
+			(Instance.new("UICorner", z)).CornerRadius = UDim.new(1, 0)
+			local S = Instance.new("UIGradient")
+			S.Color = ColorSequence.new({
+				ColorSequenceKeypoint.new(0, N),
+				ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
+			})
+			S.Parent = z
+			local K = Instance.new("Frame")
+			K.Size = UDim2.new(1, 0, 0, D)
+			K.LayoutOrder = 5
+			K.BackgroundTransparency = 1
+			K.Parent = r
+			V.Size = UDim2.new(0, 0, 0, 0)
+			V.Position = UDim2.new(0, O + B / 2, 0, P + B / 2)
+			local b = 26
+			if L == "loading" and (Bg.flying and Bg.flying.Parent) then
+				b = (b + Bg.flying.AbsoluteSize.Y) + Zg
+			end
+			FlyController.uiTween(
+				f,
+				{ Position = UDim2.new(1, -26, 0, b), GroupTransparency = 0 },
+				0.42,
+				Enum.EasingStyle.Back
+			)
+			task.delay(0.42, function()
+				f:SetAttribute("Entering", nil)
+				if L == "flying" then
+					FlyController.repositionNotifySlot("loading")
+				end
+			end)
+			task.delay(0.1, function()
+				pcall(function()
+					FlyController.uiTween(
+						V,
+						{ Size = UDim2.new(0, B, 0, B), Position = UDim2.new(0, O, 0, P) },
+						0.5,
+						Enum.EasingStyle.Elastic
+					)
+				end)
+			end)
+			if L == "flying" then
+				task.spawn(function()
+					local C = f.AbsoluteSize.Y
+					while f.Parent do
+						if f.AbsoluteSize.Y ~= C then
+							C = f.AbsoluteSize.Y
+							FlyController.repositionNotifySlot("loading")
+						end
+						RunService.Heartbeat:Wait()
+					end
+				end)
+			end
+			task.spawn(function()
+				local U = os.clock()
+				while f.Parent do
+					w.Rotation = ((os.clock() - U) * 40) % 360
+					Q.Transparency = 0.3 + 0.25 * (0.5 + 0.5 * math.sin((os.clock() - U) * 3))
+					RunService.Heartbeat:Wait()
+				end
+			end)
+			FlyController.uiTween(z, { Size = UDim2.new(0, 0, 1, 0) }, o, Enum.EasingStyle.Linear)
+			local I = false
+			local function x()
+				if I then
+					return
+				end
+				I = true
+				if Bg[L] ~= f then
+					return
+				end
+				Bg[L] = nil
+				pcall(function()
+					FlyController.uiTween(
+						f,
+						{ Position = f.Position + UDim2.new(0, c + 40, 0, 0), GroupTransparency = 1 },
+						0.32,
+						Enum.EasingStyle.Quint,
+						Enum.EasingDirection.In
+					)
+				end)
+				task.delay(0.38, function()
+					pcall(function()
+						f:Destroy()
+					end)
+					if L == "flying" then
+						FlyController.repositionNotifySlot("loading")
+					end
+				end)
+			end
+			if X then
+				pcall(function()
+					f.Active = true
+					f.InputBegan:Connect(function(U)
+						if
+							U.UserInputType == Enum.UserInputType.MouseButton1
+							or U.UserInputType == Enum.UserInputType.Touch
+						then
+							pcall(X)
+							x()
+						end
+					end)
+				end)
+			end
+			task.delay(o, x)
+		end
+		function runtime.parseVersionParts(U)
+			local C = {}
+			for U in (tostring(U)):gmatch("%d+") do
+				table.insert(C, tonumber(U))
+			end
+			return C
+		end
+		function runtime.isRemoteVersionNewer(U, C)
+			local J, E = runtime.parseVersionParts(U), runtime.parseVersionParts(C)
+			local N = math.max(#J, #E)
+			for U = 1, N, 1 do
+				local C, N = J[U] or 0, E[U] or 0
+				if C > N then
+					return true
+				end
+				if C < N then
+					return false
+				end
+			end
+			return false
+		end
+		function runtime.fetchUrl(U)
+			local C, J
+			C, J = pcall(function()
+				return game:HttpGet(U, true)
+			end)
+			if C and (type(J) == "string" and J ~= "") then
+				return J
+			end
+			C, J = pcall(function()
+				return HttpService:GetAsync(U)
+			end)
+			if C and (type(J) == "string" and J ~= "") then
+				return J
+			end
+			local E = (typeof(request) == "function" and request)
+				or (typeof(http_request) == "function" and http_request)
+			if E then
+				C, J = pcall(function()
+					local C = E({ Url = U, Method = "GET" })
+					return C and C.Body
+				end)
+				if C and (type(J) == "string" and J ~= "") then
+					return J
+				end
+			end
+			if syn and typeof(syn.request) == "function" then
+				C, J = pcall(function()
+					local C = syn.request({ Url = U, Method = "GET" })
+					return C and C.Body
+				end)
+				if C and (type(J) == "string" and J ~= "") then
+					return J
+				end
+			end
+			return nil
+		end
+		function runtime.checkForUpdate()
+			if runtime.killed then
+				return false
+			end
+			if runtime.updateNoticeShown then
+				return true
+			end
+			local C = runtime.fetchUrl(flightConfig.VERSION_CHECK_URL)
+			if type(C) ~= "string" then
+				return false
+			end
+			local J = C:match("%S+")
+			if not J or J == "" then
+				return false
+			end
+			if runtime.isRemoteVersionNewer(J, flightConfig.SCRIPT_VERSION) then
+				runtime.updateNoticeShown = true
+				pcall(function()
+					FlyController.notify(
+						"HPX Fly",
+						"Existe uma versao mais recente. Execute o script novamente para atualizar.",
+						Color3.fromRGB(0, 0, 255),
+						"error",
+						8
+					)
+				end)
+				return true
+			end
+			return false
+		end
+		local Fg = Color3.fromRGB(255, 255, 255)
+		local vg = Color3.fromRGB(10, 15, 30)
+		local hg = Color3.fromRGB(0, 0, 255)
+		local Wg = Color3.fromRGB(255, 255, 255)
+		local cg = Color3.fromRGB(255, 255, 255)
+		local fg = Color3.fromRGB(255, 255, 255)
+		local dg = Color3.fromRGB(255, 255, 255)
+		local yg = Color3.fromRGB(0, 0, 255)
+		local wg = Color3.fromRGB(255, 255, 255)
+		local Yg = hg
+		local Vg
+		local Qg
+		local rg
+		function FlyController._buildSettingsUI()
+			rg = {
+				open = false,
+				capturing = nil,
+				inputLockUntil = 0,
+				container = nil,
+				card = nil,
+				buttons = {},
+			}
+			local viewport = workspace.CurrentCamera and workspace.CurrentCamera.ViewportSize or Vector2.new(1280, 720)
+			-- Larger default card while still fitting on compact displays.
+			local C = math.clamp(viewport.X - 32, 260, 500)
+			local A = math.clamp(viewport.Y - 32, 360, 760)
+			local widthScale = math.min(C / math.max(viewport.X, 1), 0.95)
+			local heightScale = math.min(A / math.max(viewport.Y, 1), 0.95)
+			local o = 0.2
+			local X
+			local function H()
+				if X and X.Parent then
+					X.Enabled = true
+					return X
+				end
+				local U = Instance.new("ScreenGui")
+				U.Name = "IFlyMenu"
+				U.DisplayOrder = 100
+				U.Enabled = true
+				U.ResetOnSpawn = false
+				U.IgnoreGuiInset = true
+				U.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+				local parented = false
+				if type(gethui) == "function" then
+					parented = pcall(function()
+						U.Parent = gethui()
+						assert(U.Parent, "GUI parent unavailable")
+					end)
+				end
+				if not parented then
+					parented = pcall(function()
+						local playerGui = localPlayer:FindFirstChildOfClass("PlayerGui")
+							or localPlayer:WaitForChild("PlayerGui", 10)
+						assert(playerGui, "PlayerGui unavailable")
+						U.Parent = playerGui
+						assert(U.Parent == playerGui, "PlayerGui rejected the menu")
+					end)
+				end
+				if not parented then
+					parented = pcall(function()
+						local coreGui = game:GetService("CoreGui")
+						U.Parent = coreGui
+						assert(U.Parent == coreGui, "CoreGui rejected the menu")
+					end)
+				end
+				if not parented then
+					U:Destroy()
+					error("[Invincible Fly] Nao foi possivel criar o painel no PlayerGui ou CoreGui")
+				end
+				X = U
+				return U
+			end
+			local function O(C)
+				local J = C.Size
+				FlyController.uiTween(C, { Size = J - UDim2.new(0, 6, 0, 4) }, 0.07, Enum.EasingStyle.Quad)
+				task.delay(0.08, function()
+					pcall(function()
+						FlyController.uiTween(C, { Size = J }, 0.25, Enum.EasingStyle.Back)
+					end)
+				end)
+			end
+			local function P()
+				rg.capturing = nil
+				rg.inputLockUntil = os.clock() + o
+			end
+			local function D(C, N, A)
+				if rg.capturing then
+					return
+				end
+				rg.capturing = C
+				A = A or N:FindFirstChildOfClass("UIStroke")
+				N.Text = "pressione uma tecla"
+				FlyController.uiTween(
+					N,
+					{ BackgroundColor3 = hg, BackgroundTransparency = 0.55 },
+					0.2,
+					Enum.EasingStyle.Sine
+				)
+				if A then
+					A.Color = hg
+				end
+				task.spawn(function()
+					local E = os.clock()
+					while rg.capturing == C and N.Parent do
+						if A then
+							A.Transparency = 0.1 + 0.35 * (0.5 + 0.5 * math.sin((os.clock() - E) * 6))
+						end
+						RunService.Heartbeat:Wait()
+					end
+					if A then
+						A.Color = Color3.fromRGB(0, 0, 255)
+						A.Transparency = 0.5
+					end
+					pcall(function()
+						FlyController.uiTween(
+							N,
+							{ BackgroundColor3 = Color3.fromRGB(10, 15, 30), BackgroundTransparency = 0.08 },
+							0.25,
+							Enum.EasingStyle.Sine
+						)
+					end)
+				end)
+				local function o()
+					N.Text = FlyController.prettyKeyName(flightConfig[C.cfg])
+					P()
+				end
+				local t
+				t = UserInputService.InputBegan:Connect(function(J)
+					if J.UserInputType ~= Enum.UserInputType.Keyboard then
+						return
+					end
+					local E = J.KeyCode
+					if FlyController.isShiftKeyName(E.Name) then
+						N.Text = "Shift reservado ao Roblox"
+						return
+					end
+					t:Disconnect()
+					if E == Enum.KeyCode.Escape or E == Enum.KeyCode.Unknown then
+						o()
+						return
+					end
+					for C, J in ipairs(i) do
+						if flightConfig[J] == E then
+							FlyController.notify(
+								"Tecla em uso",
+								FlyController.prettyKeyName(E) .. " ja esta sendo usada para movimento",
+								yg,
+								"error",
+								2.5
+							)
+							o()
+							return
+						end
+					end
+					local A = nil
+					for U, J in ipairs(n) do
+						if J.id ~= C.id and flightConfig[J.cfg] == E then
+							A = J
+							break
+						end
+					end
+					local L = flightConfig[C.cfg]
+					local nextFlyKey = flightConfig.KEY_TOGGLE
+					if C.id == "fly" then
+						nextFlyKey = E
+					elseif A and A.id == "fly" then
+						nextFlyKey = L
+					end
+					if nextFlyKey and runtime.canUsePanelFlyKey and not runtime.canUsePanelFlyKey(nextFlyKey) then
+						FlyController.notify("Tecla em uso", "Essa tecla ja esta reservada no painel HPX", yg, "error", 2.5)
+						o()
+						return
+					end
+					flightConfig[C.cfg] = E
+					savedSettings.binds[C.id] = E.Name
+					if A then
+						flightConfig[A.cfg] = L
+						savedSettings.binds[A.id] = L.Name
+						local C = rg.buttons[A.id]
+						if C then
+							C.Text = FlyController.prettyKeyName(L)
+						end
+					end
+					if runtime.syncPanelFlyKey then
+						runtime.syncPanelFlyKey()
+					end
+					FlyController.saveSettings(savedSettings)
+					N.Text = FlyController.prettyKeyName(E)
+					P()
+					O(N)
+					e()
+					if A then
+						FlyController.notify(
+							"Teclas trocadas",
+							C.label
+								.. (
+									" \226\134\146 "
+									.. (
+										FlyController.prettyKeyName(E)
+										.. (
+											"  |  "
+											.. (A.label .. (" \226\134\146 " .. FlyController.prettyKeyName(L)))
+										)
+									)
+								),
+							wg,
+							"success",
+							3
+						)
+					else
+						FlyController.notify(
+							"Tecla salva",
+							C.label .. ("  \226\134\146  " .. FlyController.prettyKeyName(E)),
+							wg,
+							"success",
+							2
+						)
+					end
+				end)
+			end
+			local function w(C, J, E)
+				local N = Instance.new("Frame")
+				N.Size = UDim2.new(0, 44, 0, 24)
+				N.BackgroundColor3 = J and hg or Color3.fromRGB(0, 0, 255)
+				N.BackgroundTransparency = 0.25
+				N.ClipsDescendants = true
+				N.Active = true
+				N.Parent = C;
+				(Instance.new("UICorner", N)).CornerRadius = UDim.new(1, 0)
+				local A = Instance.new("UIStroke")
+				A.Color = hg
+				A.Transparency = 0.6
+				A.Thickness = 1
+				A.Parent = N
+				local o = Instance.new("Frame")
+				o.Size = UDim2.new(0, 18, 0, 18)
+				o.Position = J and UDim2.new(1, -21, 0.5, -9) or UDim2.new(0, 3, 0.5, -9)
+				o.BackgroundColor3 = Color3.new(1, 1, 1)
+				o.Parent = N;
+				(Instance.new("UICorner", o)).CornerRadius = UDim.new(1, 0)
+				local t = Instance.new("UIStroke")
+				t.Color = Color3.fromRGB(0, 0, 0)
+				t.Transparency = 0.85
+				t.Thickness = 1
+				t.Parent = o
+				local L = J
+				N.InputBegan:Connect(function(C)
+					if
+						C.UserInputType == Enum.UserInputType.MouseButton1
+						or C.UserInputType == Enum.UserInputType.Touch
+					then
+						L = not L
+						local C = L and hg or Color3.fromRGB(0, 0, 255)
+						local J = L and UDim2.new(1, -21, 0.5, -9) or UDim2.new(0, 3, 0.5, -9)
+						FlyController.uiTween(N, { BackgroundColor3 = C }, 0.25, Enum.EasingStyle.Sine)
+						FlyController.uiTween(o, { Position = J }, 0.25, Enum.EasingStyle.Back)
+						E(L)
+					end
+				end)
+				return {
+					set = function(C)
+						if L == C then
+							return
+						end
+						L = C
+						local J = L and hg or Color3.fromRGB(0, 0, 255)
+						local E = L and UDim2.new(1, -21, 0.5, -9) or UDim2.new(0, 3, 0.5, -9)
+						FlyController.uiTween(N, { BackgroundColor3 = J }, 0.25, Enum.EasingStyle.Sine)
+						FlyController.uiTween(o, { Position = E }, 0.25, Enum.EasingStyle.Back)
+					end,
+				}
+			end
+			function runtime.wireSlider(U, C, J)
+				local N = Instance.new("TextButton")
+				N.Name = "SliderHitbox"
+				N.Text = ""
+				N.AutoButtonColor = false
+				N.BackgroundTransparency = 1
+				N.AnchorPoint = Vector2.new(0, 0.5)
+				N.Size = UDim2.new(1, 16, 0, 30)
+				N.Position = UDim2.new(0, -8, 0.5, 0)
+				N.ZIndex = U.ZIndex + 5
+				N.Parent = U
+				local A, o, t = nil, nil, true
+				local function L()
+					if not A then
+						return
+					end
+					A = nil
+					if o then
+						pcall(function()
+							o.ScrollingEnabled = t
+						end)
+					end
+					o = nil
+					if J then
+						pcall(J)
+					end
+				end
+				N.InputBegan:Connect(function(J)
+					local E = J.UserInputType
+					if E ~= Enum.UserInputType.MouseButton1 and E ~= Enum.UserInputType.Touch then
+						return
+					end
+					if A then
+						return
+					end
+					A = J
+					o = U:FindFirstAncestorOfClass("ScrollingFrame")
+					if o then
+						t = o.ScrollingEnabled
+						o.ScrollingEnabled = false
+					end
+					C(J.Position.X)
+				end)
+				local X = UserInputService.InputChanged:Connect(function(U)
+					if not A then
+						return
+					end
+					if A.UserInputType == Enum.UserInputType.Touch then
+						if U ~= A then
+							return
+						end
+					elseif U.UserInputType ~= Enum.UserInputType.MouseMovement then
+						return
+					end
+					C(U.Position.X)
+				end)
+				local l = UserInputService.InputEnded:Connect(function(U)
+					if not A then
+						return
+					end
+					if
+						U == A
+						or (
+							A.UserInputType == Enum.UserInputType.MouseButton1
+								and U.UserInputType == Enum.UserInputType.MouseButton1
+						)
+					then
+						L()
+					end
+				end)
+				N.Destroying:Connect(function()
+					X:Disconnect()
+					l:Disconnect()
+				end)
+			end
+			local function Q(C, J, E, N, A, o, t, L)
+				local X = Instance.new("Frame")
+				X.Size = UDim2.new(1, 0, 0, 58)
+				X.BackgroundColor3 = Fg
+				X.BackgroundTransparency = 0.9
+				X.BorderSizePixel = 0
+				X.LayoutOrder = J
+				X.Parent = C;
+				(Instance.new("UICorner", X)).CornerRadius = UDim.new(0, 13)
+				local H = Instance.new("UIStroke", X)
+				H.Color = Color3.new(1, 1, 1)
+				H.Transparency = 0.86
+				H.Thickness = 1
+				X.MouseEnter:Connect(function()
+					FlyController.uiTween(X, { BackgroundTransparency = 0.8 }, 0.15, Enum.EasingStyle.Sine)
+					FlyController.uiTween(H, { Transparency = 0.62 }, 0.15, Enum.EasingStyle.Sine)
+				end)
+				X.MouseLeave:Connect(function()
+					FlyController.uiTween(X, { BackgroundTransparency = 0.9 }, 0.2, Enum.EasingStyle.Sine)
+					FlyController.uiTween(H, { Transparency = 0.86 }, 0.2, Enum.EasingStyle.Sine)
+				end)
+				local e = Instance.new("TextLabel", X)
+				e.Size = UDim2.new(0.6, 0, 0, 20)
+				e.Position = UDim2.new(0, 14, 0, 6)
+				e.BackgroundTransparency = 1
+				e.Text = E
+				e.TextColor3 = cg
+				e.TextSize = 12
+				e.Font = Enum.Font.GothamMedium
+				e.TextXAlignment = Enum.TextXAlignment.Left
+				local O = Instance.new("TextLabel", X)
+				O.Size = UDim2.new(0.38, -16, 0, 20)
+				O.Position = UDim2.new(0.62, 0, 0, 6)
+				O.BackgroundTransparency = 1
+				O.TextColor3 = Color3.fromRGB(255, 255, 255)
+				O.TextSize = 12
+				O.Font = Enum.Font.GothamBold
+				O.TextXAlignment = Enum.TextXAlignment.Right
+				local function P(U)
+					return o and string.format("%.1f", U)
+						or ("x" .. string.format(U >= 100 and "%.0f" or "%.2f", U))
+				end
+				O.Text = P(N())
+				local u = Instance.new("Frame", X)
+				u.Size = UDim2.new(1, -28, 0, 6)
+				u.Position = UDim2.new(0, 14, 0, 38)
+				u.BackgroundColor3 = Color3.new(1, 1, 1)
+				u.BackgroundTransparency = 0.88
+				u.BorderSizePixel = 0
+				(Instance.new("UICorner", u)).CornerRadius = UDim.new(1, 0)
+				local D = Instance.new("Frame", u)
+				D.Name = "Fill"
+				D.BackgroundColor3 = hg
+				D.BorderSizePixel = 0
+				(Instance.new("UICorner", D)).CornerRadius = UDim.new(1, 0)
+				local B = Instance.new("Frame", u)
+				B.Size = UDim2.new(0, 14, 0, 14)
+				B.AnchorPoint = Vector2.new(0.5, 0.5)
+				B.BackgroundColor3 = Color3.new(1, 1, 1)
+				B.BorderSizePixel = 0
+				B.ZIndex = 2
+				(Instance.new("UICorner", B)).CornerRadius = UDim.new(1, 0)
+				local Z = Instance.new("UIStroke", B)
+				Z.Color = hg
+				Z.Thickness = 1.5
+				local function F(C, J)
+					C = math.max(C, o and t or 0.01)
+					A(C)
+					O.Text = P(C)
+					local E = math.clamp((C - t) / (L - t), 0, 1)
+					FlyController.uiTween(D, { Size = UDim2.new(E, 0, 1, 0) }, 0.1, Enum.EasingStyle.Sine)
+					B.Position = UDim2.new(E, 0, 0.5, 0)
+					if not J then
+						FlyController.persistSettings()
+					end
+				end
+				do
+					local U = math.clamp((N() - t) / (L - t), 0, 1)
+					D.Size = UDim2.new(U, 0, 1, 0)
+					B.Position = UDim2.new(U, 0, 0.5, 0)
+				end
+				local function v(U)
+					local C = u.AbsoluteSize.X
+					local J = u.AbsolutePosition.X
+					local E = math.clamp(U - J, 0, C)
+					local N = E / math.max(C, 1)
+					F(t + (L - t) * N, true)
+				end
+				runtime.wireSlider(u, v, FlyController.persistSettings)
+				return { container = X, fill = D, valueLabel = O, apply = F }
+			end
+			local function b(C, E)
+				local N = vg
+				local A = Color3.fromRGB(0, 0, 255)
+				local o = Color3.fromRGB(10, 15, 30)
+				local t = Color3.fromRGB(0, 0, 255)
+				local L = hg
+				local X = Fg
+				local l = cg
+				local H = Fg
+				local e = Instance.new("Frame")
+				e.Size = UDim2.new(1, 0, 1, 0)
+				e.BackgroundTransparency = 1
+				e.Visible = false
+				e.Parent = C
+				local P = Instance.new("Frame")
+				P.Size = UDim2.new(1, 0, 0, 26)
+				P.BackgroundTransparency = 1
+				P.Parent = e
+				local u = Instance.new("TextLabel")
+				u.Size = UDim2.new(1, -70, 1, 0)
+				u.Position = UDim2.new(0, 2, 0, 0)
+				u.BackgroundTransparency = 1
+				u.Text = E.headerText
+				u.TextColor3 = dg
+				u.TextSize = 10
+				u.Font = Enum.Font.GothamBold
+				u.TextXAlignment = Enum.TextXAlignment.Left
+				u.Parent = P
+				local D = Instance.new("Frame")
+				D.Size = UDim2.new(0, 40, 0, 18)
+				D.Position = UDim2.new(1, -44, 0.5, -9)
+				D.BackgroundColor3 = Fg
+				D.BackgroundTransparency = 0.72
+				D.Parent = P;
+				(Instance.new("UICorner", D)).CornerRadius = UDim.new(1, 0)
+				local B = Instance.new("UIStroke", D)
+				B.Color = Color3.new(1, 1, 1)
+				B.Transparency = 0.75
+				B.Thickness = 1
+				local Z = Instance.new("TextLabel", D)
+				Z.Size = UDim2.new(1, 0, 1, 0)
+				Z.BackgroundTransparency = 1
+				local F = {}
+				local v = 0
+				if E.groups then
+					for U, C in ipairs(E.groups) do
+						table.insert(F, { isHeader = true, label = C.label })
+						for U, C in ipairs(C.names) do
+							table.insert(F, { isHeader = false, name = C })
+							v = v + 1
+						end
+					end
+				else
+					for U, C in ipairs(E.order) do
+						table.insert(F, { isHeader = false, name = C })
+						v = v + 1
+					end
+				end
+				Z.Text = tostring(v)
+				Z.TextColor3 = fg
+				Z.TextSize = 10
+				Z.Font = Enum.Font.GothamBold
+				local q = 0
+				local h = nil
+				if E.searchable then
+					q = 34
+					local U = Instance.new("Frame")
+					U.Size = UDim2.new(1, 0, 0, 30)
+					U.Position = UDim2.new(0, 0, 0, 28)
+					U.BackgroundColor3 = Fg
+					U.BackgroundTransparency = 0.86
+					U.Parent = e;
+					(Instance.new("UICorner", U)).CornerRadius = UDim.new(0, 10)
+					local C = Instance.new("UIStroke", U)
+					C.Color = Color3.new(1, 1, 1)
+					C.Transparency = 0.8
+					C.Thickness = 1
+					local J = Instance.new("Frame")
+					J.Size = UDim2.new(0, 11, 0, 11)
+					J.Position = UDim2.new(0, 10, 0.5, -8)
+					J.BackgroundTransparency = 1
+					J.Parent = U;
+					(Instance.new("UICorner", J)).CornerRadius = UDim.new(1, 0)
+					local E = Instance.new("UIStroke", J)
+					E.Color = dg
+					E.Thickness = 1.5
+					local N = Instance.new("Frame")
+					N.Size = UDim2.new(0, 6, 0, 1.5)
+					N.Position = UDim2.new(0, 18, 0.5, 2)
+					N.Rotation = 45
+					N.BackgroundColor3 = dg
+					N.BorderSizePixel = 0
+					N.Parent = U
+					h = Instance.new("TextBox")
+					h.Size = UDim2.new(1, -34, 1, 0)
+					h.Position = UDim2.new(0, 28, 0, 0)
+					h.BackgroundTransparency = 1
+					h.Text = ""
+					h.PlaceholderText = "Buscar poses\226\128\166"
+					h.PlaceholderColor3 = dg
+					h.TextColor3 = cg
+					h.Font = Enum.Font.GothamMedium
+					h.TextSize = 12
+					h.TextXAlignment = Enum.TextXAlignment.Left
+					h.ClearTextOnFocus = false
+					h.Parent = U
+				end
+				local W = Instance.new("ScrollingFrame")
+				W.Name = "AnimationScroller"
+				W.Size = UDim2.new(1, 0, 1, -(30 + q))
+				W.Position = UDim2.new(0, 0, 0, 30 + q)
+				W.BackgroundTransparency = 1
+				W.ScrollBarThickness = 4
+				W.ScrollingDirection = Enum.ScrollingDirection.Y
+				W.VerticalScrollBarInset = Enum.ScrollBarInset.Always
+				W.ScrollBarImageColor3 = hg
+				W.ScrollBarImageTransparency = 0.35
+				W.CanvasSize = UDim2.new(0, 0, 0, 0)
+				W.AutomaticCanvasSize = Enum.AutomaticSize.Y
+				W.Parent = e
+				local c = Instance.new("UIListLayout")
+				c.Padding = UDim.new(0, 7)
+				c.SortOrder = Enum.SortOrder.LayoutOrder
+				c.Parent = W
+				local f = Instance.new("UIPadding")
+				f.PaddingRight = UDim.new(0, 16)
+				f.PaddingTop = UDim.new(0, 2)
+				f.PaddingBottom = UDim.new(0, 6)
+				f.Parent = W
+				local d = {}
+				local function y(C, J, E, e)
+					local O = E and 0 or 0.3
+					local function P(C, J)
+						if E then
+							for U, J in pairs(J) do
+								pcall(function()
+									C[U] = J
+								end)
+							end
+						else
+							FlyController.uiTween(C, J, O, Enum.EasingStyle.Quint)
+						end
+					end
+					if J then
+						C.selGrad.Color = e
+							and ColorSequence.new({
+								ColorSequenceKeypoint.new(0, o),
+								ColorSequenceKeypoint.new(1, t),
+							})
+							or ColorSequence.new({
+								ColorSequenceKeypoint.new(0, N),
+								ColorSequenceKeypoint.new(1, A),
+							})
+						C.selStrokeGrad.Color = e
+							and ColorSequence.new({
+								ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 255)),
+								ColorSequenceKeypoint.new(0.25, Color3.fromRGB(255, 255, 255)),
+								ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 0, 255)),
+								ColorSequenceKeypoint.new(0.75, Color3.fromRGB(255, 255, 255)),
+								ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 255)),
+							})
+							or ColorSequence.new({
+								ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 255)),
+								ColorSequenceKeypoint.new(0.25, Color3.fromRGB(255, 255, 255)),
+								ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 0, 255)),
+								ColorSequenceKeypoint.new(0.75, Color3.fromRGB(255, 255, 255)),
+								ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 255)),
+							})
+						P(C.selBg, { BackgroundTransparency = 0.04 })
+						P(
+							C.glow,
+							{ ImageTransparency = 0.62, ImageColor3 = e and L or Color3.fromRGB(0, 0, 255) }
+						)
+						P(C.baseStroke, { Transparency = 1 })
+						P(C.selStroke, { Transparency = 0.25 })
+						P(C.label, { TextColor3 = Color3.fromRGB(255, 255, 255) })
+						C.label.Font = Enum.Font.GothamBold
+						P(C.ring, { BackgroundTransparency = 1 })
+						P(C.ringStroke, {
+							Transparency = 0.25,
+							Color = e and l or hg,
+						})
+						P(C.dot, {
+							BackgroundTransparency = 0,
+							BackgroundColor3 = e and H or hg,
+						})
+						P(C.chevron, { TextTransparency = 1 })
+						P(C.sheen, {
+							BackgroundTransparency = 0,
+							BackgroundColor3 = e and X or hg,
+						})
+					else
+						P(C.selBg, { BackgroundTransparency = 1 })
+						P(C.glow, { ImageTransparency = 1 })
+						P(C.baseStroke, { Transparency = 0.86 })
+						P(C.selStroke, { Transparency = 1 })
+						P(C.label, { TextColor3 = cg })
+						C.label.Font = Enum.Font.GothamMedium
+						P(C.ringStroke, { Transparency = 1 })
+						P(C.dot, { BackgroundTransparency = 1 })
+						P(C.sheen, { BackgroundTransparency = 1 })
+					end
+				end
+				local function w(U)
+					local C = E.getCurrent()
+					for J, N in pairs(d) do
+						local A = (J == C)
+						y(N, A, U, A and (E.isPending and E.isPending(J)))
+					end
+				end
+				local Y = {}
+				local V = nil
+				for C, J in ipairs(F) do
+					if J.isHeader then
+						local U = Instance.new("Frame")
+						U.Size = UDim2.new(1, 0, 0, 22)
+						U.BackgroundTransparency = 1
+						U.LayoutOrder = C
+						U.Parent = W
+						local E = Instance.new("Frame")
+						E.Size = UDim2.new(0, 3, 0, 11)
+						E.Position = UDim2.new(0, 2, 0.5, -5)
+						E.BackgroundColor3 = hg
+						E.BorderSizePixel = 0
+						E.Parent = U;
+						(Instance.new("UICorner", E)).CornerRadius = UDim.new(1, 0)
+						local N = Instance.new("TextLabel")
+						N.Size = UDim2.new(1, -16, 1, 0)
+						N.Position = UDim2.new(0, 12, 0, 0)
+						N.BackgroundTransparency = 1
+						N.Text = J.label
+						N.TextColor3 = dg
+						N.TextSize = 10
+						N.Font = Enum.Font.GothamBold
+						N.TextXAlignment = Enum.TextXAlignment.Left
+						N.Parent = U
+						V = { frame = U, names = {} }
+						table.insert(Y, V)
+					else
+						local o = J.name
+						if V then
+							table.insert(V.names, o)
+						end
+						local t = E.displayNames[o] or o
+						local L = Instance.new("TextButton")
+						L.Name = o
+						L.Size = UDim2.new(1, 0, 0, 46)
+						L.BackgroundColor3 = Fg
+						L.BackgroundTransparency = 0.9
+						L.Text = ""
+						L.AutoButtonColor = false
+						L.ClipsDescendants = false
+						L.LayoutOrder = C
+						L.Parent = W;
+						(Instance.new("UICorner", L)).CornerRadius = UDim.new(0, 13)
+						local X = Instance.new("ImageLabel")
+						X.BackgroundTransparency = 1
+						X.Image = "rbxassetid://6014261993"
+						X.ImageColor3 = Color3.fromRGB(0, 0, 255)
+						X.ImageTransparency = 1
+						X.ScaleType = Enum.ScaleType.Slice
+						X.SliceCenter = Rect.new(49, 49, 450, 450)
+						X.Size = UDim2.new(1, 26, 1, 26)
+						X.Position = UDim2.new(0, -13, 0, -11)
+						X.ZIndex = 0
+						X.Parent = L
+						local l = Instance.new("Frame")
+						l.Size = UDim2.new(1, 0, 1, 0)
+						l.BackgroundColor3 = Color3.new(1, 1, 1)
+						l.BackgroundTransparency = 1
+						l.BorderSizePixel = 0
+						l.ZIndex = 1
+						l.Parent = L;
+						(Instance.new("UICorner", l)).CornerRadius = UDim.new(0, 13)
+						local H = Instance.new("UIGradient")
+						H.Color = ColorSequence.new({
+							ColorSequenceKeypoint.new(0, N),
+							ColorSequenceKeypoint.new(1, A),
+						})
+						H.Rotation = 22
+						H.Parent = l
+						local e = Instance.new("Frame")
+						e.Size = UDim2.new(1, 0, 1, 0)
+						e.BackgroundColor3 = hg
+						e.BackgroundTransparency = 1
+						e.BorderSizePixel = 0
+						e.ZIndex = 2
+						e.Parent = L;
+						(Instance.new("UICorner", e)).CornerRadius = UDim.new(0, 13)
+						local P = Instance.new("UIGradient")
+						P.Transparency = NumberSequence.new({
+							NumberSequenceKeypoint.new(0, 1),
+							NumberSequenceKeypoint.new(0.42, 1),
+							NumberSequenceKeypoint.new(0.5, 0.82),
+							NumberSequenceKeypoint.new(0.58, 1),
+							NumberSequenceKeypoint.new(1, 1),
+						})
+						P.Parent = e
+						local u = Instance.new("UIStroke")
+						u.Color = Color3.new(1, 1, 1)
+						u.Transparency = 0.86
+						u.Thickness = 1
+						u.Parent = L
+						local D = Instance.new("Frame")
+						D.Size = UDim2.new(1, 0, 1, 0)
+						D.BackgroundTransparency = 1
+						D.ZIndex = 3
+						D.Parent = L;
+						(Instance.new("UICorner", D)).CornerRadius = UDim.new(0, 13)
+						local B = Instance.new("UIStroke")
+						B.Color = Color3.new(1, 1, 1)
+						B.Transparency = 1
+						B.Thickness = 1.4
+						B.Parent = D
+						local Z = Instance.new("UIGradient")
+						Z.Color = ColorSequence.new({
+							ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 255)),
+							ColorSequenceKeypoint.new(0.25, Color3.fromRGB(255, 255, 255)),
+							ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 0, 255)),
+							ColorSequenceKeypoint.new(0.75, Color3.fromRGB(255, 255, 255)),
+							ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 255)),
+						})
+						Z.Parent = B
+						local F = Instance.new("TextLabel")
+						F.Size = UDim2.new(1, -76, 1, 0)
+						F.Position = UDim2.new(0, 16, 0, 0)
+						F.BackgroundTransparency = 1
+						F.Text = t
+						F.TextColor3 = cg
+						F.TextSize = 17
+						F.TextScaled = true
+						F.TextWrapped = false
+						F.Font = Enum.Font.GothamMedium
+						F.TextXAlignment = Enum.TextXAlignment.Left
+						F.TextTruncate = Enum.TextTruncate.None
+						local labelSizeConstraint = Instance.new("UITextSizeConstraint")
+						labelSizeConstraint.MinTextSize = 12
+						labelSizeConstraint.MaxTextSize = 17
+						labelSizeConstraint.Parent = F
+						F.ZIndex = 4
+						F.Parent = L
+						local v = Instance.new("TextLabel")
+						v.Size = UDim2.new(0, 18, 1, 0)
+						v.Position = UDim2.new(1, -28, 0, 0)
+						v.BackgroundTransparency = 1
+						v.Text = "\226\128\186"
+						v.TextColor3 = fg
+						v.TextSize = 18
+						v.Font = Enum.Font.GothamBold
+						v.TextTransparency = 1
+						v.ZIndex = 4
+						v.Parent = L
+						local q = Instance.new("Frame")
+						q.Size = UDim2.new(0, 20, 0, 20)
+						q.Position = UDim2.new(1, -32, 0.5, -10)
+						q.BackgroundTransparency = 1
+						q.ZIndex = 4
+						q.Parent = L;
+						(Instance.new("UICorner", q)).CornerRadius = UDim.new(1, 0)
+						local h = Instance.new("UIStroke", q)
+						h.Color = hg
+						h.Transparency = 1
+						h.Thickness = 1.6
+						local c = Instance.new("Frame", q)
+						c.Size = UDim2.new(0, 8, 0, 8)
+						c.Position = UDim2.new(0.5, -4, 0.5, -4)
+						c.BackgroundColor3 = hg
+						c.BackgroundTransparency = 1
+						c.ZIndex = 4
+						(Instance.new("UICorner", c)).CornerRadius = UDim.new(1, 0)
+						local f = {
+							button = L,
+							selBg = l,
+							selGrad = H,
+							sheen = e,
+							sheenGrad = P,
+							baseStroke = u,
+							selStroke = B,
+							selStrokeGrad = Z,
+							glow = X,
+							label = F,
+							ring = q,
+							ringStroke = h,
+							dot = c,
+							chevron = v,
+						}
+						d[o] = f
+						L.MouseEnter:Connect(function()
+							if E.getCurrent() == o then
+								return
+							end
+							if E.hoverGate and not E.hoverGate() then
+								return
+							end
+							FlyController.uiTween(
+								L,
+								{ BackgroundTransparency = 0.78 },
+								0.15,
+								Enum.EasingStyle.Sine
+							)
+							FlyController.uiTween(u, { Transparency = 0.6 }, 0.15, Enum.EasingStyle.Sine)
+							FlyController.uiTween(v, { TextTransparency = 0.35 }, 0.15, Enum.EasingStyle.Sine)
+						end)
+						L.MouseLeave:Connect(function()
+							FlyController.uiTween(L, { BackgroundTransparency = 0.9 }, 0.2, Enum.EasingStyle.Sine)
+							if E.getCurrent() ~= o then
+								FlyController.uiTween(u, { Transparency = 0.86 }, 0.2, Enum.EasingStyle.Sine)
+							end
+							FlyController.uiTween(v, { TextTransparency = 1 }, 0.2, Enum.EasingStyle.Sine)
+						end)
+						L.MouseButton1Click:Connect(function()
+							O(L)
+							E.onSelect(o, function()
+								w(false)
+							end)
+						end)
+					end
+				end
+				w(true)
+				task.spawn(function()
+					local U = os.clock()
+					while e.Parent do
+						if e.Visible then
+							local C = d[E.getCurrent()]
+							if C then
+								local J = os.clock() - U
+								C.sheenGrad.Offset = Vector2.new(math.sin(J * 0.55) * 0.9, 0)
+								C.selStrokeGrad.Rotation = (J * 42) % 360
+								C.ringStroke.Transparency = 0.2 + 0.25 * (0.5 + 0.5 * math.sin(J * 2.4))
+							end
+						end
+						RunService.Heartbeat:Wait()
+					end
+				end)
+				if h then
+					local function U()
+						local U = ((h.Text:lower()):gsub("^%s+", "")):gsub("%s+$", "")
+						for C, J in ipairs(Y) do
+							local N = (U == "")
+							for C, J in ipairs(J.names) do
+								local A = d[J]
+								if A then
+									local C = ((E.displayNames[J] or J)):lower()
+									local o = U == "" or C:find(U, 1, true) ~= nil
+									A.button.Visible = o
+									if o then
+										N = true
+									end
+								end
+							end
+							J.frame.Visible = N
+						end
+					end
+					(h:GetPropertyChangedSignal("Text")):Connect(U)
+				end
+				return e, w
+			end
+			local function I(C)
+				local J, E = b(C, {
+					groups = B,
+					searchable = true,
+					displayNames = Z,
+					headerText = "ESCOLHA SUA POSE",
+					getCurrent = function()
+						return R
+					end,
+					isPending = function()
+						return flightState.idlePendingRefly
+					end,
+					onSelect = function(C, J)
+						if R == C then
+							return
+						end
+						local E = idleAnimations[C]
+						if E then
+							FlyController.cacheAnimationId(E.AnimationId)
+						end
+						R = C
+						FlyController.updateGear5Aura()
+						FlyController.persistSettings()
+						if flightState.flying and runtime.LEGACY_FORMAT_IDLES[C] then
+							flightState.idlePendingRefly = true
+							J()
+							FlyController.notify(
+								"Animacao na fila",
+								"Esta animacao usa um formato antigo. Pouse e decole novamente, ou alterne o voo, para ela funcionar.",
+								wg,
+								"info",
+								4
+							)
+							return
+						end
+						flightState.idlePendingRefly = false
+						J()
+						if flightState.flying and runtime.SLOW_REPLICATION_IDLES[C] then
+							FlyController.notify(
+								"Atencao",
+								"Esta animacao pode parecer lenta para outros jogadores no inicio, mas funciona normalmente quando terminar de carregar.",
+								hg,
+								"info",
+								4
+							)
+						end
+						if flightState.flying then
+							runtime.suppressBlockDefaultAnimsUntil = os.clock() + 0.3
+							FlyController.hardResetIdlePlayback()
+							FlyController.playCurrentIdle()
+						end
+					end,
+				})
+				j = J:FindFirstChild("AnimationScroller")
+				rg.refreshIdlesList = E
+				return J
+			end
+			local function x(C)
+				local J = Instance.new("Frame")
+				J.Size = UDim2.new(1, 0, 1, 0)
+				J.BackgroundTransparency = 1
+				J.Visible = false
+				J.Parent = C
+				local E = Instance.new("Frame")
+				E.Size = UDim2.new(1, 0, 0, 28)
+				E.BackgroundColor3 = Fg
+				E.BackgroundTransparency = 0.9
+				E.Parent = J;
+				(Instance.new("UICorner", E)).CornerRadius = UDim.new(0, 8)
+				local N = Instance.new("TextLabel")
+				N.Size = UDim2.new(1, -56, 1, 0)
+				N.Position = UDim2.new(0, 10, 0, 0)
+				N.BackgroundTransparency = 1
+				N.Text = "Anima��o de Decolagem"
+				N.TextColor3 = fg
+				N.TextSize = 11
+				N.Font = Enum.Font.GothamSemibold
+				N.TextXAlignment = Enum.TextXAlignment.Left
+				N.Parent = E
+				local A = Instance.new("Frame")
+				A.Size = UDim2.new(0, 36, 0, 18)
+				A.Position = UDim2.new(1, -46, 0.5, -9)
+				A.BackgroundColor3 = flightState.takeoffsEnabled and hg or Fg
+				A.BackgroundTransparency = flightState.takeoffsEnabled and 0.2 or 0.8
+				A.Parent = E;
+				(Instance.new("UICorner", A)).CornerRadius = UDim.new(1, 0)
+				local o = Instance.new("Frame")
+				o.Size = UDim2.new(0, 14, 0, 14)
+				o.Position = flightState.takeoffsEnabled and UDim2.new(1, -16, 0.5, -7)
+					or UDim2.new(0, 2, 0.5, -7)
+				o.BackgroundColor3 = Color3.new(1, 1, 1)
+				o.Parent = A;
+				(Instance.new("UICorner", o)).CornerRadius = UDim.new(1, 0)
+				local t = Instance.new("TextButton")
+				t.Size = UDim2.new(1, 0, 1, 0)
+				t.BackgroundTransparency = 1
+				t.Text = ""
+				t.Parent = A
+				local function L(C)
+					FlyController.uiTween(
+						A,
+						{ BackgroundColor3 = C and hg or Fg, BackgroundTransparency = C and 0.2 or 0.8 },
+						0.15,
+						Enum.EasingStyle.Sine
+					)
+					FlyController.uiTween(
+						o,
+						{ Position = C and UDim2.new(1, -16, 0.5, -7) or UDim2.new(0, 2, 0.5, -7) },
+						0.15,
+						Enum.EasingStyle.Sine
+					)
+				end
+				rg.takeoffTabSwitch = L
+				t.MouseButton1Click:Connect(function()
+					flightState.takeoffsEnabled = not flightState.takeoffsEnabled
+					FlyController.persistSettings()
+					L(flightState.takeoffsEnabled)
+					if rg.takeoffToggleHandle then
+						rg.takeoffToggleHandle.set(flightState.takeoffsEnabled)
+					end
+				end)
+				local X = Instance.new("Frame")
+				X.Size = UDim2.new(1, 0, 1, -34)
+				X.Position = UDim2.new(0, 0, 0, 34)
+				X.BackgroundTransparency = 1
+				X.Parent = J
+				local l = b(X, {
+					order = v,
+					displayNames = q,
+					headerText = "ESCOLHA A DECOLAGEM",
+					getCurrent = function()
+						return s
+					end,
+					onSelect = function(C, J)
+						if s == C then
+							return
+						end
+						local E = F[C]
+						if E then
+							FlyController.cacheAnimationId(E.AnimationId)
+						end
+						s = C
+						FlyController.persistSettings()
+						J()
+						FlyController.notify("Decolagem selecionada", q[C] or C, hg, "success", 1.5)
+					end,
+				})
+				l.Visible = true
+				return J
+			end
+			local function g(C, J)
+				local N = Instance.new("Frame")
+				N.Size = UDim2.new(1, 0, 1, 0)
+				N.BackgroundTransparency = 1
+				N.Visible = false
+				N.Parent = C
+				local A = nil
+				local o = nil
+				local function t()
+					if A then
+						local C = A
+						A = nil
+						o = nil
+						C.ClipsDescendants = true
+						FlyController.uiTween(
+							C,
+							{
+								Size = C:GetAttribute("InlineDropdown") and UDim2.new(1, 0, 0, 0)
+									or UDim2.new(0, C.AbsoluteSize.X, 0, 0),
+								BackgroundTransparency = 1,
+							},
+							0.18,
+							Enum.EasingStyle.Quint
+						)
+						for U, C in ipairs(C:GetDescendants()) do
+							if C:IsA("TextLabel") or C:IsA("TextButton") then
+								pcall(function()
+									C.TextTransparency = 1
+								end)
+								pcall(function()
+									C.BackgroundTransparency = 1
+								end)
+							end
+							if C:IsA("UIStroke") then
+								pcall(function()
+									C.Transparency = 1
+								end)
+							end
+						end
+						task.delay(0.22, function()
+							pcall(function()
+								C:Destroy()
+							end)
+						end)
+					end
+				end
+				rg.closeBoostDropdown = t
+				UserInputService.InputBegan:Connect(function(U, C)
+					if not A then
+						return
+					end
+					if
+						U.UserInputType ~= Enum.UserInputType.MouseButton1
+						and U.UserInputType ~= Enum.UserInputType.Touch
+					then
+						return
+					end
+					local J = U.Position
+					local function E(U)
+						if not U or not U.Parent then
+							return false
+						end
+						local C, E = pcall(function()
+							return U.AbsolutePosition
+						end)
+						local N, A = pcall(function()
+							return U.AbsoluteSize
+						end)
+						if not C or not N then
+							return false
+						end
+						return J.X >= E.X and (J.X <= E.X + A.X and (J.Y >= E.Y and J.Y <= E.Y + A.Y))
+					end
+					if E(A) or E(o) then
+						return
+					end
+					t()
+				end)
+				local function L(C, E, N)
+					if A and o == C then
+						t()
+						return
+					end
+					t()
+					o = C
+					local inline = C:GetAttribute("InlineDropdown") == true
+					local L = Color3.fromRGB(10, 15, 30)
+					local X = Color3.fromRGB(0, 0, 255)
+					local l = Color3.fromRGB(255, 255, 255)
+					local H = Color3.fromRGB(255, 255, 255)
+					local e = Instance.new("Frame")
+					e.Name = "BoostDropdown"
+					e.BackgroundColor3 = L
+					e.BackgroundTransparency = 0.02
+					e.BorderSizePixel = 0
+					e.Size = inline and UDim2.new(1, 0, 0, 0) or UDim2.new(0, C.AbsoluteSize.X, 0, 0)
+					e.ZIndex = 20
+					e.ClipsDescendants = true
+					e:SetAttribute("InlineDropdown", inline)
+					e.LayoutOrder = C.LayoutOrder + 1
+					e.Parent = inline and C.Parent or J;
+					(Instance.new("UICorner", e)).CornerRadius = UDim.new(0, 13)
+					local P = Instance.new("UIStroke")
+					P.Color = Color3.new(1, 1, 1)
+					P.Transparency = 0.76
+					P.Thickness = 1
+					P.Parent = e
+					local D = Instance.new("Frame")
+					D.Size = UDim2.new(1, 0, 1, 0)
+					D.BackgroundTransparency = 1
+					D.ClipsDescendants = true
+					D.ZIndex = 20
+					D.Parent = e
+					if not inline then
+						local B = C.AbsolutePosition
+						local Z = J.AbsolutePosition
+						local F = B.X - Z.X
+						local v = ((B.Y - Z.Y) + C.AbsoluteSize.Y) + 6
+						local q = J.AbsoluteSize.X
+						if F + C.AbsoluteSize.X > q - 8 then
+							F = (q - C.AbsoluteSize.X) - 8
+						end
+						e.Position = UDim2.new(0, F, 0, v)
+					end
+					local h = Instance.new("ScrollingFrame")
+					h.Size = UDim2.new(1, -8, 1, -8)
+					h.Position = UDim2.new(0, 4, 0, 4)
+					h.BackgroundTransparency = 1
+					h.ScrollBarThickness = 3
+					h.ScrollingDirection = Enum.ScrollingDirection.Y
+					h.VerticalScrollBarInset = Enum.ScrollBarInset.Always
+					h.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 255)
+					h.ScrollBarImageTransparency = 0.35
+					h.CanvasSize = UDim2.new(0, 0, 0, 0)
+					h.AutomaticCanvasSize = Enum.AutomaticSize.Y
+					h.ZIndex = 21
+					h.Parent = D
+					local W = Instance.new("UIListLayout")
+					W.Padding = UDim.new(0, 6)
+					W.Parent = h
+					local c = Instance.new("UIPadding")
+					c.PaddingTop = UDim.new(0, 2)
+					c.PaddingBottom = UDim.new(0, 2)
+					c.PaddingRight = UDim.new(0, 12)
+					c.Parent = h
+					local f = 42
+					for C, J in ipairs(E) do
+						local E = J.label == N
+						local A = Instance.new("TextButton")
+						A.Size = UDim2.new(1, 0, 0, f)
+						A.BackgroundColor3 = E and X or Fg
+						A.BackgroundTransparency = E and 0.18 or 0.9
+						A.Text = ""
+						A.AutoButtonColor = false
+						A.ZIndex = 21
+						A.Parent = h;
+						(Instance.new("UICorner", A)).CornerRadius = UDim.new(0, 11)
+						local stroke = Instance.new("UIStroke")
+						stroke.Color = E and hg or Color3.new(1, 1, 1)
+						stroke.Transparency = E and 0.28 or 0.86
+						stroke.Thickness = E and 1.2 or 1
+						stroke.Parent = A
+						if E then
+							local U = Instance.new("Frame")
+							U.Size = UDim2.new(0, 3, 0.55, 0)
+							U.Position = UDim2.new(0, 7, 0.225, 0)
+							U.BackgroundColor3 = hg
+							U.BorderSizePixel = 0
+							U.ZIndex = 22
+							U.Parent = A;
+							(Instance.new("UICorner", U)).CornerRadius = UDim.new(1, 0)
+							local C = Instance.new("UIStroke")
+							C.Color = hg
+							C.Transparency = 0.5
+							C.Thickness = 2
+							C.Parent = U
+						end
+						local o = Instance.new("TextLabel")
+						o.Size = UDim2.new(1, -18, 1, 0)
+						o.Position = UDim2.new(0, E and 20 or 14, 0, 0)
+						o.BackgroundTransparency = 1
+						o.Text = J.label
+						o.TextColor3 = E and l or H
+						o.Font = E and Enum.Font.GothamBold or Enum.Font.Gotham
+						o.TextSize = 14
+						o.TextScaled = true
+						o.TextWrapped = false
+						o.TextXAlignment = Enum.TextXAlignment.Left
+						o.TextTruncate = Enum.TextTruncate.AtEnd
+						local optionSizeConstraint = Instance.new("UITextSizeConstraint")
+						optionSizeConstraint.MinTextSize = 11
+						optionSizeConstraint.MaxTextSize = 15
+						optionSizeConstraint.Parent = o
+						o.ZIndex = 22
+						o.Parent = A
+						A.MouseEnter:Connect(function()
+							if not E then
+								FlyController.uiTween(
+									A,
+									{ BackgroundColor3 = X, BackgroundTransparency = 0.55 },
+									0.12,
+									Enum.EasingStyle.Sine
+								)
+								FlyController.uiTween(o, { TextColor3 = l }, 0.12, Enum.EasingStyle.Sine)
+							end
+						end)
+						A.MouseLeave:Connect(function()
+							if not E then
+								FlyController.uiTween(
+									A,
+									{ BackgroundColor3 = Fg, BackgroundTransparency = 0.9 },
+									0.12,
+									Enum.EasingStyle.Sine
+								)
+								FlyController.uiTween(o, { TextColor3 = H }, 0.12, Enum.EasingStyle.Sine)
+							end
+						end)
+						local e = J
+						A.MouseButton1Click:Connect(function()
+							t()
+							e.onSelect()
+						end)
+					end
+					local d = math.min(#E * (f + 6) + 12, 240)
+					A = e
+					FlyController.uiTween(
+						e,
+						{ Size = inline and UDim2.new(1, 0, 0, d) or UDim2.new(0, C.AbsoluteSize.X, 0, d) },
+						0.22,
+						Enum.EasingStyle.Quint
+					)
+				end
+				local X = Instance.new("ScrollingFrame")
+				X.Size = UDim2.new(1, 0, 1, 0)
+				X.BackgroundTransparency = 1
+				X.ScrollBarThickness = 5
+				X.ScrollingDirection = Enum.ScrollingDirection.Y
+				X.VerticalScrollBarInset = Enum.ScrollBarInset.Always
+				X.ScrollBarImageColor3 = hg
+				X.ScrollBarImageTransparency = 0.3
+				X.CanvasSize = UDim2.new(0, 0, 0, 0)
+				X.AutomaticCanvasSize = Enum.AutomaticSize.Y
+				X.Parent = N
+				local l = Instance.new("UIListLayout")
+				l.SortOrder = Enum.SortOrder.LayoutOrder
+				l.Padding = UDim.new(0, 10)
+				l.Parent = X
+				local boostScrollPadding = Instance.new("UIPadding")
+				boostScrollPadding.PaddingRight = UDim.new(0, 12)
+				boostScrollPadding.Parent = X
+				local function H(U, C)
+					local J = Instance.new("TextLabel")
+					J.Size = UDim2.new(1, 0, 0, 14)
+					J.BackgroundTransparency = 1
+					J.Text = U
+					J.TextColor3 = dg
+					J.TextSize = 10
+					J.Font = Enum.Font.GothamBold
+					J.TextXAlignment = Enum.TextXAlignment.Left
+					J.LayoutOrder = C
+					J.Parent = X
+				end
+				H("PREDEFINICAO", 1)
+				local e = Instance.new("TextButton")
+				e.Size = UDim2.new(1, 0, 0, 46)
+				e.BackgroundColor3 = Fg
+				e.BackgroundTransparency = 0.9
+				e.Text = ""
+				e.AutoButtonColor = false
+				e.LayoutOrder = 2
+				e:SetAttribute("InlineDropdown", true)
+				e.Parent = X;
+				(Instance.new("UICorner", e)).CornerRadius = UDim.new(0, 13)
+				local O = Instance.new("UIStroke")
+				O.Color = Color3.new(1, 1, 1)
+				O.Transparency = 0.86
+				O.Thickness = 1
+				O.Parent = e
+				local P = Instance.new("TextLabel")
+				P.Name = "PresetName"
+				P.Size = UDim2.new(1, -44, 1, 0)
+				P.Position = UDim2.new(0, 16, 0, 0)
+				P.BackgroundTransparency = 1
+				P.Text = d == "Custom" and "Personalizado" or d
+				P.TextColor3 = cg
+				P.Font = Enum.Font.GothamBold
+				P.TextSize = 15
+				P.TextXAlignment = Enum.TextXAlignment.Left
+				P.TextTruncate = Enum.TextTruncate.AtEnd
+				P.Parent = e
+				local u = Instance.new("TextLabel")
+				u.Size = UDim2.new(0, 28, 1, 0)
+				u.Position = UDim2.new(1, -32, 0, 0)
+				u.BackgroundTransparency = 1
+				u.Text = "\226\150\188"
+				u.TextColor3 = Color3.fromRGB(255, 255, 255)
+				u.Font = Enum.Font.GothamBold
+				u.TextSize = 14
+				u.Parent = e
+				local function D()
+					local C = {}
+					for J, E in ipairs(f) do
+						local N = E
+						table.insert(C, {
+							label = N,
+							onSelect = function()
+								local C = c[N]
+								if not C then
+									return
+								end
+								d = N
+								for J = 1, 4, 1 do
+									local selectedId = C[J]
+									if selectedId then
+										y[J] = selectedId
+										local E = W[selectedId]
+										if E then
+											FlyController.cacheAnimationId(E.animId)
+										end
+									end
+								end
+								FlyController.applyBoostAnimSelections()
+								FlyController.persistSettings()
+								P.Text = N
+								for U = 1, 4, 1 do
+									local C = X:FindFirstChild("LvlRow" .. U, true)
+									if C then
+										local J = C:FindFirstChild("CurLabel", true)
+										local E = W[y[U]]
+										if J then
+											J.Text = E and E.name or "?"
+										end
+									end
+								end
+								FlyController.notify("Predefinicao de impulso", N, hg, "success", 1.5)
+							end,
+						})
+					end
+					if d == "Custom" then
+						table.insert(C, 1, { label = "Personalizado (modificado)", onSelect = function() end })
+					end
+					return C
+				end
+				e.MouseButton1Click:Connect(function()
+					L(e, D(), d == "Custom" and "Personalizado (modificado)" or d)
+				end)
+				local B = Instance.new("TextButton")
+				B.Size = UDim2.new(1, 0, 0, 28)
+				B.BackgroundTransparency = 1
+				B.Text = ""
+				B.AutoButtonColor = false
+				B.LayoutOrder = 4
+				B.Parent = X
+				local Z = Instance.new("Frame")
+				Z.AnchorPoint = Vector2.new(0, 0.5)
+				Z.Size = UDim2.new(0.18, 0, 0, 1)
+				Z.Position = UDim2.new(0, 0, 0.5, 0)
+				Z.BackgroundColor3 = dg
+				Z.BackgroundTransparency = 0.5
+				Z.BorderSizePixel = 0
+				Z.Parent = B
+				local F = Instance.new("Frame")
+				F.AnchorPoint = Vector2.new(1, 0.5)
+				F.Size = UDim2.new(0.18, 0, 0, 1)
+				F.Position = UDim2.new(1, 0, 0.5, 0)
+				F.BackgroundColor3 = dg
+				F.BackgroundTransparency = 0.5
+				F.BorderSizePixel = 0
+				F.Parent = B
+				local v = Instance.new("TextLabel")
+				v.AnchorPoint = Vector2.new(0.5, 0.5)
+				v.Size = UDim2.new(0.64, 0, 1, 0)
+				v.Position = UDim2.new(0.5, 0, 0.5, 0)
+				v.BackgroundTransparency = 1
+				v.Text = "AVAN�ADO  \226\150\182"
+				v.TextColor3 = dg
+				v.Font = Enum.Font.GothamBold
+				v.TextSize = 10
+				v.Parent = B
+				B.MouseEnter:Connect(function()
+					FlyController.uiTween(v, { TextColor3 = fg }, 0.15, Enum.EasingStyle.Sine)
+				end)
+				B.MouseLeave:Connect(function()
+					FlyController.uiTween(v, { TextColor3 = dg }, 0.15, Enum.EasingStyle.Sine)
+				end)
+				local q = Instance.new("Frame")
+				q.Name = "AdvancedBody"
+				q.Size = UDim2.new(1, 0, 0, 0)
+				q.BackgroundTransparency = 1
+				q.ClipsDescendants = true
+				q.LayoutOrder = 5
+				q.Visible = false
+				q.Parent = X
+				local w = Instance.new("UIListLayout")
+				w.SortOrder = Enum.SortOrder.LayoutOrder
+				w.Padding = UDim.new(0, 6)
+				w.Parent = q
+				local Y = { "Impulso 1", "Impulso 2", "Impulso 3", "Impulso 4" }
+				local V = 0
+				for C = 1, 4, 1 do
+					local J = Instance.new("Frame")
+					J.Name = "LvlRow" .. C
+					J.Size = UDim2.new(1, 0, 0, 44)
+					J.BackgroundColor3 = Fg
+					J.BackgroundTransparency = 0.9
+					J.LayoutOrder = C
+					J.Parent = q;
+					(Instance.new("UICorner", J)).CornerRadius = UDim.new(0, 10)
+					local E = Instance.new("UIStroke")
+					E.Color = Color3.new(1, 1, 1)
+					E.Transparency = 0.76
+					E.Thickness = 1
+					E.Parent = J
+					local N = Instance.new("TextLabel")
+					N.Size = UDim2.new(0.36, 0, 1, 0)
+					N.Position = UDim2.new(0, 12, 0, 0)
+					N.BackgroundTransparency = 1
+					N.Text = Y[C]
+					N.TextColor3 = cg
+					N.Font = Enum.Font.GothamBold
+					N.TextSize = 12
+					N.TextXAlignment = Enum.TextXAlignment.Left
+					N.Parent = J
+					local A = Instance.new("TextButton")
+					A.Size = UDim2.new(0.6, -8, 0.6, 0)
+					A.Position = UDim2.new(0.38, 0, 0.2, 0)
+					A.BackgroundColor3 = Fg
+					A.BackgroundTransparency = 0.76
+					A.Text = ""
+					A.AutoButtonColor = false
+					A.Parent = J;
+					(Instance.new("UICorner", A)).CornerRadius = UDim.new(0, 8)
+					local o = Instance.new("UIStroke")
+					o.Color = hg
+					o.Transparency = 0.55
+					o.Thickness = 1
+					o.Parent = A
+					local t = W[y[C]]
+					local X = Instance.new("TextLabel")
+					X.Name = "CurLabel"
+					X.Size = UDim2.new(1, -22, 1, 0)
+					X.Position = UDim2.new(0, 8, 0, 0)
+					X.BackgroundTransparency = 1
+					X.Text = t and t.name or "?"
+					X.TextColor3 = fg
+					X.Font = Enum.Font.Gotham
+					X.TextSize = 13
+					X.TextScaled = true
+					X.TextWrapped = false
+					X.TextXAlignment = Enum.TextXAlignment.Left
+					X.TextTruncate = Enum.TextTruncate.None
+					local currentNameSizeConstraint = Instance.new("UITextSizeConstraint")
+					currentNameSizeConstraint.MinTextSize = 9
+					currentNameSizeConstraint.MaxTextSize = 13
+					currentNameSizeConstraint.Parent = X
+					X.Parent = A
+					local l = Instance.new("TextLabel")
+					l.Size = UDim2.new(0, 16, 1, 0)
+					l.Position = UDim2.new(1, -18, 0, 0)
+					l.BackgroundTransparency = 1
+					l.Text = "\226\150\188"
+					l.TextColor3 = Color3.fromRGB(255, 255, 255)
+					l.Font = Enum.Font.GothamBold
+					l.TextSize = 11
+					l.Parent = A
+					local H = C
+					local e = X
+					A.MouseButton1Click:Connect(function()
+						local C = {}
+						for J, E in ipairs(h) do
+							local N = E
+							table.insert(C, {
+								label = N.name,
+								onSelect = function()
+									y[H] = N.id
+									FlyController.cacheAnimationId(N.animId)
+									local C = false
+									for U, J in pairs(c) do
+										if J then
+											local E = true
+											for U = 1, 4, 1 do
+												if J[U] and y[U] ~= J[U] then
+													E = false
+													break
+												end
+											end
+											if E then
+												C = true
+												d = U
+												break
+											end
+										end
+									end
+									if not C then
+										d = "Custom"
+									end
+									FlyController.applyBoostAnimSelections()
+									FlyController.persistSettings()
+									local J = W[N.id]
+									e.Text = J and J.name or "?"
+									P.Text = d == "Custom" and "Personalizado" or d
+									FlyController.notify("Impulso " .. H, N.name, hg, "success", 1.5)
+								end,
+							})
+						end
+						local J = ((W[y[H]] or {})).name or ""
+						L(A, C, J)
+					end)
+					V = (V + 44) + 6
+				end
+				X.InputBegan:Connect(function(U)
+					if
+						U.UserInputType == Enum.UserInputType.MouseButton1
+						or U.UserInputType == Enum.UserInputType.Touch
+					then
+						if A and A.Parent then
+							local position = U.Position
+							local origin = A.AbsolutePosition
+							local size = A.AbsoluteSize
+							if
+								position.X >= origin.X
+								and position.X <= origin.X + size.X
+								and position.Y >= origin.Y
+								and position.Y <= origin.Y + size.Y
+							then
+								return
+							end
+						end
+						t()
+					end
+				end)
+				local Q = false
+				B.MouseButton1Click:Connect(function()
+					t()
+					Q = not Q
+					v.Text = "AVAN�ADO" .. (Q and "  \226\150\188" or "  \226\150\182")
+					if Q then
+						q.Visible = true
+						FlyController.uiTween(
+							q,
+							{ Size = UDim2.new(1, 0, 0, V + 8) },
+							0.3,
+							Enum.EasingStyle.Quint
+						)
+					else
+						FlyController.uiTween(q, { Size = UDim2.new(1, 0, 0, 0) }, 0.25, Enum.EasingStyle.Quint)
+						task.delay(0.28, function()
+							if not Q then
+								q.Visible = false
+							end
+						end)
+					end
+				end)
+				return N
+			end
+			local function p(C)
+				local E = Instance.new("ScrollingFrame")
+				E.Size = UDim2.new(1, 0, 1, 0)
+				E.BackgroundTransparency = 1
+				E.ScrollBarThickness = 3
+				E.ScrollingDirection = Enum.ScrollingDirection.Y
+				E.VerticalScrollBarInset = Enum.ScrollBarInset.Always
+				E.ScrollBarImageColor3 = hg
+				E.ScrollBarImageTransparency = 0.5
+				E.CanvasSize = UDim2.new(0, 0, 0, 0)
+				E.AutomaticCanvasSize = Enum.AutomaticSize.Y
+				E.Visible = false
+				E.Parent = C
+				local N = Instance.new("UIListLayout")
+				N.Padding = UDim.new(0, 8)
+				N.SortOrder = Enum.SortOrder.LayoutOrder
+				N.Parent = E
+				local function A(U, C)
+					local J = Instance.new("Frame")
+					J.Size = UDim2.new(1, 0, 0, 22)
+					J.BackgroundTransparency = 1
+					J.LayoutOrder = C
+					J.Parent = E
+					local N = Instance.new("Frame")
+					N.Size = UDim2.new(0, 3, 0, 11)
+					N.Position = UDim2.new(0, 2, 0.5, -5)
+					N.BackgroundColor3 = hg
+					N.BorderSizePixel = 0
+					N.Parent = J;
+					(Instance.new("UICorner", N)).CornerRadius = UDim.new(1, 0)
+					local A = Instance.new("UIGradient")
+					A.Color = ColorSequence.new({
+						ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 255)),
+						ColorSequenceKeypoint.new(1, hg),
+					})
+					A.Rotation = 90
+					A.Parent = N
+					local o = Instance.new("TextLabel")
+					o.Size = UDim2.new(0, 0, 1, 0)
+					o.AutomaticSize = Enum.AutomaticSize.X
+					o.Position = UDim2.new(0, 12, 0, 0)
+					o.BackgroundTransparency = 1
+					o.Text = U
+					o.TextColor3 = fg
+					o.TextSize = 10
+					o.Font = Enum.Font.GothamBold
+					o.TextXAlignment = Enum.TextXAlignment.Left
+					o.Parent = J
+					local L = Instance.new("Frame")
+					L.AnchorPoint = Vector2.new(1, 0.5)
+					L.Position = UDim2.new(1, -8, 0.5, 0)
+					L.BackgroundColor3 = Color3.new(1, 1, 1)
+					L.BackgroundTransparency = 0.8
+					L.BorderSizePixel = 0
+					L.Parent = J;
+					(Instance.new("UICorner", L)).CornerRadius = UDim.new(1, 0)
+					local X = Instance.new("UIGradient")
+					X.Transparency = NumberSequence.new({
+						NumberSequenceKeypoint.new(0, 1),
+						NumberSequenceKeypoint.new(1, 0.35),
+					})
+					X.Parent = L
+					local l = (TextService:GetTextSize(U, 10, Enum.Font.GothamBold, Vector2.new(1000, 22))).X
+					L.Size = UDim2.new(1, -((12 + l) + 16), 0, 1)
+					return J
+				end
+				local function o(C, J, E, N)
+					local A = Instance.new("Frame")
+					A.Size = UDim2.new(1, 0, 0, 44)
+					A.BackgroundColor3 = Fg
+					A.BackgroundTransparency = 0.9
+					A.BorderSizePixel = 0
+					A.LayoutOrder = C;
+					(Instance.new("UICorner", A)).CornerRadius = UDim.new(0, 13)
+					local o = Instance.new("UIStroke", A)
+					o.Color = Color3.new(1, 1, 1)
+					o.Transparency = 0.86
+					o.Thickness = 1
+					local t = Instance.new("TextLabel", A)
+					t.Size = UDim2.new(1, -70, 1, 0)
+					t.Position = UDim2.new(0, 16, 0, 0)
+					t.BackgroundTransparency = 1
+					t.Text = J
+					t.TextColor3 = cg
+					t.TextSize = 12
+					t.Font = Enum.Font.GothamMedium
+					t.TextXAlignment = Enum.TextXAlignment.Left
+					local L = Instance.new("Frame", A)
+					L.Size = UDim2.new(0, 44, 0, 24)
+					L.Position = UDim2.new(1, -58, 0.5, -12)
+					L.BackgroundTransparency = 1
+					local X = w(L, E, N)
+					A.MouseEnter:Connect(function()
+						FlyController.uiTween(A, { BackgroundTransparency = 0.8 }, 0.15, Enum.EasingStyle.Sine)
+						FlyController.uiTween(o, { Transparency = 0.62 }, 0.15, Enum.EasingStyle.Sine)
+					end)
+					A.MouseLeave:Connect(function()
+						FlyController.uiTween(A, { BackgroundTransparency = 0.9 }, 0.2, Enum.EasingStyle.Sine)
+						FlyController.uiTween(o, { Transparency = 0.86 }, 0.2, Enum.EasingStyle.Sine)
+					end)
+					return { frame = A, toggle = X }
+				end
+				local function L(C, J, E, N, A, o)
+					A = A or 0
+					o = o or 1
+					local t = Instance.new("Frame")
+					t.Size = UDim2.new(1, 0, 0, 58)
+					t.BackgroundColor3 = Fg
+					t.BackgroundTransparency = 0.9
+					t.BorderSizePixel = 0
+					t.LayoutOrder = C;
+					(Instance.new("UICorner", t)).CornerRadius = UDim.new(0, 13)
+					local L = Instance.new("UIStroke", t)
+					L.Color = Color3.new(1, 1, 1)
+					L.Transparency = 0.86
+					L.Thickness = 1
+					t.MouseEnter:Connect(function()
+						FlyController.uiTween(t, { BackgroundTransparency = 0.8 }, 0.15, Enum.EasingStyle.Sine)
+						FlyController.uiTween(L, { Transparency = 0.62 }, 0.15, Enum.EasingStyle.Sine)
+					end)
+					t.MouseLeave:Connect(function()
+						FlyController.uiTween(t, { BackgroundTransparency = 0.9 }, 0.2, Enum.EasingStyle.Sine)
+						FlyController.uiTween(L, { Transparency = 0.86 }, 0.2, Enum.EasingStyle.Sine)
+					end)
+					local X = Instance.new("TextLabel", t)
+					X.Size = UDim2.new(0.6, 0, 0, 20)
+					X.Position = UDim2.new(0, 14, 0, 6)
+					X.BackgroundTransparency = 1
+					X.Text = J
+					X.TextColor3 = cg
+					X.TextSize = 12
+					X.Font = Enum.Font.GothamMedium
+					X.TextXAlignment = Enum.TextXAlignment.Left
+					local H = Instance.new("TextLabel", t)
+					H.Size = UDim2.new(0.38, -14, 0, 20)
+					H.Position = UDim2.new(0.62, 0, 0, 6)
+					H.BackgroundTransparency = 1
+					H.TextColor3 = Color3.fromRGB(255, 255, 255)
+					H.TextSize = 12
+					H.Font = Enum.Font.GothamBold
+					H.TextXAlignment = Enum.TextXAlignment.Right
+					local function e(U)
+						return math.floor(U * 100 + 0.5) .. "%"
+					end
+					H.Text = e(E())
+					local O = Instance.new("Frame", t)
+					O.Size = UDim2.new(1, -28, 0, 6)
+					O.Position = UDim2.new(0, 14, 0, 38)
+					O.BackgroundColor3 = Color3.new(1, 1, 1)
+					O.BackgroundTransparency = 0.88
+					O.BorderSizePixel = 0
+					(Instance.new("UICorner", O)).CornerRadius = UDim.new(1, 0)
+					local P = Instance.new("Frame", O)
+					P.BackgroundColor3 = hg
+					P.BorderSizePixel = 0
+					(Instance.new("UICorner", P)).CornerRadius = UDim.new(1, 0)
+					local u = Instance.new("Frame", O)
+					u.Size = UDim2.new(0, 14, 0, 14)
+					u.AnchorPoint = Vector2.new(0.5, 0.5)
+					u.BackgroundColor3 = Color3.new(1, 1, 1)
+					u.BorderSizePixel = 0
+					u.ZIndex = 2
+					(Instance.new("UICorner", u)).CornerRadius = UDim.new(1, 0)
+					local D = Instance.new("UIStroke", u)
+					D.Color = hg
+					D.Thickness = 1.5
+					local function B(U)
+						U = math.clamp(U, 0, 1)
+						P.Size = UDim2.new(U, 0, 1, 0)
+						u.Position = UDim2.new(U, 0, 0.5, 0)
+						local C = A + (o - A) * U
+						H.Text = e(C)
+						N(C)
+					end
+					B((E() - A) / (o - A))
+					local Z = false
+					local function F(U)
+						local C = (U - O.AbsolutePosition.X) / math.max(O.AbsoluteSize.X, 1)
+						B(C)
+					end
+					runtime.wireSlider(O, F, FlyController.persistSettings)
+					local v = {
+						setVal = function(U)
+							B((U - A) / (o - A))
+						end,
+					}
+					return { frame = t, slider = v }
+				end
+				local function X(C, J, N)
+					local A = Instance.new("TextButton")
+					A.Size = UDim2.new(1, 0, 0, 26)
+					A.BackgroundColor3 = yg
+					A.BackgroundTransparency = 0.94
+					A.Text = J
+					A.TextColor3 = fg
+					A.TextSize = 10
+					A.Font = Enum.Font.GothamBold
+					A.AutoButtonColor = false
+					A.LayoutOrder = C
+					A.Parent = E;
+					(Instance.new("UICorner", A)).CornerRadius = UDim.new(0, 10)
+					local o = Instance.new("UIStroke", A)
+					o.Color = yg
+					o.Transparency = 0.78
+					o.Thickness = 1
+					A.MouseEnter:Connect(function()
+						FlyController.uiTween(A, { BackgroundTransparency = 0.78 }, 0.15, Enum.EasingStyle.Sine)
+						FlyController.uiTween(o, { Transparency = 0.4 }, 0.15, Enum.EasingStyle.Sine)
+					end)
+					A.MouseLeave:Connect(function()
+						FlyController.uiTween(A, { BackgroundTransparency = 0.94 }, 0.2, Enum.EasingStyle.Sine)
+						FlyController.uiTween(o, { Transparency = 0.78 }, 0.2, Enum.EasingStyle.Sine)
+					end)
+					A.MouseButton1Click:Connect(function()
+						if rg.capturing then
+							return
+						end
+						O(A)
+						N()
+					end)
+					return A
+				end
+				local function H(C, J, E)
+					local N = Instance.new("Frame")
+					N.Size = UDim2.new(1, 0, 0, 42)
+					N.BackgroundColor3 = Fg
+					N.BackgroundTransparency = 0.9
+					N.BorderSizePixel = 0
+					N.LayoutOrder = J
+					N.Parent = C;
+					(Instance.new("UICorner", N)).CornerRadius = UDim.new(0, 13)
+					local A = Instance.new("UIStroke", N)
+					A.Color = Color3.new(1, 1, 1)
+					A.Transparency = 0.86
+					A.Thickness = 1
+					N.MouseEnter:Connect(function()
+						FlyController.uiTween(N, { BackgroundTransparency = 0.8 }, 0.15, Enum.EasingStyle.Sine)
+						FlyController.uiTween(A, { Transparency = 0.62 }, 0.15, Enum.EasingStyle.Sine)
+					end)
+					N.MouseLeave:Connect(function()
+						FlyController.uiTween(N, { BackgroundTransparency = 0.9 }, 0.2, Enum.EasingStyle.Sine)
+						FlyController.uiTween(A, { Transparency = 0.86 }, 0.2, Enum.EasingStyle.Sine)
+					end)
+					local o = Instance.new("TextLabel", N)
+					o.Size = UDim2.new(1, -150, 1, 0)
+					o.Position = UDim2.new(0, 16, 0, 0)
+					o.BackgroundTransparency = 1
+					o.Text = E.label
+					o.TextColor3 = cg
+					o.TextSize = 12
+					o.Font = Enum.Font.GothamMedium
+					o.TextXAlignment = Enum.TextXAlignment.Left
+					local t = Instance.new("TextButton", N)
+					t.Size = UDim2.new(0, 78, 0, 26)
+					t.Position = UDim2.new(1, -116, 0.5, -13)
+					t.BackgroundColor3 = Color3.fromRGB(10, 15, 30)
+					t.BackgroundTransparency = 0.12
+					t.Text = FlyController.prettyKeyName(flightConfig[E.cfg])
+					t.TextColor3 = Color3.fromRGB(255, 255, 255)
+					t.TextSize = 11
+					t.Font = Enum.Font.GothamBold
+					t.AutoButtonColor = false
+					(Instance.new("UICorner", t)).CornerRadius = UDim.new(0, 8)
+					local L = Instance.new("UIStroke", t)
+					L.Color = Color3.fromRGB(0, 0, 255)
+					L.Transparency = 0.5
+					L.Thickness = 1
+					t.MouseEnter:Connect(function()
+						FlyController.uiTween(L, { Transparency = 0.15 }, 0.15, Enum.EasingStyle.Sine)
+					end)
+					t.MouseLeave:Connect(function()
+						if rg.capturing ~= E then
+							FlyController.uiTween(L, { Transparency = 0.5 }, 0.2, Enum.EasingStyle.Sine)
+						end
+					end)
+					t.MouseButton1Click:Connect(function()
+						O(t)
+						D(E, t, L)
+					end)
+					local X = Instance.new("TextButton", N)
+					X.Size = UDim2.new(0, 26, 0, 26)
+					X.Position = UDim2.new(1, -34, 0.5, -13)
+					X.BackgroundColor3 = Fg
+					X.BackgroundTransparency = 0.88
+					X.Text = "\195\151"
+					X.TextColor3 = Color3.fromRGB(255, 255, 255)
+					X.TextSize = 14
+					X.Font = Enum.Font.GothamBold
+					X.AutoButtonColor = false
+					(Instance.new("UICorner", X)).CornerRadius = UDim.new(0, 8)
+					local l = Instance.new("UIStroke", X)
+					l.Color = yg
+					l.Transparency = 0.7
+					l.Thickness = 1
+					X.MouseEnter:Connect(function()
+						FlyController.uiTween(l, { Transparency = 0.3 }, 0.15, Enum.EasingStyle.Sine)
+					end)
+					X.MouseLeave:Connect(function()
+						FlyController.uiTween(l, { Transparency = 0.7 }, 0.2, Enum.EasingStyle.Sine)
+					end)
+					X.MouseButton1Click:Connect(function()
+						if rg.capturing then
+							return
+						end
+						O(X)
+						flightConfig[E.cfg] = nil
+						savedSettings.binds[E.id] = "Unbound"
+						if E.id == "fly" and runtime.syncPanelFlyKey then
+							runtime.syncPanelFlyKey()
+						end
+						FlyController.persistSettings()
+						t.Text = "Sem tecla"
+						e()
+					end)
+					rg.buttons[E.id] = t
+					return N
+				end
+				A("TECLAS", 0)
+				for U, C in ipairs(n) do
+					if not C.quickToggle then
+						H(E, U, C)
+					end
+				end
+				local P = X(#n + 0, "Restaurar teclas padr�o", function()
+					for C, J in ipairs(n) do
+						local E, N = pcall(function()
+							return Enum.KeyCode[J.default]
+						end)
+						if E and N then
+							flightConfig[J.cfg] = N
+							savedSettings.binds[J.id] = J.default
+						end
+						local A = rg.buttons[J.id]
+						if A then
+							A.Text = FlyController.prettyKeyName(flightConfig[J.cfg])
+						end
+					end
+					if runtime.syncPanelFlyKey then
+						runtime.syncPanelFlyKey()
+					end
+					FlyController.persistSettings()
+					e()
+					FlyController.notify("Teclas restauradas", "Todas as teclas voltaram ao padrao", hg, "success", 2)
+				end)
+				local u = #n + 1
+				A("ALTERN�NCIAS R�PIDAS", u)
+				u = u + 1
+				local B = u
+				u = u + 1
+				local Z = u
+				u = u + 1
+				local F = 42
+				local v = 6
+				local q = {}
+				for U, C in ipairs(n) do
+					if C.quickToggle then
+						table.insert(q, C)
+					end
+				end
+				local h = (F * #q) + (v * math.max(#q - 1, 0))
+				local W = Instance.new("Frame")
+				W.BackgroundTransparency = 1
+				W.ClipsDescendants = true
+				W.LayoutOrder = Z
+				W.Size = UDim2.new(1, 0, 0, flightState.quickTogglesEnabled and h or 0)
+				W.Visible = flightState.quickTogglesEnabled
+				W.Parent = E
+				local c = Instance.new("UIListLayout")
+				c.SortOrder = Enum.SortOrder.LayoutOrder
+				c.Padding = UDim.new(0, v)
+				c.Parent = W
+				for U, C in ipairs(q) do
+					H(W, U, C)
+				end
+				local f = o(B, "Ativar altern�ncias r�pidas", flightState.quickTogglesEnabled, function(C)
+					flightState.quickTogglesEnabled = C
+					FlyController.persistSettings()
+					if C then
+						W.Visible = true
+						FlyController.uiTween(W, { Size = UDim2.new(1, 0, 0, h) }, 0.3, Enum.EasingStyle.Quint)
+					else
+						FlyController.uiTween(W, { Size = UDim2.new(1, 0, 0, 0) }, 0.25, Enum.EasingStyle.Quint)
+						task.delay(0.28, function()
+							if not flightState.quickTogglesEnabled then
+								W.Visible = false
+							end
+						end)
+					end
+				end)
+				f.frame.Parent = E
+				local d = X(u, "Restaurar altern�ncias r�pidas", function()
+					for C, J in ipairs(q) do
+						local E, N = pcall(function()
+							return Enum.KeyCode[J.default]
+						end)
+						if E and N then
+							flightConfig[J.cfg] = N
+							savedSettings.binds[J.id] = J.default
+						end
+						local A = rg.buttons[J.id]
+						if A then
+							A.Text = FlyController.prettyKeyName(flightConfig[J.cfg])
+						end
+					end
+					FlyController.persistSettings()
+					e()
+					FlyController.notify(
+						"Atalhos rapidos restaurados",
+						"Os atalhos rapidos voltaram ao padrao",
+						hg,
+						"success",
+						2
+					)
+				end)
+				u = u + 1
+				A("�UDIO", u)
+				u = u + 1
+				local y = o(u, "Efeitos sonoros", flightState.sfxEnabled, function(C)
+					flightState.sfxEnabled = C
+					FlyController.persistSettings()
+				end)
+				y.frame.Parent = E
+				local b = y.toggle
+				u = u + 1
+				local I = L(u, "Volume dos efeitos", function()
+					return flightState.sfxVolume
+				end, function(C)
+					flightState.sfxVolume = math.clamp(C, 0, 1)
+					FlyController.persistSettings()
+				end, 0, 1)
+				I.frame.Parent = E
+				local x = I.slider
+				u = u + 1
+				local g = X(u, "Restaurar �udio padr�o", function()
+					flightState.sfxEnabled = true
+					flightState.sfxVolume = 1
+					b.set(true)
+					x.setVal(1)
+					FlyController.persistSettings()
+				end)
+				u = u + 1
+				A("VISUAIS", u)
+				u = u + 1
+				local R = o(u, "Efeitos visuais", flightState.vfxEnabled, function(C)
+					flightState.vfxEnabled = C
+					FlyController.updateGear5Aura()
+					FlyController.persistSettings()
+				end)
+				R.frame.Parent = E
+				local s = R.toggle
+				u = u + 1
+				local j = Q(E, u, "Tremor do corpo", function()
+					return flightState.bodyShake
+				end, function(U)
+					flightState.bodyShake = math.clamp(U, 0, 2)
+				end, false, 0, 2)
+				u = u + 1
+				A("VOO", u)
+				u = u + 1
+				local p = o(u, "Aterrissagens de impacto", flightState.crashEnabled, function(C)
+					flightState.crashEnabled = C
+					FlyController.persistSettings()
+				end)
+				p.frame.Parent = E
+				local G = p.toggle
+				rg.crashToggleHandle = G
+				u = u + 1
+				local i = o(u, "Impactos na parede", flightState.wallImpactEnabled, function(C)
+					flightState.wallImpactEnabled = C
+					FlyController.persistSettings()
+				end)
+				i.frame.Parent = E
+				local Cg = i.toggle
+				rg.wallToggleHandle = Cg
+				u = u + 1
+				rg.scrollToCrashSettings = function()
+					local C = p.frame
+					local J = i.frame
+					local N = (C.AbsolutePosition.Y - E.AbsolutePosition.Y) + E.CanvasPosition.Y
+					local A = ((J.AbsolutePosition.Y - E.AbsolutePosition.Y) + E.CanvasPosition.Y)
+						+ J.AbsoluteSize.Y
+					local o = (N + A) / 2
+					local t = o - E.AbsoluteSize.Y / 2
+					local L = math.max(0, E.AbsoluteCanvasSize.Y - E.AbsoluteSize.Y)
+					t = math.clamp(t, 0, L)
+					FlyController.uiTween(E, { CanvasPosition = Vector2.new(0, t) }, 0.4, Enum.EasingStyle.Quint)
+				end
+				local Jg = o(u, "Animacao de decolagem", flightState.takeoffsEnabled, function(C)
+					flightState.takeoffsEnabled = C
+					FlyController.persistSettings()
+					if rg.takeoffTabSwitch then
+						rg.takeoffTabSwitch(C)
+					end
+				end)
+				Jg.frame.Parent = E
+				local Eg = Jg.toggle
+				rg.takeoffToggleHandle = Eg
+				u = u + 1
+				local Ng = o(u, "Pousos suaves", flightState.smoothLandingsEnabled, function(C)
+					flightState.smoothLandingsEnabled = C
+					FlyController.persistSettings()
+				end)
+				Ng.frame.Parent = E
+				local Ag = Ng.toggle
+				u = u + 1
+				local og = Q(E, u, "Tremor da tela no impulso", function()
+					return flightState.boostShakeIntensity
+				end, function(C)
+					flightState.boostShakeIntensity = C
+					FlyController.persistSettings()
+				end, false, 0, 3)
+				u = u + 1
+				local tg = X(u, "Restaurar tremor da tela", function()
+					flightState.boostShakeIntensity = 1
+					og.apply(1)
+					FlyController.persistSettings()
+				end)
+				u = u + 1
+				local Lg = o(u, "Primeira pessoa", flightState.fpWanted, function(C)
+					flightState.fpWanted = C
+					if C then
+						if flightState.flying then
+							FlyController.enterFirstPerson()
+						else
+							FlyController.notify(
+								"Primeira pessoa",
+								"Funciona apenas durante o voo e sera ativada assim que voce decolar.",
+								Yg,
+								"info",
+								3
+							)
+						end
+					else
+						FlyController.exitFirstPerson()
+					end
+				end)
+				Lg.frame.Parent = E
+				local Xg = Lg.toggle
+				local lg
+				lg = RunService.Heartbeat:Connect(function()
+					if runtime.killed or not E.Parent then
+						lg:Disconnect()
+						return
+					end
+					if Xg then
+						Xg.set(flightState.fpWanted)
+					end
+				end)
+				u = u + 1
+				local Hg = L(u, "Deslizamento", function()
+					return flightState.driftAmount
+				end, function(C)
+					flightState.driftAmount = math.clamp(C, 0, 1)
+					FlyController.persistSettings()
+				end, 0, 1)
+				Hg.frame.Parent = E
+				local eg = Hg.slider
+				u = u + 1
+				local Og = X(u, "Restaurar deslizamento", function()
+					flightState.driftAmount = 0
+					eg.setVal(0)
+					FlyController.persistSettings()
+				end)
+				u = u + 1
+				do
+					local C = Instance.new("TextButton")
+					C.Size = UDim2.new(1, 0, 0, 34)
+					C.BackgroundColor3 = Fg
+					C.BackgroundTransparency = 0.88
+					C.AutoButtonColor = false
+					C.Text = ""
+					C.LayoutOrder = u
+					u = u + 1
+					C.Parent = E;
+					(Instance.new("UICorner", C)).CornerRadius = UDim.new(0, 12)
+					local J = Instance.new("UIStroke", C)
+					J.Color = hg
+					J.Transparency = 0.7
+					J.Thickness = 1
+					local N = Instance.new("TextLabel", C)
+					N.Size = UDim2.new(1, -28, 1, 0)
+					N.Position = UDim2.new(0, 14, 0, 0)
+					N.BackgroundTransparency = 1
+					N.TextColor3 = Color3.fromRGB(255, 255, 255)
+					N.TextSize = 11
+					N.Font = Enum.Font.GothamBold
+					N.TextXAlignment = Enum.TextXAlignment.Left
+					N.Text = "AVAN�ADO  \226\150\182"
+					local t = Instance.new("Frame")
+					t.Size = UDim2.new(1, 0, 0, 0)
+					t.AutomaticSize = Enum.AutomaticSize.Y
+					t.BackgroundTransparency = 1
+					t.Visible = false
+					t.LayoutOrder = u
+					u = u + 1
+					t.Parent = E
+					local L = Instance.new("UIListLayout")
+					L.Padding = UDim.new(0, 8)
+					L.SortOrder = Enum.SortOrder.LayoutOrder
+					L.Parent = t
+					C.MouseButton1Click:Connect(function()
+						t.Visible = not t.Visible
+						N.Text = "AVAN�ADO  " .. (t.Visible and "\226\150\188" or "\226\150\182")
+					end)
+					local l = 0
+					local function H(U)
+						l = l + 1
+						U.LayoutOrder = l
+						U.Parent = t
+						return U
+					end
+					local function e(C, J, E)
+						local N = o(0, C, flightState[J], function(C)
+							flightState[J] = C
+							FlyController.persistSettings()
+							if E then
+								E(C)
+							end
+						end)
+						H(N.frame)
+						return N.toggle
+					end
+					H(A("ATERRISSAGENS DE IMPACTO", 0))
+					local O = Q(t, 0, "Angulo maximo de mergulho (graus)", function()
+						return flightState.crashDiveAngle
+					end, function(U)
+						flightState.crashDiveAngle = math.floor(math.clamp(U, 10, 80) + 0.5)
+					end, true, 10, 80)
+					H(O.container)
+					local P = Instance.new("TextLabel")
+					P.Size = UDim2.new(1, 0, 0, 0)
+					P.AutomaticSize = Enum.AutomaticSize.Y
+					P.BackgroundTransparency = 1
+					P.Text =
+						"Define o quanto voce pode se afastar da queda vertical e ainda causar uma aterrissagem de impacto. Em angulos menores, voce desliza pelo chao."
+					P.TextColor3 = dg
+					P.TextSize = 10
+					P.Font = Enum.Font.Gotham
+					P.TextWrapped = true
+					P.TextXAlignment = Enum.TextXAlignment.Left
+					H(P)
+					H(X(0, "Restaurar angulo de impacto", function()
+						flightState.crashDiveAngle = flightConfig.CRASH_DIVE_ANGLE_DEFAULT
+						O.apply(flightConfig.CRASH_DIVE_ANGLE_DEFAULT)
+					end))
+					H(A("SENSACAO DE VOO", 0))
+					local D = e("Variacao de velocidade", "speedFluctuation")
+					local B = e("Atraso para carregar impulso", "boostChargeDelayEnabled")
+					local Z = e("Inclinar a camera nas curvas", "camBankEnabled")
+					H(A("GIROS", 0))
+					local F = e("Girar em inclinacoes fortes", "leanRollsEnabled")
+					local v = e("Espirais aleatorias no impulso", "spiralsEnabled")
+					H(X(0, "Restaurar ajustes avancados", function()
+						flightState.crashDiveAngle = flightConfig.CRASH_DIVE_ANGLE_DEFAULT
+						O.apply(flightConfig.CRASH_DIVE_ANGLE_DEFAULT)
+						flightState.speedFluctuation = true
+						D.set(true)
+						flightState.boostChargeDelayEnabled = true
+						B.set(true)
+						flightState.camBankEnabled = true
+						Z.set(true)
+						flightState.leanRollsEnabled = false
+						F.set(false)
+						flightState.spiralsEnabled = false
+						v.set(false)
+						FlyController.persistSettings()
+					end))
+				end
+				A("MULTIPLICADORES DE VELOCIDADE", u)
+				u = u + 1
+				local Pg = Q(E, u, "Velocidade base", function()
+					return r
+				end, function(U)
+					r = U
+				end, false, 0.1, 10)
+				u = u + 1
+				local ug = Q(E, u, "Boost 1", function()
+					return k
+				end, function(U)
+					k = U
+				end, false, 0.1, 10)
+				u = u + 1
+				local Dg = Q(E, u, "Boost 2", function()
+					return m
+				end, function(U)
+					m = U
+				end, false, 0.1, 10)
+				u = u + 1
+				local Bg = Q(E, u, "Boost 3", function()
+					return M
+				end, function(U)
+					M = U
+				end, false, 0.1, 10)
+				u = u + 1
+				local Zg = Q(E, u, "Boost 4", function()
+					return T
+				end, function(U)
+					T = U
+				end, false, 0.1, 10)
+				u = u + 1
+				local vg = X(u, "Restaurar velocidades", function()
+					r, k, m = 1, 1, 1
+					M, T = 1, 1
+					Pg.apply(1)
+					ug.apply(1)
+					Dg.apply(1)
+					Bg.apply(1)
+					Zg.apply(1)
+					FlyController.persistSettings()
+				end)
+				u = u + 1
+				A("FLUTUACAO", u)
+				u = u + 1
+				local qg = o(u, "Flutuar", flightState.hoverEnabled, function(C)
+					flightState.hoverEnabled = C
+					FlyController.persistSettings()
+				end)
+				qg.frame.Parent = E
+				local Wg = qg.toggle
+				u = u + 1
+				local wg = Q(E, u, "Altura da flutuacao", function()
+					return S
+				end, function(U)
+					S = U
+				end, true, 0.5, 2)
+				u = u + 1
+				local Vg = Q(E, u, "Velocidade da flutuacao", function()
+					return K
+				end, function(U)
+					K = U
+				end, true, 1, 5)
+				u = u + 1
+				local Qg = X(u, "Restaurar flutuacao", function()
+					flightState.hoverEnabled = true
+					Wg.set(true)
+					S = a
+					K = z
+					wg.apply(a)
+					Vg.apply(z)
+					FlyController.persistSettings()
+				end)
+				u = u + 1
+				A("CREDITOS", u)
+				u = u + 1
+				local mg = Instance.new("Frame")
+				mg.Size = UDim2.new(1, 0, 0, 52)
+				mg.BackgroundColor3 = Color3.fromRGB(10, 15, 30)
+				mg.BackgroundTransparency = 0.04
+				mg.LayoutOrder = u
+				mg.Parent = E;
+				(Instance.new("UICorner", mg)).CornerRadius = UDim.new(0, 13)
+				local Mg = Instance.new("UIStroke", mg)
+				Mg.Color = hg
+				Mg.Transparency = 0.5
+				Mg.Thickness = 1
+				local Tg = Instance.new("TextLabel", mg)
+				Tg.Size = UDim2.new(1, -28, 1, -12)
+				Tg.Position = UDim2.new(0, 14, 0, 6)
+				Tg.BackgroundTransparency = 1
+				Tg.Text = "Criado Druts.dev"
+				Tg.TextColor3 = fg
+				Tg.TextSize = 14
+				Tg.Font = Enum.Font.GothamBold
+				Tg.TextWrapped = false
+				Tg.TextXAlignment = Enum.TextXAlignment.Left
+				Tg.TextYAlignment = Enum.TextYAlignment.Center
+				return E
+			end
+			local function G()
+				if rg.container and rg.container.Parent then
+					return
+				end
+				local o = H()
+				local t = Instance.new("CanvasGroup")
+				t.Name = "Panel"
+				t.AnchorPoint = Vector2.new(0.5, 0.5)
+				t.Size = UDim2.fromScale(widthScale, heightScale)
+				t.Position = UDim2.fromScale(0.5, 0.5)
+				t.BackgroundTransparency = 1
+				t.GroupTransparency = 1
+				t.Visible = false
+				t.Parent = o
+				rg.container = t
+				local X = Instance.new("Frame")
+				X.Size = UDim2.new(1, 0, 1, 0)
+				X.BackgroundColor3 = vg
+				X.BackgroundTransparency = 0
+				X.BorderSizePixel = 0
+				X.ClipsDescendants = true
+				X.Parent = t
+				rg.card = X;
+				(Instance.new("UICorner", X)).CornerRadius = UDim.new(0, 22)
+				local Jd=false
+				local Ed=nil
+				local Nd=nil
+				X.InputBegan:Connect(function(U)
+					if U.UserInputType==Enum.UserInputType.MouseButton1 or U.UserInputType==Enum.UserInputType.Touch then
+						Jd=true
+						Ed=U.Position
+						Nd=t.Position
+					end
+				end)
+				X.InputEnded:Connect(function(U)
+					if U.UserInputType==Enum.UserInputType.MouseButton1 or U.UserInputType==Enum.UserInputType.Touch then
+						Jd=false
+					end
+				end)
+				UserInputService.InputChanged:Connect(function(U)
+					if not Jd then return end
+					if U.UserInputType~=Enum.UserInputType.MouseMovement and U.UserInputType~=Enum.UserInputType.Touch then return end
+					local C=U.Position-Ed
+					if C.Magnitude>10 then
+						t.Position=UDim2.new(Nd.X.Scale,Nd.X.Offset+C.X,Nd.Y.Scale,Nd.Y.Offset+C.Y)
+					end
+				end)
+				local pg = Instance.new("Frame")
+				pg.Name = "PanelBorder"
+				pg.Size = UDim2.new(1, 0, 1, 0)
+				pg.BackgroundTransparency = 1
+				pg.BorderSizePixel = 0
+				pg.ZIndex = 10
+				pg.Parent = t;
+				(Instance.new("UICorner", pg)).CornerRadius = UDim.new(0, 22)
+				local l = Instance.new("UIStroke")
+				l.Thickness = 2
+				l.Transparency = 0.34
+				l.Color = Color3.fromRGB(0, 0, 255)
+				l.Parent = pg
+				local V = Instance.new("Frame")
+				V.Size = UDim2.new(1, -28, 0, 38)
+				V.Position = UDim2.new(0, 14, 0, 6)
+				V.BackgroundColor3 = vg
+				V.BackgroundTransparency = 0.08
+				V.Parent = X;
+				(Instance.new("UICorner", V)).CornerRadius = UDim.new(0, 12)
+				local Q = Instance.new("UIStroke")
+				Q.Color = hg
+				Q.Transparency = 0.55
+				Q.Thickness = 1
+				Q.Parent = V
+				local r = Instance.new("Frame")
+				r.Size = UDim2.new(0.25, -4, 1, -4)
+				r.Position = UDim2.new(0, 2, 0, 2)
+				r.BackgroundColor3 = hg
+				r.BackgroundTransparency = 0.02
+				r.BorderSizePixel = 0
+				r.Parent = V;
+				(Instance.new("UICorner", r)).CornerRadius = UDim.new(0, 10)
+				local k = Instance.new("UIStroke")
+				k.Color = hg
+				k.Transparency = 0.7
+				k.Thickness = 1
+				k.Parent = r
+				local function m(U, C, J)
+					local E = Instance.new("TextButton")
+					E.Size = UDim2.new(0.25, -4, 1, 0)
+					E.Position = C
+					E.BackgroundTransparency = 1
+					E.Text = U
+					E.Font = Enum.Font.GothamBold
+					E.TextSize = 14
+					E.TextScaled = true
+					E.TextWrapped = false
+					E.TextTruncate = Enum.TextTruncate.AtEnd
+					E.TextColor3 = J and cg or fg
+					E.AutoButtonColor = false
+					E.Parent = V
+					local sizeConstraint = Instance.new("UITextSizeConstraint")
+					sizeConstraint.MinTextSize = 12
+					sizeConstraint.MaxTextSize = 14
+					sizeConstraint.Parent = E
+					return E
+				end
+				local M = m("POSES", UDim2.new(0, 2, 0, 0), true)
+				local T = m("DECOLAR", UDim2.new(0.25, 2, 0, 0), false)
+				local a = m("IMPULSOS", UDim2.new(0.5, 2, 0, 0), false)
+				local z = m("AJUSTES", UDim2.new(0.75, 2, 0, 0), false)
+				local K = Instance.new("Frame")
+				K.Size = UDim2.new(1, -28, 1, -60)
+				K.Position = UDim2.new(0, 14, 0, 56)
+				K.BackgroundTransparency = 1
+				K.Parent = X
+				local b = I(K)
+				local R = x(K)
+				local s = g(K, X)
+				local j = p(K)
+				local G = {
+					idles = UDim2.new(0, 2, 0, 2),
+					takeoffs = UDim2.new(0.25, 2, 0, 2),
+					boosts = UDim2.new(0.5, 2, 0, 2),
+					settings = UDim2.new(0.75, 2, 0, 2),
+				}
+				local n = { idles = M, takeoffs = T, boosts = a, settings = z }
+				local i = { idles = b, takeoffs = R, boosts = s, settings = j }
+				local Ug = "idles"
+				local function Cg(C)
+					if Ug == C then
+						return
+					end
+					if rg.closeBoostDropdown then
+						pcall(rg.closeBoostDropdown)
+					end
+					Ug = C
+					FlyController.uiTween(r, { Position = G[C] }, 0.3, Enum.EasingStyle.Quint)
+					for J, E in pairs(n) do
+						FlyController.uiTween(
+							E,
+							{ TextColor3 = (J == C) and cg or fg },
+							0.2,
+							Enum.EasingStyle.Sine
+						)
+					end
+					for U, J in pairs(i) do
+						J.Visible = (U == C)
+					end
+				end
+				rg.switchTab = Cg
+				M.MouseButton1Click:Connect(function()
+					Cg("idles")
+				end)
+				T.MouseButton1Click:Connect(function()
+					Cg("takeoffs")
+				end)
+				a.MouseButton1Click:Connect(function()
+					Cg("boosts")
+				end)
+				z.MouseButton1Click:Connect(function()
+					Cg("settings")
+				end)
+				b.Visible = true
+			end
+			Qg = function()
+				G()
+				local C = rg.container
+				rg.open = true
+				runtime.guiOpen = true
+				runtime.guiOpenedOnce = true
+				C.Visible = true
+				local N = C.Position
+				C.Position = N + UDim2.new(0, 0, 0, 26)
+				C.GroupTransparency = 1
+				FlyController.uiTween(C, { Position = N }, 0.45, Enum.EasingStyle.Back)
+				FlyController.uiTween(C, { GroupTransparency = 0 }, 0.3, Enum.EasingStyle.Sine)
+			end
+			local function Jg()
+				local C = rg.container
+				if not C then
+					return
+				end
+				rg.open = false
+				runtime.guiOpen = false
+				local J = C.Position
+				FlyController.uiTween(
+					C,
+					{ Position = J + UDim2.new(0, 0, 0, 26) },
+					0.3,
+					Enum.EasingStyle.Quint,
+					Enum.EasingDirection.In
+				)
+				FlyController.uiTween(C, { GroupTransparency = 1 }, 0.25, Enum.EasingStyle.Sine)
+				task.delay(0.32, function()
+					if not rg.open and C.Parent then
+						C.Visible = false
+						C.Position = J
+					end
+				end)
+			end
+			Vg = function()
+				if runtime.killed then
+					return false
+				end
+				local wasOpen = rg.open
+				local ok, message = xpcall(function()
+					if rg.open then
+						Jg()
+					else
+						Qg()
+					end
+				end, debug.traceback)
+				if not ok then
+					if not wasOpen then
+						pcall(function()
+							if rg.container then
+								rg.container:Destroy()
+							end
+						end)
+						rg.container = nil
+						rg.card = nil
+						rg.open = false
+						runtime.guiOpen = false
+					end
+					warn("[Invincible Fly] Nao foi possivel abrir/fechar o painel:\n" .. tostring(message))
+				end
+				return ok
+			end
+			function runtime.openPanel()
+				if runtime.killed then
+					return false
+				end
+				if rg.open then
+					return true
+				end
+				return Vg()
+			end
+			function runtime.handleMenuInput(input)
+				if runtime.killed or rg.capturing or os.clock() < rg.inputLockUntil then
+					return false
+				end
+				if UserInputService:GetFocusedTextBox() then
+					return false
+				end
+				local key = input.KeyCode
+				if key == flightConfig.KEY_MENU then
+					if runtime.hpxFlyEnabled then
+						Vg()
+					end
+					return true
+				end
+				return false
+			end
+		end
+		FlyController._buildSettingsUI()
+		function runtime.maybeShowCrashHint()
+			if runtime.crashHintShown then
+				return
+			end
+			if runtime.hasSeenCrashHint() then
+				return
+			end
+			runtime.crashHintShown = true
+			runtime.markCrashHintSeen()
+			task.delay(1.8, function()
+				if runtime.killed then
+					return
+				end
+				pcall(function()
+					FlyController.notify(
+						"HPX Fly",
+						"As aterrissagens de impacto e colisoes com paredes podem ser desativadas em Ajustes.",
+						Yg,
+						"info",
+						8,
+						"flying",
+						function()
+							if runtime.killed then
+								return
+							end
+							if not rg.open then
+								Vg()
+							end
+							if rg.switchTab then
+								rg.switchTab("settings")
+							end
+							task.wait()
+							if rg.scrollToCrashSettings then
+								rg.scrollToCrashSettings()
+							end
+						end
+					)
+				end)
+			end)
+		end
+		function FlyController.clearTilt()
+			g.lastTiltDir = 0
+			if flightState.flying and (not g.active or not g.active.IsPlaying) then
+				FlyController.playCurrentIdle()
+			end
+		end
+		function FlyController.updateTilt(C)
+			if C == g.lastTiltDir then
+				return
+			end
+			g.lastTiltDir = C
+			if C == 0 then
+				if flightState.flying and (not g.active or not g.active.IsPlaying) then
+					FlyController.playCurrentIdle()
+				end
+			end
+		end
+		function FlyController.boostMultiplierFor(U)
+			if U == 1 then
+				return k
+			elseif U == 2 then
+				return m
+			elseif U == 3 then
+				return M
+			elseif U == 4 then
+				return T
+			end
+			return 1
+		end
+		function FlyController.currentSpeed()
+			if flightState.boostLevel == 0 then
+				return (flightConfig.BASE_SPEED * r) * flightState.speedScale
+			end
+			local C = flightConfig.BOOST_SPEEDS[flightState.boostLevel] or flightConfig.BASE_SPEED
+			return (C * FlyController.boostMultiplierFor(flightState.boostLevel)) * flightState.speedScale
+		end
+		local kg = 10
+		local mg = -1
+		local Mg = {
+			ring = {
+				meshId = "rbxassetid://643098245",
+				textureId = "rbxassetid://1370489482",
+				offset = Vector3.new(0, 0, 0),
+				originalSize = Vector3.new(25, 8, 25),
+				color = Color3.fromRGB(220, 38, 52),
+				scale = 0.2,
+				expandSize = 2.5,
+				expandDuration = 2,
+				fadeDelay = 0.3,
+				fadeDuration = 0.7,
+			},
+			glow = {
+				meshId = "rbxassetid://4316118084",
+				textureId = "rbxassetid://1370489482",
+				offset = Vector3.new(0, 8, 0),
+				originalSize = Vector3.new(24, 26, 24),
+				color = Color3.fromRGB(132, 14, 28),
+				scale = 0.3,
+				expandSize = 2,
+				expandDuration = 1,
+				fadeDelay = 0.5,
+				fadeDuration = 0.8,
+			},
+			electricity = {
+				meshId = "rbxassetid://903888897",
+				textureId = "rbxassetid://1370489482",
+				offset = Vector3.new(0, 28, 0),
+				originalSize = Vector3.new(48, 32, 58),
+				color = Color3.fromRGB(255, 255, 255),
+				scale = 0.2,
+				expandSize = 2,
+				expandDuration = 2,
+				fadeDelay = 0.4,
+				fadeDuration = 0.9,
+			},
+		}
+		function FlyController.spawnShockwaveMesh(U, C, J)
+			local E = (C - (J.LookVector * kg)) + Vector3.new(0, mg, 0)
+			local A = ((C - E)).Unit
+			local o = CFrame.lookAt(E, E + A)
+			local t = o + (U.offset * U.scale)
+			local L = t * CFrame.Angles(math.rad(90), 0, 0)
+			local X = Instance.new("Part")
+			X.Size = U.originalSize * U.scale
+			X.CFrame = L
+			X.Anchored = true
+			X.CanCollide = false
+			X.CanQuery = false
+			X.Material = Enum.Material.ForceField
+			X.Color = U.color
+			X.Transparency = 0.45
+			X.Parent = workspace
+			local l = Instance.new("SpecialMesh", X)
+			l.MeshType = Enum.MeshType.FileMesh
+			l.MeshId = U.meshId
+			l.TextureId = U.textureId
+			l.Scale = Vector3.new(U.scale, U.scale, U.scale)
+			local H = U.scale * U.expandSize;
+			(TweenService:Create(
+				l,
+				TweenInfo.new(U.expandDuration, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{ Scale = Vector3.new(H, H, H) }
+				)):Play()
+			task.delay(U.fadeDelay, function()
+				(TweenService:Create(
+					X,
+					TweenInfo.new(U.fadeDuration, Enum.EasingStyle.Quad, Enum.EasingDirection.In),
+					{ Transparency = 1 }
+					)):Play()
+			end)
+			local e = X.CFrame
+			local O = true
+			task.spawn(function()
+				while O do
+					X.CFrame = e * CFrame.Angles(0, math.rad(math.random(0, 360)), 0)
+					task.wait(math.random(4, 12) / 100)
+				end
+			end)
+			task.delay(1.5, function()
+				O = false
+				pcall(function()
+					X:Destroy()
+				end)
+			end)
+		end
+		function FlyController.spawnShockwave()
+			if not flightState.vfxEnabled then
+				return
+			end
+			if not rootPart or not rootPart.Parent then
+				return
+			end
+			local C = rootPart.Position
+			local J = rootPart.CFrame
+			for E, N in pairs(Mg) do
+				task.spawn(function()
+					FlyController.spawnShockwaveMesh(N, C, J)
+				end)
+			end
+		end
+		function FlyController.setBoost(C)
+			C = math.clamp(C, 0, #flightConfig.BOOST_SPEEDS)
+			if flightState.isCharging then
+				return
+			end
+			if C == 0 then
+				flightState.boostLevel = 0
+				flightState.speedScale = 1
+				FlyController.clearTilt()
+				FlyController.playCurrentIdle()
+				return
+			end
+			local E = flightState.boostChargeDelayEnabled and (flightConfig.BOOST_CHARGE_TIMES[C] or 0) or 0
+			flightState.boostLevel = C
+			flightState.lastBoostedTime = os.clock()
+			FlyController.clearTilt()
+			FlyController.playBoostLevelAnim(C)
+			FlyController.triggerBoostShake(C)
+			if E <= 0 then
+				flightState.speedScale = 1
+				flightState.isCharging = false
+				FlyController.playBoostSound(C)
+				FlyController.triggerPostDecelShake(C)
+				FlyController.spawnShockwave()
+				return
+			end
+			flightState.isCharging = true
+			local N = flightState.speedScale
+			local A = 0
+			local o = C
+			local t
+			t = RunService.Heartbeat:Connect(function(J)
+				A = A + J
+				if A < E then
+					local U = 1 - (1 - A / E) ^ 3
+					local J = flightConfig.BOOST_CHARGE_FACTORS[C] or 0.12
+					flightState.speedScale = N + (J - N) * U
+				else
+					t:Disconnect()
+					flightState.speedScale = 1
+					flightState.isCharging = false
+					if flightState.boostLevel == o and flightState.flying then
+						FlyController.triggerPostDecelShake(C)
+						FlyController.playBoostSound(C)
+						FlyController.spawnShockwave()
+					end
+				end
+			end)
+			x[#x + 1] = t
+		end
+		function FlyController.cycleBoost()
+			if not flightState.flying then
+				return
+			end
+			if flightState.transitioning then
+				return
+			end
+			if flightState.isCharging then
+				return
+			end
+			if CW and CW.locked then
+				return
+			end
+			if WI and WI.locked then
+				return
+			end
+			local C = Vector3.new(
+				movementKeys.L + movementKeys.R,
+				movementKeys.U + movementKeys.D,
+				movementKeys.F + movementKeys.B
+			)
+			if C.Magnitude < 0.01 and flightState.boostLevel == 0 then
+				return
+			end
+			FlyController.setBoost((flightState.boostLevel % #flightConfig.BOOST_SPEEDS) + 1)
+		end
+		local Tg = { "rbxassetid://71884395081016", "rbxassetid://138938963755476" }
+		local ag = 40
+		local zg = { conn = nil, locked = false }
+		local Sg = { locked = false, conn = nil }
+		local Kg
+		function FlyController.spawnCrackDecal(U, C, E, N)
+			if not flightState.vfxEnabled then
+				return
+			end
+			N = math.clamp(N or 1, 0.65, 2.4)
+			do
+				local J = RaycastParams.new()
+				J.FilterDescendantsInstances = { character }
+				J.FilterType = Enum.RaycastFilterType.Exclude
+				J.RespectCanCollide = true
+				local N = E.Unit
+				local A = math.abs(N:Dot(Vector3.new(0, 1, 0))) < 0.95 and Vector3.new(0, 1, 0)
+					or Vector3.new(1, 0, 0)
+				local o = (N:Cross(A)).Unit
+				local t = (o:Cross(N)).Unit
+				local L = { Vector3.new(0, 0, 0), o * 0.7, -o * 0.7, t * 0.7, -t * 0.7 }
+				local X = nil
+				for U, E in ipairs(L) do
+					local A = (C + N * 5) + E
+					X = workspace:Raycast(A, -N * 10, J)
+					if X then
+						break
+					end
+				end
+				if X then
+					C = X.Position
+					E = X.Normal
+					U = X.Instance
+				end
+			end
+			local A = E.Unit
+			local o = math.abs(A:Dot(Vector3.new(0, 1, 0))) < 0.95 and Vector3.new(0, 1, 0)
+				or Vector3.new(1, 0, 0)
+			local t = (A:Cross(o)).Unit
+			local L = (t:Cross(A)).Unit
+			local X = CFrame.fromMatrix(C + A * 0.05, t, L, -A)
+			local function l(U, C, J)
+				local E, N = pcall(function()
+					return U.CFrame:PointToObjectSpace(C)
+				end)
+				local A, o = pcall(function()
+					return U.CFrame:VectorToObjectSpace(J)
+				end)
+				if not (E and A) then
+					return math.huge
+				end
+				local t = U.Size * 0.5
+				local L = math.huge
+				for U, C in ipairs({ "X", "Y", "Z" }) do
+					local J, E, A = N[C], o[C], t[C]
+					if math.abs(E) > 1e-05 then
+						local U = math.max((-A - J) / E, (A - J) / E)
+						if U >= 0 then
+							L = math.min(L, U)
+						end
+					end
+				end
+				return L
+			end
+			local e = RaycastParams.new()
+			e.FilterDescendantsInstances = { character }
+			e.FilterType = Enum.RaycastFilterType.Exclude
+			e.RespectCanCollide = true
+			local function O(J, E)
+				if U and U:IsA("BasePart") then
+					return math.min(l(U, C, J), E)
+				end
+				local N = 0
+				local o = 6
+				for U = 1, o, 1 do
+					local t = E * (U / o)
+					local L = C + J * t
+					local X = workspace:Raycast(L + A * 1, -A * 2.5, e)
+					local l = X ~= nil
+					if l and X.Instance ~= workspace.Terrain then
+						if not X.Instance:IsA("BasePart") then
+							l = false
+						elseif X.Instance.Transparency >= 0.95 then
+							l = false
+						end
+					end
+					if l then
+						N = t
+					else
+						break
+					end
+				end
+				return N
+			end
+			local P = 50
+			for U, C in ipairs(Tg) do
+				local E = (U == 1) and 0 or 45
+				local A = math.rad(E)
+				local o = (10 + U * 2) * N
+				local l = (o * (math.abs(math.cos(A)) + math.abs(math.sin(A)))) * 0.5
+				local H = O(t, l)
+				local e = O(-t, l)
+				local u = O(L, l)
+				local D = O(-L, l)
+				local B = math.max(H + e, 0.2)
+				local Z = math.max(u + D, 0.2)
+				local F = (H - e) * 0.5
+				local v = (u - D) * 0.5
+				local q = Instance.new("Part")
+				q.Name = "IFlyCrack"
+				q.Anchored = true
+				q.CanCollide = false
+				q.CanQuery = false
+				q.CanTouch = false
+				q.CastShadow = false
+				q.Size = Vector3.new(o, o, 0.05)
+				q.CFrame = X
+				q.Transparency = 1
+				q.Parent = workspace
+				local h = Instance.new("SurfaceGui")
+				h.Face = Enum.NormalId.Front
+				h.SizingMode = Enum.SurfaceGuiSizingMode.PixelsPerStud
+				h.PixelsPerStud = P
+				h.LightInfluence = 0
+				h.Parent = q
+				local W = Instance.new("Frame")
+				W.AnchorPoint = Vector2.new(0.5, 0.5)
+				W.Size = UDim2.new(0, B * P, 0, Z * P)
+				W.Position = UDim2.new(0.5, F * P, 0.5, -v * P)
+				W.BackgroundTransparency = 1
+				W.ClipsDescendants = true
+				W.Parent = h
+				local c = Instance.new("ImageLabel")
+				c.BackgroundTransparency = 1
+				c.Image = C
+				c.AnchorPoint = Vector2.new(0.5, 0.5)
+				c.Size = UDim2.new(0, o * P, 0, o * P)
+				c.Position = UDim2.new(0.5, -F * P, 0.5, v * P)
+				c.Rotation = E
+				c.ImageTransparency = 0
+				c.Parent = W
+				task.spawn(function()
+					local C, E = 0, (U == 1) and 45 or 35
+					while C < E do
+						local U = RunService.Heartbeat:Wait()
+						C = C + U
+						local N = math.clamp(C / E, 0, 1)
+						pcall(function()
+							c.ImageTransparency = N * N
+						end)
+					end
+					pcall(function()
+						q:Destroy()
+					end)
+				end)
+			end
+		end
+		function runtime.tryGetTerrainColor(U)
+			local C, J = pcall(function()
+				return workspace.Terrain:GetMaterialColor(U)
+			end)
+			if C then
+				return true, J
+			end
+			return false, nil
+		end
+		function FlyController.spawnCrashEffect(J, E, A, o)
+			if not flightState.vfxEnabled then
+				return
+			end
+			o = math.clamp(o or 1, 0.65, 2.4)
+			local t = o
+			local L = RaycastParams.new()
+			L.FilterDescendantsInstances = { character }
+			L.FilterType = Enum.RaycastFilterType.Exclude
+			L.RespectCanCollide = true
+			local X = Enum.Material.Concrete
+			local e = Color3.fromRGB(130, 130, 130)
+			local O = true
+			local P = workspace:Raycast(E + Vector3.new(0, 2, 0), Vector3.new(0, -5, 0), L)
+			if P then
+				if P.Instance == workspace.Terrain then
+					X = P.Material
+					local U, C = runtime.tryGetTerrainColor(P.Material)
+					if U then
+						e = C
+					else
+						O = false
+					end
+				elseif P.Instance and P.Instance:IsA("BasePart") then
+					X = P.Instance.Material
+					e = P.Instance.Color
+				end
+			end
+			local u = A.Unit
+			FlyController.spawnCrackDecal(J, E, A, o)
+			local D = RaycastParams.new()
+			local B = { character }
+			for U, C in ipairs(Players:GetPlayers()) do
+				if C.Character then
+					table.insert(B, C.Character)
+				end
+			end
+			D.FilterDescendantsInstances = B
+			D.FilterType = Enum.RaycastFilterType.Exclude
+			D.RespectCanCollide = true
+			local function Z(U, C, J, A, o, t, L)
+				local H = (math.random() * math.pi) * 2
+				for O = 1, C, 1 do
+					local P = (H + ((O / C) * math.pi) * 2) + ((math.random() - 0.5) * ((math.pi * 2) / C)) * 0.5
+					local u = U * (0.9 + math.random() * 0.25)
+					local B = math.cos(P) * u
+					local Z = math.sin(P) * u
+					local F = Vector3.new(E.X + B, E.Y + 6, E.Z + Z)
+					local v = workspace:Raycast(F, Vector3.new(0, -14, 0), D)
+					if v then
+						local U, H = X, e
+						local P = true
+						if v.Instance == workspace.Terrain then
+							U = v.Material
+							local C, J = runtime.tryGetTerrainColor(v.Material)
+							if C then
+								H = J
+							else
+								P = false
+							end
+						elseif v.Instance:IsA("BasePart") then
+							U = v.Instance.Material
+							H = v.Instance.Color
+						end
+						if P then
+							local X = J + math.random() * (A - J)
+							local l = X * (1.1 + math.random() * 0.6)
+							local e = X * (0.55 + math.random() * 0.35)
+							local P = Instance.new("Part")
+							P.Name = "IFlyCraterRock"
+							P.Anchored = true
+							P.CanCollide = false
+							P.CanQuery = false
+							P.CanTouch = false
+							P.CastShadow = true
+							P.Material = U
+							P.Color = H
+							P.Size = Vector3.new(X, l, e)
+							local u = v.Position
+							local D = CFrame.lookAt(u, Vector3.new(E.X, u.Y, E.Z))
+							local B = math.rad(o + math.random() * (t - o))
+							local Z =
+								CFrame.Angles(0, math.rad(math.random(-12, 12)), math.rad(math.random(-8, 8)))
+							local F = (D * CFrame.Angles(B, 0, 0)) * Z
+							P.CFrame = F * CFrame.new(0, -(l + L), 0)
+							P.Parent = workspace
+							local q = (O / C) * 0.08 + math.random() * 0.05
+							task.delay(q, function()
+								if not P.Parent then
+									return
+								end
+								(TweenService:Create(
+									P,
+									TweenInfo.new(0.35, Enum.EasingStyle.Back, Enum.EasingDirection.Out),
+									{ CFrame = F * CFrame.new(0, -l * 0.45, 0) }
+									)):Play()
+							end)
+							task.delay(ag + math.random() * 4, function()
+								if not P.Parent then
+									return
+								end
+								P.CanCollide = false
+								(TweenService:Create(
+									P,
+									TweenInfo.new(1.1, Enum.EasingStyle.Back, Enum.EasingDirection.In),
+									{ CFrame = F * CFrame.new(0, -(l + L), 0) }
+									)):Play()
+								task.delay(1.2, function()
+									pcall(function()
+										P:Destroy()
+									end)
+								end)
+							end)
+						end
+					end
+				end
+			end
+			if O then
+				Z(4.2 * o, math.clamp(math.floor(9 * o + 0.5), 6, 16), 1.6 * t, 2.6 * t, 18, 38, 2 * t)
+				Z(6.8 * o, math.clamp(math.floor(14 * o + 0.5), 9, 24), 0.8 * t, 1.5 * t, 30, 55, 1.5 * t)
+			end
+			local F = O and math.clamp(math.floor(10 * o + 0.5), 6, 20) or 0
+			for U = 1, F, 1 do
+				local C = (math.random() * math.pi) * 2
+				local J = (1.5 + math.random() * 2.5) * o
+				local A = math.cos(C) * J
+				local L = math.sin(C) * J
+				local H = Vector3.new(E.X + A, E.Y + 6, E.Z + L)
+				local O = workspace:Raycast(H, Vector3.new(0, -12, 0), D)
+				local P = O and O.Position.Y or E.Y
+				local u, B = X, e
+				local Z = true
+				if O then
+					if O.Instance == workspace.Terrain then
+						u = O.Material
+						local U, C = runtime.tryGetTerrainColor(O.Material)
+						if U then
+							B = C
+						else
+							Z = false
+						end
+					elseif O.Instance:IsA("BasePart") then
+						u = O.Instance.Material
+						B = O.Instance.Color
+					end
+				end
+				if Z then
+					local U = (math.random(30, 70) / 100) * t
+					local C = Instance.new("Part")
+					C.Name = "IFlyCraterChunk"
+					C.Anchored = false
+					C.CanCollide = true
+					C.CanQuery = false
+					C.CastShadow = true
+					C.Material = u
+					C.Color = B
+					C.Size = Vector3.new(U, U * (0.6 + math.random() * 0.8), U)
+					C.CFrame = CFrame.new(E.X + A, P + 1, E.Z + L)
+						* CFrame.Angles(
+							math.rad(math.random(0, 360)),
+							math.rad(math.random(0, 360)),
+							math.rad(math.random(0, 360))
+						)
+					C.Parent = workspace
+					local J = (Vector3.new(A, 0, L)).Unit
+					C.AssemblyLinearVelocity = (J * math.random(18, 35) + Vector3.new(0, math.random(12, 26), 0))
+						* o
+					C.AssemblyAngularVelocity =
+						Vector3.new(math.random(-15, 15), math.random(-15, 15), math.random(-15, 15))
+					task.spawn(function()
+						task.wait(8 + math.random() * 6)
+						if not C or not C.Parent then
+							return
+						end
+						(
+							TweenService:Create(
+								C,
+								TweenInfo.new(1.2, Enum.EasingStyle.Linear),
+								{ Transparency = 1 }
+							)
+						):Play()
+						task.wait(1.3)
+						pcall(function()
+							C:Destroy()
+						end)
+					end)
+				end
+			end
+			local v = Instance.new("Part")
+			v.Anchored = true
+			v.CanCollide = false
+			v.CanQuery = false
+			v.Size = Vector3.new(1, 1, 1)
+			v.Transparency = 1
+			v.CFrame = CFrame.new(E + u * 0.5)
+			v.Parent = workspace
+			local q = Instance.new("ParticleEmitter")
+			q.Texture = "rbxasset://textures/particles/smoke_main.dds"
+			q.Color = ColorSequence.new({
+				ColorSequenceKeypoint.new(0, e),
+				ColorSequenceKeypoint.new(0.5, Color3.fromRGB(180, 175, 170)),
+				ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 215, 210)),
+			})
+			q.LightEmission = 0.1
+			q.LightInfluence = 0.8
+			q.Size = NumberSequence.new({
+				NumberSequenceKeypoint.new(0, 2 * t),
+				NumberSequenceKeypoint.new(0.5, 6 * t),
+				NumberSequenceKeypoint.new(1, 0),
+			})
+			q.Transparency = NumberSequence.new({
+				NumberSequenceKeypoint.new(0, 0.2),
+				NumberSequenceKeypoint.new(0.6, 0.6),
+				NumberSequenceKeypoint.new(1, 1),
+			})
+			q.Speed = NumberRange.new(4 * o, 12 * o)
+			q.SpreadAngle = Vector2.new(55, 55)
+			q.Lifetime = NumberRange.new(1.2, 2.8)
+			q.Rate = 0
+			q.Parent = v
+			q:Emit(math.floor(50 * o + 0.5))
+			task.delay(4, function()
+				pcall(function()
+					v:Destroy()
+				end)
+			end)
+		end
+		function FlyController.triggerCrashLanding(C, E, A)
+			if zg.locked then
+				return
+			end
+			if Sg.locked then
+				return
+			end
+			if C ~= workspace.Terrain then
+				if not C or not C:IsA("BasePart") then
+					return
+				end
+				if not C.CanCollide then
+					return
+				end
+			end
+			zg.locked = true
+			pcall(runtime.maybeShowCrashHint)
+			FlyController.resetFOV(0.4)
+			local o = rootPart and rootPart.AssemblyLinearVelocity.Magnitude or 0
+			if b and b.Parent then
+				o = math.max(o, b.Velocity.Magnitude)
+			end
+			local t = math.clamp((0.3 + flightState.boostLevel * 0.3) + o / 400, 0.65, 2.4)
+			if zg.conn then
+				zg.conn:Disconnect()
+				zg.conn = nil
+			end
+			flightState.flying = false
+			FlyController.stopGear5Aura()
+			FlyController.stopSubaruAura()
+			FlyController.clearSubaruStairs()
+			flightState.transitioning = false
+			flightState.boostLevel = 0
+			flightState.speedScale = 1
+			flightState.isCharging = false
+			movementKeys.F = 0
+			movementKeys.B = 0
+			movementKeys.L = 0
+			movementKeys.R = 0
+			movementKeys.U = 0
+			movementKeys.D = 0
+			for U = #x, 1, -1 do
+				pcall(function()
+					x[U]:Disconnect()
+				end)
+				table.remove(x, U)
+			end
+			if flightState.isFirstPerson then
+				FlyController.exitFirstPerson()
+			end
+			FlyController.destroyPhysics()
+			FlyController.stopSpeedLines()
+			FlyController.stopShake()
+			FlyController.stopFpShakeLoop()
+			FlyController.stopMotionBlur()
+			FlyController.stopSounds()
+			FlyController.cleanupIdlePlayback()
+			rootPart.AssemblyLinearVelocity = Vector3.zero
+			rootPart.AssemblyAngularVelocity = Vector3.zero
+			local L = workspace.CurrentCamera.CFrame.LookVector
+			local X = Vector3.new(L.X, 0, L.Z)
+			if X.Magnitude < 0.01 then
+				X = Vector3.new(0, 0, -1)
+			end
+			X = X.Unit
+			local P = E.Y + 3.1
+			local u = Vector3.new(E.X, P, E.Z)
+			rootPart.CFrame = CFrame.new(u, u + X)
+			local D = Instance.new("BodyPosition")
+			D.Name = "CrashBP"
+			D.Position = u
+			D.MaxForce = Vector3.new(9000000000, 9000000000, 9000000000)
+			D.P = 100000
+			D.D = 5000
+			D.Parent = rootPart
+			local B = Instance.new("BodyGyro")
+			B.Name = "CrashBG"
+			B.CFrame = CFrame.new(u, u + X)
+			B.MaxTorque = Vector3.new(9000000000, 9000000000, 9000000000)
+			B.P = 100000
+			B.D = 5000
+			B.Parent = rootPart
+			humanoid.WalkSpeed = 0
+			humanoid.JumpPower = 0
+			humanoid.PlatformStand = false
+			humanoid.AutoRotate = false
+			FlyController.blockHumanoidStates()
+			cameraShakeState.trauma = math.min(0.4 + t * 0.5, 1.6)
+			cameraShakeState.shakeUntil = os.clock() + 3.5
+			FlyController.doFlash(0.75, 0.02, 0.9)
+			FlyController.startShakeLoop()
+			FlyController.startFpShakeLoop()
+			FlyController.spawnCrashEffect(C, E, A, t)
+			task.spawn(function()
+				if not flightState.sfxEnabled then
+					return
+				end
+				local C = FlyController.makeSoundLocal(flightConfig.CRASH_SOUND_ID, false, 0)
+				C.TimePosition = 2.4
+				C:Play();
+				(TweenService:Create(C, TweenInfo.new(0.1), { Volume = FlyController.sfxVol(1) })):Play()
+				C.Ended:Connect(function()
+					pcall(function()
+						C:Destroy()
+					end)
+				end)
+			end)
+			task.spawn(function()
+				RunService.Heartbeat:Wait()
+				RunService.Heartbeat:Wait()
+				local C = FlyController.loadAnim(flightConfig.CRASH_ANIM_ID)
+				C.Looped = false
+				C.Priority = Enum.AnimationPriority.Action4
+				C:Play(0)
+				local E = 0
+				while C.Length <= 0 and E < 20 do
+					RunService.Heartbeat:Wait()
+					E = E + 1
+				end
+				local N = C.Length > 0 and C.Length or 6
+				pcall(function()
+					C.TimePosition = 3
+				end)
+				local A = math.max(1, N - 3)
+				task.wait(A)
+				pcall(function()
+					C:Stop(0.3)
+				end)
+				local o = RaycastParams.new()
+				o.FilterDescendantsInstances = { character }
+				o.FilterType = Enum.RaycastFilterType.Exclude
+				o.RespectCanCollide = true
+				local t = workspace:Raycast(Vector3.new(u.X, u.Y + 3, u.Z), Vector3.new(0, -8, 0), o)
+				if t then
+					local U = t.Position.Y + 3.1
+					local C = Vector3.new(u.X, U, u.Z)
+					rootPart.CFrame = CFrame.new(C, C + X)
+				end
+				pcall(function()
+					D:Destroy()
+				end)
+				pcall(function()
+					B:Destroy()
+				end)
+				RunService.Heartbeat:Wait()
+				if
+					runtime.killed
+					or flightState.isDead
+					or not humanoid
+					or not humanoid.Parent
+					or humanoid.Health <= 0
+				then
+					zg.locked = false
+					flightState.transitioning = false
+					return
+				end
+				humanoid.WalkSpeed = 16
+				humanoid.JumpPower = 50
+				humanoid.PlatformStand = false
+				humanoid.AutoRotate = true
+				FlyController.resetFOV(0.8)
+				FlyController.stopShake()
+				FlyController.stopFpShakeLoop()
+				FlyController.restoreHumanoidStates()
+				zg.locked = false
+				flightState.transitioning = false
+			end)
+		end
+		function FlyController.startCrashWatcher()
+			if zg.conn then
+				zg.conn:Disconnect()
+				zg.conn = nil
+			end
+			local E = RaycastParams.new()
+			local N = { character }
+			for U, C in ipairs(Players:GetPlayers()) do
+				if C.Character then
+					table.insert(N, C.Character)
+				end
+			end
+			E.FilterDescendantsInstances = N
+			E.FilterType = Enum.RaycastFilterType.Exclude
+			E.RespectCanCollide = true
+			local function A()
+				if not flightState.flying then
+					return
+				end
+				if zg.locked then
+					return
+				end
+				if Sg.locked then
+					return
+				end
+				if not flightState.crashEnabled then
+					return
+				end
+				if not b or not b.Parent then
+					return
+				end
+				local C = (os.clock() - flightState.lastBoostedTime) < 0.5
+				local J = flightState.boostLevel >= 1
+					or C
+					or b.Velocity.Magnitude >= flightConfig.CRASH_SPEED_THRESHOLD
+				if not J then
+					return
+				end
+				if not runtime.isCrashDive(b.Velocity) then
+					return
+				end
+				local N, A = FlyController.getFootY()
+				if not N then
+					return
+				end
+				local o = Vector3.new(A and A.X or rootPart.Position.X, N + 0.5, A and A.Z or rootPart.Position.Z)
+				local t = workspace:Raycast(o, Vector3.new(0, -5, 0), E)
+				if not t then
+					return
+				end
+				if t.Normal:Dot(Vector3.new(0, 1, 0)) < 0.75 then
+					return
+				end
+				if t.Instance ~= workspace.Terrain then
+					if not t.Instance:IsA("BasePart") then
+						return
+					end
+					if not t.Instance.CanCollide then
+						return
+					end
+					if t.Instance.Transparency >= 0.95 then
+						return
+					end
+				end
+				local L = (flightState.boostLevel >= 1 or C) and flightConfig.CRASH_CONTACT_THRESHOLD * 2.4
+					or flightConfig.CRASH_CONTACT_THRESHOLD
+				if N - t.Position.Y > L then
+					return
+				end
+				if zg.conn then
+					zg.conn:Disconnect()
+					zg.conn = nil
+				end
+				FlyController.triggerCrashLanding(t.Instance, t.Position, t.Normal)
+			end
+			local o
+			o = RunService.Heartbeat:Connect(function()
+				A()
+			end)
+			zg.conn = o
+			if rootPart then
+				local C
+				C = rootPart.Touched:Connect(function(J)
+					if not flightState.flying or zg.locked or not flightState.crashEnabled then
+						return
+					end
+					if not J or not J.Parent then
+						return
+					end
+					if not J.CanCollide then
+						return
+					end
+					local N = (os.clock() - flightState.lastBoostedTime) < 0.5
+					local A = flightState.boostLevel >= 1
+						or N
+						or b and b.Velocity.Magnitude >= flightConfig.CRASH_SPEED_THRESHOLD
+					if not A then
+						return
+					end
+					if not b or not runtime.isCrashDive(b.Velocity) then
+						return
+					end
+					local o, t = FlyController.getFootY()
+					if not o then
+						return
+					end
+					local L =
+						Vector3.new(t and t.X or rootPart.Position.X, o + 0.5, t and t.Z or rootPart.Position.Z)
+					local X = workspace:Raycast(L, Vector3.new(0, -3, 0), E)
+					if not X then
+						return
+					end
+					if X.Normal:Dot(Vector3.new(0, 1, 0)) < 0.75 then
+						return
+					end
+					if
+						X.Instance ~= workspace.Terrain
+						and (X.Instance:IsA("BasePart") and X.Instance.Transparency >= 0.95)
+					then
+						return
+					end
+					if o - X.Position.Y > flightConfig.CRASH_CONTACT_THRESHOLD + 0.5 then
+						return
+					end
+					C:Disconnect()
+					if zg.conn then
+						zg.conn:Disconnect()
+						zg.conn = nil
+					end
+					FlyController.triggerCrashLanding(X.Instance, X.Position, X.Normal)
+				end)
+				local J = zg.conn
+				zg.conn = {
+					Disconnect = function()
+						pcall(function()
+							J:Disconnect()
+						end)
+						pcall(function()
+							C:Disconnect()
+						end)
+					end,
+				}
+			end
+		end
+		function FlyController.stopCrashWatcher()
+			if zg.conn then
+				zg.conn:Disconnect()
+				zg.conn = nil
+			end
+			zg.locked = false
+		end
+		local bg = {}
+		local Ig = {}
+		local xg = nil
+		function FlyController.applyRagdoll(U)
+			if not character or not humanoid then
+				return
+			end
+			bg = {}
+			Ig = {}
+			pcall(function()
+				humanoid:ChangeState(Enum.HumanoidStateType.Physics)
+			end)
+			if g.active then
+				pcall(function()
+					g.active:Stop(0)
+				end)
+				g.active = nil
+			end
+			if g.replicated then
+				pcall(function()
+					g.replicated:Stop(0)
+				end)
+				g.replicated = nil
+			end
+			if Jg then
+				pcall(function()
+					Jg:Disconnect()
+				end)
+				Jg = nil
+			end
+			xg = RunService.Heartbeat:Connect(function()
+				if runtime.killed then
+					if xg then
+						xg:Disconnect()
+						xg = nil
+					end
+					return
+				end
+				if
+					not humanoid
+					or not humanoid.Parent
+					or humanoid.Health <= 0
+					or humanoid:GetState() == Enum.HumanoidStateType.Dead
+				then
+					if xg then
+						xg:Disconnect()
+						xg = nil
+					end
+					return
+				end
+				pcall(function()
+					humanoid:ChangeState(Enum.HumanoidStateType.Physics)
+				end)
+			end)
+			humanoid.PlatformStand = true
+			humanoid.AutoRotate = false
+			for U, C in ipairs(character:GetDescendants()) do
+				if C:IsA("BasePart") then
+					table.insert(Ig, { part = C, wasCanCollide = C.CanCollide })
+					if C.Name ~= "HumanoidRootPart" then
+						pcall(function()
+							C.CanCollide = true
+						end)
+					end
+				end
+			end
+			for U, C in ipairs(character:GetDescendants()) do
+				if C:IsA("Motor6D") then
+					pcall(function()
+						C.Enabled = false
+					end)
+					table.insert(bg, C)
+				end
+			end
+			if U and U.Magnitude > 0 then
+				for C, J in ipairs(character:GetDescendants()) do
+					if J:IsA("BasePart") then
+						local C = J.Position - rootPart.Position
+						pcall(function()
+							J.AssemblyLinearVelocity = U
+								+ Vector3.new(
+									((math.random() - 0.5) * C.Magnitude) * 0.6,
+									((math.random() - 0.5) * C.Magnitude) * 0.3,
+									((math.random() - 0.5) * C.Magnitude) * 0.6
+								)
+						end)
+					end
+				end
+			end
+		end
+		function FlyController.removeRagdoll()
+			if xg then
+				xg:Disconnect()
+				xg = nil
+			end
+			for U, C in ipairs(bg) do
+				pcall(function()
+					C.Enabled = true
+				end)
+			end
+			bg = {}
+			for U, C in ipairs(Ig) do
+				pcall(function()
+					C.part.CanCollide = C.wasCanCollide
+				end)
+			end
+			Ig = {}
+			if humanoid and humanoid.Parent then
+				humanoid.PlatformStand = false
+				humanoid.AutoRotate = true
+				if humanoid.Health > 0 and humanoid:GetState() ~= Enum.HumanoidStateType.Dead then
+					pcall(function()
+						humanoid:ChangeState(Enum.HumanoidStateType.GettingUp)
+					end)
+					FlyController.restoreHumanoidStates()
+				end
+			end
+		end
+		function FlyController.spawnWallCrack(C, J, E, N)
+			if not flightState.vfxEnabled then
+				return
+			end
+			N = math.clamp(N, 0.5, 2.4)
+			FlyController.spawnCrackDecal(C, J, E, N)
+		end
+		function FlyController.spawnWallRockRing(U, J, E, A, o, t, L, X, e, O, P, u)
+			if not flightState.vfxEnabled then
+				return
+			end
+			E = math.clamp(E, 0.5, 2.4)
+			local D = J.Unit
+			local B = math.abs(D:Dot(Vector3.new(1, 0, 0))) < 0.98 and Vector3.new(1, 0, 0)
+				or Vector3.new(0, 0, 1)
+			local Z = (D:Cross(B)).Unit
+			local F = (Z:Cross(D)).Unit
+			local v = RaycastParams.new()
+			local q = { character }
+			for U, C in ipairs(Players:GetPlayers()) do
+				if C.Character then
+					table.insert(q, C.Character)
+				end
+			end
+			v.FilterDescendantsInstances = q
+			v.FilterType = Enum.RaycastFilterType.Exclude
+			v.RespectCanCollide = true
+			local h = (math.random() * math.pi) * 2
+			for C = 1, L, 1 do
+				local J = (h + ((C / L) * math.pi) * 2) + ((math.random() - 0.5) * ((math.pi * 2) / L)) * 0.5
+				local E = t * (0.9 + math.random() * 0.25)
+				local H = math.cos(J) * E
+				local B = math.sin(J) * E
+				local q = Z * H + F * B
+				local W = (U + q) + D * 3
+				local c = workspace:Raycast(W, -D * 6, v)
+				if c then
+					local J = c.Position
+					local E, t = A, o
+					local q = true
+					if c.Instance == workspace.Terrain then
+						E = c.Material
+						local U, C = runtime.tryGetTerrainColor(E)
+						if U then
+							t = C
+						else
+							q = false
+						end
+					elseif c.Instance:IsA("BasePart") then
+						E = c.Instance.Material
+						t = c.Instance.Color
+					end
+					if q then
+						local A = X + math.random() * (e - X)
+						local o = A * (1.1 + math.random() * 0.6)
+						local l = A * (0.55 + math.random() * 0.35)
+						local q = workspace:Raycast(J - D * 0.05, -D * 8, v)
+						local h = q and ((J - q.Position)).Magnitude or 4
+						local W = math.max(0.3, ((h - 0.1) - u) / 0.45)
+						o = math.min(o, W)
+						local c = ((J - U)):Dot(D)
+						local f = U + D * c
+						local d = (f - J)
+						if d.Magnitude < 0.01 then
+							d = Z * H + F * B
+							if d.Magnitude < 0.01 then
+								d = Z
+							end
+						end
+						local y = d.Unit
+						local w = D
+						if math.abs(y:Dot(w)) > 0.95 then
+							w = F
+						end
+						local Y = (w:Cross(y)).Unit
+						w = (y:Cross(Y)).Unit
+						local V = CFrame.fromMatrix(J, Y, w, -y)
+						local Q = math.rad(O + math.random() * (P - O))
+						local r = CFrame.Angles(0, math.rad(math.random(-12, 12)), math.rad(math.random(-8, 8)))
+						local k = (V * CFrame.Angles(-Q, 0, 0)) * r
+						local m = Instance.new("Part")
+						m.Name = "IFlyWallRock"
+						m.Anchored = true
+						m.CanCollide = false
+						m.CanQuery = false
+						m.CanTouch = false
+						m.CastShadow = true
+						m.Material = E
+						m.Color = t
+						m.Size = Vector3.new(A, o, l)
+						m.CFrame = k * CFrame.new(0, -(o + u), 0)
+						m.Parent = workspace
+						local M = (C / L) * 0.08 + math.random() * 0.05
+						task.delay(M, function()
+							if not m.Parent then
+								return
+							end
+							(TweenService:Create(
+								m,
+								TweenInfo.new(0.35, Enum.EasingStyle.Back, Enum.EasingDirection.Out),
+								{ CFrame = k * CFrame.new(0, -o * 0.45, 0) }
+								)):Play()
+						end)
+						task.delay(ag + math.random() * 4, function()
+							if not m.Parent then
+								return
+							end
+							m.CanCollide = false
+							(TweenService:Create(
+								m,
+								TweenInfo.new(1.1, Enum.EasingStyle.Back, Enum.EasingDirection.In),
+								{ CFrame = k * CFrame.new(0, -(o + u), 0) }
+								)):Play()
+							task.delay(1.2, function()
+								pcall(function()
+									m:Destroy()
+								end)
+							end)
+						end)
+					end
+				end
+			end
+		end
+		function FlyController.triggerWallImpact(C, J, E, N)
+			if Sg.locked then
+				return
+			end
+			if C ~= workspace.Terrain then
+				if not C or not C:IsA("BasePart") then
+					return
+				end
+				if not C.CanCollide then
+					return
+				end
+				if C.Transparency >= 0.95 then
+					return
+				end
+			end
+			Sg.locked = true
+			zg.locked = true
+			pcall(runtime.maybeShowCrashHint)
+			local A = rootPart and rootPart.AssemblyLinearVelocity or Vector3.zero
+			local o = math.clamp(0.4 + N / 300, 0.5, 2.4)
+			local t = math.clamp(0.4 + N / 100, 0.6, 4)
+			if zg.conn then
+				zg.conn:Disconnect()
+				zg.conn = nil
+			end
+			Kg()
+			Sg.locked = true
+			flightState.flying = false
+			FlyController.stopGear5Aura()
+			FlyController.stopSubaruAura()
+			FlyController.clearSubaruStairs()
+			flightState.transitioning = false
+			flightState.boostLevel = 0
+			flightState.speedScale = 1
+			flightState.isCharging = false
+			movementKeys.F = 0
+			movementKeys.B = 0
+			movementKeys.L = 0
+			movementKeys.R = 0
+			movementKeys.U = 0
+			movementKeys.D = 0
+			for U = #x, 1, -1 do
+				pcall(function()
+					x[U]:Disconnect()
+				end)
+				table.remove(x, U)
+			end
+			if flightState.isFirstPerson then
+				FlyController.exitFirstPerson()
+			end
+			FlyController.stopSpeedLines()
+			FlyController.stopShake()
+			FlyController.stopFpShakeLoop()
+			FlyController.stopMotionBlur()
+			FlyController.stopSounds()
+			FlyController.resetFOV(0)
+			if rootPart and rootPart.Parent then
+				rootPart.AssemblyLinearVelocity = Vector3.zero
+				rootPart.AssemblyAngularVelocity = Vector3.zero
+			end
+			if b and b.Parent then
+				b.Velocity = Vector3.zero
+			end
+			FlyController.destroyPhysics()
+			FlyController.cleanupIdlePlayback()
+			FlyController.blockHumanoidStates()
+			humanoid.AutoRotate = false
+			local L = flightConfig.BOOST_SPEEDS[#flightConfig.BOOST_SPEEDS] or 600
+			local X = math.clamp(N / L, 0, 1)
+			local P = flightConfig.WALL_FLASH_MIN_ALPHA
+				+ (flightConfig.WALL_FLASH_MAX_ALPHA - flightConfig.WALL_FLASH_MIN_ALPHA) * X
+			local u = flightConfig.WALL_FLASH_MIN_DURATION
+				+ (flightConfig.WALL_FLASH_MAX_DURATION - flightConfig.WALL_FLASH_MIN_DURATION) * X
+			FlyController.doFlash(P, 0.02, u)
+			cameraShakeState.trauma = math.min(1 + X * 0.6, 1.6)
+			flightState.fpShakeTrauma = math.min(1 + X * 0.6, 1.6)
+			cameraShakeState.shakeUntil = (os.clock() + t) + 0.5
+			FlyController.startShakeLoop()
+			FlyController.startFpShakeLoop()
+			if flightState.sfxEnabled then
+				local function C(U, C, J)
+					local E = Instance.new("Sound")
+					E.SoundId = U
+					E.PlaybackSpeed = C
+					E.Volume = J
+					E.Looped = false
+					E.Parent = rootPart
+					E:Play()
+					E.Ended:Connect(function()
+						pcall(function()
+							E:Destroy()
+						end)
+					end)
+					task.delay(20, function()
+						pcall(function()
+							E:Destroy()
+						end)
+					end)
+				end
+				C(flightConfig.WALL_SFX_FLASHBANG, 0.7, FlyController.sfxVol(1))
+				C(flightConfig.WALL_SFX_IMPACT_EXTRA, 1, FlyController.sfxVol(0.6))
+			end
+			FlyController.spawnWallCrack(C, J, E, o)
+			local D = Enum.Material.Concrete
+			local B = Color3.fromRGB(140, 134, 128)
+			local Z = true
+			local F = RaycastParams.new()
+			F.FilterDescendantsInstances = { character }
+			F.FilterType = Enum.RaycastFilterType.Exclude
+			local v = workspace:Raycast(J + E * 0.5, -E * 2, F)
+			if v then
+				if v.Instance == workspace.Terrain then
+					D = v.Material
+					local U, C = runtime.tryGetTerrainColor(D)
+					if U then
+						B = C
+					else
+						Z = false
+					end
+				elseif v.Instance:IsA("BasePart") then
+					D = v.Instance.Material
+					B = v.Instance.Color
+				end
+			end
+			local q = o
+			if Z then
+				FlyController.spawnWallRockRing(
+					J,
+					E,
+					o,
+					D,
+					B,
+					4.2 * o,
+					math.clamp(math.floor(9 * o + 0.5), 6, 16),
+					1.6 * q,
+					2.6 * q,
+					18,
+					38,
+					1.2 * q
+				)
+				FlyController.spawnWallRockRing(
+					J,
+					E,
+					o,
+					D,
+					B,
+					6.8 * o,
+					math.clamp(math.floor(14 * o + 0.5), 9, 24),
+					0.8 * q,
+					1.5 * q,
+					30,
+					55,
+					0.8 * q
+				)
+			end
+			if flightState.vfxEnabled then
+				local U = Instance.new("Part")
+				U.Anchored = true
+				U.CanCollide = false
+				U.CanQuery = false
+				U.Size = Vector3.new(1, 1, 1)
+				U.Transparency = 1
+				U.CFrame = CFrame.new(J + E * 0.3)
+				U.Parent = workspace
+				local C = Instance.new("ParticleEmitter")
+				C.Texture = "rbxasset://textures/particles/smoke_main.dds"
+				C.Color = ColorSequence.new({
+					ColorSequenceKeypoint.new(0, B),
+					ColorSequenceKeypoint.new(0.5, Color3.fromRGB(180, 175, 170)),
+					ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 215, 210)),
+				})
+				C.LightEmission = 0.1
+				C.LightInfluence = 0.8
+				C.Size = NumberSequence.new({
+					NumberSequenceKeypoint.new(0, 2 * o),
+					NumberSequenceKeypoint.new(0.5, 5 * o),
+					NumberSequenceKeypoint.new(1, 0),
+				})
+				C.Transparency = NumberSequence.new({
+					NumberSequenceKeypoint.new(0, 0.2),
+					NumberSequenceKeypoint.new(0.6, 0.6),
+					NumberSequenceKeypoint.new(1, 1),
+				})
+				C.Speed = NumberRange.new(4 * o, 12 * o)
+				C.SpreadAngle = Vector2.new(65, 65)
+				C.Lifetime = NumberRange.new(0.8, 2.2)
+				C.Rate = 0
+				C.Parent = U
+				C:Emit(math.floor(40 * o))
+				task.delay(3.5, function()
+					pcall(function()
+						U:Destroy()
+					end)
+				end)
+			end
+			local h = math.clamp(N * 0.12, 4, 28)
+			local W = E * h + Vector3.new(0, h * 0.22, 0)
+			FlyController.applyRagdoll(W)
+			task.delay(t, function()
+				if runtime.killed or flightState.isDead then
+					return
+				end
+				pcall(function()
+					FlyController.removeRagdoll()
+				end)
+				if humanoid and (humanoid.Parent and humanoid.Health > 0) then
+					humanoid.WalkSpeed = 16
+					humanoid.JumpPower = 50
+					humanoid.AutoRotate = true
+					FlyController.restoreHumanoidStates()
+				end
+				FlyController.resetFOV(0.5)
+				FlyController.stopShake()
+				FlyController.stopFpShakeLoop()
+				Sg.locked = false
+				zg.locked = false
+				flightState.transitioning = false
+			end)
+		end
+		function FlyController.startWallImpactWatcher()
+			if Sg.conn then
+				Sg.conn:Disconnect()
+				Sg.conn = nil
+			end
+			if not rootPart then
+				return
+			end
+			local E = RaycastParams.new()
+			local N = { character }
+			for U, C in ipairs(Players:GetPlayers()) do
+				if C.Character then
+					table.insert(N, C.Character)
+				end
+			end
+			E.FilterDescendantsInstances = N
+			E.FilterType = Enum.RaycastFilterType.Exclude
+			E.RespectCanCollide = true
+			Sg.conn = RunService.Heartbeat:Connect(function(C)
+				if not flightState.flying then
+					return
+				end
+				if Sg.locked then
+					return
+				end
+				if not flightState.wallImpactEnabled then
+					return
+				end
+				if not b or not b.Parent then
+					return
+				end
+				local J = b.Velocity.Magnitude
+				if J < 30 then
+					return
+				end
+				local N = (os.clock() - flightState.lastBoostedTime) < 0.5
+				if flightState.boostLevel < 1 and not N then
+					return
+				end
+				local A = b.Velocity.Unit
+				local o = math.max(2.5, (J * C) * 1.5)
+				local t = workspace:Raycast(rootPart.Position, A * o, E)
+				if not t then
+					return
+				end
+				local L = t.Normal
+				if math.abs(L.Y) > 0.7 and L.Y > 0 then
+					return
+				end
+				if t.Instance ~= workspace.Terrain then
+					if not t.Instance:IsA("BasePart") then
+						return
+					end
+					if not t.Instance.CanCollide then
+						return
+					end
+					if t.Instance.Transparency >= 0.95 then
+						return
+					end
+				end
+				if -A:Dot(L) < 0.25 then
+					return
+				end
+				Sg.conn:Disconnect()
+				Sg.conn = nil
+				FlyController.triggerWallImpact(t.Instance, t.Position, t.Normal, J)
+			end)
+		end
+		Kg = function()
+			if Sg.conn then
+				Sg.conn:Disconnect()
+				Sg.conn = nil
+			end
+			Sg.locked = false
+		end
+		function runtime.isCrashDive(U)
+			if not U or U.Magnitude < 1 then
+				return false
+			end
+			return -U.Unit.Y
+				>= math.cos(math.rad(flightState.crashDiveAngle or flightConfig.CRASH_DIVE_ANGLE_DEFAULT))
+		end
+		function runtime.crashWouldTrigger(U)
+			if not flightState.crashEnabled or not runtime.isCrashDive(U) then
+				return false
+			end
+			local C = (os.clock() - flightState.lastBoostedTime) < 0.5
+			return flightState.boostLevel >= 1 or C or U.Magnitude >= flightConfig.CRASH_SPEED_THRESHOLD
+		end
+		function runtime.resetFlightExtras()
+			runtime.flyT = 0
+			runtime.baseVel = (b and b.Parent) and b.Velocity or Vector3.zero
+			runtime.baseCF = nil
+			runtime.hoverBlend, runtime.hoverPhase = 0, 0
+			runtime.lean, runtime.camTurn, runtime.lastCamYaw = 0, 0, nil
+			runtime.swayT, runtime.swayBlend = 0, 0
+			runtime.spiralProgress, runtime.spiralDir = -1, 1
+			runtime.nextSpiralAt = (os.clock() + flightConfig.SPIRAL_MIN_GAP)
+				+ math.random() * (flightConfig.SPIRAL_MAX_GAP - flightConfig.SPIRAL_MIN_GAP)
+			runtime.rollCooldownUntil = 0
+			local U = { character }
+			for C, J in ipairs(Players:GetPlayers()) do
+				if J.Character then
+					U[#U + 1] = J.Character
+				end
+			end
+			local J = RaycastParams.new()
+			J.FilterDescendantsInstances = U
+			J.FilterType = Enum.RaycastFilterType.Exclude
+			J.RespectCanCollide = true
+			runtime.skimParams = J
+		end
+		function runtime.speedFluct()
+			if not flightState.speedFluctuation then
+				return 1
+			end
+			local U = runtime.flyT or 0
+			return 1
+				+ flightConfig.FLUCT_AMOUNT
+				* ((0.55 * math.sin(U * 1.1) + 0.3 * math.sin(U * 2.7 + 1.3)) + 0.15 * math.sin(U * 5.3 + 2.1))
+		end
+		function runtime.flightVelocityExtras(C, J)
+			local E = runtime.baseVel
+			if E.Y < 0 and not runtime.crashWouldTrigger(E) then
+				local C, J = FlyController.getFootY()
+				if C and (J and runtime.skimParams) then
+					local U = workspace:Raycast(
+						Vector3.new(J.X, C + 0.5, J.Z),
+						Vector3.new(0, -(flightConfig.SKIM_HEIGHT + 0.5), 0),
+						runtime.skimParams
+					)
+					if U and U.Normal.Y > 0.45 then
+						local J = U.Normal
+						local N = E:Dot(J)
+						if N < 0 then
+							local U = E.Magnitude
+							local C = E - J * N
+							E = C.Magnitude > 0.5 and C.Unit * U or C
+						end
+						local A = C - U.Position.Y
+						if A < flightConfig.SKIM_MIN_GAP then
+							E = E + J * ((flightConfig.SKIM_MIN_GAP - A) * 12)
+						end
+						runtime.baseVel = E
+					end
+				end
+			end
+			local N = (not J and (flightState.hoverEnabled and flightState.boostLevel == 0)) and 1 or 0
+			runtime.hoverBlend = runtime.hoverBlend + (N - runtime.hoverBlend) * math.min(C * 3, 1)
+			local A = 0
+			if runtime.hoverBlend > 0.001 then
+				runtime.hoverPhase = runtime.hoverPhase + C * K
+				A = (math.sin(runtime.hoverPhase) * S) * runtime.hoverBlend
+			else
+				runtime.hoverPhase = 0
+			end
+			return E + Vector3.new(0, A, 0)
+		end
+		function runtime.boostOrientation(U, C, J, E)
+			local N = flightState.boostLevel > 0 and C
+			local A = E.LookVector
+			local o = math.atan2(-A.X, -A.Z)
+			local t = 0
+			if runtime.lastCamYaw and U > 0 then
+				local C = o - runtime.lastCamYaw
+				if C > math.pi then
+					C = C - 2 * math.pi
+				elseif C < -math.pi then
+					C = C + 2 * math.pi
+				end
+				t = math.clamp((-C / U) / flightConfig.CAM_TURN_FULL_RATE, -1, 1)
+			end
+			runtime.lastCamYaw = o
+			runtime.camTurn = runtime.camTurn + (t - runtime.camTurn) * math.min(U * 8, 1)
+			local L = math.min(flightConfig.LEAN_SMOOTHING * U, 1)
+			local X = 0
+			if N then
+				X = J
+				if flightState.camBankEnabled then
+					X = X + runtime.camTurn
+				end
+				X = math.clamp(X, -1, 1)
+			end
+			runtime.lean = runtime.lean + (X - runtime.lean) * L
+			runtime.swayT = runtime.swayT + U
+			runtime.swayBlend = runtime.swayBlend + ((N and 1 or 0) - runtime.swayBlend) * L
+			local H = (math.sin(runtime.swayT * flightConfig.BOOST_SWAY_SPEED) * flightConfig.BOOST_SWAY_ROLL)
+				* runtime.swayBlend
+			local e = os.clock()
+			local O = N and (not flightState.isCharging and not flightState.isFirstPerson)
+			if runtime.spiralProgress < 0 then
+				if not O then
+					runtime.nextSpiralAt = math.max(runtime.nextSpiralAt, e + 2)
+				elseif e >= runtime.rollCooldownUntil then
+					local C = math.abs(runtime.lean)
+					local J = 0
+					if flightState.leanRollsEnabled and C > flightConfig.LEAN_ROLL_START then
+						J = flightConfig.LEAN_ROLL_CHANCE
+							* math.min((C - flightConfig.LEAN_ROLL_START) / (1 - flightConfig.LEAN_ROLL_START), 1)
+					end
+					if J > 0 and math.random() < 1 - (1 - J) ^ U then
+						runtime.spiralProgress = 0
+						runtime.spiralDir = runtime.lean > 0 and -1 or 1
+					elseif flightState.spiralsEnabled and e >= runtime.nextSpiralAt then
+						runtime.spiralProgress = 0
+						runtime.spiralDir = (math.random() < 0.5) and -1 or 1
+					end
+				end
+			else
+				runtime.spiralProgress = runtime.spiralProgress + U / flightConfig.SPIRAL_DURATION
+				if runtime.spiralProgress >= 1 then
+					runtime.spiralProgress = -1
+					runtime.rollCooldownUntil = e + flightConfig.ROLL_COOLDOWN
+					runtime.nextSpiralAt = (e + flightConfig.SPIRAL_MIN_GAP)
+						+ math.random() * (flightConfig.SPIRAL_MAX_GAP - flightConfig.SPIRAL_MIN_GAP)
+				end
+			end
+			local P = 0
+			if runtime.spiralProgress >= 0 then
+				local U = runtime.spiralProgress
+				P = ((runtime.spiralDir * math.pi) * 2) * ((U * U) * (3 - 2 * U))
+			end
+			return CFrame.Angles(0, -runtime.lean * flightConfig.BOOST_TURN_YAW, 0)
+				* CFrame.Angles(0, 0, (-runtime.lean * flightConfig.BOOST_BANK_ROLL + H) + P)
+		end
+		function runtime.bodyShakeCF()
+			if not b or not b.Parent then
+				return CFrame.identity
+			end
+			local C = (
+				math.rad(flightConfig.BODY_SHAKE_MAX)
+					* math.clamp((b.Velocity.Magnitude - 100) / 500, 0, 1) ^ 1.5
+			) * (flightState.bodyShake or 1)
+			if C <= 0 then
+				return CFrame.identity
+			end
+			local J = runtime.flyT or 0
+			return CFrame.Angles(
+				C * FlyController.noiseVal(J, 14, 11),
+				(C * 0.6) * FlyController.noiseVal(J, 11, 37),
+				C * FlyController.noiseVal(J, 17, 73)
+			)
+		end
+		function runtime.landShake(C)
+			if not C or C <= 2 then
+				return
+			end
+			local J = math.clamp(
+				C * flightConfig.LAND_SHAKE_PER_STUD,
+				flightConfig.LAND_SHAKE_MIN,
+				flightConfig.LAND_SHAKE_MAX
+			) * flightState.boostShakeIntensity
+			cameraShakeState.trauma = math.min(cameraShakeState.trauma + J, flightConfig.LAND_SHAKE_MAX)
+			cameraShakeState.shakeUntil = (os.clock() + 0.4) + J * 0.8
+			FlyController.startShakeLoop()
+		end
+		function runtime.watchTouchdown()
+			if not rootPart or not humanoid then
+				return
+			end
+			local U = rootPart.Position.Y
+			local C = os.clock()
+			local E
+			E = RunService.Heartbeat:Connect(function()
+				if
+					runtime.killed
+					or flightState.flying
+					or not humanoid
+					or not humanoid.Parent
+					or humanoid.Health <= 0
+					or not rootPart
+					or not rootPart.Parent
+					or os.clock() - C > 15
+				then
+					E:Disconnect()
+					return
+				end
+				U = math.max(U, rootPart.Position.Y)
+				if humanoid.FloorMaterial ~= Enum.Material.Air then
+					E:Disconnect()
+					runtime.landShake(U - rootPart.Position.Y)
+				end
+			end)
+		end
+		function FlyController.stopSubaruAura()
+			local aura = runtime.subaruAura
+			runtime.subaruAura = nil
+			if not aura then
+				return
+			end
+			if aura.highlight then
+				pcall(function()
+					aura.highlight:Destroy()
+				end)
+			end
+			if aura.light then
+				pcall(function()
+					aura.light:Destroy()
+				end)
+			end
+		end
+		function FlyController.updateSubaruAura()
+			local active = flightState.flying
+				and flightState.vfxEnabled
+				and FlyController.isSubaruBoostActive()
+				and not runtime.killed
+				and character
+				and rootPart
+				and rootPart.Parent
+			if not active then
+				FlyController.stopSubaruAura()
+				FlyController.clearSubaruStairs()
+				return
+			end
+	
+			if runtime.subaruAura and runtime.subaruAura.character == character then
+				return
+			end
+			FlyController.stopSubaruAura()
+			FlyController.clearSubaruStairs()
+	
+			local highlight = Instance.new("Highlight")
+			highlight.Name = "HPXSubaruFlightAura"
+			highlight.Adornee = character
+			highlight.FillColor = Color3.fromRGB(0, 255, 100)
+			highlight.FillTransparency = 0.9
+			highlight.OutlineColor = Color3.fromRGB(0, 255, 100)
+			highlight.OutlineTransparency = 0.04
+			highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+			highlight.Parent = character
+	
+			local light = Instance.new("PointLight")
+			light.Name = "HPXSubaruFlightAuraLight"
+			light.Color = Color3.fromRGB(0, 255, 100)
+			light.Brightness = 0.8
+			light.Range = 7
+			light.Shadows = false
+			light.Parent = rootPart
+	
+			runtime.subaruAura = {
+				character = character,
+				highlight = highlight,
+				light = light,
+			}
+		end
+		function FlyController.clearSubaruStairs()
+			local stairs = runtime.subaruStairs
+			runtime.subaruStairs = nil
+			if not stairs then
+				return
+			end
+			for _, entry in ipairs(stairs) do
+				if entry.aura then
+					pcall(function() entry.aura:Destroy() end)
+				end
+				if entry.step then
+					pcall(function() entry.step:Destroy() end)
+				end
+			end
+		end
+		function FlyController.updateSubaruStairs()
+			if not flightState.flying
+				or not flightState.vfxEnabled
+				or not FlyController.isSubaruBoostActive()
+				or not rootPart
+				or not rootPart.Parent then
+				FlyController.clearSubaruStairs()
+				return
+			end
+	
+			local leftFoot = character and character:FindFirstChild("LeftFoot")
+			local rightFoot = character and character:FindFirstChild("RightFoot")
+			local feetPosition
+			if leftFoot and rightFoot and leftFoot:IsA("BasePart") and rightFoot:IsA("BasePart") then
+				feetPosition = (leftFoot.Position + rightFoot.Position) * 0.5
+			elseif leftFoot and leftFoot:IsA("BasePart") then
+				feetPosition = leftFoot.Position
+			elseif rightFoot and rightFoot:IsA("BasePart") then
+				feetPosition = rightFoot.Position
+			else
+				local footOffset = (humanoid and humanoid.HipHeight or 2) + rootPart.Size.Y * 0.5 + 0.4
+				feetPosition = rootPart.Position - Vector3.new(0, footOffset, 0)
+			end
+	
+			local direction = runtime.baseVel or rootPart.AssemblyLinearVelocity
+			if direction.Magnitude < 3 then
+				direction = rootPart.CFrame.LookVector
+			end
+			local forward = Vector3.new(direction.X, 0, direction.Z)
+			if forward.Magnitude < 0.1 then
+				forward = Vector3.new(0, 0, -1)
+			else
+				forward = forward.Unit
+			end
+	
+			local stepCount = 10
+			local stepSpacing = 1.35
+			local stepRise = 0.38
+			local trackLength = stepCount * stepSpacing
+			local travel = (runtime.flyT * (stepSpacing / 0.2)) % trackLength
+			local stepBlack = Color3.fromRGB(8, 8, 12)
+			local stepGreen = Color3.fromRGB(0, 255, 100)
+			local stairs = runtime.subaruStairs
+			if not stairs then
+				stairs = {}
+				runtime.subaruStairs = stairs
+			end
+	
+			for index = 1, stepCount do
+				local entry = stairs[index]
+				if not entry or not entry.aura or not entry.step or not entry.aura.Parent or not entry.step.Parent then
+					if entry then
+						if entry.aura then entry.aura:Destroy() end
+						if entry.step then entry.step:Destroy() end
+					end
+					local aura = Instance.new("Part")
+					aura.Name = "HPXSubaruFlightStepAura"
+					aura.Size = Vector3.new(2.3, 0.1, 1.35)
+					aura.Anchored = true
+					aura.CanCollide = false
+					aura.CanTouch = false
+					aura.CanQuery = false
+					aura.CastShadow = false
+					aura.Material = Enum.Material.Neon
+					aura.Color = Color3.fromRGB(0, 255, 100)
+					aura.Transparency = 0.12
+					aura.Parent = workspace
+	
+					local step = Instance.new("Part")
+					step.Name = "HPXSubaruFlightStep"
+					step.Size = Vector3.new(2.1, 0.28, 1.15)
+					step.Anchored = true
+					step.CanCollide = false
+					step.CanTouch = false
+					step.CanQuery = false
+					step.CastShadow = false
+					step.Material = Enum.Material.SmoothPlastic
+					step.Color = Color3.fromRGB(8, 8, 12)
+					step.Transparency = 0.02
+					step.Parent = workspace
+	
+					local outline = Instance.new("Highlight")
+					outline.Name = "HPXSubaruFlightStepOutline"
+					outline.Adornee = step
+					outline.FillTransparency = 1
+					outline.OutlineColor = Color3.fromRGB(0, 255, 100)
+					outline.OutlineTransparency = 0.02
+					outline.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+					outline.Parent = step
+	
+					entry = { aura = aura, step = step, outline = outline }
+					stairs[index] = entry
+				end
+				if not entry.outline or not entry.outline.Parent then
+					entry.outline = entry.step:FindFirstChildOfClass("Highlight")
+				end
+	
+				local distance = (((index - 1) * stepSpacing + travel) % trackLength) - (trackLength * 0.5)
+				local height = (distance / stepSpacing) * stepRise
+				local position = feetPosition + forward * distance + Vector3.new(0, height - 0.2, 0)
+				local frame = CFrame.lookAt(position, position + forward)
+				entry.aura.CFrame = frame * CFrame.new(0, -0.13, 0)
+				entry.step.CFrame = frame * CFrame.new(0, 0.035, 0)
+	
+				local fade = math.clamp((math.abs(distance) - (trackLength * 0.5 - stepSpacing)) / stepSpacing, 0, 1)
+				local greenFade = math.clamp((fade - 0.12) / 0.88, 0, 1)
+				entry.aura.Transparency = 0.48 + fade * 0.52
+				entry.step.Color = stepBlack:Lerp(stepGreen, greenFade)
+				entry.step.Transparency = 0.02 + fade * 0.98
+				if entry.outline and entry.outline.Parent then
+					entry.outline.OutlineTransparency = 0.12 + fade * 0.88
+				end
+			end
+	
+			for index = #stairs, stepCount + 1, -1 do
+				local entry = stairs[index]
+				if entry then
+					if entry.aura then entry.aura:Destroy() end
+					if entry.step then entry.step:Destroy() end
+				end
+				stairs[index] = nil
+			end
+		end
+		local gg = 0
+		function FlyController.startFlightLoop()
+			runtime.resetFlightExtras()
+			local C = RunService.RenderStepped:Connect(function(C)
+				if not flightState.flying or not rootPart or not rootPart.Parent then
+					return
+				end
+				if not b or not I then
+					return
+				end
+				runtime.flyT = runtime.flyT + C
+				FlyController.updateSubaruAura()
+				pcall(FlyController.updateSubaruFlightEffects)
+				local J = workspace.CurrentCamera
+				local E = J.CFrame
+				local N = Vector3.new(
+					movementKeys.L + movementKeys.R,
+					movementKeys.U + movementKeys.D,
+					movementKeys.F + movementKeys.B
+				)
+				local A = N.Magnitude > 0.01
+				if flightState.wasMoving and not A then
+					if flightState.boostLevel > 0 then
+						flightState.isCharging = false
+						flightState.speedScale = 1
+						FlyController.setBoost(0)
+					elseif flightState.boostLevel == 0 then
+						if not g.active or not g.active.IsPlaying then
+							FlyController.playCurrentIdle()
+						end
+					end
+				end
+				flightState.wasMoving = A
+				local o = Vector3.zero
+				if A then
+					o = (E:VectorToWorldSpace(N.Unit) * FlyController.currentSpeed()) * runtime.speedFluct()
+				end
+				local t = 5.5 - (flightState.driftAmount * 4.7)
+				runtime.baseVel = runtime.baseVel:Lerp(o, math.min(C * t, 1))
+				b.Velocity = runtime.flightVelocityExtras(C, A)
+				FlyController.updateSubaruStairs()
+				local L = 0
+				if flightState.boostLevel == 0 and not flightState.isCharging then
+					if movementKeys.B ~= 0 and movementKeys.F == 0 then
+						L = 2
+					elseif
+						movementKeys.L ~= 0
+						and (movementKeys.R == 0 and (movementKeys.F == 0 and movementKeys.B == 0))
+					then
+						L = -1
+					elseif
+						movementKeys.R ~= 0
+						and (movementKeys.L == 0 and (movementKeys.F == 0 and movementKeys.B == 0))
+					then
+						L = 1
+					end
+				end
+				FlyController.updateTilt(L)
+				local X = CFrame.lookAt(rootPart.Position, rootPart.Position + E.LookVector, E.UpVector)
+				if flightState.boostLevel >= 3 then
+					X = X * CFrame.Angles(math.rad(-15), 0, 0)
+				end
+				if g.lastTiltDir == -1 then
+					X = X * CFrame.Angles(0, 0, math.rad(flightConfig.TILT_GYRO_ANGLE))
+				elseif g.lastTiltDir == 1 then
+					X = X * CFrame.Angles(0, 0, math.rad(-flightConfig.TILT_GYRO_ANGLE))
+				elseif g.lastTiltDir == 2 then
+					X = X * CFrame.Angles(math.rad(flightConfig.BACK_TILT_ANGLE), 0, 0)
+				end
+				X = X * runtime.boostOrientation(C, A, (movementKeys.L + movementKeys.R), E)
+				runtime.baseCF = ((runtime.baseCF or I.CFrame)):Lerp(X, math.min(C * 4.5, 1))
+				I.CFrame = runtime.baseCF * runtime.bodyShakeCF()
+				FlyController.updateFOV(C)
+				FlyController.blockDefaultAnims()
+			end)
+			x[#x + 1] = C
+		end
+		function FlyController.spawnLandingEffect(U)
+			if not flightState.vfxEnabled then
+				return
+			end
+			local C = RaycastParams.new()
+			C.FilterDescendantsInstances = { character }
+			C.FilterType = Enum.RaycastFilterType.Exclude
+			C.RespectCanCollide = true
+			local J = workspace:Raycast(rootPart.Position, Vector3.new(0, -10, 0), C)
+			if not J then
+				return
+			end
+			local E = J.Position
+			local A = J.Normal
+			local o = A.Unit
+			local t = math.abs(o:Dot(Vector3.new(1, 0, 0))) < 0.9 and Vector3.new(1, 0, 0) or Vector3.new(0, 0, 1)
+			local L = (o:Cross(t)).Unit
+			local X = (L:Cross(o)).Unit
+			local l = CFrame.fromMatrix(E, L, o, -X)
+			local e = l * CFrame.Angles(0, 0, math.rad(90))
+			local P = Instance.new("Part")
+			P.Anchored = true
+			P.CanCollide = false
+			P.CanQuery = false
+			P.CastShadow = false
+			P.Shape = Enum.PartType.Cylinder
+			P.Size = Vector3.new(0.25, 2, 2)
+			P.CFrame = CFrame.new(E + o * 0.05) * (e - e.Position)
+			P.Material = Enum.Material.Neon
+			P.Color = Color3.fromRGB(220, 225, 235)
+			P.Transparency = 0.1
+			P.Parent = workspace
+			local u = math.clamp(U / 20, 6, 20);
+			(TweenService:Create(
+				P,
+				TweenInfo.new(0.5, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
+				{ Size = Vector3.new(0.1, u, u), Transparency = 1 }
+				)):Play()
+			task.delay(0.55, function()
+				pcall(function()
+					P:Destroy()
+				end)
+			end)
+		end
+		function FlyController.doLanding(C)
+			local E = FlyController.findGroundY()
+			local N = E and (rootPart.Position.Y - E) or math.huge
+			if not E or N > 50 then
+				FlyController.destroyPhysics()
+				humanoid.PlatformStand = false
+				humanoid.AutoRotate = true
+				FlyController.cleanupIdlePlayback()
+				if C then
+					C()
+				end
+				runtime.watchTouchdown()
+				return
+			end
+			local A = {}
+			for U, C in ipairs(character:GetDescendants()) do
+				if C:IsA("BasePart") and C.CanCollide then
+					A[#A + 1] = C
+					pcall(function()
+						C.CanCollide = false
+					end)
+				end
+			end
+			local function o()
+				for U, C in ipairs(A) do
+					pcall(function()
+						if C.Parent then
+							C.CanCollide = true
+						end
+					end)
+				end
+				A = {}
+			end
+			local t = nil
+			if I then
+				local U = I.CFrame.LookVector
+				local C = Vector3.new(U.X, 0, U.Z)
+				if C.Magnitude > 0.01 then
+					t = CFrame.new(Vector3.zero, C.Unit)
+				end
+			end
+			if not t then
+				local U = rootPart.CFrame.LookVector
+				local C = Vector3.new(U.X, 0, U.Z)
+				if C.Magnitude < 0.01 then
+					C = Vector3.new(0, 0, -1)
+				end
+				t = CFrame.new(Vector3.zero, C.Unit)
+			end
+			FlyController.destroyPhysics()
+			humanoid.WalkSpeed = 0
+			humanoid.JumpPower = 0
+			humanoid.PlatformStand = true
+			humanoid.AutoRotate = false
+			local L = Instance.new("BodyVelocity")
+			L.Name = "IFlyLandBV"
+			L.MaxForce = Vector3.new(9000000000, 9000000000, 9000000000)
+			L.Velocity = Vector3.zero
+			L.Parent = rootPart
+			local X = Instance.new("BodyGyro")
+			X.Name = "IFlyLandGyro"
+			X.MaxTorque = Vector3.new(9000000000, 9000000000, 9000000000)
+			X.P = 50000
+			X.D = 1000
+			X.CFrame = CFrame.new(rootPart.Position) * t
+			X.Parent = rootPart
+			local P = false
+			local u = FlyController.getFootY() or rootPart.Position.Y - 3
+			local D
+			D = RunService.Heartbeat:Connect(function()
+				if P then
+					return
+				end
+				if not rootPart or not rootPart.Parent then
+					D:Disconnect()
+					o()
+					return
+				end
+				X.CFrame = CFrame.new(rootPart.Position) * t
+				local J = FlyController.getFootY() or rootPart.Position.Y - 3
+				local N = math.max(J, u) + 1
+				local A = FlyController.findGroundY(nil, N)
+				if A then
+					E = A
+				end
+				u = J
+				local H = J
+				local e = H - E
+				if e <= flightConfig.LAND_FOOT_THRESHOLD then
+					P = true
+					D:Disconnect()
+					o()
+					local J = math.abs(L.Velocity.Y)
+					local N = Vector3.new(rootPart.Position.X, E + (rootPart.Position.Y - H), rootPart.Position.Z)
+					rootPart.CFrame = CFrame.new(N) * t
+					rootPart.AssemblyLinearVelocity = Vector3.zero
+					rootPart.AssemblyAngularVelocity = Vector3.zero
+					L:Destroy()
+					X:Destroy()
+					FlyController.spawnLandingEffect(J)
+					runtime.landShake((runtime.unflyTopY or rootPart.Position.Y) - rootPart.Position.Y)
+					FlyController.cleanupIdlePlayback()
+					if C then
+						C()
+					end
+					return
+				end
+				local B
+				if e > flightConfig.LAND_FAST_THRESHOLD then
+					B = math.min(
+						flightConfig.LAND_MAX_SPEED
+							+ (e - flightConfig.LAND_FAST_THRESHOLD) * flightConfig.LAND_HEIGHT_SCALE,
+						500
+					)
+				elseif e > flightConfig.LAND_SLOW_THRESHOLD then
+					local U = (e - flightConfig.LAND_SLOW_THRESHOLD)
+						/ (flightConfig.LAND_FAST_THRESHOLD - flightConfig.LAND_SLOW_THRESHOLD)
+					B = flightConfig.LAND_SLOW_SPEED
+						+ ((flightConfig.LAND_MAX_SPEED - flightConfig.LAND_SLOW_SPEED) * U) * U
+				else
+					B = flightConfig.LAND_SLOW_SPEED
+				end
+				L.Velocity = Vector3.new(0, -B, 0)
+			end)
+		end
+		function FlyController.spawnGroundEffect()
+			if not flightState.vfxEnabled then
+				return
+			end
+			local U = RaycastParams.new()
+			U.FilterDescendantsInstances = { character }
+			U.FilterType = Enum.RaycastFilterType.Exclude
+			local C = workspace:Raycast(rootPart.Position, Vector3.new(0, -50, 0), U)
+			if not C then
+				return
+			end
+			local J = C.Position
+			local E = C.Normal
+			local A = E.Unit
+			local o = math.abs(A:Dot(Vector3.new(1, 0, 0))) < 0.9 and Vector3.new(1, 0, 0) or Vector3.new(0, 0, 1)
+			local t = (A:Cross(o)).Unit
+			local L = (t:Cross(A)).Unit
+			local X = CFrame.fromMatrix(J, t, A, -L)
+			local l = X * CFrame.Angles(0, 0, math.rad(90))
+			local function e(U, C, E, o, t, L, X)
+				task.delay(X, function()
+					local X = Instance.new("Part")
+					X.Name = "IFlyRing"
+					X.Anchored = true
+					X.CanCollide = false
+					X.CanQuery = false
+					X.CastShadow = false
+					X.Shape = Enum.PartType.Cylinder
+					X.Size = Vector3.new(E, U, U)
+					X.CFrame = CFrame.new(J + A * 0.05) * (l - l.Position)
+					X.Material = Enum.Material.Neon
+					X.Color = t
+					X.Transparency = L
+					X.Parent = workspace;
+					(TweenService:Create(
+						X,
+						TweenInfo.new(o, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
+						{ Size = Vector3.new(E * 0.3, C, C), Transparency = 1 }
+						)):Play()
+					task.delay(o + 0.05, function()
+						pcall(function()
+							X:Destroy()
+						end)
+					end)
+				end)
+			end
+			e(4, 18, 0.28, 0.7, Color3.fromRGB(225, 230, 240), 0.15, 0)
+			e(3, 12, 0.2, 0.55, Color3.fromRGB(210, 218, 235), 0.2, 0.07)
+			e(2, 7, 0.14, 0.4, Color3.fromRGB(245, 248, 255), 0.1, 0.14)
+			local P = Instance.new("Part")
+			P.Name = "IFlyDisc"
+			P.Anchored = true
+			P.CanCollide = false
+			P.CanQuery = false
+			P.CastShadow = false
+			P.Shape = Enum.PartType.Cylinder
+			P.Size = Vector3.new(0.08, 3, 3)
+			P.CFrame = CFrame.new(J + A * 0.03) * (l - l.Position)
+			P.Material = Enum.Material.Neon
+			P.Color = Color3.fromRGB(240, 243, 250)
+			P.Transparency = 0.3
+			P.Parent = workspace;
+			(TweenService:Create(
+				P,
+				TweenInfo.new(0.25, Enum.EasingStyle.Quint, Enum.EasingDirection.Out),
+				{ Size = Vector3.new(0.05, 10, 10), Transparency = 1 }
+				)):Play()
+			task.delay(0.3, function()
+				pcall(function()
+					P:Destroy()
+				end)
+			end)
+			local u = 12
+			local D = 1.2
+			for C = 1, u, 1 do
+				local A = ((C / u) * math.pi) * 2
+				local o = math.cos(A) * D
+				local t = math.sin(A) * D
+				local L = Vector3.new(J.X + o, J.Y + 3, J.Z + t)
+				local X = workspace:Raycast(L, Vector3.new(0, -8, 0), U)
+				local l = X and X.Position.Y or J.Y
+				local H = X and X.Normal or E
+				local e = Instance.new("Part")
+				e.Name = "IFlyShard"
+				e.Anchored = false
+				e.CanCollide = false
+				e.CanQuery = false
+				e.CastShadow = false
+				local O = (C % 3 == 0)
+				e.Size = O
+					and Vector3.new(
+						math.random(8, 16) / 100,
+						math.random(25, 55) / 100,
+						math.random(8, 16) / 100
+					)
+					or Vector3.new(
+						math.random(12, 28) / 100,
+						math.random(10, 20) / 100,
+						math.random(12, 28) / 100
+					)
+				local P = H.Unit
+				local B = math.abs(P:Dot(Vector3.new(1, 0, 0))) < 0.9 and Vector3.new(1, 0, 0)
+					or Vector3.new(0, 0, 1)
+				local Z = (P:Cross(B)).Unit
+				local F = (Z:Cross(P)).Unit
+				local v = CFrame.Angles(
+					math.rad(math.random(-25, 25)),
+					math.rad(math.random(0, 360)),
+					math.rad(math.random(-25, 25))
+				)
+				e.CFrame = CFrame.fromMatrix(Vector3.new(J.X + o, l, J.Z + t), Z, P, -F) * v
+				if X and X.Instance then
+					local U = X.Instance
+					if U:IsA("BasePart") then
+						e.Material = U.Material
+						local C, J, E = U.Color.R, U.Color.G, U.Color.B
+						e.Color = Color3.new(math.min(C * 1.15, 1), math.min(J * 1.15, 1), math.min(E * 1.15, 1))
+					else
+						e.Material = Enum.Material.SmoothPlastic
+						e.Color = Color3.fromRGB(170, 175, 185)
+					end
+				else
+					e.Material = Enum.Material.SmoothPlastic
+					e.Color = Color3.fromRGB(170, 175, 185)
+				end
+				e.Parent = workspace
+				local q = (Vector3.new(o, 0, t)).Unit
+				local h = O and math.random(8, 16) or math.random(4, 10)
+				e.AssemblyLinearVelocity = q * math.random(6, 16) + Vector3.new(0, h, 0)
+				e.AssemblyAngularVelocity =
+					Vector3.new(math.random(-10, 10), math.random(-10, 10), math.random(-10, 10))
+				task.spawn(function()
+					task.wait(math.random(20, 45) / 100)
+					if not e or not e.Parent then
+						return
+					end
+					(TweenService:Create(e, TweenInfo.new(0.4, Enum.EasingStyle.Linear), { Transparency = 1 })):Play()
+					task.wait(0.45)
+					pcall(function()
+						e:Destroy()
+					end)
+				end)
+			end
+			local B = Instance.new("Part")
+			B.Anchored = true
+			B.CanCollide = false
+			B.CanQuery = false
+			B.CastShadow = false
+			B.Size = Vector3.new(1, 1, 1)
+			B.CFrame = CFrame.new(J + E * 0.3)
+			B.Transparency = 1
+			B.Parent = workspace
+			local Z = Instance.new("ParticleEmitter")
+			Z.Texture = "rbxasset://textures/particles/smoke_main.dds"
+			Z.Color = ColorSequence.new({
+				ColorSequenceKeypoint.new(0, Color3.fromRGB(220, 220, 225)),
+				ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
+			})
+			Z.LightEmission = 0.6
+			Z.LightInfluence = 0.3
+			Z.Size = NumberSequence.new({ NumberSequenceKeypoint.new(0, 2), NumberSequenceKeypoint.new(1, 0) })
+			Z.Transparency = NumberSequence.new({
+				NumberSequenceKeypoint.new(0, 0.1),
+				NumberSequenceKeypoint.new(0.5, 0.5),
+				NumberSequenceKeypoint.new(1, 1),
+			})
+			Z.Speed = NumberRange.new(4, 12)
+			Z.SpreadAngle = Vector2.new(55, 55)
+			Z.Lifetime = NumberRange.new(0.5, 1.1)
+			Z.Rate = 0
+			Z.RotSpeed = NumberRange.new(-90, 90)
+			Z.Rotation = NumberRange.new(0, 360)
+			Z.Parent = B
+			Z:Emit(30)
+			task.delay(1.5, function()
+				pcall(function()
+					B:Destroy()
+				end)
+			end)
+		end
+		local Rg = 0.9
+		function FlyController.doTakeoff(C)
+			if runtime.killed then return end
+			if not isMainFlyButtonEnabled() then
+				flightState.takingOff = false
+				FlyController.exitFirstPerson()
+				return
+			end
+			flightState.transitioning = true
+			humanoid.WalkSpeed = 0
+			humanoid.JumpPower = 0
+			humanoid.PlatformStand = true
+			humanoid.AutoRotate = false
+			FlyController.blockHumanoidStates()
+			movementKeys.F = 0
+			movementKeys.B = 0
+			movementKeys.L = 0
+			movementKeys.R = 0
+			movementKeys.U = 0
+			movementKeys.D = 0
+			FlyController.zeroVelocity()
+			local E = F[s] or F.Homelander
+			local A, o = rootPart.Position.X, rootPart.Position.Z
+			local t, L, X = rootPart.CFrame:ToEulerAnglesYXZ()
+			local l = Instance.new("BodyPosition")
+			l.Name = "IFlyTakeoffPin"
+			l.MaxForce = Vector3.new(9000000000, 9000000000, 9000000000)
+			l.Position = rootPart.Position
+			l.P = 50000
+			l.D = 1000
+			l.Parent = rootPart
+			local H = Instance.new("BodyGyro")
+			H.Name = "IFlyTakeoffRotPin"
+			H.MaxTorque = Vector3.new(9000000000, 9000000000, 9000000000)
+			H.P = 50000
+			H.D = 1000
+			H.CFrame = CFrame.Angles(0, L, 0)
+			H.Parent = rootPart
+			local P = math.max(E.LiftStart - 0.1, 0)
+			task.delay(P, function()
+				if rootPart and rootPart.Parent then
+					FlyController.spawnGroundEffect()
+				end
+			end)
+			task.delay(P, function()
+				if not flightState.sfxEnabled then
+					return
+				end
+				local C = FlyController.makeSoundLocal("rbxassetid://91992256988574", false, 0)
+				C:Play();
+				(TweenService:Create(
+					C,
+					TweenInfo.new(0.12, Enum.EasingStyle.Linear),
+					{ Volume = FlyController.sfxVol(0.45) }
+					)):Play()
+				task.delay(0.8, function()
+					pcall(function()
+						(TweenService:Create(
+							C,
+							TweenInfo.new(2, Enum.EasingStyle.Quint, Enum.EasingDirection.In),
+							{ Volume = 0 }
+							)):Play()
+						task.delay(2.1, function()
+							pcall(function()
+								C:Stop()
+								C:Destroy()
+							end)
+						end)
+					end)
+				end)
+			end)
+			local u = FlyController.loadAnim(E.AnimationId)
+			u.Looped = false
+			u.Priority = Enum.AnimationPriority.Action4
+			u:Play(Cg, 1, 1)
+			local D = rootPart.Position.Y
+			local B = D + 7
+			local Z = 0
+			local v = math.max(E.LiftEnd - E.LiftStart, 0.05)
+			local q = false
+			local h = false
+			task.delay(E.LiftStart, function()
+				q = true
+			end)
+			local W = rootPart.Position
+			local c = RunService.Heartbeat:Connect(function(C)
+				if not rootPart or not rootPart.Parent then
+					return
+				end
+				W = rootPart.Position
+				if q then
+					Z = math.min(Z + C, v)
+					local J = Z / v
+					local N = 1 - (1 - J) ^ 3
+					local t = D + (B - D) * N
+					l.Position = Vector3.new(A, t, o)
+					if E.BlendToIdle and not h then
+						h = true
+						flightState.flying = true
+						FlyController.fadeOutAndDestroy(u, v)
+						FlyController.playCurrentIdle()
+					end
+				else
+					l.Position = Vector3.new(A, W.Y, o)
+				end
+			end)
+			task.wait(E.LiftEnd)
+			c:Disconnect()
+			l:Destroy()
+			H:Destroy()
+			if not E.BlendToIdle then
+				FlyController.fadeOutAndDestroy(u, Rg)
+			end
+			local f, d, y = rootPart.CFrame:ToEulerAnglesYXZ()
+			rootPart.CFrame = CFrame.new(W) * CFrame.Angles(0, d, 0)
+			flightState.transitioning = false
+			if C then
+				C(E.BlendToIdle)
+			end
+		end
+		function FlyController.activateFlight(C)
+			if runtime.killed then return end
+			if not isMainFlyButtonEnabled() then
+				flightState.flying = false
+				flightState.takingOff = false
+				flightState.transitioning = false
+				FlyController.cleanupIdlePlayback()
+				FlyController.exitFirstPerson()
+				FlyController.restoreHumanoidStates()
+				humanoid.PlatformStand = false
+				humanoid.AutoRotate = true
+				humanoid.WalkSpeed = 16
+				humanoid.JumpPower = 50
+				return
+			end
+			flightState.flying = true
+			FlyController.updateGear5Aura()
+			flightState.takingOff = false
+			flightState.boostLevel = 0
+			flightState.speedScale = 1
+			flightState.wasMoving = false
+			flightState.isCharging = false
+			flightState.currentFOV = flightConfig.FOV_BASE
+			flightState.idlePendingRefly = false
+			if rg and rg.refreshIdlesList then
+				pcall(function()
+					rg.refreshIdlesList(false)
+				end)
+			end
+			movementKeys.F = 0
+			movementKeys.B = 0
+			movementKeys.L = 0
+			movementKeys.R = 0
+			movementKeys.U = 0
+			movementKeys.D = 0
+			humanoid.PlatformStand = true
+			humanoid.AutoRotate = false
+			FlyController.blockHumanoidStates()
+			FlyController.createPhysics()
+			workspace.CurrentCamera.FieldOfView = flightConfig.FOV_BASE
+			if C == "skip" then
+			elseif C == "airborne" then
+				FlyController.playCurrentIdle(1.25)
+			elseif C == "takeoff" then
+				FlyController.playCurrentIdle(Rg)
+			else
+				FlyController.playCurrentIdle()
+			end
+			FlyController.startFlightLoop()
+			FlyController.startSpeedLinesLoop()
+			FlyController.startShakeLoop()
+			FlyController.startFpShakeLoop()
+			FlyController.startCrashWatcher()
+			FlyController.startWallImpactWatcher()
+			FlyController.startMotionBlurLoop()
+			FlyController.startSoundLoop()
+			runtime.startFootTracker()
+			if flightState.fpWanted and not flightState.isFirstPerson then
+				FlyController.enterFirstPerson()
+			end
+		end
+		function FlyController.startFlight()
+			if not isMainFlyButtonEnabled() then
+				return
+			end
+			if flightState.flying or flightState.transitioning then
+				return
+			end
+			if zg.locked or Sg.locked then
+				FlyController.notify("Can't Fly", "Recovering from impact\226\128\166", yg, "error", 1.5)
+				return
+			end
+			if not flightState.takeoffsEnabled then
+				FlyController.activateFlight()
+				return
+			end
+			local C = FlyController.findGroundY(true)
+			local J = FlyController.getFootY(true)
+			local E = (not C) or (J and (J - C) > 4)
+			if E then
+				FlyController.activateFlight("airborne")
+			else
+				flightState.takingOff = true
+				if flightState.fpWanted and not flightState.isFirstPerson then
+					FlyController.enterFirstPerson()
+				end
+				task.spawn(function()
+					FlyController.doTakeoff(function(C)
+						FlyController.activateFlight(C and "skip" or "takeoff")
+					end)
+				end)
+			end
+		end
+		function FlyController.stopFlight()
+			if not flightState.flying or flightState.transitioning then
+				return
+			end
+			if flightState.boostLevel > 0 and startup.enabled then
+				return
+			end
+			flightState.flying = false
+			FlyController.stopGear5Aura()
+			FlyController.stopSubaruAura()
+			FlyController.clearSubaruStairs()
+			flightState.transitioning = true
+			flightState.boostLevel = 0
+			flightState.speedScale = 1
+			flightState.wasMoving = false
+			flightState.isCharging = false
+			flightState.idlePendingRefly = false
+			if rg and rg.refreshIdlesList then
+				pcall(function()
+					rg.refreshIdlesList(false)
+				end)
+			end
+			movementKeys.F = 0
+			movementKeys.B = 0
+			movementKeys.L = 0
+			movementKeys.R = 0
+			movementKeys.U = 0
+			movementKeys.D = 0
+			FlyController.clearTilt()
+			for U = #x, 1, -1 do
+				pcall(function()
+					x[U]:Disconnect()
+				end)
+				table.remove(x, U)
+			end
+			if flightState.isFirstPerson then
+				FlyController.exitFirstPerson()
+			end
+			if b then
+				b.Velocity = Vector3.zero
+			end
+			if I then
+				I.MaxTorque = Vector3.zero
+			end
+			FlyController.stopSpeedLines()
+			FlyController.stopShake()
+			FlyController.stopFpShakeLoop()
+			FlyController.stopMotionBlur()
+			FlyController.stopSounds()
+			FlyController.destroyFlash()
+			FlyController.stopCrashWatcher()
+			Kg()
+			runtime.unflyTopY = rootPart.Position.Y
+			local function C()
+				humanoid.WalkSpeed = 16
+				humanoid.JumpPower = 50
+				humanoid.PlatformStand = false
+				humanoid.AutoRotate = true
+				FlyController.restoreHumanoidStates()
+				FlyController.resetFOV(0.8)
+				flightState.transitioning = false
+				runtime.stopFootTracker()
+			end
+			if flightState.smoothLandingsEnabled then
+				FlyController.doLanding(C)
+			else
+				FlyController.destroyPhysics()
+				FlyController.cleanupIdlePlayback()
+				C()
+				runtime.watchTouchdown()
+			end
+		end
+		local hpxFlyOwner = "Fly"
+		if type(_G.HPX_Atalhos) ~= "table" then
+			_G.HPX_Atalhos = {}
+		end
+		local hpxShortcutMap = _G.HPX_Atalhos
+		local function isPanelFlyKeyValid(keyCode)
+			if not keyCode or keyCode == Enum.KeyCode.Unknown then
+				return false
+			end
+			local name = keyCode.Name
+			if #name ~= 1 then
+				return false
+			end
+			local byte = string.byte(name)
+			return (byte >= 48 and byte <= 57) or (byte >= 65 and byte <= 90)
+		end
+		function runtime.canUsePanelFlyKey(keyCode)
+			if not keyCode then
+				return true
+			end
+			if not isPanelFlyKeyValid(keyCode) then
+				return false
+			end
+			if keyCode == flightConfig.KEY_MENU then
+				return false
+			end
+			if keyCode == startup.key then
+				return false
+			end
+			local owner = hpxShortcutMap[keyCode.Name]
+			return not owner or owner == hpxFlyOwner
+		end
+		local function updatePanelFlyKeyText()
+			if rg.buttons and rg.buttons.fly then
+				rg.buttons.fly.Text = FlyController.prettyKeyName(flightConfig.KEY_TOGGLE)
+			end
+		end
+		function runtime.syncPanelFlyKey()
+			local keyCode = flightConfig.KEY_TOGGLE
+			if keyCode and not runtime.canUsePanelFlyKey(keyCode) then
+				keyCode = nil
+				flightConfig.KEY_TOGGLE = nil
+				savedSettings.binds.fly = "Unbound"
+				FlyController.persistSettings()
+			end
+			local previousKey = runtime.panelRegisteredFlyKey
+			if previousKey and hpxShortcutMap[previousKey.Name] == hpxFlyOwner then
+				hpxShortcutMap[previousKey.Name] = nil
+			end
+			runtime.panelRegisteredFlyKey = nil
+			if keyCode then
+				hpxShortcutMap[keyCode.Name] = hpxFlyOwner
+				runtime.panelRegisteredFlyKey = keyCode
+			end
+			updatePanelFlyKeyText()
+			return true
+		end
+		local function startFlyServices()
+			if runtime.flyServicesStarted or runtime.killed then
+				return
+			end
+			runtime.flyServicesStarted = true
+			task.spawn(FlyController.cacheSelectedAnimations)
+			task.spawn(FlyController.cacheAllAnimations)
+			task.spawn(FlyController.cacheAllSounds)
+			task.spawn(function()
+				task.wait(10)
+				while not runtime.killed and runtime.hpxFlyEnabled do
+					if runtime.checkForUpdate() then
+						break
+					end
+					task.wait(300)
+				end
+			end)
+			task.delay(60, function()
+				if runtime.killed or not runtime.hpxFlyEnabled then
+					return
+				end
+				if runtime.guiOpenedOnce or runtime.guiHintShown then
+					return
+				end
+				if runtime.getGuiHintCount() >= runtime.GUI_HINT_MAX_COUNT then
+					return
+				end
+				runtime.guiHintShown = true
+				runtime.incrementGuiHintCount()
+				pcall(function()
+					FlyController.notify(
+						"HPX Fly",
+						"Nao consegue abrir o painel? Toque nesta notificacao ou pressione "
+							.. (FlyController.prettyKeyName(flightConfig.KEY_MENU) .. " para abri-lo."),
+						Yg,
+						"info",
+						8,
+						"flying",
+						function()
+							if not runtime.killed then
+								Vg()
+							end
+						end
+					)
+				end)
+			end)
+		end
+		local function setPanelFlyEnabled(enabled)
+			if runtime.killed then
+				return
+			end
+			runtime.hpxFlyEnabled = enabled == true
+			if runtime.panelFlyButton and runtime.panelFlyButton.Parent then
+				pcall(function()
+					runtime.panelFlyButton.BackgroundColor3 = runtime.hpxFlyEnabled
+						and Color3.fromRGB(0, 170, 0)
+						or runtime.panelFlyOriginalColor
+				end)
+			end
+			if runtime.hpxFlyEnabled then
+				startFlyServices()
+				pcall(function()
+					FlyController.notify(
+						"HPX Fly",
+						"Script ativado. Tecla de voo: " .. FlyController.prettyKeyName(flightConfig.KEY_TOGGLE)
+							.. ". Ajustes e animacoes: " .. FlyController.prettyKeyName(flightConfig.KEY_MENU) .. ".",
+						Yg,
+						"success",
+						4
+					)
+				end)
+			else
+				if flightState.transitioning then
+					task.spawn(function()
+						while flightState.transitioning and not runtime.killed and not runtime.hpxFlyEnabled do
+							task.wait()
+						end
+						if not runtime.killed and not runtime.hpxFlyEnabled and flightState.flying then
+							FlyController.stopFlight()
+						end
+					end)
+				elseif flightState.flying then
+					FlyController.stopFlight()
+				end
+			end
+		end
+		local function findPanelFlyButton()
+			if activationButton and activationButton.Parent then
+				return activationButton
+			end
+			local ownButton
+			pcall(function()
+				if script and script.Parent and script.Parent:IsA("GuiButton") then
+					ownButton = script.Parent
+				end
+			end)
+			if ownButton then
+				return ownButton
+			end
+			local roots = {}
+			pcall(function()
+				local current = script
+				while current do
+					if current:IsA("GuiButton") then
+						local name = string.lower(current.Name)
+						if name == "voarbutton" or name == "flybutton" or name == "voar" or name == "fly" then
+							table.insert(roots, current.Parent or current)
+							break
+						end
+					end
+					current = current.Parent
+				end
+			end)
+			pcall(function()
+				local playerGui = localPlayer:FindFirstChildOfClass("PlayerGui")
+				if playerGui then
+					table.insert(roots, playerGui)
+				end
+			end)
+			pcall(function()
+				if type(gethui) == "function" then
+					table.insert(roots, gethui())
+				end
+			end)
+			pcall(function()
+				table.insert(roots, game:GetService("CoreGui"))
+			end)
+			local function findNamedButton(root)
+				local bestButton, bestScore
+				local descendants = {}
+				if root:IsA("GuiButton") then
+					table.insert(descendants, root)
+				end
+				pcall(function()
+					for _, descendant in ipairs(root:GetDescendants()) do
+						table.insert(descendants, descendant)
+					end
+				end)
+				for _, candidate in ipairs(descendants) do
+					if candidate:IsA("GuiButton") then
+						local name = string.lower(candidate.Name)
+						local label = ""
+						if candidate:IsA("TextButton") then
+							label = string.lower(candidate.Text)
+						end
+						local score
+						if name == "voarbutton" or (name:find("voar", 1, true) and name:find("button", 1, true)) then
+							score = 1
+						elseif name == "flybutton" or (name:find("fly", 1, true) and name:find("button", 1, true)) then
+							score = 2
+						elseif name == "voar" or label:find("voar", 1, true) then
+							score = 3
+						elseif name == "fly" or label:find("fly", 1, true) then
+							score = 4
+						end
+						if score and (not bestScore or score < bestScore) then
+							bestButton, bestScore = candidate, score
+						end
+					end
+				end
+				return bestButton
+			end
+			-- Search the main HPX panel first so similarly named controls in other GUIs
+			-- cannot be mistaken for its flight button.
+			for _, root in ipairs(roots) do
+				local mainFrame
+				pcall(function()
+					if root.Name == "mainFrame" then
+						mainFrame = root
+					else
+						mainFrame = root:FindFirstChild("mainFrame", true)
+					end
+				end)
+				if mainFrame then
+					local candidate = findNamedButton(mainFrame)
+					if candidate then
+						return candidate
+					end
+				end
+			end
+			for _, root in ipairs(roots) do
+				local candidate = findNamedButton(root)
+				if candidate then
+					return candidate
+				end
+			end
+			return nil
+		end
+		local function findHpxMainFrame()
+			local current = runtime.panelFlyButton or findPanelFlyButton()
+			while current do
+				if current.Name == "mainFrame" and current:IsA("GuiObject") then
+					return current
+				end
+				current = current.Parent
+			end
+			local roots = {}
+			pcall(function()
+				local playerGui = localPlayer:FindFirstChildOfClass("PlayerGui")
+				if playerGui then
+					table.insert(roots, playerGui)
+				end
+			end)
+			pcall(function()
+				if type(gethui) == "function" then
+					table.insert(roots, gethui())
+				end
+			end)
+			pcall(function()
+				table.insert(roots, game:GetService("CoreGui"))
+			end)
+			for _, root in ipairs(roots) do
+				local frame
+				pcall(function()
+					frame = root:FindFirstChild("mainFrame", true)
+				end)
+				if frame and frame:IsA("GuiObject") then
+					return frame
+				end
+			end
+			return nil
+		end
+		function runtime.toggleHpxMainPanel()
+			local frame = runtime.hpxMainFrame
+			if not frame or not frame.Parent then
+				frame = findHpxMainFrame()
+				runtime.hpxMainFrame = frame
+			end
+			if not frame then
+				return false
+			end
+			local screenGui = frame:FindFirstAncestorOfClass("ScreenGui")
+			if screenGui and not screenGui.Enabled then
+				screenGui.Enabled = true
+				frame.Visible = true
+			else
+				frame.Visible = not frame.Visible
+			end
+			return true
+		end
+		function runtime.attachPanelFlyControls()
+			local button = findPanelFlyButton()
+			if not button then return false end
+			runtime.panelFlyButton = button
+			runtime.panelFlyOriginalColor = startup.originalColor
+			runtime.syncPanelFlyKey()
+			return true
+		end
+		if startup.cancelled or not activationButton.Parent then return end
+		runtime.inputBegan = UserInputService.InputBegan:Connect(function(C, J)
+			local mainButtonEnabled = isMainFlyButtonEnabled()
+			if not mainButtonEnabled
+				or startup.capturing or UserInputService:GetFocusedTextBox() then
+				return
+			end
+			if runtime.handleMenuInput(C) then
+				return
+			end
+			if J then
+				return
+			end
+			if rg.capturing then
+				return
+			end
+			if os.clock() < rg.inputLockUntil then
+				return
+			end
+			local E = C.KeyCode
+			if E == Enum.KeyCode.Unknown then
+				return
+			end
+			if E == flightConfig.KEY_TOGGLE then
+				if runtime.panelRegisteredFlyKey ~= E
+					or hpxShortcutMap[E.Name] ~= hpxFlyOwner then
+					return
+				end
+				if flightState.flying then
+					FlyController.stopFlight()
+				else
+					FlyController.startFlight()
+				end
+				return
+			elseif E == flightConfig.KEY_BOOST then
+				FlyController.cycleBoost()
+			elseif E == flightConfig.KEY_FORWARD then
+				movementKeys.F = -1
+			elseif E == flightConfig.KEY_BACK then
+				movementKeys.B = 1
+			elseif E == flightConfig.KEY_LEFT then
+				movementKeys.L = -1
+			elseif E == flightConfig.KEY_RIGHT then
+				movementKeys.R = 1
+			elseif E == flightConfig.KEY_UP then
+				movementKeys.U = 1
+			elseif E == flightConfig.KEY_DOWN then
+				movementKeys.D = -1
+			elseif flightState.quickTogglesEnabled and E == flightConfig.KEY_QUICK_CRASH then
+				flightState.crashEnabled = not flightState.crashEnabled
+				FlyController.persistSettings()
+				if rg.crashToggleHandle then
+					rg.crashToggleHandle.set(flightState.crashEnabled)
+				end
+				FlyController.notify(
+					"Aterrissagens de impacto",
+					flightState.crashEnabled and "Ativadas" or "Desativadas",
+					hg,
+					"info",
+					1.5
+				)
+			elseif flightState.quickTogglesEnabled and E == flightConfig.KEY_QUICK_WALL then
+				flightState.wallImpactEnabled = not flightState.wallImpactEnabled
+				FlyController.persistSettings()
+				if rg.wallToggleHandle then
+					rg.wallToggleHandle.set(flightState.wallImpactEnabled)
+				end
+				FlyController.notify(
+					"Impactos na parede",
+					flightState.wallImpactEnabled and "Ativados" or "Desativados",
+					hg,
+					"info",
+					1.5
+				)
+			elseif flightState.quickTogglesEnabled and E == flightConfig.KEY_QUICK_FP then
+				flightState.fpWanted = not flightState.fpWanted
+				if flightState.fpWanted then
+					if flightState.flying then
+						FlyController.enterFirstPerson()
+					else
+						FlyController.notify(
+							"Primeira pessoa",
+							"Funciona apenas durante o voo e sera ativada assim que voce decolar.",
+							Yg,
+							"info",
+							3
+						)
+					end
+				else
+					FlyController.exitFirstPerson()
+				end
+			end
+		end)
+		runtime.inputEnded = UserInputService.InputEnded:Connect(function(U)
+			if runtime.killed then
+				return
+			end
+			-- Always release movement, even when a menu or text box consumed key-up.
+			local J = U.KeyCode
+			if J == Enum.KeyCode.Unknown then
+				return
+			end
+			if J == flightConfig.KEY_FORWARD then
+				movementKeys.F = 0
+			elseif J == flightConfig.KEY_BACK then
+				movementKeys.B = 0
+			elseif J == flightConfig.KEY_LEFT then
+				movementKeys.L = 0
+			elseif J == flightConfig.KEY_RIGHT then
+				movementKeys.R = 0
+			elseif J == flightConfig.KEY_UP then
+				movementKeys.U = 0
+			elseif J == flightConfig.KEY_DOWN then
+				movementKeys.D = 0
+			end
+		end)
+		function FlyController.onDied()
+			if runtime.killed then
+				return
+			end
+			if flightState.isDead then
+				return
+			end
+			flightState.isDead = true
+			if xg then
+				xg:Disconnect()
+				xg = nil
+			end
+			flightState.flying = false
+			FlyController.stopGear5Aura()
+			FlyController.stopSubaruAura()
+			FlyController.clearSubaruStairs()
+			flightState.transitioning = false
+			flightState.isCharging = false
+			flightState.boostLevel = 0
+			flightState.speedScale = 1
+			movementKeys.F = 0
+			movementKeys.B = 0
+			movementKeys.L = 0
+			movementKeys.R = 0
+			movementKeys.U = 0
+			movementKeys.D = 0
+			for U = #x, 1, -1 do
+				pcall(function()
+					x[U]:Disconnect()
+				end)
+				table.remove(x, U)
+			end
+			local C = flightState.isFirstPerson
+			if firstPersonState.conn then
+				firstPersonState.conn:Disconnect()
+				firstPersonState.conn = nil
+			end
+			if firstPersonState.mouseConn then
+				firstPersonState.mouseConn:Disconnect()
+				firstPersonState.mouseConn = nil
+			end
+			if firstPersonState.enforceConn then
+				firstPersonState.enforceConn:Disconnect()
+				firstPersonState.enforceConn = nil
+			end
+			flightState.isFirstPerson = false
+			if C then
+				pcall(function()
+					FlyController.tweenOutOfFirstPerson(function()
+						pcall(function()
+							local U = workspace.CurrentCamera
+							U.CameraType = firstPersonState.savedCameraType or Enum.CameraType.Custom
+							U.CameraSubject = firstPersonState.savedCameraSubject or humanoid
+						end)
+					end)
+				end)
+			end
+			FlyController.destroyPhysics()
+			FlyController.stopSpeedLines()
+			FlyController.stopShake()
+			FlyController.stopFpShakeLoop()
+			FlyController.stopMotionBlur()
+			FlyController.stopSounds()
+			FlyController.stopCrashWatcher()
+			Kg()
+			runtime.stopFootTracker()
+			zg.locked = false
+			Sg.locked = false
+			for U, C in ipairs(bg) do
+				pcall(function()
+					C.Enabled = true
+				end)
+			end
+			bg = {}
+			for U, C in ipairs(Ig) do
+				pcall(function()
+					C.part.CanCollide = C.wasCanCollide
+				end)
+			end
+			Ig = {}
+			FlyController.cleanupIdlePlayback()
+			FlyController.destroyFlash()
+			FlyController.restoreCharacterParts()
+			pcall(function()
+				workspace.CurrentCamera.CameraType = Enum.CameraType.Custom
+				workspace.CurrentCamera.FieldOfView = flightConfig.FOV_BASE
+			end)
+			flightState.currentFOV = flightConfig.FOV_BASE
+		end
+		function FlyController.connectDeath()
+			humanoid.Died:Connect(FlyController.onDied)
+		end
+		FlyController.connectDeath()
+		runtime.charAdded = localPlayer.CharacterAdded:Connect(function(C)
+			if runtime.killed then
+				return
+			end
+			if firstPersonState.conn then
+				firstPersonState.conn:Disconnect()
+				firstPersonState.conn = nil
+			end
+			if firstPersonState.mouseConn then
+				firstPersonState.mouseConn:Disconnect()
+				firstPersonState.mouseConn = nil
+			end
+			if firstPersonState.enforceConn then
+				firstPersonState.enforceConn:Disconnect()
+				firstPersonState.enforceConn = nil
+			end
+			FlyController.stopGear5Aura()
+			FlyController.stopSubaruAura()
+			FlyController.clearSubaruStairs()
+			cameraShakeState.shakeUntil = 0
+			flightState.isFirstPerson = false
+			FlyController.restoreCharacterParts()
+			pcall(function()
+				workspace.CurrentCamera.CameraType = Enum.CameraType.Custom
+			end)
+			character = C
+			humanoid = C:WaitForChild("Humanoid")
+			rootPart = C:WaitForChild("HumanoidRootPart")
+			animator = humanoid:WaitForChild("Animator")
+			pcall(function()
+				workspace.CurrentCamera.CameraSubject = humanoid
+				workspace.CurrentCamera.FieldOfView = flightConfig.FOV_BASE
+			end)
+			flightState.flying = false
+			flightState.transitioning = false
+			flightState.boostLevel = 0
+			flightState.speedScale = 1
+			flightState.wasMoving = false
+			flightState.isCharging = false
+			flightState.currentFOV = flightConfig.FOV_BASE
+			flightState.isFirstPerson = false
+			flightState.isDead = false
+			flightState.fpYaw = 0
+			flightState.fpPitch = 0
+			g.active = nil
+			g.replicated = nil
+			g.lastTiltDir = 0
+			runtime.replicatedIdleAnimInstance = nil
+			firstPersonState.conn = nil
+			firstPersonState.mouseConn = nil
+			firstPersonState.hidden = {}
+			Sg.locked = false
+			zg.locked = false
+			bg = {}
+			Ig = {}
+			if xg then
+				xg:Disconnect()
+				xg = nil
+			end
+			FlyController.stopSpeedLines()
+			FlyController.stopShake()
+			FlyController.stopFpShakeLoop()
+			FlyController.stopMotionBlur()
+			FlyController.stopSounds()
+			FlyController.destroyFlash()
+			FlyController.stopCrashWatcher()
+			Kg()
+			runtime.stopFootTracker()
+			for U, C in ipairs(x) do
+				pcall(function()
+					C:Disconnect()
+				end)
+			end
+			x = {}
+			FlyController.destroyPhysics()
+			FlyController.connectDeath()
+		end)
+		runtime.destroyGuis = function()
+			local U = {}
+			pcall(function()
+				if gethui then
+					table.insert(U, gethui())
+				end
+			end)
+			pcall(function()
+				table.insert(U, game:GetService("CoreGui"))
+			end)
+			pcall(function()
+				local C = localPlayer:FindFirstChildOfClass("PlayerGui")
+				if C then
+					table.insert(U, C)
+				end
+			end)
+			local C = {
+				IFlyMenu = true,
+				IFlyNotify = true,
+				IFlyFlash = true,
+				IFlyAnnouncement = true,
+			}
+			for U, J in ipairs(U) do
+				pcall(function()
+					for U, J in ipairs(J:GetChildren()) do
+						if C[J.Name] then
+							J:Destroy()
+						end
+					end
+				end)
+			end
+		end
+		runtime.cleanup = function()
+			if runtime.killed then
+				return
+			end
+			runtime.killed = true
+			FlyController.stopGear5Aura()
+			FlyController.stopSubaruAura()
+			FlyController.clearSubaruStairs()
+			runtime.guiOpen = false
+			runtime.hpxCapturingFlyKey = false
+			pcall(function()
+				if runtime.panelFlyCaptureConnection then
+					runtime.panelFlyCaptureConnection:Disconnect()
+					runtime.panelFlyCaptureConnection = nil
+				end
+				local keyCode = runtime.panelRegisteredFlyKey
+				if keyCode and hpxShortcutMap[keyCode.Name] == hpxFlyOwner then
+					hpxShortcutMap[keyCode.Name] = nil
+				end
+				if runtime.panelFlyButton and runtime.panelFlyButton.Parent then
+					runtime.panelFlyButton.BackgroundColor3 = runtime.panelFlyOriginalColor
+				end
+			end)
+			flightState.flying = false
+			flightState.transitioning = false
+			flightState.isFirstPerson = false
+			for U, C in ipairs({ "inputBegan", "inputEnded", "charAdded", "panelFlyKeyInputConnection", "panelFlyClickConnection" }) do
+				pcall(function()
+					if runtime[C] then
+						runtime[C]:Disconnect()
+					end
+				end)
+			end
+			pcall(function()
+				if firstPersonState.conn then
+					firstPersonState.conn:Disconnect()
+					firstPersonState.conn = nil
+				end
+			end)
+			pcall(function()
+				if firstPersonState.mouseConn then
+					firstPersonState.mouseConn:Disconnect()
+					firstPersonState.mouseConn = nil
+				end
+			end)
+			pcall(function()
+				if firstPersonState.enforceConn then
+					firstPersonState.enforceConn:Disconnect()
+					firstPersonState.enforceConn = nil
+				end
+			end)
+			pcall(FlyController.stopShake)
+			pcall(FlyController.stopFpShakeLoop)
+			pcall(FlyController.stopSpeedLines)
+			pcall(FlyController.stopMotionBlur)
+			pcall(FlyController.stopSounds)
+			pcall(FlyController.stopCrashWatcher)
+			pcall(Kg)
+			pcall(runtime.stopFootTracker)
+			pcall(function()
+				if runtime.footTrackerPart then
+					runtime.footTrackerPart:Destroy()
+					runtime.footTrackerPart = nil
+				end
+			end)
+			pcall(FlyController.cleanupIdlePlayback)
+			pcall(function()
+				if runtime.replicatedIdleAnimInstance then
+					runtime.replicatedIdleAnimInstance:Destroy()
+					runtime.replicatedIdleAnimInstance = nil
+				end
+			end)
+			pcall(function()
+				if xg then
+					xg:Disconnect()
+					xg = nil
+				end
+			end)
+			pcall(FlyController.removeRagdoll)
+			for U = #x, 1, -1 do
+				pcall(function()
+					x[U]:Disconnect()
+				end)
+				table.remove(x, U)
+			end
+			pcall(FlyController.destroyPhysics)
+			pcall(FlyController.destroyFlash)
+			pcall(FlyController.restoreCharacterParts)
+			pcall(function()
+				if character then
+					for U, C in ipairs(character:GetDescendants()) do
+						if C:IsA("BasePart") then
+							pcall(function()
+								C.CanCollide = true
+							end)
+						end
+					end
+				end
+			end)
+			pcall(function()
+				if humanoid and humanoid.Parent then
+					humanoid.WalkSpeed = 16
+					humanoid.JumpPower = 50
+					humanoid.PlatformStand = false
+					humanoid.AutoRotate = true
+				end
+			end)
+			pcall(FlyController.restoreHumanoidStates)
+			pcall(function()
+				local U = workspace.CurrentCamera
+				U.CameraType = Enum.CameraType.Custom
+				U.FieldOfView = flightConfig.FOV_BASE
+				if humanoid and humanoid.Parent then
+					U.CameraSubject = humanoid
+				end
+			end)
+			runtime.destroyGuis()
+			pcall(function()
+				local U = (getgenv and getgenv()) or _G
+				if U.INVINCIBLE_FLY_CLEANUP == runtime.cleanup then
+					U.INVINCIBLE_FLY_RUNNING = false
+					U.INVINCIBLE_FLY_CLEANUP = nil
+					U.INVINCIBLE_FLY_OPEN_PANEL = nil
+					U.AlreadyRunningInvincibleFly = nil
+				end
+			end)
+		end
+		pcall(function()
+			local C = (getgenv and getgenv()) or _G
+			if type(C.INVINCIBLE_FLY_CLEANUP) == "function" then
+				local ok, message = pcall(C.INVINCIBLE_FLY_CLEANUP)
+				if not ok then
+					warn("[Invincible Fly] Falha ao encerrar a instancia anterior: " .. tostring(message))
+				end
+			end
+			C.INVINCIBLE_FLY_CLEANUP = runtime.cleanup
+			C.INVINCIBLE_FLY_OPEN_PANEL = runtime.openPanel
+			C.AlreadyRunningInvincibleFly = function()
+				pcall(function()
+					FlyController.notify("HPX Fly", "O painel ja esta em execucao.", yg, "error", 3)
+				end)
+			end
+			C.INVINCIBLE_FLY_RUNNING = true
+		end)
+		local attached, message = pcall(runtime.attachPanelFlyControls)
+		if not attached or not message then
+			runtime.cleanup()
+			error("[Invincible Fly] Falha ao conectar o botao Voar: " .. tostring(message))
+		end
+		startup.canBindKey = function(key)
+			if key == flightConfig.KEY_TOGGLE or key == flightConfig.KEY_MENU then return false end
+			for _, name in ipairs(i) do
+				if flightConfig[name] == key then return false end
+			end
+			for _, bind in ipairs(n) do
+				if flightConfig[bind.cfg] == key then return false end
+			end
+			return true
+		end
+		startup.onKeyChanged = FlyController.persistSettings
+		startup.applyEnabled = setPanelFlyEnabled
+		setPanelFlyEnabled(startup.enabled)
+		return runtime.cleanup
+	end
+	
+	-- Only this small click listener runs when the HPX panel opens.
+	local environment = (getgenv and getgenv()) or _G
+	local previousStartup = environment.INVINCIBLE_FLY_BOOTSTRAP
+	if type(previousStartup) == "table" and type(previousStartup.cancel) == "function" then
+		previousStartup.cancel()
+	end
+	if type(environment.INVINCIBLE_FLY_CLEANUP) == "function" then
+		local ok, message = pcall(environment.INVINCIBLE_FLY_CLEANUP)
+		if not ok then
+			warn("[Invincible Fly] Falha ao encerrar a instancia anterior: " .. tostring(message))
+		end
+	end
+	environment.INVINCIBLE_FLY_RUNNING = false
+	
+	local startup = { cancelled = false, loading = false, enabled = false, connections = {} }
+	environment.INVINCIBLE_FLY_BOOTSTRAP = startup
+	function startup.cancel()
+		startup.cancelled = true
+		startup.enabled = false
+		if startup.setFlyKeyGate then
+			startup.setFlyKeyGate(true)
+		end
+		if startup.activationButton and startup.activationButton.Parent then
+			pcall(function()
+				startup.activationButton:SetAttribute("HPXFlyEnabled", false)
+			end)
+		end
+		for _, connection in ipairs(startup.connections) do
+			connection:Disconnect()
+		end
+		startup.connections = {}
+		if startup.key and _G.HPX_Atalhos and _G.HPX_Atalhos[startup.key.Name] == "FlyEnabled" then
+			_G.HPX_Atalhos[startup.key.Name] = nil
+		end
+		if startup.cleanup then
+			startup.cleanup()
+			startup.cleanup = nil
+		end
+		if environment.INVINCIBLE_FLY_BOOTSTRAP == startup then
+			environment.INVINCIBLE_FLY_BOOTSTRAP = nil
+		end
+	end
+	
+	local function isFlyActivationButton(candidate)
+		if not candidate or not candidate:IsA("GuiButton") then
+			return false
+		end
+		local name = string.lower(candidate.Name):gsub("%s+", "")
+		if name == "voarbutton" or name == "flybutton" or name == "voar" or name == "fly" then
+			return true
+		end
+		local label = candidate:IsA("TextButton") and candidate.Text or ""
+		if label == "" then
+			local textLabel = candidate:FindFirstChildWhichIsA("TextLabel", true)
+			label = textLabel and textLabel.Text or ""
+		end
+		label = string.lower(label):gsub("%s+", "")
+		return label == "voar" or label == "fly"
+	end
+	
+	local function findActivationButton()
+		if script and isFlyActivationButton(script.Parent) then
+			return script.Parent
+		end
+		local roots = {}
+		local player = game:GetService("Players").LocalPlayer
+		if player then
+			local playerGui = player:FindFirstChildOfClass("PlayerGui")
+			if playerGui then
+				table.insert(roots, playerGui)
+			end
+		end
+		pcall(function()
+			if type(gethui) == "function" then
+				table.insert(roots, gethui())
+			end
+			table.insert(roots, game:GetService("CoreGui"))
+		end)
+		-- Prefer a button with an explicit fly name over a label match.
+		for _, root in ipairs(roots) do
+			for _, candidate in ipairs(root:GetDescendants()) do
+				local name = string.lower(candidate.Name)
+				if candidate:IsA("GuiButton") and (name == "voarbutton" or name == "flybutton") then
+					return candidate
+				end
+			end
+		end
+		for _, root in ipairs(roots) do
+			for _, candidate in ipairs(root:GetDescendants()) do
+				if isFlyActivationButton(candidate) then
+					return candidate
+				end
+			end
+		end
+	end
+	
+	local function bindActivationButton(button)
+		local inputService = game:GetService("UserInputService")
+		local contextActionService = game:GetService("ContextActionService")
+		local flyKeyGateName = "HPX_FlyDisabled_FKey"
+		local flyKeyGateBound = false
+		_G.HPX_Atalhos = _G.HPX_Atalhos or {}
+		local shortcuts = _G.HPX_Atalhos
+		startup.activationButton = button
+		pcall(function()
+			button:SetAttribute("HPXFlyEnabled", false)
+		end)
+		startup.originalColor = button.BackgroundColor3
+		local keyButton
+		for _, candidate in ipairs(button:GetDescendants()) do
+			local name = string.lower(candidate.Name)
+			if (candidate:IsA("TextBox") or candidate:IsA("TextButton"))
+				and (name == "keybutton" or name == "key" or name == "tecla" or name == "atalho") then
+				keyButton = candidate
+				break
+			end
+		end
+		if not keyButton and button.Parent then
+			for _, candidate in ipairs(button.Parent:GetChildren()) do
+				local name = string.lower(candidate.Name)
+				if (candidate:IsA("TextBox") or candidate:IsA("TextButton"))
+					and (name == "atalhoflybutton" or name == "atalhovoarbutton" or name == "atalhovoobutton") then
+					keyButton = candidate
+					break
+				end
+			end
+		end
+		local function connect(signal, callback)
+			table.insert(startup.connections, signal:Connect(callback))
+		end
+		local function setFlyKeyGate(blocked)
+			if blocked then
+				if flyKeyGateBound then return end
+				contextActionService:BindActionAtPriority(
+					flyKeyGateName,
+					function()
+						return Enum.ContextActionResult.Sink
+					end,
+					false,
+					10000,
+					Enum.KeyCode.F
+				)
+				flyKeyGateBound = true
+			else
+				contextActionService:UnbindAction(flyKeyGateName)
+				flyKeyGateBound = false
+			end
+		end
+		startup.setFlyKeyGate = setFlyKeyGate
+		local function updateButton()
+			if button.Parent then
+				setFlyKeyGate(not startup.enabled)
+				button:SetAttribute("HPXFlyEnabled", startup.enabled == true)
+				button.BackgroundColor3 = startup.enabled and Color3.fromRGB(0, 170, 0) or startup.originalColor
+			end
+		end
+		local updatingText = false
+		local function setText(text)
+			if not keyButton or not keyButton.Parent then return end
+			updatingText = true
+			keyButton.Text = text
+			updatingText = false
+		end
+		local function updateKeyText()
+			setText(startup.key and startup.key.Name or "-")
+		end
+		local function keyFromText(text)
+			local name = string.upper(text or "")
+			if not name:match("^[A-Z0-9]$") then return nil end
+			local ok, key = pcall(function() return Enum.KeyCode[name] end)
+			return ok and key or nil
+		end
+		local defaultReserved = { F = true, M = true, W = true, A = true, S = true, D = true,
+			Q = true, C = true, Y = true, V = true }
+		local notice = 0
+		local function defineKey(key)
+			if not key or keyFromText(key.Name) ~= key then return end
+			local available = startup.canBindKey and startup.canBindKey(key)
+			if not startup.canBindKey then available = not defaultReserved[key.Name] end
+			local owner = shortcuts[key.Name]
+			notice = notice + 1
+			startup.capturing = false
+			startup.suppressedKey = key
+			if not available or (owner and owner ~= "FlyEnabled") then
+				setText("USADA")
+				local currentNotice = notice
+				task.delay(1.2, function()
+					if not startup.cancelled and notice == currentNotice then updateKeyText() end
+				end)
+			else
+				if startup.key and shortcuts[startup.key.Name] == "FlyEnabled" then
+					shortcuts[startup.key.Name] = nil
+				end
+				startup.key = key
+				shortcuts[key.Name] = "FlyEnabled"
+				updateKeyText()
+				if startup.onKeyChanged then startup.onKeyChanged() end
+			end
+			if keyButton and keyButton:IsA("TextBox") and keyButton:IsFocused() then
+				keyButton:ReleaseFocus()
+			end
+		end
+		local function toggle(source)
+			if startup.cancelled then
+				return
+			end
+			startup.enabled = not startup.enabled
+			updateButton()
+			if startup.applyEnabled then
+				startup.applyEnabled(startup.enabled)
+				return
+			end
+			if startup.loading or not startup.enabled then
+				return
+			end
+			startup.loading = true
+			task.defer(function()
+				if startup.cancelled or not button.Parent or not startup.enabled then
+					startup.loading = false
+					return
+				end
+				local ok, result = xpcall(function()
+					return initializeFly(button, startup)
+				end, debug.traceback)
+				startup.loading = false
+				if startup.cancelled then
+					if ok and type(result) == "function" then result() end
+					return
+				end
+				if ok and result then
+					startup.cleanup = type(result) == "function" and result or nil
+				else
+					startup.enabled = false
+					updateButton()
+					if not ok then
+						warn("[Invincible Fly] Nao foi possivel iniciar o voo:\n" .. tostring(result))
+					end
+				end
+			end)
+		end
+		connect(button.MouseButton1Click, function()
+			if startup.keyPress or startup.capturing then return end
+			toggle("clique no botao Voar")
+		end)
+		if keyButton then
+			connect(keyButton.InputBegan, function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1
+					or input.UserInputType == Enum.UserInputType.Touch then
+					startup.keyPress = true
+				end
+			end)
+			if keyButton:IsA("TextBox") then
+				keyButton.TextEditable = true
+				keyButton.ClearTextOnFocus = false
+				connect(keyButton.Focused, function()
+					startup.capturing = true
+					setText("")
+				end)
+				connect(keyButton:GetPropertyChangedSignal("Text"), function()
+					if updatingText or not startup.capturing then return end
+					local key = keyFromText((keyButton.Text or ""):sub(1, 1))
+					if key then defineKey(key) else setText("") end
+				end)
+				connect(keyButton.FocusLost, function()
+					startup.capturing = false
+					if keyButton.Text ~= "USADA" then updateKeyText() end
+				end)
+			else
+				connect(keyButton.MouseButton1Click, function()
+					startup.capturing = true
+					setText("...")
+				end)
+			end
+		end
+		connect(inputService.InputBegan, function(input, processed)
+			if startup.cancelled or input.UserInputType ~= Enum.UserInputType.Keyboard then return end
+			if startup.capturing then
+				if input.KeyCode == Enum.KeyCode.Escape then
+					startup.capturing = false
+					updateKeyText()
+					if keyButton:IsA("TextBox") and keyButton:IsFocused() then keyButton:ReleaseFocus() end
+				else
+					defineKey(keyFromText(input.KeyCode.Name))
+				end
+				return
+			end
+			if processed or inputService:GetFocusedTextBox() or startup.suppressedKey == input.KeyCode then return end
+			if startup.key and input.KeyCode == startup.key and shortcuts[startup.key.Name] == "FlyEnabled" then
+				toggle("atalho " .. input.KeyCode.Name)
+			end
+		end)
+		connect(inputService.InputEnded, function(input)
+			if input.KeyCode == startup.suppressedKey then startup.suppressedKey = nil end
+			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+				task.defer(function() startup.keyPress = false end)
+			end
+		end)
+		updateButton()
+		updateKeyText()
+	end
+	
+	local activationButton = findActivationButton()
+	if activationButton then
+		bindActivationButton(activationButton)
+	else
+		task.spawn(function()
+			while not startup.cancelled do
+				local button = findActivationButton()
+				if button then
+					bindActivationButton(button)
+					return
+				end
+				task.wait(0.25)
+			end
+		end)
+	end
+	
+end
+local function WOXYDX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.FantasmaVerButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_FantasmaVerButton"]
@@ -6058,7 +15891,7 @@ local function SSXF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	atualizarBotao()
 	
 end
-local function XJDKJQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.EspButton.LocalScript
+local function TADXN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.EspButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_EspButton"]
@@ -6570,7 +16403,7 @@ local function XJDKJQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	atualizarBotoes()
 end
-local function UYIF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.antiflingButton.LocalScript
+local function PKRC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.antiflingButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_antiflingButton"]
@@ -7064,7 +16897,7 @@ local function UYIF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	atualizarTextoTecla()
 	atualizarBotao()
 end
-local function VKFWNF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.RunButton.LocalScript
+local function FQOGCUY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.RunButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_RunButton"]
@@ -7349,7 +17182,7 @@ local function VKFWNF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	print('[HPX CORRER] Scale pronto. Atalho e velocidade configuraveis.')
 	
 end
-local function QPYN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.GirarButton.LocalScript
+local function RGNKN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.GirarButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_GirarButton"]
@@ -7733,7 +17566,7 @@ local function QPYN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	print('[HPX GIRAR] Pronto. Tentativa de registrar Spin no HumanoidDescription ativa.')
 	
 end
-local function NTKMF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.vampiro.LocalScript
+local function XLQKO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.vampiro.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_vampiro"]
@@ -7785,7 +17618,7 @@ local function NTKMF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function CKMK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.zumbie.LocalScript
+local function HUKUDMQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.zumbie.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_zumbie"]
@@ -7837,7 +17670,7 @@ local function CKMK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function BHHG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.adidas.LocalScript
+local function DCVJI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.adidas.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_adidas"]
@@ -7889,7 +17722,7 @@ local function BHHG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function HLMLU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Bolhoso.LocalScript
+local function UEZX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Bolhoso.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Bolhoso"]
@@ -7969,7 +17802,7 @@ local function HLMLU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function PZPFPLZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.ninja.LocalScript
+local function FXTZK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.ninja.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_ninja"]
@@ -8040,7 +17873,7 @@ local function PZPFPLZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function GOIRO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.lobo.LocalScript
+local function RZYPJG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.lobo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_lobo"]
@@ -8111,7 +17944,7 @@ local function GOIRO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function YKDIKP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.mago.LocalScript
+local function RCOEBZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.mago.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_mago"]
@@ -8198,7 +18031,7 @@ local function YKDIKP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function NGKFCT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.levitar.LocalScript
+local function DEFPBD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.levitar.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_levitar"]
@@ -8269,7 +18102,7 @@ local function NGKFCT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function LXOGRBP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.cartoon.LocalScript
+local function NDUR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.cartoon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_cartoon"]
@@ -8340,7 +18173,7 @@ local function LXOGRBP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function LNFTHM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.amazon.LocalScript
+local function TMRNBA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.amazon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_amazon"]
@@ -8426,7 +18259,7 @@ local function LNFTHM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function BWJBB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.astronauta.LocalScript
+local function LEXO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.astronauta.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_astronauta"]
@@ -8512,7 +18345,7 @@ local function BWJBB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function DMTRM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
+local function HFJODX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero"]
@@ -8598,7 +18431,7 @@ local function DMTRM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function JKGI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.antiga.LocalScript
+local function MMAYC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.antiga.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_antiga"]
@@ -8677,7 +18510,7 @@ local function JKGI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function OQSTPSH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Estileira.LocalScript
+local function IHGS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Estileira.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Estileira"]
@@ -8756,7 +18589,7 @@ local function OQSTPSH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function ISPLTZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Rob�.LocalScript
+local function MFHEIPQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Rob�.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Rob�"]
@@ -8835,7 +18668,7 @@ local function ISPLTZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function RLEEKCA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Elf.LocalScript
+local function JVHIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Elf.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Elf"]
@@ -8914,7 +18747,7 @@ local function RLEEKCA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function DTPAM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Velho.LocalScript
+local function CGTGX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Velho.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Velho"]
@@ -8998,7 +18831,7 @@ local function DTPAM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function EOGVJJS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Walmart.LocalScript
+local function OLMIW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Walmart.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Walmart"]
@@ -9078,7 +18911,7 @@ local function EOGVJJS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 	
 end
-local function MXQGODN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.malvada.LocalScript
+local function VKFLER_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.malvada.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_malvada"]
@@ -9156,7 +18989,7 @@ local function MXQGODN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function MWTK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Brinquedo.LocalScript
+local function NKPHV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Brinquedo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Brinquedo"]
@@ -9243,7 +19076,7 @@ local function MWTK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function JSXFMUX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
+local function YSVRO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero1"]
@@ -9322,7 +19155,7 @@ local function JSXFMUX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function XIQIEEZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Through Life.LocalScript
+local function UDHG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Through Life.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Through Life"]
@@ -9401,7 +19234,7 @@ local function XIQIEEZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function UUXUVC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
+local function JSJTL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero2"]
@@ -9480,7 +19313,7 @@ local function UUXUVC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function FFWQFKC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Glow.LocalScript
+local function QAMNIH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Glow.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Glow"]
@@ -9560,7 +19393,7 @@ local function FFWQFKC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function VNUDGNJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.GrimoryButton.LocalScript
+local function YDJJVHB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.GrimoryButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_GrimoryButton"]
@@ -10158,7 +19991,7 @@ local function VNUDGNJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	print("[HPX GRIM] Pronto: GrimoryButton + atalho configuravel, sem painel extra.")
 	
 end
-local function MCVJKKR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.CandyButton.LocalScript
+local function KXFIELO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.CandyButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_CandyButton"]
@@ -10892,7 +20725,7 @@ local function MCVJKKR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	conectarPasta()
 	
 end
-local function HZNIK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.BoneButton.LocalScript
+local function GGUKY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.BoneButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_BoneButton"]
@@ -12355,7 +22188,7 @@ local function HZNIK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	print("[HPX BONES] Painel conectado. Use BoneButton e defina a tecla no campo.")
 	
 end
-local function UKBTR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LoboButton.LocalScript
+local function ZASZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LoboButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_LoboButton"]
@@ -13255,7 +23088,7 @@ local function UKBTR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	
 end
-local function SDGY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LuckButton.LocalScript
+local function KOSE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LuckButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_LuckButton"]
@@ -13606,7 +23439,7 @@ local function SDGY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	return app
 	
 end
-local function TMMZMS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.LocalScript
+local function LVTJTU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_stalker"]
@@ -14436,7 +24269,7 @@ local function TMMZMS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	end
 	
 end
-local function RDERA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.SeachBox.seach
+local function TNITP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.SeachBox.seach
     local script = Instance.new("LocalScript")
     script.Name = "seach"
     script.Parent = Converted["_SeachBox"]
@@ -14522,7 +24355,7 @@ local function RDERA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	end)
 	
 end
-local function DMYQRPC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.verButton.LocalScript
+local function CYLHVIT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.verButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_verButton"]
@@ -14662,7 +24495,7 @@ local function DMYQRPC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		end
 	end)
 end
-local function RQMY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.syncButton.LocalScript
+local function GIOGBU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.syncButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_syncButton"]
@@ -14911,7 +24744,7 @@ local function RQMY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		end
 	end)
 end
-local function TFAGYOC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.TpButton.LocalScript
+local function XJSOBR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.TpButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TpButton"]
@@ -14979,7 +24812,7 @@ local function TFAGYOC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	tpButton.MouseButton1Click:Connect(teleportar)
 end
-local function GJOS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.carinhoButton.LocalScript
+local function NYBXBH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.carinhoButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_carinhoButton"]
@@ -15418,54 +25251,55 @@ local function GJOS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 end
 
-coroutine.wrap(LSIE_fake_script)()
-coroutine.wrap(VZGFA_fake_script)()
-coroutine.wrap(CWNGKCU_fake_script)()
-coroutine.wrap(UNAPI_fake_script)()
-coroutine.wrap(WKHX_fake_script)()
-coroutine.wrap(VVYJJTL_fake_script)()
-coroutine.wrap(ATMKP_fake_script)()
-coroutine.wrap(KFLTWP_fake_script)()
-coroutine.wrap(FEZYIR_fake_script)()
-coroutine.wrap(ZHXPTI_fake_script)()
-coroutine.wrap(FRPMOL_fake_script)()
-coroutine.wrap(SSXF_fake_script)()
-coroutine.wrap(XJDKJQ_fake_script)()
-coroutine.wrap(UYIF_fake_script)()
-coroutine.wrap(VKFWNF_fake_script)()
-coroutine.wrap(QPYN_fake_script)()
-coroutine.wrap(NTKMF_fake_script)()
-coroutine.wrap(CKMK_fake_script)()
-coroutine.wrap(BHHG_fake_script)()
-coroutine.wrap(HLMLU_fake_script)()
-coroutine.wrap(PZPFPLZ_fake_script)()
-coroutine.wrap(GOIRO_fake_script)()
-coroutine.wrap(YKDIKP_fake_script)()
-coroutine.wrap(NGKFCT_fake_script)()
-coroutine.wrap(LXOGRBP_fake_script)()
-coroutine.wrap(LNFTHM_fake_script)()
-coroutine.wrap(BWJBB_fake_script)()
-coroutine.wrap(DMTRM_fake_script)()
-coroutine.wrap(JKGI_fake_script)()
-coroutine.wrap(OQSTPSH_fake_script)()
-coroutine.wrap(ISPLTZ_fake_script)()
-coroutine.wrap(RLEEKCA_fake_script)()
-coroutine.wrap(DTPAM_fake_script)()
-coroutine.wrap(EOGVJJS_fake_script)()
-coroutine.wrap(MXQGODN_fake_script)()
-coroutine.wrap(MWTK_fake_script)()
-coroutine.wrap(JSXFMUX_fake_script)()
-coroutine.wrap(XIQIEEZ_fake_script)()
-coroutine.wrap(UUXUVC_fake_script)()
-coroutine.wrap(FFWQFKC_fake_script)()
-coroutine.wrap(VNUDGNJ_fake_script)()
-coroutine.wrap(MCVJKKR_fake_script)()
-coroutine.wrap(HZNIK_fake_script)()
-coroutine.wrap(UKBTR_fake_script)()
-coroutine.wrap(SDGY_fake_script)()
-coroutine.wrap(TMMZMS_fake_script)()
-coroutine.wrap(RDERA_fake_script)()
-coroutine.wrap(DMYQRPC_fake_script)()
-coroutine.wrap(RQMY_fake_script)()
-coroutine.wrap(TFAGYOC_fake_script)()
-coroutine.wrap(GJOS_fake_script)()-- Please leave these comments in and leave credit, it took me a while to make this
+coroutine.wrap(LKAKVQ_fake_script)()
+coroutine.wrap(HPNV_fake_script)()
+coroutine.wrap(LCPU_fake_script)()
+coroutine.wrap(ZCKTRJ_fake_script)()
+coroutine.wrap(EJRWW_fake_script)()
+coroutine.wrap(NAMWM_fake_script)()
+coroutine.wrap(QSTJ_fake_script)()
+coroutine.wrap(BJHMYK_fake_script)()
+coroutine.wrap(EXTBBL_fake_script)()
+coroutine.wrap(FHZPOS_fake_script)()
+coroutine.wrap(IQNG_fake_script)()
+coroutine.wrap(MFWBYRV_fake_script)()
+coroutine.wrap(WOXYDX_fake_script)()
+coroutine.wrap(TADXN_fake_script)()
+coroutine.wrap(PKRC_fake_script)()
+coroutine.wrap(FQOGCUY_fake_script)()
+coroutine.wrap(RGNKN_fake_script)()
+coroutine.wrap(XLQKO_fake_script)()
+coroutine.wrap(HUKUDMQ_fake_script)()
+coroutine.wrap(DCVJI_fake_script)()
+coroutine.wrap(UEZX_fake_script)()
+coroutine.wrap(FXTZK_fake_script)()
+coroutine.wrap(RZYPJG_fake_script)()
+coroutine.wrap(RCOEBZ_fake_script)()
+coroutine.wrap(DEFPBD_fake_script)()
+coroutine.wrap(NDUR_fake_script)()
+coroutine.wrap(TMRNBA_fake_script)()
+coroutine.wrap(LEXO_fake_script)()
+coroutine.wrap(HFJODX_fake_script)()
+coroutine.wrap(MMAYC_fake_script)()
+coroutine.wrap(IHGS_fake_script)()
+coroutine.wrap(MFHEIPQ_fake_script)()
+coroutine.wrap(JVHIR_fake_script)()
+coroutine.wrap(CGTGX_fake_script)()
+coroutine.wrap(OLMIW_fake_script)()
+coroutine.wrap(VKFLER_fake_script)()
+coroutine.wrap(NKPHV_fake_script)()
+coroutine.wrap(YSVRO_fake_script)()
+coroutine.wrap(UDHG_fake_script)()
+coroutine.wrap(JSJTL_fake_script)()
+coroutine.wrap(QAMNIH_fake_script)()
+coroutine.wrap(YDJJVHB_fake_script)()
+coroutine.wrap(KXFIELO_fake_script)()
+coroutine.wrap(GGUKY_fake_script)()
+coroutine.wrap(ZASZ_fake_script)()
+coroutine.wrap(KOSE_fake_script)()
+coroutine.wrap(LVTJTU_fake_script)()
+coroutine.wrap(TNITP_fake_script)()
+coroutine.wrap(CYLHVIT_fake_script)()
+coroutine.wrap(GIOGBU_fake_script)()
+coroutine.wrap(XJSOBR_fake_script)()
+coroutine.wrap(NYBXBH_fake_script)()-- Please leave these comments in and leave credit, it took me a while to make this
