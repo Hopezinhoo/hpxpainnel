@@ -2822,7 +2822,7 @@ Converted["_Drucord"].Name = "Drucord"
 Converted["_Drucord"].Parent = Converted["_ChatFrame"]
 
 Converted["_ImageLabel1"].Image = "rbxassetid://103468753888091"
-Converted["_ImageLabel1"].ImageContent = Content{SourceType=Uri, Uri=rbxassetid://103468753888091}
+-- ImageContent is already set by the Image property above.
 Converted["_ImageLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_ImageLabel1"].BackgroundTransparency = 1
 Converted["_ImageLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -2896,7 +2896,7 @@ Converted["_UICorner75"].TopRightRadius = UDim.new(0.200000003, 0)
 Converted["_UICorner75"].Parent = Converted["_Enviar"]
 
 Converted["_ImageLabel2"].Image = "rbxassetid://75253323053409"
-Converted["_ImageLabel2"].ImageContent = Content{SourceType=Uri, Uri=rbxassetid://75253323053409}
+-- ImageContent is already set by the Image property above.
 Converted["_ImageLabel2"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_ImageLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_ImageLabel2"].BackgroundTransparency = 1
