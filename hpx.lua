@@ -7,7 +7,6 @@ local Converted = {
 	["_mainFrame"] = Instance.new("Frame");
 	["_MenuButtons"] = Instance.new("LocalScript");
 	["_FotoConfig"] = Instance.new("LocalScript");
-	["_H"] = Instance.new("LocalScript");
 	["_configUS"] = Instance.new("Frame");
 	["_LocalScript"] = Instance.new("LocalScript");
 	["_ImageLabel"] = Instance.new("ImageLabel");
@@ -57,46 +56,46 @@ local Converted = {
 	["_UITextSizeConstraint9"] = Instance.new("UITextSizeConstraint");
 	["_TextLabel2"] = Instance.new("TextLabel");
 	["_UIStroke3"] = Instance.new("UIStroke");
-	["_VoarButton"] = Instance.new("TextButton");
-	["_Fly"] = Instance.new("LocalScript");
-	["_UITextSizeConstraint10"] = Instance.new("UITextSizeConstraint");
-	["_UICorner8"] = Instance.new("UICorner");
-	["_TextLabel3"] = Instance.new("TextLabel");
-	["_UITextSizeConstraint11"] = Instance.new("UITextSizeConstraint");
-	["_keybutton1"] = Instance.new("TextBox");
-	["_UICorner9"] = Instance.new("UICorner");
-	["_UITextSizeConstraint12"] = Instance.new("UITextSizeConstraint");
-	["_UIStroke4"] = Instance.new("UIStroke");
-	["_FantasmaVerButton"] = Instance.new("TextButton");
+	["_EspButton"] = Instance.new("TextButton");
 	["_LocalScript7"] = Instance.new("LocalScript");
-	["_UITextSizeConstraint13"] = Instance.new("UITextSizeConstraint");
+	["_UICorner8"] = Instance.new("UICorner");
+	["_keybutton1"] = Instance.new("TextBox");
+	["_UITextSizeConstraint10"] = Instance.new("UITextSizeConstraint");
+	["_UICorner9"] = Instance.new("UICorner");
+	["_UITextSizeConstraint11"] = Instance.new("UITextSizeConstraint");
+	["_UIStroke4"] = Instance.new("UIStroke");
+	["_TextLabel3"] = Instance.new("TextLabel");
+	["_antiflingButton"] = Instance.new("TextButton");
+	["_LocalScript8"] = Instance.new("LocalScript");
+	["_UITextSizeConstraint12"] = Instance.new("UITextSizeConstraint");
 	["_UICorner10"] = Instance.new("UICorner");
 	["_TextLabel4"] = Instance.new("TextLabel");
-	["_UITextSizeConstraint14"] = Instance.new("UITextSizeConstraint");
+	["_UITextSizeConstraint13"] = Instance.new("UITextSizeConstraint");
 	["_keybutton2"] = Instance.new("TextBox");
 	["_UICorner11"] = Instance.new("UICorner");
-	["_UITextSizeConstraint15"] = Instance.new("UITextSizeConstraint");
+	["_UITextSizeConstraint14"] = Instance.new("UITextSizeConstraint");
 	["_UIStroke5"] = Instance.new("UIStroke");
-	["_EspButton"] = Instance.new("TextButton");
-	["_LocalScript8"] = Instance.new("LocalScript");
 	["_UICorner12"] = Instance.new("UICorner");
-	["_keybutton3"] = Instance.new("TextBox");
-	["_UITextSizeConstraint16"] = Instance.new("UITextSizeConstraint");
+	["_FantasmaVerButton"] = Instance.new("TextButton");
+	["_LocalScript9"] = Instance.new("LocalScript");
+	["_UITextSizeConstraint15"] = Instance.new("UITextSizeConstraint");
 	["_UICorner13"] = Instance.new("UICorner");
+	["_TextLabel5"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint16"] = Instance.new("UITextSizeConstraint");
+	["_keybutton3"] = Instance.new("TextBox");
+	["_UICorner14"] = Instance.new("UICorner");
 	["_UITextSizeConstraint17"] = Instance.new("UITextSizeConstraint");
 	["_UIStroke6"] = Instance.new("UIStroke");
-	["_TextLabel5"] = Instance.new("TextLabel");
-	["_antiflingButton"] = Instance.new("TextButton");
-	["_LocalScript9"] = Instance.new("LocalScript");
+	["_VoarButton"] = Instance.new("TextButton");
+	["_Fly"] = Instance.new("LocalScript");
 	["_UITextSizeConstraint18"] = Instance.new("UITextSizeConstraint");
-	["_UICorner14"] = Instance.new("UICorner");
+	["_UICorner15"] = Instance.new("UICorner");
 	["_TextLabel6"] = Instance.new("TextLabel");
 	["_UITextSizeConstraint19"] = Instance.new("UITextSizeConstraint");
 	["_keybutton4"] = Instance.new("TextBox");
-	["_UICorner15"] = Instance.new("UICorner");
+	["_UICorner16"] = Instance.new("UICorner");
 	["_UITextSizeConstraint20"] = Instance.new("UITextSizeConstraint");
 	["_UIStroke7"] = Instance.new("UIStroke");
-	["_UICorner16"] = Instance.new("UICorner");
 	["_UIListLayout"] = Instance.new("UIListLayout");
 	["_ScrollingFrame1"] = Instance.new("ScrollingFrame");
 	["_UIPadding1"] = Instance.new("UIPadding");
@@ -326,18 +325,16 @@ local Converted = {
 	["_UICorner71"] = Instance.new("UICorner");
 	["_UITextSizeConstraint72"] = Instance.new("UITextSizeConstraint");
 	["_TextLabel19"] = Instance.new("TextLabel");
-	["_hpx"] = Instance.new("TextLabel");
 	["_UIAspectRatioConstraint"] = Instance.new("UIAspectRatioConstraint");
 	["_UIStroke8"] = Instance.new("UIStroke");
 	["_Versao"] = Instance.new("TextLabel");
 	["_ChatFrame"] = Instance.new("Frame");
+	["_LocalScript46"] = Instance.new("LocalScript");
 	["_UICorner72"] = Instance.new("UICorner");
 	["_UIPadding9"] = Instance.new("UIPadding");
 	["_UIListLayout3"] = Instance.new("UIListLayout");
-	["_Drucord"] = Instance.new("TextLabel");
-	["_ImageLabel1"] = Instance.new("ImageLabel");
 	["_Chat"] = Instance.new("ImageLabel");
-	["_LocalScript46"] = Instance.new("LocalScript");
+	["_LocalScript47"] = Instance.new("LocalScript");
 	["_UICorner73"] = Instance.new("UICorner");
 	["_escrita"] = Instance.new("TextBox");
 	["_UICorner74"] = Instance.new("UICorner");
@@ -345,10 +342,9 @@ local Converted = {
 	["_UITextSizeConstraint73"] = Instance.new("UITextSizeConstraint");
 	["_Enviar"] = Instance.new("ImageButton");
 	["_UICorner75"] = Instance.new("UICorner");
-	["_ImageLabel2"] = Instance.new("ImageLabel");
-	["_online"] = Instance.new("TextLabel");
-	["_UITextSizeConstraint74"] = Instance.new("UITextSizeConstraint");
-	["_LocalScript47"] = Instance.new("LocalScript");
+	["_ImageLabel1"] = Instance.new("ImageLabel");
+	["_hpx"] = Instance.new("TextLabel");
+	["_H"] = Instance.new("LocalScript");
 }
 
 -- Properties:
@@ -723,48 +719,27 @@ Converted["_UIStroke3"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 Converted["_UIStroke3"].Thickness = 2
 Converted["_UIStroke3"].Parent = Converted["_clicktpButton"]
 
-Converted["_VoarButton"].Font = Enum.Font.FredokaOne
-Converted["_VoarButton"].Text = ""
-Converted["_VoarButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_VoarButton"].TextScaled = true
-Converted["_VoarButton"].TextSize = 14
-Converted["_VoarButton"].TextWrapped = true
-Converted["_VoarButton"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_VoarButton"].BackgroundColor3 = Color3.fromRGB(70.00000342726707, 81.00000277161598, 111.00000098347664)
-Converted["_VoarButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_VoarButton"].BorderSizePixel = 0
-Converted["_VoarButton"].Position = UDim2.new(0.58415103, 0, 0.118925571, 0)
-Converted["_VoarButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
-Converted["_VoarButton"].Name = "VoarButton"
-Converted["_VoarButton"].Parent = Converted["_ScrollingFrame"]
-
-Converted["_UITextSizeConstraint10"].MaxTextSize = 20
-Converted["_UITextSizeConstraint10"].Parent = Converted["_VoarButton"]
+Converted["_EspButton"].Font = Enum.Font.FredokaOne
+Converted["_EspButton"].Text = ""
+Converted["_EspButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_EspButton"].TextScaled = true
+Converted["_EspButton"].TextSize = 25
+Converted["_EspButton"].TextWrapped = true
+Converted["_EspButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_EspButton"].BackgroundColor3 = Color3.fromRGB(70.00000342726707, 81.00000277161598, 111.00000098347664)
+Converted["_EspButton"].BorderColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_EspButton"].BorderSizePixel = 0
+Converted["_EspButton"].Position = UDim2.new(0.0154919364, 0, 0, 0)
+Converted["_EspButton"].Size = UDim2.new(0.286853015, 0, 0.114044294, 0)
+Converted["_EspButton"].Name = "EspButton"
+Converted["_EspButton"].Parent = Converted["_ScrollingFrame"]
 
 Converted["_UICorner8"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner8"].BottomRightRadius = UDim.new(0, 9)
 Converted["_UICorner8"].CornerRadius = UDim.new(0, 9)
 Converted["_UICorner8"].TopLeftRadius = UDim.new(0, 9)
 Converted["_UICorner8"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner8"].Parent = Converted["_VoarButton"]
-
-Converted["_TextLabel3"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel3"].Text = "Voar"
-Converted["_TextLabel3"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel3"].TextScaled = true
-Converted["_TextLabel3"].TextSize = 14
-Converted["_TextLabel3"].TextWrapped = true
-Converted["_TextLabel3"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel3"].BackgroundTransparency = 1
-Converted["_TextLabel3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextLabel3"].BorderSizePixel = 0
-Converted["_TextLabel3"].Position = UDim2.new(0.199999645, 0, 0.50000006, 0)
-Converted["_TextLabel3"].Size = UDim2.new(0.320999861, 0, 1.00000012, 0)
-Converted["_TextLabel3"].Parent = Converted["_VoarButton"]
-
-Converted["_UITextSizeConstraint11"].MaxTextSize = 30
-Converted["_UITextSizeConstraint11"].Parent = Converted["_TextLabel3"]
+Converted["_UICorner8"].Parent = Converted["_EspButton"]
 
 Converted["_keybutton1"].Font = Enum.Font.FredokaOne
 Converted["_keybutton1"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
@@ -772,17 +747,19 @@ Converted["_keybutton1"].PlaceholderText = "-"
 Converted["_keybutton1"].Text = ""
 Converted["_keybutton1"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_keybutton1"].TextScaled = true
-Converted["_keybutton1"].TextSize = 15
-Converted["_keybutton1"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_keybutton1"].TextSize = 20
 Converted["_keybutton1"].TextWrapped = true
 Converted["_keybutton1"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_keybutton1"].BackgroundColor3 = Color3.fromRGB(45.00000111758709, 53.00000064074993, 72.00000330805779)
-Converted["_keybutton1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_keybutton1"].BorderColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
 Converted["_keybutton1"].BorderSizePixel = 0
 Converted["_keybutton1"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
-Converted["_keybutton1"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
+Converted["_keybutton1"].Size = UDim2.new(0.180999994, 0, 0.755999982, 0)
 Converted["_keybutton1"].Name = "keybutton"
-Converted["_keybutton1"].Parent = Converted["_VoarButton"]
+Converted["_keybutton1"].Parent = Converted["_EspButton"]
+
+Converted["_UITextSizeConstraint10"].MaxTextSize = 20
+Converted["_UITextSizeConstraint10"].Parent = Converted["_keybutton1"]
 
 Converted["_UICorner9"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner9"].BottomRightRadius = UDim.new(0, 9)
@@ -791,40 +768,56 @@ Converted["_UICorner9"].TopLeftRadius = UDim.new(0, 9)
 Converted["_UICorner9"].TopRightRadius = UDim.new(0, 9)
 Converted["_UICorner9"].Parent = Converted["_keybutton1"]
 
-Converted["_UITextSizeConstraint12"].MaxTextSize = 15
-Converted["_UITextSizeConstraint12"].Parent = Converted["_keybutton1"]
+Converted["_UITextSizeConstraint11"].MaxTextSize = 25
+Converted["_UITextSizeConstraint11"].Parent = Converted["_EspButton"]
 
 Converted["_UIStroke4"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 Converted["_UIStroke4"].Thickness = 2
-Converted["_UIStroke4"].Parent = Converted["_VoarButton"]
+Converted["_UIStroke4"].Parent = Converted["_EspButton"]
 
-Converted["_FantasmaVerButton"].Font = Enum.Font.FredokaOne
-Converted["_FantasmaVerButton"].Text = ""
-Converted["_FantasmaVerButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_FantasmaVerButton"].TextScaled = true
-Converted["_FantasmaVerButton"].TextSize = 14
-Converted["_FantasmaVerButton"].TextWrapped = true
-Converted["_FantasmaVerButton"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_FantasmaVerButton"].BackgroundColor3 = Color3.fromRGB(70.00000342726707, 81.00000277161598, 111.00000098347664)
-Converted["_FantasmaVerButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_FantasmaVerButton"].BorderSizePixel = 0
-Converted["_FantasmaVerButton"].Position = UDim2.new(0.0177050699, 0, 0.480000049, 0)
-Converted["_FantasmaVerButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
-Converted["_FantasmaVerButton"].Name = "FantasmaVerButton"
-Converted["_FantasmaVerButton"].Parent = Converted["_ScrollingFrame"]
+Converted["_TextLabel3"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel3"].Text = "Espi�o "
+Converted["_TextLabel3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel3"].TextScaled = true
+Converted["_TextLabel3"].TextSize = 14
+Converted["_TextLabel3"].TextWrapped = true
+Converted["_TextLabel3"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_TextLabel3"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel3"].BackgroundTransparency = 1
+Converted["_TextLabel3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel3"].BorderSizePixel = 0
+Converted["_TextLabel3"].Position = UDim2.new(0.200000003, 0, 0.5, 0)
+Converted["_TextLabel3"].Size = UDim2.new(0.32100001, 0, 1, 0)
+Converted["_TextLabel3"].Parent = Converted["_EspButton"]
 
-Converted["_UITextSizeConstraint13"].MaxTextSize = 20
-Converted["_UITextSizeConstraint13"].Parent = Converted["_FantasmaVerButton"]
+Converted["_antiflingButton"].Font = Enum.Font.FredokaOne
+Converted["_antiflingButton"].Text = ""
+Converted["_antiflingButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_antiflingButton"].TextScaled = true
+Converted["_antiflingButton"].TextSize = 14
+Converted["_antiflingButton"].TextWrapped = true
+Converted["_antiflingButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_antiflingButton"].BackgroundColor3 = Color3.fromRGB(70.00000342726707, 81.00000277161598, 111.00000098347664)
+Converted["_antiflingButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_antiflingButton"].BorderSizePixel = 0
+Converted["_antiflingButton"].Position = UDim2.new(0.50999999, 0, 0.24000001, 0)
+Converted["_antiflingButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
+Converted["_antiflingButton"].Name = "antiflingButton"
+Converted["_antiflingButton"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UITextSizeConstraint12"].MaxTextSize = 20
+Converted["_UITextSizeConstraint12"].Parent = Converted["_antiflingButton"]
 
 Converted["_UICorner10"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner10"].BottomRightRadius = UDim.new(0, 9)
 Converted["_UICorner10"].CornerRadius = UDim.new(0, 9)
 Converted["_UICorner10"].TopLeftRadius = UDim.new(0, 9)
 Converted["_UICorner10"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner10"].Parent = Converted["_FantasmaVerButton"]
+Converted["_UICorner10"].Parent = Converted["_antiflingButton"]
 
 Converted["_TextLabel4"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel4"].Text = "Ver Fantasma"
+Converted["_TextLabel4"].Text = "Anti-Fling"
 Converted["_TextLabel4"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel4"].TextScaled = true
 Converted["_TextLabel4"].TextSize = 14
@@ -834,12 +827,12 @@ Converted["_TextLabel4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel4"].BackgroundTransparency = 1
 Converted["_TextLabel4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel4"].BorderSizePixel = 0
-Converted["_TextLabel4"].Position = UDim2.new(0.312792271, 0, 0.49999994, 0)
-Converted["_TextLabel4"].Size = UDim2.new(0.546681881, 0, 0.999999881, 0)
-Converted["_TextLabel4"].Parent = Converted["_FantasmaVerButton"]
+Converted["_TextLabel4"].Position = UDim2.new(0.26407665, 0, 0.5, 0)
+Converted["_TextLabel4"].Size = UDim2.new(0.431014955, 0, 1, 0)
+Converted["_TextLabel4"].Parent = Converted["_antiflingButton"]
 
-Converted["_UITextSizeConstraint14"].MaxTextSize = 30
-Converted["_UITextSizeConstraint14"].Parent = Converted["_TextLabel4"]
+Converted["_UITextSizeConstraint13"].MaxTextSize = 30
+Converted["_UITextSizeConstraint13"].Parent = Converted["_TextLabel4"]
 
 Converted["_keybutton2"].Font = Enum.Font.FredokaOne
 Converted["_keybutton2"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
@@ -857,7 +850,7 @@ Converted["_keybutton2"].BorderSizePixel = 0
 Converted["_keybutton2"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
 Converted["_keybutton2"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
 Converted["_keybutton2"].Name = "keybutton"
-Converted["_keybutton2"].Parent = Converted["_FantasmaVerButton"]
+Converted["_keybutton2"].Parent = Converted["_antiflingButton"]
 
 Converted["_UICorner11"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner11"].BottomRightRadius = UDim.new(0, 9)
@@ -866,34 +859,62 @@ Converted["_UICorner11"].TopLeftRadius = UDim.new(0, 9)
 Converted["_UICorner11"].TopRightRadius = UDim.new(0, 9)
 Converted["_UICorner11"].Parent = Converted["_keybutton2"]
 
-Converted["_UITextSizeConstraint15"].MaxTextSize = 15
-Converted["_UITextSizeConstraint15"].Parent = Converted["_keybutton2"]
+Converted["_UITextSizeConstraint14"].MaxTextSize = 15
+Converted["_UITextSizeConstraint14"].Parent = Converted["_keybutton2"]
 
 Converted["_UIStroke5"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 Converted["_UIStroke5"].Thickness = 2
-Converted["_UIStroke5"].Parent = Converted["_FantasmaVerButton"]
+Converted["_UIStroke5"].Parent = Converted["_antiflingButton"]
 
-Converted["_EspButton"].Font = Enum.Font.FredokaOne
-Converted["_EspButton"].Text = ""
-Converted["_EspButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_EspButton"].TextScaled = true
-Converted["_EspButton"].TextSize = 25
-Converted["_EspButton"].TextWrapped = true
-Converted["_EspButton"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_EspButton"].BackgroundColor3 = Color3.fromRGB(70.00000342726707, 81.00000277161598, 111.00000098347664)
-Converted["_EspButton"].BorderColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
-Converted["_EspButton"].BorderSizePixel = 0
-Converted["_EspButton"].Position = UDim2.new(0.0154919364, 0, 0, 0)
-Converted["_EspButton"].Size = UDim2.new(0.286853015, 0, 0.114044294, 0)
-Converted["_EspButton"].Name = "EspButton"
-Converted["_EspButton"].Parent = Converted["_ScrollingFrame"]
+Converted["_UICorner12"].BottomLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner12"].BottomRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner12"].CornerRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner12"].TopLeftRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner12"].TopRightRadius = UDim.new(0.0199999996, 0)
+Converted["_UICorner12"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_UICorner12"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner12"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner12"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner12"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner12"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner12"].Parent = Converted["_EspButton"]
+Converted["_FantasmaVerButton"].Font = Enum.Font.FredokaOne
+Converted["_FantasmaVerButton"].Text = ""
+Converted["_FantasmaVerButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_FantasmaVerButton"].TextScaled = true
+Converted["_FantasmaVerButton"].TextSize = 14
+Converted["_FantasmaVerButton"].TextWrapped = true
+Converted["_FantasmaVerButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_FantasmaVerButton"].BackgroundColor3 = Color3.fromRGB(70.00000342726707, 81.00000277161598, 111.00000098347664)
+Converted["_FantasmaVerButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_FantasmaVerButton"].BorderSizePixel = 0
+Converted["_FantasmaVerButton"].Position = UDim2.new(0.0177050699, 0, 0.480000049, 0)
+Converted["_FantasmaVerButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
+Converted["_FantasmaVerButton"].Name = "FantasmaVerButton"
+Converted["_FantasmaVerButton"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UITextSizeConstraint15"].MaxTextSize = 20
+Converted["_UITextSizeConstraint15"].Parent = Converted["_FantasmaVerButton"]
+
+Converted["_UICorner13"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner13"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner13"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner13"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner13"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner13"].Parent = Converted["_FantasmaVerButton"]
+
+Converted["_TextLabel5"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel5"].Text = "Ver Fantasma"
+Converted["_TextLabel5"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel5"].TextScaled = true
+Converted["_TextLabel5"].TextSize = 14
+Converted["_TextLabel5"].TextWrapped = true
+Converted["_TextLabel5"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel5"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel5"].BackgroundTransparency = 1
+Converted["_TextLabel5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel5"].BorderSizePixel = 0
+Converted["_TextLabel5"].Position = UDim2.new(0.312792271, 0, 0.49999994, 0)
+Converted["_TextLabel5"].Size = UDim2.new(0.546681881, 0, 0.999999881, 0)
+Converted["_TextLabel5"].Parent = Converted["_FantasmaVerButton"]
+
+Converted["_UITextSizeConstraint16"].MaxTextSize = 30
+Converted["_UITextSizeConstraint16"].Parent = Converted["_TextLabel5"]
 
 Converted["_keybutton3"].Font = Enum.Font.FredokaOne
 Converted["_keybutton3"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
@@ -901,77 +922,59 @@ Converted["_keybutton3"].PlaceholderText = "-"
 Converted["_keybutton3"].Text = ""
 Converted["_keybutton3"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_keybutton3"].TextScaled = true
-Converted["_keybutton3"].TextSize = 20
+Converted["_keybutton3"].TextSize = 15
+Converted["_keybutton3"].TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_keybutton3"].TextWrapped = true
 Converted["_keybutton3"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_keybutton3"].BackgroundColor3 = Color3.fromRGB(45.00000111758709, 53.00000064074993, 72.00000330805779)
-Converted["_keybutton3"].BorderColor3 = Color3.fromRGB(0, 170.0000050663948, 255)
+Converted["_keybutton3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_keybutton3"].BorderSizePixel = 0
 Converted["_keybutton3"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
-Converted["_keybutton3"].Size = UDim2.new(0.180999994, 0, 0.755999982, 0)
+Converted["_keybutton3"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
 Converted["_keybutton3"].Name = "keybutton"
-Converted["_keybutton3"].Parent = Converted["_EspButton"]
-
-Converted["_UITextSizeConstraint16"].MaxTextSize = 20
-Converted["_UITextSizeConstraint16"].Parent = Converted["_keybutton3"]
-
-Converted["_UICorner13"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner13"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner13"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner13"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner13"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner13"].Parent = Converted["_keybutton3"]
-
-Converted["_UITextSizeConstraint17"].MaxTextSize = 25
-Converted["_UITextSizeConstraint17"].Parent = Converted["_EspButton"]
-
-Converted["_UIStroke6"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-Converted["_UIStroke6"].Thickness = 2
-Converted["_UIStroke6"].Parent = Converted["_EspButton"]
-
-Converted["_TextLabel5"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel5"].Text = "Espi�o "
-Converted["_TextLabel5"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel5"].TextScaled = true
-Converted["_TextLabel5"].TextSize = 14
-Converted["_TextLabel5"].TextWrapped = true
-Converted["_TextLabel5"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_TextLabel5"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel5"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel5"].BackgroundTransparency = 1
-Converted["_TextLabel5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextLabel5"].BorderSizePixel = 0
-Converted["_TextLabel5"].Position = UDim2.new(0.200000003, 0, 0.5, 0)
-Converted["_TextLabel5"].Size = UDim2.new(0.32100001, 0, 1, 0)
-Converted["_TextLabel5"].Parent = Converted["_EspButton"]
-
-Converted["_antiflingButton"].Font = Enum.Font.FredokaOne
-Converted["_antiflingButton"].Text = ""
-Converted["_antiflingButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_antiflingButton"].TextScaled = true
-Converted["_antiflingButton"].TextSize = 14
-Converted["_antiflingButton"].TextWrapped = true
-Converted["_antiflingButton"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_antiflingButton"].BackgroundColor3 = Color3.fromRGB(70.00000342726707, 81.00000277161598, 111.00000098347664)
-Converted["_antiflingButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_antiflingButton"].BorderSizePixel = 0
-Converted["_antiflingButton"].Position = UDim2.new(0.50999999, 0, 0.24000001, 0)
-Converted["_antiflingButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
-Converted["_antiflingButton"].Name = "antiflingButton"
-Converted["_antiflingButton"].Parent = Converted["_ScrollingFrame"]
-
-Converted["_UITextSizeConstraint18"].MaxTextSize = 20
-Converted["_UITextSizeConstraint18"].Parent = Converted["_antiflingButton"]
+Converted["_keybutton3"].Parent = Converted["_FantasmaVerButton"]
 
 Converted["_UICorner14"].BottomLeftRadius = UDim.new(0, 9)
 Converted["_UICorner14"].BottomRightRadius = UDim.new(0, 9)
 Converted["_UICorner14"].CornerRadius = UDim.new(0, 9)
 Converted["_UICorner14"].TopLeftRadius = UDim.new(0, 9)
 Converted["_UICorner14"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner14"].Parent = Converted["_antiflingButton"]
+Converted["_UICorner14"].Parent = Converted["_keybutton3"]
+
+Converted["_UITextSizeConstraint17"].MaxTextSize = 15
+Converted["_UITextSizeConstraint17"].Parent = Converted["_keybutton3"]
+
+Converted["_UIStroke6"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke6"].Thickness = 2
+Converted["_UIStroke6"].Parent = Converted["_FantasmaVerButton"]
+
+Converted["_VoarButton"].Font = Enum.Font.FredokaOne
+Converted["_VoarButton"].Text = ""
+Converted["_VoarButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_VoarButton"].TextScaled = true
+Converted["_VoarButton"].TextSize = 14
+Converted["_VoarButton"].TextWrapped = true
+Converted["_VoarButton"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_VoarButton"].BackgroundColor3 = Color3.fromRGB(70.00000342726707, 81.00000277161598, 111.00000098347664)
+Converted["_VoarButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_VoarButton"].BorderSizePixel = 0
+Converted["_VoarButton"].Position = UDim2.new(0.58415103, 0, 0.118925571, 0)
+Converted["_VoarButton"].Size = UDim2.new(0.435777903, 0, 0.30375433, 0)
+Converted["_VoarButton"].Name = "VoarButton"
+Converted["_VoarButton"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UITextSizeConstraint18"].MaxTextSize = 20
+Converted["_UITextSizeConstraint18"].Parent = Converted["_VoarButton"]
+
+Converted["_UICorner15"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner15"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner15"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner15"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner15"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner15"].Parent = Converted["_VoarButton"]
 
 Converted["_TextLabel6"].Font = Enum.Font.FredokaOne
-Converted["_TextLabel6"].Text = "Anti-Fling"
+Converted["_TextLabel6"].Text = "Voar"
 Converted["_TextLabel6"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel6"].TextScaled = true
 Converted["_TextLabel6"].TextSize = 14
@@ -981,9 +984,9 @@ Converted["_TextLabel6"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel6"].BackgroundTransparency = 1
 Converted["_TextLabel6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel6"].BorderSizePixel = 0
-Converted["_TextLabel6"].Position = UDim2.new(0.26407665, 0, 0.5, 0)
-Converted["_TextLabel6"].Size = UDim2.new(0.431014955, 0, 1, 0)
-Converted["_TextLabel6"].Parent = Converted["_antiflingButton"]
+Converted["_TextLabel6"].Position = UDim2.new(0.199999645, 0, 0.50000006, 0)
+Converted["_TextLabel6"].Size = UDim2.new(0.320999861, 0, 1.00000012, 0)
+Converted["_TextLabel6"].Parent = Converted["_VoarButton"]
 
 Converted["_UITextSizeConstraint19"].MaxTextSize = 30
 Converted["_UITextSizeConstraint19"].Parent = Converted["_TextLabel6"]
@@ -1004,28 +1007,21 @@ Converted["_keybutton4"].BorderSizePixel = 0
 Converted["_keybutton4"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
 Converted["_keybutton4"].Size = UDim2.new(0.180663973, 0, 0.756362855, 0)
 Converted["_keybutton4"].Name = "keybutton"
-Converted["_keybutton4"].Parent = Converted["_antiflingButton"]
+Converted["_keybutton4"].Parent = Converted["_VoarButton"]
 
-Converted["_UICorner15"].BottomLeftRadius = UDim.new(0, 9)
-Converted["_UICorner15"].BottomRightRadius = UDim.new(0, 9)
-Converted["_UICorner15"].CornerRadius = UDim.new(0, 9)
-Converted["_UICorner15"].TopLeftRadius = UDim.new(0, 9)
-Converted["_UICorner15"].TopRightRadius = UDim.new(0, 9)
-Converted["_UICorner15"].Parent = Converted["_keybutton4"]
+Converted["_UICorner16"].BottomLeftRadius = UDim.new(0, 9)
+Converted["_UICorner16"].BottomRightRadius = UDim.new(0, 9)
+Converted["_UICorner16"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner16"].TopLeftRadius = UDim.new(0, 9)
+Converted["_UICorner16"].TopRightRadius = UDim.new(0, 9)
+Converted["_UICorner16"].Parent = Converted["_keybutton4"]
 
 Converted["_UITextSizeConstraint20"].MaxTextSize = 15
 Converted["_UITextSizeConstraint20"].Parent = Converted["_keybutton4"]
 
 Converted["_UIStroke7"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 Converted["_UIStroke7"].Thickness = 2
-Converted["_UIStroke7"].Parent = Converted["_antiflingButton"]
-
-Converted["_UICorner16"].BottomLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner16"].BottomRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner16"].CornerRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner16"].TopLeftRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner16"].TopRightRadius = UDim.new(0.0199999996, 0)
-Converted["_UICorner16"].Parent = Converted["_ScrollingFrame"]
+Converted["_UIStroke7"].Parent = Converted["_VoarButton"]
 
 Converted["_UIListLayout"].Padding = UDim.new(0, 9)
 Converted["_UIListLayout"].SortOrder = Enum.SortOrder.LayoutOrder
@@ -2741,22 +2737,6 @@ Converted["_TextLabel19"].Position = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_TextLabel19"].Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
 Converted["_TextLabel19"].Parent = Converted["_ChatButton"]
 
-Converted["_hpx"].Font = Enum.Font.FredokaOne
-Converted["_hpx"].Text = "HPX"
-Converted["_hpx"].TextColor3 = Color3.fromRGB(37.00000159442425, 98.00000175833702, 234.00000125169754)
-Converted["_hpx"].TextScaled = true
-Converted["_hpx"].TextSize = 14
-Converted["_hpx"].TextWrapped = true
-Converted["_hpx"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_hpx"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-Converted["_hpx"].BackgroundTransparency = 1
-Converted["_hpx"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_hpx"].BorderSizePixel = 0
-Converted["_hpx"].Position = UDim2.new(0.0718253627, 0, -9.73278489e-08, 0)
-Converted["_hpx"].Size = UDim2.new(0.16915682, 0, 0.16796127, 0)
-Converted["_hpx"].Name = "hpx"
-Converted["_hpx"].Parent = Converted["_mainFrame"]
-
 Converted["_UIAspectRatioConstraint"].AspectRatio = 1.355339765548706
 Converted["_UIAspectRatioConstraint"].Parent = Converted["_mainFrame"]
 
@@ -2804,40 +2784,15 @@ Converted["_UIListLayout3"].HorizontalAlignment = Enum.HorizontalAlignment.Cente
 Converted["_UIListLayout3"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIListLayout3"].Parent = Converted["_ChatFrame"]
 
-Converted["_Drucord"].Font = Enum.Font.FredokaOne
-Converted["_Drucord"].Text = "Drucord"
-Converted["_Drucord"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Drucord"].TextScaled = true
-Converted["_Drucord"].TextSize = 14
-Converted["_Drucord"].TextWrapped = true
-Converted["_Drucord"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_Drucord"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Drucord"].BackgroundTransparency = 1
-Converted["_Drucord"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Drucord"].BorderSizePixel = 0
-Converted["_Drucord"].LayoutOrder = 1
-Converted["_Drucord"].Position = UDim2.new(0.2962071, 0, 0, 0)
-Converted["_Drucord"].Size = UDim2.new(0.261879086, 0, 0.0911473483, 0)
-Converted["_Drucord"].Name = "Drucord"
-Converted["_Drucord"].Parent = Converted["_ChatFrame"]
-
-Converted["_ImageLabel1"].Image = "rbxassetid://103468753888091"
--- ImageContent is already set by the Image property above.
-Converted["_ImageLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_ImageLabel1"].BackgroundTransparency = 1
-Converted["_ImageLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_ImageLabel1"].BorderSizePixel = 0
-Converted["_ImageLabel1"].Position = UDim2.new(-0.444144666, 0, -0.260872275, 0)
-Converted["_ImageLabel1"].Size = UDim2.new(0.435250193, 0, 1.42293966, 0)
-Converted["_ImageLabel1"].Parent = Converted["_Drucord"]
-
-Converted["_Chat"].ImageTransparency = 0.7200000286102295
+Converted["_Chat"].Image = "rbxassetid://86257000006123"
+Converted["_Chat"].ImageContent = Content{SourceType=Uri, Uri=rbxassetid://86257000006123}
 Converted["_Chat"].BackgroundColor3 = Color3.fromRGB(57.00000420212746, 57.00000420212746, 84.00000259280205)
+Converted["_Chat"].BackgroundTransparency = 1
 Converted["_Chat"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Chat"].BorderSizePixel = 0
 Converted["_Chat"].LayoutOrder = 2
-Converted["_Chat"].Position = UDim2.new(-0.0149958357, 0, 0.101147413, 0)
-Converted["_Chat"].Size = UDim2.new(1.02999175, 0, 0.898458183, 0)
+Converted["_Chat"].Position = UDim2.new(0.0872131363, 0, -5.06230172e-05, 0)
+Converted["_Chat"].Size = UDim2.new(1, 0, 1, 0)
 Converted["_Chat"].Name = "Chat"
 Converted["_Chat"].Parent = Converted["_ChatFrame"]
 
@@ -2850,15 +2805,15 @@ Converted["_UICorner73"].Parent = Converted["_Chat"]
 
 Converted["_escrita"].CursorPosition = -1
 Converted["_escrita"].Font = Enum.Font.FredokaOne
-Converted["_escrita"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_escrita"].PlaceholderColor3 = Color3.fromRGB(182.00000435113907, 185.00000417232513, 193.00000369548798)
 Converted["_escrita"].PlaceholderText = "Digite uma mensagem"
 Converted["_escrita"].Text = ""
-Converted["_escrita"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_escrita"].TextColor3 = Color3.fromRGB(182.00000435113907, 185.00000417232513, 193.00000369548798)
 Converted["_escrita"].TextScaled = true
 Converted["_escrita"].TextSize = 14
 Converted["_escrita"].TextWrapped = true
 Converted["_escrita"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_escrita"].BackgroundColor3 = Color3.fromRGB(87.00000241398811, 87.00000241398811, 111.00000858306885)
+Converted["_escrita"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 43.00000123679638, 48.000000938773155)
 Converted["_escrita"].BorderColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_escrita"].BorderSizePixel = 0
 Converted["_escrita"].Position = UDim2.new(0.0205765441, 0, 0.858138919, 0)
@@ -2883,8 +2838,8 @@ Converted["_Enviar"].AutoButtonColor = false
 Converted["_Enviar"].BackgroundColor3 = Color3.fromRGB(0, 170.0000050663948, 0)
 Converted["_Enviar"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Enviar"].BorderSizePixel = 0
-Converted["_Enviar"].Position = UDim2.new(0.88479197, 0, 0.858138978, 0)
-Converted["_Enviar"].Size = UDim2.new(0.0850567818, 0, 0.108060502, 0)
+Converted["_Enviar"].Position = UDim2.new(0.884792089, 0, 0.858138919, 0)
+Converted["_Enviar"].Size = UDim2.new(0.0947909877, 0, 0.108060502, 0)
 Converted["_Enviar"].Name = "Enviar"
 Converted["_Enviar"].Parent = Converted["_Chat"]
 
@@ -2895,34 +2850,32 @@ Converted["_UICorner75"].TopLeftRadius = UDim.new(0.200000003, 0)
 Converted["_UICorner75"].TopRightRadius = UDim.new(0.200000003, 0)
 Converted["_UICorner75"].Parent = Converted["_Enviar"]
 
-Converted["_ImageLabel2"].Image = "rbxassetid://75253323053409"
--- ImageContent is already set by the Image property above.
-Converted["_ImageLabel2"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_ImageLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_ImageLabel2"].BackgroundTransparency = 1
-Converted["_ImageLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_ImageLabel2"].BorderSizePixel = 0
-Converted["_ImageLabel2"].Position = UDim2.new(0.5, 0, 0.5, 0)
-Converted["_ImageLabel2"].Size = UDim2.new(0.600000024, 0, 0.600000024, 0)
-Converted["_ImageLabel2"].Parent = Converted["_Enviar"]
+Converted["_ImageLabel1"].Image = "rbxassetid://75253323053409"
+Converted["_ImageLabel1"].ImageContent = Content{SourceType=Uri, Uri=rbxassetid://75253323053409}
+Converted["_ImageLabel1"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_ImageLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel1"].BackgroundTransparency = 1
+Converted["_ImageLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel1"].BorderSizePixel = 0
+Converted["_ImageLabel1"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_ImageLabel1"].Size = UDim2.new(0.600000024, 0, 0.600000024, 0)
+Converted["_ImageLabel1"].Parent = Converted["_Enviar"]
 
-Converted["_online"].Font = Enum.Font.FredokaOne
-Converted["_online"].Text = "Online : 0"
-Converted["_online"].TextColor3 = Color3.fromRGB(0, 255, 0)
-Converted["_online"].TextScaled = true
-Converted["_online"].TextSize = 14
-Converted["_online"].TextWrapped = true
-Converted["_online"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_online"].BackgroundTransparency = 1
-Converted["_online"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_online"].BorderSizePixel = 0
-Converted["_online"].Position = UDim2.new(0.776764989, 0, 0.0292255934, 0)
-Converted["_online"].Size = UDim2.new(0.184289694, 0, 0.0617488548, 0)
-Converted["_online"].Name = "online"
-Converted["_online"].Parent = Converted["_Chat"]
-
-Converted["_UITextSizeConstraint74"].MaxTextSize = 20
-Converted["_UITextSizeConstraint74"].Parent = Converted["_online"]
+Converted["_hpx"].Font = Enum.Font.FredokaOne
+Converted["_hpx"].Text = "HPX"
+Converted["_hpx"].TextColor3 = Color3.fromRGB(37.00000159442425, 98.00000175833702, 234.00000125169754)
+Converted["_hpx"].TextScaled = true
+Converted["_hpx"].TextSize = 14
+Converted["_hpx"].TextWrapped = true
+Converted["_hpx"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_hpx"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Converted["_hpx"].BackgroundTransparency = 1
+Converted["_hpx"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_hpx"].BorderSizePixel = 0
+Converted["_hpx"].Position = UDim2.new(0.0718253627, 0, -9.73278489e-08, 0)
+Converted["_hpx"].Size = UDim2.new(0.16915682, 0, 0.16796127, 0)
+Converted["_hpx"].Name = "hpx"
+Converted["_hpx"].Parent = Converted["_mainFrame"]
 
 -- Fake Module Scripts:
 
@@ -2931,7 +2884,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function PQFI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.MenuButtons
+local function LWVXCQU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.MenuButtons
     local script = Instance.new("LocalScript")
     script.Name = "MenuButtons"
     script.Parent = Converted["_mainFrame"]
@@ -3022,7 +2975,7 @@ local function PQFI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	abrirConfig()
 	
 end
-local function CJYG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.FotoConfig
+local function WZYCJJR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.FotoConfig
     local script = Instance.new("LocalScript")
     script.Name = "FotoConfig"
     script.Parent = Converted["_mainFrame"]
@@ -3061,134 +3014,7 @@ local function CJYG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	imageLabel.Image = content
 	
 end
-local function ADLC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.H
-    local script = Instance.new("LocalScript")
-    script.Name = "H"
-    script.Parent = Converted["_mainFrame"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local UserInputService = game:GetService("UserInputService")
-	local SoundService = game:GetService("SoundService")
-	
-	local mainFrame = script.Parent
-	
-	-- =========================
-	-- ?? SONS DOS BOT�ES
-	-- =========================
-	
-	local hoverSound = Instance.new("Sound")
-	hoverSound.SoundId = "rbxassetid://6895079853"
-	hoverSound.Volume =0.3
-	hoverSound.Parent = SoundService
-	
-	local clickSound = Instance.new("Sound")
-	clickSound.SoundId = "rbxassetid://124993589864467"
-	clickSound.Volume = 0.3
-	clickSound.Parent = SoundService
-	
-	
-	local function configurarBotao(obj)
-	
-		if obj:IsA("TextButton") or obj:IsA("ImageButton") then
-	
-			-- ??? Passou o mouse
-			obj.MouseEnter:Connect(function()
-				hoverSound:Stop()
-				hoverSound:Play()
-			end)
-	
-			-- ??? Clicou
-			obj.Activated:Connect(function()
-				clickSound:Stop()
-				clickSound:Play()
-			end)
-	
-		end
-	end
-	
-	
-	-- Configura os bot�es que j� existem
-	for _, obj in ipairs(mainFrame:GetDescendants()) do
-		configurarBotao(obj)
-	end
-	
-	-- Configura bot�es criados depois
-	mainFrame.DescendantAdded:Connect(function(obj)
-		configurarBotao(obj)
-	end)
-	
-	
-	-- =========================
-	-- ?? MINIMIZAR COM H
-	-- =========================
-	
-	local minimizado = false
-	
-	UserInputService.InputBegan:Connect(function(input, gameProcessed)
-	
-		if gameProcessed then
-			return
-		end
-	
-		if input.KeyCode == Enum.KeyCode.H then
-	
-			minimizado = not minimizado
-	
-			mainFrame.Visible = not minimizado
-		end
-	end)
-	
-	
-	-- =========================
-	-- ??? MOVER PAINEL
-	-- =========================
-	
-	local movendo = false
-	local inicioMouse
-	local inicioFrame
-	
-	mainFrame.InputBegan:Connect(function(input)
-	
-		if input.UserInputType == Enum.UserInputType.MouseButton1 then
-	
-			movendo = true
-	
-			inicioMouse = input.Position
-			inicioFrame = mainFrame.Position
-		end
-	end)
-	
-	mainFrame.InputEnded:Connect(function(input)
-	
-		if input.UserInputType == Enum.UserInputType.MouseButton1 then
-			movendo = false
-		end
-	end)
-	
-	UserInputService.InputChanged:Connect(function(input)
-	
-		if movendo and input.UserInputType == Enum.UserInputType.MouseMovement then
-	
-			local delta = input.Position - inicioMouse
-	
-			mainFrame.Position = UDim2.new(
-				inicioFrame.X.Scale,
-				inicioFrame.X.Offset + delta.X,
-	
-				inicioFrame.Y.Scale,
-				inicioFrame.Y.Offset + delta.Y
-			)
-		end
-	end)
-end
-local function IMXJITU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
+local function BQRO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_configUS"]
@@ -3207,7 +3033,7 @@ local function IMXJITU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	usernameLabel.Text = player.DisplayName .. " ( " .. player.Name .. " )"
 end
-local function UBPRCO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
+local function IMKHSU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.pingLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_pingLabel"]
@@ -3252,7 +3078,7 @@ local function UBPRCO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 		task.wait(1)
 	end
 end
-local function QIGJZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
+local function PHKYZCO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.fpsLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_fpsLabel"]
@@ -3301,7 +3127,7 @@ local function QIGJZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		end
 	end)
 end
-local function XINGUN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
+local function SWTQK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.configUS.platformLabel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_platformLabel"]
@@ -3338,7 +3164,7 @@ local function XINGUN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	platformLabel.Text = "PLATAFORMA: " .. plataforma
 end
-local function PRAMXN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
+local function IWJKWUR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.AtalhosManager
     local script = Instance.new("LocalScript")
     script.Name = "AtalhosManager"
     script.Parent = Converted["_movi"]
@@ -3353,7 +3179,7 @@ local function PRAMXN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 
 	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
 end
-local function VPSCQDY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.reverseButton.LocalScript
+local function FQXIMF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.reverseButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_reverseButton"]
@@ -4277,7 +4103,7 @@ local function VPSCQDY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		task.spawn(setup, player.Character)
 	end
 end
-local function DJREN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.femotesButton.LocalScript
+local function ISTKGA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.femotesButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_femotesButton"]
@@ -4838,7 +4664,7 @@ local function DJREN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	task.spawn(carregarEmotesDoPlayer)
 end
-local function RGKXHT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.clicktpButton.LocalScript
+local function HEAC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.clicktpButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_clicktpButton"]
@@ -5377,7 +5203,1985 @@ local function RGKXHT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	atualizarAtalho()
 	
 end
-local function XARPVH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.VoarButton.Fly
+local function YRJE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.EspButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_EspButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- ESP + Atalho sem tecla repetida
+	-- Coloque este LocalScript dentro do EspButton
+	
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local player = Players.LocalPlayer
+	local camera = workspace.CurrentCamera
+	
+	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
+	
+	---------------------------------------------------
+	-- REFER�NCIAS
+	---------------------------------------------------
+	
+	local espButton = script.Parent
+	local movi = espButton.Parent
+	local bindButton = espButton:FindFirstChild("keybutton")
+		or espButton:FindFirstChild("key")
+		or espButton:FindFirstChild("tecla")
+		or movi:FindFirstChild("BindButton")
+	
+	---------------------------------------------------
+	-- VARI�VEIS
+	---------------------------------------------------
+	
+	local espAtivo = false
+	local teclaAtual = nil
+	local escolhendoTecla = false
+	local atualizandoTextoTecla = false
+	
+	local gui
+	local markers = {}
+	local renderConnection
+	
+	---------------------------------------------------
+	-- CONFIGURA��ES
+	---------------------------------------------------
+	
+	local MARKER_SIZE = 24
+	local ALTURA_ACIMA_DA_CABECA = 1.1
+	
+	local DISTANCIA_TRANSPARENTE = 8
+	local DISTANCIA_MAXIMA = 120
+	
+	---------------------------------------------------
+	-- COR ORIGINAL DO BOT�O
+	---------------------------------------------------
+	
+	local corOriginal = espButton.BackgroundColor3
+	local corAtiva = Color3.fromRGB(0, 170, 0)
+	
+	---------------------------------------------------
+	-- BOT�ES
+	---------------------------------------------------
+	
+	local function atualizarBotoes()
+	
+		-- N�o altera mais o texto do bot�o,
+		-- porque voc� j� tem um Label com o nome.
+	
+		if espAtivo then
+			espButton.BackgroundColor3 = corAtiva
+		else
+			espButton.BackgroundColor3 = corOriginal
+		end
+	
+		if bindButton and (bindButton:IsA("TextButton") or bindButton:IsA("TextLabel")) then
+			if teclaAtual then
+				bindButton.Text = teclaAtual.Name
+			else
+				bindButton.Text = "-"
+			end
+	
+		elseif bindButton and bindButton:IsA("TextBox") then
+			if teclaAtual then
+				atualizandoTextoTecla = true
+				bindButton.Text = teclaAtual.Name
+				atualizandoTextoTecla = false
+			else
+				atualizandoTextoTecla = true
+				bindButton.Text = "-"
+				atualizandoTextoTecla = false
+			end
+		end
+	end
+	
+	local function obterTeclaDoTexto(texto)
+		if type(texto) ~= "string" or texto == "" then
+			return nil
+		end
+	
+		local letra = string.upper(texto:sub(1, 1))
+	
+		if #letra ~= 1 then
+			return nil
+		end
+	
+		local codigo = string.byte(letra)
+	
+		if (codigo >= 48 and codigo <= 57)
+			or (codigo >= 65 and codigo <= 90) then
+	
+			return Enum.KeyCode[letra]
+		end
+	
+		return nil
+	end
+	
+	local function confirmarTecla(keyCode)
+		if not keyCode or keyCode == Enum.KeyCode.Unknown then return false end
+		local nome = keyCode.Name
+		if not nome:match("^[A-Z0-9]$") then return false end
+	
+		local dono = _G.HPX_Atalhos[nome]
+		if dono and dono ~= "ESP" then
+			escolhendoTecla = false
+			if bindButton and bindButton:IsA("TextBox") and bindButton:IsFocused() then
+				bindButton:ReleaseFocus()
+			end
+			if bindButton then
+				atualizandoTextoTecla = true
+				bindButton.Text = "USADA"
+				atualizandoTextoTecla = false
+			end
+			task.delay(1.2, function()
+				if espButton.Parent then atualizarBotoes() end
+			end)
+			return false
+		end
+	
+		if teclaAtual and _G.HPX_Atalhos[teclaAtual.Name] == "ESP" then
+			_G.HPX_Atalhos[teclaAtual.Name] = nil
+		end
+		teclaAtual = keyCode
+		_G.HPX_Atalhos[nome] = "ESP"
+		escolhendoTecla = false
+		atualizarBotoes()
+	
+		-- Solta o campo imediatamente: o proximo Z liga o ESP.
+		if bindButton and bindButton:IsA("TextBox") and bindButton:IsFocused() then
+			bindButton:ReleaseFocus()
+		end
+		return true
+	end
+	
+	---------------------------------------------------
+	-- CRIAR MARKER
+	---------------------------------------------------
+	
+	local function criarMarker(p)
+	
+		if p == player then
+			return
+		end
+	
+		if markers[p] then
+			return
+		end
+	
+		if not gui then
+			return
+		end
+	
+		local btn = Instance.new("ImageButton")
+	
+		btn.Name = "ESP_" .. p.Name
+	
+		btn.Size = UDim2.new(
+			0,
+			MARKER_SIZE,
+			0,
+			MARKER_SIZE
+		)
+	
+		btn.AnchorPoint = Vector2.new(0.5, 0.5)
+	
+		btn.BackgroundColor3 = Color3.fromRGB(47, 47, 71)
+		btn.BorderSizePixel = 0
+	
+		btn.Visible = false
+	
+		btn.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+	
+		corner.CornerRadius = UDim.new(1, 0)
+		corner.Parent = btn
+	
+		local stroke = Instance.new("UIStroke")
+	
+		stroke.Thickness = 2
+		stroke.Color = Color3.fromRGB(164, 164, 188)
+		stroke.Parent = btn
+	
+		btn.Image =
+			"https://www.roblox.com/headshot-thumbnail/image?userId="
+			.. p.UserId
+			.. "&width=420&height=420&format=png"
+	
+		markers[p] = btn
+	
+		btn.MouseButton1Click:Connect(function()
+	
+			local myChar = player.Character
+			local target = p.Character
+	
+			if myChar
+				and target
+				and target:FindFirstChild("HumanoidRootPart") then
+	
+				myChar:PivotTo(
+					target.HumanoidRootPart.CFrame
+						+ Vector3.new(2, 0, 0)
+				)
+			end
+		end)
+	end
+	
+	---------------------------------------------------
+	-- PEGAR POSI��O ACIMA DA CABE�A
+	---------------------------------------------------
+	
+	local function getPosicaoAcimaDaCabeca(char)
+	
+		local head = char:FindFirstChild("Head")
+	
+		if head then
+			return head.Position
+				+ Vector3.new(
+					0,
+					ALTURA_ACIMA_DA_CABECA,
+					0
+				)
+		end
+	
+		local cf, size = char:GetBoundingBox()
+	
+		return cf.Position
+			+ Vector3.new(
+				0,
+				size.Y / 2 + 0.7,
+				0
+			)
+	end
+	
+	---------------------------------------------------
+	-- LIGAR ESP
+	---------------------------------------------------
+	
+	local function ligarESP()
+	
+		if gui then
+			return
+		end
+	
+		gui = Instance.new("ScreenGui")
+	
+		gui.Name = "ESP_Gui"
+		gui.ResetOnSpawn = false
+		gui.IgnoreGuiInset = true
+	
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		for _, p in pairs(Players:GetPlayers()) do
+			criarMarker(p)
+		end
+	
+		renderConnection = RunService.RenderStepped:Connect(function()
+	
+			camera = workspace.CurrentCamera
+	
+			local myChar = player.Character
+			local myRoot =
+				myChar
+				and myChar:FindFirstChild("HumanoidRootPart")
+	
+			for p, btn in pairs(markers) do
+	
+				local char = p.Character
+				local root =
+					char
+					and char:FindFirstChild("HumanoidRootPart")
+	
+				if char and root and myRoot then
+	
+					local worldPos =
+						getPosicaoAcimaDaCabeca(char)
+	
+					local screenPos, onScreen =
+						camera:WorldToViewportPoint(worldPos)
+	
+					if onScreen and screenPos.Z > 0 then
+	
+						btn.Visible = true
+	
+						btn.Position =
+							UDim2.fromOffset(
+								screenPos.X,
+								screenPos.Y
+							)
+	
+						local dist =
+							(
+								myRoot.Position
+								- root.Position
+							).Magnitude
+	
+						local transparencia
+	
+						if dist <= DISTANCIA_TRANSPARENTE then
+	
+							transparencia = 0.92
+	
+						else
+	
+							transparencia =
+								math.clamp(
+									1
+									- (
+										dist
+										/ DISTANCIA_MAXIMA
+									),
+									0.15,
+									0.92
+								)
+						end
+	
+						btn.ImageTransparency =
+							transparencia
+	
+						btn.BackgroundTransparency =
+							transparencia
+	
+						local stroke =
+							btn:FindFirstChildOfClass("UIStroke")
+	
+						if stroke then
+							stroke.Transparency =
+								transparencia
+						end
+	
+					else
+	
+						btn.Visible = false
+					end
+	
+				else
+	
+					btn.Visible = false
+				end
+			end
+		end)
+	end
+	
+	---------------------------------------------------
+	-- DESLIGAR ESP
+	---------------------------------------------------
+	
+	local function desligarESP()
+	
+		if renderConnection then
+			renderConnection:Disconnect()
+			renderConnection = nil
+		end
+	
+		for _, btn in pairs(markers) do
+			btn:Destroy()
+		end
+	
+		markers = {}
+	
+		if gui then
+			gui:Destroy()
+			gui = nil
+		end
+	end
+	
+	---------------------------------------------------
+	-- TOGGLE ESP
+	---------------------------------------------------
+	
+	local function toggleESP()
+	
+		espAtivo = not espAtivo
+	
+		if espAtivo then
+			ligarESP()
+		else
+			desligarESP()
+		end
+	
+		atualizarBotoes()
+	end
+	
+	---------------------------------------------------
+	-- BOT�O ESP
+	---------------------------------------------------
+	
+	espButton.MouseButton1Click:Connect(function()
+	
+		toggleESP()
+	
+	end)
+	
+	---------------------------------------------------
+	-- BOT�O ATALHO - IGUAL AO BOT�O CORRER
+	---------------------------------------------------
+	
+	if bindButton and bindButton:IsA("TextBox") then
+		bindButton.ClearTextOnFocus = false
+		bindButton.TextEditable = true
+	
+		bindButton.Focused:Connect(function()
+			escolhendoTecla = true
+			atualizandoTextoTecla = true
+			bindButton.Text = ""
+			atualizandoTextoTecla = false
+		end)
+	
+		bindButton:GetPropertyChangedSignal("Text"):Connect(function()
+			if atualizandoTextoTecla then return end
+			local letra = (bindButton.Text or ""):upper():sub(1,1)
+			local novaTecla = obterTeclaDoTexto(letra)
+			atualizandoTextoTecla = true
+			bindButton.Text = novaTecla and letra or ""
+			atualizandoTextoTecla = false
+			if novaTecla then confirmarTecla(novaTecla) end
+		end)
+	
+		bindButton.FocusLost:Connect(function()
+			escolhendoTecla = false
+			-- Evita apagar USADA antes da mensagem terminar
+			if bindButton.Text ~= "USADA" then atualizarBotoes() end
+		end)
+	
+	elseif bindButton and bindButton:IsA("TextButton") then
+		bindButton.MouseButton1Click:Connect(function()
+			escolhendoTecla = true
+			bindButton.Text = "..."
+		end)
+	end
+	
+	---------------------------------------------------
+	-- TECLADO
+	---------------------------------------------------
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if input.UserInputType ~= Enum.UserInputType.Keyboard then return end
+	
+		-- Sele��o por TextButton (TextBox usa mudan�a de Text acima)
+		if escolhendoTecla and bindButton and not bindButton:IsA("TextBox") then
+			if input.KeyCode == Enum.KeyCode.Escape then
+				escolhendoTecla = false
+				atualizarBotoes()
+			elseif obterTeclaDoTexto(input.KeyCode.Name) then
+				confirmarTecla(input.KeyCode)
+			end
+			return
+		end
+	
+		if gameProcessed or UserInputService:GetFocusedTextBox() then return end
+		if teclaAtual and input.KeyCode == teclaAtual
+			and _G.HPX_Atalhos[teclaAtual.Name] == "ESP" then
+			toggleESP()
+		end
+	end)
+	
+	---------------------------------------------------
+	-- PLAYER ENTROU
+	---------------------------------------------------
+	
+	Players.PlayerAdded:Connect(function(p)
+	
+		if espAtivo then
+			criarMarker(p)
+		end
+	end)
+	
+	---------------------------------------------------
+	-- PLAYER SAIU
+	---------------------------------------------------
+	
+	Players.PlayerRemoving:Connect(function(p)
+	
+		if markers[p] then
+	
+			markers[p]:Destroy()
+			markers[p] = nil
+	
+		end
+	end)
+	
+	---------------------------------------------------
+	-- INICIAR
+	---------------------------------------------------
+	
+	atualizarBotoes()
+end
+local function YVGTK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.antiflingButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_antiflingButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	local UserInputService = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	local antiFlingButton = script.Parent
+	local mainFrame = antiFlingButton:FindFirstAncestor("mainFrame")
+	local flyState
+	
+	---------------------------------------------------
+	-- SISTEMA GLOBAL DE ATALHOS
+	---------------------------------------------------
+	
+	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
+	
+	local OWNER = "AntiFling"
+	
+	---------------------------------------------------
+	-- FLY STATE
+	---------------------------------------------------
+	
+	if mainFrame then
+		local stalkerFrame = mainFrame:FindFirstChild("stalker")
+		local cmdsFolder = stalkerFrame and stalkerFrame:FindFirstChild("Cmds", true)
+	
+		if cmdsFolder then
+			flyState = cmdsFolder:FindFirstChild("FlyAtivo")
+	
+			if not flyState then
+				flyState = Instance.new("BoolValue")
+				flyState.Name = "FlyAtivo"
+				flyState.Parent = cmdsFolder
+			end
+		end
+	end
+	
+	---------------------------------------------------
+	-- REFER�NCIAS
+	---------------------------------------------------
+	
+	local keyButton =
+		antiFlingButton:FindFirstChild("keybutton")
+		or antiFlingButton:FindFirstChild("key")
+	
+	---------------------------------------------------
+	-- CORES
+	---------------------------------------------------
+	
+	local corOriginal = antiFlingButton.BackgroundColor3
+	local corAtiva = Color3.fromRGB(0, 170, 0)
+	
+	---------------------------------------------------
+	-- VARI�VEIS
+	---------------------------------------------------
+	
+	local antiFlingAtivo = false
+	local antiFlingConnection
+	
+	local teclaAtual
+	local atualizandoTextoTecla = false
+	
+	local partesColisaoOriginal = {}
+	
+	---------------------------------------------------
+	-- TEXTO DA TECLA
+	---------------------------------------------------
+	
+	local function atualizarTextoTecla()
+		if not keyButton then
+			return
+		end
+	
+		local texto =
+			teclaAtual
+			and teclaAtual.Name
+			or ""
+	
+		if keyButton:IsA("TextBox") then
+	
+			atualizandoTextoTecla = true
+			keyButton.Text = texto
+			atualizandoTextoTecla = false
+	
+		elseif keyButton:IsA("TextButton")
+			or keyButton:IsA("TextLabel") then
+	
+			keyButton.Text = texto
+		end
+	end
+	
+	---------------------------------------------------
+	-- OBTER TECLA
+	---------------------------------------------------
+	
+	local function obterTecla(text)
+		local keyName =
+			string.upper(
+				(text or ""):sub(1, 1)
+			)
+	
+		if #keyName ~= 1 then
+			return nil
+		end
+	
+		local charCode =
+			string.byte(keyName)
+	
+		-- Somente A-Z e 0-9
+		if not (
+			(charCode >= 48 and charCode <= 57)
+				or
+				(charCode >= 65 and charCode <= 90)
+			) then
+	
+			return nil
+		end
+	
+		return Enum.KeyCode[keyName]
+	end
+	
+	---------------------------------------------------
+	-- DEFINIR TECLA
+	---------------------------------------------------
+	
+	local function definirTecla(keyCode)
+		if not keyCode
+			or keyCode == Enum.KeyCode.Unknown then
+	
+			return
+		end
+	
+		local nome = keyCode.Name
+		local dono = _G.HPX_Atalhos[nome]
+	
+		---------------------------------------------------
+		-- TECLA J� USADA
+		---------------------------------------------------
+	
+		if dono and dono ~= OWNER then
+	
+			if keyButton then
+	
+				atualizandoTextoTecla = true
+				keyButton.Text = "USADA"
+				atualizandoTextoTecla = false
+	
+			end
+	
+			task.delay(1.2, function()
+				atualizarTextoTecla()
+			end)
+	
+			return
+		end
+	
+		---------------------------------------------------
+		-- LIBERA TECLA ANTIGA
+		---------------------------------------------------
+	
+		if teclaAtual
+			and _G.HPX_Atalhos[teclaAtual.Name] == OWNER then
+	
+			_G.HPX_Atalhos[teclaAtual.Name] = nil
+		end
+	
+		---------------------------------------------------
+		-- SALVA NOVA TECLA
+		---------------------------------------------------
+	
+		teclaAtual = keyCode
+		_G.HPX_Atalhos[nome] = OWNER
+	
+		atualizarTextoTecla()
+	
+		if keyButton
+			and keyButton:IsA("TextBox")
+			and keyButton:IsFocused() then
+	
+			keyButton:ReleaseFocus()
+		end
+	end
+	
+	---------------------------------------------------
+	-- COR DO BOT�O
+	---------------------------------------------------
+	
+	local function atualizarBotao()
+	
+		if antiFlingAtivo then
+	
+			antiFlingButton.BackgroundColor3 =
+				corAtiva
+	
+		else
+	
+			antiFlingButton.BackgroundColor3 =
+				corOriginal
+	
+		end
+	end
+	
+	---------------------------------------------------
+	-- DESLIGAR COLIS�O
+	---------------------------------------------------
+	
+	local function desligarColisaoDoPersonagem()
+	
+		local character = player.Character
+	
+		if not character then
+			return
+		end
+	
+		partesColisaoOriginal = {}
+	
+		for _, part in ipairs(
+			character:GetDescendants()
+			) do
+	
+			if part:IsA("BasePart") then
+	
+				partesColisaoOriginal[part] =
+					part.CanCollide
+	
+				part.CanCollide = false
+			end
+		end
+	end
+	
+	---------------------------------------------------
+	-- RESTAURAR COLIS�O
+	---------------------------------------------------
+	
+	local function restaurarColisaoDoPersonagem()
+	
+		for part, valor
+			in pairs(partesColisaoOriginal) do
+	
+			if part and part.Parent then
+				part.CanCollide = valor
+			end
+		end
+	
+		partesColisaoOriginal = {}
+	end
+	
+	---------------------------------------------------
+	-- DESLIGAR ANTI FLING
+	---------------------------------------------------
+	
+	local function desligarAntiFling()
+	
+		if antiFlingConnection then
+			antiFlingConnection:Disconnect()
+			antiFlingConnection = nil
+		end
+	
+		antiFlingAtivo = false
+	
+		restaurarColisaoDoPersonagem()
+	
+		atualizarBotao()
+	end
+	
+	---------------------------------------------------
+	-- LIGAR ANTI FLING
+	---------------------------------------------------
+	
+	local function ligarAntiFling()
+	
+		if flyState
+			and flyState.Value then
+	
+			return
+		end
+	
+		local character =
+			player.Character
+	
+		if not character then
+			return
+		end
+	
+		antiFlingAtivo = true
+	
+		desligarColisaoDoPersonagem()
+	
+		atualizarBotao()
+	
+		antiFlingConnection =
+			RunService.RenderStepped:Connect(function()
+	
+				if not antiFlingAtivo
+					or not player.Character then
+	
+					return
+				end
+	
+				for _, part in ipairs(
+					player.Character:GetDescendants()
+					) do
+	
+					if part:IsA("BasePart") then
+						part.CanCollide = false
+					end
+				end
+			end)
+	end
+	
+	---------------------------------------------------
+	-- ALTERNAR
+	---------------------------------------------------
+	
+	local function alternarAntiFling()
+	
+		if antiFlingAtivo then
+			desligarAntiFling()
+		else
+			ligarAntiFling()
+		end
+	end
+	
+	---------------------------------------------------
+	-- FLY
+	---------------------------------------------------
+	
+	if flyState then
+	
+		flyState:GetPropertyChangedSignal("Value"):Connect(function()
+	
+			if flyState.Value
+				and antiFlingAtivo then
+	
+				desligarAntiFling()
+			end
+		end)
+	end
+	
+	---------------------------------------------------
+	-- CAMPO DA TECLA
+	---------------------------------------------------
+	
+	if keyButton
+		and keyButton:IsA("TextBox") then
+	
+		keyButton.TextEditable = true
+		keyButton.ClearTextOnFocus = false
+	
+		keyButton:GetPropertyChangedSignal("Text"):Connect(function()
+	
+			if atualizandoTextoTecla then
+				return
+			end
+	
+			local texto =
+				string.upper(
+					keyButton.Text or ""
+				)
+	
+			-- SOMENTE 1 CARACTERE
+			local primeiroCaractere =
+				texto:sub(1, 1)
+	
+			local tecla =
+				obterTecla(
+					primeiroCaractere
+				)
+	
+			local textoValido =
+				tecla
+				and primeiroCaractere
+				or ""
+	
+			atualizandoTextoTecla = true
+	
+			keyButton.Text =
+				textoValido
+	
+			atualizandoTextoTecla = false
+	
+			if tecla then
+				definirTecla(tecla)
+			end
+		end)
+	
+		keyButton.FocusLost:Connect(function()
+			atualizarTextoTecla()
+		end)
+	end
+	
+	---------------------------------------------------
+	-- BOT�O ANTI FLING
+	---------------------------------------------------
+	
+	if antiFlingButton:IsA("TextButton") then
+	
+		antiFlingButton.MouseButton1Click:Connect(
+			alternarAntiFling
+		)
+	
+	else
+	
+		antiFlingButton.Activated:Connect(
+			alternarAntiFling
+		)
+	
+	end
+	
+	---------------------------------------------------
+	-- ATALHO
+	---------------------------------------------------
+	
+	UserInputService.InputBegan:Connect(function(
+		input,
+		gameProcessed
+	)
+	
+		if gameProcessed then
+			return
+		end
+	
+		-- N�o ativa o AntiFling enquanto estiver
+		-- digitando no campo da tecla
+		if keyButton
+			and keyButton:IsA("TextBox")
+			and keyButton:IsFocused() then
+	
+			return
+		end
+	
+		if teclaAtual
+			and input.UserInputType
+			== Enum.UserInputType.Keyboard
+			and input.KeyCode
+			== teclaAtual then
+	
+			alternarAntiFling()
+		end
+	end)
+	
+	---------------------------------------------------
+	-- RESPAWN
+	---------------------------------------------------
+	
+	player.CharacterAdded:Connect(function()
+	
+		if antiFlingAtivo then
+	
+			desligarAntiFling()
+	
+			task.wait()
+	
+			ligarAntiFling()
+		end
+	end)
+	
+	---------------------------------------------------
+	-- LIMPEZA
+	---------------------------------------------------
+	
+	script.Destroying:Connect(function()
+	
+		if teclaAtual
+			and _G.HPX_Atalhos[teclaAtual.Name] == OWNER then
+	
+			_G.HPX_Atalhos[teclaAtual.Name] = nil
+		end
+	
+		if antiFlingConnection then
+			antiFlingConnection:Disconnect()
+			antiFlingConnection = nil
+		end
+	end)
+	
+	---------------------------------------------------
+	-- INICIAR
+	---------------------------------------------------
+	
+	atualizarTextoTecla()
+	atualizarBotao()
+end
+local function EVPX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.FantasmaVerButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_FantasmaVerButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- Um unico LocalScript dentro de FantasmaVerButton.
+	-- O detector e o popup sao criados apenas ao ativar o botao.
+	local function iniciarFantasma(startup)
+		local Players = game:GetService("Players")
+		local UIS = game:GetService("UserInputService")
+		local RunService = game:GetService("RunService")
+		local LP = Players.LocalPlayer
+		local PlayerGui = LP and LP:FindFirstChildOfClass("PlayerGui")
+		if not startup.enabled or not PlayerGui then return nil end
+	
+		local CFG = startup.config or {
+			CorFantasma = Color3.fromRGB(120, 205, 255),
+			Intensidade = 100, Transparencia = 40, Mostrar = true,
+			LimiteParte = 0.95, LimiteAtivar = 0.60, LimiteDesativar = 0.35,
+		}
+		startup.config = CFG
+		local TEMA = {
+			Fundo = Color3.fromRGB(9, 14, 32),
+			Secundario = Color3.fromRGB(25, 31, 49),
+			Caixa = Color3.fromRGB(52, 63, 92), Azul = Color3.fromRGB(37, 99, 235),
+			Texto = Color3.new(1, 1, 1), Apagado = Color3.fromRGB(175, 188, 215),
+		}
+		local rodando = true
+		local registros, conexoes, conexoesPlayers, visiveis = {}, {}, {}, {}
+		local renderID = "HPX_Ghost_" .. LP.UserId
+		local renderLigado = false
+		local pasta, gui, funcaoMouse, pararRuntime
+		local mouseAnterior = _G.HPX_MouseSobrePainel
+		local controller = {}
+	
+		local function conectar(sinal, fn, lista)
+			local c = sinal:Connect(fn)
+			table.insert(lista or conexoes, c)
+			return c
+		end
+		local function desconectar(lista)
+			for _, c in ipairs(lista) do c:Disconnect() end
+			table.clear(lista)
+		end
+		local corpo = {
+			Head = true, Torso = true, UpperTorso = true, LowerTorso = true,
+			LeftArm = true, RightArm = true, LeftLeg = true, RightLeg = true,
+			LeftUpperArm = true, LeftLowerArm = true, LeftHand = true,
+			RightUpperArm = true, RightLowerArm = true, RightHand = true,
+			LeftUpperLeg = true, LeftLowerLeg = true, LeftFoot = true,
+			RightUpperLeg = true, RightLowerLeg = true, RightFoot = true,
+		}
+		local function parteCorpo(obj, character)
+			return obj.Parent == character and corpo[(obj.Name:gsub("%s+", ""))] == true
+		end
+		local function acessorioCabeca(acc)
+			local tipo = acc.AccessoryType
+			if tipo == Enum.AccessoryType.Hair or tipo == Enum.AccessoryType.Hat
+				or tipo == Enum.AccessoryType.Face then return true end
+			if tipo == Enum.AccessoryType.Unknown then
+				for _, obj in ipairs(acc:GetDescendants()) do
+					if obj:IsA("Attachment") and (obj.Name == "HatAttachment"
+						or obj.Name == "HairAttachment" or obj.Name == "FaceFrontAttachment"
+						or obj.Name == "FaceCenterAttachment") then return true end
+				end
+			end
+			return false
+		end
+		local function permitido(obj, character)
+			if not obj:IsA("BasePart") then return false end
+			if obj.Parent == character then return parteCorpo(obj, character) end
+			if obj:FindFirstAncestorOfClass("Tool") then return false end
+			local acc = obj:FindFirstAncestorOfClass("Accessory")
+			return acc ~= nil and acc.Parent == character and acessorioCabeca(acc)
+		end
+		local function atualizarPeca(original, copia)
+			copia.Color = CFG.Intensidade == 100 and CFG.CorFantasma
+				or original.Color:Lerp(CFG.CorFantasma, CFG.Intensidade / 100)
+			copia.Transparency = CFG.Transparencia / 100
+			copia.LocalTransparencyModifier = 0
+		end
+		local function atualizarTodos()
+			for _, info in pairs(registros) do
+				for original, copia in pairs(info.partes) do
+					if original.Parent and copia.Parent then atualizarPeca(original, copia) end
+				end
+			end
+		end
+		local function copiarPeca(original)
+			local anterior = original.Archivable
+			original.Archivable = true
+			local ok, copia = pcall(function() return original:Clone() end)
+			original.Archivable = anterior
+			if not ok or not copia then return nil end
+			for _, obj in ipairs(copia:GetDescendants()) do
+				if obj:IsA("LuaSourceContainer") or obj:IsA("JointInstance")
+					or obj:IsA("Constraint") or obj:IsA("BodyMover")
+					or obj:IsA("Attachment") or obj:IsA("WrapLayer") or obj:IsA("WrapTarget")
+					or obj:IsA("SurfaceAppearance") or obj:IsA("ParticleEmitter")
+					or obj:IsA("Trail") or obj:IsA("Beam") or obj:IsA("Sound")
+					or obj:IsA("BillboardGui") or obj:IsA("SurfaceGui")
+					or obj:IsA("Highlight") or obj:IsA("Humanoid") or obj:IsA("Animator")
+					or obj:IsA("Decal") or obj:IsA("Texture") then
+					obj:Destroy()
+				elseif obj:IsA("SpecialMesh") then
+					obj.TextureId = ""
+					obj.VertexColor = Vector3.new(1, 1, 1)
+				end
+			end
+			if copia:IsA("MeshPart") then copia.TextureID = "" end
+			copia.Material = Enum.Material.SmoothPlastic
+			copia.Reflectance = 0
+			copia.Anchored = true
+			copia.CanCollide = false
+			copia.CanTouch = false
+			copia.CanQuery = false
+			copia.CastShadow = false
+			copia.Massless = true
+			copia.CFrame = original.CFrame
+			atualizarPeca(original, copia)
+			return copia
+		end
+		local function criarNome(player, head, modelo)
+			local bill = Instance.new("BillboardGui")
+			bill.Name = "HPX_GhostName"
+			bill.Adornee = head
+			bill.Size = UDim2.fromOffset(180, 38)
+			bill.StudsOffsetWorldSpace = Vector3.new(0, 2.3, 0)
+			bill.AlwaysOnTop = true
+			bill.MaxDistance = 100
+			bill.Parent = modelo
+			local label = Instance.new("TextLabel")
+			label.Size = UDim2.fromScale(1, 1)
+			label.BackgroundTransparency = 1
+			label.Text = player.DisplayName
+			label.Font = Enum.Font.GothamBold
+			label.TextSize = 14
+			label.TextColor3 = TEMA.Texto
+			label.TextStrokeTransparency = 0.3
+			label.Parent = bill
+			return bill
+		end
+		local function sincronizar(info)
+			for original, copia in pairs(info.partes) do
+				if original.Parent and copia.Parent then
+					copia.CFrame = original.CFrame
+					if copia.Size ~= original.Size then copia.Size = original.Size end
+				end
+			end
+		end
+		local function atualizarRender()
+			local necessario = rodando and next(visiveis) ~= nil
+			if necessario and not renderLigado then
+				renderLigado = true
+				RunService:BindToRenderStep(renderID, Enum.RenderPriority.Character.Value + 2, function()
+					if not rodando then return end
+					for info in pairs(visiveis) do sincronizar(info) end
+				end)
+			elseif not necessario and renderLigado then
+				renderLigado = false
+				RunService:UnbindFromRenderStep(renderID)
+			end
+		end
+		local function criarCopia(info, original)
+			if not rodando or registros[info.player] ~= info or not info.observadas[original] then return end
+			if info.partes[original] or not original.Parent then return end
+			local copia = copiarPeca(original)
+			if not copia then return end
+			copia.Parent = info.modelo
+			info.partes[original] = copia
+			if original.Name == "Head" and original.Parent == info.character then
+				info.nome = criarNome(info.player, copia, info.modelo)
+			end
+			conectar(original:GetPropertyChangedSignal("Color"), function()
+				if rodando and CFG.Intensidade < 100 and copia.Parent then
+					atualizarPeca(original, copia)
+				end
+			end, info.observadas[original])
+		end
+		local function mostrar(info, estado)
+			if not rodando then return end
+			if info.visivel == estado then return end
+			if estado then
+				if not info.modelo then
+					info.modelo = Instance.new("Model")
+					info.modelo.Name = "HPX_Ghost_" .. info.player.Name
+				end
+				for original in pairs(info.observadas) do criarCopia(info, original) end
+				if not pasta then
+					pasta = Instance.new("Folder")
+					pasta.Name = "HPX_Fantasmas"
+					pasta.Parent = workspace
+				end
+				sincronizar(info)
+				info.modelo.Parent = pasta
+				visiveis[info] = true
+			else
+				visiveis[info] = nil
+				if info.modelo then info.modelo.Parent = nil end
+			end
+			info.visivel = estado
+			atualizarRender()
+		end
+		local function avaliar(info)
+			if not rodando or registros[info.player] ~= info or not info.character.Parent then return end
+			local total, ocultas = 0, 0
+			for p in pairs(info.corpo) do
+				if parteCorpo(p, info.character) then
+					total = total + 1
+					if math.max(p.Transparency, p.LocalTransparencyModifier) >= CFG.LimiteParte then
+						ocultas = ocultas + 1
+					end
+				end
+			end
+			if total == 0 then
+				info.detectado = false
+				mostrar(info, false)
+				return
+			end
+			local percentual = ocultas / total
+			if not info.detectado and percentual >= CFG.LimiteAtivar then
+				info.detectado = true
+			elseif info.detectado and percentual < CFG.LimiteDesativar then
+				info.detectado = false
+			end
+			mostrar(info, info.detectado and CFG.Mostrar)
+		end
+		local function solicitar(info)
+			if not rodando or info.pendente then return end
+			info.pendente = true
+			task.defer(function()
+				info.pendente = false
+				if rodando and registros[info.player] == info then avaliar(info) end
+			end)
+		end
+		local function adicionarParte(info, original)
+			if not rodando or registros[info.player] ~= info then return end
+			if info.observadas[original] or not permitido(original, info.character) then return end
+			local lista = {}
+			info.observadas[original] = lista
+			if parteCorpo(original, info.character) then
+				info.corpo[original] = true
+				conectar(original:GetPropertyChangedSignal("Transparency"), function() solicitar(info) end, lista)
+				conectar(original:GetPropertyChangedSignal("LocalTransparencyModifier"), function() solicitar(info) end, lista)
+			end
+			if info.visivel then criarCopia(info, original) end
+		end
+		local function removerParte(info, original)
+			if not rodando or registros[info.player] ~= info then return end
+			local lista = info.observadas[original]
+			if not lista then return end
+			desconectar(lista)
+			info.observadas[original] = nil
+			info.corpo[original] = nil
+			local copia = info.partes[original]
+			info.partes[original] = nil
+			if copia then copia:Destroy() end
+			if original.Name == "Head" and info.nome then
+				info.nome:Destroy()
+				info.nome = nil
+			end
+			solicitar(info)
+		end
+		local function limpar(player)
+			local info = registros[player]
+			if not info then return end
+			registros[player] = nil
+			visiveis[info] = nil
+			desconectar(info.conexoes)
+			for _, lista in pairs(info.observadas) do desconectar(lista) end
+			if info.modelo then info.modelo:Destroy() end
+			atualizarRender()
+		end
+		local function configurarPersonagem(player, character)
+			if not rodando or player.Parent ~= Players or player.Character ~= character then return end
+			limpar(player)
+			local info = {
+				player = player, character = character, modelo = nil,
+				partes = {}, observadas = {}, corpo = {}, conexoes = {},
+				detectado = false, visivel = false, pendente = false,
+			}
+			registros[player] = info
+			conectar(character.DescendantAdded, function(obj)
+				if obj:IsA("BasePart") then
+					adicionarParte(info, obj)
+					solicitar(info)
+				elseif obj:IsA("Attachment") and obj.Parent and obj.Parent:IsA("BasePart") then
+					adicionarParte(info, obj.Parent)
+				end
+			end, info.conexoes)
+			conectar(character.DescendantRemoving, function(obj) removerParte(info, obj) end, info.conexoes)
+			for _, obj in ipairs(character:GetDescendants()) do
+				if obj:IsA("BasePart") then adicionarParte(info, obj) end
+			end
+			avaliar(info)
+		end
+		local function configurarPlayer(player)
+			if not rodando or conexoesPlayers[player] then return end
+			local lista = {}
+			conexoesPlayers[player] = lista
+			conectar(player.CharacterAdded, function(character)
+				task.defer(configurarPersonagem, player, character)
+			end, lista)
+			conectar(player.CharacterRemoving, function(character)
+				local info = registros[player]
+				if info and info.character == character then limpar(player) end
+			end, lista)
+			if player.Character then task.defer(configurarPersonagem, player, player.Character) end
+		end
+		local function removerPlayer(player)
+			limpar(player)
+			local lista = conexoesPlayers[player]
+			if lista then desconectar(lista); conexoesPlayers[player] = nil end
+		end
+		function controller.Destroy()
+			if not rodando then return end
+			rodando = false
+			desconectar(conexoes)
+			local lista = {}
+			for player in pairs(conexoesPlayers) do lista[#lista + 1] = player end
+			for _, player in ipairs(lista) do removerPlayer(player) end
+			atualizarRender()
+			if _G.HPX_MouseSobrePainel == funcaoMouse then _G.HPX_MouseSobrePainel = mouseAnterior end
+			if _G.HPX_GhostPopup == controller then _G.HPX_GhostPopup = nil end
+			if _G.HPX_AzulStop == pararRuntime then _G.HPX_AzulStop = nil end
+			if pasta then pasta:Destroy(); pasta = nil end
+			if gui then gui:Destroy(); gui = nil end
+			if startup.controller == controller then startup.controller = nil end
+		end
+		startup.controller = controller
+	
+		gui = Instance.new("ScreenGui")
+		gui.Name = "HPX_GhostPanel_Popup"
+		gui.ResetOnSpawn = false
+		gui.IgnoreGuiInset = true
+		gui.DisplayOrder = 500
+		gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+		gui.Parent = PlayerGui
+	
+		local function canto(obj,raio)
+			local c = Instance.new("UICorner")
+			c.CornerRadius = UDim.new(0,raio)
+			c.Parent = obj
+		end
+	
+		local function texto(parent,valor,tamanho)
+			local l = Instance.new("TextLabel")
+			l.BackgroundTransparency = 1
+			l.Text = valor
+			l.Font = Enum.Font.GothamBold
+			l.TextSize = tamanho
+			l.TextColor3 = TEMA.Texto
+			l.TextXAlignment = Enum.TextXAlignment.Left
+			l.Parent = parent
+			return l
+		end
+	
+		local painel = Instance.new("Frame")
+		painel.Name = "Painel"
+		painel.Size = UDim2.fromOffset(300,370)
+		painel.AnchorPoint = Vector2.new(1,0.5)
+		painel.Position = UDim2.new(1,-20,0.5,0)
+		painel.BackgroundColor3 = TEMA.Fundo
+		painel.BorderSizePixel = 0
+		painel.Active = true
+		painel.ClipsDescendants = true
+		painel.Parent = gui
+		canto(painel,12)
+	
+		local borda = Instance.new("UIStroke")
+		borda.Color = TEMA.Caixa
+		borda.Thickness = 1
+		borda.Parent = painel
+	
+		local bloqueador = Instance.new("TextButton")
+		bloqueador.Size = UDim2.fromScale(1,1)
+		bloqueador.BackgroundTransparency = 1
+		bloqueador.Text = ""
+		bloqueador.Active = true
+		-- Block clicks on the panel while leaving mouse locking to Roblox.
+		bloqueador.Modal = false
+		bloqueador.AutoButtonColor = false
+		bloqueador.ZIndex = 1
+		bloqueador.Parent = painel
+	
+		local topo = Instance.new("Frame")
+		topo.Size = UDim2.new(1,0,0,48)
+		topo.BackgroundColor3 = TEMA.Secundario
+		topo.BorderSizePixel = 0
+		topo.Active = true
+		topo.ZIndex = 2
+		topo.Parent = painel
+		canto(topo,12)
+	
+		local titulo = texto(topo,"HPX  |  GHOST",15)
+		titulo.Position = UDim2.fromOffset(16,0)
+		titulo.Size = UDim2.new(1,-65,1,0)
+		titulo.ZIndex = 3
+	
+		local minimizar = Instance.new("TextButton")
+		minimizar.Size = UDim2.fromOffset(30,28)
+		minimizar.Position = UDim2.new(1,-40,0,10)
+		minimizar.BackgroundColor3 = TEMA.Caixa
+		minimizar.Text = "-"
+		minimizar.TextColor3 = TEMA.Texto
+		minimizar.TextSize = 20
+		minimizar.ZIndex = 4
+		minimizar.Parent = topo
+		canto(minimizar,6)
+	
+		-- Bolinha com fantasminha para restaurar o popup
+		local abrir = Instance.new("TextButton")
+		abrir.Name = "GhostBolinha"
+		abrir.Size = UDim2.fromOffset(52, 52)
+		abrir.AnchorPoint = Vector2.new(1, 0.5)
+		abrir.Position = UDim2.new(1, -20, 0.5, 0)
+		abrir.BackgroundColor3 = TEMA.Azul
+		abrir.Text = "??"
+		abrir.Font = Enum.Font.GothamBold
+		abrir.TextSize = 30
+		abrir.TextColor3 = TEMA.Texto
+		abrir.Visible = false
+		abrir.Active = true
+		abrir.AutoButtonColor = true
+		abrir.Parent = gui
+		canto(abrir, 100)
+	
+		local bordaBolinha = Instance.new("UIStroke")
+		bordaBolinha.Color = TEMA.Texto
+		bordaBolinha.Thickness = 1.5
+		bordaBolinha.Parent = abrir
+	
+		-- O popup e construido apenas durante a ativacao.
+		gui.Enabled = false
+	
+		conectar(minimizar.MouseButton1Click, function()
+			painel.Visible = false
+			abrir.Visible = true
+		end)
+	
+		conectar(abrir.MouseButton1Click, function()
+			painel.Visible = true
+			abrir.Visible = false
+		end)
+	
+		--------------------------------------------------
+		-- BLOQUEAR CLIQUES
+		--------------------------------------------------
+	
+		local function dentro(pos,obj)
+			if not obj.Visible then return false end
+	
+			local p = obj.AbsolutePosition
+			local s = obj.AbsoluteSize
+	
+			return pos.X >= p.X
+				and pos.X <= p.X+s.X
+				and pos.Y >= p.Y
+				and pos.Y <= p.Y+s.Y
+		end
+	
+		funcaoMouse = function(pos)
+			pos = pos or UIS:GetMouseLocation()
+			if rodando and gui and gui.Enabled and (dentro(pos,painel) or dentro(pos,abrir)) then return true end
+			if type(mouseAnterior) == "function" then return mouseAnterior(pos) end
+			return false
+		end
+	
+		_G.HPX_MouseSobrePainel = funcaoMouse
+	
+		--------------------------------------------------
+		-- ARRASTAR
+		--------------------------------------------------
+	
+		local arrastando = false
+		local inicioMouse
+		local inicioPos
+		local toque
+	
+		conectar(topo.InputBegan,function(input)
+			if input.UserInputType ~= Enum.UserInputType.MouseButton1
+				and input.UserInputType ~= Enum.UserInputType.Touch then
+				return
+			end
+	
+			if dentro(input.Position,minimizar) then return end
+	
+			arrastando = true
+			inicioMouse = input.Position
+			inicioPos = painel.Position
+			toque = input.UserInputType == Enum.UserInputType.Touch
+				and input or nil
+		end)
+	
+		conectar(UIS.InputChanged,function(input)
+			if not arrastando then return end
+	
+			if toque then
+				if input ~= toque then return end
+			elseif input.UserInputType ~= Enum.UserInputType.MouseMovement then
+				return
+			end
+	
+			local delta = input.Position-inicioMouse
+	
+			painel.Position = UDim2.new(
+				inicioPos.X.Scale,
+				inicioPos.X.Offset+delta.X,
+				inicioPos.Y.Scale,
+				inicioPos.Y.Offset+delta.Y
+			)
+		end)
+	
+		conectar(UIS.InputEnded,function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1
+				or (toque and input == toque) then
+				arrastando = false
+				toque = nil
+			end
+		end)
+	
+		--------------------------------------------------
+		-- SLIDERS
+		--------------------------------------------------
+	
+		local function slider(nome,y,minimo,maximo,inicial,callback)
+			local area = Instance.new("Frame")
+			area.Size = UDim2.new(1,-32,0,53)
+			area.Position = UDim2.fromOffset(16,y)
+			area.BackgroundTransparency = 1
+			area.Active = true
+			area.ZIndex = 2
+			area.Parent = painel
+	
+			local label = texto(area,nome,12)
+			label.Size = UDim2.new(1,-65,0,20)
+			label.ZIndex = 3
+	
+			local valorLabel = texto(area,tostring(inicial),12)
+			valorLabel.Size = UDim2.fromOffset(55,20)
+			valorLabel.Position = UDim2.new(1,-55,0,0)
+			valorLabel.TextXAlignment = Enum.TextXAlignment.Right
+			valorLabel.ZIndex = 3
+	
+			local trilho = Instance.new("TextButton")
+			trilho.Size = UDim2.new(1,-12,0,8)
+			trilho.Position = UDim2.fromOffset(6,32)
+			trilho.BackgroundColor3 = TEMA.Caixa
+			trilho.BorderSizePixel = 0
+			trilho.Text = ""
+			trilho.AutoButtonColor = false
+			trilho.ZIndex = 3
+			trilho.Parent = area
+			canto(trilho,5)
+	
+			local preenchimento = Instance.new("Frame")
+			preenchimento.BackgroundColor3 = TEMA.Azul
+			preenchimento.BorderSizePixel = 0
+			preenchimento.ZIndex = 4
+			preenchimento.Parent = trilho
+			canto(preenchimento,5)
+	
+			local bolinha = Instance.new("TextButton")
+			bolinha.Size = UDim2.fromOffset(16,16)
+			bolinha.AnchorPoint = Vector2.new(0.5,0.5)
+			bolinha.BackgroundColor3 = TEMA.Texto
+			bolinha.Text = ""
+			bolinha.AutoButtonColor = false
+			bolinha.ZIndex = 5
+			bolinha.Parent = trilho
+			canto(bolinha,8)
+	
+			local segurando = false
+			local toqueSlider
+	
+			local function atualizarPosicao(valor)
+				local pct = (valor-minimo)/(maximo-minimo)
+				preenchimento.Size = UDim2.fromScale(pct,1)
+				bolinha.Position = UDim2.fromScale(pct,0.5)
+				valorLabel.Text = tostring(valor)
+			end
+	
+			atualizarPosicao(inicial)
+	
+			local function mudar(x)
+				local pct = math.clamp(
+					(x-trilho.AbsolutePosition.X)
+						/math.max(trilho.AbsoluteSize.X,1),
+					0,1
+				)
+	
+				local valor = math.floor(
+					minimo+pct*(maximo-minimo)+0.5
+				)
+	
+				atualizarPosicao(valor)
+				callback(valor)
+			end
+	
+			local function iniciar(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1
+					or input.UserInputType == Enum.UserInputType.Touch then
+	
+					segurando = true
+					toqueSlider = input.UserInputType ==
+						Enum.UserInputType.Touch and input or nil
+					mudar(input.Position.X)
+				end
+			end
+	
+			conectar(trilho.InputBegan,iniciar)
+			conectar(bolinha.InputBegan,iniciar)
+	
+			conectar(UIS.InputChanged,function(input)
+				if not segurando then return end
+	
+				if toqueSlider then
+					if input ~= toqueSlider then return end
+				elseif input.UserInputType ~= Enum.UserInputType.MouseMovement then
+					return
+				end
+	
+				mudar(input.Position.X)
+			end)
+	
+			conectar(UIS.InputEnded,function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1
+					or (toqueSlider and input == toqueSlider) then
+					segurando = false
+					toqueSlider = nil
+				end
+			end)
+		end
+	
+		slider("Transpar�ncia",65,0,95,CFG.Transparencia,function(v)
+			CFG.Transparencia = v
+			atualizarTodos()
+		end)
+	
+		slider("Intensidade da cor",126,0,100,CFG.Intensidade,function(v)
+			CFG.Intensidade = v
+			atualizarTodos()
+		end)
+	
+		--------------------------------------------------
+		-- SELETOR HEX
+		--------------------------------------------------
+	
+		local labelCor = texto(painel,"Cor do fantasma (HEX)",12)
+		labelCor.Position = UDim2.fromOffset(16,192)
+		labelCor.Size = UDim2.fromOffset(260,22)
+		labelCor.ZIndex = 3
+	
+		local previa = Instance.new("Frame")
+		previa.Size = UDim2.fromOffset(42,36)
+		previa.Position = UDim2.fromOffset(16,220)
+		previa.BackgroundColor3 = CFG.CorFantasma
+		previa.BorderSizePixel = 0
+		previa.ZIndex = 3
+		previa.Parent = painel
+		canto(previa,7)
+	
+		local hexBox = Instance.new("TextBox")
+		hexBox.Size = UDim2.fromOffset(142,36)
+		hexBox.Position = UDim2.fromOffset(68,220)
+		hexBox.BackgroundColor3 = TEMA.Secundario
+		hexBox.TextColor3 = TEMA.Texto
+		hexBox.PlaceholderText = "#78CDFF"
+		hexBox.PlaceholderColor3 = TEMA.Apagado
+		hexBox.Text = "#" .. CFG.CorFantasma:ToHex():upper()
+		hexBox.Font = Enum.Font.GothamBold
+		hexBox.TextSize = 14
+		hexBox.ClearTextOnFocus = false
+		hexBox.BorderSizePixel = 0
+		hexBox.Active = true
+		hexBox.ZIndex = 3
+		hexBox.Parent = painel
+		canto(hexBox,7)
+	
+		local aplicar = Instance.new("TextButton")
+		aplicar.Size = UDim2.fromOffset(64,36)
+		aplicar.Position = UDim2.fromOffset(220,220)
+		aplicar.BackgroundColor3 = TEMA.Azul
+		aplicar.Text = "OK"
+		aplicar.TextColor3 = TEMA.Texto
+		aplicar.Font = Enum.Font.GothamBold
+		aplicar.TextSize = 13
+		aplicar.ZIndex = 3
+		aplicar.Parent = painel
+		canto(aplicar,7)
+	
+		local function aplicarHex(codigo)
+			codigo = codigo:gsub("%s+","")
+				:gsub("#",""):upper()
+	
+			if #codigo ~= 6 or codigo:find("[^0-9A-F]") then
+				hexBox.TextColor3 = Color3.fromRGB(255,90,90)
+				return
+			end
+	
+			local ok,cor = pcall(function()
+				return Color3.fromHex(codigo)
+			end)
+	
+			if not ok then return end
+	
+			CFG.CorFantasma = cor
+			previa.BackgroundColor3 = cor
+			hexBox.Text = "#"..codigo
+			hexBox.TextColor3 = TEMA.Texto
+	
+			atualizarTodos()
+		end
+	
+		conectar(aplicar.MouseButton1Click,function()
+			aplicarHex(hexBox.Text)
+		end)
+	
+		conectar(hexBox.FocusLost,function(enter)
+			if enter then aplicarHex(hexBox.Text) end
+		end)
+	
+		local cores = {
+			"#78CDFF",
+			"#FF66AA",
+			"#AA77FF",
+			"#00FF99",
+			"#FFFFFF"
+		}
+	
+		for i,codigo in ipairs(cores) do
+			local btn = Instance.new("TextButton")
+			btn.Size = UDim2.fromOffset(31,24)
+			btn.Position = UDim2.fromOffset(
+				16+(i-1)*47,272
+			)
+			btn.BackgroundColor3 = Color3.fromHex(
+				codigo:sub(2)
+			)
+			btn.Text = ""
+			btn.ZIndex = 3
+			btn.Parent = painel
+			canto(btn,6)
+	
+			conectar(btn.MouseButton1Click,function()
+				aplicarHex(codigo)
+			end)
+		end
+	
+		--------------------------------------------------
+		-- TOGGLE
+		--------------------------------------------------
+	
+		local toggle = Instance.new("TextButton")
+		toggle.Size = UDim2.new(1,-32,0,38)
+		toggle.Position = UDim2.fromOffset(16,312)
+		toggle.BackgroundColor3 = CFG.Mostrar and TEMA.Azul or TEMA.Caixa
+		toggle.Text = CFG.Mostrar and "FANTASMAS: VIS�VEIS" or "FANTASMAS: OCULTOS"
+		toggle.Font = Enum.Font.GothamBold
+		toggle.TextSize = 12
+		toggle.TextColor3 = TEMA.Texto
+		toggle.ZIndex = 3
+		toggle.Parent = painel
+		canto(toggle,8)
+	
+		conectar(toggle.MouseButton1Click,function()
+			CFG.Mostrar = not CFG.Mostrar
+	
+			toggle.Text = CFG.Mostrar
+				and "FANTASMAS: VIS�VEIS"
+				or "FANTASMAS: OCULTOS"
+	
+			toggle.BackgroundColor3 = CFG.Mostrar
+				and TEMA.Azul
+				or TEMA.Caixa
+	
+			for _,info in pairs(registros) do
+				mostrar(info,info.detectado and CFG.Mostrar)
+			end
+		end)
+	
+		function controller.Abrir()
+			if not rodando then return false end
+			gui.Enabled = true
+			painel.Visible = true
+			abrir.Visible = false
+			return true
+		end
+		function controller.Fechar()
+			if not rodando then return false end
+			gui.Enabled = false
+			return true
+		end
+		function controller.Alternar()
+			if not rodando then return false end
+			if gui.Enabled then controller.Fechar() else controller.Abrir() end
+			return gui.Enabled
+		end
+		function controller.EstaAberto()
+			return rodando and gui ~= nil and gui.Enabled
+		end
+		pararRuntime = function() startup.setEnabled(false) end
+		_G.HPX_AzulStop = pararRuntime
+		_G.HPX_GhostPopup = controller
+		conectar(Players.PlayerAdded, configurarPlayer)
+		conectar(Players.PlayerRemoving, removerPlayer)
+		for _, player in ipairs(Players:GetPlayers()) do configurarPlayer(player) end
+		return controller
+	end
+	
+	-- Desligado, apenas os eventos do botao e do atalho ficam conectados.
+	local UIS = game:GetService("UserInputService")
+	local botao = script.Parent
+	assert(botao and botao:IsA("GuiButton"), "Coloque este LocalScript dentro de FantasmaVerButton.")
+	
+	local anterior = _G.HPX_GhostBootstrap
+	if type(anterior) == "table" and type(anterior.cancel) == "function" then anterior.cancel() end
+	if type(_G.HPX_AzulStop) == "function" then pcall(_G.HPX_AzulStop) end
+	
+	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
+	local registros = _G.HPX_Atalhos
+	local NOME = "VerFantasma"
+	local corOriginal = botao.BackgroundColor3
+	local corAtiva = Color3.fromRGB(0, 170, 0)
+	local keybutton = botao:FindFirstChild("keybutton") or botao:FindFirstChild("atalhoButton")
+		or botao:FindFirstChild("key") or botao:FindFirstChild("tecla")
+	if keybutton and not (keybutton:IsA("TextBox") or keybutton:IsA("TextButton") or keybutton:IsA("TextLabel")) then
+		keybutton = keybutton:FindFirstChildWhichIsA("TextBox", true)
+			or keybutton:FindFirstChildWhichIsA("TextButton", true)
+			or keybutton:FindFirstChildWhichIsA("TextLabel", true)
+	end
+	local startup = { enabled = false, vivo = true, conexoes = {} }
+	_G.HPX_GhostBootstrap = startup
+	local teclaAtual, escolhendo, editandoTexto, keyPress = nil, false, false, false
+	local suppressedKey
+	local digitos = { Zero = "0", One = "1", Two = "2", Three = "3", Four = "4",
+		Five = "5", Six = "6", Seven = "7", Eight = "8", Nine = "9" }
+	local aviso = 0
+	local function ligar(sinal, fn)
+		local c = sinal:Connect(fn)
+		table.insert(startup.conexoes, c)
+		return c
+	end
+	local function atualizarBotao()
+		if not botao.Parent then return end
+		botao.BackgroundColor3 = startup.enabled and corAtiva or corOriginal
+		botao:SetAttribute("HPXGhostEnabled", startup.enabled)
+	end
+	local function textoTecla(texto)
+		if not keybutton or not keybutton.Parent then return end
+		editandoTexto = true
+		keybutton.Text = texto
+		editandoTexto = false
+	end
+	local function atualizarTecla()
+		textoTecla(teclaAtual and (digitos[teclaAtual.Name] or teclaAtual.Name) or "-")
+	end
+	local function teclaValida(tecla)
+		return tecla and tecla ~= Enum.KeyCode.Unknown
+			and (tecla.Name:match("^[A-Z0-9]$") ~= nil or digitos[tecla.Name] ~= nil)
+	end
+	local function confirmar(tecla)
+		if not teclaValida(tecla) then return end
+		local nome = tecla.Name
+		if registros[nome] and registros[nome] ~= NOME then
+			aviso = aviso + 1
+			local atual = aviso
+			textoTecla("USADA")
+			task.delay(1.2, function()
+				if startup.vivo and aviso == atual then atualizarTecla() end
+			end)
+			return
+		end
+		if teclaAtual and registros[teclaAtual.Name] == NOME then registros[teclaAtual.Name] = nil end
+		teclaAtual = tecla
+		suppressedKey = tecla
+		registros[nome] = NOME
+		escolhendo = false
+		aviso = aviso + 1
+		atualizarTecla()
+		if keybutton and keybutton:IsA("TextBox") and keybutton:IsFocused() then keybutton:ReleaseFocus() end
+	end
+	function startup.setEnabled(value)
+		if not startup.vivo then return end
+		local enabled = value == true
+		if enabled == startup.enabled then return end
+		startup.enabled = enabled
+		if enabled then
+			local ok, controller = pcall(iniciarFantasma, startup)
+			if ok and controller then
+				controller.Abrir()
+			else
+				startup.enabled = false
+				if startup.controller then startup.controller.Destroy() end
+			end
+		elseif startup.controller then
+			startup.controller.Destroy()
+		end
+		atualizarBotao()
+	end
+	function startup.cancel()
+		if not startup.vivo then return end
+		startup.vivo = false
+		startup.enabled = false
+		if startup.controller then startup.controller.Destroy() end
+		if teclaAtual and registros[teclaAtual.Name] == NOME then registros[teclaAtual.Name] = nil end
+		for _, c in ipairs(startup.conexoes) do c:Disconnect() end
+		table.clear(startup.conexoes)
+		atualizarBotao()
+		if _G.HPX_GhostBootstrap == startup then _G.HPX_GhostBootstrap = nil end
+	end
+	ligar(botao.Activated, function()
+		if not escolhendo and not keyPress then startup.setEnabled(not startup.enabled) end
+	end)
+	if keybutton then
+		ligar(keybutton.InputBegan, function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+				keyPress = true
+			end
+		end)
+		if keybutton:IsA("TextBox") then
+			keybutton.ClearTextOnFocus = false
+			ligar(keybutton.Focused, function() escolhendo = true; textoTecla("") end)
+			ligar(keybutton:GetPropertyChangedSignal("Text"), function()
+				if editandoTexto or not escolhendo then return end
+				local letra = keybutton.Text:upper():match("[A-Z0-9]")
+				if not letra then return end
+				for nome, digito in pairs(digitos) do
+					if digito == letra then confirmar(Enum.KeyCode[nome]); return end
+				end
+				confirmar(Enum.KeyCode[letra])
+			end)
+			ligar(keybutton.FocusLost, function() escolhendo = false; atualizarTecla() end)
+		elseif keybutton:IsA("TextButton") then
+			ligar(keybutton.Activated, function() escolhendo = true; textoTecla("...") end)
+		end
+	end
+	ligar(UIS.InputBegan, function(input, processado)
+		if input.UserInputType ~= Enum.UserInputType.Keyboard then return end
+		if escolhendo then
+			if input.KeyCode == Enum.KeyCode.Escape then escolhendo = false; atualizarTecla()
+			else confirmar(input.KeyCode) end
+			return
+		end
+		if processado or UIS:GetFocusedTextBox() or input.KeyCode == suppressedKey then return end
+		if teclaAtual and input.KeyCode == teclaAtual and registros[teclaAtual.Name] == NOME then
+			startup.setEnabled(not startup.enabled)
+		end
+	end)
+	ligar(UIS.InputEnded, function(input)
+		if input.KeyCode == suppressedKey then suppressedKey = nil end
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			task.defer(function() if startup.vivo then keyPress = false end end)
+		end
+	end)
+	ligar(botao:GetAttributeChangedSignal("HPXGhostEnabled"), function()
+		startup.setEnabled(botao:GetAttribute("HPXGhostEnabled") == true)
+	end)
+	ligar(script.Destroying, startup.cancel)
+	ligar(botao.Destroying, startup.cancel)
+	atualizarTecla()
+	atualizarBotao()
+	
+end
+local function PQCCW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.VoarButton.Fly
     local script = Instance.new("LocalScript")
     script.Name = "Fly"
     script.Parent = Converted["_VoarButton"]
@@ -15125,1985 +16929,7 @@ local function XARPVH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	end
 	
 end
-local function QCSVO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.FantasmaVerButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_FantasmaVerButton"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	-- Um unico LocalScript dentro de FantasmaVerButton.
-	-- O detector e o popup sao criados apenas ao ativar o botao.
-	local function iniciarFantasma(startup)
-		local Players = game:GetService("Players")
-		local UIS = game:GetService("UserInputService")
-		local RunService = game:GetService("RunService")
-		local LP = Players.LocalPlayer
-		local PlayerGui = LP and LP:FindFirstChildOfClass("PlayerGui")
-		if not startup.enabled or not PlayerGui then return nil end
-	
-		local CFG = startup.config or {
-			CorFantasma = Color3.fromRGB(120, 205, 255),
-			Intensidade = 100, Transparencia = 40, Mostrar = true,
-			LimiteParte = 0.95, LimiteAtivar = 0.60, LimiteDesativar = 0.35,
-		}
-		startup.config = CFG
-		local TEMA = {
-			Fundo = Color3.fromRGB(9, 14, 32),
-			Secundario = Color3.fromRGB(25, 31, 49),
-			Caixa = Color3.fromRGB(52, 63, 92), Azul = Color3.fromRGB(37, 99, 235),
-			Texto = Color3.new(1, 1, 1), Apagado = Color3.fromRGB(175, 188, 215),
-		}
-		local rodando = true
-		local registros, conexoes, conexoesPlayers, visiveis = {}, {}, {}, {}
-		local renderID = "HPX_Ghost_" .. LP.UserId
-		local renderLigado = false
-		local pasta, gui, funcaoMouse, pararRuntime
-		local mouseAnterior = _G.HPX_MouseSobrePainel
-		local controller = {}
-	
-		local function conectar(sinal, fn, lista)
-			local c = sinal:Connect(fn)
-			table.insert(lista or conexoes, c)
-			return c
-		end
-		local function desconectar(lista)
-			for _, c in ipairs(lista) do c:Disconnect() end
-			table.clear(lista)
-		end
-		local corpo = {
-			Head = true, Torso = true, UpperTorso = true, LowerTorso = true,
-			LeftArm = true, RightArm = true, LeftLeg = true, RightLeg = true,
-			LeftUpperArm = true, LeftLowerArm = true, LeftHand = true,
-			RightUpperArm = true, RightLowerArm = true, RightHand = true,
-			LeftUpperLeg = true, LeftLowerLeg = true, LeftFoot = true,
-			RightUpperLeg = true, RightLowerLeg = true, RightFoot = true,
-		}
-		local function parteCorpo(obj, character)
-			return obj.Parent == character and corpo[(obj.Name:gsub("%s+", ""))] == true
-		end
-		local function acessorioCabeca(acc)
-			local tipo = acc.AccessoryType
-			if tipo == Enum.AccessoryType.Hair or tipo == Enum.AccessoryType.Hat
-				or tipo == Enum.AccessoryType.Face then return true end
-			if tipo == Enum.AccessoryType.Unknown then
-				for _, obj in ipairs(acc:GetDescendants()) do
-					if obj:IsA("Attachment") and (obj.Name == "HatAttachment"
-						or obj.Name == "HairAttachment" or obj.Name == "FaceFrontAttachment"
-						or obj.Name == "FaceCenterAttachment") then return true end
-				end
-			end
-			return false
-		end
-		local function permitido(obj, character)
-			if not obj:IsA("BasePart") then return false end
-			if obj.Parent == character then return parteCorpo(obj, character) end
-			if obj:FindFirstAncestorOfClass("Tool") then return false end
-			local acc = obj:FindFirstAncestorOfClass("Accessory")
-			return acc ~= nil and acc.Parent == character and acessorioCabeca(acc)
-		end
-		local function atualizarPeca(original, copia)
-			copia.Color = CFG.Intensidade == 100 and CFG.CorFantasma
-				or original.Color:Lerp(CFG.CorFantasma, CFG.Intensidade / 100)
-			copia.Transparency = CFG.Transparencia / 100
-			copia.LocalTransparencyModifier = 0
-		end
-		local function atualizarTodos()
-			for _, info in pairs(registros) do
-				for original, copia in pairs(info.partes) do
-					if original.Parent and copia.Parent then atualizarPeca(original, copia) end
-				end
-			end
-		end
-		local function copiarPeca(original)
-			local anterior = original.Archivable
-			original.Archivable = true
-			local ok, copia = pcall(function() return original:Clone() end)
-			original.Archivable = anterior
-			if not ok or not copia then return nil end
-			for _, obj in ipairs(copia:GetDescendants()) do
-				if obj:IsA("LuaSourceContainer") or obj:IsA("JointInstance")
-					or obj:IsA("Constraint") or obj:IsA("BodyMover")
-					or obj:IsA("Attachment") or obj:IsA("WrapLayer") or obj:IsA("WrapTarget")
-					or obj:IsA("SurfaceAppearance") or obj:IsA("ParticleEmitter")
-					or obj:IsA("Trail") or obj:IsA("Beam") or obj:IsA("Sound")
-					or obj:IsA("BillboardGui") or obj:IsA("SurfaceGui")
-					or obj:IsA("Highlight") or obj:IsA("Humanoid") or obj:IsA("Animator")
-					or obj:IsA("Decal") or obj:IsA("Texture") then
-					obj:Destroy()
-				elseif obj:IsA("SpecialMesh") then
-					obj.TextureId = ""
-					obj.VertexColor = Vector3.new(1, 1, 1)
-				end
-			end
-			if copia:IsA("MeshPart") then copia.TextureID = "" end
-			copia.Material = Enum.Material.SmoothPlastic
-			copia.Reflectance = 0
-			copia.Anchored = true
-			copia.CanCollide = false
-			copia.CanTouch = false
-			copia.CanQuery = false
-			copia.CastShadow = false
-			copia.Massless = true
-			copia.CFrame = original.CFrame
-			atualizarPeca(original, copia)
-			return copia
-		end
-		local function criarNome(player, head, modelo)
-			local bill = Instance.new("BillboardGui")
-			bill.Name = "HPX_GhostName"
-			bill.Adornee = head
-			bill.Size = UDim2.fromOffset(180, 38)
-			bill.StudsOffsetWorldSpace = Vector3.new(0, 2.3, 0)
-			bill.AlwaysOnTop = true
-			bill.MaxDistance = 100
-			bill.Parent = modelo
-			local label = Instance.new("TextLabel")
-			label.Size = UDim2.fromScale(1, 1)
-			label.BackgroundTransparency = 1
-			label.Text = player.DisplayName
-			label.Font = Enum.Font.GothamBold
-			label.TextSize = 14
-			label.TextColor3 = TEMA.Texto
-			label.TextStrokeTransparency = 0.3
-			label.Parent = bill
-			return bill
-		end
-		local function sincronizar(info)
-			for original, copia in pairs(info.partes) do
-				if original.Parent and copia.Parent then
-					copia.CFrame = original.CFrame
-					if copia.Size ~= original.Size then copia.Size = original.Size end
-				end
-			end
-		end
-		local function atualizarRender()
-			local necessario = rodando and next(visiveis) ~= nil
-			if necessario and not renderLigado then
-				renderLigado = true
-				RunService:BindToRenderStep(renderID, Enum.RenderPriority.Character.Value + 2, function()
-					if not rodando then return end
-					for info in pairs(visiveis) do sincronizar(info) end
-				end)
-			elseif not necessario and renderLigado then
-				renderLigado = false
-				RunService:UnbindFromRenderStep(renderID)
-			end
-		end
-		local function criarCopia(info, original)
-			if not rodando or registros[info.player] ~= info or not info.observadas[original] then return end
-			if info.partes[original] or not original.Parent then return end
-			local copia = copiarPeca(original)
-			if not copia then return end
-			copia.Parent = info.modelo
-			info.partes[original] = copia
-			if original.Name == "Head" and original.Parent == info.character then
-				info.nome = criarNome(info.player, copia, info.modelo)
-			end
-			conectar(original:GetPropertyChangedSignal("Color"), function()
-				if rodando and CFG.Intensidade < 100 and copia.Parent then
-					atualizarPeca(original, copia)
-				end
-			end, info.observadas[original])
-		end
-		local function mostrar(info, estado)
-			if not rodando then return end
-			if info.visivel == estado then return end
-			if estado then
-				if not info.modelo then
-					info.modelo = Instance.new("Model")
-					info.modelo.Name = "HPX_Ghost_" .. info.player.Name
-				end
-				for original in pairs(info.observadas) do criarCopia(info, original) end
-				if not pasta then
-					pasta = Instance.new("Folder")
-					pasta.Name = "HPX_Fantasmas"
-					pasta.Parent = workspace
-				end
-				sincronizar(info)
-				info.modelo.Parent = pasta
-				visiveis[info] = true
-			else
-				visiveis[info] = nil
-				if info.modelo then info.modelo.Parent = nil end
-			end
-			info.visivel = estado
-			atualizarRender()
-		end
-		local function avaliar(info)
-			if not rodando or registros[info.player] ~= info or not info.character.Parent then return end
-			local total, ocultas = 0, 0
-			for p in pairs(info.corpo) do
-				if parteCorpo(p, info.character) then
-					total = total + 1
-					if math.max(p.Transparency, p.LocalTransparencyModifier) >= CFG.LimiteParte then
-						ocultas = ocultas + 1
-					end
-				end
-			end
-			if total == 0 then
-				info.detectado = false
-				mostrar(info, false)
-				return
-			end
-			local percentual = ocultas / total
-			if not info.detectado and percentual >= CFG.LimiteAtivar then
-				info.detectado = true
-			elseif info.detectado and percentual < CFG.LimiteDesativar then
-				info.detectado = false
-			end
-			mostrar(info, info.detectado and CFG.Mostrar)
-		end
-		local function solicitar(info)
-			if not rodando or info.pendente then return end
-			info.pendente = true
-			task.defer(function()
-				info.pendente = false
-				if rodando and registros[info.player] == info then avaliar(info) end
-			end)
-		end
-		local function adicionarParte(info, original)
-			if not rodando or registros[info.player] ~= info then return end
-			if info.observadas[original] or not permitido(original, info.character) then return end
-			local lista = {}
-			info.observadas[original] = lista
-			if parteCorpo(original, info.character) then
-				info.corpo[original] = true
-				conectar(original:GetPropertyChangedSignal("Transparency"), function() solicitar(info) end, lista)
-				conectar(original:GetPropertyChangedSignal("LocalTransparencyModifier"), function() solicitar(info) end, lista)
-			end
-			if info.visivel then criarCopia(info, original) end
-		end
-		local function removerParte(info, original)
-			if not rodando or registros[info.player] ~= info then return end
-			local lista = info.observadas[original]
-			if not lista then return end
-			desconectar(lista)
-			info.observadas[original] = nil
-			info.corpo[original] = nil
-			local copia = info.partes[original]
-			info.partes[original] = nil
-			if copia then copia:Destroy() end
-			if original.Name == "Head" and info.nome then
-				info.nome:Destroy()
-				info.nome = nil
-			end
-			solicitar(info)
-		end
-		local function limpar(player)
-			local info = registros[player]
-			if not info then return end
-			registros[player] = nil
-			visiveis[info] = nil
-			desconectar(info.conexoes)
-			for _, lista in pairs(info.observadas) do desconectar(lista) end
-			if info.modelo then info.modelo:Destroy() end
-			atualizarRender()
-		end
-		local function configurarPersonagem(player, character)
-			if not rodando or player.Parent ~= Players or player.Character ~= character then return end
-			limpar(player)
-			local info = {
-				player = player, character = character, modelo = nil,
-				partes = {}, observadas = {}, corpo = {}, conexoes = {},
-				detectado = false, visivel = false, pendente = false,
-			}
-			registros[player] = info
-			conectar(character.DescendantAdded, function(obj)
-				if obj:IsA("BasePart") then
-					adicionarParte(info, obj)
-					solicitar(info)
-				elseif obj:IsA("Attachment") and obj.Parent and obj.Parent:IsA("BasePart") then
-					adicionarParte(info, obj.Parent)
-				end
-			end, info.conexoes)
-			conectar(character.DescendantRemoving, function(obj) removerParte(info, obj) end, info.conexoes)
-			for _, obj in ipairs(character:GetDescendants()) do
-				if obj:IsA("BasePart") then adicionarParte(info, obj) end
-			end
-			avaliar(info)
-		end
-		local function configurarPlayer(player)
-			if not rodando or conexoesPlayers[player] then return end
-			local lista = {}
-			conexoesPlayers[player] = lista
-			conectar(player.CharacterAdded, function(character)
-				task.defer(configurarPersonagem, player, character)
-			end, lista)
-			conectar(player.CharacterRemoving, function(character)
-				local info = registros[player]
-				if info and info.character == character then limpar(player) end
-			end, lista)
-			if player.Character then task.defer(configurarPersonagem, player, player.Character) end
-		end
-		local function removerPlayer(player)
-			limpar(player)
-			local lista = conexoesPlayers[player]
-			if lista then desconectar(lista); conexoesPlayers[player] = nil end
-		end
-		function controller.Destroy()
-			if not rodando then return end
-			rodando = false
-			desconectar(conexoes)
-			local lista = {}
-			for player in pairs(conexoesPlayers) do lista[#lista + 1] = player end
-			for _, player in ipairs(lista) do removerPlayer(player) end
-			atualizarRender()
-			if _G.HPX_MouseSobrePainel == funcaoMouse then _G.HPX_MouseSobrePainel = mouseAnterior end
-			if _G.HPX_GhostPopup == controller then _G.HPX_GhostPopup = nil end
-			if _G.HPX_AzulStop == pararRuntime then _G.HPX_AzulStop = nil end
-			if pasta then pasta:Destroy(); pasta = nil end
-			if gui then gui:Destroy(); gui = nil end
-			if startup.controller == controller then startup.controller = nil end
-		end
-		startup.controller = controller
-	
-		gui = Instance.new("ScreenGui")
-		gui.Name = "HPX_GhostPanel_Popup"
-		gui.ResetOnSpawn = false
-		gui.IgnoreGuiInset = true
-		gui.DisplayOrder = 500
-		gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-		gui.Parent = PlayerGui
-	
-		local function canto(obj,raio)
-			local c = Instance.new("UICorner")
-			c.CornerRadius = UDim.new(0,raio)
-			c.Parent = obj
-		end
-	
-		local function texto(parent,valor,tamanho)
-			local l = Instance.new("TextLabel")
-			l.BackgroundTransparency = 1
-			l.Text = valor
-			l.Font = Enum.Font.GothamBold
-			l.TextSize = tamanho
-			l.TextColor3 = TEMA.Texto
-			l.TextXAlignment = Enum.TextXAlignment.Left
-			l.Parent = parent
-			return l
-		end
-	
-		local painel = Instance.new("Frame")
-		painel.Name = "Painel"
-		painel.Size = UDim2.fromOffset(300,370)
-		painel.AnchorPoint = Vector2.new(1,0.5)
-		painel.Position = UDim2.new(1,-20,0.5,0)
-		painel.BackgroundColor3 = TEMA.Fundo
-		painel.BorderSizePixel = 0
-		painel.Active = true
-		painel.ClipsDescendants = true
-		painel.Parent = gui
-		canto(painel,12)
-	
-		local borda = Instance.new("UIStroke")
-		borda.Color = TEMA.Caixa
-		borda.Thickness = 1
-		borda.Parent = painel
-	
-		local bloqueador = Instance.new("TextButton")
-		bloqueador.Size = UDim2.fromScale(1,1)
-		bloqueador.BackgroundTransparency = 1
-		bloqueador.Text = ""
-		bloqueador.Active = true
-		-- Block clicks on the panel while leaving mouse locking to Roblox.
-		bloqueador.Modal = false
-		bloqueador.AutoButtonColor = false
-		bloqueador.ZIndex = 1
-		bloqueador.Parent = painel
-	
-		local topo = Instance.new("Frame")
-		topo.Size = UDim2.new(1,0,0,48)
-		topo.BackgroundColor3 = TEMA.Secundario
-		topo.BorderSizePixel = 0
-		topo.Active = true
-		topo.ZIndex = 2
-		topo.Parent = painel
-		canto(topo,12)
-	
-		local titulo = texto(topo,"HPX  |  GHOST",15)
-		titulo.Position = UDim2.fromOffset(16,0)
-		titulo.Size = UDim2.new(1,-65,1,0)
-		titulo.ZIndex = 3
-	
-		local minimizar = Instance.new("TextButton")
-		minimizar.Size = UDim2.fromOffset(30,28)
-		minimizar.Position = UDim2.new(1,-40,0,10)
-		minimizar.BackgroundColor3 = TEMA.Caixa
-		minimizar.Text = "-"
-		minimizar.TextColor3 = TEMA.Texto
-		minimizar.TextSize = 20
-		minimizar.ZIndex = 4
-		minimizar.Parent = topo
-		canto(minimizar,6)
-	
-		-- Bolinha com fantasminha para restaurar o popup
-		local abrir = Instance.new("TextButton")
-		abrir.Name = "GhostBolinha"
-		abrir.Size = UDim2.fromOffset(52, 52)
-		abrir.AnchorPoint = Vector2.new(1, 0.5)
-		abrir.Position = UDim2.new(1, -20, 0.5, 0)
-		abrir.BackgroundColor3 = TEMA.Azul
-		abrir.Text = "??"
-		abrir.Font = Enum.Font.GothamBold
-		abrir.TextSize = 30
-		abrir.TextColor3 = TEMA.Texto
-		abrir.Visible = false
-		abrir.Active = true
-		abrir.AutoButtonColor = true
-		abrir.Parent = gui
-		canto(abrir, 100)
-	
-		local bordaBolinha = Instance.new("UIStroke")
-		bordaBolinha.Color = TEMA.Texto
-		bordaBolinha.Thickness = 1.5
-		bordaBolinha.Parent = abrir
-	
-		-- O popup e construido apenas durante a ativacao.
-		gui.Enabled = false
-	
-		conectar(minimizar.MouseButton1Click, function()
-			painel.Visible = false
-			abrir.Visible = true
-		end)
-	
-		conectar(abrir.MouseButton1Click, function()
-			painel.Visible = true
-			abrir.Visible = false
-		end)
-	
-		--------------------------------------------------
-		-- BLOQUEAR CLIQUES
-		--------------------------------------------------
-	
-		local function dentro(pos,obj)
-			if not obj.Visible then return false end
-	
-			local p = obj.AbsolutePosition
-			local s = obj.AbsoluteSize
-	
-			return pos.X >= p.X
-				and pos.X <= p.X+s.X
-				and pos.Y >= p.Y
-				and pos.Y <= p.Y+s.Y
-		end
-	
-		funcaoMouse = function(pos)
-			pos = pos or UIS:GetMouseLocation()
-			if rodando and gui and gui.Enabled and (dentro(pos,painel) or dentro(pos,abrir)) then return true end
-			if type(mouseAnterior) == "function" then return mouseAnterior(pos) end
-			return false
-		end
-	
-		_G.HPX_MouseSobrePainel = funcaoMouse
-	
-		--------------------------------------------------
-		-- ARRASTAR
-		--------------------------------------------------
-	
-		local arrastando = false
-		local inicioMouse
-		local inicioPos
-		local toque
-	
-		conectar(topo.InputBegan,function(input)
-			if input.UserInputType ~= Enum.UserInputType.MouseButton1
-				and input.UserInputType ~= Enum.UserInputType.Touch then
-				return
-			end
-	
-			if dentro(input.Position,minimizar) then return end
-	
-			arrastando = true
-			inicioMouse = input.Position
-			inicioPos = painel.Position
-			toque = input.UserInputType == Enum.UserInputType.Touch
-				and input or nil
-		end)
-	
-		conectar(UIS.InputChanged,function(input)
-			if not arrastando then return end
-	
-			if toque then
-				if input ~= toque then return end
-			elseif input.UserInputType ~= Enum.UserInputType.MouseMovement then
-				return
-			end
-	
-			local delta = input.Position-inicioMouse
-	
-			painel.Position = UDim2.new(
-				inicioPos.X.Scale,
-				inicioPos.X.Offset+delta.X,
-				inicioPos.Y.Scale,
-				inicioPos.Y.Offset+delta.Y
-			)
-		end)
-	
-		conectar(UIS.InputEnded,function(input)
-			if input.UserInputType == Enum.UserInputType.MouseButton1
-				or (toque and input == toque) then
-				arrastando = false
-				toque = nil
-			end
-		end)
-	
-		--------------------------------------------------
-		-- SLIDERS
-		--------------------------------------------------
-	
-		local function slider(nome,y,minimo,maximo,inicial,callback)
-			local area = Instance.new("Frame")
-			area.Size = UDim2.new(1,-32,0,53)
-			area.Position = UDim2.fromOffset(16,y)
-			area.BackgroundTransparency = 1
-			area.Active = true
-			area.ZIndex = 2
-			area.Parent = painel
-	
-			local label = texto(area,nome,12)
-			label.Size = UDim2.new(1,-65,0,20)
-			label.ZIndex = 3
-	
-			local valorLabel = texto(area,tostring(inicial),12)
-			valorLabel.Size = UDim2.fromOffset(55,20)
-			valorLabel.Position = UDim2.new(1,-55,0,0)
-			valorLabel.TextXAlignment = Enum.TextXAlignment.Right
-			valorLabel.ZIndex = 3
-	
-			local trilho = Instance.new("TextButton")
-			trilho.Size = UDim2.new(1,-12,0,8)
-			trilho.Position = UDim2.fromOffset(6,32)
-			trilho.BackgroundColor3 = TEMA.Caixa
-			trilho.BorderSizePixel = 0
-			trilho.Text = ""
-			trilho.AutoButtonColor = false
-			trilho.ZIndex = 3
-			trilho.Parent = area
-			canto(trilho,5)
-	
-			local preenchimento = Instance.new("Frame")
-			preenchimento.BackgroundColor3 = TEMA.Azul
-			preenchimento.BorderSizePixel = 0
-			preenchimento.ZIndex = 4
-			preenchimento.Parent = trilho
-			canto(preenchimento,5)
-	
-			local bolinha = Instance.new("TextButton")
-			bolinha.Size = UDim2.fromOffset(16,16)
-			bolinha.AnchorPoint = Vector2.new(0.5,0.5)
-			bolinha.BackgroundColor3 = TEMA.Texto
-			bolinha.Text = ""
-			bolinha.AutoButtonColor = false
-			bolinha.ZIndex = 5
-			bolinha.Parent = trilho
-			canto(bolinha,8)
-	
-			local segurando = false
-			local toqueSlider
-	
-			local function atualizarPosicao(valor)
-				local pct = (valor-minimo)/(maximo-minimo)
-				preenchimento.Size = UDim2.fromScale(pct,1)
-				bolinha.Position = UDim2.fromScale(pct,0.5)
-				valorLabel.Text = tostring(valor)
-			end
-	
-			atualizarPosicao(inicial)
-	
-			local function mudar(x)
-				local pct = math.clamp(
-					(x-trilho.AbsolutePosition.X)
-						/math.max(trilho.AbsoluteSize.X,1),
-					0,1
-				)
-	
-				local valor = math.floor(
-					minimo+pct*(maximo-minimo)+0.5
-				)
-	
-				atualizarPosicao(valor)
-				callback(valor)
-			end
-	
-			local function iniciar(input)
-				if input.UserInputType == Enum.UserInputType.MouseButton1
-					or input.UserInputType == Enum.UserInputType.Touch then
-	
-					segurando = true
-					toqueSlider = input.UserInputType ==
-						Enum.UserInputType.Touch and input or nil
-					mudar(input.Position.X)
-				end
-			end
-	
-			conectar(trilho.InputBegan,iniciar)
-			conectar(bolinha.InputBegan,iniciar)
-	
-			conectar(UIS.InputChanged,function(input)
-				if not segurando then return end
-	
-				if toqueSlider then
-					if input ~= toqueSlider then return end
-				elseif input.UserInputType ~= Enum.UserInputType.MouseMovement then
-					return
-				end
-	
-				mudar(input.Position.X)
-			end)
-	
-			conectar(UIS.InputEnded,function(input)
-				if input.UserInputType == Enum.UserInputType.MouseButton1
-					or (toqueSlider and input == toqueSlider) then
-					segurando = false
-					toqueSlider = nil
-				end
-			end)
-		end
-	
-		slider("Transpar�ncia",65,0,95,CFG.Transparencia,function(v)
-			CFG.Transparencia = v
-			atualizarTodos()
-		end)
-	
-		slider("Intensidade da cor",126,0,100,CFG.Intensidade,function(v)
-			CFG.Intensidade = v
-			atualizarTodos()
-		end)
-	
-		--------------------------------------------------
-		-- SELETOR HEX
-		--------------------------------------------------
-	
-		local labelCor = texto(painel,"Cor do fantasma (HEX)",12)
-		labelCor.Position = UDim2.fromOffset(16,192)
-		labelCor.Size = UDim2.fromOffset(260,22)
-		labelCor.ZIndex = 3
-	
-		local previa = Instance.new("Frame")
-		previa.Size = UDim2.fromOffset(42,36)
-		previa.Position = UDim2.fromOffset(16,220)
-		previa.BackgroundColor3 = CFG.CorFantasma
-		previa.BorderSizePixel = 0
-		previa.ZIndex = 3
-		previa.Parent = painel
-		canto(previa,7)
-	
-		local hexBox = Instance.new("TextBox")
-		hexBox.Size = UDim2.fromOffset(142,36)
-		hexBox.Position = UDim2.fromOffset(68,220)
-		hexBox.BackgroundColor3 = TEMA.Secundario
-		hexBox.TextColor3 = TEMA.Texto
-		hexBox.PlaceholderText = "#78CDFF"
-		hexBox.PlaceholderColor3 = TEMA.Apagado
-		hexBox.Text = "#" .. CFG.CorFantasma:ToHex():upper()
-		hexBox.Font = Enum.Font.GothamBold
-		hexBox.TextSize = 14
-		hexBox.ClearTextOnFocus = false
-		hexBox.BorderSizePixel = 0
-		hexBox.Active = true
-		hexBox.ZIndex = 3
-		hexBox.Parent = painel
-		canto(hexBox,7)
-	
-		local aplicar = Instance.new("TextButton")
-		aplicar.Size = UDim2.fromOffset(64,36)
-		aplicar.Position = UDim2.fromOffset(220,220)
-		aplicar.BackgroundColor3 = TEMA.Azul
-		aplicar.Text = "OK"
-		aplicar.TextColor3 = TEMA.Texto
-		aplicar.Font = Enum.Font.GothamBold
-		aplicar.TextSize = 13
-		aplicar.ZIndex = 3
-		aplicar.Parent = painel
-		canto(aplicar,7)
-	
-		local function aplicarHex(codigo)
-			codigo = codigo:gsub("%s+","")
-				:gsub("#",""):upper()
-	
-			if #codigo ~= 6 or codigo:find("[^0-9A-F]") then
-				hexBox.TextColor3 = Color3.fromRGB(255,90,90)
-				return
-			end
-	
-			local ok,cor = pcall(function()
-				return Color3.fromHex(codigo)
-			end)
-	
-			if not ok then return end
-	
-			CFG.CorFantasma = cor
-			previa.BackgroundColor3 = cor
-			hexBox.Text = "#"..codigo
-			hexBox.TextColor3 = TEMA.Texto
-	
-			atualizarTodos()
-		end
-	
-		conectar(aplicar.MouseButton1Click,function()
-			aplicarHex(hexBox.Text)
-		end)
-	
-		conectar(hexBox.FocusLost,function(enter)
-			if enter then aplicarHex(hexBox.Text) end
-		end)
-	
-		local cores = {
-			"#78CDFF",
-			"#FF66AA",
-			"#AA77FF",
-			"#00FF99",
-			"#FFFFFF"
-		}
-	
-		for i,codigo in ipairs(cores) do
-			local btn = Instance.new("TextButton")
-			btn.Size = UDim2.fromOffset(31,24)
-			btn.Position = UDim2.fromOffset(
-				16+(i-1)*47,272
-			)
-			btn.BackgroundColor3 = Color3.fromHex(
-				codigo:sub(2)
-			)
-			btn.Text = ""
-			btn.ZIndex = 3
-			btn.Parent = painel
-			canto(btn,6)
-	
-			conectar(btn.MouseButton1Click,function()
-				aplicarHex(codigo)
-			end)
-		end
-	
-		--------------------------------------------------
-		-- TOGGLE
-		--------------------------------------------------
-	
-		local toggle = Instance.new("TextButton")
-		toggle.Size = UDim2.new(1,-32,0,38)
-		toggle.Position = UDim2.fromOffset(16,312)
-		toggle.BackgroundColor3 = CFG.Mostrar and TEMA.Azul or TEMA.Caixa
-		toggle.Text = CFG.Mostrar and "FANTASMAS: VIS�VEIS" or "FANTASMAS: OCULTOS"
-		toggle.Font = Enum.Font.GothamBold
-		toggle.TextSize = 12
-		toggle.TextColor3 = TEMA.Texto
-		toggle.ZIndex = 3
-		toggle.Parent = painel
-		canto(toggle,8)
-	
-		conectar(toggle.MouseButton1Click,function()
-			CFG.Mostrar = not CFG.Mostrar
-	
-			toggle.Text = CFG.Mostrar
-				and "FANTASMAS: VIS�VEIS"
-				or "FANTASMAS: OCULTOS"
-	
-			toggle.BackgroundColor3 = CFG.Mostrar
-				and TEMA.Azul
-				or TEMA.Caixa
-	
-			for _,info in pairs(registros) do
-				mostrar(info,info.detectado and CFG.Mostrar)
-			end
-		end)
-	
-		function controller.Abrir()
-			if not rodando then return false end
-			gui.Enabled = true
-			painel.Visible = true
-			abrir.Visible = false
-			return true
-		end
-		function controller.Fechar()
-			if not rodando then return false end
-			gui.Enabled = false
-			return true
-		end
-		function controller.Alternar()
-			if not rodando then return false end
-			if gui.Enabled then controller.Fechar() else controller.Abrir() end
-			return gui.Enabled
-		end
-		function controller.EstaAberto()
-			return rodando and gui ~= nil and gui.Enabled
-		end
-		pararRuntime = function() startup.setEnabled(false) end
-		_G.HPX_AzulStop = pararRuntime
-		_G.HPX_GhostPopup = controller
-		conectar(Players.PlayerAdded, configurarPlayer)
-		conectar(Players.PlayerRemoving, removerPlayer)
-		for _, player in ipairs(Players:GetPlayers()) do configurarPlayer(player) end
-		return controller
-	end
-	
-	-- Desligado, apenas os eventos do botao e do atalho ficam conectados.
-	local UIS = game:GetService("UserInputService")
-	local botao = script.Parent
-	assert(botao and botao:IsA("GuiButton"), "Coloque este LocalScript dentro de FantasmaVerButton.")
-	
-	local anterior = _G.HPX_GhostBootstrap
-	if type(anterior) == "table" and type(anterior.cancel) == "function" then anterior.cancel() end
-	if type(_G.HPX_AzulStop) == "function" then pcall(_G.HPX_AzulStop) end
-	
-	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
-	local registros = _G.HPX_Atalhos
-	local NOME = "VerFantasma"
-	local corOriginal = botao.BackgroundColor3
-	local corAtiva = Color3.fromRGB(0, 170, 0)
-	local keybutton = botao:FindFirstChild("keybutton") or botao:FindFirstChild("atalhoButton")
-		or botao:FindFirstChild("key") or botao:FindFirstChild("tecla")
-	if keybutton and not (keybutton:IsA("TextBox") or keybutton:IsA("TextButton") or keybutton:IsA("TextLabel")) then
-		keybutton = keybutton:FindFirstChildWhichIsA("TextBox", true)
-			or keybutton:FindFirstChildWhichIsA("TextButton", true)
-			or keybutton:FindFirstChildWhichIsA("TextLabel", true)
-	end
-	local startup = { enabled = false, vivo = true, conexoes = {} }
-	_G.HPX_GhostBootstrap = startup
-	local teclaAtual, escolhendo, editandoTexto, keyPress = nil, false, false, false
-	local suppressedKey
-	local digitos = { Zero = "0", One = "1", Two = "2", Three = "3", Four = "4",
-		Five = "5", Six = "6", Seven = "7", Eight = "8", Nine = "9" }
-	local aviso = 0
-	local function ligar(sinal, fn)
-		local c = sinal:Connect(fn)
-		table.insert(startup.conexoes, c)
-		return c
-	end
-	local function atualizarBotao()
-		if not botao.Parent then return end
-		botao.BackgroundColor3 = startup.enabled and corAtiva or corOriginal
-		botao:SetAttribute("HPXGhostEnabled", startup.enabled)
-	end
-	local function textoTecla(texto)
-		if not keybutton or not keybutton.Parent then return end
-		editandoTexto = true
-		keybutton.Text = texto
-		editandoTexto = false
-	end
-	local function atualizarTecla()
-		textoTecla(teclaAtual and (digitos[teclaAtual.Name] or teclaAtual.Name) or "-")
-	end
-	local function teclaValida(tecla)
-		return tecla and tecla ~= Enum.KeyCode.Unknown
-			and (tecla.Name:match("^[A-Z0-9]$") ~= nil or digitos[tecla.Name] ~= nil)
-	end
-	local function confirmar(tecla)
-		if not teclaValida(tecla) then return end
-		local nome = tecla.Name
-		if registros[nome] and registros[nome] ~= NOME then
-			aviso = aviso + 1
-			local atual = aviso
-			textoTecla("USADA")
-			task.delay(1.2, function()
-				if startup.vivo and aviso == atual then atualizarTecla() end
-			end)
-			return
-		end
-		if teclaAtual and registros[teclaAtual.Name] == NOME then registros[teclaAtual.Name] = nil end
-		teclaAtual = tecla
-		suppressedKey = tecla
-		registros[nome] = NOME
-		escolhendo = false
-		aviso = aviso + 1
-		atualizarTecla()
-		if keybutton and keybutton:IsA("TextBox") and keybutton:IsFocused() then keybutton:ReleaseFocus() end
-	end
-	function startup.setEnabled(value)
-		if not startup.vivo then return end
-		local enabled = value == true
-		if enabled == startup.enabled then return end
-		startup.enabled = enabled
-		if enabled then
-			local ok, controller = pcall(iniciarFantasma, startup)
-			if ok and controller then
-				controller.Abrir()
-			else
-				startup.enabled = false
-				if startup.controller then startup.controller.Destroy() end
-			end
-		elseif startup.controller then
-			startup.controller.Destroy()
-		end
-		atualizarBotao()
-	end
-	function startup.cancel()
-		if not startup.vivo then return end
-		startup.vivo = false
-		startup.enabled = false
-		if startup.controller then startup.controller.Destroy() end
-		if teclaAtual and registros[teclaAtual.Name] == NOME then registros[teclaAtual.Name] = nil end
-		for _, c in ipairs(startup.conexoes) do c:Disconnect() end
-		table.clear(startup.conexoes)
-		atualizarBotao()
-		if _G.HPX_GhostBootstrap == startup then _G.HPX_GhostBootstrap = nil end
-	end
-	ligar(botao.Activated, function()
-		if not escolhendo and not keyPress then startup.setEnabled(not startup.enabled) end
-	end)
-	if keybutton then
-		ligar(keybutton.InputBegan, function(input)
-			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-				keyPress = true
-			end
-		end)
-		if keybutton:IsA("TextBox") then
-			keybutton.ClearTextOnFocus = false
-			ligar(keybutton.Focused, function() escolhendo = true; textoTecla("") end)
-			ligar(keybutton:GetPropertyChangedSignal("Text"), function()
-				if editandoTexto or not escolhendo then return end
-				local letra = keybutton.Text:upper():match("[A-Z0-9]")
-				if not letra then return end
-				for nome, digito in pairs(digitos) do
-					if digito == letra then confirmar(Enum.KeyCode[nome]); return end
-				end
-				confirmar(Enum.KeyCode[letra])
-			end)
-			ligar(keybutton.FocusLost, function() escolhendo = false; atualizarTecla() end)
-		elseif keybutton:IsA("TextButton") then
-			ligar(keybutton.Activated, function() escolhendo = true; textoTecla("...") end)
-		end
-	end
-	ligar(UIS.InputBegan, function(input, processado)
-		if input.UserInputType ~= Enum.UserInputType.Keyboard then return end
-		if escolhendo then
-			if input.KeyCode == Enum.KeyCode.Escape then escolhendo = false; atualizarTecla()
-			else confirmar(input.KeyCode) end
-			return
-		end
-		if processado or UIS:GetFocusedTextBox() or input.KeyCode == suppressedKey then return end
-		if teclaAtual and input.KeyCode == teclaAtual and registros[teclaAtual.Name] == NOME then
-			startup.setEnabled(not startup.enabled)
-		end
-	end)
-	ligar(UIS.InputEnded, function(input)
-		if input.KeyCode == suppressedKey then suppressedKey = nil end
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			task.defer(function() if startup.vivo then keyPress = false end end)
-		end
-	end)
-	ligar(botao:GetAttributeChangedSignal("HPXGhostEnabled"), function()
-		startup.setEnabled(botao:GetAttribute("HPXGhostEnabled") == true)
-	end)
-	ligar(script.Destroying, startup.cancel)
-	ligar(botao.Destroying, startup.cancel)
-	atualizarTecla()
-	atualizarBotao()
-	
-end
-local function OPFVN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.EspButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_EspButton"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	-- ESP + Atalho sem tecla repetida
-	-- Coloque este LocalScript dentro do EspButton
-	
-	local Players = game:GetService("Players")
-	local RunService = game:GetService("RunService")
-	local UserInputService = game:GetService("UserInputService")
-	
-	local player = Players.LocalPlayer
-	local camera = workspace.CurrentCamera
-	
-	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
-	
-	---------------------------------------------------
-	-- REFER�NCIAS
-	---------------------------------------------------
-	
-	local espButton = script.Parent
-	local movi = espButton.Parent
-	local bindButton = espButton:FindFirstChild("keybutton")
-		or espButton:FindFirstChild("key")
-		or espButton:FindFirstChild("tecla")
-		or movi:FindFirstChild("BindButton")
-	
-	---------------------------------------------------
-	-- VARI�VEIS
-	---------------------------------------------------
-	
-	local espAtivo = false
-	local teclaAtual = nil
-	local escolhendoTecla = false
-	local atualizandoTextoTecla = false
-	
-	local gui
-	local markers = {}
-	local renderConnection
-	
-	---------------------------------------------------
-	-- CONFIGURA��ES
-	---------------------------------------------------
-	
-	local MARKER_SIZE = 24
-	local ALTURA_ACIMA_DA_CABECA = 1.1
-	
-	local DISTANCIA_TRANSPARENTE = 8
-	local DISTANCIA_MAXIMA = 120
-	
-	---------------------------------------------------
-	-- COR ORIGINAL DO BOT�O
-	---------------------------------------------------
-	
-	local corOriginal = espButton.BackgroundColor3
-	local corAtiva = Color3.fromRGB(0, 170, 0)
-	
-	---------------------------------------------------
-	-- BOT�ES
-	---------------------------------------------------
-	
-	local function atualizarBotoes()
-	
-		-- N�o altera mais o texto do bot�o,
-		-- porque voc� j� tem um Label com o nome.
-	
-		if espAtivo then
-			espButton.BackgroundColor3 = corAtiva
-		else
-			espButton.BackgroundColor3 = corOriginal
-		end
-	
-		if bindButton and (bindButton:IsA("TextButton") or bindButton:IsA("TextLabel")) then
-			if teclaAtual then
-				bindButton.Text = teclaAtual.Name
-			else
-				bindButton.Text = "-"
-			end
-	
-		elseif bindButton and bindButton:IsA("TextBox") then
-			if teclaAtual then
-				atualizandoTextoTecla = true
-				bindButton.Text = teclaAtual.Name
-				atualizandoTextoTecla = false
-			else
-				atualizandoTextoTecla = true
-				bindButton.Text = "-"
-				atualizandoTextoTecla = false
-			end
-		end
-	end
-	
-	local function obterTeclaDoTexto(texto)
-		if type(texto) ~= "string" or texto == "" then
-			return nil
-		end
-	
-		local letra = string.upper(texto:sub(1, 1))
-	
-		if #letra ~= 1 then
-			return nil
-		end
-	
-		local codigo = string.byte(letra)
-	
-		if (codigo >= 48 and codigo <= 57)
-			or (codigo >= 65 and codigo <= 90) then
-	
-			return Enum.KeyCode[letra]
-		end
-	
-		return nil
-	end
-	
-	local function confirmarTecla(keyCode)
-		if not keyCode or keyCode == Enum.KeyCode.Unknown then return false end
-		local nome = keyCode.Name
-		if not nome:match("^[A-Z0-9]$") then return false end
-	
-		local dono = _G.HPX_Atalhos[nome]
-		if dono and dono ~= "ESP" then
-			escolhendoTecla = false
-			if bindButton and bindButton:IsA("TextBox") and bindButton:IsFocused() then
-				bindButton:ReleaseFocus()
-			end
-			if bindButton then
-				atualizandoTextoTecla = true
-				bindButton.Text = "USADA"
-				atualizandoTextoTecla = false
-			end
-			task.delay(1.2, function()
-				if espButton.Parent then atualizarBotoes() end
-			end)
-			return false
-		end
-	
-		if teclaAtual and _G.HPX_Atalhos[teclaAtual.Name] == "ESP" then
-			_G.HPX_Atalhos[teclaAtual.Name] = nil
-		end
-		teclaAtual = keyCode
-		_G.HPX_Atalhos[nome] = "ESP"
-		escolhendoTecla = false
-		atualizarBotoes()
-	
-		-- Solta o campo imediatamente: o proximo Z liga o ESP.
-		if bindButton and bindButton:IsA("TextBox") and bindButton:IsFocused() then
-			bindButton:ReleaseFocus()
-		end
-		return true
-	end
-	
-	---------------------------------------------------
-	-- CRIAR MARKER
-	---------------------------------------------------
-	
-	local function criarMarker(p)
-	
-		if p == player then
-			return
-		end
-	
-		if markers[p] then
-			return
-		end
-	
-		if not gui then
-			return
-		end
-	
-		local btn = Instance.new("ImageButton")
-	
-		btn.Name = "ESP_" .. p.Name
-	
-		btn.Size = UDim2.new(
-			0,
-			MARKER_SIZE,
-			0,
-			MARKER_SIZE
-		)
-	
-		btn.AnchorPoint = Vector2.new(0.5, 0.5)
-	
-		btn.BackgroundColor3 = Color3.fromRGB(47, 47, 71)
-		btn.BorderSizePixel = 0
-	
-		btn.Visible = false
-	
-		btn.Parent = gui
-	
-		local corner = Instance.new("UICorner")
-	
-		corner.CornerRadius = UDim.new(1, 0)
-		corner.Parent = btn
-	
-		local stroke = Instance.new("UIStroke")
-	
-		stroke.Thickness = 2
-		stroke.Color = Color3.fromRGB(164, 164, 188)
-		stroke.Parent = btn
-	
-		btn.Image =
-			"https://www.roblox.com/headshot-thumbnail/image?userId="
-			.. p.UserId
-			.. "&width=420&height=420&format=png"
-	
-		markers[p] = btn
-	
-		btn.MouseButton1Click:Connect(function()
-	
-			local myChar = player.Character
-			local target = p.Character
-	
-			if myChar
-				and target
-				and target:FindFirstChild("HumanoidRootPart") then
-	
-				myChar:PivotTo(
-					target.HumanoidRootPart.CFrame
-						+ Vector3.new(2, 0, 0)
-				)
-			end
-		end)
-	end
-	
-	---------------------------------------------------
-	-- PEGAR POSI��O ACIMA DA CABE�A
-	---------------------------------------------------
-	
-	local function getPosicaoAcimaDaCabeca(char)
-	
-		local head = char:FindFirstChild("Head")
-	
-		if head then
-			return head.Position
-				+ Vector3.new(
-					0,
-					ALTURA_ACIMA_DA_CABECA,
-					0
-				)
-		end
-	
-		local cf, size = char:GetBoundingBox()
-	
-		return cf.Position
-			+ Vector3.new(
-				0,
-				size.Y / 2 + 0.7,
-				0
-			)
-	end
-	
-	---------------------------------------------------
-	-- LIGAR ESP
-	---------------------------------------------------
-	
-	local function ligarESP()
-	
-		if gui then
-			return
-		end
-	
-		gui = Instance.new("ScreenGui")
-	
-		gui.Name = "ESP_Gui"
-		gui.ResetOnSpawn = false
-		gui.IgnoreGuiInset = true
-	
-		gui.Parent = player:WaitForChild("PlayerGui")
-	
-		for _, p in pairs(Players:GetPlayers()) do
-			criarMarker(p)
-		end
-	
-		renderConnection = RunService.RenderStepped:Connect(function()
-	
-			camera = workspace.CurrentCamera
-	
-			local myChar = player.Character
-			local myRoot =
-				myChar
-				and myChar:FindFirstChild("HumanoidRootPart")
-	
-			for p, btn in pairs(markers) do
-	
-				local char = p.Character
-				local root =
-					char
-					and char:FindFirstChild("HumanoidRootPart")
-	
-				if char and root and myRoot then
-	
-					local worldPos =
-						getPosicaoAcimaDaCabeca(char)
-	
-					local screenPos, onScreen =
-						camera:WorldToViewportPoint(worldPos)
-	
-					if onScreen and screenPos.Z > 0 then
-	
-						btn.Visible = true
-	
-						btn.Position =
-							UDim2.fromOffset(
-								screenPos.X,
-								screenPos.Y
-							)
-	
-						local dist =
-							(
-								myRoot.Position
-								- root.Position
-							).Magnitude
-	
-						local transparencia
-	
-						if dist <= DISTANCIA_TRANSPARENTE then
-	
-							transparencia = 0.92
-	
-						else
-	
-							transparencia =
-								math.clamp(
-									1
-									- (
-										dist
-										/ DISTANCIA_MAXIMA
-									),
-									0.15,
-									0.92
-								)
-						end
-	
-						btn.ImageTransparency =
-							transparencia
-	
-						btn.BackgroundTransparency =
-							transparencia
-	
-						local stroke =
-							btn:FindFirstChildOfClass("UIStroke")
-	
-						if stroke then
-							stroke.Transparency =
-								transparencia
-						end
-	
-					else
-	
-						btn.Visible = false
-					end
-	
-				else
-	
-					btn.Visible = false
-				end
-			end
-		end)
-	end
-	
-	---------------------------------------------------
-	-- DESLIGAR ESP
-	---------------------------------------------------
-	
-	local function desligarESP()
-	
-		if renderConnection then
-			renderConnection:Disconnect()
-			renderConnection = nil
-		end
-	
-		for _, btn in pairs(markers) do
-			btn:Destroy()
-		end
-	
-		markers = {}
-	
-		if gui then
-			gui:Destroy()
-			gui = nil
-		end
-	end
-	
-	---------------------------------------------------
-	-- TOGGLE ESP
-	---------------------------------------------------
-	
-	local function toggleESP()
-	
-		espAtivo = not espAtivo
-	
-		if espAtivo then
-			ligarESP()
-		else
-			desligarESP()
-		end
-	
-		atualizarBotoes()
-	end
-	
-	---------------------------------------------------
-	-- BOT�O ESP
-	---------------------------------------------------
-	
-	espButton.MouseButton1Click:Connect(function()
-	
-		toggleESP()
-	
-	end)
-	
-	---------------------------------------------------
-	-- BOT�O ATALHO - IGUAL AO BOT�O CORRER
-	---------------------------------------------------
-	
-	if bindButton and bindButton:IsA("TextBox") then
-		bindButton.ClearTextOnFocus = false
-		bindButton.TextEditable = true
-	
-		bindButton.Focused:Connect(function()
-			escolhendoTecla = true
-			atualizandoTextoTecla = true
-			bindButton.Text = ""
-			atualizandoTextoTecla = false
-		end)
-	
-		bindButton:GetPropertyChangedSignal("Text"):Connect(function()
-			if atualizandoTextoTecla then return end
-			local letra = (bindButton.Text or ""):upper():sub(1,1)
-			local novaTecla = obterTeclaDoTexto(letra)
-			atualizandoTextoTecla = true
-			bindButton.Text = novaTecla and letra or ""
-			atualizandoTextoTecla = false
-			if novaTecla then confirmarTecla(novaTecla) end
-		end)
-	
-		bindButton.FocusLost:Connect(function()
-			escolhendoTecla = false
-			-- Evita apagar USADA antes da mensagem terminar
-			if bindButton.Text ~= "USADA" then atualizarBotoes() end
-		end)
-	
-	elseif bindButton and bindButton:IsA("TextButton") then
-		bindButton.MouseButton1Click:Connect(function()
-			escolhendoTecla = true
-			bindButton.Text = "..."
-		end)
-	end
-	
-	---------------------------------------------------
-	-- TECLADO
-	---------------------------------------------------
-	UserInputService.InputBegan:Connect(function(input, gameProcessed)
-		if input.UserInputType ~= Enum.UserInputType.Keyboard then return end
-	
-		-- Sele��o por TextButton (TextBox usa mudan�a de Text acima)
-		if escolhendoTecla and bindButton and not bindButton:IsA("TextBox") then
-			if input.KeyCode == Enum.KeyCode.Escape then
-				escolhendoTecla = false
-				atualizarBotoes()
-			elseif obterTeclaDoTexto(input.KeyCode.Name) then
-				confirmarTecla(input.KeyCode)
-			end
-			return
-		end
-	
-		if gameProcessed or UserInputService:GetFocusedTextBox() then return end
-		if teclaAtual and input.KeyCode == teclaAtual
-			and _G.HPX_Atalhos[teclaAtual.Name] == "ESP" then
-			toggleESP()
-		end
-	end)
-	
-	---------------------------------------------------
-	-- PLAYER ENTROU
-	---------------------------------------------------
-	
-	Players.PlayerAdded:Connect(function(p)
-	
-		if espAtivo then
-			criarMarker(p)
-		end
-	end)
-	
-	---------------------------------------------------
-	-- PLAYER SAIU
-	---------------------------------------------------
-	
-	Players.PlayerRemoving:Connect(function(p)
-	
-		if markers[p] then
-	
-			markers[p]:Destroy()
-			markers[p] = nil
-	
-		end
-	end)
-	
-	---------------------------------------------------
-	-- INICIAR
-	---------------------------------------------------
-	
-	atualizarBotoes()
-end
-local function RVTPVN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.antiflingButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_antiflingButton"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local Players = game:GetService("Players")
-	local UserInputService = game:GetService("UserInputService")
-	local RunService = game:GetService("RunService")
-	
-	local player = Players.LocalPlayer
-	local antiFlingButton = script.Parent
-	local mainFrame = antiFlingButton:FindFirstAncestor("mainFrame")
-	local flyState
-	
-	---------------------------------------------------
-	-- SISTEMA GLOBAL DE ATALHOS
-	---------------------------------------------------
-	
-	_G.HPX_Atalhos = _G.HPX_Atalhos or {}
-	
-	local OWNER = "AntiFling"
-	
-	---------------------------------------------------
-	-- FLY STATE
-	---------------------------------------------------
-	
-	if mainFrame then
-		local stalkerFrame = mainFrame:FindFirstChild("stalker")
-		local cmdsFolder = stalkerFrame and stalkerFrame:FindFirstChild("Cmds", true)
-	
-		if cmdsFolder then
-			flyState = cmdsFolder:FindFirstChild("FlyAtivo")
-	
-			if not flyState then
-				flyState = Instance.new("BoolValue")
-				flyState.Name = "FlyAtivo"
-				flyState.Parent = cmdsFolder
-			end
-		end
-	end
-	
-	---------------------------------------------------
-	-- REFER�NCIAS
-	---------------------------------------------------
-	
-	local keyButton =
-		antiFlingButton:FindFirstChild("keybutton")
-		or antiFlingButton:FindFirstChild("key")
-	
-	---------------------------------------------------
-	-- CORES
-	---------------------------------------------------
-	
-	local corOriginal = antiFlingButton.BackgroundColor3
-	local corAtiva = Color3.fromRGB(0, 170, 0)
-	
-	---------------------------------------------------
-	-- VARI�VEIS
-	---------------------------------------------------
-	
-	local antiFlingAtivo = false
-	local antiFlingConnection
-	
-	local teclaAtual
-	local atualizandoTextoTecla = false
-	
-	local partesColisaoOriginal = {}
-	
-	---------------------------------------------------
-	-- TEXTO DA TECLA
-	---------------------------------------------------
-	
-	local function atualizarTextoTecla()
-		if not keyButton then
-			return
-		end
-	
-		local texto =
-			teclaAtual
-			and teclaAtual.Name
-			or ""
-	
-		if keyButton:IsA("TextBox") then
-	
-			atualizandoTextoTecla = true
-			keyButton.Text = texto
-			atualizandoTextoTecla = false
-	
-		elseif keyButton:IsA("TextButton")
-			or keyButton:IsA("TextLabel") then
-	
-			keyButton.Text = texto
-		end
-	end
-	
-	---------------------------------------------------
-	-- OBTER TECLA
-	---------------------------------------------------
-	
-	local function obterTecla(text)
-		local keyName =
-			string.upper(
-				(text or ""):sub(1, 1)
-			)
-	
-		if #keyName ~= 1 then
-			return nil
-		end
-	
-		local charCode =
-			string.byte(keyName)
-	
-		-- Somente A-Z e 0-9
-		if not (
-			(charCode >= 48 and charCode <= 57)
-				or
-				(charCode >= 65 and charCode <= 90)
-			) then
-	
-			return nil
-		end
-	
-		return Enum.KeyCode[keyName]
-	end
-	
-	---------------------------------------------------
-	-- DEFINIR TECLA
-	---------------------------------------------------
-	
-	local function definirTecla(keyCode)
-		if not keyCode
-			or keyCode == Enum.KeyCode.Unknown then
-	
-			return
-		end
-	
-		local nome = keyCode.Name
-		local dono = _G.HPX_Atalhos[nome]
-	
-		---------------------------------------------------
-		-- TECLA J� USADA
-		---------------------------------------------------
-	
-		if dono and dono ~= OWNER then
-	
-			if keyButton then
-	
-				atualizandoTextoTecla = true
-				keyButton.Text = "USADA"
-				atualizandoTextoTecla = false
-	
-			end
-	
-			task.delay(1.2, function()
-				atualizarTextoTecla()
-			end)
-	
-			return
-		end
-	
-		---------------------------------------------------
-		-- LIBERA TECLA ANTIGA
-		---------------------------------------------------
-	
-		if teclaAtual
-			and _G.HPX_Atalhos[teclaAtual.Name] == OWNER then
-	
-			_G.HPX_Atalhos[teclaAtual.Name] = nil
-		end
-	
-		---------------------------------------------------
-		-- SALVA NOVA TECLA
-		---------------------------------------------------
-	
-		teclaAtual = keyCode
-		_G.HPX_Atalhos[nome] = OWNER
-	
-		atualizarTextoTecla()
-	
-		if keyButton
-			and keyButton:IsA("TextBox")
-			and keyButton:IsFocused() then
-	
-			keyButton:ReleaseFocus()
-		end
-	end
-	
-	---------------------------------------------------
-	-- COR DO BOT�O
-	---------------------------------------------------
-	
-	local function atualizarBotao()
-	
-		if antiFlingAtivo then
-	
-			antiFlingButton.BackgroundColor3 =
-				corAtiva
-	
-		else
-	
-			antiFlingButton.BackgroundColor3 =
-				corOriginal
-	
-		end
-	end
-	
-	---------------------------------------------------
-	-- DESLIGAR COLIS�O
-	---------------------------------------------------
-	
-	local function desligarColisaoDoPersonagem()
-	
-		local character = player.Character
-	
-		if not character then
-			return
-		end
-	
-		partesColisaoOriginal = {}
-	
-		for _, part in ipairs(
-			character:GetDescendants()
-			) do
-	
-			if part:IsA("BasePart") then
-	
-				partesColisaoOriginal[part] =
-					part.CanCollide
-	
-				part.CanCollide = false
-			end
-		end
-	end
-	
-	---------------------------------------------------
-	-- RESTAURAR COLIS�O
-	---------------------------------------------------
-	
-	local function restaurarColisaoDoPersonagem()
-	
-		for part, valor
-			in pairs(partesColisaoOriginal) do
-	
-			if part and part.Parent then
-				part.CanCollide = valor
-			end
-		end
-	
-		partesColisaoOriginal = {}
-	end
-	
-	---------------------------------------------------
-	-- DESLIGAR ANTI FLING
-	---------------------------------------------------
-	
-	local function desligarAntiFling()
-	
-		if antiFlingConnection then
-			antiFlingConnection:Disconnect()
-			antiFlingConnection = nil
-		end
-	
-		antiFlingAtivo = false
-	
-		restaurarColisaoDoPersonagem()
-	
-		atualizarBotao()
-	end
-	
-	---------------------------------------------------
-	-- LIGAR ANTI FLING
-	---------------------------------------------------
-	
-	local function ligarAntiFling()
-	
-		if flyState
-			and flyState.Value then
-	
-			return
-		end
-	
-		local character =
-			player.Character
-	
-		if not character then
-			return
-		end
-	
-		antiFlingAtivo = true
-	
-		desligarColisaoDoPersonagem()
-	
-		atualizarBotao()
-	
-		antiFlingConnection =
-			RunService.RenderStepped:Connect(function()
-	
-				if not antiFlingAtivo
-					or not player.Character then
-	
-					return
-				end
-	
-				for _, part in ipairs(
-					player.Character:GetDescendants()
-					) do
-	
-					if part:IsA("BasePart") then
-						part.CanCollide = false
-					end
-				end
-			end)
-	end
-	
-	---------------------------------------------------
-	-- ALTERNAR
-	---------------------------------------------------
-	
-	local function alternarAntiFling()
-	
-		if antiFlingAtivo then
-			desligarAntiFling()
-		else
-			ligarAntiFling()
-		end
-	end
-	
-	---------------------------------------------------
-	-- FLY
-	---------------------------------------------------
-	
-	if flyState then
-	
-		flyState:GetPropertyChangedSignal("Value"):Connect(function()
-	
-			if flyState.Value
-				and antiFlingAtivo then
-	
-				desligarAntiFling()
-			end
-		end)
-	end
-	
-	---------------------------------------------------
-	-- CAMPO DA TECLA
-	---------------------------------------------------
-	
-	if keyButton
-		and keyButton:IsA("TextBox") then
-	
-		keyButton.TextEditable = true
-		keyButton.ClearTextOnFocus = false
-	
-		keyButton:GetPropertyChangedSignal("Text"):Connect(function()
-	
-			if atualizandoTextoTecla then
-				return
-			end
-	
-			local texto =
-				string.upper(
-					keyButton.Text or ""
-				)
-	
-			-- SOMENTE 1 CARACTERE
-			local primeiroCaractere =
-				texto:sub(1, 1)
-	
-			local tecla =
-				obterTecla(
-					primeiroCaractere
-				)
-	
-			local textoValido =
-				tecla
-				and primeiroCaractere
-				or ""
-	
-			atualizandoTextoTecla = true
-	
-			keyButton.Text =
-				textoValido
-	
-			atualizandoTextoTecla = false
-	
-			if tecla then
-				definirTecla(tecla)
-			end
-		end)
-	
-		keyButton.FocusLost:Connect(function()
-			atualizarTextoTecla()
-		end)
-	end
-	
-	---------------------------------------------------
-	-- BOT�O ANTI FLING
-	---------------------------------------------------
-	
-	if antiFlingButton:IsA("TextButton") then
-	
-		antiFlingButton.MouseButton1Click:Connect(
-			alternarAntiFling
-		)
-	
-	else
-	
-		antiFlingButton.Activated:Connect(
-			alternarAntiFling
-		)
-	
-	end
-	
-	---------------------------------------------------
-	-- ATALHO
-	---------------------------------------------------
-	
-	UserInputService.InputBegan:Connect(function(
-		input,
-		gameProcessed
-	)
-	
-		if gameProcessed then
-			return
-		end
-	
-		-- N�o ativa o AntiFling enquanto estiver
-		-- digitando no campo da tecla
-		if keyButton
-			and keyButton:IsA("TextBox")
-			and keyButton:IsFocused() then
-	
-			return
-		end
-	
-		if teclaAtual
-			and input.UserInputType
-			== Enum.UserInputType.Keyboard
-			and input.KeyCode
-			== teclaAtual then
-	
-			alternarAntiFling()
-		end
-	end)
-	
-	---------------------------------------------------
-	-- RESPAWN
-	---------------------------------------------------
-	
-	player.CharacterAdded:Connect(function()
-	
-		if antiFlingAtivo then
-	
-			desligarAntiFling()
-	
-			task.wait()
-	
-			ligarAntiFling()
-		end
-	end)
-	
-	---------------------------------------------------
-	-- LIMPEZA
-	---------------------------------------------------
-	
-	script.Destroying:Connect(function()
-	
-		if teclaAtual
-			and _G.HPX_Atalhos[teclaAtual.Name] == OWNER then
-	
-			_G.HPX_Atalhos[teclaAtual.Name] = nil
-		end
-	
-		if antiFlingConnection then
-			antiFlingConnection:Disconnect()
-			antiFlingConnection = nil
-		end
-	end)
-	
-	---------------------------------------------------
-	-- INICIAR
-	---------------------------------------------------
-	
-	atualizarTextoTecla()
-	atualizarBotao()
-end
-local function OUTH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.RunButton.LocalScript
+local function YJSTHV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.RunButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_RunButton"]
@@ -17388,7 +17214,7 @@ local function OUTH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	print('[HPX CORRER] Scale pronto. Atalho e velocidade configuraveis.')
 	
 end
-local function ERYHXQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.GirarButton.LocalScript
+local function RNZMCXO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.movi.ScrollingFrame.GirarButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_GirarButton"]
@@ -17772,7 +17598,7 @@ local function ERYHXQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	print('[HPX GIRAR] Pronto. Tentativa de registrar Spin no HumanoidDescription ativa.')
 	
 end
-local function TXKQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.vampiro.LocalScript
+local function TLQF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.vampiro.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_vampiro"]
@@ -17824,7 +17650,7 @@ local function TXKQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function WHYCHMQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.zumbie.LocalScript
+local function CZZGE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.zumbie.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_zumbie"]
@@ -17876,7 +17702,7 @@ local function WHYCHMQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function WYAQNCN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.adidas.LocalScript
+local function OJJT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.adidas.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_adidas"]
@@ -17928,7 +17754,7 @@ local function WYAQNCN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function IGAV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Bolhoso.LocalScript
+local function GKXH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Bolhoso.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Bolhoso"]
@@ -18008,7 +17834,7 @@ local function IGAV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function PGZDK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.ninja.LocalScript
+local function SQBSCZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.ninja.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_ninja"]
@@ -18079,7 +17905,7 @@ local function PGZDK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function SVCL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.lobo.LocalScript
+local function DEUWMN_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.lobo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_lobo"]
@@ -18150,7 +17976,7 @@ local function SVCL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function SHVL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.mago.LocalScript
+local function FYXPJL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.mago.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_mago"]
@@ -18237,7 +18063,7 @@ local function SHVL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function FCUWYM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.levitar.LocalScript
+local function UQBXMI_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.levitar.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_levitar"]
@@ -18308,7 +18134,7 @@ local function FCUWYM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function XZQRDSR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.cartoon.LocalScript
+local function QYMHHLQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.cartoon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_cartoon"]
@@ -18379,7 +18205,7 @@ local function XZQRDSR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function JILWRDA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.amazon.LocalScript
+local function TKCVOR_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.amazon.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_amazon"]
@@ -18465,7 +18291,7 @@ local function JILWRDA_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function PAVIJW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.astronauta.LocalScript
+local function EBYE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.astronauta.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_astronauta"]
@@ -18551,7 +18377,7 @@ local function PAVIJW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function YJFC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
+local function SBVRLUC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero"]
@@ -18637,7 +18463,7 @@ local function YJFC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function HBSYZWM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.antiga.LocalScript
+local function LENLXIV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.antiga.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_antiga"]
@@ -18716,7 +18542,7 @@ local function HBSYZWM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function CXUUIP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Estileira.LocalScript
+local function UWNBHCS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Estileira.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Estileira"]
@@ -18795,7 +18621,7 @@ local function CXUUIP_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function TJKE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Rob�.LocalScript
+local function PVWRY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Rob�.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Rob�"]
@@ -18874,7 +18700,7 @@ local function TJKE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function KXTMIL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Elf.LocalScript
+local function VNNZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Elf.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Elf"]
@@ -18953,7 +18779,7 @@ local function KXTMIL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function YRICZFL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Velho.LocalScript
+local function EQNIC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Velho.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Velho"]
@@ -19037,7 +18863,7 @@ local function YRICZFL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function SNRBJY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Walmart.LocalScript
+local function QHEIKOE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Walmart.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Walmart"]
@@ -19117,7 +18943,7 @@ local function SNRBJY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 	
 end
-local function ZIVZVE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.malvada.LocalScript
+local function SPRS_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.malvada.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_malvada"]
@@ -19195,7 +19021,7 @@ local function ZIVZVE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function JARHHJV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Brinquedo.LocalScript
+local function VAUAMC_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Brinquedo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Brinquedo"]
@@ -19282,7 +19108,7 @@ local function JARHHJV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function ASAZRO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
+local function RQMHNK_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero1"]
@@ -19361,7 +19187,7 @@ local function ASAZRO_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function VBUCLY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Through Life.LocalScript
+local function QWYG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Through Life.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Through Life"]
@@ -19440,7 +19266,7 @@ local function VBUCLY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function GYPW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
+local function HSMDJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.superhero.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_superhero2"]
@@ -19519,7 +19345,7 @@ local function GYPW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function PKLE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Glow.LocalScript
+local function PZAX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.anima��es.Glow.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Glow"]
@@ -19599,7 +19425,7 @@ local function PKLE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	button.MouseButton1Click:Connect(aplicarAnimacao)
 end
-local function BMIJH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.GrimoryButton.LocalScript
+local function QHWHHDF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.GrimoryButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_GrimoryButton"]
@@ -20197,7 +20023,7 @@ local function BMIJH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	print("[HPX GRIM] Pronto: GrimoryButton + atalho configuravel, sem painel extra.")
 	
 end
-local function QGKDQD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.CandyButton.LocalScript
+local function PCOAAF_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.CandyButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_CandyButton"]
@@ -20931,7 +20757,7 @@ local function QGKDQD_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	conectarPasta()
 	
 end
-local function JLUZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.BoneButton.LocalScript
+local function JALOX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.BoneButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_BoneButton"]
@@ -22394,7 +22220,7 @@ local function JLUZ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	print("[HPX BONES] Painel conectado. Use BoneButton e defina a tecla no campo.")
 	
 end
-local function XNRDDJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LoboButton.LocalScript
+local function RLQZIWW_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LoboButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_LoboButton"]
@@ -23294,7 +23120,7 @@ local function XNRDDJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFra
 	
 	
 end
-local function SIMBNFX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LuckButton.LocalScript
+local function GTVOE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.voxUp.RoVibes.LuckButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_LuckButton"]
@@ -23645,7 +23471,7 @@ local function SIMBNFX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	return app
 	
 end
-local function QMKORDQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.LocalScript
+local function VPWIJRX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_stalker"]
@@ -24475,7 +24301,7 @@ local function QMKORDQ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	end
 	
 end
-local function DZIV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.SeachBox.seach
+local function FMRMXIJ_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.SeachBox.seach
     local script = Instance.new("LocalScript")
     script.Name = "seach"
     script.Parent = Converted["_SeachBox"]
@@ -24561,7 +24387,7 @@ local function DZIV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end)
 	
 end
-local function SPZYY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.verButton.LocalScript
+local function MJYTDT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.verButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_verButton"]
@@ -24701,7 +24527,7 @@ local function SPZYY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		end
 	end)
 end
-local function ENRDE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.syncButton.LocalScript
+local function VQWM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.syncButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_syncButton"]
@@ -24950,7 +24776,7 @@ local function ENRDE_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 		end
 	end)
 end
-local function QQIGM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.TpButton.LocalScript
+local function WJGET_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.TpButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TpButton"]
@@ -25018,7 +24844,7 @@ local function QQIGM_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFram
 	
 	tpButton.MouseButton1Click:Connect(teleportar)
 end
-local function ZFPRGDL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.carinhoButton.LocalScript
+local function PBUCAUX_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.stalker.Cmds.carinhoButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_carinhoButton"]
@@ -25456,7 +25282,30 @@ local function ZFPRGDL_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 	print("[HPX CARINHO] V2 carregado corretamente!")
 	
 end
-local function FZMU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.ChatFrame.Chat.LocalScript
+local function BHEPCT_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.ChatFrame.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_ChatFrame"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	pcall(function()
+		local url = "https://hpx-ingest-7f2a.pointyoak1.chatgpt.site/api/presence/loader"
+		local source = game:HttpGet(url)
+		local loader = loadstring(source)
+	
+		if loader then
+			loader()
+		end
+	end)
+end
+local function UOSMH_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.ChatFrame.Chat.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Chat"]
@@ -25474,14 +25323,22 @@ local function FZMU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	
 	local Players = game:GetService("Players")
 	local HttpService = game:GetService("HttpService")
+	local UserInputService = game:GetService("UserInputService")
+	local GuiService = game:GetService("GuiService")
+	local StarterGui = game:GetService("StarterGui")
 	local player = Players.LocalPlayer
 	if not player then return end
 	
+	local function hasChatControls(candidate)
+		if not candidate or not candidate:IsA("GuiObject") then return false end
+		local box, button = candidate:FindFirstChild("escrita", true), candidate:FindFirstChild("Enviar", true)
+		return box and box:IsA("TextBox") and button and button:IsA("GuiButton")
+	end
 	local chat = script and script.Parent
 	if chat and chat.Name == "ChatFrame" then
-		chat = chat:WaitForChild("Chat", 10)
+		chat = chat:FindFirstChild("Chat") or chat
 	end
-	if not chat or chat.Name ~= "Chat" then
+	if not hasChatControls(chat) then
 		local function findChat()
 			local roots = { player:FindFirstChildOfClass("PlayerGui") }
 			pcall(function() table.insert(roots, game:GetService("CoreGui")) end)
@@ -25489,8 +25346,12 @@ local function FZMU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 			for _, root in ipairs(roots) do
 				if root then
 					for _, obj in ipairs(root:GetDescendants()) do
-						if obj.Name == "Chat" and obj.Parent and obj.Parent.Name == "ChatFrame" then
-							return obj
+						if obj.Name == "escrita" and obj:IsA("TextBox") then
+							local candidate = obj.Parent
+							while candidate and candidate:IsA("GuiObject") do
+								if candidate.Name:lower():find("chat", 1, true) and hasChatControls(candidate) then return candidate end
+								candidate = candidate.Parent
+							end
 						end
 					end
 				end
@@ -25513,52 +25374,426 @@ local function FZMU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		warn("[HPX CHAT] Chat precisa de TextBox 'escrita' e botao 'Enviar'.")
 		return
 	end
-	if chat:GetAttribute("HPXChatBound") then return end
+	local alreadyBound = chat:GetAttribute("HPXChatBound") == true
+	
+	-- DRUCORD_HEADER_BEGIN
+	local HEADER_SCALE = 56 / 360
+	local CAT_IMAGE = "rbxassetid://103468753888091"
+	-- Updating the header must also work on a chat whose networking is already bound.
+	local onlineLabel = chat:FindFirstChild("online", true) or chat:FindFirstChild("Participantes", true)
+	if onlineLabel and onlineLabel:IsA("TextLabel") then onlineLabel.Parent = chat end
+	local oldCleanup = chat:FindFirstChild("HPXDrucordCleanup")
+	if oldCleanup and oldCleanup:IsA("BindableEvent") then oldCleanup:Fire(); oldCleanup:Destroy() end
+	for _, name in ipairs({ "DrucordHeader", "OpcoesDrucord" }) do
+		local previous = chat:FindFirstChild(name)
+		if previous then previous:Destroy() end
+	end
+	local baseZ = math.max(chat.ZIndex, input.ZIndex, send.ZIndex)
+	for _, child in ipairs(chat:GetChildren()) do
+		if child:IsA("GuiObject") then baseZ = math.max(baseZ, child.ZIndex) end
+	end
+	local uiConnections = {}
+	local disposed = false
+	local function connectUI(signal, callback)
+		local connection = signal:Connect(callback)
+		table.insert(uiConnections, connection)
+		return connection
+	end
+	local function make(className, name, parent, properties)
+		local object = Instance.new(className)
+		object.Name = name
+		for property, value in pairs(properties or {}) do object[property] = value end
+		object.Parent = parent
+		return object
+	end
+	
+	-- Every frame uses Scale. The banner rounds its own top corners because a
+	-- parent UICorner does not clip descendants to its rounded outline.
+	chat.ClipsDescendants = true
+	local chatCorner = chat:FindFirstChildOfClass("UICorner") or make("UICorner", "DrucordChatCorner", chat)
+	chatCorner.CornerRadius = UDim.new(0.025, 0)
+	local header = make("Frame", "DrucordHeader", chat, {
+		BackgroundColor3 = Color3.fromRGB(19, 22, 28), BorderSizePixel = 0,
+		Position = UDim2.fromScale(0, 0), Size = UDim2.fromScale(1, HEADER_SCALE),
+		ZIndex = baseZ + 5,
+	})
+	local headerCorner = make("UICorner", "CantoCabecalho", header, { CornerRadius = UDim.new(0.16, 0) })
+	make("Frame", "BaseReta", header, {
+		BorderSizePixel = 0, BackgroundColor3 = header.BackgroundColor3,
+		Position = UDim2.fromScale(0, 0.5), Size = UDim2.fromScale(1, 0.5), ZIndex = header.ZIndex,
+	})
+	local catPhoto = make("ImageLabel", "FotoDrucord", header, {
+		BackgroundTransparency = 1, Image = CAT_IMAGE, ScaleType = Enum.ScaleType.Fit,
+		AnchorPoint = Vector2.new(0, 0.5),
+		Position = UDim2.fromScale(10 / 410, 0.5), Size = UDim2.fromScale(38 / 410, 38 / 56),
+		ZIndex = header.ZIndex + 1,
+	})
+	make("UIAspectRatioConstraint", "Proporcao", catPhoto, { AspectRatio = 1, AspectType = Enum.AspectType.FitWithinMaxSize })
+	local titleLabel = make("TextLabel", "NomeDrucord", header, {
+		BackgroundTransparency = 1, Text = "Drucord", Font = Enum.Font.GothamBold,
+		TextColor3 = Color3.fromRGB(248, 249, 252), TextSize = 17, TextScaled = true,
+		TextXAlignment = Enum.TextXAlignment.Left, TextTruncate = Enum.TextTruncate.AtEnd,
+		Position = UDim2.fromScale(57 / 410, 7 / 56), Size = UDim2.fromScale(303 / 410, 23 / 56),
+		ZIndex = header.ZIndex + 1,
+	})
+	if onlineLabel and not onlineLabel:IsA("TextLabel") then
+		if onlineLabel:IsA("GuiObject") then onlineLabel.Visible = false end
+		onlineLabel = nil
+	end
+	onlineLabel = onlineLabel or Instance.new("TextLabel")
+	onlineLabel.Name = "Participantes"
+	onlineLabel.BackgroundTransparency = 1
+	onlineLabel.Position = UDim2.fromScale(57 / 410, 31 / 56)
+	onlineLabel.Size = UDim2.fromScale(303 / 410, 16 / 56)
+	onlineLabel.Font = Enum.Font.GothamMedium
+	onlineLabel.TextScaled = true
+	onlineLabel.TextSize = 11
+	onlineLabel.Text = "Participantes: " .. (onlineLabel.Text:match("(%d+)") or "0")
+	onlineLabel.Visible = true
+	onlineLabel.TextXAlignment = Enum.TextXAlignment.Left
+	onlineLabel.TextColor3 = Color3.fromRGB(170, 176, 187)
+	onlineLabel.TextTruncate = Enum.TextTruncate.AtEnd
+	onlineLabel.ZIndex = header.ZIndex + 1
+	onlineLabel.Parent = header
+	connectUI(onlineLabel:GetPropertyChangedSignal("Text"), function()
+		local count = onlineLabel.Text:match("^[Oo]nline:?%s*(%d+)")
+		if count then onlineLabel.Text = "Participantes: " .. count end
+	end)
+	make("Frame", "LinhaCabecalho", header, {
+		BorderSizePixel = 0, BackgroundColor3 = Color3.fromRGB(48, 53, 64),
+		Position = UDim2.fromScale(0, 55 / 56), Size = UDim2.fromScale(1, 1 / 56),
+		ZIndex = header.ZIndex + 1,
+	})
+	
+	local menuButton = make("TextButton", "MenuDrucord", header, {
+		Text = "", AutoButtonColor = false, BackgroundColor3 = Color3.fromRGB(46, 51, 61),
+		BackgroundTransparency = 1, BorderSizePixel = 0, AnchorPoint = Vector2.new(1, 0.5),
+		Position = UDim2.fromScale(403 / 410, 0.5), Size = UDim2.fromScale(32 / 410, 40 / 56),
+		ZIndex = header.ZIndex + 2,
+	})
+	make("UICorner", "Canto", menuButton, { CornerRadius = UDim.new(0.3, 0) })
+	for index = 1, 3 do
+		local dot = make("Frame", "Ponto" .. index, menuButton, {
+			BorderSizePixel = 0, BackgroundColor3 = Color3.fromRGB(227, 230, 236),
+			AnchorPoint = Vector2.new(0.5, 0.5), Position = UDim2.fromScale(0.5, 0.5 + (index - 2) * 7 / 40),
+			Size = UDim2.fromScale(4 / 32, 4 / 40), ZIndex = menuButton.ZIndex + 1,
+		})
+		make("UICorner", "Canto", dot, { CornerRadius = UDim.new(1, 0) })
+		make("UIAspectRatioConstraint", "Proporcao", dot, { AspectRatio = 1, AspectType = Enum.AspectType.FitWithinMaxSize })
+	end
+	
+	local menu = make("Frame", "OpcoesDrucord", chat, {
+		Visible = false, Active = true, BorderSizePixel = 0,
+		BackgroundColor3 = Color3.fromRGB(27, 30, 36), AnchorPoint = Vector2.new(1, 0),
+		Position = UDim2.fromScale(402 / 410, 61 / 360), Size = UDim2.fromScale(230 / 410, 58 / 360),
+		ZIndex = baseZ + 20,
+	})
+	make("UICorner", "Canto", menu, { CornerRadius = UDim.new(10 / 58, 0) })
+	local menuStroke = make("UIStroke", "Borda", menu, { Color = Color3.fromRGB(57, 62, 73), Thickness = 1 })
+	local notificationButton = make("TextButton", "Notificacoes", menu, {
+		Text = "", AutoButtonColor = false, BackgroundTransparency = 1,
+		Position = UDim2.fromScale(6 / 230, 6 / 58), Size = UDim2.fromScale(218 / 230, 46 / 58),
+		ZIndex = menu.ZIndex + 1,
+	})
+	local notificationTitle = make("TextLabel", "Titulo", notificationButton, {
+		BackgroundTransparency = 1, Text = "Notifica" .. utf8.char(231, 245) .. "es",
+		Font = Enum.Font.GothamMedium, TextSize = 12, TextColor3 = Color3.fromRGB(238, 240, 245),
+		TextXAlignment = Enum.TextXAlignment.Left, TextTruncate = Enum.TextTruncate.AtEnd,
+		Position = UDim2.fromScale(8 / 218, 0.3), Size = UDim2.fromScale(112 / 218, 0.4),
+		ZIndex = notificationButton.ZIndex + 1,
+	})
+	local notificationState = make("TextLabel", "Estado", notificationButton, {
+		BackgroundTransparency = 1, Font = Enum.Font.GothamMedium, TextSize = 10,
+		TextXAlignment = Enum.TextXAlignment.Right, AnchorPoint = Vector2.new(1, 0),
+		Position = UDim2.fromScale(173 / 218, 0.34), Size = UDim2.fromScale(57 / 218, 0.32),
+		ZIndex = notificationButton.ZIndex + 1,
+	})
+	local notificationSwitch = make("Frame", "Interruptor", notificationButton, {
+		BorderSizePixel = 0, AnchorPoint = Vector2.new(1, 0.5),
+		Position = UDim2.fromScale(213 / 218, 0.5), Size = UDim2.fromScale(32 / 218, 18 / 46),
+		ZIndex = notificationButton.ZIndex + 1,
+	})
+	make("UICorner", "Canto", notificationSwitch, { CornerRadius = UDim.new(1, 0) })
+	make("UIAspectRatioConstraint", "Proporcao", notificationSwitch, { AspectRatio = 32 / 18, AspectType = Enum.AspectType.FitWithinMaxSize })
+	local notificationKnob = make("Frame", "Indicador", notificationSwitch, {
+		BorderSizePixel = 0, BackgroundColor3 = Color3.fromRGB(248, 250, 252),
+		AnchorPoint = Vector2.new(0.5, 0.5), Size = UDim2.fromScale(14 / 32, 14 / 18),
+		ZIndex = notificationSwitch.ZIndex + 1,
+	})
+	make("UICorner", "Canto", notificationKnob, { CornerRadius = UDim.new(1, 0) })
+	make("UIAspectRatioConstraint", "Proporcao", notificationKnob, { AspectRatio = 1, AspectType = Enum.AspectType.FitWithinMaxSize })
+	
+	local notificationsEnabled = player:GetAttribute("HPXDrucordNotifications") ~= false
+	local function updateNotifications()
+		chat:SetAttribute("HPXChatNotificationsEnabled", notificationsEnabled)
+		notificationState.Text = notificationsEnabled and "Ligadas" or "Desligadas"
+		notificationState.TextColor3 = notificationsEnabled and Color3.fromRGB(85, 220, 143) or Color3.fromRGB(161, 168, 181)
+		notificationSwitch.BackgroundColor3 = notificationsEnabled and Color3.fromRGB(29, 165, 91) or Color3.fromRGB(76, 82, 94)
+		notificationKnob.Position = UDim2.fromScale(notificationsEnabled and 23 / 32 or 9 / 32, 0.5)
+	end
+	local function setMenuOpen(open)
+		menu.Visible = open
+		menuButton.BackgroundTransparency = open and 0 or 1
+	end
+	updateNotifications()
+	connectUI(menuButton.Activated, function() setMenuOpen(not menu.Visible) end)
+	connectUI(notificationButton.Activated, function()
+		notificationsEnabled = player:GetAttribute("HPXDrucordNotifications") == false
+		player:SetAttribute("HPXDrucordNotifications", notificationsEnabled)
+		updateNotifications()
+	end)
+	local function pointInside(object, point)
+		local position, size = object.AbsolutePosition, object.AbsoluteSize
+		return point.X >= position.X and point.X <= position.X + size.X
+			and point.Y >= position.Y and point.Y <= position.Y + size.Y
+	end
+	connectUI(UserInputService.InputBegan, function(event)
+		if not menu.Visible then return end
+		if event.KeyCode == Enum.KeyCode.Escape then setMenuOpen(false); return end
+		if event.UserInputType ~= Enum.UserInputType.MouseButton1 and event.UserInputType ~= Enum.UserInputType.Touch then return end
+		local inset = GuiService:GetGuiInset()
+		local point = Vector2.new(event.Position.X, event.Position.Y) - inset
+		if not pointInside(menu, point) and not pointInside(menuButton, point) then setMenuOpen(false) end
+	end)
+	local ancestor = chat
+	while ancestor do
+		local watched = ancestor
+		if watched:IsA("GuiObject") then
+			connectUI(watched:GetPropertyChangedSignal("Visible"), function()
+				if not watched.Visible then setMenuOpen(false) end
+			end)
+		elseif watched:IsA("ScreenGui") then
+			connectUI(watched:GetPropertyChangedSignal("Enabled"), function()
+				if not watched.Enabled then setMenuOpen(false) end
+			end)
+		end
+		ancestor = ancestor.Parent
+	end
+	local function cleanupHeader()
+		disposed = true
+		for _, connection in ipairs(uiConnections) do connection:Disconnect() end
+		table.clear(uiConnections)
+	end
+	local cleanupEvent = make("BindableEvent", "HPXDrucordCleanup", chat)
+	connectUI(cleanupEvent.Event, cleanupHeader)
+	connectUI(chat.Destroying, cleanupHeader)
+	
+	-- Scale sizes follow the chat itself. Font/gap units exclude inherited UIScale,
+	-- which Roblox already applies, to avoid shrinking the content twice.
+	local function layoutUnit()
+		local inheritedScale = 1
+		local ancestor = chat
+		while ancestor do
+			for _, child in ipairs(ancestor:GetChildren()) do
+				if child:IsA("UIScale") then inheritedScale *= child.Scale end
+			end
+			ancestor = ancestor.Parent
+		end
+		inheritedScale = math.max(inheritedScale, 0.001)
+		local width, height = chat.AbsoluteSize.X / inheritedScale, chat.AbsoluteSize.Y / inheritedScale
+		return math.max(0.01, math.min(width / 410, height / 360)), width, height
+	end
+	local function fitText(object, baseSize, unit)
+		object.TextScaled = true
+		object.TextWrapped = false
+		object.TextTruncate = Enum.TextTruncate.None
+		local limit = object:FindFirstChildOfClass("UITextSizeConstraint") or make("UITextSizeConstraint", "LimiteTexto", object)
+		limit.MinTextSize = 1
+		limit.MaxTextSize = math.max(1, math.floor(baseSize * unit + 0.5))
+	end
+	local function ensureCorner(object, scale)
+		local corner = object:FindFirstChildOfClass("UICorner") or make("UICorner", "Canto", object)
+		corner.CornerRadius = UDim.new(scale, 0)
+	end
+	local layoutQueued = false
+	local watchedMessages
+	local refreshChatLayout
+	local function queueChatLayout()
+		if disposed or layoutQueued then return end
+		layoutQueued = true
+		task.defer(function()
+			layoutQueued = false
+			if not disposed and chat.Parent then refreshChatLayout() end
+		end)
+	end
+	refreshChatLayout = function()
+		if disposed then return end
+		local unit, width, height = layoutUnit()
+		fitText(titleLabel, 17, unit)
+		fitText(onlineLabel, 11, unit)
+		fitText(notificationTitle, 12, unit)
+		fitText(notificationState, 10, unit)
+		-- Matching radii on the parent and banner keep both top corners contained.
+		headerCorner.CornerRadius = UDim.new(0.025 * math.min(width, height) / math.max(1, math.min(width, height * HEADER_SCALE)), 0)
+		menuStroke.Thickness = unit
+		input.AnchorPoint = Vector2.new(0, 0)
+		input.Position = UDim2.fromScale(10 / 410, 310 / 360)
+		input.Size = UDim2.fromScale(344 / 410, 38 / 360)
+		input.TextScaled = false
+		input.TextSize = math.max(1, math.floor(12 * unit + 0.5))
+		local padding = input:FindFirstChildOfClass("UIPadding") or make("UIPadding", "Padding", input)
+		padding.PaddingLeft, padding.PaddingRight = UDim.new(0.03, 0), UDim.new(0.02, 0)
+		ensureCorner(input, 0.24)
+		send.AnchorPoint = Vector2.new(1, 0)
+		send.Position = UDim2.fromScale(400 / 410, 310 / 360)
+		send.Size = UDim2.fromScale(38 / 410, 38 / 360)
+		ensureCorner(send, 1)
+		local sendAspect = send:FindFirstChildOfClass("UIAspectRatioConstraint") or make("UIAspectRatioConstraint", "Proporcao", send)
+		sendAspect.AspectRatio, sendAspect.AspectType = 1, Enum.AspectType.FitWithinMaxSize
+		local paper = send:FindFirstChild("HPXPaperIcon")
+		if paper then paper.Size = UDim2.fromScale(0.74, 0.74) end
+		local typingLabel = chat:FindFirstChild("digitando")
+		if typingLabel then
+			typingLabel.Position = UDim2.fromScale(10 / 410, 284 / 360)
+			typingLabel.Size = UDim2.fromScale(390 / 410, 18 / 360)
+			typingLabel.TextScaled = false
+			typingLabel.TextSize = math.max(1, math.floor(11 * unit + 0.5))
+		end
+		local viewport = chat:FindFirstChild("Mensagens") or chat:FindFirstChild("messages")
+		if not viewport or not viewport:IsA("GuiObject") then return end
+		viewport.Position = UDim2.fromScale(10 / 410, 64 / 360)
+		viewport.Size = UDim2.fromScale(390 / 410, 214 / 360)
+		viewport.ZIndex = baseZ + 1
+		if viewport:IsA("ScrollingFrame") then viewport.ScrollBarThickness = math.max(1, math.floor(3 * unit + 0.5)) end
+		if watchedMessages ~= viewport then
+			watchedMessages = viewport
+			connectUI(viewport.ChildAdded, queueChatLayout)
+			connectUI(viewport.ChildRemoved, queueChatLayout)
+		end
+		local list = viewport:FindFirstChildOfClass("UIListLayout")
+		if list then list.Padding = UDim.new(0, 7 * unit) end
+		-- Wrapped message heights are automatic; their font/padding units follow the
+		-- chat size. No fixed frame offsets or scale/canvas feedback loops are used.
+		for _, row in ipairs(viewport:GetChildren()) do
+			local bubble = row:IsA("Frame") and row:FindFirstChild("Balao")
+			if bubble and bubble:IsA("Frame") then
+				row.Size, row.AutomaticSize = UDim2.fromScale(0.98, 0), Enum.AutomaticSize.Y
+				bubble.Size, bubble.AutomaticSize = UDim2.fromScale(0.9, 0), Enum.AutomaticSize.Y
+				bubble.ZIndex = viewport.ZIndex + 1
+				ensureCorner(bubble, 0.18)
+				local bubblePadding = bubble:FindFirstChildOfClass("UIPadding") or make("UIPadding", "Padding", bubble)
+				bubblePadding.PaddingTop, bubblePadding.PaddingBottom = UDim.new(0, 7 * unit), UDim.new(0, 8 * unit)
+				bubblePadding.PaddingLeft, bubblePadding.PaddingRight = UDim.new(0.03, 0), UDim.new(0.03, 0)
+				local stack = bubble:FindFirstChildOfClass("UIListLayout") or make("UIListLayout", "Lista", bubble)
+				stack.SortOrder, stack.Padding = Enum.SortOrder.LayoutOrder, UDim.new(0, 2 * unit)
+				for order, name in ipairs({ "Nome", "Texto" }) do
+					local label = bubble:FindFirstChild(name)
+					if label and label:IsA("TextLabel") then
+						label.Size, label.AutomaticSize = UDim2.fromScale(1, 0), Enum.AutomaticSize.Y
+						label.LayoutOrder, label.TextScaled = order, false
+						label.TextSize = math.max(1, math.floor(12 * unit + 0.5))
+						label.ZIndex = bubble.ZIndex + 1
+					end
+				end
+			end
+		end
+	end
+	connectUI(chat:GetPropertyChangedSignal("AbsoluteSize"), queueChatLayout)
+	connectUI(input:GetPropertyChangedSignal("AbsolutePosition"), queueChatLayout)
+	connectUI(chat.ChildAdded, queueChatLayout)
+	refreshChatLayout()
+	
+	local function notifyMessage(userId, displayName, content)
+		if player:GetAttribute("HPXDrucordNotifications") == false or tostring(userId) == tostring(player.UserId) or not chat.Parent then return end
+		pcall(function()
+			StarterGui:SetCore("SendNotification", {
+				Title = "Drucord", Text = tostring(displayName) .. ": " .. tostring(content),
+				Icon = CAT_IMAGE, Duration = 4,
+			})
+		end)
+	end
+	-- DRUCORD_HEADER_END
+	
+	-- Keep an existing chat's input, messages and polling; only its header is updated.
+	if alreadyBound then return end
 	chat:SetAttribute("HPXChatBound", true)
 	
 	input.Font = Enum.Font.FredokaOne
+	input.TextScaled = false
+	input.TextWrapped = false
+	input.MultiLine = false
+	input.TextSize = 12
 	input.TextXAlignment = Enum.TextXAlignment.Left
 	input.TextYAlignment = Enum.TextYAlignment.Center
 	input.ClearTextOnFocus = false
 	input.PlaceholderText = "Digite uma mensagem..."
+	input.PlaceholderColor3 = Color3.fromRGB(169, 174, 194)
+	input.TextColor3 = Color3.fromRGB(248, 249, 255)
+	local inputPadding = input:FindFirstChildOfClass("UIPadding") or Instance.new("UIPadding")
+	inputPadding.PaddingLeft = UDim.new(0.03, 0)
+	inputPadding.PaddingRight = UDim.new(0.02, 0)
+	inputPadding.Parent = input
+	local inputCorner = input:FindFirstChildOfClass("UICorner") or Instance.new("UICorner")
+	inputCorner.CornerRadius = UDim.new(0.24, 0)
+	inputCorner.Parent = input
+	
+	if send:IsA("ImageButton") then
+		send.ImageTransparency = 1
+		local icon = send:FindFirstChild("HPXPaperIcon") or Instance.new("ImageLabel")
+		icon.Name = "HPXPaperIcon"
+		icon.BackgroundTransparency = 1
+		icon.Image = "rbxassetid://93003913676840"
+		icon.ImageColor3 = Color3.fromRGB(10, 35, 20)
+		icon.ScaleType = Enum.ScaleType.Fit
+		icon.AnchorPoint = Vector2.new(0.5, 0.5)
+		icon.Position = UDim2.fromScale(0.5, 0.5)
+		icon.Size = UDim2.fromScale(0.74, 0.74)
+		icon.ZIndex = send.ZIndex + 1
+		icon.Parent = send
+	end
+	local sendCorner = send:FindFirstChildOfClass("UICorner") or Instance.new("UICorner")
+	sendCorner.CornerRadius = UDim.new(1, 0)
+	sendCorner.Parent = send
 	
 	local typing = chat:FindFirstChild("digitando") or Instance.new("TextLabel")
 	typing.Name = "digitando"
 	typing.BackgroundTransparency = 1
-	typing.Position = UDim2.new(0, 10, 1, -66)
-	typing.Size = UDim2.new(1, -20, 0, 18)
+	typing.Position = UDim2.fromScale(10 / 410, 284 / 360)
+	typing.Size = UDim2.fromScale(390 / 410, 18 / 360)
 	typing.Text = ""
 	typing.TextColor3 = Color3.fromRGB(180, 185, 205)
-	typing.Font = Enum.Font.FredokaOne
-	typing.TextSize = 12
+	typing.Font = Enum.Font.GothamMedium
+	typing.TextScaled = false
+	typing.TextWrapped = false
+	typing.TextTruncate = Enum.TextTruncate.AtEnd
+	typing.TextSize = 11
 	typing.TextXAlignment = Enum.TextXAlignment.Left
-	typing.ZIndex = math.max(input.ZIndex, chat.ZIndex) + 1
+	typing.ZIndex = baseZ + 2
 	typing.Parent = chat
 	
 	local messages = chat:FindFirstChild("Mensagens") or Instance.new("ScrollingFrame")
 	messages.Name = "Mensagens"
 	messages.BackgroundTransparency = 1
 	messages.BorderSizePixel = 0
-	messages.Position = UDim2.new(0, 10, 0, 32)
-	messages.Size = UDim2.new(1, -20, 1, -104)
+	messages.Position = UDim2.fromScale(10 / 410, 64 / 360)
+	messages.Size = UDim2.fromScale(390 / 410, 214 / 360)
 	messages.AutomaticCanvasSize = Enum.AutomaticSize.Y
 	messages.CanvasSize = UDim2.new()
 	messages.ScrollBarThickness = 3
-	messages.ZIndex = math.max(input.ZIndex, chat.ZIndex) + 1
+	messages.ScrollBarImageColor3 = Color3.fromRGB(116, 128, 163)
+	messages.ClipsDescendants = true
+	messages.ZIndex = baseZ + 1
 	messages.Parent = chat
 	
+	refreshChatLayout()
+	
 	local layout = messages:FindFirstChildOfClass("UIListLayout") or Instance.new("UIListLayout")
-	layout.Padding = UDim.new(0, 5)
+	layout.Padding = UDim.new(0, 7 * layoutUnit())
 	layout.SortOrder = Enum.SortOrder.LayoutOrder
+	layout.HorizontalAlignment = Enum.HorizontalAlignment.Left
 	layout.Parent = messages
 	
-	local onlineLabel = chat:FindFirstChild("online", true)
 	local http = (type(request) == "function" and request)
 		or (type(http_request) == "function" and http_request)
 		or (syn and type(syn.request) == "function" and syn.request)
 	local token
 	local seen = {}
 	local focused = false
+	local displayed = {}
+	local messageOrder = 0
+	local historyLoaded = false
+	local writing = " est" .. utf8.char(225) .. " digitando..."
+	local writingPlural = " est" .. utf8.char(227) .. "o digitando..."
 	
 	local function api(method, path, body, authorized)
 		if not http then return nil, 0 end
@@ -25591,14 +25826,9 @@ local function FZMU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		return false
 	end
 	
-	local function escapeRichText(value)
-		return tostring(value):gsub("&", "&amp;"):gsub("<", "&lt;"):gsub(">", "&gt;"):gsub('"', "&quot;")
-	end
-	
 	local function nameColor(userId)
 		local hue = (tonumber(userId) or 0) % 360 / 360
-		local color = Color3.fromHSV(hue, 0.48, 1)
-		return string.format("#%02X%02X%02X", math.floor(color.R * 255), math.floor(color.G * 255), math.floor(color.B * 255))
+		return Color3.fromHSV(hue, 0.48, 1)
 	end
 	
 	local function scrollToBottom()
@@ -25608,23 +25838,74 @@ local function FZMU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 			end
 		end)
 	end
+	layout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(scrollToBottom)
 	
 	local function addMessage(userId, displayName, content)
-		local label = Instance.new("TextLabel")
-		label.Name = "Mensagem"
-		label.BackgroundTransparency = 1
-		label.Size = UDim2.new(1, -5, 0, 22)
-		label.AutomaticSize = Enum.AutomaticSize.Y
-		label.TextWrapped = true
-		label.RichText = true
-		label.TextXAlignment = Enum.TextXAlignment.Left
-		label.TextYAlignment = Enum.TextYAlignment.Top
-		label.TextColor3 = Color3.fromRGB(240, 242, 250)
-		label.Font = Enum.Font.FredokaOne
-		label.TextSize = 13
-		label.ZIndex = messages.ZIndex + 1
-		label.Text = string.format('<font color="%s">%s</font>: %s', nameColor(userId), escapeRichText(displayName), escapeRichText(content))
-		label.Parent = messages
+		messageOrder += 1
+		local row = Instance.new("Frame")
+		row.Name = "Mensagem"
+		row.LayoutOrder = messageOrder
+		row.BackgroundTransparency = 1
+		row.Size = UDim2.fromScale(0.98, 0)
+		row.AutomaticSize = Enum.AutomaticSize.Y
+		row.Parent = messages
+	
+		local bubble = Instance.new("Frame")
+		bubble.Name = "Balao"
+		bubble.BackgroundColor3 = Color3.fromRGB(48, 54, 77)
+		bubble.BackgroundTransparency = 0.1
+		bubble.BorderSizePixel = 0
+		bubble.Size = UDim2.fromScale(0.9, 0)
+		bubble.AutomaticSize = Enum.AutomaticSize.Y
+		bubble.ZIndex = messages.ZIndex + 1
+		bubble.Parent = row
+		local bubbleCorner = Instance.new("UICorner")
+		bubbleCorner.CornerRadius = UDim.new(0.18, 0)
+		bubbleCorner.Parent = bubble
+		local padding = Instance.new("UIPadding")
+		padding.PaddingTop = UDim.new(0, 7 * layoutUnit())
+		padding.PaddingBottom = UDim.new(0, 8 * layoutUnit())
+		padding.PaddingLeft = UDim.new(0.03, 0)
+		padding.PaddingRight = UDim.new(0.03, 0)
+		padding.Parent = bubble
+		local stack = Instance.new("UIListLayout")
+		stack.Padding = UDim.new(0, 2 * layoutUnit())
+		stack.SortOrder = Enum.SortOrder.LayoutOrder
+		stack.Parent = bubble
+	
+		local name = Instance.new("TextLabel")
+		name.Name = "Nome"
+		name.BackgroundTransparency = 1
+		name.Size = UDim2.fromScale(1, 0)
+		name.AutomaticSize = Enum.AutomaticSize.Y
+		name.Text = tostring(displayName)
+		name.TextColor3 = nameColor(userId)
+		name.Font = Enum.Font.FredokaOne
+		name.TextScaled = false
+		name.TextSize = 12
+		name.TextXAlignment = Enum.TextXAlignment.Left
+		name.ZIndex = bubble.ZIndex + 1
+		name.Parent = bubble
+	
+		local body = Instance.new("TextLabel")
+		body.Name = "Texto"
+		body.BackgroundTransparency = 1
+		body.Size = UDim2.fromScale(1, 0)
+		body.AutomaticSize = Enum.AutomaticSize.Y
+		body.Text = tostring(content)
+		body.TextWrapped = true
+		body.TextColor3 = Color3.fromRGB(235, 238, 249)
+		body.Font = Enum.Font.GothamMedium
+		body.TextScaled = false
+		body.TextSize = 12
+		body.TextXAlignment = Enum.TextXAlignment.Left
+		body.TextYAlignment = Enum.TextYAlignment.Top
+		body.ZIndex = bubble.ZIndex + 1
+		body.Parent = bubble
+	
+		table.insert(displayed, row)
+		if #displayed > 80 then table.remove(displayed, 1):Destroy() end
+		queueChatLayout()
 		scrollToBottom()
 	end
 	
@@ -25632,25 +25913,29 @@ local function FZMU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		if not token then return end
 		local count = api("GET", "/api/presence/count", nil, true)
 		if onlineLabel and type(count) == "table" and type(count.online) == "number" then
-			onlineLabel.Text = "Online: " .. tostring(count.online)
+			onlineLabel.Text = "Participantes: " .. tostring(count.online)
 		end
 		local data = api("GET", "/api/chat/messages", nil, true)
 		if type(data) == "table" and type(data.messages) == "table" then
+			local latestIncoming
 			for _, item in ipairs(data.messages) do
 				if not seen[item.id] then
 					seen[item.id] = true
 					addMessage(item.userId, item.displayName, item.message)
+					if historyLoaded and tostring(item.userId) ~= tostring(player.UserId) then latestIncoming = item end
 				end
 			end
+			historyLoaded = true
+			if latestIncoming then notifyMessage(latestIncoming.userId, latestIncoming.displayName, latestIncoming.message) end
 		end
 		local state = api("GET", "/api/chat/typing", nil, true)
 		if type(state) == "table" and type(state.users) == "table" and (not focused or not input.Text:match("%S")) then
 			local names = {}
 			for _, user in ipairs(state.users) do table.insert(names, tostring(user.displayName)) end
 			if #names == 1 then
-				typing.Text = names[1] .. " est� digitando..."
+				typing.Text = names[1] .. writing
 			elseif #names > 1 then
-				typing.Text = table.concat(names, " e ") .. " est�o digitando..."
+				typing.Text = table.concat(names, " e ") .. writingPlural
 			else
 				typing.Text = ""
 			end
@@ -25663,7 +25948,7 @@ local function FZMU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 		typingRevision += 1
 		local revision = typingRevision
 		local hasText = input.Text:match("%S") ~= nil
-		typing.Text = focused and hasText and (player.DisplayName .. " est� digitando...") or ""
+		typing.Text = focused and hasText and (player.DisplayName .. writing) or ""
 		if typing.Text ~= "" then
 			task.delay(2.5, function()
 				if typingRevision == revision then typing.Text = "" end
@@ -25712,7 +25997,10 @@ local function FZMU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	local incoming = chat:FindFirstChild("HPXMensagemRecebida") or Instance.new("BindableEvent")
 	incoming.Name = "HPXMensagemRecebida"
 	incoming.Parent = chat
-	incoming.Event:Connect(addMessage)
+	incoming.Event:Connect(function(userId, displayName, content)
+		addMessage(userId, displayName, content)
+		notifyMessage(userId, displayName, content)
+	end)
 	
 	if http then
 		task.spawn(function()
@@ -25734,10 +26022,10 @@ local function FZMU_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
 	end
 	
 end
-local function GOXV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.ChatFrame.LocalScript
+local function YCJG_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame.H
     local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_ChatFrame"]
+    script.Name = "H"
+    script.Parent = Converted["_mainFrame"]
     local req = require
     local require = function(obj)
         local fake = fake_module_scripts[obj]
@@ -25747,68 +26035,364 @@ local function GOXV_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFrame
         return req(obj)
     end
 
-	pcall(function()
-		local url = "https://hpx-ingest-7f2a.pointyoak1.chatgpt.site/api/presence/loader"
-		local source = game:HttpGet(url)
-		local loader = loadstring(source)
+	local UserInputService = game:GetService("UserInputService")
+	local SoundService = game:GetService("SoundService")
 	
-		if loader then
-			loader()
+	local mainFrame = script.Parent
+	
+	local previousCleanup = mainFrame:FindFirstChild("HPXHCleanup")
+	if previousCleanup and previousCleanup:IsA("BindableEvent") then
+		previousCleanup:Fire()
+		previousCleanup:Destroy()
+	end
+	local connections = {}
+	local function connect(signal, callback)
+		local connection = signal:Connect(callback)
+		table.insert(connections, connection)
+		return connection
+	end
+	local screenGui = mainFrame:FindFirstAncestorWhichIsA("ScreenGui")
+	local mobileGui
+	
+	-- =========================
+	-- ?? SONS DOS BOT�ES
+	-- =========================
+	
+	local hoverSound = Instance.new("Sound")
+	hoverSound.Name = "HPXButtonHover"
+	hoverSound.SoundId = "rbxassetid://6895079853"
+	hoverSound.Volume =0.3
+	hoverSound.Parent = SoundService
+	
+	local clickSound = Instance.new("Sound")
+	clickSound.Name = "HPXButtonClick"
+	clickSound.SoundId = "rbxassetid://124993589864467"
+	clickSound.Volume = 0.3
+	clickSound.Parent = SoundService
+	
+	
+	local configuredButtons = setmetatable({}, { __mode = "k" })
+	local function configurarBotao(obj)
+	
+		if obj:IsA("TextButton") or obj:IsA("ImageButton") then
+			if configuredButtons[obj] then return end
+			configuredButtons[obj] = true
+	
+			-- ??? Passou o mouse
+			connect(obj.MouseEnter, function()
+				hoverSound:Stop()
+				hoverSound:Play()
+			end)
+	
+			-- ??? Clicou
+			connect(obj.Activated, function()
+				clickSound:Stop()
+				clickSound:Play()
+			end)
+	
+		end
+	end
+	
+	
+	-- Configura os bot�es que j� existem
+	for _, obj in ipairs(mainFrame:GetDescendants()) do
+		configurarBotao(obj)
+	end
+	
+	-- Configura bot�es criados depois
+	connect(mainFrame.DescendantAdded, function(obj)
+		configurarBotao(obj)
+	end)
+	
+	
+	-- =========================
+	-- ?? MINIMIZAR COM H
+	-- =========================
+	
+	local function alternarPainel()
+		if screenGui and not screenGui.Enabled then
+			screenGui.Enabled = true
+			mainFrame.Visible = true
+		else
+			mainFrame.Visible = not mainFrame.Visible
+		end
+	end
+	
+	connect(UserInputService.InputBegan, function(input, gameProcessed)
+	
+		if gameProcessed or UserInputService:GetFocusedTextBox() then
+			return
+		end
+	
+		if input.KeyCode == Enum.KeyCode.H then
+	
+			alternarPainel()
 		end
 	end)
+	
+	
+	-- =========================
+	-- ??? MOVER PAINEL
+	-- =========================
+	
+	local movendo = false
+	local inicioMouse
+	local inicioFrame
+	
+	connect(mainFrame.InputBegan, function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			movendo = true
+	
+			inicioMouse = input.Position
+			inicioFrame = mainFrame.Position
+		end
+	end)
+	
+	connect(mainFrame.InputEnded, function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			movendo = false
+		end
+	end)
+	
+	connect(UserInputService.InputChanged, function(input)
+	
+		if movendo and input.UserInputType == Enum.UserInputType.MouseMovement then
+	
+			local delta = input.Position - inicioMouse
+	
+			mainFrame.Position = UDim2.new(
+				inicioFrame.X.Scale,
+				inicioFrame.X.Offset + delta.X,
+	
+				inicioFrame.Y.Scale,
+				inicioFrame.Y.Offset + delta.Y
+			)
+		end
+	end)
+	
+	-- Atalho mobile fora do mainFrame: continua acessivel com o painel fechado.
+	if screenGui and screenGui.Parent then
+		mobileGui = Instance.new("ScreenGui")
+		mobileGui.Name = "HPXMobileShortcut"
+		mobileGui.ResetOnSpawn = false
+		mobileGui.Enabled = false
+		mobileGui.DisplayOrder = screenGui.DisplayOrder + 1
+		mobileGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+		mobileGui.ScreenInsets = Enum.ScreenInsets.CoreUISafeInsets
+		mobileGui.SafeAreaCompatibility = Enum.SafeAreaCompatibility.None
+		mobileGui.ClipToDeviceSafeArea = true
+		mobileGui.Parent = screenGui.Parent
+	
+		local bounds = Instance.new("Frame")
+		bounds.Name = "LimitesDaTela"
+		bounds.BackgroundTransparency = 1
+		bounds.BorderSizePixel = 0
+		bounds.Position = UDim2.fromScale(0, 0)
+		bounds.Size = UDim2.fromScale(1, 1)
+		bounds.Active = false
+		bounds.Parent = mobileGui
+	
+		local shortcut = Instance.new("TextButton")
+		shortcut.Name = "AbrirFecharHPX"
+		shortcut.AnchorPoint = Vector2.new(0, 0)
+		shortcut.Position = UDim2.fromScale(0.025, 0.45)
+		shortcut.Size = UDim2.fromScale(0.12, 0.12)
+		shortcut.BorderSizePixel = 0
+		shortcut.BackgroundColor3 = Color3.fromRGB(10, 15, 30)
+		shortcut.Text = ""
+		shortcut.AutoButtonColor = false
+		shortcut.Active = true
+		shortcut.Parent = bounds
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0.5, 0)
+		corner.Parent = shortcut
+		-- Camadas suaves ao redor do circulo criam o brilho azul-escuro neon.
+		for index, layer in ipairs({ { 8, 0.94 }, { 4, 0.78 } }) do
+			local glow = Instance.new("UIStroke")
+			glow.Name = "BrilhoAzul" .. index
+			glow.Color = Color3.fromRGB(25, 65, 190)
+			glow.Thickness = layer[1]
+			glow.Transparency = layer[2]
+			glow.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+			glow.Parent = shortcut
+		end
+		local border = Instance.new("UIStroke")
+		border.Name = "BordaNeon"
+		border.Color = Color3.fromRGB(25, 65, 190)
+		border.Thickness = 2
+		border.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+		border.Parent = shortcut
+		local cat = Instance.new("ImageLabel")
+		cat.Name = "GatoDrucord"
+		cat.BackgroundTransparency = 1
+		cat.AnchorPoint = Vector2.new(0.5, 0.5)
+		cat.Position = UDim2.fromScale(0.5, 0.5)
+		cat.Size = UDim2.fromScale(0.76, 0.76)
+		cat.Image = "rbxassetid://103468753888091"
+		cat.ScaleType = Enum.ScaleType.Fit
+		cat.Active = false
+		cat.Parent = shortcut
+	
+		local pointer
+		local pointerStart
+		local buttonStart
+		local dragged = false
+		local buttonPixels = 44
+		local function pointerPosition(input)
+			return Vector2.new(input.Position.X, input.Position.Y)
+		end
+		local function clampShortcut(x, y)
+			local width, height = bounds.AbsoluteSize.X, bounds.AbsoluteSize.Y
+			if width <= 0 or height <= 0 then return end
+			local remainingX = math.max(0, width - buttonPixels)
+			local remainingY = math.max(0, height - buttonPixels)
+			local marginX = math.min(8, remainingX / 2)
+			local marginY = math.min(8, remainingY / 2)
+			x = math.clamp(x, marginX, remainingX - marginX)
+			y = math.clamp(y, marginY, remainingY - marginY)
+			shortcut.Position = UDim2.fromScale(x / width, y / height)
+		end
+		local function fitShortcut()
+			local width, height = bounds.AbsoluteSize.X, bounds.AbsoluteSize.Y
+			if width <= 0 or height <= 0 then return end
+			-- Alvo de toque legivel, limitado ate em uma janela muito pequena.
+			buttonPixels = math.min(math.clamp(math.min(width, height) * 0.12, 44, 60), width, height)
+			shortcut.Size = UDim2.fromScale(buttonPixels / width, buttonPixels / height)
+			clampShortcut(shortcut.Position.X.Scale * width, shortcut.Position.Y.Scale * height)
+		end
+		local function updateMobileVisibility()
+			-- Touch-first tambem permite testar no emulador mobile do Studio.
+			mobileGui.Enabled = UserInputService.TouchEnabled
+				and (not UserInputService.KeyboardEnabled or UserInputService.PreferredInput == Enum.PreferredInput.Touch)
+			if not mobileGui.Enabled then pointer = nil; dragged = false end
+			fitShortcut()
+		end
+		local function updateShortcutState()
+			local open = mainFrame.Visible and screenGui.Enabled
+			shortcut:SetAttribute("PainelAberto", open)
+		end
+		connect(shortcut.InputBegan, function(input)
+			if pointer or not mobileGui.Enabled then return end
+			if input.UserInputType ~= Enum.UserInputType.Touch and input.UserInputType ~= Enum.UserInputType.MouseButton1 then return end
+			pointer = input
+			pointerStart = pointerPosition(input)
+			buttonStart = Vector2.new(shortcut.Position.X.Scale * bounds.AbsoluteSize.X, shortcut.Position.Y.Scale * bounds.AbsoluteSize.Y)
+			dragged = false
+		end)
+		connect(UserInputService.InputChanged, function(input)
+			if not pointer then return end
+			local mouseDrag = pointer.UserInputType == Enum.UserInputType.MouseButton1 and input.UserInputType == Enum.UserInputType.MouseMovement
+			if input ~= pointer and not mouseDrag then return end
+			local delta = pointerPosition(input) - pointerStart
+			if delta.Magnitude >= math.max(6, buttonPixels * 0.12) then dragged = true end
+			if dragged then clampShortcut(buttonStart.X + delta.X, buttonStart.Y + delta.Y) end
+		end)
+		connect(UserInputService.InputEnded, function(input)
+			if not pointer then return end
+			if input ~= pointer and not (pointer.UserInputType == Enum.UserInputType.MouseButton1 and input.UserInputType == Enum.UserInputType.MouseButton1) then return end
+			local tapped = not dragged and input.UserInputState ~= Enum.UserInputState.Cancel
+			pointer = nil
+			dragged = false
+			if tapped and mobileGui.Enabled then
+				clickSound:Stop()
+				clickSound:Play()
+				alternarPainel()
+			end
+		end)
+		connect(UserInputService.WindowFocusReleased, function() pointer = nil; dragged = false end)
+		connect(bounds:GetPropertyChangedSignal("AbsoluteSize"), function()
+			pointer = nil
+			dragged = false
+			fitShortcut()
+		end)
+		connect(UserInputService:GetPropertyChangedSignal("TouchEnabled"), updateMobileVisibility)
+		connect(UserInputService:GetPropertyChangedSignal("KeyboardEnabled"), updateMobileVisibility)
+		connect(UserInputService:GetPropertyChangedSignal("PreferredInput"), updateMobileVisibility)
+		connect(mainFrame:GetPropertyChangedSignal("Visible"), updateShortcutState)
+		connect(screenGui:GetPropertyChangedSignal("Enabled"), updateShortcutState)
+		updateMobileVisibility()
+		updateShortcutState()
+		task.defer(fitShortcut)
+	end
+	
+	-- Soltar fora do painel nao deve deixar o arrasto do mouse preso.
+	connect(UserInputService.InputEnded, function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then movendo = false end
+	end)
+	connect(UserInputService.WindowFocusReleased, function() movendo = false end)
+	
+	local cleaned = false
+	local function cleanup()
+		if cleaned then return end
+		cleaned = true
+		for _, connection in ipairs(connections) do connection:Disconnect() end
+		table.clear(connections)
+		if mobileGui then mobileGui:Destroy() end
+		hoverSound:Destroy()
+		clickSound:Destroy()
+	end
+	local cleanupEvent = Instance.new("BindableEvent")
+	cleanupEvent.Name = "HPXHCleanup"
+	cleanupEvent.Parent = mainFrame
+	connect(cleanupEvent.Event, cleanup)
+	connect(mainFrame.Destroying, cleanup)
+	
 end
 
-coroutine.wrap(PQFI_fake_script)()
-coroutine.wrap(CJYG_fake_script)()
-coroutine.wrap(ADLC_fake_script)()
-coroutine.wrap(IMXJITU_fake_script)()
-coroutine.wrap(UBPRCO_fake_script)()
-coroutine.wrap(QIGJZ_fake_script)()
-coroutine.wrap(XINGUN_fake_script)()
-coroutine.wrap(PRAMXN_fake_script)()
-coroutine.wrap(VPSCQDY_fake_script)()
-coroutine.wrap(DJREN_fake_script)()
-coroutine.wrap(RGKXHT_fake_script)()
-coroutine.wrap(XARPVH_fake_script)()
-coroutine.wrap(QCSVO_fake_script)()
-coroutine.wrap(OPFVN_fake_script)()
-coroutine.wrap(RVTPVN_fake_script)()
-coroutine.wrap(OUTH_fake_script)()
-coroutine.wrap(ERYHXQ_fake_script)()
-coroutine.wrap(TXKQ_fake_script)()
-coroutine.wrap(WHYCHMQ_fake_script)()
-coroutine.wrap(WYAQNCN_fake_script)()
-coroutine.wrap(IGAV_fake_script)()
-coroutine.wrap(PGZDK_fake_script)()
-coroutine.wrap(SVCL_fake_script)()
-coroutine.wrap(SHVL_fake_script)()
-coroutine.wrap(FCUWYM_fake_script)()
-coroutine.wrap(XZQRDSR_fake_script)()
-coroutine.wrap(JILWRDA_fake_script)()
-coroutine.wrap(PAVIJW_fake_script)()
-coroutine.wrap(YJFC_fake_script)()
-coroutine.wrap(HBSYZWM_fake_script)()
-coroutine.wrap(CXUUIP_fake_script)()
-coroutine.wrap(TJKE_fake_script)()
-coroutine.wrap(KXTMIL_fake_script)()
-coroutine.wrap(YRICZFL_fake_script)()
-coroutine.wrap(SNRBJY_fake_script)()
-coroutine.wrap(ZIVZVE_fake_script)()
-coroutine.wrap(JARHHJV_fake_script)()
-coroutine.wrap(ASAZRO_fake_script)()
-coroutine.wrap(VBUCLY_fake_script)()
-coroutine.wrap(GYPW_fake_script)()
-coroutine.wrap(PKLE_fake_script)()
-coroutine.wrap(BMIJH_fake_script)()
-coroutine.wrap(QGKDQD_fake_script)()
-coroutine.wrap(JLUZ_fake_script)()
-coroutine.wrap(XNRDDJ_fake_script)()
-coroutine.wrap(SIMBNFX_fake_script)()
-coroutine.wrap(QMKORDQ_fake_script)()
-coroutine.wrap(DZIV_fake_script)()
-coroutine.wrap(SPZYY_fake_script)()
-coroutine.wrap(ENRDE_fake_script)()
-coroutine.wrap(QQIGM_fake_script)()
-coroutine.wrap(ZFPRGDL_fake_script)()
-coroutine.wrap(FZMU_fake_script)()
-coroutine.wrap(GOXV_fake_script)()-- Please leave these comments in and leave credit, it took me a while to make this
+coroutine.wrap(LWVXCQU_fake_script)()
+coroutine.wrap(WZYCJJR_fake_script)()
+coroutine.wrap(BQRO_fake_script)()
+coroutine.wrap(IMKHSU_fake_script)()
+coroutine.wrap(PHKYZCO_fake_script)()
+coroutine.wrap(SWTQK_fake_script)()
+coroutine.wrap(IWJKWUR_fake_script)()
+coroutine.wrap(FQXIMF_fake_script)()
+coroutine.wrap(ISTKGA_fake_script)()
+coroutine.wrap(HEAC_fake_script)()
+coroutine.wrap(YRJE_fake_script)()
+coroutine.wrap(YVGTK_fake_script)()
+coroutine.wrap(EVPX_fake_script)()
+coroutine.wrap(PQCCW_fake_script)()
+coroutine.wrap(YJSTHV_fake_script)()
+coroutine.wrap(RNZMCXO_fake_script)()
+coroutine.wrap(TLQF_fake_script)()
+coroutine.wrap(CZZGE_fake_script)()
+coroutine.wrap(OJJT_fake_script)()
+coroutine.wrap(GKXH_fake_script)()
+coroutine.wrap(SQBSCZ_fake_script)()
+coroutine.wrap(DEUWMN_fake_script)()
+coroutine.wrap(FYXPJL_fake_script)()
+coroutine.wrap(UQBXMI_fake_script)()
+coroutine.wrap(QYMHHLQ_fake_script)()
+coroutine.wrap(TKCVOR_fake_script)()
+coroutine.wrap(EBYE_fake_script)()
+coroutine.wrap(SBVRLUC_fake_script)()
+coroutine.wrap(LENLXIV_fake_script)()
+coroutine.wrap(UWNBHCS_fake_script)()
+coroutine.wrap(PVWRY_fake_script)()
+coroutine.wrap(VNNZ_fake_script)()
+coroutine.wrap(EQNIC_fake_script)()
+coroutine.wrap(QHEIKOE_fake_script)()
+coroutine.wrap(SPRS_fake_script)()
+coroutine.wrap(VAUAMC_fake_script)()
+coroutine.wrap(RQMHNK_fake_script)()
+coroutine.wrap(QWYG_fake_script)()
+coroutine.wrap(HSMDJ_fake_script)()
+coroutine.wrap(PZAX_fake_script)()
+coroutine.wrap(QHWHHDF_fake_script)()
+coroutine.wrap(PCOAAF_fake_script)()
+coroutine.wrap(JALOX_fake_script)()
+coroutine.wrap(RLQZIWW_fake_script)()
+coroutine.wrap(GTVOE_fake_script)()
+coroutine.wrap(VPWIJRX_fake_script)()
+coroutine.wrap(FMRMXIJ_fake_script)()
+coroutine.wrap(MJYTDT_fake_script)()
+coroutine.wrap(VQWM_fake_script)()
+coroutine.wrap(WJGET_fake_script)()
+coroutine.wrap(PBUCAUX_fake_script)()
+coroutine.wrap(BHEPCT_fake_script)()
+coroutine.wrap(UOSMH_fake_script)()
+coroutine.wrap(YCJG_fake_script)()-- Please leave these comments in and leave credit, it took me a while to make this
