@@ -25745,7 +25745,7 @@ local function GTOEZFY_fake_script() -- Fake Script: StarterGui.ScreenGui.mainFr
 		return notificationGui
 	end
 	-- DRUCORD_NOTIFICATION_RENDERER_BEGIN
-	local NOTIFICATION_DURATION = 1
+	local NOTIFICATION_DURATION = 2
 	local NOTIFICATION_LOAD_TIMEOUT = 1.5
 	local preloadFinished = false
 	local function playMessageSound()
