@@ -1447,7 +1447,6 @@ Converted["_UIListLayout2"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIListLayout2"].Parent = Converted["_ChatFrame"]
 
 Converted["_Chat"].Image = "rbxassetid://86257000006123"
-Converted["_Chat"].ImageContent = Content{SourceType=Uri, Uri=rbxassetid://86257000006123}
 Converted["_Chat"].BackgroundColor3 = Color3.fromRGB(57.00000420212746, 57.00000420212746, 84.00000259280205)
 Converted["_Chat"].BackgroundTransparency = 1
 Converted["_Chat"].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1512,7 +1511,6 @@ Converted["_UICorner34"].TopRightRadius = UDim.new(0.200000003, 0)
 Converted["_UICorner34"].Parent = Converted["_Enviar"]
 
 Converted["_ImageLabel1"].Image = "rbxassetid://75253323053409"
-Converted["_ImageLabel1"].ImageContent = Content{SourceType=Uri, Uri=rbxassetid://75253323053409}
 Converted["_ImageLabel1"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_ImageLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_ImageLabel1"].BackgroundTransparency = 1
